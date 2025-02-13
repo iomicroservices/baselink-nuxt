@@ -1,0 +1,41 @@
+{
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  "tailwindCSS.files.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/.hg/**",
+    "**/.svn/**",
+    "**/.nuxt/**"
+  ],
+
+  "cSpell.words": [
+    "cloudinary",
+    "Namecheap",
+    "Nuxt",
+    "spacegrotesk",
+    "Tailwindcss"
+  ],
+
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  "tailwindCSS.experimental.configFile": "tailwind.config.ts",
+
+  "tailwindCSS.classAttributes": [
+    "class",
+    "className",
+    "ngClass",
+    "ui"
+  ]
+
+}

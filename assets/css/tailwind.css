@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .heading1 {
+        @apply font-black text-gray-900 dark:text-zinc-200 text-4xl md:text-5xl my-5;
+    }
+
+    .heading2 {
+        @apply font-black text-gray-900 dark:text-zinc-200 text-4xl md:text-5xl max-w-xl mb-10;
+    }
+}
