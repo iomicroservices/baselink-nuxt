@@ -3,7 +3,7 @@ defineOgImageComponent('About', {
   headline: 'Greetings 👋',
   title: 'About eLandline - Your Trusted UK Virtual Landline Provider',
   description: 'Learn about eLandline, the UK\'s dedicated provider of virtual landlines and business phone solutions. Discover how we support small businesses with our innovative services',
-  link: '/riyad.jpg',
+  link: '/elandline-logo-full.png',
 })
 </script>
 

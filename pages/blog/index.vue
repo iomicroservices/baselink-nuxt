@@ -58,22 +58,22 @@ function onNextPageClick() {
 }
 
 useHead({
-  title: 'Archive',
+  title: 'Blog',
   meta: [
     {
       name: 'description',
-      content: 'Here you will find all the blog posts I have written & published on this site.',
+      content: 'The latest news, updates, and insights from baselink.uk',
     },
   ],
-  titleTemplate: 'eLandline Blog | %s',
+  titleTemplate: '%s | baselink.uk',
 })
 
 // Generate OG Image
 const siteData = useSiteConfig()
 defineOgImage({
   props: {
-    title: 'Archive',
-    description: 'Here you will find all the blog posts I have written & published on this site.',
+    title: 'Blog',
+    description: 'The latest news, updates, and insights from baselink.uk',
     siteName: siteData.url,
   },
 })
