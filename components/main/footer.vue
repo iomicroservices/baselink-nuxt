@@ -9,14 +9,14 @@ const path = computed(() => route.fullPath.replace('/', ''))
     <div class="px-6 container max-w-5xl mx-auto">
       <div class="grid grid-cols-1 md:grid-cols-3">
         <FooterSite v-if="path === 'about'" />
-        <FooterDevloper v-else />
+        <FooterDeveloper v-else />
 
         <FooterLink />
         <FooterConnect />
       </div>
 
       <div class="border-t dark:border-gray-800 mt-5 text-center p-2">
-        © 2024 Bona Fides Solutions Ltd All Rights reserved. Company reg: 11958241 VAT reg: GB429850958
+        Copyright © {{ new Date().getFullYear() }} Netronix Limited All Rights reserved. Company reg: 14555438
       </div>
     </div>
   </div>

@@ -1,13 +1,13 @@
 <script setup>
 const description
-  = 'Discover eLandline\'s virtual numbers for UK small businesses. Streamline calls with our bespoke landline solutions, mobile divert, and WhatsApp Business integration.'
+  = 'baselink description in app.vue'
 const ogTitle
-  = 'Empower your UK business with reliable virtual telephone numbers, exceptional call handling, and seamless mobile connectivity with eLandline.'
+  = 'baselink ogtitle in app.vue'
 const twitterDescription
-  = 'Join UK\'s small businesses with eLandline\'s virtual landline numbers. Upgrade your communication with flexible, professional phone services.'
+  = 'baselink twitter description in app.vue'
 const image
   = 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp'
-const mySite = 'https://www.elandline.co.uk/'
+const mySite = 'https://baselink.uk/'
 useHead({
   htmlAttrs: {
     lang: 'en',
