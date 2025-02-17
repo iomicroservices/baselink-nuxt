@@ -1,0 +1,14 @@
+{
+  "locations": [
+    {
+      "name": "London",
+      "slug": "london",
+      "region": "Greater London"
+    },
+    {
+      "name": "Manchester",
+      "slug": "manchester",
+      "region": "Greater Manchester"
+    }
+  ]
+}
