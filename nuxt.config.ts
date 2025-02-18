@@ -57,7 +57,6 @@ export default defineNuxtConfig({
     '@nuxthq/studio',
     '@nuxtjs/sitemap',
     '@nuxt/ui',
-    '@dargmuesli/nuxt-cookie-control'
   ],
 
   content: {
