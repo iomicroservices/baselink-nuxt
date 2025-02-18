@@ -36,25 +36,3 @@
         </div>
     </header>
 </template>
-
-<script setup lang="ts">
-// No extra script logic is needed here unless you want to add reactive data
-// or computed properties to adjust styling or behavior.
-</script>
-
-<style scoped>
-.hero-block {
-    /* Example styling similar to Nuxt UI Pro blocks */
-    background-color: #f9fafb;
-    padding: 2rem 0;
-}
-
-.hero-block .container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.hero-block .mb-4 {
-    margin-bottom: 1rem;
-}
-</style>

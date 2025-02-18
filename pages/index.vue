@@ -21,7 +21,8 @@ defineOgImageComponent('About', {
 </script>
 
 <template>
-  <main class="container max-w-5xl mx-auto text-zinc-600">
+  <main class="container max-w-6xl mx-auto text-zinc-600">
+    
     <MainHero
       badge="Only £11/month • Unlimited minutes"
       title="Handle customer calls like a pro with your virtual business number"

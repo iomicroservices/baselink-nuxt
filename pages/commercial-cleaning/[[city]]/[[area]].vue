@@ -40,7 +40,7 @@ useHead({
 <template>
 
 
-    <main class="container max-w-5xl mx-auto text-zinc-600">
+    <main class="container max-w-6xl mx-auto text-zinc-600">
         <MainHero badge="Only £11/month • Unlimited minutes"
             :title="effectiveTitle + ' for the best prices!'"
             :description="(area 

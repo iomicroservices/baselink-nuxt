@@ -34,13 +34,13 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <section class="container relative py-20">
+  <section class="container relative py-20 mx-auto">
     <div class="px-4">
       <h2 class="heading2">
         {{ title }}
       </h2>
       <!-- Card Section -->
-      <div class="max-w-5xl px-4 sm:px-6 lg:px-8 mx-auto">
+      <div class="max-w-6xl px-4 sm:px-6 lg:px-8 mx-auto">
         <!-- Grid -->
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
           <!-- Card 1 -->

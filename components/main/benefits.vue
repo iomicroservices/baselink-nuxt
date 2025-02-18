@@ -4,7 +4,7 @@
     <div class="container relative py-20 mx-auto">
       <div class="mx-auto px-4 max-w-6xl text-gray-500">
         <div>
-          <h2 class="heading2">
+          <h2 class="heading2"> 
             Take your customer calls to the next level
           </h2>
         </div>

@@ -87,7 +87,7 @@ defineOgImageComponent('Test', {
 </script>
 
 <template>
-  <div class="px-6 container max-w-5xl mx-auto sm:grid grid-cols-12 gap-x-12 ">
+  <div class="px-6 container max-w-6xl mx-auto sm:grid grid-cols-12 gap-x-12 ">
     <div class="col-span-12 lg:col-span-9">
       <BlogHeader
         :title="data.title"
@@ -99,7 +99,7 @@ defineOgImageComponent('Test', {
       />
       <div
         class="prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg
-        prose-h1:no-underline max-w-5xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg"
+        prose-h1:no-underline max-w-6xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg"
       >
         <ContentRenderer v-if="articles" :value="articles">
           <template #empty>
