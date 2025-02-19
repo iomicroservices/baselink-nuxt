@@ -64,6 +64,8 @@ defineOgImageComponent('About', {
 
     <MainFeatures2 />
 
+    <MainServices />
+
     <MainContact
       title="Looking for more info?"
       image="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png"

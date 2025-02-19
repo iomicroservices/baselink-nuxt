@@ -10,6 +10,11 @@
     }
 
     .heading2 {
-        @apply font-black text-gray-900 dark:text-zinc-200 text-4xl md:text-5xl max-w-xl mb-10;
+        @apply font-black text-gray-900 dark:text-zinc-200 text-4xl md:text-5xl max-w-2xl mb-10;
     }
+
+    .section {
+    @apply py-[100px] md:py-[60px];
+    }
+
 }

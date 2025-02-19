@@ -53,8 +53,6 @@ useHead({
                     Your local professional cleaning service.
                 </span>
             </p>
-            <!-- Insert additional page content/components here -->
-            <MainFeatures2 />
         </section>
     </main>
 </template>

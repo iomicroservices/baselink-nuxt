@@ -19,8 +19,8 @@ const formattedData = computed(() => {
 </script>
 
 <template>
-  <section class="container relative mx-auto">
-    <div class="py-20 px-4">
+  <section class="section container relative mx-auto">
+    <div class="px-4">
       <div class="mx-auto text-gray-500">
         <div>
           <h2 class="heading2">
@@ -34,10 +34,14 @@ const formattedData = computed(() => {
               :text="post.text"
               :published="post.published"
               :colour="post.colour"
-              :path="post.path"
-              :pathtxt="post.pathtxt"
-              :svg="post.svg"
-            />
+              :svg="post.svg">
+              <!-- Override the "card-content" slot -->
+              <template #card-content>
+                <FeaturesCardlink
+                  :path="post.path"
+                  :pathtxt="post.pathtxt" />
+              </template>
+            </FeaturesCard>
           </template>
           <template v-if="data?.length === 0">
             <BlogEmpty />

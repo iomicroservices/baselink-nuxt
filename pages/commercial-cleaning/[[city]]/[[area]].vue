@@ -68,7 +68,7 @@ useHead({
             </p>
 
             <!-- Insert additional page content/components here -->
-            <MainFeatures2 />
+
         </section>
     </main>
 </template>
