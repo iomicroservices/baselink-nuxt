@@ -62,9 +62,10 @@ withDefaults(defineProps<Props>(), {
             </div>
 
             <!-- Image Column -->
-            <div class="aspect-[4/3] w-full">
-                <img class="rounded-lg object-cover w-full" :src="ogImage" :alt="alt">
-            </div>
+            <div class="aspect-[4/3] justify-items-center">
+                <NuxtImg class=" rounded-lg object-cover" :src="ogImage" :alt="alt" format="webp"
+                loading="eager" quality="90" />
+        </div>
         </div>
     </section>
 </template>

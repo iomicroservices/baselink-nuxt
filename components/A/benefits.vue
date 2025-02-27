@@ -1,11 +1,35 @@
+<script setup lang="ts">
+interface Props {
+  title: string
+  description: string
+  alt: string
+  ogImage: string
+  button1: string
+  button2: string
+  path1: string
+  path2: string
+}
+
+withDefaults(defineProps<Props>(), {
+  title: 'Take your customer calls to the next level',
+  description: 'Vetted & experienced local cleaners in West London. Book online or call our friendly team. Available 24/7. Get going with BaseLink.',
+  alt: 'Get a virtual landline number for your business in the UK',
+  ogImage: 'https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80',
+  button1: 'Get connected 🚀',
+  button2: 'Find out more 👇',
+  path1: '/',
+  path2: '/',
+})
+</script>
+
 <template>
   <!-- component -->
-  <section>
-    <div class="container relative py-20 mx-auto">
-      <div class="mx-auto px-4 max-w-6xl text-gray-500">
+  <section class="section">
+    <div class="mx-auto">
+      <div class="mx-auto text-gray-500">
         <div>
-          <h2 class="heading2"> 
-            Take your customer calls to the next level
+          <h2 class="heading2">
+            {{ title }}
           </h2>
         </div>
         <div class="relative">
@@ -23,9 +47,9 @@
                   <span
                     class="w-fit block mx-auto text-5xl font-semibold text-transparent bg-clip-text bg-gradient-to-br from-blue-300 to-pink-600 dark:from-blue-400 dark:to-pink-400">100%</span>
                 </div>
-                <h2 class="mt-6 text-center font-semibold text-gray-950 dark:text-white text-3xl">
+                <h3 class="mt-6 text-center font-semibold text-gray-950 dark:text-white text-3xl">
                   Satisfaction guarantee
-                </h2>
+                </h3>
               </div>
             </div>
             <div
@@ -58,9 +82,9 @@
                   </svg>
                 </div>
                 <div class="mt-6 text-center relative space-y-2">
-                  <h2 class="text-lg font-medium text-gray-800 transition group-hover:text-purple-950 dark:text-white">
+                  <h3 class="text-center font-semibold text-gray-950 dark:text-white text-xl">
                     Secure by default
-                  </h2>
+                  </h3>
                   <p class="dark:text-gray-300 text-gray-700">
                     Provident fugit and vero voluptate. magnam magni doloribus dolores voluptates a sapiente nisi.
                   </p>

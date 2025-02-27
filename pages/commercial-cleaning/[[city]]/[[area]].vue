@@ -41,7 +41,7 @@ useHead({
 
 
     <main class="container max-w-6xl mx-auto text-zinc-600">
-        <MainHero badge="Only £11/month • Unlimited minutes"
+        <AHeroTemplateCetre badge="Only £11/month • Unlimited minutes"
             :title="effectiveTitle + ' for the best prices!'"
             :description="(area 
                 ? `Serving ${area.name} and the surrounding areas in ${area.regionName}` 

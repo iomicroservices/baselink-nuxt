@@ -14,7 +14,11 @@
     }
 
     .section {
-        @apply px-[25px] py-[50px] md:py-[80px] w-full max-w-full overflow-x-hidden;
+        @apply px-[25px] py-[50px] md:py-[60px] w-full max-w-full overflow-x-hidden;
+    }
+
+    .section-hero {
+        @apply px-[25px] py-[15px] md:py-[30px] w-full max-w-full overflow-x-hidden;
     }
 
     .btn-primary {

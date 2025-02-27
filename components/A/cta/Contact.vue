@@ -24,8 +24,8 @@ withDefaults(defineProps<Props>(), {
             <!-- Grid for Live Chat and Email Support Boxes -->
             <div class="grid grid-cols-2 gap-5">
 
-                <CtaItem name="Live chat" image="https://picsum.photos/seed/picsum/500/500" path="/" />
-                <CtaItem name="Email support" image="https://picsum.photos/seed/picsum/300/300" path="/" />
+                <ACtaItem name="Live chat" image="https://picsum.photos/seed/picsum/500/500" path="/" />
+                <ACtaItem name="Email support" image="https://picsum.photos/seed/picsum/300/300" path="/" />
 
             </div>
         </div>
