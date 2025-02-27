@@ -14,7 +14,14 @@
     }
 
     .section {
-    @apply px-[25px] py-[50px] md:py-[80px];
+        @apply px-[25px] py-[50px] md:py-[80px] w-full max-w-full overflow-x-hidden;
     }
+
+    .btn-primary {
+    @apply px-5 h-12 font-bold text-white inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-primary-600 to-violet-600 hover:from-violet-600 hover:to-primary-600 border border-transparent rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 dark:focus:ring-offset-gray-800;
+}
+    .btn-secondary {
+    @apply px-5 h-12 font-bold text-gray-900 dark:text-gray-100 bg-slate-200 dark:bg-slate-900 border border-gray-200 dark:border-gray-800 rounded-lg flex items-center justify-center hover:bg-slate-300 hover:dark:bg-slate-800 transition-colors duration-300;
+}
 
 }

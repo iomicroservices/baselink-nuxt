@@ -21,8 +21,8 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <header class="container relative py-20 mx-auto">
-    <div class="relative">
+  <header class="section">
+    <div class="relative mx-auto">
       <div class="container px-4 mx-auto">
         <div class="max-w-2xl mb-14 mx-auto text-center">
           <!-- badge section START -->

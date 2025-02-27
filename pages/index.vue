@@ -22,6 +22,8 @@ defineOgImageComponent('About', {
 
 <template>
 
+  <HeroTemplate />
+
   <MainHero badge="Only £11/month • Unlimited minutes"
     title="Handle customer calls like a pro with your virtual business number"
     description="It takes a couple of clicks to get connected, just like magic! We'll shoot across your new business number by email, professionally configured and ready to take calls. Plus, enjoy free call features for superior customer engagement."
@@ -58,7 +60,11 @@ defineOgImageComponent('About', {
       description="You're all set up and ready to connect with customers wherever you are." />
   </ProcessHowto>
 
-  <CtaSimple />
+  <CtaSimple title="What are you waiting for?" button="Get a quote" path="/" />
+
+  <CtaContact title="Want to get in touch?"
+    description="We're here for you, Monday-Friday from 08:00 to 18:00, and on weekends from 08:00 to 17:00.">
+  </CtaContact>
 
   <MainBenefits />
 
