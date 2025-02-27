@@ -28,6 +28,7 @@ defineOgImageComponent('About', {
     alt="Get a virtual landline number for your business in the UK"
     og-image="https://shuffle.dev/aurora-assets/headers/header-dark-theme-center.png" button1="/" button2="/" />
 
+
   <FaqTemplateSide>
     <!--Below is content for named slot Title; default value if not included-->
     <template #title>
@@ -47,6 +48,7 @@ defineOgImageComponent('About', {
     <FaqItem order="0" question="11" answer="It's only £11 a month. It comes with lots of free features." />
   </FaqTemplateSide>
 
+
   <ProcessHowto title="How to book a trusted handyman">
     <ProcessItem name="Give us the details" stepNumber="1"
       description="Tell us about the job & when you'd like the handyman to come. We've got handymen available same-day" />
@@ -56,12 +58,7 @@ defineOgImageComponent('About', {
       description="You're all set up and ready to connect with customers wherever you are." />
   </ProcessHowto>
 
-  <MainPricing title="The ideal plan for small business"
-    description="Choose from Local, National or Freephone numbers, and easily direct calls to your existing phone. Enjoy tonnes of call features included as standard that deliver the bang for your buck."
-    feature1="Made for small business" feature2="12+ free features" feature3="Smart call divert"
-    feature4="Self-service console" plan="Unlimited Minutes" amount="11" benefit1="Monthly rolling plan"
-    benefit2="Cancel at any time" benefit3="Competitive pricing" benefit4="Satisfaction guarantee"
-    button="Subscribe now" path="/" />
+  <CtaSimple />
 
   <MainBenefits />
 
