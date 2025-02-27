@@ -57,7 +57,12 @@ export default defineNuxtConfig({
     '@nuxthq/studio',
     '@nuxtjs/sitemap',
     '@nuxt/ui',
+    '@stefanobartoletti/nuxt-social-share',
   ],
+
+  socialShare: {
+    baseUrl: 'https://baselink.uk',
+  },
 
   content: {
     highlight: {
