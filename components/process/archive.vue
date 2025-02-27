@@ -12,17 +12,17 @@ interface Props {
 withDefaults(defineProps<Props>(), {
   title: 'Get connected and give your business superpowers',
   step1: 'Select your number',
-  step2: 'Choose your ideal area code and provide us with a forwarding number.',
-  step3: 'Complete payment',
-  step1text: 'Pay with confidence through our secure payment portal to subscribe.',
-  step2text: 'Start taking calls',
+  step2: 'Complete payment',
+  step3: 'Start taking calls',
+  step1text: 'Choose your ideal area code and provide us with a forwarding number.',
+  step2text: 'Pay with confidence through our secure payment portal to subscribe.',
   step3text: 'You`re all set up and ready to connect with customers wherever you are.',
 })
 </script>
 
 <template>
-  <section class="container relative py-20 mx-auto">
-    <div class="px-4">
+  <section class="section">
+    <div class="mx-auto">
       <h2 class="heading2">
         {{ title }}
       </h2>
@@ -30,7 +30,8 @@ withDefaults(defineProps<Props>(), {
         <div class="w-auto md:w-1/2 lg:w-1/3 pb-5 md:pb-0">
           <div class="flex flex-wrap items-center mb-2">
             <div class="w-auto p-3">
-              <div class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 dark:text-gray-200 font-black bg-white dark:bg-slate-800 border-4 border-primary-200 rounded-full">
+              <div
+                class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 dark:text-gray-200 font-black bg-white dark:bg-slate-800 border-4 border-primary-200 rounded-full">
                 1
               </div>
             </div>
@@ -50,7 +51,8 @@ withDefaults(defineProps<Props>(), {
         <div class="w-auto md:w-1/2 lg:w-1/3 pb-5 md:pb-0">
           <div class="flex flex-wrap items-center mb-2">
             <div class="w-auto p-3">
-              <div class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 dark:text-gray-200 font-black bg-white dark:bg-slate-800 border-4 border-primary-400 rounded-full">
+              <div
+                class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 dark:text-gray-200 font-black bg-white dark:bg-slate-800 border-4 border-primary-400 rounded-full">
                 2
               </div>
             </div>
@@ -70,7 +72,8 @@ withDefaults(defineProps<Props>(), {
         <div class="w-auto md:w-1/2 lg:w-1/3 pb-5 md:pb-0">
           <div class="flex flex-wrap items-center mb-2">
             <div class="w-auto p-3">
-              <div class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 dark:text-gray-200 font-black bg-white dark:bg-slate-800 border-4 border-primary-600 rounded-full">
+              <div
+                class="flex items-center justify-center w-16 h-16 text-xl text-gray-900 dark:text-gray-200 font-black bg-white dark:bg-slate-800 border-4 border-primary-600 rounded-full">
                 3
               </div>
             </div>
