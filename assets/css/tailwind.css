@@ -21,6 +21,10 @@
         @apply px-[25px] py-[15px] md:py-[30px] w-full max-w-full overflow-x-hidden;
     }
 
+    .page-container {
+        @apply max-w-7xl mx-auto text-zinc-600;
+    }
+
     .btn-primary {
     @apply px-5 h-12 font-bold text-white inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-primary-600 to-violet-600 hover:from-violet-600 hover:to-primary-600 border border-transparent rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 dark:focus:ring-offset-gray-800;
 }

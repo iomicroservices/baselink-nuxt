@@ -21,7 +21,7 @@ defineOgImageComponent('About', {
 </script>
 
 <template>
-  <div>
+  <div class="page-container">
 
     <AHeroTemplate badge="This is the badge" title="This is the title" description="This is the description"
       alt="Get a virtual landline number for your business in the UK"
@@ -65,9 +65,7 @@ defineOgImageComponent('About', {
 
     <AServicesTemplate />
 
-    <AServices />
-
     <MainRecent />
-  
+
   </div>
 </template>

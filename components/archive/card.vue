@@ -25,7 +25,7 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <article class="group relative flex flex-col bg-white dark:bg-slate-900 border dark:border-gray-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+  <article class="group border dark:border-gray-800  m-2 overflow-hidden rounded-2xl shadow-sm text-zinc-700 dark:text-zinc-300">
     <NuxtLink :to="path" class="flex flex-col lg:flex-row h-full">
       <!-- Image Container -->
       <div class="relative w-full lg:w-1/3 aspect-[16/9] lg:aspect-auto">

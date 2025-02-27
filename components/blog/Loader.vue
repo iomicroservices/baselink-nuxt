@@ -6,7 +6,7 @@ export default {
 }
 </script>
 
-<template>
+<template> 
   <ContentLoader
     viewBox="0 0 400 160"
     :speed="2"
