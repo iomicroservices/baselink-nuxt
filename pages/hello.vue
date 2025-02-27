@@ -1,11 +1,10 @@
 <template>
-    <AHero />
     <ContentRenderer v-if="page" :value="page" />
 
 </template>
 
 <script setup lang="ts">
-const { data: page } = await useAsyncData('home', () => queryContent('/').findOne())
+const { data: page } = await useAsyncData('home', () => queryContent('/hello/').findOne())
 
 if (!page.value) {
     throw createError({

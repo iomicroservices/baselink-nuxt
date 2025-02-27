@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto space-y-10 mb-10 lg:w-3/4 text-left">
+  <div class="mb-10 lg:w-3/4 text-left">
     <details class="group border-s-4 border-green-500 bg-gray-50 dark:bg-slate-900 py-2 px-4 [&_summary::-webkit-details-marker]:hidden">
       <summary class="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
         <h2 class="text-sm font-semibold dark:text-slate-300">

@@ -8,7 +8,7 @@ import { SpeedInsights } from '@vercel/speed-insights/nuxt'
       <MainHeader />
       <SpeedInsights />
     </header>
-    <main>
+    <main role="main" class="max-w-7xl mx-auto text-zinc-600">
       <div class="p-9" />
       <slot />
     </main>

@@ -14,7 +14,7 @@
     }
 
     .section {
-    @apply py-[100px] md:py-[60px];
+    @apply px-[25px] py-[100px] md:py-[60px];
     }
 
 }
