@@ -82,40 +82,26 @@ defineOgImageComponent('Test', {
   title: data.value.title || '',
   description: data.value.description || '',
   link: data.value.ogImage,
-
 })
 </script>
 
 <template>
-  <div class="px-6 container max-w-6xl mx-auto sm:grid grid-cols-12 gap-x-12">
-    <div class="col-span-12 lg:col-span-9 relative min-h-screen">
-      <BlogHeader
-        :title="data.title"
-        :image="data.image"
-        :alt="data.alt"
-        :date="data.date"
-        :description="data.description"
-        :tags="data.tags"
-      />
-      <div
-        class="prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg
-        prose-h1:no-underline max-w-6xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg"
-      >
-        <ContentRenderer v-if="articles" :value="articles">
-          <template #empty>
-            <p>No content found.</p>
-          </template>
-        </ContentRenderer>
+  <article class="page-container">
+    <div class="sm:grid grid-cols-12 gap-x-12">
+      <div class="col-span-12 lg:col-span-9">
+        <BlogHeader :title="data.title" :image="data.image" :alt="data.alt" :date="data.date"
+          :description="data.description" :tags="data.tags" />
+        <section
+          class="section prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg prose-h1:no-underline max-w-6xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg">
+          <ContentRenderer v-if="articles" :value="articles">
+            <template #empty>
+              <p>No content found.</p>
+            </template>
+          </ContentRenderer>
+        </section>
       </div>
-    </div>
-    <div class="lg:col-span-3 h-auto">
       <BlogToc />
-    </div>
 
-    <div class="flex flex-row flex-wrap md:flex-nowrap mt-10 gap-2">
-      <SocialShare v-for="network in ['facebook', 'twitter', 'linkedin', 'email']" :key="network" :network="network"
-        :styled="false" :label="false" class="p-1" aria-label="Share with {network}" />
     </div>
-    
-  </div>
+  </article>
 </template>

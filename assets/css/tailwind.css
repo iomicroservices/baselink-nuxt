@@ -14,15 +14,15 @@
     }
 
     .section {
-        @apply px-[25px] py-[50px] md:py-[60px] w-full max-w-full overflow-x-hidden;
+        @apply px-[25px] py-[35px] md:py-[50px] w-full max-w-full overflow-x-hidden;
     }
 
     .section-hero {
-        @apply px-[25px] py-[15px] md:py-[30px] w-full max-w-full overflow-x-hidden;
+        @apply px-[25px] py-[15px] md:py-[50px] w-full max-w-full overflow-x-hidden;
     }
 
     .page-container {
-        @apply max-w-7xl mx-auto text-zinc-600;
+        @apply max-w-6xl mx-auto;
     }
 
     .btn-primary {

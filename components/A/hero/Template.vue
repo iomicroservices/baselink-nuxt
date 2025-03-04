@@ -25,8 +25,8 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-    <section class="section">
-        <div class="grid lg:grid-cols-2 gap-8">
+    <section class="section-hero">
+        <div class="grid lg:grid-cols-2 gap-8 items-start">
             <!-- Content Column -->
             <div class="text-center lg:text-left">
                 <!-- Badge -->
@@ -62,10 +62,16 @@ withDefaults(defineProps<Props>(), {
             </div>
 
             <!-- Image Column -->
-            <div class="aspect-[4/3] justify-items-center">
-                <NuxtImg class=" rounded-lg object-cover" :src="ogImage" :alt="alt" format="webp"
-                loading="eager" quality="90" />
-        </div>
+            <div class="relative w-full">
+                <NuxtImg 
+                    class="w-full h-auto rounded-lg object-cover" 
+                    :src="ogImage" 
+                    :alt="alt" 
+                    format="webp"
+                    loading="eager" 
+                    quality="90" 
+                />
+            </div>
         </div>
     </section>
 </template>

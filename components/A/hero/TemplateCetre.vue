@@ -21,7 +21,7 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <header class="section">
+  <header class="section-hero">
     <div class="relative mx-auto">
       <div class="container px-4 mx-auto">
         <div class="max-w-2xl mb-14 mx-auto text-center">
