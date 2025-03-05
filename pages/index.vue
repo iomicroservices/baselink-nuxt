@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { Title } from '#components';
+
 useHead({
   title: 'eLandline | Virtual Landline Services for UK Small Businesses',
   meta: [
@@ -23,13 +25,11 @@ defineOgImageComponent('About', {
 <template>
   <div class="page-container">
 
-    <AServicesTasks />
+    <AServicesTasks title="Commercial cleaning services" service="commercial-cleaning"/>
 
-    <ACardsTemplate title="Handy services near me"/>
+    <ACardsTemplate title="Handy services near me" />
 
-    <AHeroTemplate
-      badge="Get a quote instantly"
-      title="Brilliant local cleaners"
+    <AHeroTemplate badge="Get a quote instantly" title="Brilliant local cleaners"
       description="5* service. Vetted cleaners. All managed online. This is housework that works."
       alt="Get a virtual landline number for your business in the UK"
       ogImage="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"

@@ -1,8 +1,18 @@
 <script lang="ts" setup>
-// Get Last 3 Publish Post from the content/blog directory
+
+interface Props {
+    title: string
+    service: string
+}
+const props = withDefaults(defineProps<Props>(), {
+    title: 'Services',
+    service: 'commercial-cleaning',
+})
+
+// Get the contents of content/services directory sorted by most recent and filter by service
 const { data } = await useAsyncData('service-cards', () =>
-    queryContent('services')
-        .where({ service: 'commercial-cleaning'})
+    queryContent('/services')
+        .where({ service: props.service})
         .sort({ _id: -1 })
         .find(),
 )
@@ -27,7 +37,7 @@ const formattedData = computed(() => {
             <div class="mx-auto text-gray-500">
                 <div>
                     <h2 class="heading2">
-                        Commercial cleaning services
+                        {{ title }}
                     </h2>
                 </div>
 
