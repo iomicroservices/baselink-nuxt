@@ -30,17 +30,18 @@ const formattedData = computed(() => {
 
         <div class="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
           <template v-for="post in formattedData" :key="post.title">
-            <FeaturesCard
-              :text="post.text"
-              :published="post.published"
-              :colour="post.colour"
-              :svg="post.svg">
-              <!-- Override the "card-content" slot -->
-              <template #card-content>
-                <FeaturesCardlink
-                  :path="post.path"
-                  :pathtxt="post.pathtxt" />
+            <FeaturesCard :text="post.text" :published="post.published" :colour="post.colour">
+
+              <!-- Override the "card-link" slot -->
+              <template #card-link>
+                <FeaturesCardlink :path="post.path" :pathtxt="post.pathtxt" />
               </template>
+
+              <!-- Override the "card-image" slot -->
+              <template #card-image>
+                <FeaturesCardsvg :colour="post.colour" :svg="post.svg" />
+              </template>
+
             </FeaturesCard>
           </template>
           <template v-if="data?.length === 0">

@@ -23,6 +23,8 @@ defineOgImageComponent('About', {
 <template>
   <div class="page-container">
 
+    <AServicesTasks />
+
     <ACardsTemplate title="Handy services near me"/>
 
     <AHeroTemplate
@@ -69,8 +71,6 @@ defineOgImageComponent('About', {
     </ACtaContact>
 
     <AServicesTemplate />
-
-    <AServicesTasks />
 
     <MainRecent />
 

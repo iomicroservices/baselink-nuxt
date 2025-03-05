@@ -23,6 +23,7 @@ withDefaults(defineProps<Props>(), {
             <ACardsItem name="Security guard" emoji="👨‍✈️" path="/security-guard/" />
             <ACardsItem name="Carpenter" emoji="🪚" path="/carpenter/" />
             <ACardsItem name="Painter & decorator" emoji="🖌️" path="/painter-decorator/" />
+            <ACardsItem name="Housekeeper" emoji="🧤" path="/housekeeper/" />
             <ACardsItem name="Gas & heating" emoji="🌡️" path="/gas-and-heating/" />
             <ACardsItem name="CCTV installation" emoji="📹" path="/cctv-installation/" />
             <ACardsItem name="TV wall mounting" emoji="📺" path="/tv-wall-mounting/" />
