@@ -33,40 +33,38 @@ const formattedData = computed(() => {
 
 <template>
     <section class="section container relative mx-auto">
-        <div class="px-4">
-            <div class="mx-auto text-gray-500">
-                <div>
-                    <h2 class="heading2">
-                        {{ title }}
-                    </h2>
-                </div>
+        <div class="mx-auto text-gray-500">
+            <div>
+                <h2 class="heading2">
+                    {{ title }}
+                </h2>
+            </div>
 
-                <div class="mt-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    <template v-for="post in formattedData" :key="post.title">
-                        <FeaturesCard :text="post.text" :published="post.published" :colour="post.colour">
+            <div class="mt-12 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                <template v-for="post in formattedData" :key="post.title">
+                    
+                    <FeaturesCard :text="post.text" :published="post.published" :colour="post.colour" :path="post.path">
 
-                            <!-- Override the "card-image" slot -->
-                            <template #card-image>
-                                <FeaturesCardimage
-                                    :colour="post.colour"
-                                    :image="post.image"
-                                    :alt="post.text"/>
-                            </template>
+                        <!-- Override the "card-image" slot -->
+                        <template #card-image>
+                            <FeaturesCardimage
+                                :colour="post.colour"
+                                :image="post.image"
+                                :alt="post.text"/>
+                        </template>
 
-                            <!-- Override the "card-link" slot -->
-                            <template #card-link>
-                                <FeaturesCardlink
-                                    :path="post.path"
-                                    :pathtxt="post.pathtxt" />
-                            </template>
+                        <!-- Override the "card-link" slot -->
+                        <template #card-link>
+                            <FeaturesCardlink
+                                :path="post.path"
+                                :pathtxt="post.pathtxt" />
+                        </template>
+                    </FeaturesCard>
+                </template>
 
-
-                        </FeaturesCard>
-                    </template>
-                    <template v-if="data?.length === 0">
-                        <BlogEmpty />
-                    </template>
-                </div>
+                <template v-if="data?.length === 0">
+                    <BlogEmpty />
+                </template>
             </div>
         </div>
     </section>

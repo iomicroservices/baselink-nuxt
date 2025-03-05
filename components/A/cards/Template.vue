@@ -13,7 +13,7 @@ withDefaults(defineProps<Props>(), {
             {{ title }}
         </h2>
 
-        <div class="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+        <div class="grid gap-3 lg:gap-6 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             <ACardsItem name="Home cleaning" emoji="✨" path="/home-cleaning/" />
             <ACardsItem name="Commercial cleaning" emoji="🫧" path="/commercial-cleaning/" />
             <ACardsItem name="Mobile car cleaning" emoji="🚗" path="/mobile-car-cleaning/" />

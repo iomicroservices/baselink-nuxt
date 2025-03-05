@@ -5,7 +5,7 @@ description: "Thorough cleaning and quick turnarounds for seamless guest transit
 service: "commercial-cleaning"
 image: "/blogs-img/blog.jpg"
 ogImage: "ogimage"
-colour: "gray"
+colour: "blue"
 pathtxt: "Airbnb rental cleaning"
 published: true
 ---
