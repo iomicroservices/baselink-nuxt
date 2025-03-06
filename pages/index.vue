@@ -25,9 +25,10 @@ defineOgImageComponent('About', {
 <template>
   <div class="page-container">
 
-    <AServicesTasks title="Commercial cleaning services" service="commercial-cleaning"/>
+    <MainSubcategory title="Commercial cleaning services" service="commercial-cleaning" />
 
-    <ACardsTemplate title="Handy services near me" />
+    <MainCategory title="Handy services near me" />
+
 
     <AHeroTemplate badge="Get a quote instantly" title="Brilliant local cleaners"
       description="5* service. Vetted cleaners. All managed online. This is housework that works."
@@ -69,8 +70,6 @@ defineOgImageComponent('About', {
     <ACtaContact title="Want to get in touch?"
       description="We're here for you, Monday-Friday from 08:00 to 18:00, and on weekends from 08:00 to 17:00.">
     </ACtaContact>
-
-    <AServicesTemplate />
 
     <MainRecent />
 
