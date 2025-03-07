@@ -100,7 +100,7 @@ defineOgImage({
 <template>
   <div class="page-container">
 
-    <AHeroBlog />
+    <MainHeroBlog />
 
     <section class="section">
       <div id="search" class="mb-5">

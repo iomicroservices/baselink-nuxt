@@ -5,7 +5,7 @@ import { SpeedInsights } from '@vercel/speed-insights/nuxt'
 <template>
     <div class="font-spacegrotesk">
         <header class="fixed w-full bg-[#F1F2F4] dark:bg-slate-950 z-10">
-            <AHeader />
+            <MainHeader />
             <SpeedInsights />
         </header>
         <main role="main">
@@ -15,7 +15,7 @@ import { SpeedInsights } from '@vercel/speed-insights/nuxt'
             <slot />
         </main>
         <footer>
-            <AFooter />
+            <MainFooter />
         </footer>
     </div>
 </template>

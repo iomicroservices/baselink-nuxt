@@ -63,14 +63,8 @@ withDefaults(defineProps<Props>(), {
 
             <!-- Image Column -->
             <div class="relative w-full">
-                <NuxtImg 
-                    class="w-full h-auto rounded-lg object-cover" 
-                    :src="ogImage" 
-                    :alt="alt" 
-                    format="webp"
-                    loading="eager" 
-                    quality="90" 
-                />
+                <NuxtImg class="w-full h-auto rounded-lg object-cover" :src="ogImage" :alt="alt" format="webp"
+                    loading="eager" quality="90" />
             </div>
         </div>
     </section>

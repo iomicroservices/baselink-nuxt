@@ -29,8 +29,7 @@ withDefaults(defineProps<Props>(), {
                         class="relative inline-flex items-center justify-center px-10 py-5 text-lg font-medium text-white rounded-xl group">
                         <span
                             class="absolute inset-0 transform translate-y-1.5 translate-x-1.5 group-hover:translate-y-0 group-hover:translate-x-0 transition-all ease-out duration-200 rounded-xl bg-primary-600" />
-                        <span
-                            class="absolute inset-0 border-2 border-slate-800 dark:border-slate-500 rounded-xl" />
+                        <span class="absolute inset-0 border-2 border-slate-800 dark:border-slate-500 rounded-xl" />
                         <span class="relative">{{ button }}</span>
                         <svg class="w-5 h-5 ml-2 transition-all duration-200 ease-out transform group-hover:translate-x-1"
                             fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

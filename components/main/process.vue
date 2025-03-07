@@ -1,10 +1,10 @@
 <script setup lang="ts">
 interface Props {
-  title: string
+    title: string
 }
 
 withDefaults(defineProps<Props>(), {
-  title: 'How to book a trusted professional',
+    title: 'How to book a trusted professional',
 })
 </script>
 
