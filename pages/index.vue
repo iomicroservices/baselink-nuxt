@@ -25,6 +25,8 @@ defineOgImageComponent('About', {
 <template>
   <div class="page-container">
 
+    <MainDatacards />
+
     <MainSubcategory title="Commercial cleaning services" service="commercial-cleaning" />
 
     <MainCategory title="Handy services near me" />
@@ -68,9 +70,10 @@ defineOgImageComponent('About', {
 
     <MainCta title="What are you waiting for?" button="Get a quote" path="/" />
 
-    <Maincontact title="Want to get in touch?"
+
+    <MainContact title="Want to get in touch?"
       description="We're here for you, Monday-Friday from 08:00 to 18:00, and on weekends from 08:00 to 17:00.">
-    </Maincontact>
+    </MainContact>
 
     <MainRecent />
 
