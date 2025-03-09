@@ -10,7 +10,7 @@ function onClick(val: string) {
 </script>
 
 <template>
-    <div class="py-5 border-b dark:border-gray-800 font-semibold">
+    <div class="py-3 border-b dark:border-gray-800 font-semibold">
         <div class="flex px-6 container max-w-6xl justify-between mx-auto items-baseline ">
             <ul class="flex items-baseline space-x-5">
                 <li class="text-base sm:text-2xl font-bold">
@@ -30,7 +30,7 @@ function onClick(val: string) {
                         About
                     </NuxtLink>
                 </li>
-                <li>
+                <li class="pt-1">
                     <ClientOnly>
                         <button v-if="colorMode.value === 'light'" name="light-mode" title="Light"
                             class="hover:scale-110 transition-all ease-out hover:cursor-pointer"
@@ -40,7 +40,7 @@ function onClick(val: string) {
                         <button v-if="colorMode.value === 'dark'" name="dark-mode" title="Dark"
                             class="hover:scale-110 transition-all ease-out hover:cursor-pointer"
                             @click="onClick('light')">
-                            <Icon name="noto:sun" size="20" />
+                            <Icon name="icon-park-outline:sun" size="20" style="color: #ffcf00" />
                         </button>
                         <template #fallback>
                             <!-- this will be rendered on server side -->

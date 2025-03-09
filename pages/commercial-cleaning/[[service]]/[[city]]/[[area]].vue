@@ -1,10 +1,8 @@
 <script setup lang="ts">
-import { computed } from 'vue'
-import { useHead } from '#imports'
-import { useLocation } from '~/composables/useLocation'
+import { cleanLocation } from '~/composables/cleanLocation'
 
 // Call the composable (note: since it uses asyncData, we await it here) which include Steps 1 to 6
-const { city, area } = await useLocation()
+const { city, area } = await cleanLocation()
 
 // 7. Compute the effective title based on whether an area exists.
 // Compute the effective title.
@@ -40,7 +38,7 @@ useHead({
 <template>
 
 
-    <main class="container max-w-6xl mx-auto text-zinc-600">
+    <div class="page-container">
         <MainHeroCentred badge="Only £11/month • Unlimited minutes"
             :title="effectiveTitle + ' for the best prices!'"
             :description="(area 
@@ -70,5 +68,5 @@ useHead({
             <!-- Insert additional page content/components here -->
 
         </section>
-    </main>
+    </div>
 </template>

@@ -26,7 +26,7 @@ withDefaults(defineProps<Props>(), {
 
 <template>
     <section class="section-hero">
-        <div class="grid lg:grid-cols-2 gap-8 items-start">
+        <div class="grid lg:grid-cols-2 gap-8 items-center">
             <!-- Content Column -->
             <div class="text-center lg:text-left">
                 <!-- Badge -->
@@ -46,7 +46,7 @@ withDefaults(defineProps<Props>(), {
                     </p>
 
                     <!-- Buttons -->
-                    <div class="flex flex-col sm:flex-row gap-4 mb-10 justify-center lg:justify-start">
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                         <NuxtLink :to="path1" class="btn-primary">
                             {{ button1 }}
                         </NuxtLink>
@@ -55,8 +55,6 @@ withDefaults(defineProps<Props>(), {
                             {{ button2 }}
                         </NuxtLink>
                     </div>
-
-                    <FeaturesDropdown />
 
                 </div>
             </div>
