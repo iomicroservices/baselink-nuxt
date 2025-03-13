@@ -18,7 +18,7 @@ useHead({
 })
 
 // Generate OG Image
-defineOgImageComponent('Commercial Cleaning', {
+defineOgImageComponent('MobileCarWash', {
     headline: 'Greetings 👋',
     title: 'eLandline | UK Local & National Telephone Numbers for Businesses',
     description: 'eLandline delivers flexible UK local and national telephone numbers to enhance your business presence. Join and enjoy bespoke virtual landline services with easy management.',
