@@ -1,4 +1,4 @@
-<script setup>
+<script lang="ts" setup>
 
 // Generate heading content
 useHead({
@@ -36,7 +36,8 @@ defineOgImageComponent('About', {
             darkImage="/commercial-cleaning/commercial-cleaning-dark.png" />
 
 
-        <MainSubcategory title="Professional cleaning services for every business" category="removals" />
+        <MainSubcategory
+        title="Professional cleaning services for every business" :category="'removals'" />
 
         <MainCategory title="Cleaners and tradespeople near me" />
 

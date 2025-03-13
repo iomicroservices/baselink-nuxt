@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 import type { BlogPost } from '@/types/blog'
 
 const { path } = useRoute()
