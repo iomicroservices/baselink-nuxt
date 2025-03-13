@@ -10,7 +10,7 @@ useHead({
         'eLandline specialises in virtual landlines and call management solutions, designed for the evolving needs of UK\'s small businesses. Effortless setup, superior service.',
     },
   ],
-  titleTemplate: 'eLandline | %s',
+  titleTemplate: '%s | BaseLink',
 })
 
 // Generate OG Image
@@ -33,7 +33,7 @@ defineOgImageComponent('About', {
       button1="Get connected 🚀" button2="Find out more 👇" path1="/" path2="/" />
       
 
-    <MainSubcategory title="Commercial cleaning services" service="commercial-cleaning" />
+    <MainSubcategory title="Commercial cleaning services" category="commercial-cleaning" />
 
     <MainCategory title="Handy services near me" />
 

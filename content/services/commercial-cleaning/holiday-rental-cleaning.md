@@ -2,9 +2,10 @@
 title: "Holiday rental cleaning service"
 alt: "Efficient cleaning and restocking to keep your holiday rental guest-ready"
 description: "Efficient cleaning and restocking to keep your holiday rental guest-ready"
-service: "commercial-cleaning"
-image: "/blogs-img/blog.jpg"
-ogImage: "/blogs-img/blog.jpg"
+category: "commercial-cleaning"
+subcategory: "holiday-rental-cleaning"
+image: "/commercial-cleaning/holiday-rental-cleaning.png"
+ogImage: "/commercial-cleaning/holiday-rental-cleaning.png"
 colour: "blue"
 pathtxt: "Holiday rental cleaning"
 published: true

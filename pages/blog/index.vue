@@ -83,7 +83,7 @@ useHead({
       content: 'The latest news, updates, and insights from baselink.uk',
     },
   ],
-  titleTemplate: '%s | baselink.uk',  
+  titleTemplate: '%s | BaseLink',  
 })
 
 // Generate OG Image

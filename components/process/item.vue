@@ -1,7 +1,5 @@
 <script setup lang="ts">
 
-import { defineProps, withDefaults } from 'vue';
-
 interface Props {
     name: string
     stepNumber: string

@@ -6,19 +6,24 @@
 
 @layer components {
     .heading1 {
-        @apply font-black text-gray-900 dark:text-zinc-200 text-4xl md:text-5xl my-5;
+        @apply font-black text-gray-900 dark:text-zinc-200 text-4xl md:text-5xl my-10;
     }
 
     .heading2 {
-        @apply font-black text-gray-900 dark:text-zinc-200 text-4xl md:text-5xl max-w-2xl mb-10;
+        @apply font-black text-gray-900 dark:text-zinc-200 text-4xl md:text-5xl max-w-3xl mb-8;
     }
 
     .section {
-        @apply px-[25px] py-[35px] md:py-[50px] w-full max-w-full overflow-x-hidden;
+        @apply px-[25px] py-[50px] md:py-[80px] w-full max-w-full overflow-x-hidden;
+    }
+
+    /* Add this new class */
+    .section::before {
+        @apply content-[''] absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-px bg-gray-200 dark:bg-gray-800;
     }
 
     .section-hero {
-        @apply px-[25px] py-[15px] md:py-[50px] w-full max-w-full overflow-x-hidden;
+        @apply px-[25px] pt-[15px] pb-[50px] md:pt-[50px] md:pb-[80px] w-full max-w-full overflow-x-hidden;
     }
 
     .page-container {

@@ -9,14 +9,12 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-    <section class="section">
-        <div class="mx-auto">
+    <section class="section relative mx-auto">
             <h2 class="heading2">
                 {{ title }}
             </h2>
             <div class="flex flex-wrap">
                 <slot />
             </div>
-        </div>
     </section>
 </template>

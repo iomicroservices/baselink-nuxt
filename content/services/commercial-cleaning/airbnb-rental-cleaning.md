@@ -2,9 +2,10 @@
 title: "Airbnb rental cleaning service"
 alt: "Thorough cleaning and quick turnarounds for seamless guest transitions"
 description: "Thorough cleaning and quick turnarounds for seamless guest transitions"
-service: "commercial-cleaning"
-image: "/blogs-img/blog.jpg"
-ogImage: "ogimage"
+category: "commercial-cleaning"
+subcategory: "airbnb-rental-cleaning"
+image: "/commercial-cleaning/airbnb-rental-cleaning.png"
+ogImage: "/commercial-cleaning/airbnb-rental-cleaning.png"
 colour: "blue"
 pathtxt: "Airbnb rental cleaning"
 published: true

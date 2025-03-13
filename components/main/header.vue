@@ -35,12 +35,12 @@ function onClick(val: string) {
                         <button v-if="colorMode.value === 'light'" name="light-mode" title="Light"
                             class="hover:scale-110 transition-all ease-out hover:cursor-pointer"
                             @click="onClick('dark')">
-                            <Icon name="icon-park:moon" size="20" />
+                            <Icon name="icon-park:moon" size="25" />
                         </button>
                         <button v-if="colorMode.value === 'dark'" name="dark-mode" title="Dark"
                             class="hover:scale-110 transition-all ease-out hover:cursor-pointer"
                             @click="onClick('light')">
-                            <Icon name="icon-park-outline:sun" size="20" style="color: #ffcf00" />
+                            <Icon name="twemoji:sun" size="25" style="color: #ffcf00" />
                         </button>
                         <template #fallback>
                             <!-- this will be rendered on server side -->

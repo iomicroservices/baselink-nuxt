@@ -29,7 +29,7 @@ useHead({
         'Explore eLandline\'s latest insights on virtual business numbers, UK landline solutions, and innovative call management strategies in our Blog.',
     },
   ],
-  titleTemplate: 'eLandline Blog | %s',
+  titleTemplate: '%s | BaseLink',
 })
 </script>
 
