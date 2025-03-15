@@ -10,7 +10,7 @@ const props = withDefaults(defineProps<Props>(), {
 })
 
 // Get the contents of content/services directory sorted by most recent and filter by service
-const { data } = await useAsyncData('service-cards', () =>
+const { data } = await useAsyncData(`service-cards-${props.category}`, () =>
     queryContent('/services')
         .where({ category: props.category })
         .sort({ _id: 1 })
@@ -40,16 +40,25 @@ const formattedData = computed(() => {
         <div class="grid gap-3 lg:gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <template v-for="post in formattedData" :key="post.title">
 
-                <FeaturesCard :text="post.text" :published="post.published" :colour="post.colour" :path="post.path">
+                <FeaturesCard 
+                    :text="post.text"
+                    :published="post.published"
+                    :colour="post.colour"
+                    :path="post.path">
 
                     <!-- Override the "card-image" slot -->
                     <template #card-image>
-                        <FeaturesCardimage :colour="post.colour" :image="post.image" :alt="post.text" />
+                        <FeaturesCardimage
+                            :colour="post.colour"
+                            :image="post.image"
+                            :alt="post.text" />
                     </template>
 
                     <!-- Override the "card-link" slot -->
                     <template #card-link>
-                        <FeaturesCardlink :path="post.path" :pathtxt="post.pathtxt" />
+                        <FeaturesCardlink
+                            :path="post.path"
+                            :pathtxt="post.pathtxt" />
                     </template>
                 </FeaturesCard>
             </template>

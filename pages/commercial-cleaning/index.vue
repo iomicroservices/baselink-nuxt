@@ -37,7 +37,8 @@ defineOgImageComponent('About', {
 
 
         <MainSubcategory
-        title="Professional cleaning services for every business" :category="'removals'" />
+        title="Professional cleaning services for every business" :category="'removals'"
+        :key="'category'" />
 
         <MainCategory title="Cleaners and tradespeople near me" />
 
