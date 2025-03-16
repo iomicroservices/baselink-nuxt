@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import type { BlogPost } from '~/types/blog'
+
 // Get Last 3 Publish Post from the content/blog directory
 const { data } = await useAsyncData('recent-post', () =>
   queryContent('/blog').limit(3).sort({ _id: -1 }).find(),

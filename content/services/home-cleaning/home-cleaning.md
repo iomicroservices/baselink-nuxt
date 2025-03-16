@@ -1,14 +1,21 @@
 ---
-title: "Airbnb rental cleaning service"
+title: "Home cleaning"
 alt: "Thorough cleaning and quick turnarounds for seamless guest transitions"
 description: "Thorough cleaning and quick turnarounds for seamless guest transitions"
-category: "commercial-cleaning"
-subcategory: "airbnb-rental-cleaning"
-image: "/commercial-cleaning/airbnb-rental-cleaning.png"
-ogImage: "/commercial-cleaning/airbnb-rental-cleaning.png"
+category: "home-cleaning"
+subcategory: "home-cleaning"
+image: "/blogs-img/blog.jpg"
+ogImage: "ogimage"
 colour: "blue"
-pathtxt: "Airbnb rental cleaning"
+pathtxt: "Home cleaning"
 published: true
+
+badge: "home cleaning badge"
+button1: "button 1 home cleaning"
+button2: "button 2 home cleaning"
+path1: "/"
+path2: "/"
+
 
 faqs:
   - question: "What is your return policy?"

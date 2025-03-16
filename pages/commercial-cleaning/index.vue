@@ -36,11 +36,29 @@ defineOgImageComponent('About', {
             darkImage="/commercial-cleaning/commercial-cleaning-dark.png" />
 
 
-        <MainSubcategory
-        title="Professional cleaning services for every business" :category="'removals'"
-        :key="'category'" />
+        <MainSubcategory title="Professional cleaning services for every business" :category="'removals'"
+            :key="'category'" />
 
         <MainCategory title="Cleaners and tradespeople near me" />
+
+        <MainFaqside>
+            <!--Below is content for named slot Title; default value if not included-->
+            <template #title>
+                Frequently Asked Questions
+            </template>
+            <!--Below is default slot content-->
+            <FaqItem order="0" question="1" answer="It's only £11 a month. It comes with lots of free features." />
+            <FaqItem order="0" question="2" answer="It's only £11 a month. It comes with lots of free features." />
+            <FaqItem order="0" question="3" answer="It's only £11 a month. It comes with lots of free features." />
+            <FaqItem order="0" question="4" answer="It's only £11 a month. It comes with lots of free features." />
+            <FaqItem order="0" question="5" answer="It's only £11 a month. It comes with lots of free features." />
+            <FaqItem order="0" question="6" answer="It's only £11 a month. It comes with lots of free features." />
+            <FaqItem order="0" question="7" answer="It's only £11 a month. It comes with lots of free features." />
+            <FaqItem order="0" question="8" answer="It's only £11 a month. It comes with lots of free features." />
+            <FaqItem order="0" question="9" answer="It's only £11 a month. It comes with lots of free features." />
+            <FaqItem order="0" question="10" answer="It's only £11 a month. It comes with lots of free features." />
+            <FaqItem order="0" question="11" answer="It's only £11 a month. It comes with lots of free features." />
+        </MainFaqside>
 
 
     </div>
