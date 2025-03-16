@@ -3,16 +3,19 @@
 This is my badge
 
 #title
-Discover the <br> [UI]{.text-primary} x [Content]{.text-primary} x [Studio]{.text-primary} <br> combo
+Discover the\:br [UI]{.text-primary} x [Content]{.text-primary} x [Studio]{.text-primary} :brcombination
 
 #description
 This is my description
+::
 
 ::pictures
-#left:
-![This is my left](/blogs-img/blog.jpg)
-#center:
-![This is my center](/blogs-img/blog1.jpg)
-#right:
-![This is my right](/blogs-img/blog2.jpg)
+#left
+![This is left](/tradespeople/carpenter/carpenter.png)
+
+#center
+![this is right](/tradespeople/carpenter/custom-furniture.png)
+
+#right
+![this is right](/tradespeople/carpenter/door-hanging.png)
 ::
