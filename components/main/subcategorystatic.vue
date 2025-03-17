@@ -14,7 +14,7 @@ interface Props {
 }
 
 const props = withDefaults(defineProps<Props>(), {
-    title: 'Services',
+    title: 'default title',
     subcategorydata: () => []
 })
 </script>

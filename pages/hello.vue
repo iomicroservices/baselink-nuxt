@@ -3,6 +3,8 @@
 
         <ContentRenderer v-if="page" :value="page" />
 
+        <MainSubcategory title="Professional cleaning services for every business" category="commercial-cleaning" />
+
     </div>
 
 </template>
