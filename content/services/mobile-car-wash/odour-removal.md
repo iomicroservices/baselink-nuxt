@@ -9,4 +9,22 @@ ogImage: "/mobile-car-wash/odour-removal.png"
 colour: "blue"
 pathtxt: "Odour removal"
 published: true
+
+
+subcategorycard:
+  - published: true
+    colour: "blue"
+    description: "Odour removal subcategorycard description"
+    path: "/"
+    pathtxt: "Odour removal"
+    image: "/mobile-car-wash/odour-removal.png"
+
+faqs:
+  - question: "Odour removal q1?"
+    answer: "You can return any item within 30 days of purchase."
+  - question: "Odour removal q2?"
+    answer: "Yes, we ship to most countries worldwide."
+  - question: "Odour removal q3?"
+    answer: "a3."
+
 ---

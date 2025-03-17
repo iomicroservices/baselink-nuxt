@@ -22,7 +22,7 @@ const formattedData = computed(() => {
         return {
             published: services.published || false,
             colour: services.colour || 'blue',
-            text: services.description || 'no-feature',
+            description: services.description || 'no-feature',
             path: services._path ? services._path.replace('/services', '') : '#',
             pathtxt: services.pathtxt || 'Read more',
             image: services.image || '/blogs-img/blog.jpg',
@@ -41,7 +41,7 @@ const formattedData = computed(() => {
             <template v-for="post in formattedData" :key="post.title">
 
                 <FeaturesCard 
-                    :text="post.text"
+                    :description="post.description"
                     :published="post.published"
                     :colour="post.colour"
                     :path="post.path">
@@ -51,7 +51,7 @@ const formattedData = computed(() => {
                         <FeaturesCardimage
                             :colour="post.colour"
                             :image="post.image"
-                            :alt="post.text" />
+                            :alt="post.description" />
                     </template>
 
                     <!-- Override the "card-link" slot -->

@@ -36,8 +36,7 @@ defineOgImageComponent('About', {
             darkImage="/commercial-cleaning/commercial-cleaning-dark.png" />
 
 
-        <MainSubcategory title="Professional cleaning services for every business" :category="'removals'"
-            :key="'category'" />
+        <MainSubcategory title="Professional cleaning services for every business" category="commercial-cleaning" />
 
         <MainCategory title="Cleaners and tradespeople near me" />
 

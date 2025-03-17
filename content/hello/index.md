@@ -1,9 +1,12 @@
+
+
 ::hero-block
 #badge
 This is my badge
 
-#title
-Discover the\:br [UI]{.text-primary} x [Content]{.text-primary} x [Studio]{.text-primary} :brcombination
+
+#heading
+# [Discover the UI x Content x Studio combination]{.heading2}
 
 #description
 This is my description

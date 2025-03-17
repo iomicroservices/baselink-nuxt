@@ -1,11 +1,12 @@
 <!-- components/main/subcategorystatic.vue -->
 <script lang="ts" setup>
+
 interface Props {
     title: string
-    subcategoryData: Array<{
+    subcategorydata: Array<{
         published: boolean
         colour: string
-        text: string
+        description: string
         path: string
         pathtxt: string
         image: string
@@ -14,7 +15,7 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
     title: 'Services',
-    subcategoryData: () => []
+    subcategorydata: () => []
 })
 </script>
 
@@ -25,12 +26,13 @@ const props = withDefaults(defineProps<Props>(), {
         </h2>
 
         <div class="grid gap-3 lg:gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-            <template v-for="post in subcategoryData" :key="post.text">
-                <FeaturesCard :text="post.text" :published="post.published" :colour="post.colour" :path="post.path">
+            <template v-for="post in subcategorydata" :key="post.pathtxt">
+                <FeaturesCard :description="post.description" :published="post.published" :colour="post.colour"
+                    :path="post.path">
 
                     <!-- Override the "card-image" slot -->
                     <template #card-image>
-                        <FeaturesCardimage :colour="post.colour" :image="post.image" :alt="post.text" />
+                        <FeaturesCardimage :colour="post.colour" :image="post.image" :alt="post.description" />
                     </template>
 
                     <!-- Override the "card-link" slot -->
@@ -40,7 +42,7 @@ const props = withDefaults(defineProps<Props>(), {
                 </FeaturesCard>
             </template>
 
-            <template v-if="subcategoryData.length === 0">
+            <template v-if="subcategorydata.length === 0">
                 <BlogEmpty />
             </template>
         </div>

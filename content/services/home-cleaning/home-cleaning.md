@@ -10,11 +10,13 @@ colour: "blue"
 pathtxt: "Home cleaning"
 published: true
 
-badge: "home cleaning badge"
-button1: "button 1 home cleaning"
-button2: "button 2 home cleaning"
-path1: "/"
-path2: "/"
+subcategorycard:
+  - published: true
+    colour: "blue"
+    description: "Home cleaning and quick turnarounds for seamless guest transitions"
+    path: "/"
+    pathtxt: "Home cleaning"
+    image: "/blogs-img/blog.jpg"
 
 
 faqs:

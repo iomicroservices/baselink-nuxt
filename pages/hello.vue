@@ -1,6 +1,9 @@
 <template>
-    
-    <ContentRenderer v-if="page" :value="page" />
+    <div class="page-container">
+
+        <ContentRenderer v-if="page" :value="page" />
+
+    </div>
 
 </template>
 

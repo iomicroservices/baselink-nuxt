@@ -9,4 +9,23 @@ ogImage: "/mobile-car-wash/exterior-car-wash.png"
 colour: "blue"
 pathtxt: "Exterior car wash"
 published: true
+
+
+subcategorycard:
+  - published: true
+    colour: "blue"
+    description: "Exterior car wash subcategorycard description"
+    path: "/"
+    pathtxt: "Exterior car wash"
+    image: "/mobile-car-wash/exterior-car-wash.png"
+
+
+faqs:
+  - question: "Exterior car wash q1?"
+    answer: "You can return any item within 30 days of purchase."
+  - question: "Exterior car wash q2?"
+    answer: "Yes, we ship to most countries worldwide."
+  - question: "Exterior car wash q3?"
+    answer: "a3."
+
 ---

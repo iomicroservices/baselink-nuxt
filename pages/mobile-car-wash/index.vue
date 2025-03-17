@@ -1,30 +1,36 @@
-<script setup>
+<!-- pages/[...slug].vue -->
+<script lang="ts" setup>
 
-// Generate heading content
-useHead({
-    title: 'Mobile Car Wash Services in London',
-    meta: [
+// Handle routing logic in the page
+const route = useRoute()
+const routeSegments = route.path.split('/').filter(segment => segment)
+const category = routeSegments[0] || ''
+const subcategory = routeSegments[1] || category
+
+// Use the composable with route-derived options
+const {
+    formattedData,
+    selectedFaqs,
+    faqStructuredData,
+    hasError,
+    errorMessage
+} = serviceData({
+    category,
+    subcategory,
+    sortDirection: 1
+})
+
+
+// Add the structured data to the page head
+useHead(() => ({
+    title: `${category} - ${subcategory}`,
+    script: faqStructuredData.value ? [
         {
-            name: 'description',
-            content:
-                'eLandline specialises in virtual landlines and call management solutions, designed for the evolving needs of UK\'s small businesses. Effortless setup, superior service.',
-        },
-        {
-            name: 'keywords',
-            content: 'commercial cleaners, office cleaning, airbnb cleaning'
+            type: 'application/ld+json',
+            children: JSON.stringify(faqStructuredData.value)
         }
-    ],
-    titleTemplate: '%s | BaseLink ',
-})
-
-// Generate OG Image
-defineOgImageComponent('About', {
-    headline: 'Greetings 👋',
-    title: 'eLandline | UK Local & National Telephone Numbers for Businesses',
-    description: 'eLandline delivers flexible UK local and national telephone numbers to enhance your business presence. Join and enjoy bespoke virtual landline services with easy management.',
-    link: '/commercial-cleaning/commercial-cleaning-light.png',
-})
-
+    ] : []
+}))
 </script>
 
 <template>
@@ -35,11 +41,30 @@ defineOgImageComponent('About', {
             alt="" ogImage="/mobile-car-wash/mobile-car-wash-light.png"
             darkImage="/mobile-car-wash/mobile-car-wash-dark.png" />
 
+        <!-- Pass the formattedData to the subcategorystatic component -->
+        <MainSubcategorystatic :title="category" :subcategorydata="formattedData.flatMap(item => item.subcategorycard.map(card => ({
+            ...card,
+            path: item.path // Use the computed path from the serviceData
+        })))" />
 
-        <MainSubcategory title="Professional cleaning services for every business" category="mobile-car-wash" />
+        <MainFaqside v-if="!hasError">
+            <template #title>
+                Frequently Asked Questions - {{ category }}
+            </template>
+            <template v-if="selectedFaqs.length">
+                <FaqItem v-for="(faq, index) in selectedFaqs" :key="index" order="0" :question="faq.question"
+                    :answer="faq.answer" />
+            </template>
+            <template v-else>
+                <p>No FAQs available for this service.</p>
+            </template>
+        </MainFaqside>
+
+        <div v-else class="text-red-600 p-4">
+            {{ errorMessage }}
+        </div>
 
         <MainCategory title="Cleaners and tradespeople near me " />
-
 
     </div>
 </template>

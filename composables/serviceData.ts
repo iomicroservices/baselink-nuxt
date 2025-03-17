@@ -51,13 +51,13 @@ export const serviceData = (options: ServiceDataOptions) => {
         if (!data.value) return []
 
         return data.value.map((services) => ({
-            published: services.published || false,
-            colour: services.colour || 'blue',
-            text: services.description || 'no-feature',
-            path: services._path ? services._path.replace('/services', '') : '#',
-            pathtxt: services.pathtxt || 'Read more',
-            image: services.image || '/blogs-img/blog.jpg',
+            // Spread all original properties first
+            ...services,
+            // Only provide fallbacks for essential properties
+            subcategorydata: services.subcategorycard || [], // Default to an empty array if not present
             faqs: services.faqs || [],
+            published: services.published || false,
+            path: services._path ? services._path.replace('/services', '') : '#',
             subcategory: services.subcategory || ''
         }))
     })

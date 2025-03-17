@@ -9,4 +9,21 @@ ogImage: "/mobile-car-wash/interior-car-cleaning.png"
 colour: "blue"
 pathtxt: "Interior car cleaning"
 published: true
+
+subcategorycard:
+  - published: true
+    colour: "blue"
+    description: "Interior car cleaning subcategorycard description"
+    path: "/"
+    pathtxt: "Interior car cleaning"
+    image: "/mobile-car-wash/interior-car-cleaning.png"
+
+faqs:
+  - question: "Interior car cleaning q1?"
+    answer: "You can return any item within 30 days of purchase."
+  - question: "Interior car cleaning q2?"
+    answer: "Yes, we ship to most countries worldwide."
+  - question: "Interior car cleaning q3?"
+    answer: "a3."
+
 ---

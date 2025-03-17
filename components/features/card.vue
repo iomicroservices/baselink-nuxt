@@ -1,12 +1,12 @@
 <script lang="ts" setup>
 interface Props {
-  text: string
+  description: string
   colour: string
   path: string
   published: boolean
 }
 withDefaults(defineProps<Props>(), {
-  text: 'item',
+  description: 'item',
   colour: 'gray',
   path: '/',
   published: false,
@@ -23,7 +23,7 @@ withDefaults(defineProps<Props>(), {
 
       <div class="my-6 grow rounded-b-[--card-border-radius]">
         <p class="text-gray-700 dark:text-gray-300">
-          {{ text }}
+          {{ description }}
         </p>
       </div>
       <div>

@@ -1,5 +1,5 @@
 <template>
-    <header class="hero-block relative py-20 mx-auto">
+    <header class="section-hero relative mx-auto">
         <div class="container px-4 mx-auto text-center">
             <!-- Badge Section -->
             <div class="mb-4">
@@ -16,10 +16,12 @@
             <div class="mb-4">
                 <!-- Prefer slot content over markdown frontmatter -->
                 <template v-if="$slots.title">
-                    <slot name="title" />
+                    <h1>
+                        <slot name="heading" />
+                    </h1>
                 </template>
                 <template v-else>
-                    <ContentSlot name="title" />
+                        <ContentSlot name="heading" />
                 </template>
             </div>
 

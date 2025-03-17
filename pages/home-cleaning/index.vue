@@ -21,8 +21,6 @@ const {
 })
 
 
-
-
 // Add the structured data to the page head
 useHead(() => ({
     title: `${category} - ${subcategory}`,
@@ -38,14 +36,18 @@ useHead(() => ({
 <template>
     <div class="page-container">
 
-        <MainHeroStandard badge="badge" title="home cleaning" description="description" alt="alt"
-            ogImage="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"
-            button1="Get connected 🚀" button2="Find out more 👇" path1="/" path2="/" />
+        <MainHeroCentredtop title="Home cleaning"
+            description="Looking for a workplace cleaning service that really works? We provide a reliable, high quality service that's tailored to your needs. Find your sector below for more information about how our service can work for you."
+            alt="" ogImage="/mobile-car-wash/mobile-car-wash-light.png"
+            darkImage="/mobile-car-wash/mobile-car-wash-dark.png" />
 
         <!-- Pass the formattedData to the subcategorystatic component -->
-        <MainSubcategorystatic :title="category" :subcategory-data="formattedData" />
+        <MainSubcategorystatic :title="category" :subcategorydata="formattedData.flatMap(item => item.subcategorycard.map(card => ({
+            ...card,
+            path: item.path // Use the computed path from the serviceData
+        })))" />
 
-        <MainFaqside v-if="!hasError">
+        <MainFaqside v-if=" !hasError">
             <template #title>
                 Frequently Asked Questions - {{ category }}
             </template>
@@ -56,10 +58,13 @@ useHead(() => ({
             <template v-else>
                 <p>No FAQs available for this service.</p>
             </template>
-        </MainFaqside>
+            </MainFaqside>
 
-        <div v-else class="text-red-600 p-4">
-            {{ errorMessage }}
-        </div>
+            <div v-else class="text-red-600 p-4">
+                {{ errorMessage }}
+            </div>
+
+            <MainCategory title="Cleaners and tradespeople near me " />
+
     </div>
 </template>

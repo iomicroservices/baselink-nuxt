@@ -1,14 +1,23 @@
 ---
 title: "Regular home cleaning"
-alt: "Thorough cleaning and quick turnarounds for seamless guest transitions"
-description: "Thorough cleaning and quick turnarounds for seamless guest transitions"
+alt: "Regular cleaning and quick turnarounds for seamless guest transitions"
+description: "Regular cleaning and quick turnarounds for seamless guest transitions"
 category: "home-cleaning"
 subcategory: "regular-cleaning"
 image: "/blogs-img/blog.jpg"
 ogImage: "ogimage"
 colour: "blue"
-pathtxt: "Regular home cleaning"
+pathtxt: "Regular cleaning"
 published: true
+
+
+subcategorycard:
+  - published: true
+    colour: "blue"
+    description: "Regular cleaning and quick turnarounds for seamless guest transitions"
+    path: "/"
+    pathtxt: "Regular cleaning"
+    image: "/blogs-img/blog.jpg"
 
 
 faqs:
