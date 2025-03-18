@@ -21,12 +21,12 @@ export const serviceData = (options: ServiceDataOptions) => {
         limit
     } = options
 
-    // Get the contents of content/services directory
+    // Get the contents of content directory
     const { data, error } = useAsyncData(
         `service-cards-${category}-${subcategory}`,
         () => {
-            let query = queryContent('/services')
-                .where({ category })
+            let query = queryContent('/')
+                .where({ category: category })
                 .sort({ _id: sortDirection })
 
             if (limit) {

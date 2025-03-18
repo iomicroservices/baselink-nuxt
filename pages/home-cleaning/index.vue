@@ -41,8 +41,16 @@ useHead(() => ({
             alt="" ogImage="/mobile-car-wash/mobile-car-wash-light.png"
             darkImage="/mobile-car-wash/mobile-car-wash-dark.png" />
 
-        <!-- Pass the formattedData to the subcategorystatic component -->
-        <MainSubcategorystatic title="Hoem cleaning" :subcategorydata="formattedData.flatMap(item => item.subcategorydata)" />
+
+        <MainSubcategorystatic :title="category" :subcategorydata="formattedData.flatMap(item => item.subcategorydata.map(card => ({
+            ...card,
+            path: item.path // Use the computed path from the serviceData
+        })))" />
+
+        <!-- alternative to above is
+        <MainSubcategorystatic title="Mobile car wash services"
+            :subcategorydata="formattedData.flatMap(item => item.subcategorydata)" /> 
+        -->
 
         <MainFaqside v-if=" !hasError">
             <template #title>
@@ -55,13 +63,13 @@ useHead(() => ({
             <template v-else>
                 <p>No FAQs available for this service.</p>
             </template>
-            </MainFaqside>
+        </MainFaqside>
 
-            <div v-else class="text-red-600 p-4">
-                {{ errorMessage }}
-            </div>
+        <div v-else class="text-red-600 p-4">
+            {{ errorMessage }}
+        </div>
 
-            <MainCategory title="Cleaners and tradespeople near me " />
+        <MainCategory title="Cleaners and tradespeople near me " />
 
     </div>
 </template>

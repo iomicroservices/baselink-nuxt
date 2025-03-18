@@ -3,7 +3,7 @@
 
         <ContentRenderer v-if="page" :value="page" />
 
-        <MainSubcategory title="Professional cleaning services for every business" category="commercial-cleaning" />
+        <MainSubcategory :title="page?.title || 'none'" category="commercial-cleaning" />
 
     </div>
 
@@ -18,4 +18,5 @@ if (!page.value) {
         statusMessage: 'Page not found'
     })
 }
+
 </script>

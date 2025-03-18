@@ -1,9 +1,13 @@
-
+---
+title: "Hello page"
+description: "This is a description for the hello page."
+image: "/blogs-img/blog.jpg"
+alt: "Image description"
+---
 
 ::hero-block
 #badge
-This is my badge
-
+badge in {{title}}
 
 #heading
 # [Discover the UI x Content x Studio combination]{.heading2}
@@ -20,5 +24,5 @@ This is my description
 ![this is right](/tradespeople/carpenter/custom-furniture.png)
 
 #right
-![this is right](/tradespeople/carpenter/door-hanging.png)
+![this is right image](/tradespeople/carpenter/door-hanging.png)
 ::

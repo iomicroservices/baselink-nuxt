@@ -3,14 +3,17 @@
 
         <ContentRenderer v-if="page" :value="page" />
 
-        <MainSubcategory :title="page?.title || 'none'" category="commercial-cleaning" />
-
     </div>
 
 </template>
 
 <script setup lang="ts">
-const { data: page } = await useAsyncData('home', () => queryContent('/hello/').findOne())
+
+const route = useRoute(); // Get the current route
+const category = route.params.category; // Extract the category from the route parameters
+
+
+const { data: page } = await useAsyncData('category-services', () => queryContent('/services/').findOne())
 
 if (!page.value) {
     throw createError({
@@ -18,6 +21,5 @@ if (!page.value) {
         statusMessage: 'Page not found'
     })
 }
-
 
 </script>

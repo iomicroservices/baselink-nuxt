@@ -42,10 +42,8 @@ useHead(() => ({
             darkImage="/mobile-car-wash/mobile-car-wash-dark.png" />
 
         <!-- Pass the formattedData to the subcategorystatic component -->
-        <MainSubcategorystatic :title="category" :subcategorydata="formattedData.flatMap(item => item.subcategorydata.map(card => ({
-            ...card,
-            path: item.path // Use the computed path from the serviceData
-        })))" />
+        <MainSubcategorystatic title="Mobile car wash services"
+            :subcategorydata="formattedData.flatMap(item => item.subcategorydata)" />
 
         <MainFaqside v-if="!hasError">
             <template #title>

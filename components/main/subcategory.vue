@@ -9,7 +9,7 @@ const props = withDefaults(defineProps<Props>(), {
     category: 'commercial-cleaning',
 })
 
-// Get the contents of content/services directory sorted by most recent and filter by service
+// Get the contents of content directory sorted by most recent and filter by category
 const { data } = await useAsyncData(`service-cards-${props.category}`, () =>
     queryContent('/services')
         .where({ category: props.category })
@@ -23,13 +23,18 @@ const formattedData = computed(() => {
             published: services.published || false,
             colour: services.colour || 'blue',
             description: services.description || 'no-feature',
-            path: services._path ? services._path.replace('/services', '') : '#',
+            path: services._path || '#',
             pathtxt: services.pathtxt || 'Read more',
             image: services.image || '/blogs-img/blog.jpg',
         }
     }) || []
 })
+
 </script>
+
+<!-- to exclude /services/ from url path, replace path valye above with the following
+            path: services._path ? services._path.replace('/services', '') : '#',
+-->
 
 <template>
     <section class="section relative mx-auto">

@@ -1,5 +1,5 @@
 ---
-title: "Mobile car wasg service"
+title: "Mobile car wash service"
 alt: "Thorough refurbishment of rims leaving them looking shiny and fresh"
 description: "Thorough refurbishment of rims leaving them looking shiny and fresh"
 category: "mobile-car-wash"
