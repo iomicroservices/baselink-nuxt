@@ -13,7 +13,7 @@ const route = useRoute(); // Get the current route
 const category = route.params.category; // Extract the category from the route parameters
 
 
-const { data: page } = await useAsyncData(`category-${category}`, () => queryContent(`/${category}`).findOne())
+const { data: page } = await useAsyncData(`category-${category}`, () => queryContent(`/services/${category}`).findOne())
 
 if (!page.value) {
     throw createError({

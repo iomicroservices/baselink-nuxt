@@ -18,3 +18,6 @@ faqs:
     answer: "Yes, we ship to most countries worldwide."
 
 ---
+
+::hero-centered
+::
