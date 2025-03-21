@@ -27,20 +27,20 @@ withDefaults(defineProps<Props>(), {
             <CategoryItem name="Locksmith" emoji="material-symbols-light:vpn-key-outline-rounded"
                 path="/services/tradespeople/locksmith/" />
             <CategoryItem name="Security guard" emoji="material-symbols-light:shield-person-outline-rounded"
-                path="/services/security-guard/" />
+                path="/services/security-services/" />
             <CategoryItem name="Carpenter" emoji="material-symbols-light:carpenter"
                 path="/services/tradespeople/carpenter/" />
             <CategoryItem name="Painter & decorator" emoji="material-symbols-light:format-paint-outline-rounded"
                 path="/services/tradespeople/painter-decorator/" />
             <CategoryItem name="Housekeeper" emoji="material-symbols-light:dry-cleaning-rounded" path="/housekeeper/" />
             <CategoryItem name="Gas & heating" emoji="material-symbols-light:water-heater-outline"
-                path="/services/tradespeople/gas-and-heating/" />
+                path="/services/tradespeople/gas-heating-engineer/" />
             <CategoryItem name="CCTV installation" emoji="material-symbols-light:speed-camera-outline-rounded"
                 path="/services/tradespeople/network-engineer/cctv-installation/" />
             <CategoryItem name="TV wall mounting" emoji="material-symbols-light:tv-displays-outline"
                 path="/services/tradespeople/handyman/tv-wall-mounting/" />
             <CategoryItem name="Smart home" emoji="material-symbols-light:broadcast-on-home"
-                path="/services/tradespeople/network-engineer/smart-home/" />
+                path="/services/tradespeople/network-engineer/smart-home-automation/" />
         </div>
     </section>
 </template>
