@@ -4,15 +4,16 @@ alt: "Thorough refurbishment of rims leaving them looking shiny and fresh"
 description: "Thorough refurbishment of rims leaving them looking shiny and fresh"
 category: "mobile-car-wash"
 subcategory: "rim-refurbishment"
+task: "rim-refurbishment"
 image: "/mobile-car-wash/rim-refurbishment.png"
 ogImage: "/mobile-car-wash/Rim refurbishment.png"
-colour: "blue"
+colour: "red"
 pathtxt: "Rim refurbishment"
 published: true
 
 subcategorycard:
   - published: true
-    colour: "blue"
+    colour: "red"
     description: "Rim refurbishment subcategorycard description"
     path: "/"
     pathtxt: "Rim refurbishment"

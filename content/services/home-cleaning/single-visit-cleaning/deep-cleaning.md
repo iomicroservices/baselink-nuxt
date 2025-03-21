@@ -2,11 +2,12 @@
 title: "Deep cleaning service"
 alt: "Thorough deep cleaning to refresh your home or office from top to bottom"
 description: "Comprehensive cleaning service for a refreshed, spotless space"
-category: "single-visit-cleaning"
-subcategory: "deep-cleaning"
-image: "/single-visit-cleaning/deep-cleaning.png"
-ogImage: "/single-visit-cleaning/deep-cleaning.png"
-colour: "blue"
+category: "home-cleaning"
+subcategory: "single-visit-cleaning"
+task: "deep-cleaning"
+image: "/home-cleaning/single-visit-cleaning/deep-cleaning.png"
+ogImage: "/home-cleaning/single-visit-cleaning/deep-cleaning.png"
+colour: "green"
 pathtxt: "Deep cleaning"
 published: true
 ---

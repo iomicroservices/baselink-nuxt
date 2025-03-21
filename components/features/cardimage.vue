@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 interface Props {
-    colour: string
-    image: string
-    alt: string
+    colour?: string
+    image?: string
+    alt?: string
 }
 withDefaults(defineProps<Props>(), {
     colour: 'blue',

@@ -1,12 +1,12 @@
 <script setup lang="ts">
 interface Props {
-    title: string
-    step1: string
-    step2: string
-    step3: string
-    step1text: string
-    step2text: string
-    step3text: string
+    title?: string
+    step1?: string
+    step2?: string
+    step3?: string
+    step1text?: string
+    step2text?: string
+    step3text?: string
 }
 
 withDefaults(defineProps<Props>(), {

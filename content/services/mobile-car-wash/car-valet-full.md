@@ -4,15 +4,16 @@ alt: "Complete service covering both the exterior and interior of the vehicle, i
 description: "Complete service including waxing, polishing, and upholstery cleaning"
 category: "mobile-car-wash"
 subcategory: "full-car-valet"
+task: "full-car-valet"
 image: "/mobile-car-wash/full-car-valet.png"
 ogImage: "/mobile-car-wash/full-car-valet.png"
-colour: "blue"
+colour: "red"
 pathtxt: "Full car valet"
 published: true
 
 subcategorycard:
   - published: true
-    colour: "blue"
+    colour: "red"
     description: "car valet full subcategorycard description"
     path: "/"
     pathtxt: "Full car valet"

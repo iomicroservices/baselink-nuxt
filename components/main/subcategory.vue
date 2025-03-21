@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 
 interface Props {
-    title: string
-    category: string
+    title?: string
+    category?: string
 }
 const props = withDefaults(defineProps<Props>(), {
     title: 'Services',

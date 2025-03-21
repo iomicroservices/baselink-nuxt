@@ -2,14 +2,14 @@
 <script lang="ts" setup>
 
 interface Props {
-    title: string
-    subcategorydata: Array<{
-        published: boolean
-        colour: string
-        description: string
-        path: string
-        pathtxt: string
-        image: string
+    title?: string
+    subcategorydata?: Array<{
+        published?: boolean
+        colour?: string
+        description?: string
+        path?: string
+        pathtxt?: string
+        image?: string
     }>
 }
 

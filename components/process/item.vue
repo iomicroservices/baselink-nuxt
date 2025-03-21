@@ -1,9 +1,9 @@
 <script setup lang="ts">
 
 interface Props {
-    name: string
+    name?: string
     stepNumber: string
-    description: string
+    description?: string
 }
 
 const props = withDefaults(defineProps<Props>(), {

@@ -1,18 +1,18 @@
 <script setup lang="ts">
 interface Props {
-    title: string
-    image: string
-    alt: string
-    ogImage: string
-    link1: string
-    contact1: string
-    desc1: string
-    link2: string
-    contact2: string
-    desc2: string
-    link3: string
-    contact3: string
-    desc3: string
+    title?: string
+    image?: string
+    alt?: string
+    ogImage?: string
+    link1?: string
+    contact1?: string
+    desc1?: string
+    link2?: string
+    contact2?: string
+    desc2?: string
+    link3?: string
+    contact3?: string
+    desc3?: string
 }
 
 withDefaults(defineProps<Props>(), {

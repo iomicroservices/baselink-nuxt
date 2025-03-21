@@ -4,16 +4,17 @@ alt: "Cleaning the engine compartment to remove grease, dirt, and grime while pr
 description: "Remove grease, dirt, and grime while protecting engine bay components"
 category: "mobile-car-wash"
 subcategory: "engine-bay-cleaning"
+task: "engine-bay-cleaning"
 image: "/mobile-car-wash/engine-bay-cleaning.png"
 ogImage: "/mobile-car-wash/engine-bay-cleaning.png"
-colour: "blue"
+colour: "red"
 pathtxt: "Engine bay cleaning"
 published: true
 
 
 subcategorycard:
   - published: true
-    colour: "blue"
+    colour: "red"
     description: "engine bay cleaning subcategorycard description"
     path: "/"
     pathtxt: "Engine bay cleaning"

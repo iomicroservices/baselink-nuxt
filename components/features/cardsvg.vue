@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 interface Props {
-    colour: string
-    svg: string
+    colour?: string
+    svg?: string
 }
 withDefaults(defineProps<Props>(), {
     colour: 'blue',

@@ -1,13 +1,13 @@
 <script setup lang="ts">
 interface Props {
-    title: string
-    description: string
-    alt: string
-    ogImage: string
-    button1: string
-    button2: string
-    path1: string
-    path2: string
+    title?: string
+    description?: string
+    alt?: string
+    ogImage?: string
+    button1?: string
+    button2?: string
+    path1?: string
+    path2?: string
 }
 
 withDefaults(defineProps<Props>(), {

@@ -4,15 +4,16 @@ alt: "Deep cleaning of the car’s interior, including vacuuming, wiping surface
 description: "Vacuuming, wiping surfaces, and sanitising the car’s interior "
 category: "mobile-car-wash"
 subcategory: "interior-car-cleaning"
+task: "interior-car-cleaning"
 image: "/mobile-car-wash/interior-car-cleaning.png"
 ogImage: "/mobile-car-wash/interior-car-cleaning.png"
-colour: "blue"
+colour: "red"
 pathtxt: "Interior car cleaning"
 published: true
 
 subcategorycard:
   - published: true
-    colour: "blue"
+    colour: "red"
     description: "Interior car cleaning subcategorycard description"
     path: "/"
     pathtxt: "Interior car cleaning"

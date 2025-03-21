@@ -1,8 +1,8 @@
 <script setup lang="ts">
 interface Props {
-    question: string
-    answer: string
-    order: string
+    question?: string
+    answer?: string
+    order?: string
 }
 
 withDefaults(defineProps<Props>(), {

@@ -4,16 +4,17 @@ alt: "Remove unpleasant smells from the car's interior using specialised odour n
 description: "Remove unpleasant smells from the car's interior using specialised neutralisers"
 category: "mobile-car-wash"
 subcategory: "odour-removal"
+task: "odour-removal"
 image: "/mobile-car-wash/odour-removal.png"
 ogImage: "/mobile-car-wash/odour-removal.png"
-colour: "blue"
+colour: "red"
 pathtxt: "Odour removal"
 published: true
 
 
 subcategorycard:
   - published: true
-    colour: "blue"
+    colour: "red"
     description: "Odour removal subcategorycard description"
     path: "/"
     pathtxt: "Odour removal"

@@ -1,16 +1,16 @@
 <script setup lang="ts">
 interface Props {
-  title: string
-  description: string
-  feature1: string
-  feature2: string
-  feature3: string
-  feature4: string
-  feature5: string
-  feature6: string
-  feature7: string
-  feature8: string
-  feature9: string
+  title?: string
+  description?: string
+  feature1?: string
+  feature2?: string
+  feature3?: string
+  feature4?: string
+  feature5?: string
+  feature6?: string
+  feature7?: string
+  feature8?: string
+  feature9?: string
 }
 
 withDefaults(defineProps<Props>(), {

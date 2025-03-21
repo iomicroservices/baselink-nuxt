@@ -1,9 +1,9 @@
 <script lang="ts" setup>
 interface Props {
-    name: string
-    emoji: string
-    path: string
-    stats: string
+    name?: string
+    emoji?: string
+    path?: string
+    stats?: string
 }
 withDefaults(defineProps<Props>(), {
     name: 'service name',

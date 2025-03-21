@@ -1,10 +1,10 @@
 <script setup lang="ts">
 interface Props {
-    title: string
-    description: string
-    alt: string
-    ogImage: string
-    darkImage: string
+    title?: string
+    description?: string
+    alt?: string
+    ogImage?: string
+    darkImage?: string
 }
 
 withDefaults(defineProps<Props>(), {

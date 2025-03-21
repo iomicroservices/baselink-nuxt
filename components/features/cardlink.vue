@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 interface Props {
-    path: string
-    pathtxt: string
+    path?: string
+    pathtxt?: string
 }
 withDefaults(defineProps<Props>(), {
     path: '/',
