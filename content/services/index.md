@@ -1,4 +1,3 @@
-
 ::hero-centered
 ---
 badge: Services
@@ -8,6 +7,8 @@ alt: BaseLink residential and commercial services – home cleaning, commercial 
 ogImage: /tradespeople/network-engineer/communications-room.png
 path: /services
 ---
+#headin
+Hello {{ $doc.name || 'World' }}
 ::
 
 ::subcategory

@@ -8,7 +8,7 @@
     </p>
     <div class="my-3 space-x-3 pb-3">
       <NuxtLink
-        to="https://instagram.com/elandlineuk/"
+        to="https://instagram.com/baselinkuk/"
         target="_blank"
         class="p-2 bg-gray-300 text-gray-800 rounded-md dark:bg-slate-800 dark:text-[#F1F2F4]"
         aria-label="Instagram"
@@ -16,7 +16,7 @@
         <Icon name="fa:instagram" size="1em" />
       </NuxtLink>
       <NuxtLink
-        to="https://www.facebook.com/elandlineuk/"
+        to="https://www.facebook.com/baselinkuk/"
         target="_blank"
         class="p-2 bg-gray-300 text-gray-800 rounded-md dark:bg-slate-800 dark:text-[#F1F2F4]"
         aria-label="Facebook"
@@ -24,7 +24,7 @@
         <Icon name="fa:facebook-square" size="1em" />
       </NuxtLink>
       <NuxtLink
-        to="https://twitter.com/elandlineuk/"
+        to="https://twitter.com/baselinkuk/"
         target="_blank"
         class="p-2 bg-gray-300 text-gray-800 rounded-md dark:bg-slate-800 dark:text-[#F1F2F4]"
         aria-label="Twitter"

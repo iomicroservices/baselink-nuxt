@@ -25,8 +25,7 @@
                 <!-- List item 2 -->
                 <div class="flex items-start">
                     <span class="mr-2">🏠</span>
-                    <p>Bring your number home: Effortlessly transfer your existing number to
-                        eLandline.</p>
+                    <p>Bring your number home: Effortlessly transfer your existing number to BaseLink.</p>
                 </div>
 
                 <!-- Add more list items as needed -->

@@ -2,11 +2,13 @@ import { computed } from 'vue'
 import { useRoute, createError, useAsyncData, queryContent } from '#imports'
 
 export async function cleanLocation() {
+    // 1. Access the current route and its parameters
     const route = useRoute()
+    // Expecting route.params.city and optionally route.params.area
 
-    // Load the locations JSON
+    // 2. Load the locations JSON (from /content/locations.json)
     const { data: locationData } = await useAsyncData('locations', () =>
-        queryContent('/data').findOne()
+        queryContent('/locations').findOne()
     )
 
     // Get city from params, regardless of whether it's direct or under a service

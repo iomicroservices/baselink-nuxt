@@ -6,9 +6,9 @@ export async function useLocation() {
     const route = useRoute()
     // Expecting route.params.city and optionally route.params.area
 
-    // 2. Load the locations JSON (from /content/data.json in this example)
+    // 2. Load the locations JSON (from /content/locations.json)
     const { data: locationData } = await useAsyncData('locations', () =>
-        queryContent('/data').findOne()
+        queryContent('/locations').findOne()
     )
 
     // 3. Find the city object by comparing the JSON's city.slug with route.params.city i.e. Compute the city based on the route parameter.

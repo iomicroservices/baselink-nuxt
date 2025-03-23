@@ -28,7 +28,7 @@ withDefaults(defineProps<Props>(), {
     desc2: 'Just head to «Help» in the app',
     link3: '/',
     contact3: 'Email us',
-    desc3: 'Reach us at info@elandline.co.uk',
+    desc3: 'Reach us at info@baselink.uk',
 
 })
 </script>

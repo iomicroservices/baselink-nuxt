@@ -10,23 +10,6 @@ ogImage: "/mobile-car-wash/Rim refurbishment.png"
 colour: "red"
 pathtxt: "Mobile car wash"
 published: true
-
-subcategorycard:
-  - published: false
-    colour: "red"
-    description: "Mobile car wash subcategorycard description"
-    path: "/"
-    pathtxt: "Mobile car wash"
-    image: "/mobile-car-wash/rim-refurbishment.png"
-
-faqs:
-  - question: "Mobile car wash q1?"
-    answer: "You can return any item within 30 days of purchase."
-  - question: "Mobile car wash q2?"
-    answer: "Yes, we ship to most countries worldwide."
-  - question: "Mobile car wash q3?"
-    answer: "a3."
-
 ---
 
 ::hero-centered

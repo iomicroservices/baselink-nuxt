@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+import { getPathExtension } from '@/utils/helper'
 
 interface Props {
     title?: string
@@ -13,6 +14,8 @@ const route = useRoute()
 const routeCategory = props.category ? props.category : route.params.category || ''
 const routeSubcategory = route.params.subcategory || routeCategory
 const routeTask = route.params.task || routeSubcategory
+const routeCity = route.params.city
+const routeArea = route.params.area
 
 // The below is a way to segment the path manually and select value by index
 // const route = useRoute()
@@ -23,7 +26,7 @@ const routeTask = route.params.task || routeSubcategory
 
 // Get the contents of content directory sorted by most recent and filter by category
 const { data } = await useAsyncData(`service-cards-${routeCategory}`, () =>
-    queryContent(`${route.path}`)
+    queryContent(`/services/${routeCategory}`)
         .where({
             category: routeCategory,
             subcategory: { $ne: Array.isArray(routeCategory) ? routeCategory[0] : routeCategory }, // Use the first element if it's an array
@@ -35,11 +38,20 @@ const { data } = await useAsyncData(`service-cards-${routeCategory}`, () =>
 
 const formattedData = computed(() => {
     return data.value?.map((services) => {
+        // Base path from services
+        const basePath = services._path || '#';
+
+        // Get the path extension using the utility function
+        const pathExtension = getPathExtension(route.params.city, route.params.area);
+
+        // Combine base path with the path extension
+        const fullPath = `${basePath}${pathExtension}`;
+
         return {
             published: services.published || false,
             colour: services.colour || 'blue',
             description: services.description || 'no-feature',
-            path: services._path || '#',
+            path: fullPath || '#',
             pathtxt: services.pathtxt || 'Read more',
             image: services.image || '/blogs-img/blog.jpg',
         }

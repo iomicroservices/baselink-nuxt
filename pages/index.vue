@@ -25,15 +25,15 @@ defineOgImageComponent('About', {
 <template>
   <div class="page-container">
 
-
     <MainHeroStandard badge="Get a quote instantly" title="Brilliant local cleaners"
       description="5* service. Vetted cleaners. All managed online. This is housework that works."
       alt="Get a virtual landline number for your business in the UK"
       ogImage="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"
       button1="Get connected 🚀" button2="Find out more 👇" path1="/" path2="/" />
-      
+
 
     <MainSubcategory title="Commercial cleaning services" category="commercial-cleaning" />
+
 
     <MainCategory title="Handy services near me" />
 
@@ -67,6 +67,7 @@ defineOgImageComponent('About', {
         description="You're all set up and ready to connect with customers wherever you are." />
     </MainProcess>
 
+
     <MainCta title="What are you waiting for?" button="Get a quote" path="/" />
 
 
@@ -74,7 +75,9 @@ defineOgImageComponent('About', {
       description="We're here for you, Monday-Friday from 08:00 to 18:00, and on weekends from 08:00 to 17:00.">
     </MainContact>
 
+
     <MainRecent />
+    
 
   </div>
 </template>

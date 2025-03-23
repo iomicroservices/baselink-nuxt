@@ -46,6 +46,11 @@ withDefaults(defineProps<Props>(), {
                     <h1 class="heading1">
                         {{ title }}
                     </h1>
+
+                    <h2>
+                        <ContentSlot name="headin" unwrap="p" />
+                    </h2>
+
                     <p v-if="description" class="dark:text-zinc-300 max-w-[90%] md:max-w-[75%] mx-auto mb-5">
                         {{ description }}
                     </p>

@@ -16,7 +16,7 @@ interface Props {
 withDefaults(defineProps<Props>(), {
   title: 'Call features that delight customers',
   description: 'Harum quae dolore inventore repudiandae? orrupti aut temporibus ariatur.',
-  feature1: 'Bring your number home: Effortlessly transfer your existing number to eLandline.',
+  feature1: 'Bring your number home: Effortlessly transfer your existing number to BaseLink.',
   feature2: 'Patience-boosting hold music: Keep callers content while they wait.',
   feature3: 'Professional greetings: Every caller receives a warm, professional welcome.',
   feature4: 'After-hours peace: Activate out-of-hours mode for undisturbed personal time.',

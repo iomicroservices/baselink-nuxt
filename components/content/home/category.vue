@@ -26,8 +26,6 @@ withDefaults(defineProps<Props>(), {
                 path="/services/tradespeople/plumber/" />
             <CategoryItem name="Locksmith" emoji="material-symbols-light:vpn-key-outline-rounded"
                 path="/services/tradespeople/locksmith/" />
-            <CategoryItem name="Security guard" emoji="material-symbols-light:shield-person-outline-rounded"
-                path="/services/security-services/" />
             <CategoryItem name="Carpenter" emoji="material-symbols-light:carpenter"
                 path="/services/tradespeople/carpenter/" />
             <CategoryItem name="Painter & decorator" emoji="material-symbols-light:format-paint-outline-rounded"
