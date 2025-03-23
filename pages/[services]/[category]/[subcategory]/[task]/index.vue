@@ -4,7 +4,7 @@
 import { usePathData } from '~/composables/usePathData';
 
 // Get the path data from the composable
-const { pathData } = usePathData();
+const { pathData } = await usePathData();
 
 const { data: taskpage, error } = await useAsyncData(`${pathData.asyncDynamicName}`, () => queryContent(`${pathData.queryUrl}`).findOne())
 

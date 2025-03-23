@@ -1,14 +1,11 @@
 <script setup lang="ts">
 
-// Import the usePathData composable
-import { usePathData } from '~/composables/usePathData';
+import { usePathData } from '~/composables/usePathData'; // Import the usePathData composable
 
-// Get the path data from the composable
-const { pathData } = usePathData();
+const { pathData } = await usePathData(); // Get the path data from the composable
+const serviceData = pathData.pageData; // Access the page-specific service data
 
-const { data: categorylocal, error } = await useAsyncData(`${pathData.asyncDynamicName}`, () => queryContent(`${pathData.queryUrl}`).findOne())
-
-if (!categorylocal.value) {
+if (!serviceData.value) {
     throw createError({
         statusCode: 404,
         statusMessage: 'Page not found'
@@ -20,10 +17,11 @@ if (!categorylocal.value) {
 <template>
     <div class="page-container">
         <p>
-            {{ pathData }}
+            routeLocation: {{ pathData.routeLocations }} --- routeServices: {{ pathData.routeServices }} --- queryUrl:
+            {{ pathData.queryUrl }}
         </p>
 
-        <ContentRenderer v-if="categorylocal" :value="categorylocal" />
+        <ContentRenderer v-if="serviceData" :value="serviceData" />
 
     </div>
 

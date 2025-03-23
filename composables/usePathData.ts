@@ -1,4 +1,4 @@
-export const usePathData = () => {
+export const usePathData = async () => {
 
     const route = useRoute(); // Get the current route
 
@@ -26,7 +26,13 @@ export const usePathData = () => {
         area || null
     ]
         .filter(Boolean) // Remove any null or undefined values
-        .join('-'); // Concatenate with "/"    
+        .join('-'); // Concatenate with "/"
+    
+    // Use `useAsyncData` to fetch content based on dynamic URL
+    const { data: pageData } = await useAsyncData(
+        `${asyncDynamicName}`,
+        () => queryContent(`${queryUrl}`).findOne()
+    );
     
     // Return a nested object under contentData
     return {
@@ -42,7 +48,8 @@ export const usePathData = () => {
                 routeLocalType: type,
                 routeCity: city,
                 routeArea: area
-            }
+            },
+            pageData
         }
     };
 };

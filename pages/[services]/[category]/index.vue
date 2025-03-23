@@ -1,15 +1,11 @@
 <script setup lang="ts">
-// Import the usePathData composable
-import { usePathData } from '~/composables/usePathData';
 
-// Get the path data from the composable
-const { pathData } = usePathData();
+import { usePathData } from '~/composables/usePathData'; // Import the usePathData composable
 
-// const path = computed(() => route.fullPath.replace('/', ''))
+const { pathData } = await usePathData(); // Get the path data from the composable
+const serviceData = pathData.pageData; // Access the page-specific service data
 
-const { data: categorypage, error } = await useAsyncData(`${pathData.asyncDynamicName}`, () => queryContent(`${pathData.queryUrl}`).findOne())
-
-if (!categorypage.value)
+if (!serviceData.value)
     navigateTo('/404')
 
 </script>
@@ -17,10 +13,10 @@ if (!categorypage.value)
 <template>
     <div class="page-container">
         <p>
-            {{ pathData }}
+            routeLocation: {{ pathData.routeLocations }} --- routeServices: {{ pathData.routeServices }} --- queryUrl: {{ pathData.queryUrl }}
         </p>
 
-        <ContentRenderer v-if="categorypage" :value="categorypage" />
+        <ContentRenderer v-if="serviceData" :value="serviceData" />
 
     </div>
 
