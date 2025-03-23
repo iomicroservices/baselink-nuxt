@@ -46,5 +46,3 @@ export const usePathData = () => {
         }
     };
 };
-
-export async function useLocation() { }
