@@ -17,7 +17,7 @@ if (!serviceData.value) {
 <template>
     <div class="page-container">
         <p>
-            routeLocation: {{ pathData.routeLocations }} --- routeServices: {{ pathData.routeServices }} --- queryUrl:
+            [[area]] page --- routeLocation: {{ pathData.routeLocations }} --- routeServices: {{ pathData.routeServices }} --- queryUrl:
             {{ pathData.queryUrl }}
         </p>
 

@@ -53,3 +53,11 @@ export const usePathData = async () => {
         }
     };
 };
+
+export const useLocationData = async () => {
+    // Destructure and extract parameters from the route (category, subcategory, task, etc.)
+
+    const route = useRoute(); // Get the current route
+    const { task, type, city, area } = route.params;
+
+};

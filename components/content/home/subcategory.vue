@@ -10,12 +10,14 @@ const props = defineProps<Props>()
 
 // Handle routing logic in the page
 // If dynamic route defined in pages directory, such as pages/services/[category].vue, access the category parameter: {{ route.params.category }}
-const route = useRoute()
-const routeCategory = props.category ? props.category : route.params.category || ''
-const routeSubcategory = route.params.subcategory || routeCategory
-const routeTask = route.params.task || routeSubcategory
-const routeCity = route.params.city
-const routeArea = route.params.area
+const { params } = useRoute()
+const routeCategory = props.category ? props.category : params.category || ''
+const routeSubcategory = params.subcategory || routeCategory
+const routeTask = params.task || routeSubcategory
+const routeLocalType = params.type
+const routeCity = params.city
+const routeArea = routeLocalType === 'area' ? params.area : ''
+const routeRegion = routeLocalType === 'region' ? params.area : ''
 
 // The below is a way to segment the path manually and select value by index
 // const route = useRoute()
@@ -42,7 +44,7 @@ const formattedData = computed(() => {
         const basePath = services._path || '#';
 
         // Get the path extension using the utility function
-        const pathExtension = getPathExtension(route.params.city, route.params.area);
+        const pathExtension = getPathExtension(routeCity, routeRegion, routeArea);
 
         // Combine base path with the path extension
         const fullPath = `${basePath}${pathExtension}`;

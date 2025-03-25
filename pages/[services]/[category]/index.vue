@@ -13,7 +13,8 @@ if (!serviceData.value)
 <template>
     <div class="page-container">
         <p>
-            routeLocation: {{ pathData.routeLocations }} --- routeServices: {{ pathData.routeServices }} --- queryUrl: {{ pathData.queryUrl }}
+            index page --- routeLocation: {{ pathData.routeLocations }} --- routeServices: {{ pathData.routeServices }}
+            --- queryUrl: {{ pathData.queryUrl }}
         </p>
 
         <ContentRenderer v-if="serviceData" :value="serviceData" />
