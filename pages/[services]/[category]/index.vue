@@ -12,10 +12,6 @@ if (!serviceData.value)
 
 <template>
     <div class="page-container">
-        <p>
-            index page --- routeLocation: {{ pathData.routeLocations }} --- routeServices: {{ pathData.routeServices }}
-            --- queryUrl: {{ pathData.queryUrl }}
-        </p>
 
         <ContentRenderer v-if="serviceData" :value="serviceData" />
 

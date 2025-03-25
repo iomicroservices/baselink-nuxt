@@ -19,10 +19,7 @@ if (!taskpage.value) {
 
 <template>
     <div class="page-container">
-        <p>
-            {{ pathData }}
-        </p>
-
+        
         <ContentRenderer v-if="taskpage" :value="taskpage" />
 
     </div>

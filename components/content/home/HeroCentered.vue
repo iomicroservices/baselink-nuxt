@@ -51,7 +51,7 @@ withDefaults(defineProps<Props>(), {
                         <ContentSlot name="headin" unwrap="p" />
                     </h2>
 
-                    <p v-if="description" class="dark:text-zinc-300 max-w-[90%] md:max-w-[75%] mx-auto mb-5">
+                    <p v-if="description" class="dark:text-zinc-300 max-w-[90%] md:max-w-[75%] text-xl mx-auto mb-5">
                         {{ description }}
                     </p>
 

@@ -2,7 +2,7 @@
 
 import { usePathData } from '~/composables/usePathData'; // Import the usePathData composable
 
-const { pathData } = await usePathData(); // Get the path data from the composable
+const { pathData } = await usePathData(); // Get pathData from the usePathData composable
 const serviceData = pathData.pageData; // Access the page-specific service data
 
 if (!serviceData.value) {
@@ -16,10 +16,6 @@ if (!serviceData.value) {
 
 <template>
     <div class="page-container">
-        <p>
-            [[area]] page --- routeLocation: {{ pathData.routeLocations }} --- routeServices: {{ pathData.routeServices }} --- queryUrl:
-            {{ pathData.queryUrl }}
-        </p>
 
         <ContentRenderer v-if="serviceData" :value="serviceData" />
 

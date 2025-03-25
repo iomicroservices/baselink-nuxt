@@ -16,10 +16,7 @@ if (!serviceData.value) {
 
 <template>
     <div class="page-container">
-        <p>
-            {{ pathData }}
-        </p>
-
+        
         <ContentRenderer v-if="serviceData" :value="serviceData" />
 
     </div>

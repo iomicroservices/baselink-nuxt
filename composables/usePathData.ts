@@ -29,10 +29,15 @@ export const usePathData = async () => {
         .join('-'); // Concatenate with "/"
     
     // Use `useAsyncData` to fetch content based on dynamic URL
-    const { data: pageData } = await useAsyncData(
+    const { data: pageData, error } = await useAsyncData(
         `${asyncDynamicName}`,
         () => queryContent(`${queryUrl}`).findOne()
     );
+
+    // If there's an error, log it to the console
+    if (error.value) {
+        console.error('Error fetching pageData in usePathData composable:', error.value);
+    }
     
     // Return a nested object under contentData
     return {

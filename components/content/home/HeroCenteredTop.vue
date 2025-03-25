@@ -41,7 +41,7 @@ withDefaults(defineProps<Props>(), {
                         <h1 class="heading1">
                             {{ title }}
                         </h1>
-                        <p class="dark:text-zinc-300 mx-auto mb-5">
+                        <p class="dark:text-zinc-300 text-xl mx-auto mb-5">
                             {{ description }}
                         </p>
 

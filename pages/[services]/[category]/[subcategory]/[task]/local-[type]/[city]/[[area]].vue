@@ -19,10 +19,7 @@ if (!tasklocal.value) {
 
 <template>
     <div class="page-container">
-        <p>
-            {{ pathData }}
-        </p>
-
+        
         <ContentRenderer v-if="tasklocal" :value="tasklocal" />
 
     </div>

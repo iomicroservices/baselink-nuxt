@@ -27,7 +27,7 @@ const routeRegion = routeLocalType === 'region' ? params.area : ''
 // const routeTask = routeSegments[3] || routeSubcategory
 
 // Get the contents of content directory sorted by most recent and filter by category
-const { data } = await useAsyncData(`service-cards-${routeCategory}`, () =>
+const { data, error } = await useAsyncData(`service-cards-${routeCategory}`, () =>
     queryContent(`/services/${routeCategory}`)
         .where({
             category: routeCategory,
@@ -37,6 +37,11 @@ const { data } = await useAsyncData(`service-cards-${routeCategory}`, () =>
         .sort({ _id: 1 })
         .find(),
 )
+
+// If an error occurs, log it
+if (error.value) {
+    console.error('Error fetching service-cards data in subcategory component:', error.value);
+}
 
 const formattedData = computed(() => {
     return data.value?.map((services) => {
