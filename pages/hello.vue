@@ -10,7 +10,7 @@
 </template>
 
 <script setup lang="ts">
-const { data: page } = await useAsyncData('home', () => queryContent('/hello/').findOne())
+const { data: page } = await useAsyncData('hello', () => queryContent('/hello/').findOne())
 
 if (!page.value) {
     throw createError({

@@ -1,9 +1,9 @@
 export const usePathData = async () => {
 
-    const route = useRoute(); // Get the current route
+    const {params} = useRoute(); // Get the current route
 
     // Destructure and extract parameters from the route (category, subcategory, task, etc.)
-    const { services, category, subcategory, task, type, city, area } = route.params;
+    const { services, category, subcategory, task, type, city, area } = params;
 
     // Build the queryUrl dynamically based on available params
     const queryUrl = [
@@ -57,12 +57,4 @@ export const usePathData = async () => {
             pageData
         }
     };
-};
-
-export const useLocationData = async () => {
-    // Destructure and extract parameters from the route (category, subcategory, task, etc.)
-
-    const route = useRoute(); // Get the current route
-    const { task, type, city, area } = route.params;
-
 };

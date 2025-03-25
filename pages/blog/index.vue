@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const { data } = await useAsyncData('home', () => queryContent('/blog').sort({ _id: -1 }).find())
+const { data } = await useAsyncData('all-blog-post', () => queryContent('/blog').sort({ _id: -1 }).find())
 
 const elementPerPage = ref(6)
 const pageNumber = ref(1)
@@ -104,12 +104,14 @@ defineOgImage({
 
     <section class="section">
       <div id="search" class="mb-5">
-        <input v-model="searchTest" placeholder="Search" type="text"
-          class="block w-full bg-[#FFFFFF] dark:bg-slate-900 dark:placeholder-zinc-500 text-zinc-600  rounded-md border-gray-300 dark:border-gray-800 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+        <input v-model="searchTest"
+        placeholder="Search"
+        type="text"
+        class="block w-full bg-[#FFFFFF] dark:bg-slate-900 dark:placeholder-zinc-500 text-zinc-600  rounded-md border-gray-300 dark:border-gray-800 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
       </div>
 
       <ClientOnly>
-        <div v-auto-animate class="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3"> <!-- removed v-auto-animate right next to the div, causing error -->
           <template v-for="post in paginatedData" :key="post.title">
             <ArchiveCard :path="post.path" :title="post.title" :date="post.date" :description="post.description"
               :image="post.image" :alt="post.alt" :og-image="post.ogImage" :tags="post.tags"
