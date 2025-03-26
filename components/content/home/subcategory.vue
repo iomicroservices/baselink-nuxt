@@ -8,8 +8,6 @@ interface Props {
 }
 const props = defineProps<Props>()
 
-// Handle routing logic in the page
-// If dynamic route defined in pages directory, such as pages/services/[category].vue, access the category parameter: {{ route.params.category }}
 const { params } = useRoute()
 const routeCategory = props.category ? props.category : params.category || ''
 const routeSubcategory = params.subcategory || routeCategory
@@ -18,13 +16,6 @@ const routeLocalType = params.type
 const routeCity = params.city
 const routeArea = routeLocalType === 'area' ? params.area : ''
 const routeRegion = routeLocalType === 'region' ? params.area : ''
-
-// The below is a way to segment the path manually and select value by index
-// const route = useRoute()
-// const routeSegments = route.path.split('/').filter(segment => segment)
-// const routeCategory = props.category ? props.category : routeSegments[1] || ''
-// const routeSubcategory = routeSegments[2] || routeCategory
-// const routeTask = routeSegments[3] || routeSubcategory
 
 // Get the contents of content directory sorted by most recent and filter by category
 const { data, error } = await useAsyncData(`service-cards-${routeCategory}`, () =>
@@ -66,9 +57,6 @@ const formattedData = computed(() => {
 })
 
 </script>
-
-<!-- to exclude /services/ from url path, replace path valye above with the following path: services._path ? services._path.replace('/services', '') : '#',
--->
 
 <template>
     <section class="section relative mx-auto">

@@ -1,11 +1,9 @@
 export const usePathData = async () => {
-
-    const {params} = useRoute(); // Get the current route
-
+    const { params } = useRoute(); // Get the current route
     // Destructure and extract parameters from the route (category, subcategory, task, etc.)
     const { services, category, subcategory, task, type, city, area } = params;
 
-    // Build the queryUrl dynamically based on available params
+    // Build the queryUrl dynamically based on url params
     const queryUrl = [
         services || 'services', // Fallback to '/services' if empty or undefined
         category || null,
@@ -15,7 +13,7 @@ export const usePathData = async () => {
         .filter(Boolean) // Remove any null or undefined values
         .join('/'); // Concatenate with "/"
     
-    // Build the queryUrl dynamically based on available params
+    // Build the asyncDynamicName based on url params
     const asyncDynamicName = [
         services || 'services', // Fallback to '/services' if empty or undefined
         category || null,
@@ -26,7 +24,7 @@ export const usePathData = async () => {
         area || null
     ]
         .filter(Boolean) // Remove any null or undefined values
-        .join('-'); // Concatenate with "/"
+        .join('-'); // Concatenate with "-"
     
     // Use `useAsyncData` to fetch content based on dynamic URL
     const { data: pageData, error } = await useAsyncData(
