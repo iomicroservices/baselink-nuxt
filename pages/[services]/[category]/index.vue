@@ -1,19 +1,20 @@
 <script setup lang="ts">
 
 import { usePathData } from '~/composables/usePathData'; // Import the usePathData composable
-
 const { pathData } = await usePathData(); // Get the path data from the composable
 const serviceData = pathData.pageData; // Access the page-specific service data
 
 if (!serviceData.value)
     navigateTo('/404')
 
+const locality = ref({ location: '' });
+
 </script>
 
 <template>
     <div class="page-container">
 
-        <ContentRenderer v-if="serviceData" :value="serviceData" />
+        <ContentRenderer v-if="serviceData" :value="serviceData" :data="locality" />
 
     </div>
 

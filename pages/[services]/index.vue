@@ -4,13 +4,13 @@ import { usePathData } from '~/composables/usePathData'; // Import the usePathDa
 
 const { pathData } = await usePathData(); // Get the path data from the composable
 const serviceData = pathData.pageData; // Access the page-specific service data
-const locality = ref({ name: 'London' });
+
+const locality = ref({ location: 'London' });
 
 if (!serviceData.value)
     navigateTo('/404')
 
 // const path = computed(() => route.fullPath.replace('/', ''))
-
 </script>
 
 

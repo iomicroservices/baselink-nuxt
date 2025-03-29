@@ -12,6 +12,11 @@ pathtxt: "Home cleaning"
 published: true
 ---
 
+::hero-centered
+#headin
+Hello {{ $doc.location || "" }}
+::
+
 ::hero-centered-top
 ---
 title: Home cleaning

@@ -8,7 +8,7 @@ ogImage: /tradespeople/network-engineer/communications-room.png
 path: /services
 ---
 #headin
-Hello {{ $doc.name || 'World' }}
+Hello {{ $doc.location || 'World' }}
 ::
 
 ::subcategory
