@@ -1,17 +1,15 @@
 <script lang="ts" setup>
 
-interface Props {
-    title?: string
-    faqs?: Array<{
-        question?: string
-        answer?: string
-    }>
-}
+    interface Props {
+        title?: string
+        faqs?: Array<{
+            question?: string
+            answer?: string
+        }>
+    }
 
-withDefaults(defineProps<Props>(), {
-    title: 'Frequently asked questions',
-    faqs: () => []
-})
+    defineProps<Props>()
+
 </script>
 
 <template>
@@ -21,7 +19,9 @@ withDefaults(defineProps<Props>(), {
             <div class="md:col-span-2">
                 <div class="max-w-md">
                     <h2 class="heading2">
-                        {{ title }}
+                        <ContentSlot unwrap="p" name="title">
+                            {{ title || 'Frequently asked questions' }}
+                        </ContentSlot>
                     </h2>
                 </div>
             </div>
@@ -30,10 +30,13 @@ withDefaults(defineProps<Props>(), {
             <div class="md:col-span-3">
                 <!-- Accordion -->
                 <div id="faqs" class="space-y-2">
+                    <ContentSlot v-if="!faqs || faqs.length === 0" unwrap="p" name="faqs">
+                        <p>No FAQs available.</p>
+                    </ContentSlot>
                     <!-- insert FaqItem here in parent -->
-                    <div v-for="(faq, index) in faqs" :key="index">
+                    <div v-else v-for="(faq, index) in faqs" :key="index">
                         <!-- Pass the faq data to FaqItems component -->
-                        <FaqItems :question="faq.question" :answer="faq.answer" :order="index" />
+                        <FaqItems :question="faq.question" :answer="faq.answer" />
                     </div>
                     <!-- End Accordion -->
                 </div>

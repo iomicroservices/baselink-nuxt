@@ -14,8 +14,8 @@ const routeSubcategory = params.subcategory || routeCategory
 const routeTask = params.task || routeSubcategory
 const routeLocalType = params.type
 const routeCity = params.city
-const routeArea = routeLocalType === 'area' ? params.area : ''
 const routeRegion = routeLocalType === 'region' ? params.area : ''
+const routeArea = routeLocalType === 'area' ? params.area : ''
 
 // Get the contents of content directory sorted by most recent and filter by category
 const { data, error } = await useAsyncData(`service-cards-${routeCategory}`, () =>
@@ -60,11 +60,17 @@ const formattedData = computed(() => {
 
 <template>
     <section class="section relative mx-auto">
-        <h2 v-if="title" class="heading2">
-            {{ title }}
+
+        <h2 class="heading2">
+            <ContentSlot unwrap="p" name="title">
+                {{ title || 'Default Title' }}
+            </ContentSlot>
         </h2>
-        <p v-if="description" class="max-w-[75%] text-xl mb-10">
-            {{ description }}
+
+        <p class="max-w-[75%] text-xl mb-10">
+            <ContentSlot unwrap="p" name="description">
+                {{ description || 'Default Description' }}
+            </ContentSlot>
         </p>
 
         <div class="grid gap-3 lg:gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

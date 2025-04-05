@@ -1,24 +1,18 @@
 <script setup lang="ts">
-interface Props {
-    title?: string
-    description?: string
-    alt?: string
-    ogImage?: string
-    darkImage?: string
-    dropdowns?: Array<{
-        icon?: string
-        text?: string
-    }>
-}
+    interface Props {
+        title?: string
+        description?: string
+        alt?: string
+        ogImage?: string
+        darkImage?: string
+        dropdowns?: Array<{
+            icon?: string
+            text?: string
+        }>
+    }
 
-withDefaults(defineProps<Props>(), {
-    title: 'Default title prop',
-    description: 'Default description prop',
-    alt: 'Default alt prop',
-    ogImage: '/blogs-img/blog.jpg',
-    darkImage: '/blogs-img/blog.jpg',
-    dropdowns: () => []
-})
+    defineProps<Props>()
+
 </script>
 
 <template>
@@ -36,13 +30,19 @@ withDefaults(defineProps<Props>(), {
                         format="webp" />
                     <!-- hero image section END -->
 
+
                     <!-- main hero section START -->
                     <div class="max-w-lg sm:max-w-xl lg:max-w-none mx-auto">
                         <h1 class="heading1">
-                            {{ title }}
+                            <ContentSlot unwrap="p" name="title">
+                                {{ title || 'Default Title' }}
+                            </ContentSlot>
                         </h1>
+
                         <p class="dark:text-zinc-300 text-xl mx-auto mb-5">
-                            {{ description }}
+                            <ContentSlot unwrap="p" name="description">
+                                {{ description || 'Default Description'}}
+                            </ContentSlot>
                         </p>
 
 

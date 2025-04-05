@@ -2,15 +2,15 @@
 interface Props {
     title?: string
 }
-withDefaults(defineProps<Props>(), {
-    title: 'service name',
-})
+defineProps<Props>()
 </script>
 
 <template>
     <section class="section relative mx-auto">
         <h2 class="heading2">
-            {{ title }}
+            <slot name="title">
+                {{ title || 'Find housekeepers and tradespeople' }}
+            </slot>
         </h2>
         <!-- turn the below into a slot and populate programmatically ?  -->
         <div class="grid gap-3 lg:gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">

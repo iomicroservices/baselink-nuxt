@@ -1,9 +1,10 @@
 <script setup lang="ts">
+
 interface Props {
+    alt?: string
     badge?: string
     title?: string
     description?: string
-    alt?: string
     ogImage?: string
     colour?: string
     path?: string
@@ -11,32 +12,26 @@ interface Props {
     button2?: string
 }
 
-withDefaults(defineProps<Props>(), {
-    badge: '',
-    title: 'HeroCentered title in content component folder',
-    description: '',
-    alt: 'HeroCentered alt in content component folder',
-    ogImage: '/tradespeople/handyman/curtain-blinds-fitting.png',
-    colour: 'gray',
-    path:'',
-    button1: '',
-    button2: '',
-})
+defineProps<Props>()
+
 </script>
 
 <template>
     <header class="section-hero">
         <div class="relative container mx-auto">
-            <div class="mb-14 mx-auto text-center">
+            <div class="mb-10 mx-auto text-center">
                 <!-- badge section START -->
-                <div v-if="badge"
+                <div v-if="$slots.badge"
                     class="group relative inline-flex items-center rounded-full overflow-hidden shadow-3xl">
                     <div
                         class="animate-showLine absolute bottom-0 left-1/2 transform -translate-x-1/2 p-px mx-auto w-auto bg-gradient-to-r from-transparent via-yellowGreen-500 to-transparent" />
                     <div
                         class="flex flex-wrap sm:flex-nowrap items-center px-4 py-2 bg-primary-100 dark:bg-primary-200/20 rounded-full transition duration-300">
-                        <span class="text-xs text-primary-600 dark:text-primary-200 font-semibold">{{ badge
-                            }}</span>
+                        <span class="text-xs text-primary-600 dark:text-primary-200 font-semibold">
+                            <ContentSlot unwrap="p" name="badge">
+                                {{ badge || 'Default badge' }}
+                            </ContentSlot>
+                        </span>
                     </div>
                 </div>
                 <!-- badge section END -->
@@ -44,15 +39,15 @@ withDefaults(defineProps<Props>(), {
                 <!-- main hero section START -->
                 <div class="mx-auto">
                     <h1 class="heading1">
-                        {{ title }}
+                        <ContentSlot unwrap="p" name="title"">
+                            {{ title || 'Default Title' }}
+                        </ContentSlot>
                     </h1>
 
-                    <h2>
-                        <ContentSlot name="headin" unwrap="p" />
-                    </h2>
-
-                    <p v-if="description" class="dark:text-zinc-300 max-w-[90%] md:max-w-[75%] text-xl mx-auto mb-5">
-                        {{ description }}
+                    <p class="dark:text-zinc-300 max-w-[90%] md:max-w-[75%] text-xl mx-auto mb-5">
+                        <ContentSlot unwrap="p" name="description">
+                            {{ description || 'Default Description' }}
+                        </ContentSlot>
                     </p>
 
                     <!-- Buttons container -->
@@ -62,7 +57,7 @@ withDefaults(defineProps<Props>(), {
                         <!-- Button 1 -->
                         <NuxtLink v-if="button1" :to="button1"
                             class="px-5 h-12 font-bold text-white inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-primary-600 to-violet-600 hover:from-violet-600 hover:to-primary-600 border border-transparent rounded-md focus:outline-none focus:ring-1 focus:ring-gray-600 py-3 dark:focus:ring-offset-gray-800">
-                            Get connected 🚀
+                            Get started 🚀
                         </NuxtLink>
 
                         <!-- Button 2 -->

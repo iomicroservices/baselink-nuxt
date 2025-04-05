@@ -50,13 +50,13 @@ export const useLocationData = async () => {
     }
 
     // one value of either the city, region or area name to be used in content
-    const locationName = computed(() => {
+    const inLocation = computed(() => {
         if (params.type === 'city') {
-            return cityData.value?.name;
+            return `in ${cityData.value?.name}`;
         } else if (params.type === 'region') {
-            return selectedRegion?.name;
+            return `in ${selectedRegion?.name}`;
         } else if (params.type === 'area') {
-            return selectedArea?.name;
+            return `in ${selectedArea?.name}`;
         }
         return null;
     });
@@ -74,7 +74,7 @@ export const useLocationData = async () => {
                 selectedArea
             },
             // cityData, removed but may be needed for other places
-            locationName
+            inLocation
         }
     };
 };

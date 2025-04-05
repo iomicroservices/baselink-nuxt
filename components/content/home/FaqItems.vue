@@ -1,29 +1,32 @@
 <script setup lang="ts">
-interface Props {
-    question?: string
-    answer?: string
-    order?: number
-}
 
-withDefaults(defineProps<Props>(), {
-    question: 'question',
-    answer: 'answer',
-    order: 0,
-})
+    interface Props {
+        question?: string
+        answer?: string
+    }
+
+    defineProps<Props>()
+    
 </script>
 
 <template>
     <div class="group flex flex-col rounded-lg bg-white dark:bg-slate-800 py-3 px-4 text-gray-800 dark:text-gray-200"
-        :tabindex="order">
+        tabindex="0">
         <div class="font-semibold flex cursor-pointer items-center justify-between">
-            <h3>{{ question }}</h3>
+            <h3>
+                <ContentSlot unwrap="p" name="question">
+                    {{ question || 'Default Question' }}
+                </ContentSlot>
+            </h3>
             <Icon name="material-symbols:expand-circle-right-outline-rounded" size="20"
                 class="transition-all duration-500 group-focus:rotate-90" />
         </div>
 
         <div
             class="invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
-            {{ answer }}
+            <ContentSlot unwrap="p" name="answer">
+                {{ answer || 'Default Answer' }}
+            </ContentSlot>
         </div>
     </div>
 </template>
