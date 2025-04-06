@@ -18,7 +18,7 @@
                     {{ question || 'Default Question' }}
                 </ContentSlot>
             </h3>
-            <Icon name="material-symbols:expand-circle-right-outline-rounded" size="20"
+            <Icon name="material-symbols:arrow-forward-ios-rounded" size="20"
                 class="transition-all duration-500 group-focus:rotate-90" />
         </div>
 

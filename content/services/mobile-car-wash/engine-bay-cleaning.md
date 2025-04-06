@@ -5,8 +5,8 @@ description: "Remove grease, dirt, and grime while protecting engine bay compone
 category: "mobile-car-wash"
 subcategory: "engine-bay-cleaning"
 task: "engine-bay-cleaning"
-image: "/mobile-car-wash/engine-bay-cleaning.png"
-ogImage: "/mobile-car-wash/engine-bay-cleaning.png"
+image: "/mobile-car-wash/engine-bay-cleaning.webp"
+ogImage: "/mobile-car-wash/engine-bay-cleaning.webp"
 colour: "red"
 pathtxt: "Engine bay cleaning"
 published: true

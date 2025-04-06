@@ -18,11 +18,11 @@ This is my description
 
 ::pictures
 #left
-![This is left](/tradespeople/carpenter/carpenter.png)
+![This is left](/tradespeople/carpenter/carpenter.webp)
 
 #center
-![this is right](/tradespeople/carpenter/custom-furniture.png)
+![this is right](/tradespeople/carpenter/custom-furniture.webp)
 
 #right
-![this is right image](/tradespeople/carpenter/door-hanging.png)
+![this is right image](/tradespeople/carpenter/door-hanging.webp)
 ::

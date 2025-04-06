@@ -4,8 +4,8 @@ alt: "Comprehensive painting and decorating services to transform and beautify y
 description: "Comprehensive painting and decorating services to transform and beautify your space"
 category: "tradespeople"
 subcategory: "painter-decorator"
-image: "/tradespeople/painter-decorator/painter-decorator.png"
-ogImage: "/tradespeople/painter-decorator/painter-decorator.png"
+image: "/tradespeople/painter-decorator/painter-decorator.webp"
+ogImage: "/tradespeople/painter-decorator/painter-decorator.webp"
 colour: "blue"
 pathtxt: "Painter and decorator"
 published: true

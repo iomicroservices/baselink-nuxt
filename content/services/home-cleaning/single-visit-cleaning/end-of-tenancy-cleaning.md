@@ -5,8 +5,8 @@ description: "Thorough cleaning for a spotless property at the end of your tenan
 category: "home-cleaning"
 subcategory: "single-visit-cleaning"
 task: "end-of-tenancy-cleaning"
-image: "/home-cleaning/single-visit-cleaning/end-of-tenancy-cleaning.png"
-ogImage: "/home-cleaning/single-visit-cleaning/end-of-tenancy-cleaning.png"
+image: "/home-cleaning/single-visit-cleaning/end-of-tenancy-cleaning.webp"
+ogImage: "/home-cleaning/single-visit-cleaning/end-of-tenancy-cleaning.webp"
 colour: "green"
 pathtxt: "End of tenancy cleaning"
 published: true

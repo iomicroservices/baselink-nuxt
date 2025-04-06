@@ -5,8 +5,8 @@ description: "Efficient cleaning and restocking to keep your holiday rental gues
 category: "commercial-cleaning"
 subcategory: "holiday-rental-cleaning"
 task: "holiday-rental-cleaning"
-image: "/commercial-cleaning/holiday-rental-cleaning.png"
-ogImage: "/commercial-cleaning/holiday-rental-cleaning.png"
+image: "/commercial-cleaning/holiday-rental-cleaning.webp"
+ogImage: "/commercial-cleaning/holiday-rental-cleaning.webp"
 colour: "yellow"
 pathtxt: "Holiday rental cleaning"
 published: true

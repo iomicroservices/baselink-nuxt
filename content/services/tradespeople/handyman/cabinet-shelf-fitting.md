@@ -4,8 +4,8 @@ alt: "Installing cabinets, wardrobes and shelves for added storage and organisat
 description: "Installing cabinets, wardrobes and shelves for added storage and organisation"
 category: "handyman"
 subcategory: "cabinet-shelf-fitting"
-image: "/tradespeople/handyman/cabinet-shelf-fitting.png"
-ogImage: "/tradespeople/handyman/cabinet-shelf-fitting.png"
+image: "/tradespeople/handyman/cabinet-shelf-fitting.webp"
+ogImage: "/tradespeople/handyman/cabinet-shelf-fitting.webp"
 colour: "blue"
 pathtxt: "Cabinet and shelf fitting"
 published: true

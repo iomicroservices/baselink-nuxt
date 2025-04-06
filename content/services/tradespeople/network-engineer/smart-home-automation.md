@@ -4,8 +4,8 @@ alt: "Smart technology for seamless control of your home’s lighting, heating, 
 description: "Smart technology for seamless control of your home’s lighting, heating, and security"
 category: "network-engineer"
 subcategory: "smart-home-automation"
-image: "/tradespeople/network-engineer/smart-home-automation.png"
-ogImage: "/tradespeople/network-engineer/smart-home-automation.png"
+image: "/tradespeople/network-engineer/smart-home-automation.webp"
+ogImage: "/tradespeople/network-engineer/smart-home-automation.webp"
 colour: "blue"
 pathtxt: "Smart home automation"
 published: true

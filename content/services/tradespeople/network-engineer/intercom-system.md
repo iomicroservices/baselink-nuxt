@@ -4,8 +4,8 @@ alt: "Intercom system installation for secure commsn within buildings or premise
 description: "Intercom system installation for secure comms within buildings or premises"
 category: "network-engineer"
 subcategory: "intercom-system"
-image: "/tradespeople/network-engineer/intercom-system.png"
-ogImage: "/tradespeople/network-engineer/intercom-system.png"
+image: "/tradespeople/network-engineer/intercom-system.webp"
+ogImage: "/tradespeople/network-engineer/intercom-system.webp"
 colour: "blue"
 pathtxt: "Intercom system"
 published: true

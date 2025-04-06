@@ -23,11 +23,12 @@ defineProps<Props>()
                     <path d="M16 3.13a4 4 0 0 1 0 7.75" />
                 </svg>
 
-                    <h3 class="grow group-hover:text-blue-700 font-semibold text-gray-800 dark:group-hover:text-blue-400 dark:text-neutral-200">
-                        Ask our community
-                    </h3>
+                <h3
+                    class="grow group-hover:text-blue-700 font-semibold text-gray-800 dark:group-hover:text-blue-400 dark:text-neutral-200">
+                    Ask our community
+                </h3>
 
-                    <Icon name="material-symbols:chevron-right" size="25" />
+                <Icon name="material-symbols:arrow-forward-ios-rounded" size="20" />
 
             </div>
         </div>

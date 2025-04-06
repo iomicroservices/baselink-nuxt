@@ -5,8 +5,8 @@ description: "Thorough cleaning and quick turnarounds for seamless guest transit
 category: "commercial-cleaning"
 subcategory: "airbnb-rental-cleaning"
 task: "airbnb-rental-cleaning"
-image: "/commercial-cleaning/airbnb-rental-cleaning.png"
-ogImage: "/commercial-cleaning/airbnb-rental-cleaning.png"
+image: "/commercial-cleaning/airbnb-rental-cleaning.webp"
+ogImage: "/commercial-cleaning/airbnb-rental-cleaning.webp"
 colour: "yellow"
 pathtxt: "Airbnb rental cleaning"
 published: true
@@ -14,7 +14,7 @@ published: true
 
 ::hero-standard
 #badge
-Default badge content
+Airbnb cleaners near me
 
 #title
 default title
@@ -25,7 +25,7 @@ default description
 #image
     ::pictures
     #right
-    ![This is an image alt](/tradespeople/carpenter/carpenter.png)
+    ![This is an image alt](/commercial-cleaning/airbnb-rental-cleaning.webp)
     ::
 ::
 

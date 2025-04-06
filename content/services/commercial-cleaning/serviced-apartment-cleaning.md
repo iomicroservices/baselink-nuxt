@@ -5,8 +5,8 @@ description: "Spotless cleaning and restocking to maintain premium serviced apar
 category: "commercial-cleaning"
 subcategory: "serviced-apartment-cleaning"
 task: "serviced-apartment-cleaning"
-image: "/commercial-cleaning/serviced-apartment-cleaning.png"
-ogImage: "/commercial-cleaning/serviced-apartment-cleaning.png"
+image: "/commercial-cleaning/serviced-apartment-cleaning.webp"
+ogImage: "/commercial-cleaning/serviced-apartment-cleaning.webp"
 colour: "yellow"
 pathtxt: "Serviced apartment cleaning"
 published: true

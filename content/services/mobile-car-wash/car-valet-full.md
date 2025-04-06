@@ -5,8 +5,8 @@ description: "Complete service including waxing, polishing, and upholstery clean
 category: "mobile-car-wash"
 subcategory: "full-car-valet"
 task: "full-car-valet"
-image: "/mobile-car-wash/full-car-valet.png"
-ogImage: "/mobile-car-wash/full-car-valet.png"
+image: "/mobile-car-wash/full-car-valet.webp"
+ogImage: "/mobile-car-wash/full-car-valet.webp"
 colour: "red"
 pathtxt: "Full car valet"
 published: true

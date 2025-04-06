@@ -4,8 +4,8 @@ alt: "Installing kitchen sinks with proper fittings for reliable use and drainag
 description: "Installing kitchen sinks with proper fittings for reliable use and drainage"
 category: "plumber"
 subcategory: "kitchen-sink-installation"
-image: "/tradespeople/plumber/kitchen-sink-installation.png"
-ogImage: "/tradespeople/plumber/kitchen-sink-installation.png"
+image: "/tradespeople/plumber/kitchen-sink-installation.webp"
+ogImage: "/tradespeople/plumber/kitchen-sink-installation.webp"
 colour: "blue"
 pathtxt: "Kitchen sink installation"
 published: true

@@ -4,8 +4,8 @@ alt: "Replacing old or inefficient boilers with high-performance, energy-efficie
 description: "Replacing old or inefficient boilers with high-performance, energy-efficient models"
 category: "gas-heating-engineer"
 subcategory: "boiler-replacement"
-image: "/tradespeople/gas-heating-engineer/boiler-replacement.png"
-ogImage: "/tradespeople/gas-heating-engineer/boiler-replacement.png"
+image: "/tradespeople/gas-heating-engineer/boiler-replacement.webp"
+ogImage: "/tradespeople/gas-heating-engineer/boiler-replacement.webp"
 colour: "blue"
 pathtxt: "Boiler replacement"
 published: true

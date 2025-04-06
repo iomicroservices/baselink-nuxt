@@ -31,8 +31,6 @@ defineOgImageComponent('About', {
       ogImage="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80"
       button1="Get connected 🚀" button2="Find out more 👇" path1="/" path2="/" />
 
-    <ContactItem />
-
     <MainBenefits />
 
     <MainSubcategory title="Commercial cleaning services" category="commercial-cleaning" />

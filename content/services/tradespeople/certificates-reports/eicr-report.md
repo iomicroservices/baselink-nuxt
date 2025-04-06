@@ -4,8 +4,8 @@ alt: "Inspecting electrical systems to ensure safety and compliance with regulat
 description: "Inspecting electrical systems to ensure safety and compliance with regulations"
 category: "certificates-reports"
 subcategory: "eicr-report"
-image: "/tradespeople/certificates-reports/eicr-reports.png"
-ogImage: "/tradespeople/certificates-reports/eicr-reports.png"
+image: "/tradespeople/certificates-reports/eicr-reports.webp"
+ogImage: "/tradespeople/certificates-reports/eicr-reports.webp"
 colour: "blue"
 pathtxt: "EICR reports"
 published: true

@@ -4,8 +4,8 @@ alt: "Fitting and replacing decorative skirting boards to cover wall-floor joint
 description: "Fitting and replacing decorative skirting boards to cover wall-floor joints"
 category: "carpenter"
 subcategory: "skirting-board-fitting"
-image: "/tradespeople/carpenter/skirting-board-fitting.png"
-ogImage: "/tradespeople/carpenter/skirting-board-fitting.png"
+image: "/tradespeople/carpenter/skirting-board-fitting.webp"
+ogImage: "/tradespeople/carpenter/skirting-board-fitting.webp"
 colour: "blue"
 pathtxt: "Skirting board fitting"
 published: true

@@ -4,8 +4,8 @@ alt: "Installing and maintaining alarm systems to protect your property from int
 description: "Installing and maintaining alarm systems to protect your property from intruders"
 category: "network-engineer"
 subcategory: "burglar-alarm"
-image: "/tradespeople/network-engineer/burglar-alarm.png"
-ogImage: "/tradespeople/network-engineer/burglar-alarm.png"
+image: "/tradespeople/network-engineer/burglar-alarm.webp"
+ogImage: "/tradespeople/network-engineer/burglar-alarm.webp"
 colour: "blue"
 pathtxt: "Burglar alarm"
 published: true

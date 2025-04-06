@@ -5,8 +5,8 @@ description: "Cleaning for reception areas, stairwells, lifts, walkways, and com
 category: "commercial-cleaning"
 subcategory: "residential-block-cleaning"
 task: "residential-block-cleaning"
-image: "/commercial-cleaning/residential-block-cleaning.png"
-ogImage: "/commercial-cleaning/residential-block-cleaning.png"
+image: "/commercial-cleaning/residential-block-cleaning.webp"
+ogImage: "/commercial-cleaning/residential-block-cleaning.webp"
 colour: "yellow"
 pathtxt: "Residential blocks cleaning"
 published: true

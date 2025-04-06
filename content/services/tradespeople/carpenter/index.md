@@ -5,8 +5,8 @@ description: "From shelves to full renovations, including custom woodwork, furni
 category: "tradespeople"
 subcategory: "carpenter"
 task: "carpenter"
-image: "/tradespeople/carpenter/carpenter.png"
-ogImage: "/tradespeople/carpenter/carpenter.png"
+image: "/tradespeople/carpenter/carpenter.webp"
+ogImage: "/tradespeople/carpenter/carpenter.webp"
 colour: "blue"
 pathtxt: "Carpenter"
 published: true

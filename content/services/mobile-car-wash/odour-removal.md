@@ -5,8 +5,8 @@ description: "Remove unpleasant smells from the car's interior using specialised
 category: "mobile-car-wash"
 subcategory: "odour-removal"
 task: "odour-removal"
-image: "/mobile-car-wash/odour-removal.png"
-ogImage: "/mobile-car-wash/odour-removal.png"
+image: "/mobile-car-wash/odour-removal.webp"
+ogImage: "/mobile-car-wash/odour-removal.webp"
 colour: "red"
 pathtxt: "Odour removal"
 published: true

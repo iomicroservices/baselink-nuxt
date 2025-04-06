@@ -5,8 +5,8 @@ description: "Thorough refurbishment of rims leaving them looking shiny and fres
 category: "tradespeople"
 subcategory: "tradespeople"
 task: "tradespeople"
-image: "/mobile-car-wash/rim-refurbishment.png"
-ogImage: "/mobile-car-wash/rim-refurbishment.png"
+image: "/mobile-car-wash/rim-refurbishment.webp"
+ogImage: "/mobile-car-wash/rim-refurbishment.webp"
 colour: "red"
 pathtxt: "Tradespeople"
 published: true

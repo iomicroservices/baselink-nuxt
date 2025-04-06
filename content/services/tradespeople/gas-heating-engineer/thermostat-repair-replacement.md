@@ -4,8 +4,8 @@ alt: "Repairing or replacing faulty thermostats to maintain accurate temperature
 description: "Repairing or replacing faulty thermostats to maintain accurate temperature control"
 category: "gas-heating-engineer"
 subcategory: "thermostat-repair-replacement"
-image: "/tradespeople/gas-heating-engineer/thermostat-repair-replacement.png"
-ogImage: "/tradespeople/gas-heating-engineer/thermostat-repair-replacement.png"
+image: "/tradespeople/gas-heating-engineer/thermostat-repair-replacement.webp"
+ogImage: "/tradespeople/gas-heating-engineer/thermostat-repair-replacement.webp"
 colour: "blue"
 pathtxt: "Thermostat replacement"
 published: true

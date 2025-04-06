@@ -1,7 +1,7 @@
 ::hero-centered
 ---
 alt: BaseLink residential and commercial services – home cleaning, commercial cleaning, mobile car wash, tradespeople, and network engineers
-ogImage: /tradespeople/network-engineer/communications-room.png
+ogImage: /tradespeople/network-engineer/communications-room.webp
 path: /services
 ---
 #badge

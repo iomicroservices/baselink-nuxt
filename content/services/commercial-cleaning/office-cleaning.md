@@ -5,8 +5,8 @@ description: "Comprehensive service from desks to kitchens and high-touch surfac
 category: "commercial-cleaning"
 subcategory: "office-cleaning"
 task: "office-cleaning"
-image: "/commercial-cleaning/office-cleaning.png"
-ogImage: "/commercial-cleaning/office-cleaning.png"
+image: "/commercial-cleaning/office-cleaning.webp"
+ogImage: "/commercial-cleaning/office-cleaning.webp"
 colour: "yellow"
 pathtxt: "Office cleaning"
 published: true

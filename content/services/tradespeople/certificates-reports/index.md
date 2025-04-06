@@ -4,8 +4,8 @@ alt: "Ensure your property meets legal and safety standards for gas, electricity
 description: "Ensure your property meets legal and safety standards for gas, electricity and fire"
 category: "tradespeople"
 subcategory: "certificates-reports"
-image: "/tradespeople/certificates-reports/certificates-reports.png"
-ogImage: "/tradespeople/certificates-reports/certificates-reports.png"
+image: "/tradespeople/certificates-reports/certificates-reports.webp"
+ogImage: "/tradespeople/certificates-reports/certificates-reports.webp"
 colour: "blue"
 pathtxt: "Certification and reports"
 published: true

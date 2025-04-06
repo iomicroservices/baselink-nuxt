@@ -4,8 +4,8 @@ alt: "Certification to confirm gas appliances meet safety standards and regulati
 description: "Certification to confirm gas appliances meet safety standards and regulations"
 category: "gas-heating-engineer"
 subcategory: "gas-safety-certificate"
-image: "/tradespeople/gas-heating-engineer/gas-safety-certificate.png"
-ogImage: "/tradespeople/gas-heating-engineer/gas-safety-certificate.png"
+image: "/tradespeople/gas-heating-engineer/gas-safety-certificate.webp"
+ogImage: "/tradespeople/gas-heating-engineer/gas-safety-certificate.webp"
 colour: "blue"
 pathtxt: "Gas safety certificate"
 published: true
