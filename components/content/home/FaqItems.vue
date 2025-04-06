@@ -23,8 +23,8 @@
         </div>
 
         <div
-            class="invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000">
-            <ContentSlot unwrap="p" name="answer">
+            class="invisible h-auto max-h-0 items-center opacity-0 transition-all group-focus:visible group-focus:max-h-screen group-focus:opacity-100 group-focus:duration-1000 text-gray-800 dark:text-slate-200">
+            <ContentSlot name="answer">
                 {{ answer || 'Default Answer' }}
             </ContentSlot>
         </div>

@@ -37,7 +37,6 @@ Choose the service you need {{$doc.location}} to get an instant quote and schedu
 ::
 
 ::faq-side
-
 #faqs
 
   ::faq-items

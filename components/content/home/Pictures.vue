@@ -1,15 +1,13 @@
 <template>
-    <section class="section mx-auto">
-        <div class="flex container space-x-4 items-center justify-between">
-            <div class="rounded-lg">
-                <slot name="left" />
-            </div>
-            <div>
-                <slot name="center" />
-            </div>
-            <div>
-                <slot name="right" />
-            </div>
+    <div class="flex container space-x-4 items-center justify-between">
+        <div class="rounded-lg overflow-hidden">
+            <ContentSlot unwrap="p" name="left" />
         </div>
-    </section>
+        <div class="rounded-lg overflow-hidden">
+            <ContentSlot unwrap="p" name="center" />
+        </div>
+        <div class="rounded-lg overflow-hidden">
+            <ContentSlot unwrap="p" name="right" />
+        </div>
+    </div>
 </template>

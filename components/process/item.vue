@@ -2,18 +2,18 @@
 
 interface Props {
     name?: string
-    stepNumber: string
+    stepNumber: number
     description?: string
 }
 
 const props = withDefaults(defineProps<Props>(), {
     name: 'Step name',
-    step: '1',
+    step: 1,
     description: 'Description of step details',
 })
 
 // Convert the string number to an integer, and calculate the border class
-const borderClass = `border-primary-${parseInt(props.stepNumber) * 200}`;
+const borderClass = `border-primary-${props.stepNumber * 200}`;
 </script>
 
 <template>
@@ -27,7 +27,7 @@ const borderClass = `border-primary-${parseInt(props.stepNumber) * 200}`;
             </div>
             <!-- Conditionally render the separator line -->
             <div class="md:flex-1 py-3">
-                <div v-if="props.stepNumber !== '3'" class="bg-gray-300 h-px" />
+                <div v-if="props.stepNumber !== 3" class="bg-gray-300 h-px" />
             </div>
         </div>
         <div class="md:w-4/5">

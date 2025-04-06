@@ -11,10 +11,9 @@
 </script>
 
 <template>
+
     <div class="page-container">
-
         <ContentRenderer v-if="serviceData" :value="serviceData" :data="locality" />
-
     </div>
 
 </template>

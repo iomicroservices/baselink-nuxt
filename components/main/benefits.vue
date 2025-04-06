@@ -140,11 +140,11 @@ withDefaults(defineProps<Props>(), {
                                 <div class="mt-14 text-center relative space-y-2">
                                     <h2
                                         class="text-lg font-medium text-gray-800 transition group-hover:text-purple-950 dark:text-white">
-                                        Faster than light
+                                        Customise your clean
                                     </h2>
                                     <p class="dark:text-gray-300 text-gray-700">
-                                        Provident fugit vero voluptate. magnam magni doloribus dolores voluptates
-                                        inventore nisi.
+                                        You can add notes and instructions, give your cleaner spare keys, and even chat
+                                        to them directly using our app
                                     </p>
                                 </div>
                             </div>
