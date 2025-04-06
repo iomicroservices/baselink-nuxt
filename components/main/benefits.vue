@@ -240,16 +240,16 @@ withDefaults(defineProps<Props>(), {
                                             <div class="size-7 ring-4 ring-white dark:ring-[--card-dark-bg]">
                                                 <NuxtImg
                                                     class="rounded-full border border-gray-950/5 dark:border-white/5 size-full"
-                                                    src="https://www.pexels.com/photo/group-of-people-having-a-meeting-3183150/"
-                                                    alt="" format="webp" loading="lazy" />
+                                                    src="/tradespeople/carpenter/carpenter.png" alt="" format="webp"
+                                                    loading="lazy" />
                                             </div>
                                         </div>
                                         <div class="flex items-center gap-2 ml-[calc(50%-1rem)] relative">
                                             <div class="size-8 ring-4 ring-white dark:ring-[--card-dark-bg]">
                                                 <NuxtImg
                                                     class="rounded-full border border-gray-950/5 dark:border-white/5 size-full"
-                                                    src="https://www.pexels.com/photo/group-of-people-having-a-meeting-3183150/"
-                                                    alt="" format="webp" loading="lazy" />
+                                                    src="/tradespeople/carpenter/carpenter.png" alt="" format="webp"
+                                                    loading="lazy" />
                                             </div>
                                             <span
                                                 class="h-fit text-xs block px-2 py-1 shadow-sm border rounded-md dark:bg-gray-800 dark:border-white/5 dark:text-white">M.
@@ -263,8 +263,8 @@ withDefaults(defineProps<Props>(), {
                                             <div class="size-7 ring-4 ring-white dark:ring-[--card-dark-bg]">
                                                 <NuxtImg
                                                     class="rounded-full border border-gray-950/5 dark:border-white/5 size-full"
-                                                    src="https://www.pexels.com/photo/group-of-people-having-a-meeting-3183150/"
-                                                    alt="" format="webp" loading="lazy" />
+                                                    src="/tradespeople/carpenter/carpenter.png" alt="" format="webp"
+                                                    loading="lazy" />
                                             </div>
                                         </div>
                                     </div>

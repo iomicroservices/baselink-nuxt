@@ -10,7 +10,7 @@
 </script>
 
 <template>
-    <div class="group flex flex-col rounded-lg bg-white dark:bg-slate-800 py-3 px-4 text-gray-800 dark:text-gray-200"
+    <div class="group flex flex-col rounded-lg  py-3 px-4 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200"
         tabindex="0">
         <div class="font-semibold flex cursor-pointer items-center justify-between">
             <h3>

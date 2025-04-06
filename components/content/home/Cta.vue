@@ -9,7 +9,7 @@
 </script>
 
 <template>
-    <section class="px-[25px] pt-[25px] pb-[30px] max-w-full overflow-x-hidden mx-auto">
+    <section class="section mx-auto">
         <div class="relative p-8 lg:p-6 xl:p-8 rounded-2xl dark:bg-slate-800">
             <div
                 class="absolute inset-0 w-full h-full transform translate-x-2 translate-y-2 bg-primary-400/20 rounded-2xl" />

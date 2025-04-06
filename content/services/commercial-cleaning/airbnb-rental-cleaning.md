@@ -73,62 +73,36 @@ default process title
 ---
 
 ::why-us
+::
+
+---
+
+::tasks
 #title
-Why BaseLink?
+Task detail
 
 #description
-Chose BaseLink because...
+This task includes...
 
 #items
-    ::why-us-card
-    ---
-    icon: material-symbols:stars-outline-rounded
-    ---
-    #title
-    Satisfaction guaranteed
-
-    #description
-    description 1
+    ::task-item
+    taask detail 1
     ::
     
-    ::why-us-card
-    ---
-    icon: material-symbols:touch-app-outline-rounded
-    ---
-    #title
+    ::task-item
     hello
-
-    #description
-    description
     ::
 
-    ::why-us-card
-    ---
-    icon: material-symbols:drive-file-rename-outline-outline-rounded
-    ---
-    #title
+    ::task-item
     title
-
-    #description
-    description
     ::
 
-    ::why-us-card
-    ---
-    icon: material-symbols:sentiment-very-satisfied-outline-rounded
-    ---
-    #title
+    ::task-item
     title
-
-    #description
-    description
     ::
 ::
 
-
-::cta
-::
-
+---
 
 ::faq-side
 #faqs
@@ -160,7 +134,8 @@ Chose BaseLink because...
   ::
 ::
 
----
+::cta
+::
 
 ::long-form
 #title
@@ -181,6 +156,11 @@ FInal one here...
 ::category
 #title
 Find housekeepers and tradespeople {{$doc.location}}
+::
+
+---
+
+::contact
 ::
 
 ::cta
