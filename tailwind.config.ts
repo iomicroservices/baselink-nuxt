@@ -29,7 +29,6 @@ export default <Partial<Config>> {
                     950: '#1e1b4b'
                 },
             },
-            
             fontFamily: {
                 spacegrotesk: ['Lato', 'sans-serif'],
             },

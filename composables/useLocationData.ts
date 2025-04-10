@@ -52,11 +52,11 @@ export const useLocationData = async () => {
     // one value of either the city, region or area name to be used in content
     const inLocation = computed(() => {
         if (params.type === 'city') {
-            return `in ${cityData.value?.name}`;
+            return ` in ${cityData.value?.name}`;
         } else if (params.type === 'region') {
-            return `in ${selectedRegion?.name}`;
+            return ` in ${selectedRegion?.name}`;
         } else if (params.type === 'area') {
-            return `in ${selectedArea?.name}`;
+            return ` in ${selectedArea?.name}`;
         }
         return null;
     });

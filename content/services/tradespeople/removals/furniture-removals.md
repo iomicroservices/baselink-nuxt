@@ -10,3 +10,63 @@ colour: "blue"
 pathtxt: "Furniture removals"
 published: true
 ---
+
+::hero-standard
+#badge
+Local removals
+
+#title
+Furniture removals service{{ $doc.location }}
+
+#description
+Moving furniture{{ $doc.location }} made easy. Whether it’s a single piece or a full load, we provide safe, careful furniture removals. Available 7 days a week. Flexible online bookings.
+
+#image
+    ::pictures
+    #right
+    ![BaseLink offers local furniture removals service](/tradespeople/removals/furniture-removals.webp)
+    ::
+::
+
+---
+
+::process
+#title
+Book a furniture removal job with ease
+
+#items
+    ::process-item
+    ---
+    stepNumber: 1
+    ---
+    #title
+    Provide job details
+
+    #description
+    Fill in a form with your details, the furniture removal work needed, and choose a convenient time slot.
+    ::
+    
+    ::process-item
+    ---
+    stepNumber: 2
+    ---
+    #title
+    Complete payment
+
+    #description
+    We'll provide a competitive price for the work. Verify the details and pay securely online to confirm your booking.
+    ::
+
+    ::process-item
+    ---
+    stepNumber: 3
+    ---
+    #title
+    Furniture moved
+
+    #description
+    Our trusted movers will arrive promptly, carefully remove your furniture, and ensure it’s transported safely.
+    ::
+::
+
+---

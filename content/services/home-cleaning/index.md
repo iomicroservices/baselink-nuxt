@@ -22,19 +22,23 @@ dropdowns:
     text: testft
 ---
 #title
-Home cleaning {{$doc.location}}
+Home cleaning{{$doc.location}}
 
 #description
-Your home deserves the best care. At BaseLink, we offer expert cleaning services {{$doc.location}} that bring freshness and comfort to your space. Whether you need a regular cleaning routine or a one-off deep clean, our team provides flexible, high-quality solutions that fit your schedule.
+Your home deserves the best care. At BaseLink, we offer expert cleaning services{{$doc.location}} that bring freshness and comfort to your space. Whether you need a regular cleaning routine or a one-off deep clean, our team provides flexible, high-quality solutions that fit your schedule.
 ::
+
+---
 
 ::subcategory
 #title
-Domestic cleaning services {{$doc.location}}
+Domestic cleaning services{{$doc.location}}
 
 #description
-Choose the service you need {{$doc.location}} to get an instant quote and schedule your booking – simple!
+Choose the service you need{{$doc.location}} to get an instant quote and schedule your booking – simple!
 ::
+
+---
 
 ::faq-side
 #faqs
@@ -67,7 +71,9 @@ Choose the service you need {{$doc.location}} to get an instant quote and schedu
   ::
 ::
 
+---
+
 ::category
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Find housekeepers and tradespeople{{$doc.location}}
 ::

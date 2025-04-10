@@ -1,18 +1,18 @@
 <script setup lang="ts">
 
-    // Get the path data from the composable
-    const { pathData } = await usePathData();
+// Get the path data from the composable
+const { pathData } = await usePathData();
 
-    const { data: taskpage, error } = await useAsyncData(`${pathData.asyncDynamicName}`, () => queryContent(`${pathData.queryUrl}`).findOne())
+const { data: taskpage, error } = await useAsyncData(`${pathData.asyncDynamicName}`, () => queryContent(`${pathData.queryUrl}`).findOne())
 
-    if (!taskpage.value) {
-        throw createError({
-            statusCode: 404,
-            statusMessage: 'Page not found'
-        })
-    }
+if (!taskpage.value) {
+    throw createError({
+        statusCode: 404,
+        statusMessage: 'Page not found'
+    })
+}
 
-    const locality = ref({ location: 'near me' });
+const locality = ref({ location: '' });
 
 </script>
 

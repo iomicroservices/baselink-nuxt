@@ -23,19 +23,23 @@ dropdowns:
 ---
 
 #title
-Commercial cleaning {{$doc.location}}
+Commercial cleaning{{$doc.location}}
 
 #description
-For those times when you need a deep clean without the commitment, our single visit cleaning service {{$doc.location}} is the ideal solution. Whether it's for a special event, a move-in or move-out cleaning, or simply to refresh your home, we provide a one-time service that leaves your space looking immaculate. Our team will tackle every corner, ensuring that your home is sparkling clean and ready for whatever comes next.
+BaseLink provides tailored commercial cleaning services designed to keep your business premises spotless and welcoming. From offices and residential blocks to retail spaces and holiday rentals, we offer flexible cleaning schedules to suit your needs. We provide local cleaners that are experienced, highly rated and fully vetted to deliver an exceptional clean every time.
 ::
+
+---
 
 ::subcategory
 #title
-Cleaning services made for business {{$doc.location}}
+Cleaning services made for business{{$doc.location}}
 
 #description
 Choose the service you need to get an instant quote and schedule your booking – simple!
 ::
+
+---
 
 ::faq-side
 ---
@@ -49,7 +53,9 @@ faqs:
 ---
 ::
 
+---
+
 ::category
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Find housekeepers and tradespeople{{$doc.location}}
 ::

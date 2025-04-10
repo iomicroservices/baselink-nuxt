@@ -1,17 +1,17 @@
 <script setup lang="ts">
 
-    const { pathData } = await usePathData(); // Get pathData from the usePathData composable
-    const { locationData } = await useLocationData(); // Get locationData from the useLocationData composable
+const { pathData } = await usePathData(); // Get pathData from the usePathData composable
+const { locationData } = await useLocationData(); // Get locationData from the useLocationData composable
 
-    const serviceData = pathData.pageData; // Access the page-specific service data
-    const locality = ref({ location: locationData.inLocation ?? '' });
+const serviceData = pathData.pageData; // Access the page-specific service data
+const locality = ref({ location: locationData.inLocation ?? '' });
 
-    if (!serviceData.value) {
-        throw createError({
-            statusCode: 404,
-            statusMessage: 'Page not found'
-        })
-    }
+if (!serviceData.value) {
+    throw createError({
+        statusCode: 404,
+        statusMessage: 'Page not found'
+    })
+}
 
 </script>
 

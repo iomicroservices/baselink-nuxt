@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ContentSlot } from '#components'
 
 interface Props {
     badge?: string
@@ -13,14 +12,12 @@ interface Props {
     path2?: string
 }
 
-withDefaults(defineProps<Props>(), {
-    alt: 'Get a virtual landline number for your business in the UK',
-    ogImage: 'https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80',
-    button1: 'Get connected 🚀',
-    button2: 'Find out more 👇',
-    path1: '/',
-    path2: '/',
-})
+const props = defineProps<Props>()
+//store route info in route const
+const { params } = useRoute()
+//create pathCategory const if [category] param exists, otherwise return empty string
+const pathCategory = params.category ? params.category : props.path1
+
 </script>
 
 <template>
@@ -33,7 +30,7 @@ withDefaults(defineProps<Props>(), {
                     <span
                         class="px-4 py-2 rounded-full bg-primary-100 dark:bg-primary-200/20 text-xs text-primary-600 dark:text-primary-200 font-semibold">
                         <ContentSlot unwrap="p" name="badge">
-                            {{ badge || "Only £11/month • Unlimited minutes" }}
+                            {{ badge || "Default badge" }}
                         </ContentSlot>
                     </span>
                 </div>
@@ -54,13 +51,15 @@ withDefaults(defineProps<Props>(), {
 
                     <!-- Buttons -->
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <NuxtLink :to="path1" class="btn-primary">
-                            {{ button1 }}
+
+                        <NuxtLink v-if="pathCategory" :to="`/services/${pathCategory}/quote`" class="btn-primary">
+                            {{ button1 || "Request a quote" }}
                         </NuxtLink>
 
-                        <NuxtLink :to="path2" class="btn-secondary">
-                            {{ button2 }}
+                        <NuxtLink v-if="button2 && path2" :to="path2" class="btn-secondary">
+                            {{ button2 || "Find out more" }}
                         </NuxtLink>
+
                     </div>
 
                 </div>
@@ -69,10 +68,21 @@ withDefaults(defineProps<Props>(), {
             <!-- Image Column -->
             <div class="relative w-full">
                 <ContentSlot unwrap="p" name="image">
-                    <NuxtImg class="w-full h-auto rounded-lg object-cover" :src="ogImage" :alt="alt" format="webp"
+                    <NuxtImg class="w-full h-auto rounded-lg object-cover"
+                        :src="`/${pathCategory}/${params.subcategory}.webp`" :alt="alt" format="webp" loading="eager"
+                        quality="90" />
+                </ContentSlot>
+            </div>
+
+            <!-- below uses route details instead of props - needs improvement to isolate category, subcategory, task from route
+            <div class="relative w-full">
+                <ContentSlot unwrap="p" name="image">
+                    <NuxtImg class="w-full h-auto rounded-lg object-cover" :src="`/${pathCategory}/${params.subcategory}.webp`" alt="alt" format="webp"
                         loading="eager" quality="90" />
                 </ContentSlot>
             </div>
+            -->
+
         </div>
     </section>
 </template>
