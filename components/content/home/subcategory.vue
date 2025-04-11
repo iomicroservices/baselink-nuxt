@@ -67,9 +67,9 @@ const formattedData = computed(() => {
             </ContentSlot>
         </h2>
 
-        <p class="max-w-[75%] text-xl mb-10">
+        <p class="lg:max-w-[75%] text-xl mb-10">
             <ContentSlot unwrap="p" name="description">
-                {{ description || 'Default Description' }}
+                {{ description }}
             </ContentSlot>
         </p>
 

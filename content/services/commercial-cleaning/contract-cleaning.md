@@ -73,32 +73,84 @@ Our simple process for contract cleaning
 ---
 
 ::why-us
+---
+profession: "cleaners"
+---
 ::
 
 ---
 
 ::tasks
 #title
-Task detail
+What you get with contract cleaning
 
 #description
-This task includes...
+You can customise your clean with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
 
 #items
+    
     ::task-item
-    taask detail 1
+    Dusting and surface cleaning
     ::
     
     ::task-item
-    hello
+    Vacuum and mop floors
+    ::
+    
+    ::task-item
+    Stock and supply checklist
+    ::
+    
+    ::task-item
+    Restocking toiletries and supplies
     ::
 
     ::task-item
-    title
+    Sanitise high-touch surfaces
     ::
 
     ::task-item
-    title
+    Kitchen cleaning and running dishwasher
+    ::
+    
+    ::task-item
+    Clean sinks, taps and toilets
+    ::
+    
+    ::task-item
+    Clean appliances, cabinets and mirrors
+    ::
+
+    ::task-item
+    Clean common areas and breakout spaces
+    ::
+
+    ::task-item
+    Cleaning and organising workstations
+    ::
+
+    ::task-item
+    Interior window cleaning
+    ::
+    
+    ::task-item
+    Fresh linen and towel replacement
+    ::
+
+    ::task-item
+    Scheduled deep cleaning
+    ::
+
+    ::task-item
+    End of day tidy up
+    ::
+
+    ::task-item
+    Trash removal and recycling
+    ::
+
+    ::task-item
+    Custom cleaning requests
     ::
 ::
 
@@ -135,6 +187,10 @@ This task includes...
 ::
 
 ::cta
+---
+title: "Reliable contract cleaning starts here"
+button: "Hire a cleaner"
+---
 ::
 
 ::long-form

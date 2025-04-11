@@ -24,11 +24,11 @@ const pathCategory = params.category ? params.category : props.path1
     <section class="section-hero relative mx-auto">
         <div class="grid lg:grid-cols-2 gap-8 items-center">
             <!-- Content Column -->
-            <div class="text-center lg:text-left">
+            <div class="text-left">
                 <!-- Badge -->
                 <div class="inline-flex">
                     <span
-                        class="px-4 py-2 rounded-full bg-primary-100 dark:bg-primary-200/20 text-xs text-primary-600 dark:text-primary-200 font-semibold">
+                        class="px-4 py-2 rounded-full bg-blue-100 dark:bg-blue-200/20 text-xs text-blue-600 dark:text-blue-200 font-semibold relative border border-blue-200 dark:border-gray-700">
                         <ContentSlot unwrap="p" name="badge">
                             {{ badge || "Default badge" }}
                         </ContentSlot>

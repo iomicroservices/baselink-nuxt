@@ -73,32 +73,80 @@ Our simple process for Airbnb rental cleaning
 ---
 
 ::why-us
+---
+profession: "cleaners"
+---
 ::
 
 ---
 
 ::tasks
 #title
-Task detail
+What you get with Airbnb rental cleaning
 
 #description
-This task includes...
+You can customise your clean with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
 
 #items
+    
     ::task-item
-    taask detail 1
+    Dusting and surface cleaning
     ::
     
     ::task-item
-    hello
+    Vacuum and mop floors
+    ::
+    
+    ::task-item
+    Clean sinks, taps and toilets
+    ::
+    
+    ::task-item
+    Clean appliances, cabinets and mirrors
+    ::
+    
+    ::task-item
+    Washing, drying and ironing laundry
+    ::
+    
+    ::task-item
+    Fresh linen and towel replacement
+    ::
+    
+    ::task-item
+    Stock and supply checklist
+    ::
+    
+    ::task-item
+    Restocking amenities and toiletries
     ::
 
     ::task-item
-    title
+    Sanitise high-touch surfaces
     ::
 
     ::task-item
-    title
+    Kitchen cleaning and running dishwasher
+    ::
+
+    ::task-item
+    Sweep entrances and balconies
+    ::
+
+    ::task-item
+    Interior window cleaning
+    ::
+
+    ::task-item
+    Key collection and handover
+    ::
+
+    ::task-item
+    Trash removal and recycling
+    ::
+
+    ::task-item
+    Custom cleaning requests
     ::
 ::
 
@@ -135,6 +183,10 @@ This task includes...
 ::
 
 ::cta
+---
+title: "Reliable Airbnb rental cleaning starts here"
+button: "Hire a cleaner"
+---
 ::
 
 ::long-form
@@ -164,4 +216,12 @@ Find housekeepers and tradespeople {{$doc.location}}
 ::
 
 ::cta
+::
+
+::subcategory
+#title
+More cleaning services made for business
+
+#description
+BaseLink offers cleaning services to meet all your commercial and business needs.
 ::

@@ -29,8 +29,8 @@ defineProps<Props>()
         <div class="grid gap-3 lg:gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             <CategoryItem name="Home cleaning" emoji="material-symbols-light:cleaning-outline-rounded"
                 :path="`/services/home-cleaning${pathExtension}`" />
-            <CategoryItem name="Housekeeper" emoji="material-symbols-light:dry-cleaning-rounded"
-                :path="`/services/home-cleaning/housekeeper${pathExtension}`" />
+            <CategoryItem name="Housekeeping" emoji="material-symbols-light:dry-cleaning-rounded"
+                :path="`/services/home-cleaning/housekeeping${pathExtension}`" />
             <CategoryItem name="Commercial cleaning" emoji="material-symbols-light:cleaning-bucket-outline-rounded"
                 :path="`/services/commercial-cleaning${pathExtension}`" />
             <CategoryItem name="Mobile car wash" emoji="material-symbols-light:local-car-wash-outline-rounded"

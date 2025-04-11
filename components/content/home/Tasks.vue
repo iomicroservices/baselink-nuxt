@@ -11,7 +11,7 @@
     <section class="section relative mx-auto">
 
         <!-- Grid -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:gap-8 lg:gap-12">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
             <div>
 
                 <h2 class="heading2">
@@ -20,7 +20,7 @@
                     </ContentSlot>
                 </h2>
 
-                <p class="text-xl">
+                <p class="text-xl max-w-[75%] lg:max-w-[100%]">
                     <ContentSlot unwrap="p" name="description">
                         {{ description || 'Default Description' }}
                     </ContentSlot>
@@ -29,19 +29,21 @@
             </div>
             <!-- End Col -->
 
-            <div>
+            <div class="justify-self-center lg:justify-self-end">
                 <!-- Card -->
                 <div
                     class="p-4 relative md:p-10 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
 
+                    <!--
                     <div>
                         <span class="me-3 text-gray-500 dark:text-neutral-400">From</span>
                         <span class="text-4xl font-bold text-gray-800 dark:text-neutral-200">£19</span>
                         <span class="text-lg font-bold text-gray-800 dark:text-neutral-200">.00</span>
                         <span class="ms-3 text-gray-500 dark:text-neutral-400">/ hour</span>
                     </div>
+                    -->
 
-                    <div class="grid grid-cols-1 mt-3 gap-y-2 py-4 first:pt-0 last:pb-0 sm:gap-x-6 sm:gap-y-0">
+                    <div class="grid grid-cols-1 gap-y-2 py-4 first:pt-0 last:pb-0 sm:gap-x-6 sm:gap-y-0">
 
                         <!-- List -->
                         <ul class="space-y-2">
@@ -51,7 +53,7 @@
                     </div>
 
                     <!-- Buttons -->
-                    <div class="pt-4 flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
+                    <div class="pt-4 flex flex-col lg:flex-row gap-4 justify-center lg:justify-start">
                         <NuxtLink to="path1" class="btn-primary">
                             Get a quote
                         </NuxtLink>

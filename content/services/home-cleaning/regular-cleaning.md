@@ -71,3 +71,137 @@ Easily book regular home cleaning in 3 simple steps
 ::
 
 ---
+
+::why-us
+---
+profession: "cleaners"
+---
+::
+
+---
+
+::tasks
+#title
+What you get with regular cleaning
+
+#description
+You can customise your clean with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+
+#items
+    
+    ::task-item
+    Dusting and surface cleaning
+    ::
+    
+    ::task-item
+    Vacuum and mop floors
+    ::
+    
+    ::task-item
+    Clean sinks, taps and toilets
+    ::
+    
+    ::task-item
+    Clean appliances, cabinets and mirrors
+    ::
+    
+    ::task-item
+    Washing, drying and ironing laundry
+    ::
+    
+    ::task-item
+    Fresh linen and towel replacement
+    ::
+
+    ::task-item
+    Sanitise high-touch surfaces
+    ::
+
+    ::task-item
+    Kitchen cleaning and running dishwasher
+    ::
+
+    ::task-item
+    Sweep entrances and balconies
+    ::
+
+    ::task-item
+    Interior window cleaning
+    ::
+
+    ::task-item
+    Trash removal and recycling
+    ::
+
+    ::task-item
+    Custom cleaning requests
+    ::
+::
+
+---
+
+::faq-side
+#faqs
+  ::faq-items
+  #question
+  Question one
+
+  #answer
+  Answer one
+  ::
+
+  ::faq-items
+  #question
+  Question two
+
+  #answer
+  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
+  Answer two is here:
+    - item one
+    - item two
+  ::
+
+  ::faq-items
+  #question
+  Question 3
+
+  #answer
+  Answer three
+  ::
+::
+
+::cta
+---
+title: "Reliable regular home cleaning starts here"
+button: "Hire a cleaner"
+---
+::
+
+::long-form
+#title
+Booking AirBnb rental cleaner in X
+
+#description
+Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+
+#description
+Paragraph two insert here...
+
+#description
+FInal one here...
+::
+
+---
+
+::category
+#title
+Find housekeepers and tradespeople {{$doc.location}}
+::
+
+---
+
+::contact
+::
+
+::cta
+::
