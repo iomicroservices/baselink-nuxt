@@ -80,17 +80,71 @@ profession: "assessors"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+How BaseLink helps ensure your property is energy efficient
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether you manage offices, shops or warehouses, we make non-domestic EPC certification quick and stress-free. Our qualified assessors{{ $doc.location }} inspect your commercial property and issue an official rating from A to G, with expert advice to boost energy efficiency.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Any commercial property
+  ::
+
+  ::task-item
+  Offices
+  ::
+
+  ::task-item
+  Retail units and shops
+  ::
+
+  ::task-item
+  Restaurants and cafés
+  ::
+
+  ::task-item
+  Pubs and bars
+  ::
+
+  ::task-item
+  Warehouses and storage units
+  ::
+
+  ::task-item
+  Factories and industrial buildings
+  ::
+
+  ::task-item
+  Gyms and fitness centres
+  ::
+
+  ::task-item
+  Hotels and guesthouses
+  ::
+
+  ::task-item
+  Community halls and leisure centres
+  ::
+
+  ::task-item
+  Medical clinics and dental practices
+  ::
+
+  ::task-item
+  Day nurseries and schools
+  ::
+
+  ::task-item
+  Salons and beauty studios
+  ::
+
+  ::task-item
+  Mixed-use commercial premises
+  ::
+
 ::
 
 ---

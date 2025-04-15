@@ -80,17 +80,51 @@ profession: "engineers"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+How BaseLink helps ensure your property is gas safe
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+A CP12 Gas Safety Certificate is a legal requirement for landlords in the UK. Our Gas Safe registered engineers{{ $doc.location }} carry out a full inspection of your property and issue a valid CP12 certificate with all findings documented.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Inspection of all gas appliances
+  ::
+
+  ::task-item
+  Flue and chimney checks
+  ::
+
+  ::task-item
+  Gas pressure and burner tests
+  ::
+
+  ::task-item
+  Tightness test on gas pipework
+  ::
+
+  ::task-item
+  Ventilation assessment
+  ::
+
+  ::task-item
+  Visual inspection of pipework and installation
+  ::
+
+  ::task-item
+  Carbon monoxide risk assessment
+  ::
+
+  ::task-item
+  Advice on faults and remedial work
+  ::
+
+  ::task-item
+  Issue of CP12 certificate
+  ::
+
 ::
 
 ---

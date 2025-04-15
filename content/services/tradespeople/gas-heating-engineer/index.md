@@ -1,7 +1,7 @@
 ---
 title: "Gas and heating engineer service"
-alt: "Installation, maintenance, and repair of gas systems and heating solutions"
-description: "Installation, maintenance, and repair of gas systems and heating solutions"
+alt: "Installation, maintenance, and repair of gas or heating systems and appliances"
+description: "Installation, maintenance, and repair of gas or heating systems and appliances"
 category: "tradespeople"
 subcategory: "gas-heating-engineer"
 image: "/tradespeople/gas-heating-engineer/gas-heating-engineer.webp"

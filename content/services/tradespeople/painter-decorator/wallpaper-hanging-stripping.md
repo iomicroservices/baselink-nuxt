@@ -81,16 +81,41 @@ profession: "decorators"
 
 ::tasks
 #title
-What you get with ...
+What you get with wallpaper hanging & stripping
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+From bold feature walls to full room coverings, our skilled decorators{{ $doc.location }} ensure clean edges, perfect alignment, and smooth results — no peeling, no bubbles, just a beautiful finish. Your account will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Careful removal of old wallpaper and adhesives
+  ::
+
+  ::task-item
+  Preparing and smoothing wall surfaces
+  ::
+
+  ::task-item
+  Cutting and aligning wallpaper for precise fit
+  ::
+
+  ::task-item
+  Hanging standard, textured, or feature wallpapers
+  ::
+
+  ::task-item
+  Matching patterns and seamless joint alignment
+  ::
+
+  ::task-item
+  Applying adhesive and smoothing bubbles
+  ::
+
+  ::task-item
+  Trimming edges and cleaning up after completion
+  ::
+
 ::
 
 ---

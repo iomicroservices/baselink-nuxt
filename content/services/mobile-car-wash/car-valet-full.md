@@ -88,10 +88,67 @@ What you get with full car valet
 You can customise your valet with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
 
 #items
+    
+  ::task-item
+  Exterior hand wash and rinse
+  ::
+  
+  ::task-item
+  Wheels and tyres cleaned
+  ::
+  
+  ::task-item
+  Tar spot and bug removal
+  ::
+  
+  ::task-item
+  Exterior polish and wax
+  ::
+  
+  ::task-item
+  Clean windows and windshield
+  ::
 
-    ::task-item
-    Custom cleaning requests
-    ::
+  ::task-item
+  Door shuts and sills cleaned
+  ::
+  
+  ::task-item
+  Vacuum seats and floor matts
+  ::
+
+  ::task-item
+  Dashboard and console wiped
+  ::
+
+  ::task-item
+  Interior plastics cleaned
+  ::
+
+  ::task-item
+  Cup holders and compartments cleaned
+  ::
+
+  ::task-item
+  Air vents dusted and wiped
+  ::
+
+  ::task-item
+  Leather seats cleaned
+  ::
+
+  ::task-item
+  Fabric seats steam cleaned
+  ::
+
+  ::task-item
+  Deodorising treatment
+  ::
+
+  ::task-item
+  Final inspection and finish
+  ::
+
 ::
 
 ---
@@ -151,7 +208,7 @@ FInal one here...
 
 ::category
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Find housekeepers and tradespeople{{$doc.location}}
 ::
 
 ---
@@ -160,4 +217,15 @@ Find housekeepers and tradespeople {{$doc.location}}
 ::
 
 ::cta
+::
+
+::subcategory
+---
+category: home-cleaning
+---
+#title
+BaseLink cleaning services for your home{{ $doc.location }} too
+
+#description
+We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
 ::

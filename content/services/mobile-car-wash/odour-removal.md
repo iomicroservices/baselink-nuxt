@@ -89,9 +89,26 @@ You can customise your valet with special instructions or add extra services. Yo
 
 #items
 
-    ::task-item
-    Custom cleaning requests
-    ::
+  ::task-item
+  Inspect source of odour
+  ::
+
+  ::task-item
+  Professional-grade odour neutraliser
+  ::
+
+  ::task-item
+  Ozone or fogging treatment
+  ::
+
+  ::task-item
+  Air vents wiped and refreshed
+  ::
+
+  ::task-item
+  Deodorising treatment
+  ::
+
 ::
 
 ---
@@ -160,4 +177,15 @@ Find housekeepers and tradespeople {{$doc.location}}
 ::
 
 ::cta
+::
+
+::subcategory
+---
+category: home-cleaning
+---
+#title
+BaseLink cleaning services for your home{{ $doc.location }} too
+
+#description
+We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
 ::

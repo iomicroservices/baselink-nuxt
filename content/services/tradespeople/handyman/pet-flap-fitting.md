@@ -79,18 +79,37 @@ profession: "handymen"
 
 ---
 
-::tasks
-#title
-What you get with ...
+::tasksWhat you get with pet flap fitting
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+We fit all types — from manual to microchip-controlled — into wooden, uPVC, or suitable glass doors. Our handymen{{ $doc.location }} ensure the flap is placed at the right height, sealed properly, and functions smoothly.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Cut opening in uPVC, wooden, or glass doors
+  ::
+
+  ::task-item
+  Fit the pet flap frame and flap securely
+  ::
+
+  ::task-item
+  Seal edges to prevent drafts and moisture
+  ::
+
+  ::task-item
+  Instal manual, locking, or microchip-activated flaps
+  ::
+
+  ::task-item
+  Test flap for smooth opening and closing
+  ::
+
+  ::task-item
+  Adjust height for correct pet access
+  ::
+
 ::
 
 ---

@@ -81,16 +81,37 @@ profession: "decorators"
 
 ::tasks
 #title
-What you get with ...
+What you get with plastering service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Get a flawless finish with expert plastering. Our skilled decorators{{ $doc.location }} repair and resurface walls and ceilings to leave a smooth, clean base for decorating. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Preparing and cleaning surfaces before plastering
+  ::
+
+  ::task-item
+  Repairing cracks, holes, and damaged plaster
+  ::
+
+  ::task-item
+  Application of bonding, base coat, and skim finish
+  ::
+
+  ::task-item
+  Plastering walls, ceilings, or specific sections
+  ::
+
+  ::task-item
+  Ensuring a smooth, even surface ready for painting or papering
+  ::
+
+  ::task-item
+  Removal of debris and protection sheets after work
+  ::
+
 ::
 
 ---

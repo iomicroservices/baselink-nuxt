@@ -80,17 +80,43 @@ profession: "carpenters"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What does the window fitting service include?
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our skilled and trusted carpenters{{ $doc.location}} can design, replace, install and repair different types of window frames and sills. Your job will be managed by our dedicated support team for a reliable service.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Removal of old or damaged components
+  ::
+
+  ::task-item
+  Custom frame and sill fabrication
+  ::
+
+  ::task-item
+  Installation of new window frames or sills
+  ::
+
+  ::task-item
+  Filling and sealing gaps
+  ::
+
+  ::task-item
+  Repairing damaged frames or sills
+  ::
+
+  ::task-item
+  Priming, painting or staining
+  ::
+
+  ::task-item
+  Draught-proofing upgrades
+  ::
+
 ::
 
 ---

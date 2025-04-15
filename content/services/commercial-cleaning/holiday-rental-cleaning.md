@@ -98,15 +98,15 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
     
     ::task-item
-    Clean sinks, taps and toilets
+    Sinks, taps and toilets
     ::
     
     ::task-item
-    Clean appliances, cabinets and mirrors
+    Appliances, cabinets and mirrors
     ::
     
     ::task-item
-    Washing, drying and ironing laundry
+    Wash, dry and iron laundry
     ::
     
     ::task-item
@@ -118,7 +118,7 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
     
     ::task-item
-    Restocking amenities and toiletries
+    Restock amenities and toiletries
     ::
 
     ::task-item
@@ -126,7 +126,7 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 
     ::task-item
-    Kitchen cleaning and running dishwasher
+    Kitchen and run dishwasher
     ::
 
     ::task-item
@@ -134,7 +134,7 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 
     ::task-item
-    Interior window cleaning
+    Clean interior windows
     ::
 
     ::task-item
@@ -205,9 +205,15 @@ FInal one here...
 
 ---
 
-::category
+::subcategory
+---
+category: tradespeople
+---
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Additional services for holiday rentals{{ $doc.location }}
+
+#description
+BaseLink offers a variety of services to meet all your commercial and business needs.
 ::
 
 ---

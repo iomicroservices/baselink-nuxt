@@ -35,10 +35,18 @@ defineProps<Props>()
                 :path="`/services/commercial-cleaning${pathExtension}`" />
             <CategoryItem name="Mobile car wash" emoji="material-symbols-light:local-car-wash-outline-rounded"
                 :path="`/services/mobile-car-wash${pathExtension}`" />
-            <CategoryItem name="tradespeople" emoji="material-symbols-light:handyman-outline"
+            <CategoryItem name="Tradespeople" emoji="material-symbols-light:handyman-outline"
                 :path="`/services/tradespeople${pathExtension}`" />
             <CategoryItem name="Handyman" emoji="material-symbols-light:handyman-outline"
                 :path="`/services/tradespeople/handyman${pathExtension}`" />
+            <CategoryItem name="TV wall mounting" emoji="material-symbols-light:tv-displays-outline"
+                :path="`/services/tradespeople/handyman/tv-wall-mounting${pathExtension}`" />
+            <CategoryItem name="Network engineer" emoji="material-symbols-light:network-manage-rounded"
+                :path="`/services/tradespeople/network-engineer${pathExtension}`" />
+            <CategoryItem name="CCTV installation" emoji="material-symbols-light:speed-camera-outline-rounded"
+                :path="`/services/tradespeople/network-engineer/cctv-installation${pathExtension}`" />
+            <CategoryItem name="Smart home" emoji="material-symbols-light:broadcast-on-home"
+                :path="`/services/tradespeople/network-engineer/smart-home-automation${pathExtension}`" />
             <CategoryItem name="Plumber" emoji="material-symbols-light:water-pump-outline-rounded"
                 :path="`/services/tradespeople/plumber${pathExtension}`" />
             <CategoryItem name="Locksmith" emoji="material-symbols-light:vpn-key-outline-rounded"
@@ -47,14 +55,14 @@ defineProps<Props>()
                 :path="`/services/tradespeople/carpenter${pathExtension}`" />
             <CategoryItem name="Painter & decorator" emoji="material-symbols-light:format-paint-outline-rounded"
                 :path="`/services/tradespeople/painter-decorator${pathExtension}`" />
+            <CategoryItem name="Gardener" emoji="material-symbols-light:park-outline-rounded"
+                :path="`/services/tradespeople/gardener${pathExtension}`" />
             <CategoryItem name="Gas & heating" emoji="material-symbols-light:water-heater-outline"
                 :path="`/services/tradespeople/gas-heating-engineer${pathExtension}`" />
-            <CategoryItem name="CCTV installation" emoji="material-symbols-light:speed-camera-outline-rounded"
-                :path="`/services/tradespeople/network-engineer/cctv-installation${pathExtension}`" />
-            <CategoryItem name="TV wall mounting" emoji="material-symbols-light:tv-displays-outline"
-                :path="`/services/tradespeople/handyman/tv-wall-mounting${pathExtension}`" />
-            <CategoryItem name="Smart home" emoji="material-symbols-light:broadcast-on-home"
-                :path="`/services/tradespeople/network-engineer/smart-home-automation${pathExtension}`" />
+            <CategoryItem name="Certification" emoji="material-symbols-light:edit-document-outline-rounded"
+                :path="`/services/tradespeople/certificates-reports${pathExtension}`" />
+            <CategoryItem name="Removals" emoji="material-symbols-light:delivery-truck-speed-outline-rounded"
+                :path="`/services/tradespeople/removals${pathExtension}`" />
         </div>
     </section>
 </template>

@@ -81,16 +81,37 @@ profession: "locksmiths"
 
 ::tasks
 #title
-What you get with ...
+What you get with locked out emergency
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Locked out of your home or business? We offer fast emergency response with non-destructive entry whenever possible. Our locksmiths{{ $doc.location }} work quickly and discreetly to regain access and restore your peace of mind — day or night.
 
 #items
 
     ::task-item
-    Custom ... requests
-    ::
+  Rapid-response call-out for home or business lockouts
+  ::
+
+  ::task-item
+  Non-destructive entry wherever possible
+  ::
+
+  ::task-item
+  Picking or bypassing locks using specialist tools
+  ::
+
+  ::task-item
+  Gaining access to uPVC, wooden, or composite doors
+  ::
+
+  ::task-item
+  [Supplying and fitting new locks](/services/tradespeople/locksmith/lock-change) (optional extra)
+  ::
+
+  ::task-item
+  Available for day or night emergencies
+  ::
+
 ::
 
 ---

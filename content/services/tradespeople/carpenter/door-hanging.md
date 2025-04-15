@@ -81,16 +81,49 @@ profession: "carpenters"
 
 ::tasks
 #title
-What you get with door hanging
+What does the door hanging service include?
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our skilled and trusted carpenters{{ $doc.location}} can design, build and install different types of internal or external doors. Your job will be managed by our dedicated support team for a reliable service.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Fitting of new internal or external doors
+  ::
+
+  ::task-item
+  Removal of old door and disposal
+  ::
+
+  ::task-item
+  Trimming and planing the door
+  ::
+
+  ::task-item
+  Installation of hinges
+  ::
+
+  ::task-item
+  Fitting of handles, locks and latches
+  ::
+
+  ::task-item
+  Checking alignment, swing and closure
+  ::
+
+  ::task-item
+  Minor frame adjustments or touch-ups
+  ::
+
+  ::task-item
+  Fit, repair or adjust door frames
+  ::
+
+  ::task-item
+  Final checks and clean-up of workspace
+  ::
+
 ::
 
 ---

@@ -81,16 +81,61 @@ profession: "carpenters"
 
 ::tasks
 #title
-What you get with outdoor decking
+What does the outdoor decking service include?
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our skilled and trusted carpenters{{ $doc.location}} can design, build and install different types of outdoor decking. Your job will be managed by our dedicated support team for a reliable service.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Timber decking
+  ::
+
+  ::task-item
+  Composite decking
+  ::
+
+  ::task-item
+  PVC decking
+  ::
+
+  ::task-item
+  Hardwood decking
+  ::
+
+  ::task-item
+  Softwood decking
+  ::
+
+  ::task-item
+  Anti-slip decking
+  ::
+
+  ::task-item
+  Elevated and platform decking
+  ::
+
+  ::task-item
+  Ground-level decking
+  ::
+
+  ::task-item
+  Integrated planters or seating
+  ::
+
+  ::task-item
+  Wrap-around decking
+  ::
+
+  ::task-item
+  Poolside or hot tub decking
+  ::
+
+  ::task-item
+  Roof decking
+  ::
+
 ::
 
 ---

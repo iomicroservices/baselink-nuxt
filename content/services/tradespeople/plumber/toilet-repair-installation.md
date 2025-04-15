@@ -81,16 +81,37 @@ profession: "plumbers"
 
 ::tasks
 #title
-What you get with ...
+What you get with toilet repair & installation
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether your toilet isn’t flushing or you need a full replacement, we’ve got it covered. Our plumbers{{ $doc.location }} fix leaks, faulty flushes, and install new units. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Diagnosing flush issues, leaks, or weak water flow
+  ::
+
+  ::task-item
+  Replacing fill valves, flush mechanisms, or seals
+  ::
+
+  ::task-item
+  Full toilet removal and installation (if replacing)
+  ::
+
+  ::task-item
+  Connecting to water and waste systems
+  ::
+
+  ::task-item
+  Ensuring secure fitting and proper flush operation
+  ::
+
+  ::task-item
+  Final testing and clean-up of area
+  ::
+
 ::
 
 ---

@@ -89,9 +89,30 @@ You can customise your ... with special instructions or add extra services. Your
 
 #items
 
-    ::task-item
-    Custom cleaning requests
-    ::
+  ::task-item
+  Inspection of headlight condition
+  ::
+  
+  ::task-item
+  Cleaning of headlight surface
+  ::
+  
+  ::task-item
+  Wet sanding to remove oxidation
+  ::
+  
+  ::task-item
+  Polishing to restore clarity
+  ::
+  
+  ::task-item
+  UV sealant application
+  ::
+  
+  ::task-item
+  Final buff and wipe down
+  ::
+
 ::
 
 ---
@@ -160,4 +181,15 @@ Find housekeepers and tradespeople {{$doc.location}}
 ::
 
 ::cta
+::
+
+::subcategory
+---
+category: home-cleaning
+---
+#title
+BaseLink cleaning services for your home{{ $doc.location }} too
+
+#description
+We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
 ::

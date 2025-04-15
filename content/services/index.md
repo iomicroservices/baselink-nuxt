@@ -11,7 +11,7 @@ Services
 Discover our range of residential and commercial services
 
 #description
-At BaseLink, we offer a comprehensive range of services for both residential and commercial needs. From expert cleaning services to reliable tradespeople and network engineers, we offer tailored solutions that keep your spaces spotless, functional, secure and well-maintained. You can count on our vetted, qualified and local professionals to provide exceptional service every time, wherever you are.
+Explore our comprehensive range of services for both residential and commercial needs. From expert cleaning services to reliable tradespeople and network engineers, we offer vetted, qualified and local professionals who deliver exceptional service every time.
 ::
 
 ---
@@ -24,7 +24,7 @@ category: home-cleaning
 [Home cleaning](/services/home-cleaning) services
 
 #description
-We all know that a clean home is a happy home. Our home cleaning services are designed to provide you with a thorough and reliable cleaning experience. Whether you're looking for regular upkeep or a one-time deep clean, we provide flexible cleaning that fits your schedule.
+We all know that a clean home is a happy home. Whether you're looking for regular upkeep or a one-time deep clean, we provide flexible home cleaning that fits your schedule.
 ::
 
 ---
@@ -37,7 +37,7 @@ category: commercial-cleaning
 [Commercial cleaning](/services/commercial-cleaning) services
 
 #description
-First impressions matter – and a clean business space makes all the difference. At BaseLink, we offer commercial cleaning services that keep your workplace fresh, tidy, and ready for business. From offices to retail spaces, we tailor our services to meet your specific needs.
+First impressions matter – and a clean business space makes all the difference. From offices to retail spaces, we offer tailored commercial cleaning services.
 ::
 
 ---
@@ -50,7 +50,7 @@ category: mobile-car-wash
 [Mobile car wash](/services/mobile-car-wash) services
 
 #description
-Busy schedule? No problem! Our mobile car wash services bring the clean to you. Whether you're at home, at work, or anywhere in between, we can connect you with a local team that provides thorough interior and exterior cleaning to keep your car looking its best.
+Busy schedule? No problem! Whether you're at home or at work, our mobile car wash services bring the 5-star clean to you.
 ::
 
 ---
@@ -63,5 +63,5 @@ category: tradespeople
 [Tradespeople](/services/tradespeople) services
 
 #description
-Need a hand with a project? Whether it’s securing your premises with CCTV, installing a new boiler or fixing a leaky pipe, we are ready to tackle any job, big or small. Our quick and easy booking process ensures you're matched with a skilled professional at a time that suits you.
+Need a hand with a project? Whether it’s securing your premises with CCTV or installing a new boiler, we are ready to tackle any job, big or small.
 ::

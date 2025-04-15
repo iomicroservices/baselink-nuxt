@@ -98,15 +98,15 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
     
     ::task-item
-    Clean sinks, taps and toilets
+    Sinks, taps and toilets
     ::
     
     ::task-item
-    Restocking toiletries and supplies
+    Restock toiletries and supplies
     ::
     
     ::task-item
-    Clean appliances, cabinets and mirrors
+    Appliances, cabinets and mirrors
     ::
 
     ::task-item
@@ -114,19 +114,15 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 
     ::task-item
-    Kitchen cleaning and running dishwasher
+    Kitchen and run dishwasher
     ::
 
     ::task-item
-    Breakout space and meeting room cleaning
+    Breakout space and meeting rooms
     ::
 
     ::task-item
-    Cleaning and organising workstations
-    ::
-
-    ::task-item
-    Scheduled deep cleaning
+    Clean and organise workstations
     ::
 
     ::task-item
@@ -193,9 +189,15 @@ FInal one here...
 
 ---
 
-::category
+::subcategory
+---
+category: tradespeople
+---
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Additional services for commercial offices{{ $doc.location }}
+
+#description
+BaseLink offers a variety of services to meet all your commercial and business needs.
 ::
 
 ---

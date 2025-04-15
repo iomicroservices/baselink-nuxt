@@ -1,7 +1,7 @@
 ---
 title: "Painter and decorator service"
-alt: "Comprehensive painting and decorating services to transform and beautify your space"
-description: "Comprehensive painting and decorating services to transform and beautify your space"
+alt: "Comprehensive painting and decorating services to transform your space"
+description: "Comprehensive painting and decorating services to transform your space"
 category: "tradespeople"
 subcategory: "painter-decorator"
 image: "/tradespeople/painter-decorator/painter-decorator.webp"

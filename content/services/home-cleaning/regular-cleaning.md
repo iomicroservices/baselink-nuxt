@@ -89,53 +89,53 @@ You can customise your clean with special instructions or add extra services. Yo
 
 #items
     
-    ::task-item
-    Dusting and surface cleaning
-    ::
-    
-    ::task-item
-    Vacuum and mop floors
-    ::
-    
-    ::task-item
-    Clean sinks, taps and toilets
-    ::
-    
-    ::task-item
-    Clean appliances, cabinets and mirrors
-    ::
-    
-    ::task-item
-    Washing, drying and ironing laundry
-    ::
-    
-    ::task-item
-    Fresh linen and towel replacement
-    ::
+  ::task-item
+  Dusting and surface cleaning
+  ::
+  
+  ::task-item
+  Vacuum and mop floors
+  ::
+  
+  ::task-item
+  Sinks, taps and toilets
+  ::
+  
+  ::task-item
+  Appliances, cabinets and mirrors
+  ::
+  
+  ::task-item
+  Wash, dry and iron laundry
+  ::
+  
+  ::task-item
+  Fresh linen and towel replacement
+  ::
 
-    ::task-item
-    Sanitise high-touch surfaces
-    ::
+  ::task-item
+  Sanitise high-touch surfaces
+  ::
 
-    ::task-item
-    Kitchen cleaning and running dishwasher
-    ::
+  ::task-item
+  Kitchen and run dishwasher
+  ::
 
-    ::task-item
-    Sweep entrances and balconies
-    ::
+  ::task-item
+  Sweep entrances and balconies
+  ::
 
-    ::task-item
-    Interior window cleaning
-    ::
+  ::task-item
+  Clean interior windows
+  ::
 
-    ::task-item
-    Trash removal and recycling
-    ::
+  ::task-item
+  Trash removal and recycling
+  ::
 
-    ::task-item
-    Custom cleaning requests
-    ::
+  ::task-item
+  Custom cleaning requests
+  ::
 ::
 
 ---
@@ -193,9 +193,15 @@ FInal one here...
 
 ---
 
-::category
+::subcategory
+---
+category: tradespeople
+---
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Additional services for your home or business{{ $doc.location }}
+
+#description
+BaseLink offers a variety of services to meet all your needs.
 ::
 
 ---

@@ -81,16 +81,57 @@ profession: "painters"
 
 ::tasks
 #title
-What you get with ...
+What you get with exterior painting service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Refresh the outside of your property with professional exterior painting. Our skilled painters{{ $doc.location }} prepare and paint walls, fences, gates, and more for both residential and commercial properties. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Supply the paint or use your own
+  ::
+
+  ::task-item
+  Residential: houses, flats, annexes or sheds
+  ::
+
+  ::task-item
+  Commercial: shops, offices and public sector
+  ::
+  
+  ::task-item
+  Surface preparation – cleaning, sanding, and filling cracks
+  ::
+
+  ::task-item
+  Application of weather-resistant exterior paints
+  ::
+
+  ::task-item
+  Painting of walls, fences, gates, fascias, and soffits
+  ::
+
+  ::task-item
+  Priming and sealing surfaces for durability
+  ::
+
+  ::task-item
+  Colour-matching and consultation on finishes
+  ::
+
+  ::task-item
+  Use of ladders or scaffolding where required
+  ::
+
+  ::task-item
+  Protection of windows, plants, and external fixtures
+  ::
+
+  ::task-item
+  Tidy-up and safe disposal of materials
+  ::
+
 ::
 
 ---

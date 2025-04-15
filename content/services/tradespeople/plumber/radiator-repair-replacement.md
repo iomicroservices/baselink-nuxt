@@ -81,16 +81,37 @@ profession: "plumbers"
 
 ::tasks
 #title
-What you get with ...
+What you get with radiator repair & replacement
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our skilled plumbers{{ $doc.location }} fix leaky, noisy, or underperforming radiators — and replace them when needed. From minor repairs to full upgrades, we make sure your heating is consistent, quiet, and energy efficient. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Diagnosing leaks, cold spots, or faulty valves
+  ::
+
+  ::task-item
+  Bleeding air from radiators
+  ::
+
+  ::task-item
+  Replacing broken valves or thermostatic controls
+  ::
+
+  ::task-item
+  Full radiator removal and replacement
+  ::
+
+  ::task-item
+  Repressurising system and testing
+  ::
+
+  ::task-item
+  Wall mounting and levelling
+  ::
+
 ::
 
 ---

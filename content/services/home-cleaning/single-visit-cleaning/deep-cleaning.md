@@ -89,9 +89,39 @@ You can customise your clean with special instructions or add extra services. Yo
 
 #items
 
-    ::task-item
-    Custom cleaning requests
-    ::
+  ::task-item
+  Everything in a standard clean
+  ::
+
+  ::task-item
+  Dusting and surface cleaning
+  ::
+
+  ::task-item
+  Vacuum and mop floors
+  ::
+
+  ::task-item
+  Vacuum furniture
+  ::
+
+  ::task-item
+  Sanitise high-touch surfaces
+  ::
+  
+  ::task-item
+  Clean inside oven and appliances
+  ::
+
+  ::task-item
+  Descale kitchen and toilets
+  ::
+
+  ::task-item
+  Custom cleaning requests
+  ::
+
+
 ::
 
 ---
@@ -149,9 +179,15 @@ FInal one here...
 
 ---
 
-::category
+::subcategory
+---
+category: tradespeople
+---
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Additional services for your home or business{{ $doc.location }}
+
+#description
+BaseLink offers a variety of services to meet all your needs.
 ::
 
 ---

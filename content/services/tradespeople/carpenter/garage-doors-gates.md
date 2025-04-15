@@ -80,17 +80,67 @@ profession: "carpenters"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What does the garage gating service include?
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our skilled and trusted carpenters{{ $doc.location}} can replace and install different types of garage gates and doors. Your job will be managed by our dedicated support team for a reliable service.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Automated driveway gates
+  ::
+
+  ::task-item
+  Up and over garage doors
+  ::
+
+  ::task-item
+  Sectional garage doors
+  ::
+
+  ::task-item
+  Roller shutter garage doors
+  ::
+
+  ::task-item
+  Side-hinged garage doors
+  ::
+
+  ::task-item
+  Sliding garage doors
+  ::
+
+  ::task-item
+  Automatic/electric garage doors
+  ::
+
+  ::task-item
+  Timber garage doors
+  ::
+
+  ::task-item
+  Steel garage doors
+  ::
+
+  ::task-item
+  Composite garage doors
+  ::
+
+  ::task-item
+  Aluminium frame gates
+  ::
+
+  ::task-item
+  Wrought iron gates
+  ::
+
+  ::task-item
+  Timber driveway gates
+  ::
+
 ::
 
 ---

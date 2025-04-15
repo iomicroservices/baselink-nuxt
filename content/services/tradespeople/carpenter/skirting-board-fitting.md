@@ -80,17 +80,43 @@ profession: "carpenters"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What does the skirting board fitting service include?
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our skilled and trusted carpenters{{ $doc.location}} can design, replace and install different types of skirting boards. Your job will be managed by our dedicated support team for a reliable service.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Removal of old skirting boards
+  ::
+
+  ::task-item
+  Cutting to size and angle
+  ::
+
+  ::task-item
+  Fitting new skirting boards
+  ::
+
+  ::task-item
+  Gap filling and sealing
+  ::
+
+  ::task-item
+  Scribing for uneven walls
+  ::
+
+  ::task-item
+  Painting or priming skirting boards
+  ::
+
+  ::task-item
+  Final inspection and tidy-up
+  ::
+
 ::
 
 ---

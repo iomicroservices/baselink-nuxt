@@ -80,17 +80,47 @@ profession: "assessors"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+How BaseLink helps ensure your appliances are electrically safe and compliant
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Portable Appliance Testing (PAT) ensures your electrical appliances are safe to use. Our qualified assessors{{ $doc.location }} can test any number of appliances, including kettles, microwaves, fridges, televisions and more — whether in homes, offices or rental properties.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Visual inspection of appliances
+  ::
+
+  ::task-item
+  Plug and cable checks
+  ::
+
+  ::task-item
+  Insulation resistance testing
+  ::
+
+  ::task-item
+  Earth continuity and bond testing
+  ::
+
+  ::task-item
+  Functional checks
+  ::
+
+  ::task-item
+  Labelling and tagging
+  ::
+
+  ::task-item
+  Fault identification and guidance
+  ::
+
+  ::task-item
+  Issue a full condition report
+  ::
+
 ::
 
 ---

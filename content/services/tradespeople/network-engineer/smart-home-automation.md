@@ -81,16 +81,33 @@ profession: "network engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with smart home automation service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Control your home from anywhere with smart automation. Our network engineers{{ $doc.location }} install and integrate smart lighting, heating, security, and more — fully set up for app and voice control. Your account will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Installation of smart hubs and controllers
+  ::
+
+  ::task-item
+  Integration of lighting, heating, security, and AV systems
+  ::
+
+  ::task-item
+  Setup of mobile app control
+  ::
+
+  ::task-item
+  Configuration of voice assistant compatibility
+  ::
+
+  ::task-item
+  Testing and user training
+  ::
+
 ::
 
 ---

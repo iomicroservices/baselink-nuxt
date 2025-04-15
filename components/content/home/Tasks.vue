@@ -1,9 +1,17 @@
 <script setup lang="ts">
-    interface Props {
-        title?: string
-        description?: string
-    }
-    defineProps<Props>()
+
+interface Props {
+    title?: string
+    description?: string
+    path?: string
+}
+
+const props = defineProps<Props>()
+//store route info in route const
+const { params } = useRoute()
+//create pathCategory const if [category] param exists, otherwise return empty string
+const pathCategory = params.category ? params.category : props.path
+
 </script>
 
 <template>
@@ -20,7 +28,7 @@
                     </ContentSlot>
                 </h2>
 
-                <p class="text-xl max-w-[75%] lg:max-w-[100%]">
+                <p class="text-xl max-w-[100%] md:max-w-[75%] lg:max-w-[100%]">
                     <ContentSlot unwrap="p" name="description">
                         {{ description || 'Default Description' }}
                     </ContentSlot>
@@ -54,7 +62,7 @@
 
                     <!-- Buttons -->
                     <div class="pt-4 flex flex-col lg:flex-row gap-4 justify-center lg:justify-start">
-                        <NuxtLink to="path1" class="btn-primary">
+                        <NuxtLink v-if="pathCategory" :to="`/services/${pathCategory}/quote`" class="btn-primary">
                             Get a quote
                         </NuxtLink>
                     </div>

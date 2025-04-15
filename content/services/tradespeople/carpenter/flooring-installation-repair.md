@@ -80,17 +80,55 @@ profession: "carpenters"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What does the flooring service include?
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our skilled and trusted carpenters{{ $doc.location}} can design, build, install and repair different types of flooring. Your job will be managed by our dedicated support team for a reliable service.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Laminate flooring installation & repair
+  ::
+
+  ::task-item
+  Hardwood floorboard fitting & repair
+  ::
+
+  ::task-item
+  Floorboard fitting, repairs & repalcement
+  ::
+
+  ::task-item
+  Vinyl flooring installation
+  ::
+
+  ::task-item
+  Carpet fitting & replacement
+  ::
+
+  ::task-item
+  Subfloor preparation and levelling
+  ::
+
+  ::task-item
+  Skirting board fitting or replacement
+  ::
+
+  ::task-item
+  Threshold strip fitting
+  ::
+
+  ::task-item
+  Tile flooring installation
+  ::
+
+  ::task-item
+  Floor sanding and sealing
+  ::
+
 ::
 
 ---

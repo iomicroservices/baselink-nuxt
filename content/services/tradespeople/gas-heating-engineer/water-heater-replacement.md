@@ -81,16 +81,57 @@ profession: "engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with water heater service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether you're upgrading an old system or installing a brand new water heater, we make the process smooth from start to finish. Our Gas Safe engineers{{ $doc.location }} replace all types of water heaters — electric, gas, vented, and unvented — ensuring all connections, pipework, and safety features are professionally fitted.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Removal of old water heater unit
+  ::
+
+  ::task-item
+  Supply and installation of new water heater
+  ::
+
+  ::task-item
+  Installation of unvented or vented cylinders
+  ::
+
+  ::task-item
+  Electric water heater replacement
+  ::
+
+  ::task-item
+  Gas water heater installation
+  ::
+
+  ::task-item
+  Point-of-use water heater fitting
+  ::
+
+  ::task-item
+  Connection to mains water and power supply
+  ::
+
+  ::task-item
+  Safety valve and pipework installation
+  ::
+
+  ::task-item
+  Temperature and pressure testing
+  ::
+
+  ::task-item
+  System flush and clean-up after installation
+  ::
+
+  ::task-item
+  Certification and user demonstration
+  ::
+
 ::
 
 ---

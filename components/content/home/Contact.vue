@@ -12,7 +12,7 @@ defineProps<Props>()
         <div class="mx-auto max-w-[600px]">
 
             <!-- Title and Description Section -->
-            <div class="text-center mb-10">
+            <div class="md:text-center mb-10">
 
                 <h2 class="heading2">
                     <ContentSlot unwrap="p" name="title">

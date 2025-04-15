@@ -80,17 +80,55 @@ profession: "carpenters"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What does the kitchen fitting service include?
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our skilled and trusted carpenters{{ $doc.location}} can design, build, replace and install different types of kitchens. Your job will be managed by our dedicated support team for a reliable service.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Design consultation and planning
+  ::
+
+  ::task-item
+  Removal of old kitchen units
+  ::
+
+  ::task-item
+  Fitting new kitchen units and cabinets
+  ::
+
+  ::task-item
+  Worktop and island installation
+  ::
+
+  ::task-item
+  Worktop edging and finishing
+  ::
+
+  ::task-item
+  Fitting of integrated appliances
+  ::
+
+  ::task-item
+  Cabinet doors and drawer fitting
+  ::
+
+  ::task-item
+  Bespoke shelving and storage
+  ::
+
+  ::task-item
+  Tiling or splashback fitting
+  ::
+
+  ::task-item
+  Bespoke kitchen refurbishment
+  ::
+
 ::
 
 ---

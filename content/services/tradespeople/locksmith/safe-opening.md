@@ -81,16 +81,33 @@ profession: "locksmiths"
 
 ::tasks
 #title
-What you get with ...
+What you get with safe opening
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Lost the code or key to your safe? We open digital, combination and manual safes using professional tools and techniques. Whether at home or work, we’ll regain access without damaging contents.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Identifying type of safe and lock mechanism
+  ::
+
+  ::task-item
+  Non-destructive entry methods used where possible
+  ::
+
+  ::task-item
+  Opening digital, combination, or key-locked safes
+  ::
+
+  ::task-item
+  Drilling or manipulation if required
+  ::
+
+  ::task-item
+  Confidential and secure handling of contents
+  ::
+
 ::
 
 ---

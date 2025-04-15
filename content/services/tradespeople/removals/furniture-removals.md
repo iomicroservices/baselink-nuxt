@@ -81,16 +81,37 @@ profession: "movers"
 
 ::tasks
 #title
-What you get with ...
+What you get with furniture removals
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Need to move or dispose of bulky furniture? Our skileld tema{{ $doc.location }} handle everything from dismantling and carrying to transport and reassembly. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Dismantling large or awkward furniture (if needed)
+  ::
+
+  ::task-item
+  Careful handling of sofas, beds, wardrobes, and tables
+  ::
+
+  ::task-item
+  Wrapping or covering items to prevent damage
+  ::
+
+  ::task-item
+  Lifting and loading into van using proper equipment
+  ::
+
+  ::task-item
+  Transport to storage, disposal site, or new location
+  ::
+
+  ::task-item
+  Reassembly available on request
+  ::
+
 ::
 
 ---

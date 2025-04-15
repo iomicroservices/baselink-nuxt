@@ -81,16 +81,37 @@ profession: "plumbers"
 
 ::tasks
 #title
-What you get with ...
+What you get with drain unblocking service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Blocked drain? We’ll clear it quickly and cleanly. Whether it’s a slow sink, overflowing drain, or full blockage, our skilled plumbers{{ $doc.location }} use the right tools to get water flowing again. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Diagnosis of blockage location and severity
+  ::
+
+  ::task-item
+  Unblocking kitchen, bathroom, or external drains
+  ::
+
+  ::task-item
+  Use of rods, plungers, or pressure water jets
+  ::
+
+  ::task-item
+  Removal of food waste, hair, grease, or debris
+  ::
+
+  ::task-item
+  Testing for proper drainage after clearing
+  ::
+
+  ::task-item
+  Advice on preventing future blockages
+  ::
+
 ::
 
 ---

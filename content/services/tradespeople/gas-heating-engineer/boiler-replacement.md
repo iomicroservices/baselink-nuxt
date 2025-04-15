@@ -79,18 +79,58 @@ profession: "engineers"
 
 ---
 
+
+
 ::tasks
+
 #title
-What you get with ...
+What you get with boiler replacement service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether you're upgrading an old system or installing a brand new boiler, we make the process smooth from start to finish. Our Gas Safe engineers{{ $doc.location }} replace all types of boilers — combi, system, or conventional — and work with all leading brands to suit your home, budget, and heating needs.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Initial consultation and survey
+  ::
+
+  ::task-item
+  Removal of old boiler
+  :: 
+
+  ::task-item
+  Supply and delivery of new boiler
+  ::
+
+  ::task-item
+  Installation of new boiler unit
+  ::
+
+  ::task-item
+  Upgrading pipework and fittings
+  ::
+
+  ::task-item
+  Installation of thermostat and controls
+  ::
+
+  ::task-item
+  System testing and safety checks
+  ::
+
+  ::task-item
+  Gas Safe certification
+  ::
+
+  ::task-item
+  User demonstration and handover
+  ::
+
+  ::task-item
+  Gas Safe certification
+  ::
+
 ::
 
 ---

@@ -81,16 +81,29 @@ profession: "network engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with WiFi conectivity service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Tired of patchy WiFi? We boost coverage and performance with the right setup for your space — including routers, mesh systems, and access points for strong, stable connections throughout your property. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Signal strength testing across property
+  ::
+  ::task-item
+  Installation of routers, mesh systems, or access points
+  ::
+  ::task-item
+  Optimising router placement for better coverage
+  ::
+  ::task-item
+  Cabling or wireless extender setup
+  ::
+  ::task-item
+  Speed testing and device connection support
+  ::
+
 ::
 
 ---

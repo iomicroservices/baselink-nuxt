@@ -106,11 +106,11 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
     
     ::task-item
-    Clean sinks, taps and toilets
+    Sinks, taps and toilets
     ::
     
     ::task-item
-    Clean appliances, cabinets and mirrors
+    Appliances, cabinets and mirrors
     ::
 
     ::task-item
@@ -118,7 +118,7 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 
     ::task-item
-    Interior window cleaning
+    Clean interior windows
     ::
 
     ::task-item
@@ -181,9 +181,15 @@ FInal one here...
 
 ---
 
-::category
+::subcategory
+---
+category: tradespeople
+---
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Additional services for your home or business{{ $doc.location }}
+
+#description
+BaseLink offers a variety of services to meet all your needs.
 ::
 
 ---

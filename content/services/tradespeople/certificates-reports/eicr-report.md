@@ -19,7 +19,7 @@ Local assessors
 EICR certification{{ $doc.location }}
 
 #description
-Ensure your electrical installations are safe with our expert Electrical Installation Condition Reports (EICRs) service{{ $doc.location }} using qualified local engineers. Flexible online bookings.
+Ensure your electrical installations are safe with our expert Electrical Installation Condition Reports (EICRs) service{{ $doc.location }} using qualified local assessors. Flexible online bookings.
 
 #image
     ::pictures
@@ -80,17 +80,51 @@ profession: "assessors"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+How BaseLink helps ensure your property is electrically safe and compliant
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+An EICR report checks the safety and integrity of your property's wiring and electrical systems. Our qualified assessors{{ $doc.location }} carry out a full inspection, identify any faults or risks, and provide a clear report to help you stay compliant with landlord safety regulations.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Visual inspection of electrical installation
+  ::
+
+  ::task-item
+  Testing for earthing and bonding
+  ::
+
+  ::task-item
+  Insulation resistance testing
+  ::
+
+  ::task-item
+  RCD, dead and live testing
+  ::
+
+  ::task-item
+  Circuit breaker and fuse testing
+  ::
+
+  ::task-item
+  Identification of overloaded circuits
+  ::
+
+  ::task-item
+  Detection of potential fire or electric shock risks
+  ::
+
+  ::task-item
+  Check for outdated or non-compliant wiring
+  ::
+
+  ::task-item
+  Issue a full condition report
+  ::
+
 ::
 
 ---

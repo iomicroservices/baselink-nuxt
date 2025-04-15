@@ -89,9 +89,30 @@ You can customise your valet with special instructions or add extra services. Yo
 
 #items
 
-    ::task-item
-    Custom cleaning requests
-    ::
+  ::task-item
+  Loose debris and dust removal
+  ::
+  
+  ::task-item
+  Degreasing of engine bay surfaces
+  ::
+  
+  ::task-item
+  Hand cleaning of visible components
+  ::
+  
+  ::task-item
+  Wipe down of hoses and metal parts
+  ::
+  
+  ::task-item
+  Detailing of trims and covers
+  ::
+
+  ::task-item
+  Drying and finishing
+  ::
+
 ::
 
 ---
@@ -160,4 +181,15 @@ Find housekeepers and tradespeople {{$doc.location}}
 ::
 
 ::cta
+::
+
+::subcategory
+---
+category: home-cleaning
+---
+#title
+BaseLink cleaning services for your home{{ $doc.location }} too
+
+#description
+We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
 ::

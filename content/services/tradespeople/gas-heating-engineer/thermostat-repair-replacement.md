@@ -80,17 +80,51 @@ profession: "engineers"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with thermostat repair & replacement
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+We repair and replace all types of thermostats — from basic manual units to advanced smart controls. Whether you're upgrading or fixing an issue, our engineers{{ $doc.location }} ensure your thermostat works accurately.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Manual thermostat repair and replacement
+  ::
+
+  ::task-item
+  Programmable thermostat repair and replacement
+  ::
+
+  ::task-item
+  Smart thermostat installation and setup
+  ::
+
+  ::task-item
+  Wireless thermostat repair and pairing
+  ::
+
+  ::task-item
+  Thermostat sensor fault diagnosis
+  ::
+
+  ::task-item
+  Thermostat battery replacement and testing
+  ::
+
+  ::task-item
+  Thermostat calibration and accuracy check
+  ::
+
+  ::task-item
+  Room and zone thermostat upgrades
+  ::
+
+  ::task-item
+  Heating system compatibility checks
+  ::
+
 ::
 
 ---

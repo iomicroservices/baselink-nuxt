@@ -80,17 +80,51 @@ profession: "handymen"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with TV wall mounting
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our handymen{{ $doc.location }} install all bracket types on any wall surface, including brick, plasterboard, or concrete. You can use your own bracket or let us supply one to match your TV size and setup. We’ll make sure everything is secure, level, and wired up properly.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Assessment of wall type
+  ::
+
+  ::task-item
+  Advice on ideal mounting height and position
+  ::
+
+  ::task-item
+  Installation of fixed, tilt, or full-motion brackets
+  ::
+
+  ::task-item
+  Supply of wall brackets or use your own
+  ::
+
+  ::task-item
+  Drilling and securing bracket to the wall
+  ::
+
+  ::task-item
+  Mounting TVs of all sizes
+  ::
+
+  ::task-item
+  Concealing or managing cables (if requested)
+  ::
+
+  ::task-item
+  Checking alignment, level, and secure fitting
+  ::
+
+  ::task-item
+  Testing TV stability
+  ::
+
 ::
 
 ---

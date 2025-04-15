@@ -80,17 +80,63 @@ profession: "carpenters"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What does the staircase renovation service include?
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our skilled and trusted carpenters{{ $doc.location}} can design, replace, install and repair different types of staircases. Your job will be managed by our dedicated support team for a reliable service.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  New staircase installation
+  ::
+
+  ::task-item
+  Existing staircase removal
+  ::
+
+  ::task-item
+  Strengthening and structural repairs
+  ::
+
+  ::task-item
+  Tread and riser replacement or repair
+  ::
+
+  ::task-item
+  Balustrade and handrail replacement
+  ::
+
+  ::task-item
+  Newel post installation or restoration
+  ::
+
+  ::task-item
+  Squeak and creak elimination
+  ::
+
+  ::task-item
+  Cladding existing stairs
+  ::
+
+  ::task-item
+  Stair carpet removal and replacement
+  ::
+
+  ::task-item
+  Sanding, staining or painting
+  ::
+
+  ::task-item
+  Safety improvements
+  ::
+
+  ::task-item
+  Custom design elements
+  ::
+
 ::
 
 ---

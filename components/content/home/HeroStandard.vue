@@ -56,9 +56,9 @@ const pathCategory = params.category ? params.category : props.path1
                             {{ button1 || "Request a quote" }}
                         </NuxtLink>
 
-                        <NuxtLink v-if="button2 && path2" :to="path2" class="btn-secondary">
-                            {{ button2 || "Find out more" }}
-                        </NuxtLink>
+                        <a :href="path2 || 'tel:03330388288'" class="btn-secondary">
+                            {{ button2 || "03330 388 288" }}
+                        </a>
 
                     </div>
 

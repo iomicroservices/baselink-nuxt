@@ -80,17 +80,59 @@ profession: "assessors"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+How BaseLink helps ensure your property is fire safe and compliant
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Fire risk assessments are mandatory for FSO regulated properties such as businesses, HMO, or residential block with shared areas. Our qualified assessors{{ $doc.location }} will carry out a full inspection of your premises and provide a detailed report with a risk rating and recommendations.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Identification of fire hazards
+  ::
+
+  ::task-item
+  Assessment of fire detection systems
+  ::
+
+  ::task-item
+  Assessment of warning systems
+  ::
+
+  ::task-item
+  Review of fire escape routes and exits
+  ::
+
+  ::task-item
+  Inspection of emergency lighting
+  ::
+
+  ::task-item
+  Evaluation of fire-fighting equipment
+  ::
+
+  ::task-item
+  Assessment of fire safety signage
+  ::
+
+  ::task-item
+  Review of staff training and fire procedures
+  ::
+
+  ::task-item
+  Review of evacuation plans and accessibility
+  ::
+
+  ::task-item
+  Fire logbook and maintenance records check
+  ::
+
+  ::task-item
+  Recommendations and risk rating
+  ::
+
 ::
 
 ---

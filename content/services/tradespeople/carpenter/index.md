@@ -1,7 +1,7 @@
 ---
 title: "Carpenter service"
-alt: "From shelves to full renovations, including custom woodwork, furniture building, and home improvements"
-description: "From shelves to full renovations, including custom woodwork, furniture building, and home improvements"
+alt: "From fitting shelves and kitchens, to full renovations and custom woodwork"
+description: "From fitting shelves and kitchens, to full renovations and custom woodwork"
 category: "tradespeople"
 subcategory: "carpenter"
 task: "carpenter"
@@ -82,16 +82,33 @@ profession: "carpenters"
 
 ::tasks
 #title
-What you get with ...
+What you get with carpenter
 
 #description
 You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  [Outdoor decking]
+  ::
+
+  ::task-item
+  Custom ... requests
+  ::
+
+  ::task-item
+  Custom ... requests
+  ::
+
+  ::task-item
+  Custom ... requests
+  ::
+
+  ::task-item
+  Custom ... requests
+  ::
+
 ::
 
 ---

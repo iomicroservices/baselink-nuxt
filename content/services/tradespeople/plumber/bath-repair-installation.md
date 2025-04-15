@@ -81,16 +81,41 @@ profession: "plumbers"
 
 ::tasks
 #title
-What you get with ...
+What you get with bath repair and installation
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether you’re fitting a new bath or repairing an existing one, we handle the full job. Our skilled plumbers{{ $doc.location }} can also fix cracks, leaks, or drainage issues to get your bath back in top shape. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Removal of old bath
+  ::
+
+  ::task-item
+  Installation of new bath
+  ::
+
+  ::task-item
+  Sealing edges to prevent leaks
+  ::
+
+  ::task-item
+  Connection to hot and cold water supply
+  ::
+
+  ::task-item
+  Drain and waste pipe setup
+  ::
+
+  ::task-item
+  Repair of cracks or surface damage
+  ::
+
+  ::task-item
+  Testing for stability and watertight seals
+  ::
+
 ::
 
 ---

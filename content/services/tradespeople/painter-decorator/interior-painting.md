@@ -81,16 +81,53 @@ profession: "painters"
 
 ::tasks
 #title
-What you get with ...
+What you get with interior painting service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Brighten up your property with professional interior painting. Our skilled painters{{ $doc.location }} cover both residential and commercial properties. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
+  ::task-item
+  Supply the paint or use your own
+  ::
+
+  ::task-item
+  Residential: houses, flats, annexes or sheds
+  ::
+
+  ::task-item
+  Commercial: shops, offices and public sector
+  ::
+
     ::task-item
-    Custom ... requests
-    ::
+  Covering furniture and flooring to protect from paint
+  ::
+
+  ::task-item
+  Filling holes and sanding uneven surfaces
+  ::
+
+  ::task-item
+  Applying primer, undercoat, and topcoat as needed
+  ::
+
+  ::task-item
+  Painting walls, ceilings, doors, trims, and skirting boards
+  ::
+
+  ::task-item
+  Colour matching or finish recommendations
+  ::
+
+  ::task-item
+  Use of brushes, rollers, or spray techniques
+  ::
+
+  ::task-item
+  Clean-up and waste removal after the job
+  ::
+
 ::
 
 ---

@@ -98,7 +98,7 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 
     ::task-item
-    Clean lifts and staricases
+    Lifts and staricases
     ::
 
     ::task-item
@@ -177,9 +177,15 @@ FInal one here...
 
 ---
 
-::category
+::subcategory
+---
+category: tradespeople
+---
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Additional services for residential blocks{{ $doc.location }}
+
+#description
+BaseLink offers a variety of services to meet all your commercial and business needs.
 ::
 
 ---

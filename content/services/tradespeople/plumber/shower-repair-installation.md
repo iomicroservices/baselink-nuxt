@@ -81,16 +81,37 @@ profession: "plumbers"
 
 ::tasks
 #title
-What you get with ...
+What you get with shower repair & replacement
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Need a new shower or fixing a faulty one? Our skilled plumbers{{ $doc.location }} install and repair all types — electric, mixer, or thermostatic — making sure everything is watertight and properly plumbed. Your account will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Removing old shower unit or enclosure
+  ::
+
+  ::task-item
+  Installing new shower tray, enclosure, or mixer unit
+  ::
+
+  ::task-item
+  Connecting to hot and cold water lines
+  ::
+
+  ::task-item
+  Sealing around trays and fittings
+  ::
+
+  ::task-item
+  Repairing leaks or faulty shower valves
+  ::
+
+  ::task-item
+  Pressure testing and flow adjustment
+  ::
+
 ::
 
 ---

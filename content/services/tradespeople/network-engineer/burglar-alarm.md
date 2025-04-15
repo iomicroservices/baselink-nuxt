@@ -81,16 +81,41 @@ profession: "network engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with burglar alarm installation
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Protect your property with a professionally installed burglar alarm. Our network engineers{{ $doc.location }} fit and configure wired or wireless systems tailored to your space, complete with motion sensors, control panel, and optional 24/7 monitoring service.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Free survey of property
+  ::
+
+  ::task-item
+  Supply of equipment or use your own
+  ::
+
+  ::task-item
+  Installation of wired or wireless alarm systems
+  ::
+
+  ::task-item
+  Placement of sensors on doors, windows, and entry points
+  ::
+
+  ::task-item
+  Setup of control panel and access codes
+  ::
+
+  ::task-item
+  Testing alarm triggers and notifications
+  ::
+
+  ::task-item
+  Optional connection to monitoring service
+  ::
+
 ::
 
 ---

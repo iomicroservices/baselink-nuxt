@@ -81,16 +81,37 @@ profession: "plumbers"
 
 ::tasks
 #title
-What you get with ...
+What you get with jacuzzi installation
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Installing a jacuzzi? From connecting pipes to sealing and testing the system, our skilled plumbers{{ $doc.location }} make sure every feature works perfectly. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Site inspection and setup planning
+  ::
+
+  ::task-item
+  Connecting water supply and drainage
+  ::
+
+  ::task-item
+  Electrical hookup for pumps and jets
+  ::
+
+  ::task-item
+  Installing jacuzzi unit and securing in place
+  ::
+
+  ::task-item
+  Filling, testing, and checking for leaks
+  ::
+
+  ::task-item
+  Providing usage and maintenance guidance
+  ::
+
 ::
 
 ---

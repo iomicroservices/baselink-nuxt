@@ -81,16 +81,37 @@ profession: "movers"
 
 ::tasks
 #title
-What you get with ...
+What you get with office & commercial removals
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Relocating your business? Whether you're moving a small office or an entire premises, our team{{ $doc.location }} handle equipment, furniture, and logistics — so your team can get back to work faster. Your job will be managed by our dedicated support team to ensure minimal downtime.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Planning for minimal business disruption
+  ::
+
+  ::task-item
+  Packing and protection of IT, desks, and equipment
+  ::
+
+  ::task-item
+  Dismantling and reassembly of office furniture
+  ::
+
+  ::task-item
+  Secure handling of sensitive or valuable items
+  ::
+
+  ::task-item
+  Coordinated transport to new location
+  ::
+
+  ::task-item
+  Setup support at destination (if needed)
+  ::
+
 ::
 
 ---

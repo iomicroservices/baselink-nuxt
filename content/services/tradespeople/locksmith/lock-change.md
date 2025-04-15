@@ -81,16 +81,37 @@ profession: "locksmiths"
 
 ::tasks
 #title
-What you get with ...
+What you get with lock change
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether you're moving into a new property or upgrading your security, we replace all types of locks quickly and professionally. From standard door locks to high-security cylinders, we’ll supply and fit the right option for your needs.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Removing existing locks from doors, gates, or windows
+  ::
+
+  ::task-item
+  Supplying and fitting new locks
+  ::
+
+  ::task-item
+  Installing cylinder, mortice, rim, or digital locks
+  ::
+
+  ::task-item
+  Replacing locks after tenant change or lost keys
+  ::
+
+  ::task-item
+  Testing lock operation with new keys
+  ::
+
+  ::task-item
+  Disposal of old lock components
+  ::
+
 ::
 
 ---

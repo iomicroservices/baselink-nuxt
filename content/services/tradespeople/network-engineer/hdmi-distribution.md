@@ -81,16 +81,29 @@ profession: "network engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with HDMI distribution service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Distribute video from one device to multiple screens with seamless HDMI integration. Ideal for commercial displays, home cinemas, or multi-room entertainment setups. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Setup of HDMI matrix or splitter system
+  ::
+  ::task-item
+  Running HDMI over CAT6 or coaxial cabling
+  ::
+  ::task-item
+  Connecting multiple displays to a single source
+  ::
+  ::task-item
+  Installation of in-wall HDMI ports
+  ::
+  ::task-item
+  System testing and signal quality checks
+  ::
+
 ::
 
 ---

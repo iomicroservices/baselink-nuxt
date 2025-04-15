@@ -80,17 +80,39 @@ profession: "locksmiths"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with smart lock installation
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Upgrade your security with keyless convenience. Our technicians{{ $doc.location }} install a wide range of smart locks compatible with most doors — including app-based, Bluetooth and Wi-Fi models.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Assessment of door compatibility
+  ::
+
+  ::task-item
+  Removal of existing lock (if required)
+  ::
+
+  ::task-item
+  Installation of new smart lock unit and hardware
+  ::
+
+  ::task-item
+  Configuration via app, Bluetooth, or Wi-Fi
+  ::
+
+  ::task-item
+  Connecting to (smart home systems[/services/tradespeople/network-engineer/smart-home-engineer]) (if applicable)
+  ::
+
+  ::task-item
+  User guidance on managing access and settings
+  ::
+
 ::
 
 ---

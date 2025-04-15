@@ -81,16 +81,33 @@ profession: "locksmiths"
 
 ::tasks
 #title
-What you get with ...
+What you get with lock repair
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+A stiff, jammed or faulty lock doesn’t always need replacing. Our locksmiths{{ $doc.location }} diagnose the problem and carry out reliable repairs to restore function — whether it’s a loose latch, broken key mechanism, or worn internal part.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Diagnosing issues with faulty or stiff locks
+  ::
+
+  ::task-item
+  Repairing damaged or worn internal lock components
+  ::
+
+  ::task-item
+  Realigning misfitted locks or latches
+  ::
+
+  ::task-item
+  Replacing broken springs, bolts, or mechanisms
+  ::
+
+  ::task-item
+  Lubricating and testing lock for smooth operation
+  ::
+
 ::
 
 ---

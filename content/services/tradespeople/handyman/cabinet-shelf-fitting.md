@@ -81,16 +81,45 @@ profession: "handymen"
 
 ::tasks
 #title
-What you get with ...
+What you get with cabinet & shelf fitting
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether it’s storage in your hallway, shelves in the living room, or a cabinet in the toilet or kitchen, we’ll get it fitted safely and neatly, with zero fuss. Our handymen{{ $doc.location }} can install all types — from floating shelves to wall units, we have you covered. 
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Wall type assessment to choose the right fixings
+  ::
+
+  ::task-item
+  Drilling and fitting wall plugs and brackets securely
+  ::
+
+  ::task-item
+  Assembly of flat-pack cabinets or shelving units
+  ::
+
+  ::task-item
+  Levelling and alignment for a precise, balanced finish
+  ::
+
+  ::task-item
+  Mounting floating shelves, corner shelves, or storage racks
+  ::
+
+  ::task-item
+  Fixing cabinets to walls for added safety and stability
+  ::
+
+  ::task-item
+  Fitting handles, hinges, and soft-close mechanisms (if required)
+  ::
+
+  ::task-item
+  Final check and tidy-up of the work area
+  ::
+
 ::
 
 ---

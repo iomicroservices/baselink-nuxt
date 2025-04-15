@@ -81,16 +81,49 @@ profession: "network engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with CCTV installation
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Monitor your premises with high-definition CCTV. Our network engineers{{ $doc.location }} install discreet or visible systems with live viewing, motion detection, and mobile app access.  Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Free site survey and camera placement planning
+  ::
+
+  ::task-item
+  Supply of CCTV equipment or use your own
+  ::
+
+  ::task-item
+  Installation of indoor and outdoor CCTV cameras
+  ::
+
+  ::task-item
+  Installation of motion-sensing or infrared CCTV
+  ::
+
+  ::task-item
+  Installation of optional lighting
+  ::
+
+  ::task-item
+  Setup of DVR/NVR recording system
+  ::
+
+  ::task-item
+  Cabling and power supply setup
+  ::
+
+  ::task-item
+  Remote access configuration via mobile app
+  ::
+
+  ::task-item
+  Testing camera angles and playback
+  ::
+
 ::
 
 ---

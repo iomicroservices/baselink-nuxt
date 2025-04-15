@@ -1,7 +1,7 @@
 ---
 title: "Network engineer service"
-alt: "Expert network engineers to install, configure, and maintain network systems"
-description: "Expert network engineers to install, configure, and maintain network systems"
+alt: "Install, configure, and maintain CCTV, intercom and other digital networks"
+description: "Install, configure, and maintain CCTV, intercom and other digital networks"
 category: "tradespeople"
 subcategory: "network-engineer"
 image: "/tradespeople/network-engineer/network-engineer.webp"

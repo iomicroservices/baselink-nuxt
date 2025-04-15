@@ -80,17 +80,39 @@ profession: "handymen"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with shower screen fitting
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether it’s fixed, hinged, or sliding, we install all types of shower screens to suit your layout and style. Our handymen{{ $doc.location }} handle the measuring, drilling, sealing, and secure fixing — leaving you with a clean, watertight finish and no mess.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Drilling and installing mounting brackets or channels
+  ::
+
+  ::task-item
+  Positioning and securing the shower screen or panel
+  ::
+
+  ::task-item
+  Aligning screen for a level and watertight fit
+  ::
+
+  ::task-item
+  Sealing edges with silicone to prevent water leaks
+  ::
+
+  ::task-item
+  Fitting hinged, fixed, or sliding shower screens
+  ::
+
+  ::task-item
+  Testing movement and stability of screen
+  ::
+
 ::
 
 ---

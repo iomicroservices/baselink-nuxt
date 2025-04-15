@@ -81,16 +81,37 @@ profession: "movers"
 
 ::tasks
 #title
-What you get with ...
+What you get with appliance removals
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+We remove old or unwanted appliances quickly and safely. Our skilled team{{ $doc.location }} handles disconnection, lifting, and removal with care — and can arrange eco-friendly disposal if needed. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
     ::task-item
-    Custom ... requests
-    ::
+  Disconnecting washing machines, dishwashers, cookers, or fridges
+  ::
+
+  ::task-item
+  Safely transporting appliances out of property
+  ::
+
+  ::task-item
+  Lifting and loading using proper equipment
+  ::
+
+  ::task-item
+  Removal of freestanding or integrated units
+  ::
+
+  ::task-item
+  Responsible recycling or disposal (where requested)
+  ::
+
+  ::task-item
+  Clean-up of area after removal
+  ::
+
 ::
 
 ---

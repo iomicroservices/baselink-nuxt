@@ -81,16 +81,37 @@ profession: "network engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with IPTV installation
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Access on-demand TV and streaming via your network with IPTV. Our network engineers{{ $doc.location }} install, configure, and optimise IPTV systems for homes, hotels, offices or shared properties. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Supply of equipment or use your own
+  ::
+
+  ::task-item
+  Setup of IPTV receivers or boxes
+  ::
+
+  ::task-item
+  Network configuration for smooth streaming
+  ::
+
+  ::task-item
+  Cabling and connection to TV or AV system
+  ::
+
+  ::task-item
+  [Wall-mounting](/service/tradespeople/network-engineer/tv-wall-mounting) and display setup (if required)
+  ::
+
+  ::task-item
+  User guidance and troubleshooting support
+  ::
+
 ::
 
 ---

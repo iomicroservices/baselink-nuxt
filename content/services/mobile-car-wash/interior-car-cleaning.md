@@ -88,10 +88,39 @@ What you get with interior car cleaning
 You can customise your valet with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
 
 #items
+    
+  ::task-item
+  Interior window cleaning
+  ::
 
-    ::task-item
-    Custom cleaning requests
-    ::
+  ::task-item
+  Door shuts and sills wiped
+  ::
+  
+  ::task-item
+  Vacuum seats, boot and floor matts
+  ::
+
+  ::task-item
+  Dashboard and console wiped
+  ::
+
+  ::task-item
+  Cup holders and compartments cleaned
+  ::
+
+  ::task-item
+  Air vents dusted and wiped
+  ::
+
+  ::task-item
+  Light deodorising treatment
+  ::
+
+  ::task-item
+  Final inspection and finish
+  ::
+
 ::
 
 ---
@@ -160,4 +189,15 @@ Find housekeepers and tradespeople {{$doc.location}}
 ::
 
 ::cta
+::
+
+::subcategory
+---
+category: home-cleaning
+---
+#title
+BaseLink cleaning services for your home{{ $doc.location }} too
+
+#description
+We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
 ::

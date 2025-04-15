@@ -81,16 +81,33 @@ profession: "network engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with communications room service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our network engineers{{ $doc.location }} design, build and upgrade comms rooms for homes and businesses, installing racks, patch panels, cabling, and more. Neat, organised, and professionally set up for reliable performance. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Rack installation for servers and networking equipment
+  ::
+
+  ::task-item
+  Cable management and patch panel setup
+  ::
+
+  ::task-item
+  Power and cooling solutions
+  ::
+
+  ::task-item
+  Structured cabling installation
+  ::
+
+  ::task-item
+  System testing and labelling
+  ::
+
 ::
 
 ---

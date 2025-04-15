@@ -81,16 +81,33 @@ profession: "network engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with NPR camera installation
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Automate access and boost security with NPR (ANPR) camera systems. Our network engineers{{ $doc.location }} install high-resolution cameras that detect and log vehicle plates, with optional entry control integration. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Installation of number plate recognition cameras
+  ::
+
+  ::task-item
+  Camera angle setup for clear plate capture
+  ::
+
+  ::task-item
+  Connection to recording and database systems
+  ::
+
+  ::task-item
+  Integration with gates or barriers (if needed)
+  ::
+  
+  ::task-item
+  Testing recognition accuracy and alerts
+  ::
+
 ::
 
 ---

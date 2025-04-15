@@ -80,17 +80,43 @@ profession: "locksmiths"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with broken key extraction
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Snapped your key in the lock? Don’t worry — our locksmiths{{ $doc.location }} can safely remove broken key fragments from door and window locks using specialist tools. We can also **[cut a replacement key](/services/tradespeople/locksmith/key-cutting)** or **[repair the lock](/services/tradespeople/locksmith/lock-repair)** if needed. Fast, tidy, and stress-free.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Assessment of lock type and key breakage location
+  ::
+
+  ::task-item
+  Removal of key fragments without damaging the lock
+  ::
+
+  ::task-item
+  Inspection of lock for internal damage or obstruction
+  ::
+
+  ::task-item
+  Lubrication and testing of the lock post-extraction
+  ::
+
+  ::task-item
+  Key cutting service (optional extra)
+  ::
+
+  ::task-item
+  Lock repair or replacement (optional extra)
+  ::
+
+  ::task-item
+  Emergency call-out available for urgent situations
+  ::
+
 ::
 
 ---

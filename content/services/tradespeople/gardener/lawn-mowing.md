@@ -80,17 +80,31 @@ profession: "gardeners"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with lawn mowing service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether it’s a one-off tidy-up or part of regular garden maintenance, our skilled gardeners{{ $doc.location }} will cut your lawn to the right height, trim the edges, and leave everything clean and tidy. We use professional tools and take care of the details.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Lawn mowing to desired height
+  ::
+
+  ::task-item
+  Edge trimming around borders and paths
+  ::
+
+  ::task-item
+  Removal of lawn clippings
+  ::
+
+  ::task-item
+  Weed control treatments
+  ::
+
 ::
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Gerdener service"
-alt: "From lawn care to garden design, we help keep your outdoor space neat, healthy, and beautiful"
-description: "From lawn care to garden design, we help keep your outdoor space neat, healthy, and beautiful"
+alt: "From lawn care to garden design, we help keep your outdoor space beautiful"
+description: "From lawn care to garden design, we help keep your outdoor space beautiful"
 category: "tradespeople"
 subcategory: "gardener"
 image: "/tradespeople/gardener/gardener.webp"

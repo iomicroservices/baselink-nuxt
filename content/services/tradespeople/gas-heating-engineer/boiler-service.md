@@ -16,7 +16,7 @@ published: true
 Local engineers
 
 #title
-Annual boiler servicing{{ $doc.location }}
+Annual & ad-hoc boiler servicing{{ $doc.location }}
 
 #description
 Thorough checks and maintenance performed by a local Gas Safe registered engineer{{ $doc.location }}. Ensure your system operates efficiently, safely, and reliably throughout the year. Flexible online bookings. Satisfaction guaranteed.
@@ -80,17 +80,59 @@ profession: "engineers"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with boiler servicing
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+We service all major types and brands of boilers to keep your heating system running safely and efficiently. Whether you require an ad-hoc or annual service, our Gas Safe engineers{{ $doc.location }} carry out thorough checks and maintenance tailored to your boiler type.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Combi boiler service
+  ::
+
+  ::task-item
+  System boiler service
+  ::
+
+  ::task-item
+  Conventional boiler service
+  ::
+
+  ::task-item
+  Condensing boiler service
+  ::
+
+  ::task-item
+  Gas boiler service
+  ::
+
+  ::task-item
+  Oil boiler service
+  ::
+
+  ::task-item
+  Electric boiler service
+  ::
+
+  ::task-item
+  LPG boiler service
+  ::
+
+  ::task-item
+  Back boiler service
+  ::
+
+  ::task-item
+  Floor-standing boiler service
+  ::
+
+  ::task-item
+  Wall-mounted boiler service
+  ::
+
 ::
 
 ---

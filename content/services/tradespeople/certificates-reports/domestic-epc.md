@@ -80,17 +80,51 @@ profession: "assessors"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+How BaseLink helps ensure your property is energy efficient
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether you’re a homeowner, landlord or estate agent, we make domestic Energy Performance Certificates (EPC) quick and stress-free. Our qualified assessors{{ $doc.location }} inspect your property and issue an official rating from A to G, with expert advice to boost energy efficiency.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Assessment of property type and layout
+  ::
+
+  ::task-item
+  Inspection of heating systems
+  ::
+
+  ::task-item
+  Review of insulation levels
+  ::
+
+  ::task-item
+  Assessment of hot water system
+  ::
+
+  ::task-item
+  Check of windows and glazing
+  ::
+
+  ::task-item
+  Examination of lighting
+  ::
+
+  ::task-item
+  Inspection of construction materials
+  ::
+
+  ::task-item
+  Ventilation and draught proofing review
+  ::
+
+  ::task-item
+  Energy efficiency rating and recommendations
+  ::
+  
 ::
 
 ---

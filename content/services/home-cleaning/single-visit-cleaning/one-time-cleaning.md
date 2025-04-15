@@ -88,10 +88,54 @@ What you get with one-time cleaning
 You can customise your clean with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
 
 #items
+    
+  ::task-item
+  Dusting and surface cleaning
+  ::
+  
+  ::task-item
+  Vacuum and mop floors
+  ::
+  
+  ::task-item
+  Sinks, taps and toilets
+  ::
+  
+  ::task-item
+  Appliances, cabinets and mirrors
+  ::
+  
+  ::task-item
+  Wash, dry and iron laundry
+  ::
+  
+  ::task-item
+  Fresh linen and towel replacement
+  ::
 
-    ::task-item
-    Custom cleaning requests
-    ::
+  ::task-item
+  Sanitise high-touch surfaces
+  ::
+
+  ::task-item
+  Kitchen and run dishwasher
+  ::
+
+  ::task-item
+  Sweep entrances and balconies
+  ::
+
+  ::task-item
+  Clean interior windows
+  ::
+
+  ::task-item
+  Trash removal and recycling
+  ::
+
+  ::task-item
+  Custom cleaning requests
+  ::
 ::
 
 ---
@@ -149,9 +193,15 @@ FInal one here...
 
 ---
 
-::category
+::subcategory
+---
+category: tradespeople
+---
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Additional services for your home or business{{ $doc.location }}
+
+#description
+BaseLink offers a variety of services to meet all your needs.
 ::
 
 ---

@@ -81,16 +81,33 @@ profession: "network engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with sound system installation
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Fill your space with great sound. We install speakers and sound systems for home cinemas, commercial venues, or whole-home audio — with expert placement and clean setup. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Mounting of ceiling, wall, or bookshelf speakers
+  ::
+
+  ::task-item
+  Wiring and cable management
+  ::
+
+  ::task-item
+  Connecting to AV receivers or smart hubs
+  ::
+
+  ::task-item
+  Multi-room sound system setup
+  ::
+
+  ::task-item
+  Audio testing and calibration
+  ::
+
 ::
 
 ---

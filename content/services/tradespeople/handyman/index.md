@@ -1,7 +1,7 @@
 ---
 title: "Handyman service"
-alt: "Professional after builders cleaning service to remove dust and debris from your home"
-description: "Post-renovation cleaning to remove dust, debris, and residues"
+alt: "Quick fixes and skilled help for odd jobs, fittings, repairs, and more"
+description: "Quick fixes and skilled help for odd jobs, fittings, repairs, and more"
 category: "tradespeople"
 subcategory: "handyman"
 image: "/tradespeople/handyman/handyman.webp"

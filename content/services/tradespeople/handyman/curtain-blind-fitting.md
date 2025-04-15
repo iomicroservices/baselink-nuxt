@@ -79,17 +79,47 @@ profession: "handymen"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with curtain and blind fitting
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether you’re updating a single room or fitting out a whole home, we install all types of curtains and blinds with precision and care. Our handymen{{ $doc.location }} make sure everything is level, neatly hung, and safe — so your windows look their best with no hassle.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Installation of all curtain types – pencil pleat, eyelet, tab top, and more
+  ::
+
+  ::task-item
+  Measuring window area for accurate bracket placement
+  ::
+
+  ::task-item
+  Drilling and fixing curtain poles, tracks, or blind brackets
+  ::
+
+  ::task-item
+  Fitting of roller, Venetian, vertical, and Roman blinds
+  ::
+
+  ::task-item
+  Mounting to various surfaces – walls, ceilings, or window frames
+  ::
+
+  ::task-item
+  Ensuring brackets are level and securely fixed
+  ::
+
+  ::task-item
+  Hanging and adjusting curtains or blinds for perfect alignment
+  ::
+
+  ::task-item
+  Cord or chain safety fixing (child safety)
+  ::
+
 ::
 
 ---

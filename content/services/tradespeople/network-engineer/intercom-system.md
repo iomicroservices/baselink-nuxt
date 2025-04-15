@@ -81,16 +81,49 @@ profession: "network engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with intercom system installation
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Stay connected and secure with a professionally installed intercom system. Our network engineers{{ $doc.locate }} install audio and video intercoms for homes, blocks, and businesses — whether wired or wireless. Your account will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Free site assessment
+  ::
+
+  ::task-item
+  Installation of wired or wireless intercom systems
+  ::
+
+  ::task-item
+  Setup of audio-only or video intercoms
+  ::
+
+  ::task-item
+  Door entry and electric gate integration
+  ::
+
+  ::task-item
+  Internal room-to-room communication setup
+  ::
+
+  ::task-item
+  Connecting the intercom to mains power or PoE
+  ::
+
+  ::task-item
+  Configuration of mobile or smart access
+  ::
+
+  ::task-item
+  Testing of call clarity, video feed, and remote access
+  ::
+
+  ::task-item
+  User guidance and demonstration of features
+  ::
+
 ::
 
 ---

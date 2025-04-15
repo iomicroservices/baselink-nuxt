@@ -35,38 +35,40 @@ Get your business connected with professional data cabling services{{ $doc.locat
 Book a data cabling job with ease
 
 #items
-    ::process-item
-    ---
-    stepNumber: 1
-    ---
-    #title
-    Provide job details
+  ::process-item
+  ---
+  stepNumber: 1
+  ---
+  
+  #title
+  Provide job details
 
-    #description
-    Fill in a form with your details, the data cabling work needed, and choose a convenient time slot.
-    ::
+  #description
+  Fill in a form with your details, the data cabling work needed, and choose a convenient time slot.
+  ::
     
-    ::process-item
-    ---
-    stepNumber: 2
-    ---
-    #title
-    Complete payment
+  ::process-item
+  ---
+  stepNumber: 2
+  ---
+  #title
+  Complete payment
 
-    #description
-    We'll provide a competitive price for the work. Verify the details and pay securely online to confirm your booking.
-    ::
+  #description
+  We'll provide a competitive price for the work. Verify the details and pay securely online to confirm your booking.
+  ::
 
-    ::process-item
-    ---
-    stepNumber: 3
-    ---
-    #title
-    Data cables sorted
+  ::process-item
+  ---
+  stepNumber: 3
+  ---
+  #title
+  Data cables sorted
 
-    #description
-    Our skilled engineer will install your data cables, ensuring efficient connectivity for your home or office network.
-    ::
+  #description
+  Our skilled engineer will install your data cables, ensuring efficient connectivity for your home or office network.
+  ::
+
 ::
 
 ---
@@ -81,16 +83,37 @@ profession: "network engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with data cabling service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Get high-speed, hard-wired internet with professional data cabling. Our network engineers{{ $doc.location }} install Cat5e, Cat6, HDMI, LAN or fibre lines in homes or offices, neatly routed and fully tested for performance. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Supply of cables or use your own
+  ::
+
+  ::task-item
+  Structured cabling installation
+  ::
+
+  ::task-item
+  Routing and securing cables through walls or ceilings
+  ::
+
+  ::task-item
+  Termination at patch panels and outlets
+  ::
+
+  ::task-item
+  Network testing for speed and stability
+  ::
+
+  ::task-item
+  Labelling and documentation of cable runs
+  ::
+
 ::
 
 ---

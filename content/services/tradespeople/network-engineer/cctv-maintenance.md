@@ -81,16 +81,37 @@ profession: "network engineers"
 
 ::tasks
 #title
-What you get with ...
+What you get with CCTV maintenance
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Keep your CCTV running at its best with regular maintenance. Our network engineers{{ $doc.location }} clean, inspect, and test your entire system — ensuring cameras stay aligned, recordings are reliable, and faults are quickly resolved. Your account will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Cleaning of lenses and camera housing
+  ::
+
+  ::task-item
+  Checking and securing all cable connections
+  ::
+
+  ::task-item
+  Verifying recording and playback functionality
+  ::
+
+  ::task-item
+  Re-aiming and focusing cameras if misaligned
+  ::
+
+  ::task-item
+  Updating firmware or software
+  ::
+
+  ::task-item
+  Identifying faults or recommended upgrades
+  ::
+
 ::
 
 ---

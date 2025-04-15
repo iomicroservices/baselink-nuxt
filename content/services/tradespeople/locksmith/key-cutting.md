@@ -79,17 +79,47 @@ profession: "locksmiths"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with key cutting
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+No need to visit a locksmith — we come to you. With our key cutting service, we collect your key, cut accurate copies, and return them directly to your door. Ideal for busy schedules, landlords, and property managers who need a convenient, secure solution.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Cutting standard house and office keys
+  ::
+
+  ::task-item
+  Duplication of cylinder, mortice, and rim keys
+  ::
+
+  ::task-item
+  Cutting keys to code (if original is lost)
+  ::
+
+  ::task-item
+  Key duplication from original or copy
+  ::
+
+  ::task-item
+  Cutting high-security or anti-snap keys
+  ::
+
+  ::task-item
+  Testing new keys for smooth operation
+  ::
+
+  ::task-item
+  Key cutting for gates, cabinets, and padlocks
+  ::
+
+  ::task-item
+  Emergency key cutting
+  ::
+
 ::
 
 ---

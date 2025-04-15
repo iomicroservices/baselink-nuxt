@@ -80,17 +80,55 @@ profession: "carpenters"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What does the fitted wardrobe service include?
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our skilled and trusted carpenters{{ $doc.location}} can design, build and install different types of fitted wardrobes. Your job will be managed by our dedicated support team for a reliable service.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Sliding door wardrobes
+  ::
+
+  ::task-item
+  Hinged door wardrobes
+  ::
+
+  ::task-item
+  Corner fitted wardrobes
+  ::
+
+  ::task-item
+  Built-in alcove wardrobes
+  ::
+
+  ::task-item
+  Wall-to-wall wardrobes
+  ::
+
+  ::task-item
+  Floor-to-ceiling wardrobes
+  ::
+
+  ::task-item
+  Walk-in wardrobes
+  ::
+
+  ::task-item
+  Open wardrobe systems
+  ::
+
+  ::task-item
+  Mirrored wardrobes
+  ::
+
+  ::task-item
+  Loft or sloped ceiling wardrobes
+  ::
+
 ::
 
 ---

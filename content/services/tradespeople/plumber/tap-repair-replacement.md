@@ -81,16 +81,33 @@ profession: "plumbers"
 
 ::tasks
 #title
-What you get with ...
+What you get with tap repair & replacement
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Dripping or hard-to-turn tap? Our skilled plumbers{{ $doc.location }} repair and replace all kinds of taps — from simple washer fixes to installing sleek new mixers. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Diagnosing leaks, drips, or stiff handles
+  ::
+
+  ::task-item
+  Replacing washers, cartridges, or valves
+  ::
+
+  ::task-item
+  Removing and fitting new kitchen or bathroom taps
+  ::
+
+  ::task-item
+  Connecting supply lines and tightening fittings
+  ::
+
+  ::task-item
+  Testing for leaks and proper water flow
+  ::
+
 ::
 
 ---

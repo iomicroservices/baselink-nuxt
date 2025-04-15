@@ -80,17 +80,55 @@ profession: "carpenters"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What does the wooden panelling service include?
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our skilled and trusted carpenters{{ $doc.location}} can design, replace, install and repair different types of wooden panelling. Your job will be managed by our dedicated support team for a reliable service.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Consultation and design planning
+  ::
+
+  ::task-item
+  Wall measurement and marking
+  ::
+
+  ::task-item
+  Surface preparation
+  ::
+
+  ::task-item
+  Cutting panels to size
+  ::
+
+  ::task-item
+  Installation of panelling
+  ::
+
+  ::task-item
+  Fitting decorative trim or moulding
+  ::
+
+  ::task-item
+  Gap filling and sealing
+  ::
+
+  ::task-item
+  Gap filling and sealing
+  ::
+
+  ::task-item
+  Custom features
+  ::
+
+  ::task-item
+  Final inspection and clean-up
+  ::
+
 ::
 
 ---

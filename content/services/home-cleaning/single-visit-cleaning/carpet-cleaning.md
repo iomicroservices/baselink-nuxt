@@ -177,9 +177,15 @@ FInal one here...
 
 ---
 
-::category
+::subcategory
+---
+category: tradespeople
+---
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Additional services for your home or business{{ $doc.location }}
+
+#description
+BaseLink offers a variety of services to meet all your needs.
 ::
 
 ---

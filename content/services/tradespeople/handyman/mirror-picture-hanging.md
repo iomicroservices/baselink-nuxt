@@ -80,17 +80,47 @@ profession: "handymen"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with mirror & picture hanging
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether it’s a statement mirror, a family photo wall, or a stylish gallery layout, we’ll make sure everything is perfectly aligned and safely fitted. Our handymen{{ $doc.location }} take care of measuring, drilling, and securing your items to any wall type — including brick, plaster, and stud walls. 
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Hanging heavy mirrors, frames, and wall art securely
+  ::
+  
+  ::task-item
+  Measuring and marking for accurate placement
+  ::
+
+  ::task-item
+  Assessing wall type to choose correct fixings
+  ::
+
+  ::task-item
+  Drilling and inserting plugs, hooks, or brackets
+  ::
+
+  ::task-item
+  Levelling and alignment for perfect positioning
+  ::
+
+  ::task-item
+  Installation on brick, plaster, concrete, or stud walls
+  ::
+
+  ::task-item
+  Fitting grouped picture layouts or gallery walls
+  ::
+
+  ::task-item
+  Safety fixings for high-traffic or child-friendly areas
+  ::
+
 ::
 
 ---

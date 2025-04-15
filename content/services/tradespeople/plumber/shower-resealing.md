@@ -81,16 +81,33 @@ profession: "plumbers"
 
 ::tasks
 #title
-What you get with ...
+What you get with shower resealing
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Prevent leaks and mould with fresh, professional shower sealing. Our skilled plumbers{{ $doc.location }} carefully remove old sealant and apply new, watertight silicone around trays, screens, and tiles. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Removing old, worn, or mouldy sealant
+  ::
+
+  ::task-item
+  Cleaning and preparing surfaces
+  ::
+
+  ::task-item
+  Applying new waterproof silicone sealant
+  ::
+
+  ::task-item
+  Smoothing sealant for a clean, professional finish
+  ::
+
+  ::task-item
+  Final leak check after resealing
+  ::
+
 ::
 
 ---

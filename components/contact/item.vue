@@ -10,7 +10,7 @@ defineProps<Props>()
 <template>
 
     <!-- Card -->
-    <a class="group flex flex-col shadow-2xs rounded-xl hover:shadow-md focus:outline-hidden focus:shadow-md transition bg-white border border-gray-200 dark:bg-gray-900 dark:border-gray-800"
+    <a class="group flex flex-col shadow-2xs rounded-xl hover:shadow-md focus:outline-hidden focus:shadow-md bg-white border border-gray-200 dark:bg-gray-900 dark:border-gray-800"
         href="#">
         <div class="p-4">
             <div class="flex gap-x-5">

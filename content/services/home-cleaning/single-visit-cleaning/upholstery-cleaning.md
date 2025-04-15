@@ -90,6 +90,34 @@ You can customise your clean with special instructions or add extra services. Yo
 #items
 
     ::task-item
+    Includes sofas, chairs, curtains and mattresses
+    ::
+    
+    ::task-item
+    Pre-inspection of upholstery condition
+    ::
+
+    ::task-item
+    Vacuum to remoove loose dirt
+    ::
+
+    ::task-item
+    Pre-treatment and stain removal
+    ::
+    
+    ::task-item
+    Deep steam cleaning, if suitable
+    ::
+        
+    ::task-item
+    Deodorising and odour removal
+    ::
+
+    ::task-item
+    Fast drying with air movers
+    ::
+
+    ::task-item
     Custom cleaning requests
     ::
 ::
@@ -149,9 +177,15 @@ FInal one here...
 
 ---
 
-::category
+::subcategory
+---
+category: tradespeople
+---
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Additional services for your home or business{{ $doc.location }}
+
+#description
+BaseLink offers a variety of services to meet all your needs.
 ::
 
 ---

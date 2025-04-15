@@ -79,17 +79,39 @@ profession: "handymen"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with furniture assembly
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+From flat-pack to fully functional, we assemble all types of furniture for homes, offices, and retail spaces. Our handymen{{ $doc.location }} ensure everything is secure, level, and ready to use — no missing screws, no DIY stress, just reliable assembly done right.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Assembly of beds, wardrobes, desks, shelving units, chairs and more
+  ::
+
+  ::task-item
+  Assembling flat-pack furniture from all major brands
+  ::
+
+  ::task-item
+  Secure fixing of screws, bolts, and fasteners
+  ::
+
+  ::task-item
+  Aligning drawers, doors, and panels correctly
+  ::
+
+  ::task-item
+  Fitting handles, knobs, and soft-close hinges
+  ::
+
+  ::task-item
+  Wall-mounting or anchoring furniture for safety
+  ::
+
 ::
 
 ---

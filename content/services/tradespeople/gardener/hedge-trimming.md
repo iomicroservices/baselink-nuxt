@@ -80,17 +80,51 @@ profession: "gardeners"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with hedge trimming service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether your hedge needs a tidy-up or complete removal, our skilled gardeners{{ $doc.location }} can help. We trim and shape hedges of all sizes, keeping them neat, healthy, and under control. Perfect for garden refreshes, property boundaries, or making space for new landscaping.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Trimming and shaping of hedge
+  ::
+
+  ::task-item
+  Tidy-up of uneven growth
+  ::
+
+  ::task-item
+  Reduction of hedge height or width
+  ::
+
+  ::task-item
+  Access pathway or boundary clearance
+  ::
+
+  ::task-item
+  Light pruning to promote healthy growth
+  ::
+
+  ::task-item
+  Removal of trimmed clippings
+  ::
+
+  ::task-item
+  Hedge maintenance advice
+  ::
+
+  ::task-item
+  Complete hedge removal
+  ::
+
+  ::task-item
+  Root and stump extraction
+  ::
+
 ::
 
 ---

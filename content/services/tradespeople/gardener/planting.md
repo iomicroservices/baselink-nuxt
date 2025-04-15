@@ -80,17 +80,47 @@ profession: "gardeners"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with planting service
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Whether you're refreshing flower beds or starting a new garden from scratch, our skilled gardeners{{ $doc.location }} can help bring your outdoor space to life. Not sure what to choose? We’re happy to recommend plants that suit your space, style, and the seasons.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Bedding plants & flowers
+  ::
+
+  ::task-item
+  Shrubs and bushes
+  :: 
+
+  ::task-item
+  Hedges and borders
+  ::
+
+  ::task-item
+  Trees (small to medium)
+  ::
+
+  ::task-item
+  Herbs and vegetables
+  ::
+
+  ::task-item
+  Climbers and vines
+  ::
+
+  ::task-item
+  Bulbs and tubers
+  ::
+
+  ::task-item
+  Ground cover plants
+  ::
+
 ::
 
 ---

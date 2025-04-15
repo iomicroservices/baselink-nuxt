@@ -81,16 +81,37 @@ profession: "movers"
 
 ::tasks
 #title
-What you get with ...
+What you get with home removals
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Moving house? From packing to transport, our team{{ $doc.location }} handles your belongings with care. We’ll move your belongings from A to B efficiently — whether it’s across town or just across the street. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
     ::task-item
-    Custom ... requests
-    ::
+  Full packing and unpacking support (if requested)
+  ::
+
+  ::task-item
+  Dismantling and reassembling furniture
+  ::
+
+  ::task-item
+  Labelling and organising items for room-by-room moves
+  ::
+
+  ::task-item
+  Loading, transport, and unloading of belongings
+  ::
+
+  ::task-item
+  Removal of unwanted furniture or appliances
+  ::
+
+  ::task-item
+  Clean-up or basic sweep after property is emptied
+  ::
+
 ::
 
 ---

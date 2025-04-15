@@ -81,16 +81,37 @@ profession: "plumbers"
 
 ::tasks
 #title
-What you get with ...
+What you get with kitchen sink installation
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Our skilled plumbers{{ $doc.location }} install all types of sinks — including inset, undermount, and Belfast styles — with secure pipework and tight seals. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Removal of existing sink
+  ::
+
+  ::task-item
+  Fitting new kitchen sink into worktop or cabinet
+  ::
+
+  ::task-item
+  Connecting hot and cold supply lines
+  ::
+
+  ::task-item
+  Installing waste trap and drain pipe
+  ::
+
+  ::task-item
+  Sealing around sink to prevent leaks
+  ::
+
+  ::task-item
+  Leak and water pressure testing
+  ::
+
 ::
 
 ---

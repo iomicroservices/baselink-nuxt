@@ -81,16 +81,37 @@ profession: "plumbers"
 
 ::tasks
 #title
-What you get with ...
+What you get with radiator power flushing
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+A power flush clears out built-up sludge and restores proper heat flow across your system. It’s an ideal fix for slow-heating or noisy radiators, helping your boiler run more efficiently. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Connecting power flushing machine to the heating system
+  ::
+
+  ::task-item
+  Flushing out sludge, rust, and debris
+  ::
+
+  ::task-item
+  Checking each radiator for cold spots and blockages
+  ::
+
+  ::task-item
+  Rebalancing system pressure after flushing
+  ::
+
+  ::task-item
+  Adding corrosion inhibitor for future protection
+  ::
+
+  ::task-item
+  Ensuring improved heat distribution post-service
+  ::
+
 ::
 
 ---

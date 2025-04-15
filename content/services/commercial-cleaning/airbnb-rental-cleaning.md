@@ -98,15 +98,15 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
     
     ::task-item
-    Clean sinks, taps and toilets
+    Sinks, taps and toilets
     ::
     
     ::task-item
-    Clean appliances, cabinets and mirrors
+    Appliances, cabinets and mirrors
     ::
     
     ::task-item
-    Washing, drying and ironing laundry
+    Wash, dry and iron laundry
     ::
     
     ::task-item
@@ -118,7 +118,7 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
     
     ::task-item
-    Restocking amenities and toiletries
+    Restock amenities and toiletries
     ::
 
     ::task-item
@@ -126,7 +126,7 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 
     ::task-item
-    Kitchen cleaning and running dishwasher
+    Kitchen and run dishwasher
     ::
 
     ::task-item
@@ -134,7 +134,7 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 
     ::task-item
-    Interior window cleaning
+    Clean interior windows
     ::
 
     ::task-item
@@ -156,30 +156,109 @@ You can customise your clean with special instructions or add extra services. Yo
 #faqs
   ::faq-items
   #question
-  Question one
+  How do cleaners access the property?
 
   #answer
-  Answer one
+  Need hands-off access? No problem. Share your preferred method – key codes, lockbox combinations, or temporary key arrangements – through our secure booking system. Cleaners follow strict protocols for key collection and return, ensuring your property remains secure.
   ::
 
   ::faq-items
   #question
-  Question two
+  Can I cancel or reschedule?
 
   #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
+  Changes and cancellations are free with 12+ hours notice. Late cancellations incur a fee, typically at the rate of the first hour to cover allocated cleaner time. Emergency changes? Rest assured, we'll always try to accommodate urgent changes where possible – just contact our support team for assistance.
   ::
 
   ::faq-items
   #question
-  Question 3
+  Do I need to provide cleaning supplies?
 
   #answer
-  Answer three
+  Our cleaners require you to provide basic equipment (vacuum cleaner, mop, and bucket) at your property. You're welcome to supply your own cleaning products, such as sprays and cloths, or we can provide them for a small additional fee. Need restocking of guest supplies like toiletries or kitchen essentials? Just leave instructions with your booking details.
   ::
+
+  ::faq-items
+  #question
+  Can I manage more than one property?
+
+  #answer
+  Absolutely. BaseLink makes it simple to handle cleaning for your entire portfolio—whether you have two properties or twenty. During setup, just inform us about your additional listings, and we'll configure your account for seamless management. You'll be able to:<br>
+
+  <br>
+  • Schedule individual or recurring cleans for each property<br>
+  • Set custom instructions per listing<br>
+  • Track all services in one dashboard<br>
+
+  <br>No back-and-forth emails—just efficient, centralised control.
+  ::
+
+  ::faq-items
+  #question
+  What if I'm not satisfied with the cleaning service?
+
+  #answer
+  Your satisfaction is guaranteed. We stand behind our work with a 24-hour re-clean guarantee at no extra cost. Simply notify us within 24 hours of service completion, and we'll promptly return to address any issues.
+  <br>
+  <br>To help us maintain high standards, you can rate your cleaner after each service and request a different cleaning professional for future bookings if preferred.
+  ::
+
+  ::faq-items
+  #question
+  What happens if my cleaner becomes unavailable?
+
+  #answer
+  We guarantee no disruption to your service. If your regular cleaner is unavailable, you'll be promptly notified with options to book a pre-vetted replacement through your account or via our support team. Emergency cover cleaners are always on standby, fully briefed on your property's needs to maintain consistent standards.
+  ::
+
+  ::faq-items
+  #question
+  How can I schedule a clean?
+
+  #answer
+  Schedule cleans effortlessly through your online account. Choose between one-time or recurring cleaning services with real-time availability. Easily adjust future bookings or set custom instructions for each property — all managed in one place for complete hosting peace of mind.
+  ::
+  
+  ::faq-items
+  #question
+  How can automate my cleaning schedule?
+
+  #answer
+  BaseLink offers a seamless automation service that automatically schedules cleans precisely when needed — no manual intervention or additional tools are required from you.<br>
+  
+  <br>Our system intelligently arranges cleaning appointments between check-outs and check-ins, adapting automatically to booking changes or adjusted guest timings. You'll receive confirmations for each scheduled clean.<br>
+
+  <br>To enable this service, simply contact our team to discuss your requirements.
+  ::
+
+  ::faq-items
+  #question
+  How are cleaners vetted?
+
+  #answer
+  All staff pass rigorous background checks, reference verifications, and in-person training on short-let standards before joining our platform.
+  ::
+
+  ::faq-items
+  #question
+  Can I hire an Airbnb cleaner near me{{ $doc.location }}?
+
+  #answer
+  BaseLink provides trusted, specialist cleaners serving short-term rental properties{{ $doc.location }} and across the UK's major cities. Our network of cleaning professionals ensure prompt, reliable service whenever you need it.<br>
+
+  <br>To confirm availability in your specific area{{ $doc.location }}, simply <u>[complete our quick online form](/services/commercial-cleaning/quote){style="color: blue;"}</u>. You'll receive a personalised quote, along with details about our local cleaning teams familiar with properties like yours. We match you with cleaners based on your location, property type and schedule requirements - taking the guesswork out of finding reliable help.<br>
+
+  <br>Whether you need regular servicing between guest stays or a one-off deep clean, we've got you covered with convenient, local cleaners{{ $doc.location }} designed specifically for Airbnb hosts.
+  ::
+
+  ::faq-items
+  #question
+  How are cleaners vetted?
+
+  #answer
+  All staff pass rigorous background checks, reference verifications, and in-person training on short-let standards before joining our platform.
+  ::
+
 ::
 
 ::cta
@@ -191,23 +270,52 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book Airbnb rental cleaning{{ $doc.location }} today
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+If you manage one or more Airbnb rentals{{ $doc.location }}, you already know how important it is to have your property cleaned reliably between guest visits. At BaseLink, our Airbnb rental cleaning service is designed with hosts in mind — giving you complete peace of mind that your space will be spotless, stocked, and ready for guests every time.
 
 #description
-Paragraph two insert here...
+### **Reliable cleaning built for hosts like you**
+We understand that hosting success hinges on consistency. Our professional cleaners deliver hotel-standard cleans tailored to the unique demands of short-lets, ensuring your space is spotless, well-stocked, and primed for five-star reviews after every booking. Our approach is crafted specifically for Airbnb rentals. Whether you manage a cosy studio or a multi-bedroom property, our team follows a meticulous room-by-room checklist to cover every detail – from fresh linens and sanitised surfaces to restocked amenities. With same-day availability and flexible scheduling, we seamlessly adapt to your booking calendar, whether you need a one-off deep clean or regular cleans between stays.
 
 #description
-FInal one here...
+### **Hassle-free booking**
+We've simplified the entire process to save you time and stress. Unlike traditional cleaning services that rely on back-and-forth emails and unclear pricing, BaseLink offers a digitally powered booking platform that gives you full control. Our digital-first platform lets you request an instant quote, book slots in under two minutes, and add or remove properties from your account through one dashboard. Need to adjust a clean? Add special instructions like "focus on kitchen grease" or request cleaning extras such as laundry. Payment is handled securely upfront, so you avoid awkward cash handovers or invoicing delays.
+
+#description
+### **The BaseLink difference**
+What sets us apart isn't just our attention to detail – it's our commitment to being a true partner in your hosting journey. Our cleaners are trained in Airbnb rental expectations, from key handovers to discreet access. Plus, our UK-based support team monitors every clean, so you're never left guessing if the job's been done.
+
+#description
+### **More than a clean**
+In the Airbnb rental market, cleanliness directly impacts your ratings and revenue. BaseLink's service is engineered to protect both. By handling the scrubbing, sanitising, and staging, we free you to focus on guest experiences and growing your portfolio. The result? Happier guests, fewer last-minute cancellations, and a calendar that stays reliably full.
+
+#description
+### **Ready to hire a cleaner{{ $doc.location }}?**
+Join hundreds of hosts{{ $doc.location }} who trust BaseLink for dependable, professional-grade cleaning. Submit your property details now for an instant quote, or speak to our team about setting up a recurring schedule. With same-day availability, we're here to ensure your next check-in starts with a flawless first impression.
+
+#description
+Whether you need a one-off clean between bookings, a recurring cleaning schedule, or support for multiple properties, BaseLink gives you total flexibility. Our service is fully customisable, easy to book online, and backed by a dedicated support team who understands the pace and expectations of the Airbnb rental market. From coordinating access and key handovers to making sure your cleaner shows up on time fully briefed on your preferences, we'll manage the logistics behind the scenes so you don't have to.
+
+#description
+There's a minimum of 1 or 2 hours per clean, and after that, we charge in 30-minute increments — fair and simple. Payment is collected securely once the booking is confirmed, so there's no chasing invoices or paying in cash. Just a straightforward, digitally powered service that gives you one less thing to worry about.
+
+#description
+Your Airbnb property{{ $doc.location }} is in safe hands with BaseLink. We'll handle the cleaning, so you can focus on keeping your calendar full and your guests happy. Whether you need us tomorrow or you're planning ahead for the busy season, we're ready when you are.
 ::
 
 ---
 
-::category
+::subcategory
+---
+category: tradespeople
+---
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Additional services for Airbnb rentals{{ $doc.location }}
+
+#description
+BaseLink offers a variety of services to meet all your commercial and business needs.
 ::
 
 ---
@@ -216,12 +324,4 @@ Find housekeepers and tradespeople {{$doc.location}}
 ::
 
 ::cta
-::
-
-::subcategory
-#title
-More cleaning services made for business
-
-#description
-BaseLink offers cleaning services to meet all your commercial and business needs.
 ::

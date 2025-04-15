@@ -80,17 +80,35 @@ profession: "locksmiths"
 ---
 
 ::tasks
+
 #title
-What you get with ...
+What you get with lock box installation
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+Securely store keys with a weatherproof, wall-mounted lock box — ideal for holiday lets, cleaners, tradespeople or shared access. We’ll install it in a safe, convenient location and set it up with your preferred code so you can manage access with ease.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Drilling and mounting lock box to wall, gate, or post
+  ::
+
+  ::task-item
+  Installing combination or key-operated lock box
+  ::
+
+  ::task-item
+  Testing functionality and setting secure code
+  ::
+
+  ::task-item
+  Providing user guidance for setup and future use
+  ::
+
+  ::task-item
+  Final check for weatherproofing and durability
+  ::
+
 ::
 
 ---

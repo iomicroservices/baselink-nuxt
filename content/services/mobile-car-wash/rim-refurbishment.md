@@ -89,9 +89,34 @@ You can customise your valet with special instructions or add extra services. Yo
 
 #items
 
-    ::task-item
-    Custom cleaning requests
-    ::
+  ::task-item
+  Visual inspection of damage
+  ::
+
+  ::task-item
+  Stripping and cleaning of wheels
+  ::
+
+  ::task-item
+  Grinding, sanding and smoothing
+  ::
+
+  ::task-item
+  Filler application
+  ::
+
+  ::task-item
+  Primer and paint respray
+  ::
+
+  ::task-item
+  Protective clear coat
+  ::
+
+  ::task-item
+  Final polish and quality check
+  ::
+
 ::
 
 ---
@@ -160,4 +185,15 @@ Find housekeepers and tradespeople {{$doc.location}}
 ::
 
 ::cta
+::
+
+::subcategory
+---
+category: home-cleaning
+---
+#title
+BaseLink cleaning services for your home{{ $doc.location }} too
+
+#description
+We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
 ::

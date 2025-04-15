@@ -81,16 +81,37 @@ profession: "plumbers"
 
 ::tasks
 #title
-What you get with ...
+What you get with pipe repair and replacement
 
 #description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+From small leaks to major pipe bursts, our skilled plumbers{{ $doc.location }} repair and replace faulty pipework quickly and safely. Whether it’s copper, plastic, or old lead piping, we’ll restore your water flow. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
-    ::task-item
-    Custom ... requests
-    ::
+  ::task-item
+  Identifying leaking or damaged pipe sections
+  ::
+
+  ::task-item
+  Repairing joints, valves, or pipe fittings
+  ::
+
+  ::task-item
+  Replacing corroded, cracked, or burst pipes
+  ::
+
+  ::task-item
+  Upgrading old lead or steel piping
+  ::
+
+  ::task-item
+  Pressure testing after repair
+  ::
+
+  ::task-item
+  Emergency response available for urgent leaks
+  ::
+
 ::
 
 ---
