@@ -46,6 +46,7 @@ function onClick(val: string) {
                 <NuxtLink class="btn-primary h-8 px-3" to="/">
                     Get started
                 </NuxtLink>
+                
                 <ClientOnly>
                     <button v-if=" colorMode.value==='light'" name=" light-mode" title="Light"
                         class="transition-all ease-out hover:cursor-pointer flex" @click="onClick('dark')">

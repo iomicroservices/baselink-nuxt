@@ -81,10 +81,10 @@ profession: "movers"
 
 ::tasks
 #title
-What you get with office & commercial removals
+What you get with commercial & office removals
 
 #description
-Relocating your business? Whether you're moving a small office or an entire premises, our team{{ $doc.location }} handle equipment, furniture, and logistics — so your team can get back to work faster. Your job will be managed by our dedicated support team to ensure minimal downtime.
+Relocating your business? Whether you're moving a small office or an entire premises, our team{{ $doc.location }} handle equipment, furniture, and logistics. Your job will be managed by our dedicated support team to ensure minimal downtime.
 
 #items
 
