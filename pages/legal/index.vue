@@ -1,5 +1,5 @@
 <template>
   <div>
-    <h1>Cookie policy</h1>
+    <h1>Legal index</h1>
   </div>
 </template>

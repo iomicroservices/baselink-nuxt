@@ -18,7 +18,7 @@ defineOgImageComponent('About', {
   headline: 'Greetings 👋',
   title: 'eLandline | UK Local & National Telephone Numbers for Businesses',
   description: 'eLandline delivers flexible UK local and national telephone numbers to enhance your business presence. Join and enjoy bespoke virtual landline services with easy management.',
-  link: '/elandline-logo-full.png',
+  link: '/baselink-logo.png',
 })
 </script>
 

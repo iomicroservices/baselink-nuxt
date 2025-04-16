@@ -1,4 +1,7 @@
 <script setup lang="ts">
+
+const route = useRoute()
+
 interface Props {
   title?: string
   image?: string
@@ -8,14 +11,8 @@ interface Props {
   tags?: Array<string>
 }
 
-withDefaults(defineProps<Props>(), {
-  title: 'no-title',
-  image: '#',
-  alt: 'no-img',
-  description: 'no description',
-  date: 'no-date',
-  tags: () => [],
-})
+defineProps<Props>()
+
 </script>
 
 <template>
@@ -27,24 +24,24 @@ withDefaults(defineProps<Props>(), {
     </h1>
 
     <!--image-->
-    <NuxtImg :src="image || ''" :alt="alt || ''" width="600"
+    <NuxtImg v-if="image" :src="image || ''" :alt="alt || ''" width="600"
       class="m-auto rounded-2xl shadow-lg h-32 md:h-72 w-4/6 md:w-4/5 content-center object-cover" />
-    
-      <!--description-->
-    <p class="text-xs sm:text-sm my-3 max-w-xl mx-auto text-center text-zinc-600 dark:text-zinc-400">
+
+    <!--description-->
+    <p v-if="description" class="text-xs sm:text-sm my-3 max-w-xl mx-auto text-center text-zinc-600 dark:text-zinc-400">
       {{ description }}
     </p>
 
     <!--social share, date and category tags-->
-    <div class="flex w-full justify-center text-xs md:text-base my-8">
+    <div v-if="route.path.startsWith('/blog')" class="flex w-full justify-center text-xs md:text-base my-5">
       <div class="md:flex text-black dark:text-zinc-300 content-center gap-8 text-xs sm:text-sm">
         <div class="flex items-center">
           <SocialShare v-for=" network in ['facebook', 'twitter' , 'linkedin' , 'email' ]" :key="network"
             :network="network" :styled="false" :label="false" class="p-1" aria-label="Share with {network}" />
         </div>
-        <div class="flex items-center font-semibold">
+        <div class="flex items-center">
           <LogoDate />
-          <p>{{ date || '' }}</p>
+          <span>{{ date || '' }}</span>
         </div>
         <div class="flex items-center gap-2 flex-wrap my-5">
           <LogoTag />
@@ -58,5 +55,5 @@ withDefaults(defineProps<Props>(), {
     </div>
 
   </header>
-  
+
 </template>

@@ -3,7 +3,7 @@ defineOgImageComponent('About', {
   headline: 'Greetings 👋',
   title: 'About eLandline - Your Trusted UK Virtual Landline Provider',
   description: 'Learn about eLandline, the UK\'s dedicated provider of virtual landlines and business phone solutions. Discover how we support small businesses with our innovative services',
-  link: '/elandline-logo-full.png',
+  link: '/baselink-logo.png',
 })
 </script>
 
@@ -44,7 +44,7 @@ defineOgImageComponent('About', {
           </div>
         </div>
         <div class="pr-32">
-          <NuxtImg src="/elandline-logo-full.png" width="250" />
+          <NuxtImg src="/baselink-logo.png" width="250" />
         </div>
       </div>
       <h3 class="text-base sm:text-3xl font-semibold pb-7 sm:pb-12">
