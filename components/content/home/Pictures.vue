@@ -4,7 +4,7 @@
             <ContentSlot unwrap="p" name="left" />
         </div>
         <div v-if="$slots.center" class="rounded-lg overflow-hidden">
-            <ContentSlot unwrap="p" name="center" />
+            <ContentSlot unwrap="p" name="center"/>
         </div>
         <div v-if="$slots.right" class="rounded-lg overflow-hidden">
             <ContentSlot unwrap="p" name="right" />

@@ -1,64 +1,52 @@
 <script setup lang="ts">
+
 defineOgImageComponent('About', {
   headline: 'Greetings 👋',
-  title: 'About eLandline - Your Trusted UK Virtual Landline Provider',
-  description: 'Learn about eLandline, the UK\'s dedicated provider of virtual landlines and business phone solutions. Discover how we support small businesses with our innovative services',
+  title: 'About BaseLink - Residential and commercial services in the UK',
+  description: 'Find out more about BaseLink, the UK\'s leading digital-first residential and commercial services provider',
   link: '/baselink-logo.png',
 })
+
+const { path } = useRoute()
+
+const { data: aboutarticle, error } = await useAsyncData(`about-post-${path}`, () => queryContent(path).findOne())
+
+if (error.value)
+  navigateTo('/404')
+
+const data = computed(() => {
+  return {
+    title: aboutarticle.value?.title,
+    description: aboutarticle.value?.description,
+    image: aboutarticle.value?.image,
+    alt: aboutarticle.value?.alt,
+    ogImage: aboutarticle.value?.ogImage,
+    date: aboutarticle.value?.date,
+    tags: aboutarticle.value?.tags || [],
+    published: aboutarticle.value?.published || false,
+  }
+})
+
 </script>
 
 <template>
-  <div class="px-6 py-5 sm:py-9 gap-5 container max-w-6xl  mx-auto">
-    <div class="col-span-5">
-      <div class="flex justify-between">
-        <div>
-          <h1 class="text-xl sm:text-4xl  pb-2 font-bold ">
-            About eLandline
-          </h1>
-
-          <div class="my-3 space-x-2 md:space-x-3 pb-10">
-            <NuxtLink
-              to="https://facebook.com/elandlineuk"
-              target="_blank"
-              class="px-2 py-1 lg:px-3 lg:py-2 bg-gray-300 text-gray-800 rounded-md dark:bg-slate-700 dark:text-[#F1F2F4]"
-              aria-label="Facebook"
-            >
-              <Icon name="fa:facebook" size="1em" />
-            </NuxtLink>
-            <NuxtLink
-              to="https://www.instagram.com/elandlineuk/"
-              target="_blank"
-              class="px-2 py-1 lg:px-3 lg:py-2 bg-gray-300 text-gray-800 rounded-md dark:bg-slate-700 dark:text-[#F1F2F4]"
-              aria-label="Instagram"
-            >
-              <Icon name="fa:instagram" size="1em" />
-            </NuxtLink>
-            <NuxtLink
-              to="https://twitter.com/elandlineuk"
-              target="_blank"
-              class="px-2 py-1 lg:px-3 lg:py-2 bg-gray-300 text-gray-800 rounded-md dark:bg-slate-700 dark:text-[#F1F2F4]"
-              aria-label="Twitter"
-            >
-              <Icon name="fa:twitter-square" size="1em" />
-            </NuxtLink>
-          </div>
-        </div>
-        <div class="pr-32">
-          <NuxtImg src="/baselink-logo.png" width="250" />
-        </div>
+  <article class="page-container">
+    <div class="sm:grid grid-cols-12 gap-x-12">
+      <div class="col-span-12 lg:col-span-9">
+        <BlogHeader :title="data.title" :image="data.image" :alt="data.alt" :date="data.date"
+          :description="data.description" :tags="data.tags"
+          class=" pb-0 pt-5" />
+        <section
+          class="section pt-0 prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg prose-h1:no-underline max-w-6xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg">
+          <ContentRenderer v-if="aboutarticle" :value="aboutarticle">
+            <template #empty>
+              <p>No content found.</p>
+            </template>
+          </ContentRenderer>
+        </section>
       </div>
-      <h3 class="text-base sm:text-3xl font-semibold pb-7 sm:pb-12">
-        Communication Innovator, Small Business Ally, Telephony Specialist.
-      </h3>
-      <p>Our mission is to empower small businesses across the UK with telecommunication solutions that are not only easy to use but also help them grow. We aim to transform how small businesses communicate with their customers, making advanced telephony features accessible to every entrepreneur.</p>
-      <br>
-      <p>Based in London and serving the UK, we offer comprehensive area code coverage, ensuring you have the local or national landline number your business needs.</p>
-      <br>
-      <p>Since our inception five years ago, we've been at the forefront of telecom solutions, specifically tailored for small businesses. Our virtual landline and call handling services are designed for simplicity and efficiency, offering hassle-free connectivity at affordable prices.</p>
-      <br>
-      <p>We recognise the challenges small businesses face, which is why our services are flexible and customizable. Whether you need to scale up or down, our pay-as-you-go solutions and custom integrations are designed to meet your unique business needs.</p>
-      <br>
-      <p>At our core, we're more than just a provider; we're a partner in your success, dedicated to ensuring your business flourishes in the digital world. With us, communication becomes effortless, allowing you to focus on growing your business and enjoying life.</p>
+      <BlogToc />
+
     </div>
-  </div>
+  </article>
 </template>

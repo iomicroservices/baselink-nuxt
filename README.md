@@ -16,26 +16,14 @@
 - Write blog with markdown file
 - Auto generate category from blog post
 - Blog list page with search and pagination
-- About me page for user info
+- About page for user info
 - Auto generate table of content for blog post
 - Auto generate Sitemap
 - Url preview with Nuxt ogImage
 - Dark and light mode
 - Server Side Rendered(SSR) with Nuxt3
 
-## Preview
-
-<p align="center">
-  <a href="https://www.baselink.uk" target="_blank">
-    <img width="1090" src="./assets/images/preview1.png">
-    <img width="1090" src="./assets/images/preview2.png">
-    <img width="1090" src="./assets/images/preview3.png">
-    <br>
-    Live Demo
-  </a>
-</p>
-
-## Demo
+## Live site
 
 https://www.baselink.uk
 
