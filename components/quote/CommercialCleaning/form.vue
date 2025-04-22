@@ -68,7 +68,7 @@ const formState = reactive({
     startDateInput: undefined,
     requirementsInput: '',
     fullNameInput: undefined,
-    companyNameInput: undefined,
+    companyNameInput: '',
     postCodeInput: undefined,
     phoneNumberInput: undefined,
     emailInput: undefined,
@@ -78,12 +78,9 @@ const formState = reactive({
 const formSchema = z.object({
     propertyOptionsInput: z.string({ message: "Select a property type" }).refine(value => propertyOptions.some(option => option.value === value), { message: "Select a valid property type" }),
 
-    daysOptionsInput: z.array(z.object({
-        value: z.string(),
-        label: z.string()
-    })).nonempty("Select at least one day").refine(values => values.every(value => daysOptions.some(option => option.value === value.value)), { message: "Select valid days" }),
+    // daysOptionsInput: z.array(z.object({ value: z.string(), label: z.string() })).nonempty("Select at least one day").refine(values => values.every(value => daysOptions.some(option => option.value === value.value)), { message: "Select valid days" }),
 
-    // daysOptionsInput: z.array(z.string()).nonempty("Select at least one day").refine(values => values.every(value => daysOptions.some(option => option.value === value)), { message: "Select valid days" }), -- this is for non-object arrays
+    daysOptionsInput: z.array(z.string()).nonempty("Select at least one day").refine(values => values.every(value => daysOptions.some(option => option.value === value)), { message: "Select valid days" }),
 
     frequencyOptionsInput: z.string({ message: "Select frequency of cleans" }).refine(value => frequencyOptions.some(option => option.value === value), { message: "Select a valid frequency of cleans" }),
 
@@ -102,7 +99,7 @@ const formSchema = z.object({
         return selectedDate >= today;
     }, { message: "Start date cannot be in the past" }),
 
-    companyNameInput: z.string({ message: "Company name required" }).min(3, { message: "Must be a valid company name" }),
+    companyNameInput: z.string().min(3, { message: "Must be a valid company name" }),
 
     postCodeInput: z.string({ message: "Postcode required" }).min(5, { message: "Must be a valid postcode" }),
 
@@ -130,6 +127,41 @@ const isFormValid = computed(() => {
 });
 
 async function onSubmit(event: FormSubmitEvent<Schema>) {
+
+    // Check if the form is valid using the computed property
+    if (!isFormValid.value) {
+        console.error('Form is invalid. Please correct the errors before submitting.');
+        return; // Exit the function if the form is not valid
+    }
+
+    // Capture the current URL and referrer
+    const currentUrl = window.location.href; // Current URL
+    const referrerUrl = document.referrer; // Previous URL
+
+    // Submit the form data to the server API
+    try {
+        const response = await $fetch('/api/commercial-cleaning/form-submit', {
+            method: 'POST',
+            body: {
+                ...formState, // Send the form state as the request body
+                currentUrl,
+                referrerUrl
+            },
+        });
+
+        // Handle the response from the server
+        if (response.status === 'success') {
+            console.log('Form submitted successfully:', response.message);
+            // Optionally, reset the form or show a success message
+        } else {
+            console.error('Error submitting form:', response.message);
+            // Handle error response
+        }
+    } catch (error) {
+        console.error('Error submitting form:', error);
+        // Handle submission errors
+    }
+
     // Do something with event.data
     console.log(event.data); // Log the event data
 }
@@ -145,9 +177,8 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <USelect v-model="formState.propertyOptionsInput" :options="propertyOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="daysOptionsInput" label="Which days of the week do you require a cleaning visit?"
-            required>
-            <USelectMenu v-model="formState.daysOptionsInput" :options="daysOptions" multiple placeholder="" />
+        <UFormGroup size="lg" name="daysOptionsInput" label="Which days of the week do you require a cleaning visit?" required>
+            <USelectMenu v-model="formState.daysOptionsInput" :options="daysOptions" multiple value-attribute="value" placeholder="" />
         </UFormGroup>
 
         <UFormGroup size="lg" name="frequencyOptionsInput" label="How frequently do you require a cleaning visit?"
@@ -179,7 +210,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <UInput v-model="formState.fullNameInput" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="companyNameInput" label="Company name" hint="Optional" required>
+        <UFormGroup size="lg" name="companyNameInput" label="Company name" hint="Optional">
             <UInput v-model="formState.companyNameInput" />
         </UFormGroup>
 

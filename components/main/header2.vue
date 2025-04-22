@@ -55,11 +55,13 @@ const navigation = computed(() => [
 
                 <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                     <div name="logo" class="flex shrink-0 items-center">
-                        <NuxtLink to="/">
-                            <img class="h-8 w-auto"
-                                :src="colorMode.value === 'dark' ? '/baselink-logo-dark.png' : '/baselink-logo.png'"
-                                alt=" BaseLink">
-                        </NuxtLink>
+                        <ClientOnly>
+                            <NuxtLink to="/">
+                                <img class="h-8 w-auto"
+                                    :src="colorMode.value === 'dark' ? '/baselink-logo-dark.png' : '/baselink-logo.png'"
+                                    alt=" BaseLink">
+                            </NuxtLink>
+                        </ClientOnly>
                     </div>
 
                     <div name="nav-items" class="hidden sm:ml-6 sm:block">

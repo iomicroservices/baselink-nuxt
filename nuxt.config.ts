@@ -15,6 +15,16 @@ export default defineNuxtConfig({
     layoutTransition: { name: 'layout', mode: 'out-in' },
   },
 
+  runtimeConfig: {
+    public: {
+    },
+    DATABASE_URL: process.env.DATABASE_URL,
+    DATABASE_TOKEN: process.env.DATABASE_TOKEN,
+    DATABASE_BASE_ID: process.env.DATABASE_BASE_ID,
+    DATABASE_TABLE_ID: process.env.DATABASE_TABLE_ID,
+  },
+
+
   sitemap: {
     strictNuxtContentPaths: true,
   },
