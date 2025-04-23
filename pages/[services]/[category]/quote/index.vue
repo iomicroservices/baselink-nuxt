@@ -1,4 +1,7 @@
 <script setup lang="ts">
+definePageMeta({
+    layout: 'quote' // Specify the layout name here
+});
 </script>
 
 <template>

@@ -29,7 +29,7 @@ const items = [{
       <UButton color="gray" variant="ghost" class="border-b border-gray-200 dark:border-gray-800"
         :ui="{ rounded: 'rounded-none', padding: { sm: 'p-3' } }">
         <template #leading>
-          <div class="w-6 h-6 rounded-full bg-primary-200 dark:bg-primary-700 flex items-center justify-center -my-1">
+          <div class="w-6 h-6 rounded-full bg-primary-100 dark:bg-primary-600 flex items-center justify-center -my-1">
             <UIcon :name="item.icon" class="w-4 h-4 text-gray-900 dark:text-white" />
           </div>
         </template>

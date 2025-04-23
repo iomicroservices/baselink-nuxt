@@ -246,24 +246,25 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <UCheckbox v-model="formState.termsInput" required>
                 <template #label>
                     <span class="ml-2 text-base font-semibold">I accept the
-                        <a href="/legal/terms-of-service" target="_blank" class="text-primary-500 underline">terms
+                        <a href="/legal/terms-of-service" target="_blank" class="text-green-500 underline">terms
                             of
                             service</a>
                         and have read the
-                        <a href="/legal/privacy-policy" target="_blank" class="text-primary-500 underline">privacy
+                        <a href="/legal/privacy-policy" target="_blank" class="text-green-500 underline">privacy
                             policy</a>
                     </span>
                 </template>
             </UCheckbox>
         </UFormGroup>
 
-        <p>Once you submit this quote form, we will contact you to provide a detailed quote and to set up your
-            payment details.</p>
+        <p>Hit submit and we'll take it from there. You'll get a tailored quote straight to your inbox and we'll give
+            you a quick call to iron out the details.</p>
 
         <!-- <div class="flex flex-col md:flex-row w-full py-3"> -->
 
         <UButton block type="submit" icon="i-heroicons-paper-airplane"
-            class="md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold" :disabled="!isFormValid || isSubmitting" :loading="isSubmitting">
+            class="md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold" :disabled="!isFormValid || isSubmitting"
+            :loading="isSubmitting">
             <template v-if="isSubmitting">
                 <span>Sending...</span>
             </template>

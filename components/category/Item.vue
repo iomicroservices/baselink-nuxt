@@ -22,7 +22,7 @@ withDefaults(defineProps<Props>(), {
 
                 <!-- Icon on top -->
                 <span
-                    class="flex items-end justify-center flex-shrink-0 w-20 h-20 rounded bg-indigo-50 dark:bg-gray-800 group-hover:bg-indigo-200 dark:group-hover:bg-indigo-500">
+                    class="flex items-end justify-center flex-shrink-0 w-20 h-20 rounded bg-indigo-50 dark:bg-gray-800 group-hover:bg-indigo-200 dark:group-hover:bg-indigo-600">
                     <span class="text-5xl" role="img" :aria-label="`${name} category`">
                         <Icon :name="emoji" size="64" />
                     </span>
