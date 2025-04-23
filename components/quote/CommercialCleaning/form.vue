@@ -126,6 +126,12 @@ const isFormValid = computed(() => {
     }
 });
 
+// Initialize the router
+const router = useRouter();
+
+// Reactive state for loading
+const isSubmitting = ref(false);
+
 async function onSubmit(event: FormSubmitEvent<Schema>) {
 
     // Check if the form is valid using the computed property
@@ -133,6 +139,9 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         console.error('Form is invalid. Please correct the errors before submitting.');
         return; // Exit the function if the form is not valid
     }
+
+    // Set loading state
+    isSubmitting.value = true;
 
     // Capture the current URL and referrer
     const currentUrl = window.location.href; // Current URL
@@ -152,7 +161,12 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         // Handle the response from the server
         if (response.status === 'success') {
             console.log('Form submitted successfully:', response.message);
+
             // Optionally, reset the form or show a success message
+
+            // Navigate to the success page
+            router.push({ path: `${router.currentRoute.value.path}/success` }); // Append /success to the current path
+
         } else {
             console.error('Error submitting form:', response.message);
             // Handle error response
@@ -177,8 +191,10 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <USelect v-model="formState.propertyOptionsInput" :options="propertyOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="daysOptionsInput" label="Which days of the week do you require a cleaning visit?" required>
-            <USelectMenu v-model="formState.daysOptionsInput" :options="daysOptions" multiple value-attribute="value" placeholder="" />
+        <UFormGroup size="lg" name="daysOptionsInput" label="Which days of the week do you require a cleaning visit?"
+            required>
+            <USelectMenu v-model="formState.daysOptionsInput" :options="daysOptions" multiple value-attribute="value"
+                placeholder="" />
         </UFormGroup>
 
         <UFormGroup size="lg" name="frequencyOptionsInput" label="How frequently do you require a cleaning visit?"
@@ -247,8 +263,13 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         <!-- <div class="flex flex-col md:flex-row w-full py-3"> -->
 
         <UButton block type="submit" icon="i-heroicons-paper-airplane"
-            class="md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold" :disabled="!isFormValid">
-            Submit enquiry
+            class="md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold" :disabled="!isFormValid || isSubmitting" :loading="isSubmitting">
+            <template v-if="isSubmitting">
+                <span>Sending...</span>
+            </template>
+            <template v-else>
+                <span>Submit request</span>
+            </template>
         </UButton>
 
         <!-- <UButton block variant="outline" class="w-full md:w-1/5 font-semibold" @click="form.clear()">
