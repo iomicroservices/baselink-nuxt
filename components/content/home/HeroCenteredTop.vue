@@ -18,7 +18,7 @@
 <template>
     <header class="section-hero">
         <div class="relative mx-auto">
-            <div class="container px-4 mx-auto">
+            <div class="container mx-auto">
                 <div class="max-w-2xl mx-auto text-center items-center">
 
                     <!-- hero image section START -->

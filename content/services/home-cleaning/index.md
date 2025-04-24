@@ -32,7 +32,7 @@ Your home deserves the best care. At BaseLink, we offer expert cleaning services
 
 ::subcategory
 #title
-Domestic cleaning services{{$doc.location}}
+Home cleaning services{{$doc.location}}
 
 #description
 Choose the service you need{{$doc.location}} to get an instant quote and schedule your booking – simple!

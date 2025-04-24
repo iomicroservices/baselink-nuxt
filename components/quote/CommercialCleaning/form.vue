@@ -273,11 +273,5 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             </template>
         </UButton>
 
-        <!-- <UButton block variant="outline" class="w-full md:w-1/5 font-semibold" @click="form.clear()">
-                Clear form
-            </UButton> -->
-
-        <!-- </div> -->
-
     </UForm>
 </template>

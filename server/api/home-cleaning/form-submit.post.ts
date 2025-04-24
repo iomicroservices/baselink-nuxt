@@ -18,18 +18,24 @@ export default defineEventHandler(async (event) => {
 
     // Prepare the Requirements payload
     const requirementsPayload = {
-        propertyType: formData.propertyOptionsInput,
-        cleaningDays: formData.daysOptionsInput,
+        bedrooms: formData.bedroomsInput,
+        toilets: formData.toiletsInput,
+        extras: formData.extraOptionsInput,
         cleaningFrequency: formData.frequencyOptionsInput,
-        cleaningHours: formData.hoursOptionsInput,
-        cleaningTime: formData.timeOptionsInput,
+        selectedHours: formData.hoursOptionsInput,
+        recommendedHours: formData.recommendedCleaningHours,
         startDate: formData.startDateInput,
+        cleaningTime: formData.timeOptionsInput,
+        propertyType: formData.propertyOptionsInput,
+        access: formData.accessOptionsInput,
     }
 
     // Prepare the Requirements payload
     const contactDetailsPayload = {
         FullName: formData.fullNameInput,
-        CompanyName: formData.companyNameInput,
+        addressOne: formData.addressOneInput,
+        addressTwo: formData.addressTwoInput,
+        addressCity: formData.addressCityInput,
         PostCode: formData.postCodeInput,
         PhoneNumber: formData.phoneNumberInput,
         Email: formData.emailInput,
@@ -45,11 +51,11 @@ export default defineEventHandler(async (event) => {
     const payload = {
         fields: {
             Email: formData.emailInput,
-            Category: "Commercial cleaning",
+            Category: "Home cleaning",
             Requirements: JSON.stringify(requirementsPayload),
             customerNote: formData.requirementsInput,
             contactDetails: JSON.stringify(contactDetailsPayload),
-            Marketing: true,
+            Marketing: formData.marketingInput,
             Source: JSON.stringify(sourcePayload),
             ipAddress: ipAddress,
             // Add more fields here as needed
