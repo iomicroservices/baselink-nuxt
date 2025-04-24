@@ -3,14 +3,13 @@ definePageMeta({
     layout: 'quote' // Specify the layout name here
 });
 
-const { pathData } = await usePathData(); // Get the path data from the composable
-const serviceData = pathData.routeServices; // Access the page-specific service data
+const { params } = useRoute()
 
 </script>
 
 <template>
     <div class="page-container">
-        <QuoteCommercialCleaningPage v-if="serviceData.routeCategory === 'commercial-cleaning'" />
+        <QuoteCommercialCleaningPage v-if="params.category === 'commercial-cleaning'" />
         <QuoteHomeCleaningPage v-else />
     </div>
 </template>
