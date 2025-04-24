@@ -58,7 +58,6 @@ export default defineEventHandler(async (event) => {
             Marketing: formData.marketingInput,
             Source: JSON.stringify(sourcePayload),
             ipAddress: ipAddress,
-            // Add more fields here as needed
         }
     };
 

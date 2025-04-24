@@ -37,6 +37,7 @@ const frequencyOptions = [
     { label: 'Varies', value: 'varies' },
     { label: 'One-off', value: 'one-off' }
 ]
+
 // Step 2: Annotate the hoursOptions constant with the defined interface
 const hoursOptions = [
     { label: '2 hours', value: 2 },
@@ -85,7 +86,7 @@ const formState = reactive({
     phoneNumberInput: undefined,
     emailInput: undefined,
     marketingInput: true
-})
+});
 
 const bedroomSpelling = computed(() => {
     return formState.bedroomsInput === 1 ? 'bedroom' : 'bedrooms';
@@ -126,15 +127,14 @@ const formSchema = z.object({
 
     accessOptionsInput: z.string({ message: "Select a property type" }).refine(value => accessOptions.some(option => option.value === value), { message: "Select a valid property type" }),
 
-    // extraOptionsInput: z.array(z.object({ value: z.string(), label: z.string() })).nonempty("Select at least one day").refine(values => values.every(value => extraOptions.some(option => option.value === value.value)), { message: "Select valid days" }),
-
     extraOptionsInput: z.array(z.string()).refine(values => values.every(value => extraOptions.some(option => option.value === value)), { message: "Select valid days" }),
 
     frequencyOptionsInput: z.string({ message: "Select frequency of cleans" }).refine(value => frequencyOptions.some(option => option.value === value), { message: "Select a valid frequency of cleans" }),
 
     hoursOptionsInput: z.coerce.number({
         required_error: "Select cleaning hours needed",
-        invalid_type_error: "Must be a number", }).refine(value => hoursOptions.some(option => option.value === value), { message: "Select valid cleaning hours" }),
+        invalid_type_error: "Must be a number",
+    }).refine(value => hoursOptions.some(option => option.value === value), { message: "Select valid cleaning hours" }),
 
     timeOptionsInput: z.string({ message: "Select preferred time of day for cleaning" }).refine(value => timeOptions.some(option => option.value === value), { message: "Select valid preferred time of day for cleaning" }),
 
@@ -162,11 +162,9 @@ const formSchema = z.object({
     emailInput: z.string().min(1, { message: "Email required" }).email({ message: "Must be a valid email" }),
 
     marketingInput: z.boolean(),
-})
+});
 
 type Schema = z.infer<typeof formSchema>
-
-// const form = ref()
 
 // Computed property to check if the form is valid
 const isFormValid = computed(() => {
@@ -225,9 +223,6 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
     console.log(event.data); // Log the event data
 }
 
-// Update the form state to reflect the recommended cleaning hours
-//watch([bedrooms, toilets, () => formState.extraOptionsInput], () => { formState.hoursOptionsInput = recommendedCleaningHours.value; });
-
 </script>
 
 <template>
@@ -266,10 +261,12 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <UFormGroup size="lg" name="hoursOptionsInput" label="Select duration of your clean" required>
             <template #description>
-                <p class="-mb-1">
-                    We recommend selecting <span class="text-primary font-bold">{{ recommendedCleaningHours }}
-                        hours</span>
-                </p>
+                <ClientOnly>
+                    <p class="-mb-1">
+                        We recommend selecting <span class="text-primary font-bold">{{ recommendedCleaningHours }}
+                            hours</span>
+                    </p>
+                </ClientOnly>
             </template>
             <USelect v-model="formState.hoursOptionsInput" :options="hoursOptions" />
         </UFormGroup>
