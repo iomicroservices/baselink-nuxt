@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { z } from 'zod'
 import type { FormSubmitEvent } from '#ui/types'
+import { isClient } from '@vueuse/core'
 
 // Property type input selections
 const propertyOptions = [
@@ -96,21 +97,6 @@ const toiletSpelling = computed(() => {
     return formState.toiletsInput === 1 ? 'toilet' : 'toilets';
 });
 
-// Computed property to calculate recommended cleaning hours
-const recommendedCleaningHours = computed(() => {
-    // Start with a base of 1 hour
-    let hours = 1;
-    // Add 0.5 hours for each bedroom
-    hours += 0.5 * formState.bedroomsInput;
-    // Add 0.5 hours for each toilet
-    hours += 0.5 * formState.toiletsInput;
-    // Add 0.5 hours for each extra option selected, except for 'cleaning-products'
-    const extraHours = formState.extraOptionsInput.filter(option => option !== 'cleaning-products').length * 0.5;
-    hours += extraHours;
-    // Ensure the minimum is 2 hours and maximum is 10 hours
-    return Math.min(Math.max(hours, 2), 10);
-});
-
 const formSchema = z.object({
 
     bedroomsInput: z.number({
@@ -174,6 +160,26 @@ const isFormValid = computed(() => {
     } catch (e) {
         return false; // If there's an error, the form is invalid
     }
+});
+
+
+
+// Computed property to calculate recommended cleaning hours
+const recommendedCleaningHours = computed(() => {
+    if (!isClient) return 2; // Safe default during SSR
+    // Start with a base of 1 hour
+    let hours = 1;
+    // Add 0.5 hours for each bedroom
+    hours += 0.5 * formState.bedroomsInput;
+    // Add 0.5 hours for each toilet
+    hours += 0.5 * formState.toiletsInput;
+    // Add 0.5 hours for each extra option selected, except for 'cleaning-products'
+    const extraHours = Array.isArray(formState.extraOptionsInput)
+        ? formState.extraOptionsInput.filter(option => typeof option === 'string' && option !== 'cleaning-products').length * 0.5
+        : 0;
+    hours += extraHours;
+    // Ensure the minimum is 2 hours and maximum is 10 hours
+    return Math.min(Math.max(hours, 2), 10);
 });
 
 // Initialize the router
@@ -251,8 +257,8 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         </UFormGroup>
 
         <UFormGroup size="lg" name="extraOptionsInput" label="Add optional extras" hint="Optional">
-            <USelectMenu v-model="formState.extraOptionsInput" :options="extraOptions" multiple value-attribute="value"
-                placeholder="" />
+            <USelectMenu v-model="formState.extraOptionsInput" :options="extraOptions" multiple
+                value-attribute="value" />
         </UFormGroup>
 
         <UFormGroup size="lg" name="frequencyOptionsInput" label="How frequently do you require cleaning?" required>
