@@ -22,7 +22,7 @@ const accessOptions = [
 
 // Days input selections
 const extraOptions = [
-    { label: 'Cleaning products (+4.80)', value: 'cleaning-products' },
+    { label: 'Cleaning products (+£4.80)', value: 'cleaning-products' },
     { label: 'Dishwashing', value: 'dishwashing' },
     { label: 'Laundry', value: 'laundry' },
     { label: 'Ironing', value: 'ironing' },
@@ -232,11 +232,11 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 </script>
 
 <template>
-    <UForm :schema="formSchema" :state="formState" class="space-y-4" @submit="onSubmit">
+    <UForm :schema="formSchema" :state="formState" class="space-y-7" @submit="onSubmit">
 
         <p class="pt-10 text-2xl font-bold">Cleaning requirements</p>
 
-        <UFormGroup size="md" name="bedroomsInput">
+        <UFormGroup size="xl" name="bedroomsInput">
             <template #label>
                 <p class="mb-1">I need <span class="text-primary font-bold">{{ formState.bedroomsInput }} {{
                         bedroomSpelling }}</span>
@@ -246,7 +246,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
                 @update:model-value="formState.bedroomsInput = $event" />
         </UFormGroup>
 
-        <UFormGroup size="md" name="toiletsInput">
+        <UFormGroup size="xl" name="toiletsInput">
             <template #label>
                 <p class="mb-1">I need <span class="text-primary font-bold">{{ formState.toiletsInput }} {{
                         toiletSpelling }}</span>
@@ -256,16 +256,16 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
                 @update:model-value="formState.toiletsInput = $event" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="extraOptionsInput" label="Add optional extras" hint="Optional">
+        <UFormGroup size="xl" name="extraOptionsInput" label="Add optional extras" hint="Optional">
             <USelectMenu v-model="formState.extraOptionsInput" :options="extraOptions" multiple
                 value-attribute="value" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="frequencyOptionsInput" label="How frequently do you require cleaning?" required>
+        <UFormGroup size="xl" name="frequencyOptionsInput" label="How frequently do you require cleaning?" required>
             <USelect v-model="formState.frequencyOptionsInput" :options="frequencyOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="hoursOptionsInput" label="Select duration of your clean" required>
+        <UFormGroup size="xl" name="hoursOptionsInput" label="Select duration of your clean" required>
             <template #description>
                 <ClientOnly>
                     <p class="-mb-1">
@@ -277,67 +277,68 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <USelect v-model="formState.hoursOptionsInput" :options="hoursOptions" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="startDateInput" label="What's your ideal cleaning date?" required>
+        <UFormGroup size="xl" name="startDateInput" label="What's your ideal cleaning date?" required>
             <UInput v-model="formState.startDateInput" type="date" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="timeOptionsInput" label="Morning, afternoon or evening — what suits you best?"
+        <UFormGroup size="xl" name="timeOptionsInput" label="Morning, afternoon or evening — what suits you best?"
             required>
             <USelect v-model="formState.timeOptionsInput" :options="timeOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="propertyOptionsInput" label="What kind of property is this for?" required>
+        <UFormGroup size="xl" name="propertyOptionsInput" label="What kind of property is this for?" required>
             <USelect v-model="formState.propertyOptionsInput" :options="propertyOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="accessOptionsInput" label="How will the cleaner access your home?" required>
+        <UFormGroup size="xl" name="accessOptionsInput" label="How will the cleaner access your home?" required>
             <USelect v-model="formState.accessOptionsInput" :options="accessOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="requirementsInput" label="Anything else we should know?" hint="Optional">
+        <UFormGroup size="xl" name="requirementsInput" label="Anything else we should know?" hint="Optional">
             <UTextarea v-model="formState.requirementsInput"
                 placeholder="e.g. lock box code, access PIN, additional requirements..." />
         </UFormGroup>
 
         <p class="pt-10 text-2xl font-bold">Contact details</p>
 
-        <UFormGroup size="lg" name="fullNameInput" label="Full name" required>
+        <UFormGroup size="xl" name="fullNameInput" label="Full name" required>
             <UInput v-model="formState.fullNameInput" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="addressOneInput" label="Address line 1" required>
+        <UFormGroup size="xl" name="addressOneInput" label="Address line 1" required>
             <UInput v-model="formState.addressOneInput" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="addressTwoInput" label="Address line 2" hint="Optional">
+        <UFormGroup size="xl" name="addressTwoInput" label="Address line 2" hint="Optional">
             <UInput v-model="formState.addressTwoInput" />
         </UFormGroup>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <UFormGroup size="lg" name="addressCityInput" label="City" required>
+            <UFormGroup size="xl" name="addressCityInput" label="City" required>
                 <UInput v-model="formState.addressCityInput" />
             </UFormGroup>
 
-            <UFormGroup size="lg" name="postCodeInput" label="Postcode" required>
+            <UFormGroup size="xl" name="postCodeInput" label="Postcode" required>
                 <UInput v-model="formState.postCodeInput" />
             </UFormGroup>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <UFormGroup size="lg" name="phoneNumberInput" label="Phone number" required>
+            <UFormGroup size="xl" name="phoneNumberInput" label="Phone number" required>
                 <UInput v-model="formState.phoneNumberInput" />
             </UFormGroup>
 
-            <UFormGroup size="lg" name="emailInput" label="Email" required>
+            <UFormGroup size="xl" name="emailInput" label="Email" required>
                 <UInput v-model="formState.emailInput" />
             </UFormGroup>
         </div>
 
-        <UFormGroup size="xl" name="marketingInput" class="py-3">
-            <UCheckbox v-model="formState.marketingInput">
-                <template #label>
-                    <p class="ml-2 text-base font-semibold">Send me updates and special offers</p>
-                </template>
-            </UCheckbox>
+        <UFormGroup size="xl" name="marketingInput" class="py-5">
+            <div class="flex items-start">
+                <UToggle on-icon="i-heroicons-check-20-solid" off-icon="i-heroicons-x-mark-20-solid" color="green"
+                    v-model="formState.marketingInput">
+                </UToggle>
+                <p class="ml-2 mb-0 text-sm font-semibold text-left">Send me relevant offers and special discounts</p>
+            </div>
         </UFormGroup>
 
         <!-- <div class="flex flex-col md:flex-row w-full py-3"> -->

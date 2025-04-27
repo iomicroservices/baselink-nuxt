@@ -1,7 +1,7 @@
 <template>
     <div class="section mx-auto py-0">
         <h1 class="heading1 md:max-w-[75%]">
-            Request your home cleaning quote
+            Instantly book your home clean
         </h1>
     </div>
     <div class="section mx-auto pt-0">

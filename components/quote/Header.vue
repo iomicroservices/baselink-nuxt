@@ -1,7 +1,16 @@
 <script setup lang="ts">
 
 const route = useRoute();
-const logoLink = computed(() => route.params.category ? `/services/${route.params.category}` : '/services');
+
+// const logoLink = computed(() => route.params.category ? `/services/${route.params.category}` : '/services');
+
+const logoLink = computed(() => {
+    if (route.params.category === 'single-visit-cleaning') {
+        return `/services/home-cleaning/single-visit-cleaning`;
+    }
+    return route.params.category ? `/services/${route.params.category}` : '/services';
+});
+
 
 const colorMode = useColorMode();
 

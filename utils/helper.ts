@@ -18,3 +18,21 @@ export function getPathExtension(city: string | string[], region: string | strin
   }
   return ''; // Default case, if needed
 }
+
+// currency formatter
+export function useFormatPrice(price: number) {
+  return `£${price.toFixed(2)}`;
+}
+
+// short date formatter
+export function formatShortDate(dateString: string): string {
+  if (!dateString) return '';
+
+  const date = new Date(dateString);
+
+  return date.toLocaleDateString('en-GB', {
+    weekday: 'short', // "Wed"
+    day: '2-digit',   // "30"
+    month: 'short'    // "Apr"
+  }).replace(',', ''); // remove the comma if needed
+}

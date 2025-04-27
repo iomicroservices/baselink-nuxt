@@ -183,62 +183,62 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 </script>
 
 <template>
-    <UForm :schema="formSchema" :state="formState" class="space-y-4" @submit="onSubmit">
+    <UForm :schema="formSchema" :state="formState" class="space-y-7" @submit="onSubmit">
 
         <p class="pt-10 text-2xl font-bold">Cleaning requirements</p>
 
-        <UFormGroup size="lg" name="propertyOptionsInput" label="What kind of property is this for?" required>
+        <UFormGroup size="xl" name="propertyOptionsInput" label="What kind of property is this for?" required>
             <USelect v-model="formState.propertyOptionsInput" :options="propertyOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="daysOptionsInput" label="Which days of the week do you require a cleaning visit?"
+        <UFormGroup size="xl" name="daysOptionsInput" label="Which days of the week do you require a cleaning visit?"
             required>
             <USelectMenu v-model="formState.daysOptionsInput" :options="daysOptions" multiple value-attribute="value"
                 placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="frequencyOptionsInput" label="How frequently do you require a cleaning visit?"
+        <UFormGroup size="xl" name="frequencyOptionsInput" label="How frequently do you require a cleaning visit?"
             required>
             <USelect v-model="formState.frequencyOptionsInput" :options="frequencyOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="hoursOptionsInput" label="Duration of each cleaning session?" required>
+        <UFormGroup size="xl" name="hoursOptionsInput" label="Duration of each cleaning session?" required>
             <USelect v-model="formState.hoursOptionsInput" :options="hoursOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="timeOptionsInput" label="Morning, afternoon or evening — what suits you best?"
+        <UFormGroup size="xl" name="timeOptionsInput" label="Morning, afternoon or evening — what suits you best?"
             required>
             <USelect v-model="formState.timeOptionsInput" :options="timeOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="startDateInput" label="What's your ideal cleaning start date?" required>
+        <UFormGroup size="xl" name="startDateInput" label="What's your ideal cleaning start date?" required>
             <UInput v-model="formState.startDateInput" type="date" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="requirementsInput" label="Anything else we should know?" hint="Optional">
+        <UFormGroup size="xl" name="requirementsInput" label="Anything else we should know?" hint="Optional">
             <UTextarea v-model="formState.requirementsInput"
                 placeholder="Let us know about any specific requirements..." />
         </UFormGroup>
 
         <p class="pt-10 text-2xl font-bold">Contact details</p>
 
-        <UFormGroup size="lg" name="fullNameInput" label="Full name" required>
+        <UFormGroup size="xl" name="fullNameInput" label="Full name" required>
             <UInput v-model="formState.fullNameInput" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="companyNameInput" label="Company name" hint="Optional">
+        <UFormGroup size="xl" name="companyNameInput" label="Company name" hint="Optional">
             <UInput v-model="formState.companyNameInput" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="postCodeInput" label="Postcode" required>
+        <UFormGroup size="xl" name="postCodeInput" label="Postcode" required>
             <UInput v-model="formState.postCodeInput" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="phoneNumberInput" label="Phone number" required>
+        <UFormGroup size="xl" name="phoneNumberInput" label="Phone number" required>
             <UInput v-model="formState.phoneNumberInput" />
         </UFormGroup>
 
-        <UFormGroup size="lg" name="emailInput" label="Email" required>
+        <UFormGroup size="xl" name="emailInput" label="Email" required>
             <UInput v-model="formState.emailInput" />
         </UFormGroup>
 
