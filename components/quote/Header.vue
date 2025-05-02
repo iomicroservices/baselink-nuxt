@@ -1,5 +1,8 @@
 <script setup lang="ts">
 
+const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFormState();
+const showSummaryDropdown = ref(false);
+
 const route = useRoute();
 
 // const logoLink = computed(() => route.params.category ? `/services/${route.params.category}` : '/services');
@@ -10,7 +13,6 @@ const logoLink = computed(() => {
     }
     return route.params.category ? `/services/${route.params.category}` : '/services';
 });
-
 
 const colorMode = useColorMode();
 
@@ -36,10 +38,19 @@ function onClick(val: string) {
                     </div>
                 </div>
 
-                <div name="buttons" class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                <div name="buttons"
+                    class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                     <div class="flex items-center space-x-3 text-sm">
-                        <NuxtLink
-                            class="flex btn-secondary h-8 px-3" to="tel:03330388288">
+                        <!-- Booking summary toggle on quote pages -->
+                        <ClientOnly>
+                            <div class="lg:hidden relative">
+                                <button class="btn-secondary h-8 px-3"
+                                    @click="showSummaryDropdown = !showSummaryDropdown">
+                                    {{ useFormatPrice(totalPrice) }}
+                                </button>
+                            </div>
+                        </ClientOnly>
+                        <NuxtLink class="hidden md:flex btn-secondary h-8 px-3" to="tel:03330388288">
                             03330 388 288
                         </NuxtLink>
                     </div>
@@ -68,6 +79,15 @@ function onClick(val: string) {
                 </div>
             </div>
         </div>
+        <ClientOnly>
+            <div v-if="showSummaryDropdown"
+                class="lg:hidden transition ease-out duration-100 transform opacity-100 scale-100 bg-white dark:bg-gray-900 border-t shadow-lg"
+                id="mobile-menu">
+                <div class="space-y-1 p-5 md:px-10">
+                    <QuoteBookingSummary :breakdown="bookingBreakdown" :total="totalPrice" :date="bookingDate"
+                        :time="bookingTime" />
+                </div>
+            </div>
+        </ClientOnly>
     </nav>
-
 </template>
