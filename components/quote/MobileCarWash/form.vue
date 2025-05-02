@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { z } from 'zod'
 import type { FormSubmitEvent } from '#ui/types'
-import { commercialCleaningOptions } from '~/utils/forms/formOptions';
+import { mobileCarWashOptions } from '~/utils/forms/formOptions';
 import { generateSchema } from '~/utils/forms/generateSchema'
-import { commercialCleaningDefaults } from '@/utils/forms/formDefaults'
+import { mobileCarWashDefaults } from '@/utils/forms/formDefaults'
 
 // Form component updates this data using composable to render booking summary
 const { totalPrice } = useBookingFormState();
@@ -13,20 +13,19 @@ onMounted(() => {
 
 // Form options data stored in utils
 const {
-    propertyOptions,
-    daysOptions,
+    serviceOptions,
+    vehicleOptions,
     frequencyOptions,
-    unitHoursOptions,
     timeOptions
-} = commercialCleaningOptions;
+} = mobileCarWashOptions;
 
 //Store data from user inputs to form
 const formState = reactive({
-    ...commercialCleaningDefaults
+    ...mobileCarWashDefaults
 })
 
 const formSchema = generateSchema(
-    Object.keys(commercialCleaningDefaults) as (keyof typeof commercialCleaningDefaults)[]);
+    Object.keys(mobileCarWashDefaults) as (keyof typeof mobileCarWashDefaults)[]);
 
 type Schema = z.infer<typeof formSchema>
 
@@ -67,7 +66,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             method: 'POST',
             body: {
                 ...formState, // Send the form state as the request body
-                category: 'Commercial cleaning',
+                category: 'Mobile car wash',
                 currentUrl,
                 referrerUrl
             },
@@ -100,32 +99,27 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 <template>
     <UForm :schema="formSchema" :state="formState" class="space-y-7" @submit="onSubmit">
 
-        <p class="pt-10 text-2xl font-bold">Cleaning requirements</p>
+        <p class="pt-10 text-2xl font-bold">Your requirements</p>
 
-        <UFormGroup size="xl" name="commercialPropertyOptionsInput" label="What kind of property is this for?" required>
-            <USelect v-model="formState.commercialPropertyOptionsInput" :options="propertyOptions" placeholder="" />
+        <UFormGroup size="xl" name="serviceOptionsInput" label="Which service do you need?" required>
+            <USelect v-model="formState.serviceOptionsInput" :options="serviceOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="daysOptionsInput" label="Which days of the week do you require a cleaning visit?"
+        <UFormGroup size="xl" name="vehicleOptionsInput" label="What kind of vehicle is this for?" required>
+            <USelect v-model="formState.vehicleOptionsInput" :options="vehicleOptions" placeholder="" />
+        </UFormGroup>
+
+        <UFormGroup size="xl" name="washFrequencyOptionsInput" label="How frequently do you require a car wash?"
             required>
-            <USelectMenu v-model="formState.daysOptionsInput" :options="daysOptions" multiple placeholder="" />
+            <USelect v-model="formState.washFrequencyOptionsInput" :options="frequencyOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="commercialFrequencyOptionsInput"
-            label="How frequently do you require a cleaning visit?" required>
-            <USelect v-model="formState.commercialFrequencyOptionsInput" :options="frequencyOptions" placeholder="" />
+        <UFormGroup size="xl" name="washTimeOptionsInput" label="Morning, afternoon or evening — what suits you best?"
+            required>
+            <USelect v-model="formState.washTimeOptionsInput" :options="timeOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="unitHoursOptionsInput" label="Duration of each cleaning session?" required>
-            <USelect v-model="formState.unitHoursOptionsInput" :options="unitHoursOptions" placeholder="" />
-        </UFormGroup>
-
-        <UFormGroup size="xl" name="commercialTimeOptionsInput"
-            label="Morning, afternoon or evening — what suits you best?" required>
-            <USelect v-model="formState.commercialTimeOptionsInput" :options="timeOptions" placeholder="" />
-        </UFormGroup>
-
-        <UFormGroup size="xl" name="startDateInput" label="What's your ideal cleaning start date?" required>
+        <UFormGroup size="xl" name="startDateInput" label="What's your ideal wash date?" required>
             <UInput v-model="formState.startDateInput" type="date" />
         </UFormGroup>
 
@@ -156,19 +150,13 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <UInput v-model="formState.emailInput" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="termsInput" class="py-3">
-            <UCheckbox v-model="formState.termsInput" required>
-                <template #label>
-                    <span class="ml-2 text-base font-semibold">I accept the
-                        <a href="/legal/terms-of-service" target="_blank" class="text-green-500 underline">terms
-                            of
-                            service</a>
-                        and have read the
-                        <a href="/legal/privacy-policy" target="_blank" class="text-green-500 underline">privacy
-                            policy</a>
-                    </span>
-                </template>
-            </UCheckbox>
+        <UFormGroup size="xl" name="marketingInput" class="py-5">
+            <div class="flex items-start">
+                <UToggle on-icon="i-heroicons-check-20-solid" off-icon="i-heroicons-x-mark-20-solid" color="green"
+                    v-model="formState.marketingInput">
+                </UToggle>
+                <p class="ml-2 mb-0 text-sm font-semibold text-left">Send me relevant offers and special discounts</p>
+            </div>
         </UFormGroup>
 
         <p>Hit submit and we'll take it from there. You'll get a tailored quote straight to your inbox and we'll give

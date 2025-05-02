@@ -1,6 +1,6 @@
 // utils/validation-fields.ts
 import { z } from 'zod'
-import { homeCleaningOptions, singleCleaningOptions, commercialCleaningOptions } from '~/utils/forms/formOptions'
+import { homeCleaningOptions, singleCleaningOptions, commercialCleaningOptions, mobileCarWashOptions } from '~/utils/forms/formOptions'
 
 export const sharedValidationFields = {
     // Common fields
@@ -84,4 +84,14 @@ export const sharedValidationFields = {
         .refine(value => commercialCleaningOptions.unitHoursOptions.includes(value), { message: "Select valid cleaning hours" }),
     commercialTimeOptionsInput: z.string({ message: "Select time" })
         .refine(value => commercialCleaningOptions.timeOptions.includes(value), { message: "Select a valid time" }),
+
+    // Mobile car wash fields
+    serviceOptionsInput: z.string({ message: "Select service" })
+        .refine(value => mobileCarWashOptions.serviceOptions.includes(value), { message: "Select a valid service" }),
+    vehicleOptionsInput: z.string({ message: "Select vehicle type" })
+        .refine(value => mobileCarWashOptions.vehicleOptions.includes(value), { message: "Select valid vehicle type" }),
+    washFrequencyOptionsInput: z.string({ message: "Select frequency" })
+        .refine(value => mobileCarWashOptions.frequencyOptions.includes(value), { message: "Select a valid frequency" }),
+    washTimeOptionsInput: z.string({ message: "Select time" })
+        .refine(value => mobileCarWashOptions.timeOptions.includes(value), { message: "Select a valid time" }),
 };

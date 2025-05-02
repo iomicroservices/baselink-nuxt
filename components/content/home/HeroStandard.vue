@@ -37,7 +37,7 @@ const pathCategory = params.category ? params.category : props.path1
                 </div>
 
                 <!-- Main Content -->
-                <div class="max-w-xl mx-auto lg:mx-0">
+                <div class="max-w-2xl lg:mx-0">
                     <h1 class="heading1">
                         <ContentSlot unwrap="p" name="title">
                             {{ title || 'Default Description' }}
@@ -51,7 +51,7 @@ const pathCategory = params.category ? params.category : props.path1
                     </p>
 
                     <!-- Buttons -->
-                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
 
                         <NuxtLink v-if="pathCategory" :to=getStarted class="btn-primary">
                             {{ button1 || "Request a quote" }}

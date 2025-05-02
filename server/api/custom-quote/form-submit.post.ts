@@ -18,12 +18,20 @@ export default defineEventHandler(async (event) => {
 
     // Prepare the Requirements payload
     const requirementsPayload = {
-        propertyType: formData.propertyOptionsInput,
+        //Mobile car wash
+        serviceOptions: formData.serviceOptionsInput,
+        vehicleOptions: formData.vehicleOptionsInput,
+        washFrequencyOptions: formData.washFrequencyOptionsInput,
+        washTimeOptions: formData.washTimeOptionsInput,
+        //Commercial cleaning
+        propertyType: formData.commercialPropertyOptionsInput,
         cleaningDays: formData.daysOptionsInput,
-        cleaningFrequency: formData.frequencyOptionsInput,
-        cleaningHours: formData.hoursOptionsInput,
-        cleaningTime: formData.timeOptionsInput,
+        cleaningFrequency: formData.commercialFrequencyOptionsInput,
+        cleaningHours: formData.unitHoursOptionsInput,
+        cleaningTime: formData.commercialTimeOptionsInput,
+        //Shared
         startDate: formData.startDateInput,
+        tos: formData.termsInput,
     }
 
     // Prepare the Requirements payload
@@ -45,11 +53,12 @@ export default defineEventHandler(async (event) => {
     const payload = {
         fields: {
             Email: formData.emailInput,
-            Category: "Commercial cleaning",
+            Category: formData.category,
+            startDate: formData.startDateInput,
             Requirements: JSON.stringify(requirementsPayload),
             customerNote: formData.requirementsInput,
             contactDetails: JSON.stringify(contactDetailsPayload),
-            Marketing: true,
+            Marketing: formData.category === 'Commercial cleaning' ? true : formData.marketingInput,
             Source: JSON.stringify(sourcePayload),
             ipAddress: ipAddress,
             // Add more fields here as needed

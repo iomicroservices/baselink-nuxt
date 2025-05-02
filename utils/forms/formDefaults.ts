@@ -56,3 +56,18 @@ export const commercialCleaningDefaults = {
     emailInput: undefined,
     termsInput: false
 };
+
+export const mobileCarWashDefaults = {
+    serviceOptionsInput: 'Full valet',
+    vehicleOptionsInput: 'Medium - saloon',
+    washFrequencyOptionsInput: 'One-off',
+    washTimeOptionsInput: 'Flexible',
+    startDateInput: undefined,
+    requirementsInput: '',
+    fullNameInput: undefined,
+    companyNameInput: '',
+    postCodeInput: undefined,
+    phoneNumberInput: undefined,
+    emailInput: undefined,
+    marketingInput: true
+};

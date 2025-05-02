@@ -51,3 +51,10 @@ export const commercialCleaningOptions = {
     timeOptions: ['Flexible', 'Morning 8am - 12pm', 'Afternoon 12pm - 5pm', 'Evening 5pm - 8pm', 'Overnight', 'Not sure']
 
 };
+
+export const mobileCarWashOptions = {
+    serviceOptions: ['Full valet', 'Mini valet', 'Exterior wash', 'Interior clean', 'Engine bay clean', 'Headlight restoration', 'Odour removal', 'Rim refurbishment', 'Other'],
+    vehicleOptions: ['Small - hatchback ', 'Medium - saloon', 'Large - SUV', 'Small commercial', 'Medium commercial', 'Large commercial'],
+    frequencyOptions: ['Weekly', 'Fortnightly', 'Monthly', 'One-off', 'Not sure'],
+    timeOptions: ['Flexible', 'Morning 8am - 12pm', 'Afternoon 12pm - 5pm', 'Evening 5pm - 8pm', 'Overnight', 'Not sure']
+};

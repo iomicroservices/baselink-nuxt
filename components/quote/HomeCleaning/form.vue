@@ -21,16 +21,16 @@ const {
     timeOptions,
 } = homeCleaningOptions;
 
+//Store data from user inputs to form
+const formState = reactive({
+    ...homeCleaningDefaults
+});
+
 const formSchema = generateSchema(
     Object.keys(homeCleaningDefaults) as (keyof typeof homeCleaningDefaults)[]);
     // alternatively, manually construct: generateSchema([field1, field2,])
 
 type Schema = z.infer<typeof formSchema>
-
-//Store data from user inputs to form
-const formState = reactive({
-    ...homeCleaningDefaults
-});
 
 // Computed property to check if the form is valid
 const isFormValid = computed(() => {

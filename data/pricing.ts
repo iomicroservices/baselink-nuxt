@@ -13,6 +13,9 @@ export const defaultPrices = {
         morningSurcharge: 12,
         eveningSurcharge: 12,
     },
+    carwashPrices: {
+        
+    },
     handymanPrices: {
         hourlyRate: 72,
         weekendSurcharge: 15,

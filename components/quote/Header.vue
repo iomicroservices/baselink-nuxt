@@ -1,9 +1,10 @@
 <script setup lang="ts">
 
+const route = useRoute();
+
 const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFormState();
 const showSummaryDropdown = ref(false);
 
-const route = useRoute();
 
 // const logoLink = computed(() => route.params.category ? `/services/${route.params.category}` : '/services');
 
@@ -39,18 +40,19 @@ function onClick(val: string) {
                 </div>
 
                 <div name="buttons"
-                    class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                    class="absolute inset-y-0 right-0 flex items-center sm:static sm:inset-auto sm:ml-6">
                     <div class="flex items-center space-x-3 text-sm">
                         <!-- Booking summary toggle on quote pages -->
                         <ClientOnly>
-                            <div class="lg:hidden relative">
+                            <div v-if="totalPrice > 0" class="lg:hidden relative">
                                 <button class="btn-secondary h-8 px-3"
                                     @click="showSummaryDropdown = !showSummaryDropdown">
                                     {{ useFormatPrice(totalPrice) }}
                                 </button>
                             </div>
                         </ClientOnly>
-                        <NuxtLink class="hidden md:flex btn-secondary h-8 px-3" to="tel:03330388288">
+                        <NuxtLink :class="totalPrice > 0 ? 'hidden md:flex' : 'flex'"
+                            class="btn-secondary h-8 px-3" to="tel:03330388288">
                             03330 388 288
                         </NuxtLink>
                     </div>
