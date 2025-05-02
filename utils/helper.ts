@@ -36,3 +36,9 @@ export function formatShortDate(dateString: string): string {
     month: 'short'    // "Apr"
   }).replace(',', ''); // remove the comma if needed
 }
+
+// utils/format-word.ts
+export function formatPlural(count: number, singular: string, plural?: string): string {
+  if (count === 1) return singular;
+  return plural || singular + 's';
+}

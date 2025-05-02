@@ -1,122 +1,33 @@
 <script setup lang="ts">
 import { z } from 'zod'
 import type { FormSubmitEvent } from '#ui/types'
-import { isClient } from '@vueuse/core'
+import { singleCleaningOptions } from '~/utils/forms/formOptions'
+import { generateSchema } from '~/utils/forms/generateSchema'
+import { singleCleaningDefaults } from '@/utils/forms/formDefaults'
+
+// Pricing data using composable
 const { parkingPrice, cleaningPrices } = usePricing();
+// Form component updates this data using composable to render booking summary
 const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFormState();
 
+// Form options data stored in utils
+const {
+    typeOptions,
+    propertyOptions,
+    accessOptions,
+    parkingOptions,
+    extraOptions,
+    timeOptions,
+} = singleCleaningOptions
 
-// Property type input selections
-const typeOptions = [ 'Deep cleaning', 'End of tenancy cleaning', 'After builders cleaning', 'Carpet cleaning', 'Upholstery cleaning' ]
-
-// Property type input selections
-const propertyOptions = ['Apartment', 'House', 'Cottage', 'Bungalow']
-
-// Property type input selections
-const accessOptions = ['Meet in person', 'Concierge', 'Lock box', 'Pin code', 'Key with neighbour']
-
-// Property type input selections
-const parkingOptions = ['Free parking', 'Paid parking']
-
-// Days input selections
-const extraOptions = ['Dishwashing', 'Inside windows', 'Inside fridge', 'Inside freezer', 'Inside oven', 'Laundry', 'Ironing']
-
-// Time input selections
-const timeOptions = [
-    { label: 'Flexible', value: 'flexible' },
-    { label: 'Morning 8am - 12pm', value: 'morning' },
-    { label: 'Afternoon 12pm - 5pm', value: 'afternoon' },
-    { label: 'Evening 5pm - 8pm', value: 'evening' }
-]
-
+// Use the formDefaults util directly for formState
 const formState = reactive({
-    typeOptionsInput: 'Deep cleaning',
-    propertyOptionsInput: 'Apartment',
-    roomInput: 2,
-    balconyInput: 0,
-    carpetInput: 0,
-    extraOptionsInput: [],
-    startDateInput: undefined,
-    timeOptionsInput: 'flexible',
-    accessOptionsInput: 'Meet in person',
-    parkingOptionsInput: 'Free parking',
-    requirementsInput: '',
-    fullNameInput: undefined,
-    addressOneInput: undefined,
-    addressTwoInput: '',
-    addressCityInput: undefined,
-    postCodeInput: undefined,
-    phoneNumberInput: undefined,
-    emailInput: undefined,
-    marketingInput: true
+    ...singleCleaningDefaults
 });
 
-const roomSpelling = computed(() => {
-    return formState.roomInput === 1 ? 'room' : 'rooms';
-});
-
-const balconySpelling = computed(() => {
-    return formState.balconyInput === 1 ? 'balcony/terrace' : 'balconies/terraces';
-});
-
-const carpetSpelling = computed(() => {
-    return formState.carpetInput === 1 ? 'carpet' : 'carpets';
-});
-
-const formSchema = z.object({
-
-    typeOptionsInput: z.string({ message: "Select type of clean" }).refine(value => typeOptions.includes(value), { message: "Select a valid type of clean" }),
-
-    roomInput: z.number({
-        required_error: "Select number of rooms",
-        invalid_type_error: "Must be a number",
-    }),
-
-    balconyInput: z.number({
-        required_error: "Select number of balconies/terraces",
-        invalid_type_error: "Must be a number",
-    }),
-
-    carpetInput: z.number({
-        required_error: "Select number of carpets",
-        invalid_type_error: "Must be a number",
-    }),
-
-    propertyOptionsInput: z.string({ message: "Select a property type" }).refine(value => propertyOptions.includes(value), { message: "Select a valid property of clean" }),
-
-    accessOptionsInput: z.string({ message: "Select a property type" }).refine(value => accessOptions.includes(value), { message: "Select a valid property type" }),
-
-    parkingOptionsInput: z.string({ message: "Select a property type" }).refine(value => parkingOptions.includes(value), { message: "Select a valid property type" }),
-
-    extraOptionsInput: z.array(z.string()).refine(values => values.every(value => extraOptions.includes(value)), { message: "Select valid days" }),
-
-    timeOptionsInput: z.string({ message: "Select preferred time of day for cleaning" }).refine(value => timeOptions.some(option => option.value === value), { message: "Select valid preferred time of day for cleaning" }),
-
-    requirementsInput: z.string().max(500, "500 character limit"),
-
-    fullNameInput: z.string({ message: "Name required" }).min(3, { message: "Must be a valid name" }).max(100, { message: "Max 100 characters allowed" }),
-
-    addressOneInput: z.string({ message: "Address required" }).min(3, { message: "Must be a valid address" }).max(100, { message: "Max 100 characters allowed" }),
-
-    addressTwoInput: z.string({ message: "Address required" }).max(100, { message: "Max 100 characters allowed" }),
-
-    addressCityInput: z.string({ message: "City required" }).min(3, { message: "Must be a valid city" }).max(100, { message: "Max 100 characters allowed" }),
-
-    startDateInput: z.string({ message: "Date required" }).date("Must be a valid date").refine(date => {
-        const selectedDate = new Date(date);
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
-        return selectedDate >= today;
-    }, { message: "Cleaning date cannot be in the past" }),
-
-    postCodeInput: z.string({ message: "Postcode required" }).min(5, { message: "Must be a valid postcode" }),
-
-    phoneNumberInput: z.string({ message: "Phone number required" }).min(11, { message: "Must be a valid UK phone or mobile number" }),
-
-    emailInput: z.string().min(1, { message: "Email required" }).email({ message: "Must be a valid email" }),
-
-    marketingInput: z.boolean(),
-});
+// Use the generateSchema util
+const formSchema = generateSchema(
+    Object.keys(singleCleaningDefaults) as (keyof typeof singleCleaningDefaults)[]);
 
 type Schema = z.infer<typeof formSchema>
 
@@ -129,7 +40,6 @@ const isFormValid = computed(() => {
         return false; // If there's an error, the form is invalid
     }
 });
-
 
 const minimalCleaningTypes = ['Carpet cleaning', 'Upholstery cleaning'];
 
@@ -155,7 +65,6 @@ watch(
     },
     { immediate: true }
 );
-
 
 // Pricing
 const calculatedPrice = computed(() => {
@@ -200,79 +109,22 @@ const calculatedPrice = computed(() => {
     };
 });
 
-// const calculatedPrice = computed(() => {
-//     // Set base price depending on the cleaning type
-//     const basePrice = isMinimalCleaningType.value
-//         ? cleaningPrices.minimalPrice
-//         : cleaningPrices.basePrice;
-//     // non-flat surcharge price
-//     const houseSurcharge = formState.propertyOptionsInput === 'Apartment'
-//         ? 0
-//         : cleaningPrices.houseSurcharge;
-//     // Add price based on number of rooms (only if not minimal type)
-//     const extraRooms = !isMinimalCleaningType.value
-//         ? Math.max(0, formState.roomInput - 2)
-//         : 0;
-//     const roomPrice = extraRooms * cleaningPrices.roomPrice;
-//     // Add price based on number of rooms (only if not minimal type)
-//     const balconyPrice = !isMinimalCleaningType.value
-//         ? formState.balconyInput * cleaningPrices.balconyPrice
-//         : 0;
-//     // Add price for extras (only if not minimal type)
-//     const extrasPrice = !isMinimalCleaningType.value && Array.isArray(formState.extraOptionsInput)
-//         ? formState.extraOptionsInput.length * cleaningPrices.extrasPrice
-//         : 0;
-//     // Add price for carpets (only if minimal type, e.g. carpet/upholstery cleaning)
-//     const carpetPrice = isMinimalCleaningType.value
-//         ? Math.max(0, formState.carpetInput - 2) * cleaningPrices.carpetPrice
-//         : formState.carpetInput * cleaningPrices.carpetPrice;
-//     // Parking price
-//     const parkingSurcharge = formState.parkingOptionsInput === 'Paid parking'
-//         ? parkingPrice
-//         : 0;
-//     // Add all prices for total
-//     const totalPrice = basePrice + houseSurcharge + roomPrice + balconyPrice + extrasPrice + carpetPrice + parkingSurcharge;
 
-//     return {
-//         basePrice,
-//         houseSurcharge,
-//         roomPrice,
-//         balconyPrice,
-//         extrasPrice,
-//         carpetPrice,
-//         parkingSurcharge,
-//         totalPrice
-//     };
-// });
-
-// // Create the breakdown array
+// Create the breakdown array
 watch(calculatedPrice, (newPrice) => {
     bookingBreakdown.value = newPrice.items.filter(item => item.price > 0);
     totalPrice.value = newPrice.totalPrice;
 }, { immediate: true });
 
-// watch(calculatedPrice, (newPrice) => {
-//     bookingBreakdown.value = [
-//         { label: formState.typeOptionsInput, price: newPrice.basePrice, units: 1 },
-//         { label: 'Property Surcharge', price: newPrice.houseSurcharge, units: 1 },
-//         { label: 'Extra Room', price: newPrice.roomPrice, units: Math.max(0, formState.roomInput - 2) },
-//         { label: 'Balcony', price: newPrice.balconyPrice, units: formState.balconyInput },
-//         { label: 'Extras', price: newPrice.extrasPrice, units: formState.extraOptionsInput.length },
-//         { label: 'Carpet', price: newPrice.carpetPrice, units: formState.carpetInput },
-//         { label: 'Parking', price: newPrice.parkingSurcharge, units: 1 },
-//     ].filter(item => item.price > 0); // Only show if > £0
-
-//     totalPrice.value = newPrice.totalPrice;
-// }, { immediate: true });
-
 watch(() => formState.startDateInput, (newDate) => {
     bookingDate.value = newDate || '';
-});
+}, { immediate: true });
 
 watch(() => formState.timeOptionsInput, (newTime) => {
-    const selectedOption = timeOptions.find(option => option.value === newTime);
-    bookingTime.value = selectedOption ? selectedOption.label : '';
-});
+    bookingTime.value = newTime || '';
+    // const selectedOption = timeOptions.find(option => option.value === newTime);
+    // bookingTime.value = selectedOption ? selectedOption.label : '';
+}, { immediate: true });
 
 // Initialize the router
 const router = useRouter();
@@ -298,6 +150,8 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             body: {
                 ...formState, // Send the form state as the request body
                 // recommendedCleaningHours: recommendedCleaningHours.value,
+                quote: calculatedPrice.value.totalPrice,
+                basket: calculatedPrice.value.items,
                 currentUrl,
                 referrerUrl
             },
@@ -340,18 +194,26 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         <UFormGroup v-if="!isMinimalCleaningType" size="xl" name="roomInput"
             description="Include all spaces such as the kitchen, bathrooms, toilets, living rooms and bedrooms">
             <template #label>
-                <p class="mb-1">My property contains <span class="text-primary font-bold">{{ formState.roomInput }} {{
-                        roomSpelling }}</span></p>
+                <p class="mb-1">My property contains 
+                    <span class="text-primary font-bold">
+                        {{ formState.roomInput }} 
+                        {{ formatPlural(formState.roomInput, 'room') }}
+                    </span>
+                </p>
             </template>
-            <URange :min="1" :max="20" :model-value="formState.roomInput"
+            <URange :min="0" :max="20" :model-value="formState.roomInput"
                 @update:model-value="formState.roomInput = $event" />
         </UFormGroup>
 
         <UFormGroup v-if="!isMinimalCleaningType" size="xl" name="balconyInput"
             description="Only include if cleaning is required">
             <template #label>
-                <p class="mb-1">I need cleaning for <span class="text-primary font-bold">{{ formState.balconyInput }} {{
-                        balconySpelling }}</span></p>
+                <p class="mb-1">I need cleaning for 
+                    <span class="text-primary font-bold">
+                        {{ formState.balconyInput }} 
+                        {{ formatPlural(formState.balconyInput, 'balcony', 'balconies') }}
+                    </span>
+                </p>
             </template>
             <URange :min="0" :max="5" :model-value="formState.balconyInput"
                 @update:model-value="formState.balconyInput = $event" />
@@ -364,8 +226,12 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <UFormGroup size="xl" name="carpetInput" description="Add one carpet for every room, hallway or staircase">
             <template #label>
-                <p class="mb-1">I need <span class="text-primary font-bold">steam cleaning for {{ formState.carpetInput
-                        }} {{ carpetSpelling }}</span></p>
+                <p class="mb-1">I need 
+                    <span class="text-primary font-bold">steam cleaning for 
+                        {{ formState.carpetInput }} 
+                        {{ formatPlural(formState.carpetInput, 'carpet', 'carpets') }}
+                    </span>
+                </p>
             </template>
             <URange :min="0" :max="10" :model-value="formState.carpetInput"
                 @update:model-value="formState.carpetInput = $event" />

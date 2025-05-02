@@ -18,16 +18,25 @@ export default defineEventHandler(async (event) => {
 
     // Prepare the Requirements payload
     const requirementsPayload = {
+        //home cleaning
         bedrooms: formData.bedroomsInput,
         toilets: formData.toiletsInput,
-        extras: formData.extraOptionsInput,
         cleaningFrequency: formData.frequencyOptionsInput,
         selectedHours: formData.hoursOptionsInput,
         recommendedHours: formData.recommendedCleaningHours,
+        //single cleaning
+        rooms: formData.roomInput,
+        balconies: formData.balconyInput,
+        carpets: formData.carpetInput,
+        cleaningType: formData.typeOptionsInput,
+        parking: formData.parkingOptionsInput,
+        //shared
+        propertyType: formData.homeOptionsInput || formData.propertyOptionsInput,
+        extras: formData.extraHomeOptionsInput || formData.extraOptionsInput,
         startDate: formData.startDateInput,
         cleaningTime: formData.timeOptionsInput,
-        propertyType: formData.propertyOptionsInput,
         access: formData.accessOptionsInput,
+        basket: formData.basket,
     }
 
     // Prepare the Requirements payload
@@ -50,8 +59,10 @@ export default defineEventHandler(async (event) => {
     // Prepare the payload for Airtable API
     const payload = {
         fields: {
-            Email: formData.emailInput,
             Category: "Home cleaning",
+            Email: formData.emailInput,
+            Quote: formData.quote,
+            startDate: formData.startDateInput,
             Requirements: JSON.stringify(requirementsPayload),
             customerNote: formData.requirementsInput,
             contactDetails: JSON.stringify(contactDetailsPayload),

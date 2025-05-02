@@ -1,4 +1,5 @@
 <script setup lang="ts">
+const { getStarted, route } = useGetStarted();
 
 interface Props {
     badge?: string
@@ -14,7 +15,7 @@ interface Props {
 
 const props = defineProps<Props>()
 //store route info in route const
-const { params } = useRoute()
+const { params } = route
 //create pathCategory const if [category] param exists, otherwise return empty string
 const pathCategory = params.category ? params.category : props.path1
 
@@ -52,7 +53,7 @@ const pathCategory = params.category ? params.category : props.path1
                     <!-- Buttons -->
                     <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
 
-                        <NuxtLink v-if="pathCategory" :to="`/services/${pathCategory}/quote`" class="btn-primary">
+                        <NuxtLink v-if="pathCategory" :to=getStarted class="btn-primary">
                             {{ button1 || "Request a quote" }}
                         </NuxtLink>
 

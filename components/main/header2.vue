@@ -1,22 +1,5 @@
 <script setup lang="ts">
-
-const route = useRoute();
-//const getStarted = computed(() => route.params.category ? `/services/${route.params.category}/quote` : '/services');
-
-const getStarted = computed(() => {
-    // Create query string based on task or subcategory
-    const query = route.params.task
-        ? `?selection=${route.params.task}`
-        : route.params.subcategory
-            ? `?selection=${route.params.subcategory}`
-            : '';
-    // Create baseUrl string based on category and subcategory
-    const baseUrl = route.params.subcategory === 'single-visit-cleaning' && route.params.task
-        ? `/services/${route.params.subcategory}/quote`
-        : route.params.category ? `/services/${route.params.category}/quote` : '/services';
-
-    return baseUrl + query; // Append the query to the base URL
-});
+const { getStarted, route } = useGetStarted();
 
 const open = ref(false);
 // Watch for route changes and set open to false

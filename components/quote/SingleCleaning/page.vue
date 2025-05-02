@@ -17,7 +17,7 @@ const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFor
                 <div class="p-5 bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900 rounded-lg">
                     <QuoteSingleCleaningFaqs />
                 </div>
-                <div class="lg:sticky lg:top-24">
+                <div class="lg:sticky lg:top-20">
                     <ClientOnly>
                         <div class="p-5 bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900 rounded-lg">
                             <QuoteBookingSummary v-if="bookingBreakdown.length || totalPrice"

@@ -15,12 +15,12 @@ const props = defineProps<{
         <h2 class="text-center font-semibold text-lg mb-4">Booking Summary</h2>
 
         <!-- ✨ Show date/time if available -->
-        <div v-if="props.date || props.time" class="mb-4 text-sm px-3">
-            <div v-if="props.date" class="flex justify-between items-center">
-                <span class="font-semibold">Booking Date</span> {{ formatShortDate(props.date) }}
+        <div class="mb-4 text-sm px-3">
+            <div class="flex justify-between items-center">
+                <span class="font-semibold">Booking date</span> <span v-if="props.date">{{ formatShortDate(props.date) }}</span>
             </div>
-            <div v-if="props.time" class="flex justify-between items-center">
-                <span class="font-semibold">Time</span> {{ props.time }}
+            <div class="flex justify-between items-center">
+                <span class="font-semibold">Time</span> <span v-if="props.time">{{ props.time }}</span>
             </div>
         </div>
 

@@ -3,7 +3,7 @@ export const navbarData = {
 }
 
 export const footerData = {
-    author: 'Netronix Limited',
+    author: 'Mohana Ltd',
     brand: 'BaseLink',
     aboutAuthor:
         'BaseLink connects residential and commercial customers with reliable cleaners and tradespeople. From plumbing and electrical work to expert cleaning and maintenance, we deliver high-quality solutions to meet your needs, all at competitive prices.',

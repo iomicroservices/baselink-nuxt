@@ -113,7 +113,7 @@ Have a question, partnership enquiry, or just want to say hello?
 
 Or visit our [Contact page](#) for more ways to reach us.
 
-Company number 14555438 Netronix Limited t/a BaseLink
+Company number 14430827 Mohana Ltd t/a BaseLink
 
 ---
 

@@ -5,8 +5,7 @@ const path = computed(() => route.fullPath.replace('/', ''))
 </script>
 
 <template>
-    <div
-        class="py-5 border-t bg-white dark:bg-slate-950 dark:border-gray-800 mt-5 text-zinc-700 dark:text-zinc-300">
+    <div class="py-5 border-t bg-white dark:bg-slate-950 dark:border-gray-800 mt-5 text-zinc-700 dark:text-zinc-300">
         <div class="px-6 container max-w-6xl mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-3">
 
@@ -18,7 +17,7 @@ const path = computed(() => route.fullPath.replace('/', ''))
             </div>
 
             <div class="border-t dark:border-gray-800 mt-5 text-center p-2">
-                Copyright © {{ new Date().getFullYear() }} Netronix Limited All Rights reserved. Company reg: 14555438
+                Copyright © {{ new Date().getFullYear() }} Mohana Ltd All Rights reserved. Company reg: 14430827
             </div>
         </div>
     </div>

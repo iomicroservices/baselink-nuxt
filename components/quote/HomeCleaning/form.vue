@@ -2,155 +2,35 @@
 import { z } from 'zod'
 import type { FormSubmitEvent } from '#ui/types'
 import { isClient } from '@vueuse/core'
+import { homeCleaningOptions } from '~/utils/forms/formOptions'
+import { generateSchema } from '~/utils/forms/generateSchema'
+import { homeCleaningDefaults } from '@/utils/forms/formDefaults'
 
-// Property type input selections
-const propertyOptions = [
-    { label: 'Apartment', value: 'apartment' },
-    { label: 'House', value: 'house' },
-    { label: 'Cottage', value: 'cottage' },
-    { label: 'Bungalow', value: 'bungalow' }
-]
+// Pricing data using composable
+const { cleaningPrices } = usePricing();
+// Form component updates this data using composable to render booking summary
+const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFormState();
 
-// Property type input selections
-const accessOptions = [
-    { label: 'Meet in person', value: 'in-person' },
-    { label: 'Concierge', value: 'concierge' },
-    { label: 'Lock box', value: 'lock-box' },
-    { label: 'Pin code', value: 'pin-code' },
-    { label: 'Key with neighbour', value: 'neighbour' }
-]
+// Form options data stored in utils
+const {
+    homeOptions,
+    accessOptions,
+    extraHomeOptions,
+    frequencyOptions,
+    hoursOptions,
+    timeOptions,
+} = homeCleaningOptions;
 
-// Days input selections
-const extraOptions = [
-    { label: 'Cleaning products (+£4.80)', value: 'cleaning-products' },
-    { label: 'Dishwashing', value: 'dishwashing' },
-    { label: 'Laundry', value: 'laundry' },
-    { label: 'Ironing', value: 'ironing' },
-    { label: 'Inside fridge', value: 'inside-fridge' },
-    { label: 'Inside oven', value: 'inside-oven' }
-]
-
-// Frequency input selections
-const frequencyOptions = [
-    { label: 'Monthly', value: 'monthly' },
-    { label: 'Fortnightly', value: 'fortnightly' },
-    { label: 'Weekly', value: 'weekly' },
-    { label: 'Varies', value: 'varies' },
-    { label: 'One-off', value: 'one-off' }
-]
-
-// Step 2: Annotate the hoursOptions constant with the defined interface
-const hoursOptions = [
-    { label: '2 hours', value: 2 },
-    { label: '2.5 hours', value: 2.5 },
-    { label: '3 hours', value: 3 },
-    { label: '3.5 hours', value: 3.5 },
-    { label: '4 hours', value: 4 },
-    { label: '4.5 hours', value: 4.5 },
-    { label: '5 hours', value: 5 },
-    { label: '5.5 hours', value: 5.5 },
-    { label: '6 hours', value: 6 },
-    { label: '6.5 hours', value: 6.5 },
-    { label: '7 hours', value: 7 },
-    { label: '7.5 hours', value: 7.5 },
-    { label: '8 hours', value: 8 },
-    { label: '8.5 hours', value: 8.5 },
-    { label: '9 hours', value: 9 },
-    { label: '9.5 hours', value: 9.5 },
-    { label: '10 hours', value: 10 }
-]
-
-// Time input selections
-const timeOptions = [
-    { label: 'Flexible', value: 'flexible' },
-    { label: 'Morning 8am - 12pm', value: 'morning' },
-    { label: 'Afternoon 12pm - 5pm', value: 'afternoon' },
-    { label: 'Evening 5pm - 8pm', value: 'evening' }
-]
-
-const formState = reactive({
-    bedroomsInput: 1,
-    toiletsInput: 1,
-    extraOptionsInput: [],
-    frequencyOptionsInput: 'monthly',
-    hoursOptionsInput: 2,
-    startDateInput: undefined,
-    timeOptionsInput: 'flexible',
-    propertyOptionsInput: 'apartment',
-    accessOptionsInput: 'in-person',
-    requirementsInput: '',
-    fullNameInput: undefined,
-    addressOneInput: undefined,
-    addressTwoInput: '',
-    addressCityInput: undefined,
-    postCodeInput: undefined,
-    phoneNumberInput: undefined,
-    emailInput: undefined,
-    marketingInput: true
-});
-
-const bedroomSpelling = computed(() => {
-    return formState.bedroomsInput === 1 ? 'bedroom' : 'bedrooms';
-});
-
-const toiletSpelling = computed(() => {
-    return formState.toiletsInput === 1 ? 'toilet' : 'toilets';
-});
-
-const formSchema = z.object({
-
-    bedroomsInput: z.number({
-        required_error: "Select number of bedrooms",
-        invalid_type_error: "Must be a number",
-    }),
-
-    toiletsInput: z.number({
-        required_error: "Select number of toilets",
-        invalid_type_error: "Must be a number",
-    }),
-
-    propertyOptionsInput: z.string({ message: "Select a property type" }).refine(value => propertyOptions.some(option => option.value === value), { message: "Select a valid property type" }),
-
-    accessOptionsInput: z.string({ message: "Select a property type" }).refine(value => accessOptions.some(option => option.value === value), { message: "Select a valid property type" }),
-
-    extraOptionsInput: z.array(z.string()).refine(values => values.every(value => extraOptions.some(option => option.value === value)), { message: "Select valid days" }),
-
-    frequencyOptionsInput: z.string({ message: "Select frequency of cleans" }).refine(value => frequencyOptions.some(option => option.value === value), { message: "Select a valid frequency of cleans" }),
-
-    hoursOptionsInput: z.coerce.number({
-        required_error: "Select cleaning hours needed",
-        invalid_type_error: "Must be a number",
-    }).refine(value => hoursOptions.some(option => option.value === value), { message: "Select valid cleaning hours" }),
-
-    timeOptionsInput: z.string({ message: "Select preferred time of day for cleaning" }).refine(value => timeOptions.some(option => option.value === value), { message: "Select valid preferred time of day for cleaning" }),
-
-    requirementsInput: z.string().max(500, "500 character limit"),
-
-    fullNameInput: z.string({ message: "Name required" }).min(3, { message: "Must be a valid name" }).max(100, { message: "Max 100 characters allowed" }),
-
-    addressOneInput: z.string({ message: "Address required" }).min(3, { message: "Must be a valid address" }).max(100, { message: "Max 100 characters allowed" }),
-
-    addressTwoInput: z.string({ message: "Address required" }).max(100, { message: "Max 100 characters allowed" }),
-
-    addressCityInput: z.string({ message: "City required" }).min(3, { message: "Must be a valid city" }).max(100, { message: "Max 100 characters allowed" }),
-
-    startDateInput: z.string({ message: "Date required" }).date("Must be a valid date").refine(date => {
-        const selectedDate = new Date(date);
-        const today = new Date();
-        today.setHours(0, 0, 0, 0);
-        return selectedDate >= today;
-    }, { message: "Cleaning date cannot be in the past" }),
-
-    postCodeInput: z.string({ message: "Postcode required" }).min(5, { message: "Must be a valid postcode" }),
-
-    phoneNumberInput: z.string({ message: "Phone number required" }).min(11, { message: "Must be a valid UK phone or mobile number" }),
-
-    emailInput: z.string().min(1, { message: "Email required" }).email({ message: "Must be a valid email" }),
-
-    marketingInput: z.boolean(),
-});
+const formSchema = generateSchema(
+    Object.keys(homeCleaningDefaults) as (keyof typeof homeCleaningDefaults)[]);
+    // alternatively, manually construct: generateSchema([field1, field2,])
 
 type Schema = z.infer<typeof formSchema>
+
+//Store data from user inputs to form
+const formState = reactive({
+    ...homeCleaningDefaults
+});
 
 // Computed property to check if the form is valid
 const isFormValid = computed(() => {
@@ -163,7 +43,6 @@ const isFormValid = computed(() => {
 });
 
 
-
 // Computed property to calculate recommended cleaning hours
 const recommendedCleaningHours = computed(() => {
     if (!isClient) return 2; // Safe default during SSR
@@ -174,13 +53,52 @@ const recommendedCleaningHours = computed(() => {
     // Add 0.5 hours for each toilet
     hours += 0.5 * formState.toiletsInput;
     // Add 0.5 hours for each extra option selected, except for 'cleaning-products'
-    const extraHours = Array.isArray(formState.extraOptionsInput)
-        ? formState.extraOptionsInput.filter(option => typeof option === 'string' && option !== 'cleaning-products').length * 0.5
+    const extraHours = Array.isArray(formState.extraHomeOptionsInput)
+        ? formState.extraHomeOptionsInput.filter(option => typeof option === 'string' && option !== 'cleaning-products').length * 0.5
         : 0;
     hours += extraHours;
     // Ensure the minimum is 2 hours and maximum is 10 hours
     return Math.min(Math.max(hours, 2), 10);
 });
+
+// Pricing
+const calculatedPrice = computed(() => {
+    const items = [
+        {
+            label: formState.hoursOptionsInput + ' hours at £18/hour', // Base cleaning type
+            price: formState.hoursOptionsInput * cleaningPrices.hourlyPrice,
+            units: formState.hoursOptionsInput,
+        },
+        {
+            label: 'Cleaning products',
+            price: formState.extraHomeOptionsInput.includes('cleaning-products') ? 4.8 : 0,
+            units: formState.extraHomeOptionsInput.includes('cleaning-products') ? 1 : 0,
+        },
+    ];
+
+    // Calculate total
+    const totalPrice = items.reduce((sum, item) => sum + item.price, 0);
+
+    return {
+        items,
+        totalPrice
+    };
+});
+
+// Create the breakdown array
+watch(calculatedPrice, (newPrice) => {
+    bookingBreakdown.value = newPrice.items.filter(item => item.price > 0);
+    totalPrice.value = newPrice.totalPrice;
+}, { immediate: true });
+
+
+watch(() => formState.startDateInput, (newDate) => {
+    bookingDate.value = newDate || '';
+}, { immediate: true });
+
+watch(() => formState.timeOptionsInput, (newTime) => {
+    bookingTime.value = newTime || '';
+}, { immediate: true });
 
 // Initialize the router
 const router = useRouter();
@@ -206,6 +124,8 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             body: {
                 ...formState, // Send the form state as the request body
                 recommendedCleaningHours: recommendedCleaningHours.value,
+                quote: calculatedPrice.value.totalPrice,
+                basket: calculatedPrice.value.items,
                 currentUrl,
                 referrerUrl
             },
@@ -238,8 +158,11 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <UFormGroup size="xl" name="bedroomsInput">
             <template #label>
-                <p class="mb-1">I need <span class="text-primary font-bold">{{ formState.bedroomsInput }} {{
-                        bedroomSpelling }}</span>
+                <p class="mb-1">I need 
+                    <span class="text-primary font-bold">
+                        {{ formState.bedroomsInput }} 
+                        {{ formatPlural(formState.bedroomsInput, 'bedroom', 'bedrooms') }}
+                    </span>
                     cleaned</p>
             </template>
             <URange :min="0" :max="10" :model-value="formState.bedroomsInput"
@@ -248,16 +171,18 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <UFormGroup size="xl" name="toiletsInput">
             <template #label>
-                <p class="mb-1">I need <span class="text-primary font-bold">{{ formState.toiletsInput }} {{
-                        toiletSpelling }}</span>
+                <p class="mb-1">I need 
+                    <span class="text-primary font-bold">
+                        {{ formState.toiletsInput }} 
+                        {{ formatPlural(formState.toiletsInput, 'toilet') }}</span>
                     cleaned</p>
             </template>
             <URange :min="0" :max="10" :model-value="formState.toiletsInput"
                 @update:model-value="formState.toiletsInput = $event" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="extraOptionsInput" label="Add optional extras" hint="Optional">
-            <USelectMenu v-model="formState.extraOptionsInput" :options="extraOptions" multiple
+        <UFormGroup size="xl" name="extraHomeOptionsInput" label="Add optional extras" hint="Optional">
+            <USelectMenu v-model="formState.extraHomeOptionsInput" :options="extraHomeOptions" multiple
                 value-attribute="value" />
         </UFormGroup>
 
@@ -286,8 +211,8 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <USelect v-model="formState.timeOptionsInput" :options="timeOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="propertyOptionsInput" label="What kind of property is this for?" required>
-            <USelect v-model="formState.propertyOptionsInput" :options="propertyOptions" placeholder="" />
+        <UFormGroup size="xl" name="homeOptionsInput" label="What kind of property is this for?" required>
+            <USelect v-model="formState.homeOptionsInput" :options="homeOptions" placeholder="" />
         </UFormGroup>
 
         <UFormGroup size="xl" name="accessOptionsInput" label="How will the cleaner access your home?" required>
