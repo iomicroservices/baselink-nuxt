@@ -1,37 +1,124 @@
 <script setup lang="ts">
 import { z } from 'zod'
 import type { FormSubmitEvent } from '#ui/types'
-import { singleCleaningOptions } from '~/utils/forms/formOptions'
-import { generateSchema } from '~/utils/forms/generateSchema'
-import { singleCleaningDefaults } from '@/utils/forms/formDefaults'
+import { generateDynamicSchema } from '~/utils/forms/dynamicSchema'
+import { parseFormConfig } from '~/utils/forms/parseFormConfig'
 
-// Pricing data using composable
-const { parkingPrice, cleaningPrices } = usePricing();
-// Form component updates this data using composable to render booking summary
-const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFormState();
+// 1️⃣ Centralised form config object
+const formConfig = {
+    roomInput: {
+        default: 2,
+        type: 'numberInput',
+        label: 'Rooms'
+    },
+    balconyInput: {
+        default: 0,
+        type: 'numberInput',
+        label: 'Balconies'
+    },
+    carpetInput: {
+        default: 0,
+        type: 'numberInput',
+        label: 'Carpets'
+    },
+    taskOptions: {
+        default: 'Deep cleaning',
+        type: 'stringSelect',
+        label: 'Cleaning type',
+        options: ['Deep cleaning', 'End of tenancy cleaning', 'After builders cleaning', 'Carpet cleaning', 'Upholstery cleaning']
+    },
+    propertyOptions: {
+        default: 'Apartment',
+        type: 'stringSelect',
+        label: 'Property type',
+        options: ['Apartment', 'House', 'Cottage', 'Bungalow']
+    },
+    accessOptions: {
+        default: 'Meet in person',
+        type: 'stringSelect',
+        label: 'Access',
+        options: ['Meet in person', 'Concierge', 'Lock box', 'Pin code', 'Key with neighbour']
+    },
+    parkingOptions: {
+        default: 'Free parking',
+        type: 'stringSelect',
+        label: 'Parking',
+        options: ['Free parking', 'Paid parking']
+    },
+    extraOptions: {
+        default: [],
+        type: 'stringSelect',
+        label: 'Extras',
+        options: ['Dishwashing', 'Inside windows', 'Inside fridge', 'Inside freezer', 'Inside oven', 'Laundry', 'Ironing']
+    },
+    timeOptions: {
+        default: 'Flexible',
+        type: 'stringSelect',
+        label: 'Time',
+        options: ['Flexible', 'Morning 8am - 12pm', 'Afternoon 12pm - 5pm', 'Evening 5pm - 8pm', 'Overnight', 'Not sure']
+    },
+    requirementsNote: {
+        default: '',
+        type: 'textInput',
+        label: 'Notes',
+        optional: true
+    },
+    startDate: {
+        default: undefined,
+        type: 'dateInput'
+    },
+    fullName: {
+        default: undefined,
+        type: 'textInput',
+        label: 'Name'
+    },
+    addressOne: {
+        default: undefined,
+        type: 'textInput',
+        label: 'Address'
+    },
+    addressTwo: {
+        default: '',
+        type: 'textInput',
+        label: 'Address 2',
+        optional: true
+    },
+    addressCity: {
+        default: undefined,
+        type: 'textInput',
+        label: 'City'
+    },
+    postCode: {
+        default: undefined,
+        type: 'textInput',
+        label: 'Postcode'
+    },
+    phoneNumber: {
+        default: undefined,
+        type: 'phoneInput'
+    },
+    emailAddress: {
+        default: undefined,
+        type: 'emailInput'
+    },
+    marketingCheckbox: {
+        default: true,
+        type: 'marketingCheckbox'
+    }
+}
 
-// Form options data stored in utils
-const {
-    typeOptions,
-    propertyOptions,
-    accessOptions,
-    parkingOptions,
-    extraOptions,
-    timeOptions,
-} = singleCleaningOptions
 
-// Use the formDefaults util directly for formState
-const formState = reactive({
-    ...singleCleaningDefaults
-});
+// 2️⃣ Extract defaults, meta, options from config and parse
+const { defaults, meta, options } = parseFormConfig(formConfig)
 
-// Use the generateSchema util
-const formSchema = generateSchema(
-    Object.keys(singleCleaningDefaults) as (keyof typeof singleCleaningDefaults)[]);
+// 3️⃣ Reactive state
+const formState = reactive({ ...defaults })
 
+// 4️⃣ Generate validation schema
+const formSchema = generateDynamicSchema(defaults, options, meta)
 type Schema = z.infer<typeof formSchema>
 
-// Computed property to check if the form is valid
+// 5️⃣ Computed validation check
 const isFormValid = computed(() => {
     try {
         formSchema.parse(formState); // This will throw if validation fails
@@ -41,12 +128,13 @@ const isFormValid = computed(() => {
     }
 });
 
+// 6️⃣ Pricing logic
+const { parkingPrice, cleaningPrices } = usePricing(); // Pricing data using composable
+const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFormState(); // Form component updates this data using composable to render booking summary
 const minimalCleaningTypes = ['Carpet cleaning', 'Upholstery cleaning'];
-
 const isMinimalCleaningType = computed(() =>
-    minimalCleaningTypes.includes(formState.typeOptionsInput)
+    minimalCleaningTypes.includes(formState.taskOptions)
 );
-
 let wasMinimal = isMinimalCleaningType.value; // Track previous minimal state
 
 watch(
@@ -70,10 +158,10 @@ watch(
 const calculatedPrice = computed(() => {
     const items = [
         {
-            label: formState.typeOptionsInput, // Base cleaning type
+            label: formState.taskOptions, // Base cleaning type
             price:
                 (isMinimalCleaningType.value ? cleaningPrices.minimalPrice : cleaningPrices.basePrice)
-                + (formState.propertyOptionsInput !== 'Apartment' ? cleaningPrices.houseSurcharge : 0)
+                + (formState.propertyOptions !== 'Apartment' ? cleaningPrices.houseSurcharge : 0)
                 + (!isMinimalCleaningType.value ? Math.max(0, formState.roomInput - 2) * cleaningPrices.roomPrice : 0)
                 + (isMinimalCleaningType.value ? Math.max(0, formState.carpetInput - 2) * cleaningPrices.carpetPrice : 0), // Add carpets to base if minimal
             units: 1,
@@ -85,8 +173,8 @@ const calculatedPrice = computed(() => {
         },
         {
             label: 'Extras',
-            price: !isMinimalCleaningType.value ? formState.extraOptionsInput.length * cleaningPrices.extrasPrice : 0,
-            units: !isMinimalCleaningType.value ? formState.extraOptionsInput.length : 0,
+            price: !isMinimalCleaningType.value ? formState.extraOptions.length * cleaningPrices.extrasPrice : 0,
+            units: !isMinimalCleaningType.value ? formState.extraOptions.length : 0,
         },
         {
             label: 'Carpet',
@@ -95,7 +183,7 @@ const calculatedPrice = computed(() => {
         },
         {
             label: 'Parking',
-            price: formState.parkingOptionsInput === 'Paid parking' ? parkingPrice : 0,
+            price: formState.parkingOptions === 'Paid parking' ? parkingPrice : 0,
             units: 1,
         },
     ];
@@ -109,28 +197,25 @@ const calculatedPrice = computed(() => {
     };
 });
 
-
 // Create the breakdown array
 watch(calculatedPrice, (newPrice) => {
     bookingBreakdown.value = newPrice.items.filter(item => item.price > 0);
     totalPrice.value = newPrice.totalPrice;
 }, { immediate: true });
 
-watch(() => formState.startDateInput, (newDate) => {
+watch(() => formState.startDate, (newDate) => {
     bookingDate.value = newDate || '';
 }, { immediate: true });
 
-watch(() => formState.timeOptionsInput, (newTime) => {
+watch(() => formState.timeOptions, (newTime) => {
     bookingTime.value = newTime || '';
     // const selectedOption = timeOptions.find(option => option.value === newTime);
     // bookingTime.value = selectedOption ? selectedOption.label : '';
 }, { immediate: true });
 
-// Initialize the router
-const router = useRouter();
-
-// Reactive state for loading
-const isSubmitting = ref(false);
+// 7️⃣ Submission logic
+const isSubmitting = ref(false); // Reactive state for loading
+const router = useRouter(); // Initialize the router
 
 async function onSubmit(event: FormSubmitEvent<Schema>) {
     // Check if the form is valid using the computed property
@@ -145,10 +230,12 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
     const referrerUrl = document.referrer; // Previous URL
     // Submit the form data to the server API
     try {
-        const response = await $fetch('/api/home-cleaning/form-submit', {
+        const response = await $fetch('/api/quote/form-submit', {
             method: 'POST',
             body: {
                 ...formState, // Send the form state as the request body
+                category: 'Home cleaning',
+                subcategory: 'Single visit cleaning',
                 // recommendedCleaningHours: recommendedCleaningHours.value,
                 quote: calculatedPrice.value.totalPrice,
                 basket: calculatedPrice.value.items,
@@ -182,13 +269,13 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <p class="pt-10 text-2xl font-bold">Cleaning requirements</p>
 
-        <UFormGroup size="xl" name="typeOptionsInput" label="Type of cleaning required" required>
-            <USelect v-model="formState.typeOptionsInput" :options="typeOptions" placeholder="" />
+        <UFormGroup size="xl" name="taskOptions" label="Type of cleaning required" required>
+            <USelect v-model="formState.taskOptions" :options="options.taskOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup v-if="!isMinimalCleaningType" size="xl" name="propertyOptionsInput"
+        <UFormGroup v-if="!isMinimalCleaningType" size="xl" name="propertyOptions"
             label="What kind of property is this for?" required>
-            <USelect v-model="formState.propertyOptionsInput" :options="propertyOptions" placeholder="" />
+            <USelect v-model="formState.propertyOptions" :options="options.propertyOptions" placeholder="" />
         </UFormGroup>
 
         <UFormGroup v-if="!isMinimalCleaningType" size="xl" name="roomInput"
@@ -219,9 +306,9 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
                 @update:model-value="formState.balconyInput = $event" />
         </UFormGroup>
 
-        <UFormGroup v-if="!isMinimalCleaningType" size="xl" name="extraOptionsInput" label="Add optional extras"
+        <UFormGroup v-if="!isMinimalCleaningType" size="xl" name="extraOptions" label="Add optional extras"
             hint="Optional">
-            <USelectMenu v-model="formState.extraOptionsInput" :options="extraOptions" multiple />
+            <USelectMenu v-model="formState.extraOptions" :options="options.extraOptions" multiple />
         </UFormGroup>
 
         <UFormGroup size="xl" name="carpetInput" description="Add one carpet for every room, hallway or staircase">
@@ -256,66 +343,66 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             </div>
         </UFormGroup>-->
 
-        <UFormGroup size="xl" name="requirementsInput" label="Anything else we should know?" hint="Optional">
-            <UTextarea v-model="formState.requirementsInput"
+        <UFormGroup size="xl" name="requirementsNote" label="Anything else we should know?" hint="Optional">
+            <UTextarea v-model="formState.requirementsNote"
                 placeholder="e.g. lock box code, access PIN, additional requirements..." />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="startDateInput" label="What's your ideal cleaning date?" required>
-            <UInput v-model="formState.startDateInput" type="date" />
+        <UFormGroup size="xl" name="startDate" label="What's your ideal cleaning date?" required>
+            <UInput v-model="formState.startDate" type="date" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="timeOptionsInput" label="Morning, afternoon or evening — what suits you best?"
+        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?"
             required>
-            <USelect v-model="formState.timeOptionsInput" :options="timeOptions" placeholder="" />
+            <USelect v-model="formState.timeOptions" :options="options.timeOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="accessOptionsInput" label="How will the cleaner access your home?" required>
-            <USelect v-model="formState.accessOptionsInput" :options="accessOptions" placeholder="" />
+        <UFormGroup size="xl" name="accessOptions" label="How will the cleaner access your home?" required>
+            <USelect v-model="formState.accessOptions" :options="options.accessOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="parkingOptionsInput" label="What kind of parking is available?" required>
-            <USelect v-model="formState.parkingOptionsInput" :options="parkingOptions" placeholder="" />
+        <UFormGroup size="xl" name="parkingOptions" label="What kind of parking is available?" required>
+            <USelect v-model="formState.parkingOptions" :options="options.parkingOptions" placeholder="" />
         </UFormGroup>
 
         <p class="pt-10 text-2xl font-bold">Contact details</p>
 
-        <UFormGroup size="xl" name="fullNameInput" label="Full name" required>
-            <UInput v-model="formState.fullNameInput" />
+        <UFormGroup size="xl" name="fullName" label="Full name" required>
+            <UInput v-model="formState.fullName" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="addressOneInput" label="Address line 1" required>
-            <UInput v-model="formState.addressOneInput" />
+        <UFormGroup size="xl" name="addressOne" label="Address line 1" required>
+            <UInput v-model="formState.addressOne" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="addressTwoInput" label="Address line 2" hint="Optional">
-            <UInput v-model="formState.addressTwoInput" />
+        <UFormGroup size="xl" name="addressTwo" label="Address line 2" hint="Optional">
+            <UInput v-model="formState.addressTwo" />
         </UFormGroup>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <UFormGroup size="xl" name="addressCityInput" label="City" required>
-                <UInput v-model="formState.addressCityInput" />
+            <UFormGroup size="xl" name="addressCity" label="City" required>
+                <UInput v-model="formState.addressCity" />
             </UFormGroup>
 
-            <UFormGroup size="xl" name="postCodeInput" label="Postcode" required>
-                <UInput v-model="formState.postCodeInput" />
+            <UFormGroup size="xl" name="postCode" label="Postcode" required>
+                <UInput v-model="formState.postCode" />
             </UFormGroup>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <UFormGroup size="xl" name="phoneNumberInput" label="Phone number" required>
-                <UInput v-model="formState.phoneNumberInput" />
+            <UFormGroup size="xl" name="phoneNumber" label="Phone number" required>
+                <UInput v-model="formState.phoneNumber" />
             </UFormGroup>
 
-            <UFormGroup size="xl" name="emailInput" label="Email" required>
-                <UInput v-model="formState.emailInput" />
+            <UFormGroup size="xl" name="emailAddress" label="Email" required>
+                <UInput v-model="formState.emailAddress" />
             </UFormGroup>
         </div>
 
-        <UFormGroup size="xl" name="marketingInput" class="py-5">
+        <UFormGroup size="xl" name="marketingCheckbox" class="py-5">
             <div class="flex items-start">
                 <UToggle on-icon="i-heroicons-check-20-solid" off-icon="i-heroicons-x-mark-20-solid" color="green"
-                    v-model="formState.marketingInput">
+                    v-model="formState.marketingCheckbox">
                 </UToggle>
                 <p class="ml-3 mb-0 font-semibold text-left">Send me relevant offers and special discounts</p>
             </div>

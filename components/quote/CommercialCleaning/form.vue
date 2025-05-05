@@ -1,9 +1,8 @@
 <script setup lang="ts">
 import { z } from 'zod'
 import type { FormSubmitEvent } from '#ui/types'
-import { commercialCleaningOptions } from '~/utils/forms/formOptions';
-import { generateSchema } from '~/utils/forms/generateSchema'
-import { commercialCleaningDefaults } from '@/utils/forms/formDefaults'
+import { generateDynamicSchema } from '~/utils/forms/dynamicSchema'
+import { parseFormConfig } from '~/utils/forms/parseFormConfig'
 
 // Form component updates this data using composable to render booking summary
 const { totalPrice } = useBookingFormState();
@@ -11,26 +10,105 @@ onMounted(() => {
     totalPrice.value = 0
 });
 
-// Form options data stored in utils
-const {
-    propertyOptions,
-    daysOptions,
-    frequencyOptions,
-    unitHoursOptions,
-    timeOptions
-} = commercialCleaningOptions;
+// 1️⃣ Centralised form config object
+const formConfig = {
+    propertyOptions: {
+        default: 'Office',
+        type: 'stringSelect',
+        label: 'Property',
+        options: ['Office', 'Airbnb rental', 'Holiday rental', 'Residential block', 'Serviced apartment', 'Retail unit', 'Restaurant or Cafe', 'Bar or Pub', 'School or Nursery', 'Warehouse', 'Light industrial', 'Hotel', 'Other']
+    },
+    daysOptions: {
+        default: [],
+        type: 'stringMultiSelect',
+        label: 'Day',
+        options: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    },
+    frequencyOptions: {
+        default: 'Daily',
+        type: 'stringSelect',
+        label: 'Frequency',
+        options: ['Daily', 'Weekly', 'Fortnightly', 'Monthly', 'One-off', 'Not sure']
+    },
+    hoursOptions: {
+        default: '2 hours',
+        type: 'stringSelect',
+        label: 'Hours',
+        options: ['2 hours', '3 hours', '4+ hours', 'Varies', 'Not sure']
+    },
+    timeOptions: {
+        default: 'Flexible',
+        type: 'stringSelect',
+        label: 'Time',
+        options: ['Flexible', 'Morning 8am - 12pm', 'Afternoon 12pm - 5pm', 'Evening 5pm - 8pm', 'Overnight', 'Not sure']
+    },
+    startDate: {
+        default: undefined,
+        type: 'dateInput'
+    },
+    requirementsNote: {
+        default: '',
+        type: 'textInput',
+        label: 'Notes',
+        optional: true
+    },
+    fullName: {
+        default: undefined,
+        type: 'textInput',
+        label: 'Name'
+    },
+    companyName: {
+        default: '',
+        type: 'textInput',
+        label: 'Company',
+        optional: true
+    },
+    addressOne: {
+        default: undefined,
+        type: 'textInput',
+        label: 'Address'
+    },
+    addressTwo: {
+        default: '',
+        type: 'textInput',
+        label: 'Address 2',
+        optional: true
+    },
+    addressCity: {
+        default: undefined,
+        type: 'textInput',
+        label: 'City'
+    },
+    postCode: {
+        default: undefined,
+        type: 'textInput',
+        label: 'Postcode'
+    },
+    phoneNumber: {
+        default: undefined,
+        type: 'phoneInput'
+    },
+    emailAddress: {
+        default: undefined,
+        type: 'emailInput'
+    },
+    termsCheckbox: {
+        default: false,
+        type: 'termsCheckbox'
+    }
+}
 
-//Store data from user inputs to form
-const formState = reactive({
-    ...commercialCleaningDefaults
-})
+// 2️⃣ Extract defaults, meta, options from config and parse
+const { defaults, meta, options } = parseFormConfig(formConfig)
 
-const formSchema = generateSchema(
-    Object.keys(commercialCleaningDefaults) as (keyof typeof commercialCleaningDefaults)[]);
+// 3️⃣ Reactive state
+const formState = reactive({ ...defaults })
 
+// 4️⃣ Generate validation schema
+const formSchema = generateDynamicSchema(defaults, options, meta)
 type Schema = z.infer<typeof formSchema>
 
-// Computed property to check if the form is valid
+// 5️⃣ Computed validation check
 const isFormValid = computed(() => {
     try {
         formSchema.parse(formState); // This will throw if validation fails
@@ -40,11 +118,9 @@ const isFormValid = computed(() => {
     }
 });
 
-// Initialize the router
-const router = useRouter();
-
-// Reactive state for loading
-const isSubmitting = ref(false);
+// 7️⃣ Submission logic
+const isSubmitting = ref(false); // Reactive state for loading
+const router = useRouter(); // Initialize the router
 
 async function onSubmit(event: FormSubmitEvent<Schema>) {
 
@@ -63,7 +139,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
     // Submit the form data to the server API
     try {
-        const response = await $fetch('/api/custom-quote/form-submit', {
+        const response = await $fetch('/api/quote/form-submit', {
             method: 'POST',
             body: {
                 ...formState, // Send the form state as the request body
@@ -102,62 +178,78 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <p class="pt-10 text-2xl font-bold">Cleaning requirements</p>
 
-        <UFormGroup size="xl" name="commercialPropertyOptionsInput" label="What kind of property is this for?" required>
-            <USelect v-model="formState.commercialPropertyOptionsInput" :options="propertyOptions" placeholder="" />
+        <UFormGroup size="xl" name="propertyOptions" label="What kind of property is this for?" required>
+            <USelect v-model="formState.propertyOptions" :options="options.propertyOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="daysOptionsInput" label="Which days of the week do you require a cleaning visit?"
+        <UFormGroup size="xl" name="daysOptions" label="Which days of the week do you require a cleaning visit?"
             required>
-            <USelectMenu v-model="formState.daysOptionsInput" :options="daysOptions" multiple placeholder="" />
+            <USelectMenu v-model="formState.daysOptions" :options="options.daysOptions" multiple placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="commercialFrequencyOptionsInput"
-            label="How frequently do you require a cleaning visit?" required>
-            <USelect v-model="formState.commercialFrequencyOptionsInput" :options="frequencyOptions" placeholder="" />
+        <UFormGroup size="xl" name="frequencyOptions" label="How frequently do you require a cleaning visit?" required>
+            <USelect v-model="formState.frequencyOptions" :options="options.frequencyOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="unitHoursOptionsInput" label="Duration of each cleaning session?" required>
-            <USelect v-model="formState.unitHoursOptionsInput" :options="unitHoursOptions" placeholder="" />
+        <UFormGroup size="xl" name="hoursOptions" label="Duration of each cleaning session?" required>
+            <USelect v-model="formState.hoursOptions" :options="options.hoursOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="commercialTimeOptionsInput"
-            label="Morning, afternoon or evening — what suits you best?" required>
-            <USelect v-model="formState.commercialTimeOptionsInput" :options="timeOptions" placeholder="" />
+        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?" required>
+            <USelect v-model="formState.timeOptions" :options="options.timeOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="startDateInput" label="What's your ideal cleaning start date?" required>
-            <UInput v-model="formState.startDateInput" type="date" />
+        <UFormGroup size="xl" name="startDate" label="What's your ideal cleaning start date?" required>
+            <UInput v-model="formState.startDate" type="date" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="requirementsInput" label="Anything else we should know?" hint="Optional">
-            <UTextarea v-model="formState.requirementsInput"
+        <UFormGroup size="xl" name="requirementsNote" label="Anything else we should know?" hint="Optional">
+            <UTextarea v-model="formState.requirementsNote"
                 placeholder="Let us know about any specific requirements..." />
         </UFormGroup>
 
         <p class="pt-10 text-2xl font-bold">Contact details</p>
 
-        <UFormGroup size="xl" name="fullNameInput" label="Full name" required>
-            <UInput v-model="formState.fullNameInput" />
+        <UFormGroup size="xl" name="fullName" label="Full name" required>
+            <UInput v-model="formState.fullName" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="companyNameInput" label="Company name" hint="Optional">
-            <UInput v-model="formState.companyNameInput" />
+        <UFormGroup size="xl" name="companyName" label="Company name" hint="Optional">
+            <UInput v-model="formState.companyName" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="postCodeInput" label="Postcode" required>
-            <UInput v-model="formState.postCodeInput" />
+        <UFormGroup size="xl" name="addressOne" label="Address line 1" required>
+            <UInput v-model="formState.addressOne" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="phoneNumberInput" label="Phone number" required>
-            <UInput v-model="formState.phoneNumberInput" />
+        <UFormGroup size="xl" name="addressTwo" label="Address line 2" hint="Optional">
+            <UInput v-model="formState.addressTwo" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="emailInput" label="Email" required>
-            <UInput v-model="formState.emailInput" />
-        </UFormGroup>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
-        <UFormGroup size="xl" name="termsInput" class="py-3">
-            <UCheckbox v-model="formState.termsInput" required>
+            <UFormGroup size="xl" name="addressCity" label="City" required>
+                <UInput v-model="formState.addressCity" />
+            </UFormGroup>
+
+            <UFormGroup size="xl" name="postCode" label="Postcode" required>
+                <UInput v-model="formState.postCode" />
+            </UFormGroup>
+
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <UFormGroup size="xl" name="phoneNumber" label="Phone number" required>
+                <UInput v-model="formState.phoneNumber" />
+            </UFormGroup>
+
+            <UFormGroup size="xl" name="emailAddress" label="Email" required>
+                <UInput v-model="formState.emailAddress" />
+            </UFormGroup>
+        </div>
+
+        <UFormGroup size="xl" name="termsCheckbox" class="py-3">
+            <UCheckbox v-model="formState.termsCheckbox" required>
                 <template #label>
                     <span class="ml-2 text-base font-semibold">I accept the
                         <a href="/legal/terms-of-service" target="_blank" class="text-green-500 underline">terms

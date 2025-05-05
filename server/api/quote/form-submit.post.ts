@@ -18,29 +18,42 @@ export default defineEventHandler(async (event) => {
 
     // Prepare the Requirements payload
     const requirementsPayload = {
+        //Home cleaning
+        bedrooms: formData.bedroomsInput,
+        toilets: formData.toiletsInput,
+        recommendedHours: formData.recommendedCleaningHours,
+        //Single cleaning
+        rooms: formData.roomInput,
+        balconies: formData.balconyInput,
+        carpets: formData.carpetInput,
         //Mobile car wash
-        serviceOptions: formData.serviceOptionsInput,
-        vehicleOptions: formData.vehicleOptionsInput,
-        washFrequencyOptions: formData.washFrequencyOptionsInput,
-        washTimeOptions: formData.washTimeOptionsInput,
+        vehicle: formData.vehicleOptions,
         //Commercial cleaning
-        propertyType: formData.commercialPropertyOptionsInput,
-        cleaningDays: formData.daysOptionsInput,
-        cleaningFrequency: formData.commercialFrequencyOptionsInput,
-        cleaningHours: formData.unitHoursOptionsInput,
-        cleaningTime: formData.commercialTimeOptionsInput,
+        selectedDays: formData.daysOptions,
         //Shared
-        startDate: formData.startDateInput,
-        tos: formData.termsInput,
+        task: formData.taskOptions,
+        propertyType: formData.propertyOptions,
+        extras: formData.extraOptions,
+        frequency: formData.frequencyOptions,
+        selectedHours: formData.hoursOptions,
+        startDate: formData.startDate,
+        visitTime: formData.timeOptions,
+        access: formData.accessOptions,
+        parking: formData.parkingOptions,
+        basket: formData.basket,
+        tos: formData.termsCheckbox,
     }
 
     // Prepare the Requirements payload
     const contactDetailsPayload = {
-        FullName: formData.fullNameInput,
-        CompanyName: formData.companyNameInput,
-        PostCode: formData.postCodeInput,
-        PhoneNumber: formData.phoneNumberInput,
-        Email: formData.emailInput,
+        FullName: formData.fullName,
+        CompanyName: formData.companyName,
+        AddressOne: formData.addressOne,
+        AddressTwo: formData.addressTwo,
+        City: formData.addressCity,
+        PostCode: formData.postCode,
+        PhoneNumber: formData.phoneNumber,
+        Email: formData.emailAddress,
     }
 
     // Get the user's IP address
@@ -52,13 +65,16 @@ export default defineEventHandler(async (event) => {
     // Prepare the payload for Airtable API
     const payload = {
         fields: {
-            Email: formData.emailInput,
             Category: formData.category,
-            startDate: formData.startDateInput,
+            Subcategory: formData.subcategory,
+            Task: formData.taskOptions,
+            Email: formData.emailAddress,
+            Quote: formData.quote,
+            startDate: formData.startDate,
             Requirements: JSON.stringify(requirementsPayload),
-            customerNote: formData.requirementsInput,
             contactDetails: JSON.stringify(contactDetailsPayload),
-            Marketing: formData.category === 'Commercial cleaning' ? true : formData.marketingInput,
+            customerNote: formData.requirementsNote,
+            Marketing: formData.category === 'Commercial cleaning' ? true : formData.marketingCheckbox,
             Source: JSON.stringify(sourcePayload),
             ipAddress: ipAddress,
             // Add more fields here as needed

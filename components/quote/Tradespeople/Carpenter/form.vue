@@ -4,25 +4,29 @@ import type { FormSubmitEvent } from '#ui/types'
 import { generateDynamicSchema } from '~/utils/forms/dynamicSchema'
 import { parseFormConfig } from '~/utils/forms/parseFormConfig'
 
+interface Props {
+    task?: string
+}
+const props = defineProps<Props>()
+
 // 1️⃣ Centralised form config object
 const formConfig = {
     taskOptions: {
-        default: 'Full valet',
-        type: 'stringSelect',
-        label: 'Service',
-        options: ['Full valet', 'Mini valet', 'Exterior wash', 'Interior clean', 'Engine bay clean', 'Headlight restoration', 'Odour removal', 'Rim refurbishment', 'Other']
-    },
-    vehicleOptions: {
-        default: 'Medium - saloon',
-        type: 'stringSelect',
-        label: 'Vehicle',
-        options: ['Small - hatchback ', 'Medium - saloon', 'Large - SUV', 'Small commercial', 'Medium commercial', 'Large commercial']
-    },
-    frequencyOptions: {
-        default: 'One-off',
-        type: 'stringSelect',
-        label: 'Frequency',
-        options: ['Weekly', 'Fortnightly', 'Monthly', 'One-off', 'Not sure']
+        default: 'kitchen-fitting',
+        type: 'objectSelect',
+        label: 'Task',
+        options: [
+            { label: 'Outdoor decking', value: 'outdoor-decking' },
+            { label: 'Door hanging', value: 'door-hanging' },
+            { label: 'Fitted wardrobes', value: 'fitted-wardrobes' },
+            { label: 'Flooring installation & repair', value: 'flooring-installation-repair' },
+            { label: 'Garage doors & gates', value: 'garage-doors-gates' },
+            { label: 'Kitchen fitting', value: 'kitchen-fitting' },
+            { label: 'Skirting board fitting', value: 'skirting-board-fitting' },
+            { label: 'Staircase renovation', value: 'staircase-renovation' },
+            { label: 'Window frames & sills', value: 'window-frames-sills' },
+            { label: 'Wooden panelling', value: 'wooden-panelling' }
+        ]
     },
     timeOptions: {
         default: 'Flexible',
@@ -85,6 +89,10 @@ const { defaults, meta, options } = parseFormConfig(formConfig)
 
 // 3️⃣ Reactive state
 const formState = reactive({ ...defaults })
+// If task is passed and matches a known option, set it
+if (props.task && 'taskOptions' in formState) {
+    formState.taskOptions = props.task
+}
 
 // 4️⃣ Generate validation schema
 const formSchema = generateDynamicSchema(defaults, options, meta)
@@ -101,38 +109,71 @@ const isFormValid = computed(() => {
 });
 
 // 6️⃣ Pricing logic
-// Form component updates this data using composable to render booking summary
-const { totalPrice } = useBookingFormState();
-onMounted(() => {
-    totalPrice.value = 0
+const { carpenterPrices } = usePricing(); // Pricing data using composable
+const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFormState(); // Form component updates this data using composable to render booking summary
+// Pricing
+const calculatedPrice = computed(() => {
+    const items = [
+        {
+            label: 'Carpenter hourly rate', // Base cleaning type
+            price: carpenterPrices.hourlyRate,
+            units: 1,
+        },
+        // {
+        //     label: 'Cleaning products',
+        //     price: formState.extraOptions.includes('cleaning-products') ? 4.8 : 0,
+        //     units: formState.extraOptions.includes('cleaning-products') ? 1 : 0,
+        // },
+    ];
+
+    // Calculate total
+    const totalPrice = items.reduce((sum, item) => sum + item.price, 0);
+
+    return {
+        items,
+        totalPrice
+    };
 });
+
+// Create the breakdown array
+watch(calculatedPrice, (newPrice) => {
+    bookingBreakdown.value = newPrice.items.filter(item => item.price > 0);
+    totalPrice.value = newPrice.totalPrice;
+}, { immediate: true });
+
+watch(() => formState.startDate, (newDate) => {
+    bookingDate.value = newDate || '';
+}, { immediate: true });
+
+watch(() => formState.timeOptions, (newTime) => {
+    bookingTime.value = newTime || '';
+}, { immediate: true });
 
 // 7️⃣ Submission logic
 const isSubmitting = ref(false); // Reactive state for loading
 const router = useRouter(); // Initialize the router
 
 async function onSubmit(event: FormSubmitEvent<Schema>) {
-
     // Check if the form is valid using the computed property
     if (!isFormValid.value) {
         console.error('Form is invalid. Please correct the errors before submitting.');
         return; // Exit the function if the form is not valid
     }
-
     // Set loading state
     isSubmitting.value = true;
-
     // Capture the current URL and referrer
     const currentUrl = window.location.href; // Current URL
     const referrerUrl = document.referrer; // Previous URL
-
     // Submit the form data to the server API
     try {
         const response = await $fetch('/api/quote/form-submit', {
             method: 'POST',
             body: {
-                ...formState, // Send the form state as the request body
-                category: 'Mobile car wash',
+                ...formState,
+                category: 'Tradespeople',
+                subcategory: 'Carpenter',
+                quote: calculatedPrice.value.totalPrice,
+                basket: calculatedPrice.value.items,
                 currentUrl,
                 referrerUrl
             },
@@ -141,12 +182,9 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         // Handle the response from the server
         if (response.status === 'success') {
             console.log('Form submitted successfully:', response.message);
-
             // Optionally, reset the form or show a success message
-
             // Navigate to the success page
             router.push({ path: `${router.currentRoute.value.path}/success` }); // Append /success to the current path
-
         } else {
             console.error('Error submitting form:', response.message);
             // Handle error response
@@ -155,7 +193,6 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         console.error('Error submitting form:', error);
         // Handle submission errors
     }
-
     // Do something with event.data
     console.log(event.data); // Log the event data
 }
@@ -163,35 +200,24 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 </script>
 
 <template>
-    <UForm :schema="formSchema" :state="formState" class="space-y-7" @submit="onSubmit">
+    <UForm :schema="formSchema" :state="formState" class="space-y-7 mt-7" @submit="onSubmit">
 
-        <p class="pt-10 text-2xl font-bold">Your requirements</p>
-
-        <UFormGroup size="xl" name="taskOptions" label="Which service do you need?" required>
+        <UFormGroup size="xl" name="taskOptions" label="Select a task" required>
             <USelect v-model="formState.taskOptions" :options="options.taskOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="vehicleOptions" label="What kind of vehicle is this for?" required>
-            <USelect v-model="formState.vehicleOptions" :options="options.vehicleOptions" placeholder="" />
+        <UFormGroup size="xl" name="requirementsNote" label="Anything else we should know?" hint="Optional">
+            <UTextarea v-model="formState.requirementsNote"
+                placeholder="e.g. lock box code, access PIN, additional requirements..." />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="frequencyOptions" label="How frequently do you require a car wash?"
-            required>
-            <USelect v-model="formState.frequencyOptions" :options="options.frequencyOptions" placeholder="" />
+        <UFormGroup size="xl" name="startDate" label="What date do you need the job?" required>
+            <UInput v-model="formState.startDate" type="date" />
         </UFormGroup>
 
         <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?"
             required>
             <USelect v-model="formState.timeOptions" :options="options.timeOptions" placeholder="" />
-        </UFormGroup>
-
-        <UFormGroup size="xl" name="startDate" label="What's your ideal wash date?" required>
-            <UInput v-model="formState.startDate" type="date" />
-        </UFormGroup>
-
-        <UFormGroup size="xl" name="requirementsNote" label="Anything else we should know?" hint="Optional">
-            <UTextarea v-model="formState.requirementsNote"
-                placeholder="Let us know about any specific requirements..." />
         </UFormGroup>
 
         <p class="pt-10 text-2xl font-bold">Contact details</p>
@@ -200,21 +226,32 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <UInput v-model="formState.fullName" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="companyName" label="Company name" hint="Optional">
-            <UInput v-model="formState.companyName" />
+        <UFormGroup size="xl" name="addressOne" label="Address line 1" required>
+            <UInput v-model="formState.addressOne" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="postCode" label="Postcode" required>
-            <UInput v-model="formState.postCode" />
+        <UFormGroup size="xl" name="addressTwo" label="Address line 2" hint="Optional">
+            <UInput v-model="formState.addressTwo" />
         </UFormGroup>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <UFormGroup size="xl" name="addressCity" label="City" required>
+                <UInput v-model="formState.addressCity" />
+            </UFormGroup>
 
-        <UFormGroup size="xl" name="phoneNumber" label="Phone number" required>
-            <UInput v-model="formState.phoneNumber" />
-        </UFormGroup>
+            <UFormGroup size="xl" name="postCode" label="Postcode" required>
+                <UInput v-model="formState.postCode" />
+            </UFormGroup>
+        </div>
 
-        <UFormGroup size="xl" name="emailAddress" label="Email" required>
-            <UInput v-model="formState.emailAddress" />
-        </UFormGroup>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <UFormGroup size="xl" name="phoneNumber" label="Phone number" required>
+                <UInput v-model="formState.phoneNumber" />
+            </UFormGroup>
+
+            <UFormGroup size="xl" name="emailAddress" label="Email" required>
+                <UInput v-model="formState.emailAddress" />
+            </UFormGroup>
+        </div>
 
         <UFormGroup size="xl" name="marketingCheckbox" class="py-5">
             <div class="flex items-start">
@@ -224,9 +261,6 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
                 <p class="ml-2 mb-0 text-sm font-semibold text-left">Send me relevant offers and special discounts</p>
             </div>
         </UFormGroup>
-
-        <p>Hit submit and we'll take it from there. You'll get a tailored quote straight to your inbox and we'll give
-            you a quick call to iron out the details.</p>
 
         <!-- <div class="flex flex-col md:flex-row w-full py-3"> -->
 

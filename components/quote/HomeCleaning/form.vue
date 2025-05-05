@@ -2,37 +2,142 @@
 import { z } from 'zod'
 import type { FormSubmitEvent } from '#ui/types'
 import { isClient } from '@vueuse/core'
-import { homeCleaningOptions } from '~/utils/forms/formOptions'
-import { generateSchema } from '~/utils/forms/generateSchema'
-import { homeCleaningDefaults } from '@/utils/forms/formDefaults'
+import { generateDynamicSchema } from '~/utils/forms/dynamicSchema'
+import { parseFormConfig } from '~/utils/forms/parseFormConfig'
 
-// Pricing data using composable
-const { cleaningPrices } = usePricing();
-// Form component updates this data using composable to render booking summary
-const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFormState();
+// 1️⃣ Centralised form config object
+const formConfig = {
+    bedroomsInput: {
+        default: 1,
+        type: 'numberInput',
+        label: 'Bedrooms'
+    },
+    toiletsInput: {
+        default: 1,
+        type: 'numberInput',
+        label: 'Toilets'
+    },
+    propertyOptions: {
+        default: 'Apartment',
+        type: 'stringSelect',
+        label: 'Home',
+        options: ['Apartment', 'House', 'Cottage', 'Bungalow']
+    },
+    accessOptions: {
+        default: 'Meet in person',
+        type: 'stringSelect',
+        label: 'Access',
+        options: ['Meet in person', 'Concierge', 'Lock box', 'Pin code', 'Key with neighbour']
+    },
+    extraOptions: {
+        default: [] as string[],
+        type: 'objectSelect',
+        label: 'Extras',
+        options: [
+            { label: 'Cleaning products (+£4.80)', value: 'cleaning-products' },
+            { label: 'Dishwashing', value: 'dishwashing' },
+            { label: 'Laundry', value: 'laundry' },
+            { label: 'Ironing', value: 'ironing' },
+            { label: 'Inside fridge', value: 'inside-fridge' },
+            { label: 'Inside oven', value: 'inside-oven' }
+        ]
+    },
+    frequencyOptions: {
+        default: 'Monthly',
+        type: 'stringSelect',
+        label: 'Frequency',
+        options: ['Monthly', 'Fortnightly', 'Weekly', 'One-off']
+    },
+    hoursOptions: {
+        default: 2,
+        type: 'objectSelect',
+        label: 'Hours',
+        options: [
+            { label: '2 hours', value: 2 },
+            { label: '2.5 hours', value: 2.5 },
+            { label: '3 hours', value: 3 },
+            { label: '3.5 hours', value: 3.5 },
+            { label: '4 hours', value: 4 },
+            { label: '4.5 hours', value: 4.5 },
+            { label: '5 hours', value: 5 },
+            { label: '5.5 hours', value: 5.5 },
+            { label: '6 hours', value: 6 },
+            { label: '6.5 hours', value: 6.5 },
+            { label: '7 hours', value: 7 },
+            { label: '7.5 hours', value: 7.5 },
+            { label: '8 hours', value: 8 },
+            { label: '8.5 hours', value: 8.5 },
+            { label: '9 hours', value: 9 },
+            { label: '9.5 hours', value: 9.5 },
+            { label: '10 hours', value: 10 }
+    ]},
+    timeOptions: {
+        default: 'Flexible',
+        type: 'stringSelect',
+        label: 'Time',
+        options: ['Flexible', 'Morning 8am - 12pm', 'Afternoon 12pm - 5pm', 'Evening 5pm - 8pm', 'Overnight', 'Not sure']
+    },
+    startDate: {
+        default: undefined,
+        type: 'dateInput'
+    },
+    requirementsNote: {
+        default: '',
+        type: 'textInput',
+        label: 'Notes',
+        optional: true
+    },
+    fullName: {
+        default: undefined,
+        type: 'textInput',
+        label: 'Name'
+    },
+    addressOne: {
+        default: undefined,
+        type: 'textInput',
+        label: 'Address'
+    },
+    addressTwo: {
+        default: '',
+        type: 'textInput',
+        label: 'Address 2',
+        optional: true
+    },
+    addressCity: {
+        default: undefined,
+        type: 'textInput',
+        label: 'City'
+    },
+    postCode: {
+        default: undefined,
+        type: 'textInput',
+        label: 'Postcode'
+    },
+    phoneNumber: {
+        default: undefined,
+        type: 'phoneInput'
+    },
+    emailAddress: {
+        default: undefined,
+        type: 'emailInput'
+    },
+    marketingCheckbox: {
+        default: true,
+        type: 'marketingCheckbox'
+    }
+}
 
-// Form options data stored in utils
-const {
-    homeOptions,
-    accessOptions,
-    extraHomeOptions,
-    frequencyOptions,
-    hoursOptions,
-    timeOptions,
-} = homeCleaningOptions;
+// 2️⃣ Extract defaults, meta, options from config and parse
+const { defaults, meta, options } = parseFormConfig(formConfig)
 
-//Store data from user inputs to form
-const formState = reactive({
-    ...homeCleaningDefaults
-});
+// 3️⃣ Reactive state
+const formState = reactive({ ...defaults })
 
-const formSchema = generateSchema(
-    Object.keys(homeCleaningDefaults) as (keyof typeof homeCleaningDefaults)[]);
-    // alternatively, manually construct: generateSchema([field1, field2,])
-
+// 4️⃣ Generate validation schema
+const formSchema = generateDynamicSchema(defaults, options, meta)
 type Schema = z.infer<typeof formSchema>
 
-// Computed property to check if the form is valid
+// 5️⃣ Computed validation check
 const isFormValid = computed(() => {
     try {
         formSchema.parse(formState); // This will throw if validation fails
@@ -42,6 +147,9 @@ const isFormValid = computed(() => {
     }
 });
 
+// 6️⃣ Pricing logic
+const { cleaningPrices } = usePricing(); // Pricing data using composable
+const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFormState(); // Form component updates this data using composable to render booking summary
 
 // Computed property to calculate recommended cleaning hours
 const recommendedCleaningHours = computed(() => {
@@ -53,8 +161,8 @@ const recommendedCleaningHours = computed(() => {
     // Add 0.5 hours for each toilet
     hours += 0.5 * formState.toiletsInput;
     // Add 0.5 hours for each extra option selected, except for 'cleaning-products'
-    const extraHours = Array.isArray(formState.extraHomeOptionsInput)
-        ? formState.extraHomeOptionsInput.filter(option => typeof option === 'string' && option !== 'cleaning-products').length * 0.5
+    const extraHours = Array.isArray(formState.extraOptions)
+        ? formState.extraOptions.filter(option => typeof option === 'string' && option !== 'cleaning-products').length * 0.5
         : 0;
     hours += extraHours;
     // Ensure the minimum is 2 hours and maximum is 10 hours
@@ -65,14 +173,14 @@ const recommendedCleaningHours = computed(() => {
 const calculatedPrice = computed(() => {
     const items = [
         {
-            label: formState.hoursOptionsInput + ' hours at £18/hour', // Base cleaning type
-            price: formState.hoursOptionsInput * cleaningPrices.hourlyPrice,
-            units: formState.hoursOptionsInput,
+            label: formState.hoursOptions + ' hours at £18/hour', // Base cleaning type
+            price: formState.hoursOptions * cleaningPrices.hourlyPrice,
+            units: formState.hoursOptions,
         },
         {
             label: 'Cleaning products',
-            price: formState.extraHomeOptionsInput.includes('cleaning-products') ? 4.8 : 0,
-            units: formState.extraHomeOptionsInput.includes('cleaning-products') ? 1 : 0,
+            price: formState.extraOptions.includes('cleaning-products') ? 4.8 : 0,
+            units: formState.extraOptions.includes('cleaning-products') ? 1 : 0,
         },
     ];
 
@@ -91,20 +199,17 @@ watch(calculatedPrice, (newPrice) => {
     totalPrice.value = newPrice.totalPrice;
 }, { immediate: true });
 
-
-watch(() => formState.startDateInput, (newDate) => {
+watch(() => formState.startDate, (newDate) => {
     bookingDate.value = newDate || '';
 }, { immediate: true });
 
-watch(() => formState.timeOptionsInput, (newTime) => {
+watch(() => formState.timeOptions, (newTime) => {
     bookingTime.value = newTime || '';
 }, { immediate: true });
 
-// Initialize the router
-const router = useRouter();
-
-// Reactive state for loading
-const isSubmitting = ref(false);
+// 7️⃣ Submission logic
+const isSubmitting = ref(false); // Reactive state for loading
+const router = useRouter(); // Initialize the router
 
 async function onSubmit(event: FormSubmitEvent<Schema>) {
     // Check if the form is valid using the computed property
@@ -119,10 +224,12 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
     const referrerUrl = document.referrer; // Previous URL
     // Submit the form data to the server API
     try {
-        const response = await $fetch('/api/home-cleaning/form-submit', {
+        const response = await $fetch('/api/quote/form-submit', {
             method: 'POST',
             body: {
                 ...formState, // Send the form state as the request body
+                category: 'Home cleaning',
+                subcategory: 'Regular cleaning',
                 recommendedCleaningHours: recommendedCleaningHours.value,
                 quote: calculatedPrice.value.totalPrice,
                 basket: calculatedPrice.value.items,
@@ -181,16 +288,16 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
                 @update:model-value="formState.toiletsInput = $event" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="extraHomeOptionsInput" label="Add optional extras" hint="Optional">
-            <USelectMenu v-model="formState.extraHomeOptionsInput" :options="extraHomeOptions" multiple
+        <UFormGroup size="xl" name="extraOptions" label="Add optional extras" hint="Optional">
+            <USelectMenu v-model="formState.extraOptions" :options="options.extraOptions" multiple
                 value-attribute="value" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="frequencyOptionsInput" label="How frequently do you require cleaning?" required>
-            <USelect v-model="formState.frequencyOptionsInput" :options="frequencyOptions" placeholder="" />
+        <UFormGroup size="xl" name="frequencyOptions" label="How frequently do you require cleaning?" required>
+            <USelect v-model="formState.frequencyOptions" :options="options.frequencyOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="hoursOptionsInput" label="Select duration of your clean" required>
+        <UFormGroup size="xl" name="hoursOptions" label="Select duration of your clean" required>
             <template #description>
                 <ClientOnly>
                     <p class="-mb-1">
@@ -199,68 +306,68 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
                     </p>
                 </ClientOnly>
             </template>
-            <USelect v-model="formState.hoursOptionsInput" :options="hoursOptions" />
+            <USelect v-model="formState.hoursOptions" :options="options.hoursOptions" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="startDateInput" label="What's your ideal cleaning date?" required>
-            <UInput v-model="formState.startDateInput" type="date" />
+        <UFormGroup size="xl" name="startDate" label="What's your ideal cleaning date?" required>
+            <UInput v-model="formState.startDate" type="date" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="timeOptionsInput" label="Morning, afternoon or evening — what suits you best?"
+        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?"
             required>
-            <USelect v-model="formState.timeOptionsInput" :options="timeOptions" placeholder="" />
+            <USelect v-model="formState.timeOptions" :options="options.timeOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="homeOptionsInput" label="What kind of property is this for?" required>
-            <USelect v-model="formState.homeOptionsInput" :options="homeOptions" placeholder="" />
+        <UFormGroup size="xl" name="propertyOptions" label="What kind of property is this for?" required>
+            <USelect v-model="formState.propertyOptions" :options="options.propertyOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="accessOptionsInput" label="How will the cleaner access your home?" required>
-            <USelect v-model="formState.accessOptionsInput" :options="accessOptions" placeholder="" />
+        <UFormGroup size="xl" name="accessOptions" label="How will the cleaner access your home?" required>
+            <USelect v-model="formState.accessOptions" :options="options.accessOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="requirementsInput" label="Anything else we should know?" hint="Optional">
-            <UTextarea v-model="formState.requirementsInput"
+        <UFormGroup size="xl" name="requirementsNote" label="Anything else we should know?" hint="Optional">
+            <UTextarea v-model="formState.requirementsNote"
                 placeholder="e.g. lock box code, access PIN, additional requirements..." />
         </UFormGroup>
 
         <p class="pt-10 text-2xl font-bold">Contact details</p>
 
-        <UFormGroup size="xl" name="fullNameInput" label="Full name" required>
-            <UInput v-model="formState.fullNameInput" />
+        <UFormGroup size="xl" name="fullName" label="Full name" required>
+            <UInput v-model="formState.fullName" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="addressOneInput" label="Address line 1" required>
-            <UInput v-model="formState.addressOneInput" />
+        <UFormGroup size="xl" name="addressOne" label="Address line 1" required>
+            <UInput v-model="formState.addressOne" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="addressTwoInput" label="Address line 2" hint="Optional">
-            <UInput v-model="formState.addressTwoInput" />
+        <UFormGroup size="xl" name="addressTwo" label="Address line 2" hint="Optional">
+            <UInput v-model="formState.addressTwo" />
         </UFormGroup>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <UFormGroup size="xl" name="addressCityInput" label="City" required>
-                <UInput v-model="formState.addressCityInput" />
+            <UFormGroup size="xl" name="addressCity" label="City" required>
+                <UInput v-model="formState.addressCity" />
             </UFormGroup>
 
-            <UFormGroup size="xl" name="postCodeInput" label="Postcode" required>
-                <UInput v-model="formState.postCodeInput" />
+            <UFormGroup size="xl" name="postCode" label="Postcode" required>
+                <UInput v-model="formState.postCode" />
             </UFormGroup>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <UFormGroup size="xl" name="phoneNumberInput" label="Phone number" required>
-                <UInput v-model="formState.phoneNumberInput" />
+            <UFormGroup size="xl" name="phoneNumber" label="Phone number" required>
+                <UInput v-model="formState.phoneNumber" />
             </UFormGroup>
 
-            <UFormGroup size="xl" name="emailInput" label="Email" required>
-                <UInput v-model="formState.emailInput" />
+            <UFormGroup size="xl" name="emailAddress" label="Email" required>
+                <UInput v-model="formState.emailAddress" />
             </UFormGroup>
         </div>
 
-        <UFormGroup size="xl" name="marketingInput" class="py-5">
+        <UFormGroup size="xl" name="marketingCheckbox" class="py-5">
             <div class="flex items-start">
                 <UToggle on-icon="i-heroicons-check-20-solid" off-icon="i-heroicons-x-mark-20-solid" color="green"
-                    v-model="formState.marketingInput">
+                    v-model="formState.marketingCheckbox">
                 </UToggle>
                 <p class="ml-2 mb-0 text-sm font-semibold text-left">Send me relevant offers and special discounts</p>
             </div>

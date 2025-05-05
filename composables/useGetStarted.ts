@@ -4,11 +4,18 @@ export function useGetStarted() {
     const route = useRoute();
 
     const getStarted = computed(() => {
-        const query = route.params.task
-            ? `?selection=${route.params.task}`
-            : route.params.subcategory
-                ? `?selection=${route.params.subcategory}`
-                : '';
+        const queryParams = new URLSearchParams();
+
+        if (route.params.subcategory) {
+            queryParams.set('selection', route.params.subcategory.toString());
+        }
+
+        if (route.params.task) {
+            queryParams.set('task', route.params.task.toString());
+        }
+
+        const queryString = queryParams.toString();
+        const query = queryString ? `?${queryString}` : '';
 
         const baseUrl = route.params.subcategory === 'single-visit-cleaning' && route.params.task
             ? `/services/${route.params.subcategory}/quote`

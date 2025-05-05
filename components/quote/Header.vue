@@ -25,8 +25,8 @@ function onClick(val: string) {
 
 <template>
     <nav class="border-b shadow-md dark:border-gray-800">
-        <div class="mx-auto max-w-6xl px-6">
-            <div class="relative flex h-14 items-center justify-between">
+        <div class="mx-auto max-w-6xl px-2 sm:px-6 lg:px-6">
+            <div class="relative flex h-14 items-center justify-between mx-2 sm:mx-0">
                 <div class="flex flex-1 items-stretch justify-start">
                     <div name="logo" class="flex shrink-0">
                         <ClientOnly>
@@ -40,7 +40,7 @@ function onClick(val: string) {
                 </div>
 
                 <div name="buttons"
-                    class="absolute inset-y-0 right-0 flex items-center sm:static sm:inset-auto sm:ml-6">
+                    class="absolute inset-y-0 right-0 flex items-center sm:static sm:inset-auto space-x-3">
                     <div class="flex items-center space-x-3 text-sm">
                         <!-- Booking summary toggle on quote pages -->
                         <ClientOnly>
@@ -50,15 +50,16 @@ function onClick(val: string) {
                                     {{ useFormatPrice(totalPrice) }}
                                 </button>
                             </div>
+                            <NuxtLink
+                                :class="totalPrice > 0 ? 'hidden md:flex btn-secondary h-8 px-3' : 'flex btn-secondary h-8 px-3'"
+                                to="tel:03330388288">
+                                03330 388 288
+                            </NuxtLink>
                         </ClientOnly>
-                        <NuxtLink :class="totalPrice > 0 ? 'hidden md:flex' : 'flex'"
-                            class="btn-secondary h-8 px-3" to="tel:03330388288">
-                            03330 388 288
-                        </NuxtLink>
                     </div>
 
                     <!-- Light/Dark Mode -->
-                    <div class="relative ml-3">
+                    <div class="relative">
                         <ClientOnly>
                             <button v-if="colorMode.value === 'light'" type="button" name="light-mode" title="Light"
                                 class="transition-all ease-out hover:cursor-pointer flex" @click="onClick('dark')">
