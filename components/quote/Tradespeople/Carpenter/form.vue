@@ -172,6 +172,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
                 ...formState,
                 category: 'Tradespeople',
                 subcategory: 'Carpenter',
+                task: formState.taskOptions,
                 quote: calculatedPrice.value.totalPrice,
                 basket: calculatedPrice.value.items,
                 currentUrl,

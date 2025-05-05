@@ -47,9 +47,10 @@ const formConfig = {
     },
     extraOptions: {
         default: [],
-        type: 'stringSelect',
+        type: 'stringMultiSelect',
         label: 'Extras',
-        options: ['Dishwashing', 'Inside windows', 'Inside fridge', 'Inside freezer', 'Inside oven', 'Laundry', 'Ironing']
+        options: ['Dishwashing', 'Inside windows', 'Inside fridge', 'Inside freezer', 'Inside oven', 'Laundry', 'Ironing'],
+        optional: true
     },
     timeOptions: {
         default: 'Flexible',

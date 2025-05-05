@@ -144,6 +144,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             body: {
                 ...formState, // Send the form state as the request body
                 category: 'Commercial cleaning',
+                task: `${formState.propertyOptions} cleaning`,
                 currentUrl,
                 referrerUrl
             },

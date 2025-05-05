@@ -5,6 +5,7 @@ export type ValidatorType =
     | 'stringSelect'
     | 'stringMultiSelect'
     | 'objectSelect'
+    | 'objectNumberSelect'
     | 'objectMultiSelect'
     | 'numberInput'
     | 'emailInput'
@@ -16,7 +17,7 @@ export type ValidatorType =
 export interface ValidatorParams {
     key?: string
     label?: string
-    options?: string[] | { value: string }[]
+    options?: string[] | { value: string }[] | { value: number} []
     optional?: boolean
 }
 
@@ -44,24 +45,44 @@ export const archetypeValidators: Record<
                 message: `Select a valid ${label.toLowerCase()}`
             }),
     
-    stringMultiSelect: ({ label = 'Option', options = [] }) =>
-        z.array(z.string())
-            .nonempty(`Select at least one ${label.toLowerCase()}`)
-            .refine(values => values.every(val => (options as string[]).includes(val)), {
-                message: `Select valid ${label.toLowerCase()}`
-            }),
+    stringMultiSelect: ({ label = 'Option', options = [], optional }) => {
+        const base = optional
+            ? z.array(z.string())
+            : z.array(z.string()).nonempty(`Select at least one ${label.toLowerCase()}`);
+
+        return base.refine(
+            values => values.every(val => (options as string[]).includes(val)),
+            { message: `Select valid ${label.toLowerCase()}` }
+        );
+    },
 
     objectSelect: ({ label = 'Option', options = [] }) =>
         z.string({ message: `Select ${label}` })
             .refine(value => (options as { value: string }[]).some(opt => opt.value === value), {
                 message: `Select a valid ${label.toLowerCase()}`
             }),
-
-    objectMultiSelect: ({ label = 'Option', options = [] }) =>
-        z.array(z.string())
-            .refine(values => values.every(val => (options as { value: string }[]).some(opt => opt.value === val)), {
+    
+    objectNumberSelect: ({ label = 'Option', options = [] }) =>
+        z.coerce.number({
+            required_error: `Select ${label.toLowerCase()}`,
+            invalid_type_error: 'Must be a number'
+        }).refine(
+            value => (options as { value: number }[]).some(opt => opt.value === value),
+            {
                 message: `Select valid ${label.toLowerCase()}`
-            }),
+            }
+        ),
+
+    objectMultiSelect: ({ label = 'Option', options = [], optional }) => {
+        const base = optional
+            ? z.array(z.string())
+            : z.array(z.string()).nonempty(`Select at least one ${label.toLowerCase()}`);
+
+        return base.refine(
+            values => values.every(val => (options as { value: string }[]).some(opt => opt.value === val)),
+            { message: `Select valid ${label.toLowerCase()}` }
+        );
+    },
 
     numberInput: ({ label = 'Number' }) =>
         z.number({
@@ -78,7 +99,7 @@ export const archetypeValidators: Record<
     phoneInput: () =>
         z.string({ message: "Phone number required" })
             .min(11, "Must be a valid phone number")
-            .max(15),
+            .max(15, "Must not exceed 15 digits"),
 
     dateInput: () =>
         z.string({ message: "Date required" })

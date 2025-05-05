@@ -30,8 +30,8 @@ const formConfig = {
         options: ['Meet in person', 'Concierge', 'Lock box', 'Pin code', 'Key with neighbour']
     },
     extraOptions: {
-        default: [] as string[],
-        type: 'objectSelect',
+        default: [],
+        type: 'objectMultiSelect',
         label: 'Extras',
         options: [
             { label: 'Cleaning products (+£4.80)', value: 'cleaning-products' },
@@ -40,7 +40,8 @@ const formConfig = {
             { label: 'Ironing', value: 'ironing' },
             { label: 'Inside fridge', value: 'inside-fridge' },
             { label: 'Inside oven', value: 'inside-oven' }
-        ]
+        ],
+        optional: true
     },
     frequencyOptions: {
         default: 'Monthly',
@@ -50,7 +51,7 @@ const formConfig = {
     },
     hoursOptions: {
         default: 2,
-        type: 'objectSelect',
+        type: 'objectNumberSelect',
         label: 'Hours',
         options: [
             { label: '2 hours', value: 2 },

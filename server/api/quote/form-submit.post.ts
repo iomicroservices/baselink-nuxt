@@ -31,7 +31,7 @@ export default defineEventHandler(async (event) => {
         //Commercial cleaning
         selectedDays: formData.daysOptions,
         //Shared
-        task: formData.taskOptions,
+        task: formData.task || formData.taskOptions,
         propertyType: formData.propertyOptions,
         extras: formData.extraOptions,
         frequency: formData.frequencyOptions,
@@ -67,7 +67,7 @@ export default defineEventHandler(async (event) => {
         fields: {
             Category: formData.category,
             Subcategory: formData.subcategory,
-            Task: formData.taskOptions,
+            Task: formData.task || formData.taskOptions,
             Email: formData.emailAddress,
             Quote: formData.quote,
             startDate: formData.startDate,

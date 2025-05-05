@@ -7,6 +7,7 @@ type ValidatorType =
     | 'stringSelect'
     | 'stringMultiSelect'
     | 'objectSelect'
+    | 'objectNumberSelect'
     | 'objectMultiSelect'
     | 'numberInput'
     | 'emailInput'

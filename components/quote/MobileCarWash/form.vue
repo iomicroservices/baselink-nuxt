@@ -175,13 +175,11 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <USelect v-model="formState.vehicleOptions" :options="options.vehicleOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="frequencyOptions" label="How frequently do you require a car wash?"
-            required>
+        <UFormGroup size="xl" name="frequencyOptions" label="How frequently do you require a car wash?" required>
             <USelect v-model="formState.frequencyOptions" :options="options.frequencyOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?"
-            required>
+        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?" required>
             <USelect v-model="formState.timeOptions" :options="options.timeOptions" placeholder="" />
         </UFormGroup>
 
@@ -200,21 +198,32 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <UInput v-model="formState.fullName" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="companyName" label="Company name" hint="Optional">
-            <UInput v-model="formState.companyName" />
+        <UFormGroup size="xl" name="addressOne" label="Address line 1" required>
+            <UInput v-model="formState.addressOne" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="postCode" label="Postcode" required>
-            <UInput v-model="formState.postCode" />
+        <UFormGroup size="xl" name="addressTwo" label="Address line 2" hint="Optional">
+            <UInput v-model="formState.addressTwo" />
         </UFormGroup>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <UFormGroup size="xl" name="addressCity" label="City" required>
+                <UInput v-model="formState.addressCity" />
+            </UFormGroup>
 
-        <UFormGroup size="xl" name="phoneNumber" label="Phone number" required>
-            <UInput v-model="formState.phoneNumber" />
-        </UFormGroup>
+            <UFormGroup size="xl" name="postCode" label="Postcode" required>
+                <UInput v-model="formState.postCode" />
+            </UFormGroup>
+        </div>
 
-        <UFormGroup size="xl" name="emailAddress" label="Email" required>
-            <UInput v-model="formState.emailAddress" />
-        </UFormGroup>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <UFormGroup size="xl" name="phoneNumber" label="Phone number" required>
+                <UInput v-model="formState.phoneNumber" />
+            </UFormGroup>
+
+            <UFormGroup size="xl" name="emailAddress" label="Email" required>
+                <UInput v-model="formState.emailAddress" />
+            </UFormGroup>
+        </div>
 
         <UFormGroup size="xl" name="marketingCheckbox" class="py-5">
             <div class="flex items-start">
