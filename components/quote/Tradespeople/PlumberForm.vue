@@ -4,31 +4,31 @@ import type { FormSubmitEvent } from '#ui/types'
 import { generateDynamicSchema } from '~/utils/forms/dynamicSchema'
 import { parseFormConfig } from '~/utils/forms/parseFormConfig'
 
+interface Props {
+    task?: string
+}
+const props = defineProps<Props>()
+
 // 1️⃣ Centralised form config object
 const formConfig = {
-    propertyOptions: {
-        default: 'Office',
-        type: 'stringSelect',
-        label: 'Property',
-        options: ['Office', 'Airbnb rental', 'Holiday rental', 'Residential block', 'Serviced apartment', 'Retail unit', 'Restaurant or Cafe', 'Bar or Pub', 'School or Nursery', 'Warehouse', 'Light industrial', 'Hotel', 'Other']
-    },
-    daysOptions: {
-        default: [],
-        type: 'stringMultiSelect',
-        label: 'Day',
-        options: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-    },
-    frequencyOptions: {
-        default: 'Daily',
-        type: 'stringSelect',
-        label: 'Frequency',
-        options: ['Daily', 'Weekly', 'Fortnightly', 'Monthly', 'One-off', 'Not sure']
-    },
-    hoursOptions: {
-        default: '2 hours',
-        type: 'stringSelect',
-        label: 'Hours',
-        options: ['2 hours', '3 hours', '4+ hours', 'Varies', 'Not sure']
+    taskOptions: {
+        default: 'leak-detection-repair',
+        type: 'objectSelect',
+        label: 'Task',
+        options: [
+            { label: 'Bath repair & installation', value: 'bath-repair-installation' },
+            { label: 'Drain unblocking', value: 'drain-unblocking' },
+            { label: 'Leak detection & repair', value: 'leak-detection-repair' },
+            { label: 'Jacuzzi installation', value: 'jacuzzi-installation' },
+            { label: 'Kitchen sink installation', value: 'kitchen-sink-installation' },
+            { label: 'Pipe repair & replacement', value: 'pipe-repair-replacement' },
+            { label: 'Radiator power flushing', value: 'radiator-power-flushing' },
+            { label: 'Radiator repair replacement', value: 'radiator-repair-replacement' },
+            { label: 'Shower repair & installation', value: 'shower-repair-installation' },
+            { label: 'Shower resealing', value: 'shower-resealing' },
+            { label: 'Tap repair & replacement', value: 'tap-repair-replacement' },
+            { label: 'Toilet repair & installation', value: 'toilet-repair-installation' }
+        ]
     },
     timeOptions: {
         default: 'Flexible',
@@ -50,12 +50,6 @@ const formConfig = {
         default: undefined,
         type: 'textInput',
         label: 'Name'
-    },
-    companyName: {
-        default: '',
-        type: 'textInput',
-        label: 'Company',
-        optional: true
     },
     addressOne: {
         default: undefined,
@@ -86,9 +80,9 @@ const formConfig = {
         default: undefined,
         type: 'emailInput'
     },
-    termsCheckbox: {
-        default: false,
-        type: 'termsCheckbox'
+    marketingCheckbox: {
+        default: true,
+        type: 'marketingCheckbox'
     }
 }
 
@@ -97,6 +91,10 @@ const { defaults, meta, options } = parseFormConfig(formConfig)
 
 // 3️⃣ Reactive state
 const formState = reactive({ ...defaults })
+// If task is passed and matches a known option, set it
+if (props.task && 'taskOptions' in formState) {
+    formState.taskOptions = props.task
+}
 
 // 4️⃣ Generate validation schema
 const formSchema = generateDynamicSchema(defaults, options, meta)
@@ -113,39 +111,71 @@ const isFormValid = computed(() => {
 });
 
 // 6️⃣ Pricing logic
-// Form component updates this data using composable to render booking summary
-const { totalPrice } = useBookingFormState();
-onMounted(() => {
-    totalPrice.value = 0
+const { plumberPrices } = usePricing(); // Pricing data using composable
+const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFormState(); // Form component updates this data using composable to render booking summary
+// Pricing
+const calculatedPrice = computed(() => {
+    const items = [
+        {
+            label: 'Plumber hourly rate', // Base cleaning type
+            price: plumberPrices.hourlyRate,
+            units: 1,
+        },
+        // {
+        //     label: 'Cleaning products',
+        //     price: formState.extraOptions.includes('cleaning-products') ? 4.8 : 0,
+        //     units: formState.extraOptions.includes('cleaning-products') ? 1 : 0,
+        // },
+    ];
+
+    // Calculate total
+    const totalPrice = items.reduce((sum, item) => sum + item.price, 0);
+
+    return {
+        items,
+        totalPrice
+    };
 });
+
+// Create the breakdown array
+watch(calculatedPrice, (newPrice) => {
+    bookingBreakdown.value = newPrice.items.filter(item => item.price > 0);
+    totalPrice.value = newPrice.totalPrice;
+}, { immediate: true });
+
+watch(() => formState.startDate, (newDate) => {
+    bookingDate.value = newDate || '';
+}, { immediate: true });
+
+watch(() => formState.timeOptions, (newTime) => {
+    bookingTime.value = newTime || '';
+}, { immediate: true });
 
 // 7️⃣ Submission logic
 const isSubmitting = ref(false); // Reactive state for loading
 const router = useRouter(); // Initialize the router
 
 async function onSubmit(event: FormSubmitEvent<Schema>) {
-
     // Check if the form is valid using the computed property
     if (!isFormValid.value) {
         console.error('Form is invalid. Please correct the errors before submitting.');
         return; // Exit the function if the form is not valid
     }
-
     // Set loading state
     isSubmitting.value = true;
-
     // Capture the current URL and referrer
     const currentUrl = window.location.href; // Current URL
     const referrerUrl = document.referrer; // Previous URL
-
     // Submit the form data to the server API
     try {
         const response = await $fetch('/api/quote/form-submit', {
             method: 'POST',
             body: {
-                ...formState, // Send the form state as the request body
-                category: 'Commercial cleaning',
-                task: `${formState.propertyOptions} cleaning`,
+                ...formState,
+                category: 'Tradespeople',
+                subcategory: 'Plumber',
+                quote: calculatedPrice.value.totalPrice,
+                basket: calculatedPrice.value.items,
                 currentUrl,
                 referrerUrl
             },
@@ -154,12 +184,9 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         // Handle the response from the server
         if (response.status === 'success') {
             console.log('Form submitted successfully:', response.message);
-
             // Optionally, reset the form or show a success message
-
             // Navigate to the success page
             router.push({ path: `${router.currentRoute.value.path}/success` }); // Append /success to the current path
-
         } else {
             console.error('Error submitting form:', response.message);
             // Handle error response
@@ -168,7 +195,6 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         console.error('Error submitting form:', error);
         // Handle submission errors
     }
-
     // Do something with event.data
     console.log(event.data); // Log the event data
 }
@@ -176,48 +202,29 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 </script>
 
 <template>
-    <UForm :schema="formSchema" :state="formState" class="space-y-7" @submit="onSubmit">
+    <UForm :schema="formSchema" :state="formState" class="space-y-7 mt-7" @submit="onSubmit">
 
-        <p class="pt-10 text-2xl font-bold">Cleaning requirements</p>
-
-        <UFormGroup size="xl" name="propertyOptions" label="What kind of property is this for?" required>
-            <USelect v-model="formState.propertyOptions" :options="options.propertyOptions" placeholder="" />
+        <UFormGroup size="xl" name="taskOptions" label="Select a task" required>
+            <USelect v-model="formState.taskOptions" :options="options.taskOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="daysOptions" label="Which days of the week do you require a cleaning visit?"
-            required>
-            <USelectMenu v-model="formState.daysOptions" :options="options.daysOptions" multiple placeholder="" />
+        <UFormGroup size="xl" name="requirementsNote" label="Anything else we should know?" hint="Optional">
+            <UTextarea v-model="formState.requirementsNote"
+                placeholder="e.g. fix leaking kitchen tap and unblock bathroom sink" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="frequencyOptions" label="How frequently do you require a cleaning visit?" required>
-            <USelect v-model="formState.frequencyOptions" :options="options.frequencyOptions" placeholder="" />
-        </UFormGroup>
-
-        <UFormGroup size="xl" name="hoursOptions" label="Duration of each cleaning session?" required>
-            <USelect v-model="formState.hoursOptions" :options="options.hoursOptions" placeholder="" />
+        <UFormGroup size="xl" name="startDate" label="What date do you need the job?" required>
+            <UInput v-model="formState.startDate" type="date" />
         </UFormGroup>
 
         <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?" required>
             <USelect v-model="formState.timeOptions" :options="options.timeOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="startDate" label="What's your ideal cleaning start date?" required>
-            <UInput v-model="formState.startDate" type="date" />
-        </UFormGroup>
-
-        <UFormGroup size="xl" name="requirementsNote" label="Anything else we should know?" hint="Optional">
-            <UTextarea v-model="formState.requirementsNote"
-                placeholder="Let us know about any specific requirements..." />
-        </UFormGroup>
-
         <p class="pt-10 text-2xl font-bold">Contact details</p>
 
         <UFormGroup size="xl" name="fullName" label="Full name" required>
             <UInput v-model="formState.fullName" />
-        </UFormGroup>
-
-        <UFormGroup size="xl" name="companyName" label="Company name" hint="Optional">
-            <UInput v-model="formState.companyName" />
         </UFormGroup>
 
         <UFormGroup size="xl" name="addressOne" label="Address line 1" required>
@@ -237,7 +244,6 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <UFormGroup size="xl" name="postCode" label="Postcode" required>
                 <UInput v-model="formState.postCode" />
             </UFormGroup>
-
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
@@ -250,23 +256,14 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             </UFormGroup>
         </div>
 
-        <UFormGroup size="xl" name="termsCheckbox" class="py-3">
-            <UCheckbox v-model="formState.termsCheckbox" required>
-                <template #label>
-                    <span class="ml-2 text-base font-semibold">I accept the
-                        <a href="/legal/terms-of-service" target="_blank" class="text-green-500 underline">terms
-                            of
-                            service</a>
-                        and have read the
-                        <a href="/legal/privacy-policy" target="_blank" class="text-green-500 underline">privacy
-                            policy</a>
-                    </span>
-                </template>
-            </UCheckbox>
+        <UFormGroup size="xl" name="marketingCheckbox" class="py-5">
+            <div class="flex items-start">
+                <UToggle on-icon="i-heroicons-check-20-solid" off-icon="i-heroicons-x-mark-20-solid" color="green"
+                    v-model="formState.marketingCheckbox">
+                </UToggle>
+                <p class="ml-2 mb-0 text-sm font-semibold text-left">Send me relevant offers and special discounts</p>
+            </div>
         </UFormGroup>
-
-        <p>Hit submit and we'll take it from there. You'll get a tailored quote straight to your inbox and we'll give
-            you a quick call to iron out the details.</p>
 
         <!-- <div class="flex flex-col md:flex-row w-full py-3"> -->
 

@@ -12,17 +12,20 @@ const props = defineProps<Props>()
 // 1️⃣ Centralised form config object
 const formConfig = {
     taskOptions: {
-        default: 'tv-wall-mounting',
+        default: 'kitchen-fitting',
         type: 'objectSelect',
         label: 'Task',
         options: [
-            { label: 'Cabinet & shelf fitting', value: 'cabinet-shelf-fitting' },
-            { label: 'Curtain & blind fitting', value: 'curtain-blind-fitting' },
-            { label: 'Furniture assembly', value: 'furniture-assembly' },
-            { label: 'Mirror & picture hanging', value: 'mirror-picture-hanging' },
-            { label: 'Pet flap fitting', value: 'pet-flap-fitting' },
-            { label: 'Shower screen fitting', value: 'shower-screen-fitting' },
-            { label: 'TV wall mounting', value: 'tv-wall-mounting' }
+            { label: 'Outdoor decking', value: 'outdoor-decking' },
+            { label: 'Door hanging', value: 'door-hanging' },
+            { label: 'Fitted wardrobes', value: 'fitted-wardrobes' },
+            { label: 'Flooring installation & repair', value: 'flooring-installation-repair' },
+            { label: 'Garage doors & gates', value: 'garage-doors-gates' },
+            { label: 'Kitchen fitting', value: 'kitchen-fitting' },
+            { label: 'Skirting board fitting', value: 'skirting-board-fitting' },
+            { label: 'Staircase renovation', value: 'staircase-renovation' },
+            { label: 'Window frames & sills', value: 'window-frames-sills' },
+            { label: 'Wooden panelling', value: 'wooden-panelling' }
         ]
     },
     timeOptions: {
@@ -106,14 +109,14 @@ const isFormValid = computed(() => {
 });
 
 // 6️⃣ Pricing logic
-const { handymanPrices } = usePricing(); // Pricing data using composable
+const { carpenterPrices } = usePricing(); // Pricing data using composable
 const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFormState(); // Form component updates this data using composable to render booking summary
 // Pricing
 const calculatedPrice = computed(() => {
     const items = [
         {
-            label: 'Handyman hourly rate', // Base cleaning type
-            price: handymanPrices.hourlyRate,
+            label: 'Carpenter hourly rate', // Base cleaning type
+            price: carpenterPrices.hourlyRate,
             units: 1,
         },
         // {
@@ -168,7 +171,8 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             body: {
                 ...formState,
                 category: 'Tradespeople',
-                subcategory: 'Handyman',
+                subcategory: 'Carpenter',
+                task: formState.taskOptions,
                 quote: calculatedPrice.value.totalPrice,
                 basket: calculatedPrice.value.items,
                 currentUrl,
@@ -205,15 +209,14 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <UFormGroup size="xl" name="requirementsNote" label="Anything else we should know?" hint="Optional">
             <UTextarea v-model="formState.requirementsNote"
-                placeholder="e.g. lock box code, access PIN, additional requirements..." />
+                placeholder="e.g. fit new skirting boards in hallway" />
         </UFormGroup>
 
         <UFormGroup size="xl" name="startDate" label="What date do you need the job?" required>
             <UInput v-model="formState.startDate" type="date" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?"
-            required>
+        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?" required>
             <USelect v-model="formState.timeOptions" :options="options.timeOptions" placeholder="" />
         </UFormGroup>
 
@@ -230,9 +233,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         <UFormGroup size="xl" name="addressTwo" label="Address line 2" hint="Optional">
             <UInput v-model="formState.addressTwo" />
         </UFormGroup>
-
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-
             <UFormGroup size="xl" name="addressCity" label="City" required>
                 <UInput v-model="formState.addressCity" />
             </UFormGroup>

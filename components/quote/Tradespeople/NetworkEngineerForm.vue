@@ -12,20 +12,21 @@ const props = defineProps<Props>()
 // 1️⃣ Centralised form config object
 const formConfig = {
     taskOptions: {
-        default: 'kitchen-fitting',
+        default: 'cctv-installation',
         type: 'objectSelect',
         label: 'Task',
         options: [
-            { label: 'Outdoor decking', value: 'outdoor-decking' },
-            { label: 'Door hanging', value: 'door-hanging' },
-            { label: 'Fitted wardrobes', value: 'fitted-wardrobes' },
-            { label: 'Flooring installation & repair', value: 'flooring-installation-repair' },
-            { label: 'Garage doors & gates', value: 'garage-doors-gates' },
-            { label: 'Kitchen fitting', value: 'kitchen-fitting' },
-            { label: 'Skirting board fitting', value: 'skirting-board-fitting' },
-            { label: 'Staircase renovation', value: 'staircase-renovation' },
-            { label: 'Window frames & sills', value: 'window-frames-sills' },
-            { label: 'Wooden panelling', value: 'wooden-panelling' }
+            { label: 'Burglar alarm', value: 'burglar-alarm' },
+            { label: 'CCTV installation', value: 'cctv-installation' },
+            { label: 'Communications room', value: 'communications-room' },
+            { label: 'Data cabling', value: 'data-cabling' },
+            { label: 'HDMI distribution', value: 'hdmi-distribution' },
+            { label: 'Intercom system', value: 'intercom-system' },
+            { label: 'IPTV installation', value: 'iptv-installation' },
+            { label: 'NPR cameras', value: 'npr-cameras' },
+            { label: 'Smart home automation', value: 'smart-home-automation' },
+            { label: 'Sound system', value: 'sound-system' },
+            { label: 'WiFi connectivity', value: 'wifi-connectivity' }
         ]
     },
     timeOptions: {
@@ -109,45 +110,11 @@ const isFormValid = computed(() => {
 });
 
 // 6️⃣ Pricing logic
-const { carpenterPrices } = usePricing(); // Pricing data using composable
-const { bookingBreakdown, totalPrice, bookingDate, bookingTime } = useBookingFormState(); // Form component updates this data using composable to render booking summary
-// Pricing
-const calculatedPrice = computed(() => {
-    const items = [
-        {
-            label: 'Carpenter hourly rate', // Base cleaning type
-            price: carpenterPrices.hourlyRate,
-            units: 1,
-        },
-        // {
-        //     label: 'Cleaning products',
-        //     price: formState.extraOptions.includes('cleaning-products') ? 4.8 : 0,
-        //     units: formState.extraOptions.includes('cleaning-products') ? 1 : 0,
-        // },
-    ];
-
-    // Calculate total
-    const totalPrice = items.reduce((sum, item) => sum + item.price, 0);
-
-    return {
-        items,
-        totalPrice
-    };
+// Form component updates this data using composable to render booking summary
+const { totalPrice } = useBookingFormState();
+onMounted(() => {
+    totalPrice.value = 0
 });
-
-// Create the breakdown array
-watch(calculatedPrice, (newPrice) => {
-    bookingBreakdown.value = newPrice.items.filter(item => item.price > 0);
-    totalPrice.value = newPrice.totalPrice;
-}, { immediate: true });
-
-watch(() => formState.startDate, (newDate) => {
-    bookingDate.value = newDate || '';
-}, { immediate: true });
-
-watch(() => formState.timeOptions, (newTime) => {
-    bookingTime.value = newTime || '';
-}, { immediate: true });
 
 // 7️⃣ Submission logic
 const isSubmitting = ref(false); // Reactive state for loading
@@ -171,10 +138,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             body: {
                 ...formState,
                 category: 'Tradespeople',
-                subcategory: 'Carpenter',
-                task: formState.taskOptions,
-                quote: calculatedPrice.value.totalPrice,
-                basket: calculatedPrice.value.items,
+                subcategory: 'Network engineer',
                 currentUrl,
                 referrerUrl
             },
@@ -209,15 +173,14 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <UFormGroup size="xl" name="requirementsNote" label="Anything else we should know?" hint="Optional">
             <UTextarea v-model="formState.requirementsNote"
-                placeholder="e.g. lock box code, access PIN, additional requirements..." />
+                placeholder="e.g. install 4 CCTV cameras around property with remote access" />
         </UFormGroup>
 
         <UFormGroup size="xl" name="startDate" label="What date do you need the job?" required>
             <UInput v-model="formState.startDate" type="date" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?"
-            required>
+        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?" required>
             <USelect v-model="formState.timeOptions" :options="options.timeOptions" placeholder="" />
         </UFormGroup>
 
@@ -234,7 +197,9 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         <UFormGroup size="xl" name="addressTwo" label="Address line 2" hint="Optional">
             <UInput v-model="formState.addressTwo" />
         </UFormGroup>
+
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+
             <UFormGroup size="xl" name="addressCity" label="City" required>
                 <UInput v-model="formState.addressCity" />
             </UFormGroup>
