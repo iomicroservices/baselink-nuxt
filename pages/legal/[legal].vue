@@ -19,18 +19,15 @@ const data = computed(() => {
     published: legalarticles.value?.published || false,
   }
 })
-
 </script>
 
-
 <template>
-  <article class="page-container">
+  <article class="page-container px-[25px]">
     <div class="sm:grid grid-cols-12 gap-x-12">
       <div class="col-span-12 lg:col-span-9">
-        <BlogHeader :title="data.title" :image="data.image" :alt="data.alt" :date="data.date"
-          :description="data.description" :tags="data.tags" class="pb-0 pt-5"/>
+        <BlogHeader :title="data.title" :description="`Last updated: ${data.date}`" class="pb-0 pt-5" />
         <section
-          class="section pt-0 prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg prose-h1:no-underline max-w-6xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg">
+          class="py-3 prose prose-pre:max-w-xs sm:prose-pre:max-w-full prose-sm sm:prose-base md:prose-lg prose-h1:no-underline max-w-6xl mx-auto prose-zinc dark:prose-invert prose-img:rounded-lg">
           <ContentRenderer v-if="legalarticles" :value="legalarticles">
             <template #empty>
               <p>No content found.</p>

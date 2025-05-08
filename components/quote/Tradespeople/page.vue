@@ -12,13 +12,21 @@ const userTask = ref<string | null>(
     typeof query.task === 'string' ? query.task : null
 )
 
+// Clear bookingState on page load if no subcategory selected
+onMounted(() => {
+    if (userTask.value === null && userSelection.value === null) {
+        totalPrice.value = 0
+        bookingBreakdown.value = []
+    }
+});
+
 </script>
 
 <template>
     <div>
         <div class="section mx-auto py-0">
             <h1 class="heading1 md:max-w-[75%]">
-                Your job requirements
+                Your job details
             </h1>
         </div>
         <div class="px-[25px] py-[50px] md:py-[80px] w-full max-w-full mx-auto min-h-[1000px] pt-0">
@@ -30,10 +38,12 @@ const userTask = ref<string | null>(
 
                     <LazyQuoteTradespeopleCarpenterForm v-if="userSelection === 'carpenter'"
                         :task="userTask || undefined" />
-                    <LazyQuoteTradespeopleCertificatesReportsForm v-if="userSelection === 'certificates-reports'" :task="userTask || undefined" />
+                    <LazyQuoteTradespeopleCertificatesReportsForm v-if="userSelection === 'certificates-reports'"
+                        :task="userTask || undefined" />
                     <LazyQuoteTradespeopleGardenerForm v-if="userSelection === 'gardener'"
                         :task="userTask || undefined" />
-                    <LazyQuoteTradespeopleGasHeatingEngineerForm v-if="userSelection === 'gas-heating-engineer'" :task="userTask || undefined" />
+                    <LazyQuoteTradespeopleGasHeatingEngineerForm v-if="userSelection === 'gas-heating-engineer'"
+                        :task="userTask || undefined" />
                     <LazyQuoteTradespeopleHandymanForm v-if="userSelection === 'handyman'"
                         :task="userTask || undefined" />
                     <LazyQuoteTradespeopleLocksmithForm v-if="userSelection === 'locksmith'"
@@ -53,8 +63,8 @@ const userTask = ref<string | null>(
                         <QuoteFaqs :service='userSelection || undefined' />
                     </div>
                     <div class="lg:sticky lg:top-20">
-                        <ClientOnly>
-                            <div v-if="bookingBreakdown.length || totalPrice"
+                        <ClientOnly v-if="totalPrice > 0 || bookingBreakdown.length">
+                            <div
                                 class="p-5 bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900 rounded-lg">
                                 <QuoteBookingSummary :breakdown="bookingBreakdown" :total="totalPrice"
                                     :date="bookingDate" :time="bookingTime" />

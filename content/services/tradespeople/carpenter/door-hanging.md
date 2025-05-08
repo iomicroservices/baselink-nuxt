@@ -167,16 +167,32 @@ button: "Hire a carpenter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a carpenter with BaseLink for door hanging{{ $doc.location }}
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+BaseLink connects you with experienced local carpenters{{ $doc.location }} who can hang, replace, and adjust both internal and external doors. Our support team oversees the process to ensure everything runs smoothly from start to finish.
 
 #description
-Paragraph two insert here...
+All carpenters on BaseLink are skilled, experienced, and local to your area. Each one is carefully vetted by our team and regularly rated by customers to ensure consistently high standards of workmanship.
 
 #description
-FInal one here...
+Your selected provider can fit new doors or remove and dispose of old ones as needed. They also trim or plane doors to ensure a perfect fit in your existing frame.
+
+#description
+Installation includes fitting hinges, handles, locks, and latches. Every detail is checked — from the door’s alignment and swing to its closure — to make sure it functions smoothly.
+
+#description
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+
+#description
+If needed, providers can make minor frame adjustments or repairs to support the new door. They can also install or repair full door frames when required.
+
+#description
+Once the door is fitted, the area is tidied and all work is double-checked for quality. With BaseLink, you get reliable service and a local expert who gets the job done right.
+
+#description
+[Get an instant quote and book your dorr hanging job.](/services/tradespeople/quote?selection=carpenter&task=door-hanging)
+
 ::
 
 ---

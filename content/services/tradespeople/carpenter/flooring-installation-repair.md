@@ -172,16 +172,32 @@ button: "Hire a carpenter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a carpenter with BaseLink for your flooring job{{ $doc.location }}
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+BaseLink connects you with trusted local carpenters{{ $doc.location }} who can install, repair, or replace a wide range of flooring types. Our dedicated support team helps coordinate your booking for a smooth and reliable experience.
 
 #description
-Paragraph two insert here...
+All carpenters on BaseLink are skilled, experienced, and local to your area. Each one is carefully vetted by our team and regularly rated by customers to ensure consistently high standards of workmanship.
 
 #description
-FInal one here...
+Services include laminate, hardwood, vinyl, and tile flooring — all fitted with care and precision. Carpet fitting and replacement are also available, tailored to your space and preferences.
+
+#description
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+
+#description
+Whether you need new floorboards, repairs, or full replacements, the right professional will be matched to your job. Subfloor preparation and levelling can also be arranged to ensure a flawless finish.
+
+#description
+Skirting board fitting, threshold strip installation, and other finishing touches are included as needed. If your floors need a refresh, sanding and sealing services are also available.
+
+#description
+With BaseLink, you get an instant quote, flexible scheduling, and a trusted local expert to carry out the work. Every detail is handled to ensure quality results from the ground up.
+
+#description
+[Get an instant quote and book your flooring job.](/services/tradespeople/quote?selection=carpenter&task=flooring-installation-repair)
+
 ::
 
 ---

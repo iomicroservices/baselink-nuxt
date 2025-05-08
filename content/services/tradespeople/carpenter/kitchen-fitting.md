@@ -172,16 +172,32 @@ button: "Hire a carpenter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a carpenter with BaseLink for kitchen fitting{{ $doc.location }}
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+BaseLink connects you with skilled local carpenters{{ $doc.location }} who can design, install, and refurbish a wide range of kitchens. Your booking is managed by our support team to ensure a reliable and well-organised experience.
 
 #description
-Paragraph two insert here...
+All carpenters on BaseLink are skilled, experienced, and local to your area. Each one is carefully vetted by our team and regularly rated by customers to ensure consistently high standards of workmanship.
 
 #description
-FInal one here...
+The service can start with a design consultation to help plan the layout and features of your new kitchen. Providers can also remove old kitchen units to prepare the space for installation.
+
+#description
+New cabinets and units are fitted with care, along with worktops, kitchen islands, and custom edging for a neat finish. Integrated appliances can be installed to blend seamlessly with your design.
+
+#description
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+
+#description
+Cabinet doors, drawers, and bespoke shelving are also included, ensuring both function and style. You can add splashbacks or tiling to complete the look.
+
+#description
+Whether you're after a full kitchen makeover or a smaller update, BaseLink makes it easy to get started. Request a quote, customise your job, and get matched with a trusted local expert.
+
+#description
+[Get an instant quote and book your kitchen fitting job.](/services/tradespeople/quote?selection=carpenter&task=kitchen-fitting)
+
 ::
 
 ---

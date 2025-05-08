@@ -203,7 +203,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <USelect v-model="formState.taskOptions" :options="options.taskOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="requirementsNote" label="Anything else we should know?" hint="Optional">
+        <UFormGroup size="xl" name="requirementsNote" label="Any additional requirements?" hint="Optional">
             <UTextarea v-model="formState.requirementsNote"
                 placeholder="e.g. mount shelves and fix 2 loose door handles" />
         </UFormGroup>

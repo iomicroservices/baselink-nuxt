@@ -106,9 +106,10 @@ const isFormValid = computed(() => {
 
 // 6️⃣ Pricing logic
 // Form component updates this data using composable to render booking summary
-const { totalPrice } = useBookingFormState();
+const { totalPrice, bookingBreakdown } = useBookingFormState();
 onMounted(() => {
     totalPrice.value = 0
+    bookingBreakdown.value = []
 });
 
 // 7️⃣ Submission logic
@@ -166,7 +167,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <USelect v-model="formState.taskOptions" :options="options.taskOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="requirementsNote" label="Anything else we should know?" hint="Optional">
+        <UFormGroup size="xl" name="requirementsNote" label="Any additional requirements?" hint="Optional">
             <UTextarea v-model="formState.requirementsNote"
                 placeholder="e.g. EPC and Gas Safety Certificate for 2-bed rental flat" />
         </UFormGroup>

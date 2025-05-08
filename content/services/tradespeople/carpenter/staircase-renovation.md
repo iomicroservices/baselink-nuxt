@@ -180,16 +180,32 @@ button: "Hire a carpenter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a carpenter with BaseLink for your staricase renovation job{{ $doc.location }}
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+BaseLink connects you with skilled local carpenters{{ $doc.location }} who can renovate, install, or repair staircases of all styles. Your job is supported by our dedicated team to ensure a reliable and well-managed experience.
 
 #description
-Paragraph two insert here...
+All carpenters on BaseLink are skilled, experienced, and local to your area. Each one is carefully vetted by our team and regularly rated by customers to ensure consistently high standards of workmanship.
 
 #description
-FInal one here...
+Services include full staircase installations and removal of existing structures where needed. Structural repairs can also be arranged to strengthen stairs and ensure long-term safety.
+
+#description
+Treads, risers, handrails, and balustrades can all be replaced or repaired to refresh the look and feel. Newel posts can be installed or restored to match your chosen style.
+
+#description
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+
+#description
+Carpenters can eliminate squeaks, add cladding, or remove and replace stair carpets. Sanding, staining, or painting is also available to finish off the renovation.
+
+#description
+If safety is a concern, upgrades can be made to improve grip and stability. Custom design features can also be included to help your staircase suit your home perfectly.
+
+#description
+[Get an instant quote and book your staircase renovation job.](/services/tradespeople/quote?selection=carpenter&task=staircase-renovation)
+
 ::
 
 ---

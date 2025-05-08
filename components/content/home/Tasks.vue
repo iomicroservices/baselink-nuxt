@@ -5,12 +5,11 @@ interface Props {
     description?: string
     path?: string
 }
-
 const props = defineProps<Props>()
-//store route info in route const
-const { params } = useRoute()
+
+const { getStarted, route } = useGetStarted();
 //create pathCategory const if [category] param exists, otherwise return empty string
-const pathCategory = params.category ? params.category : props.path
+const pathCategory = route.params.category ? route.params.category : props.path
 
 </script>
 
@@ -62,7 +61,7 @@ const pathCategory = params.category ? params.category : props.path
 
                     <!-- Buttons -->
                     <div class="pt-4 flex flex-col lg:flex-row gap-4 justify-center lg:justify-start">
-                        <NuxtLink v-if="pathCategory" :to="`/services/${pathCategory}/quote`" class="btn-primary">
+                        <NuxtLink v-if="pathCategory" :to=getStarted class="btn-primary">
                             Get a quote
                         </NuxtLink>
                     </div>

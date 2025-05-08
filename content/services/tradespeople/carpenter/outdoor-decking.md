@@ -179,16 +179,32 @@ button: "Hire a carpenter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a carpenter with BaseLink for your outdoor decking job{{ $doc.location }}
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+BaseLink connects you with trusted local carpenters{{ $doc.location }} who can install, replace, or design a wide range of outdoor decking solutions. Your booking is supported by our dedicated team to ensure a smooth and reliable service.
 
 #description
-Paragraph two insert here...
+All carpenters on BaseLink are skilled, experienced, and local to your area. Each one is carefully vetted by our team and regularly rated by customers to ensure consistently high standards of workmanship.
 
 #description
-FInal one here...
+You can choose from timber, composite, PVC, hardwood, or softwood decking to suit your style and budget. Anti-slip options are also available for added safety in wet or shaded areas.
+
+#description
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+
+#description
+Carpenters can install elevated or ground-level decking depending on your space. Wrap-around and roof decking are also available to maximise outdoor living areas.
+
+#description
+Looking for something custom? Our carpenters can add integrated planters, seating, or tailor decking around pools or hot tubs for a seamless finish.
+
+#description
+With BaseLink, you get a quick quote, flexible scheduling, and a reliable local expert to bring your outdoor space to life.
+
+#description
+[Get an instant quote and book your outdoor decking job.](/services/tradespeople/quote?selection=carpenter&task=outdoor-decking)
+
 ::
 
 ---

@@ -15,7 +15,7 @@ defineProps<Props>()
                 {{ title || "Default long form title" }}
             </ContentSlot>
         </h2>
-        <div class="md:max-w-[75%]">
+        <div class="md:max-w-[75%] prose-a:text-primary-500 dark:prose-a:text-primary-400 prose-a:font-semibold hover:prose-a:underline">
             <ContentSlot name="description">
                 {{ description || "Default long form description" }}
             </ContentSlot>

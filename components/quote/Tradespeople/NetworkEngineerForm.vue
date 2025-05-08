@@ -111,9 +111,10 @@ const isFormValid = computed(() => {
 
 // 6️⃣ Pricing logic
 // Form component updates this data using composable to render booking summary
-const { totalPrice } = useBookingFormState();
+const { totalPrice, bookingBreakdown } = useBookingFormState();
 onMounted(() => {
     totalPrice.value = 0
+    bookingBreakdown.value = []
 });
 
 // 7️⃣ Submission logic
@@ -138,7 +139,8 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             body: {
                 ...formState,
                 category: 'Tradespeople',
-                subcategory: 'Network engineer',
+                subcategory: 'Network Engineer',
+                task: formState.taskOptions,
                 currentUrl,
                 referrerUrl
             },
@@ -171,7 +173,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <USelect v-model="formState.taskOptions" :options="options.taskOptions" placeholder="" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="requirementsNote" label="Anything else we should know?" hint="Optional">
+        <UFormGroup size="xl" name="requirementsNote" label="Any additional requirements?" hint="Optional">
             <UTextarea v-model="formState.requirementsNote"
                 placeholder="e.g. install 4 CCTV cameras around property with remote access" />
         </UFormGroup>

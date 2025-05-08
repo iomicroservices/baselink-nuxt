@@ -2,8 +2,9 @@
 title: "Wooden panelling service"
 alt: "Fitting decorative or functional wood panelling for walls and ceilings"
 description: "Fitting decorative or functional wood panelling for walls and ceilings"
-category: "carpenter"
-subcategory: "wooden-panelling"
+category: "tradespeople"
+subcategory: "carpenter"
+task: "wooden-panelling"
 image: "/tradespeople/carpenter/wooden-panelling.webp"
 ogImage: "/tradespeople/carpenter/wooden-panelling.webp"
 colour: "blue"
@@ -172,16 +173,28 @@ button: "Hire a carpenter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a carpenter with BaseLink for your wooden panelling job{{ $doc.location }}
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+BaseLink connects you with trusted local carpenters{{ $doc.location }} who can install, replace, or repair wooden panelling in your home. Our support team manages your booking for a smooth and reliable experience.
 
 #description
-Paragraph two insert here...
+All carpenters on BaseLink are skilled, experienced, and local to your area. Each one is carefully vetted by our team and regularly rated by customers to ensure consistently high standards of workmanship.
 
 #description
-FInal one here...
+The service can begin with a consultation to plan your design and take precise wall measurements. Surfaces are prepared and panels are cut to size to ensure a perfect fit.
+
+#description
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+
+#description
+Panelling is then installed securely, with the option to add decorative trim or moulding. Gaps are filled and sealed for a clean, seamless finish.
+
+#description
+Custom features can be included to match your space and style. Once complete, the area is tidied and checked to ensure everything meets a high standard.
+
+#description
+[Get an instant quote and book your wooden panelling job.](/services/tradespeople/quote?selection=carpenter&task=wooden-panelling)
 ::
 
 ---

@@ -160,16 +160,29 @@ button: "Hire a carpenter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a carpenter with BaseLink for window fitting{{ $doc.location }}
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+BaseLink connects you with experienced local carpenters{{ $doc.location }} who can fit, replace, or repair window frames and sills. Your job is managed by our dedicated team to ensure a smooth and reliable service.
 
 #description
-Paragraph two insert here...
+All carpenters on BaseLink are skilled, experienced, and local to your area. Each one is carefully vetted by our team and regularly rated by customers to ensure consistently high standards of workmanship.
 
 #description
-FInal one here...
+The service may include removal of old or damaged components and the installation of new frames or sills. Custom fabrication can be arranged to match your window size and style.
+
+#description
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+
+#description
+Carpenters can fill and seal gaps for a secure, weather-tight finish. Repairs to damaged timber are also available, helping to extend the life of your windows.
+
+#description
+Priming, painting, or staining can be done for a polished look. If needed, draught-proofing upgrades can also be added to improve insulation and energy efficiency.
+
+#description
+[Get an instant quote and book your window fitting job.](/services/tradespeople/quote?selection=carpenter&task=window-frames-sills)
+
 ::
 
 ---
@@ -177,6 +190,16 @@ FInal one here...
 ::category
 #title
 Find housekeepers and tradespeople {{$doc.location}}
+::
+
+---
+
+::subcategory
+#title
+BaseLink cleaning services for your home{{ $doc.location }} too
+
+#description
+We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
 ::
 
 ---

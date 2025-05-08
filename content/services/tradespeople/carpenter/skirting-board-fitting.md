@@ -160,16 +160,29 @@ button: "Hire a carpenter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a carpenter with BaseLink for skirting board fitting{{ $doc.location }}
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+BaseLink connects you with trusted local carpenters{{ $doc.location }} who can install, replace, or customise skirting boards to suit your space. Our support team manages your booking for a smooth and dependable experience.
 
 #description
-Paragraph two insert here...
+All carpenters on BaseLink are skilled, experienced, and local to your area. Each one is carefully vetted by our team and regularly rated by customers to ensure consistently high standards of workmanship.
 
 #description
-FInal one here...
+The service can include removal of old skirting boards and precise cutting of new boards to size and angle. New boards are then fitted securely, with careful attention to clean lines and detail.
+
+#description
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+
+#description
+Carpenters can fill gaps, seal joins, and scribe boards to fit uneven walls. Painting or priming can also be included if requested, helping you achieve a finished look.
+
+#description
+Once everything is in place, the workspace is tidied and the installation is checked for quality. With BaseLink, you can customise your request and get connected with a reliable local expert in minutes.
+
+#description
+[Get an instant quote and book your skirting board fitting job.](/services/tradespeople/quote?selection=carpenter&task=skirting-board-fitting)
+
 ::
 
 ---

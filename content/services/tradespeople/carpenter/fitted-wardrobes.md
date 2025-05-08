@@ -172,16 +172,32 @@ button: "Hire a carpenter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a carpenter with BaseLink for fitted wardrobes{{ $doc.location }}
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+BaseLink connects you with skilled local carpenters{{ $doc.location }} who can design and install custom fitted wardrobes tailored to your space. Our support team helps manage the booking for a smooth and reliable experience.
 
 #description
-Paragraph two insert here...
+All carpenters on BaseLink are skilled, experienced, and local to your area. Each one is carefully vetted by our team and regularly rated by customers to ensure consistently high standards of workmanship.
 
 #description
-FInal one here...
+Options include sliding or hinged door wardrobes, depending on your style and space. You can also request mirrored finishes for a sleek, modern look.
+
+#description
+Whether you're after a corner wardrobe or a built-in unit for an alcove, we help you find the right expert. Wall-to-wall and floor-to-ceiling wardrobes are ideal for maximising storage in larger rooms.
+
+#description
+Walk-in wardrobes and open systems are available too, offering a more spacious and accessible layout. If your space is tricky, such as a loft or sloped ceiling, our partners can create a solution that fits.
+
+#description
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+
+#description
+With BaseLink, you can customise your project, get an instant quote, and book a time that works for you. We'll match you with a trusted carpenter who can bring your vision to life.
+
+#description
+[Get an instant quote and book your fitted wardrobes job.](/services/tradespeople/quote?selection=carpenter&task=fitted-wardrobes)
+
 ::
 
 ---

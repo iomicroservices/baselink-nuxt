@@ -6,4 +6,58 @@ date: 16th Apr 2025
 published: true
 ---
 
-Cookie policy
+This Cookie Policy explains how BaseLink ("we", "us", or "our") uses cookies and similar technologies on our website at [https://baselink.uk](https://baselink.uk). By using our Website, you consent to the use of cookies as outlined in this policy.
+
+### 1. What Are Cookies?
+Cookies are small text files that are stored on your device (computer, mobile phone, or tablet) when you visit a website. They are widely used to make websites work more efficiently, as well as to provide information to the site owners.
+
+Cookies do not typically contain any personally identifiable information, but they may be linked to other data we store about you.
+
+### 2. Types of Cookies We Use
+We use the following types of cookies on our Website:
+- **Strictly Necessary Cookies**  
+  These cookies are essential for the functioning of our Website and enable core features such as secure login, booking processes, and navigation.
+- **Performance & Analytics Cookies**  
+  These cookies collect information about how visitors use the Website, such as which pages are visited most often and any error messages. This helps us improve the performance and usability of the site.
+- **Functionality Cookies**  
+  These cookies remember your preferences and choices (e.g. location or language settings) to provide a more personalised experience.
+- **Session Cookies**  
+  These are temporary cookies that expire when you close your browser. They help with session management and maintaining continuity while you navigate the Website.
+
+## 3. Google Analytics
+We use **Google Analytics** to help us understand how visitors interact with our Website. Google Analytics sets cookies to collect information such as your IP address, browser type, pages visited, and time spent on the Website.
+
+This data is anonymised and used in aggregate to improve our Website and services.  
+For more information, please see:  
+[Google Privacy Policy](https://policies.google.com/privacy)
+
+You can opt out of Google Analytics cookies here:  
+[https://tools.google.com/dlpage/gaoptout](https://tools.google.com/dlpage/gaoptout)
+
+## 4. How We Use Cookies
+We use cookies to:
+- Enable you to log in and manage your account
+- Track website navigation and usage patterns
+- Remember your preferences and settings
+- Monitor performance and troubleshoot technical issues
+- Analyse and improve our Website and services
+
+We do **not** store personal information such as your name, email address, or payment details directly in cookies.
+
+## 5. Managing and Blocking Cookies
+You can manage or block cookies at any time by adjusting the settings in your web browser. Each browser provides different methods for doing this. Below are links to instructions for common browsers:
+
+- [Chrome](https://support.google.com/chrome/answer/95647)
+- [Firefox](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences)
+- [Safari](https://support.apple.com/en-gb/guide/safari/sfri11471/mac)
+- [Microsoft Edge](https://support.microsoft.com/en-us/help/4027947)
+
+Please note that blocking or disabling cookies may affect the functionality of our Website. Some features, such as logging in, booking a service, or saving preferences, may not work properly without cookies enabled.
+
+## 6. Updates to This Policy
+We may update this Cookie Policy from time to time to reflect changes in the law or our use of cookies. We encourage you to review this page periodically for any updates. The date of the last revision will always be shown at the top of this policy.
+
+## 7. Contact Us
+If you have any questions or concerns about our use of cookies, please contact us at:
+- **Email:** hello@baselink.uk  
+- **Post:** Mohana Ltd, 9 Goshawk Court, Ridding Lane, London, UB6 0FL  
