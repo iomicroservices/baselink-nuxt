@@ -134,16 +134,31 @@ button: "Hire a gardener"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a local gardener{{$doc.location}} to keep your outdoor space cared for
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+From quick tidy-ups to regular upkeep, BaseLink makes it easy to book reliable local gardeners{{$doc.location}} for all kinds of garden care. Whether you need your lawn mowed, hedges trimmed, or fresh plants added to the garden, we’ll match you with a trusted professional who can take care of it — so your outside space stays clean and inviting.
 
 #description
-Paragraph two insert here...
+Lawn mowing is carried out with care and attention to detail, ensuring a neat, even finish. Your gardener will trim edges, dispose of clippings, and leave your grass looking healthy and well-kept.
 
 #description
-FInal one here...
+Hedge trimming helps maintain shape and control growth. Whether you're managing a front garden or a larger outdoor area, your gardener will cut, tidy and remove waste to restore order and visibility.
+
+#description
+We also offer planting services to refresh your garden’s appearance with new flowers, shrubs or seasonal arrangements. You can bring your own plants or ask your gardener to recommend options suited to the space and conditions.
+
+#description
+Leaf blowing and debris removal is available too — perfect for keeping patios, driveways and pathways clear during autumn or after bad weather. Everything is cleaned and tidied before your gardener leaves.
+
+#description
+Booking through BaseLink is simple and fully digital. Submit your request online, receive an instant quote, and choose a time that suits you. You can customise your job with special instructions or make it part of a regular schedule.
+
+#description
+All gardeners on our platform are local, vetted and reviewed by other customers. Whether it’s a one-off job or recurring care, you’ll have peace of mind knowing your garden is in expert hands.
+
+#description
+Payment is collected on the day of your visit, with any additional time charged fairly in 30-minute increments. Book a local gardener{{$doc.location}} today with BaseLink — and enjoy a cleaner, greener outdoor space without the effort.
 ::
 
 ---

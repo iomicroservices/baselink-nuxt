@@ -175,16 +175,31 @@ button: "Hire a painter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book exterior painting{{$doc.location}} for kerb appeal that lasts through the seasons
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Give your property a fresh face with expert exterior painting from BaseLink. We connect you with skilled local painters{{$doc.location}} who handle everything from homes and fences to shops and public buildings — delivering neat, weather-resistant finishes that protect as well as impress.
 
 #description
-Paragraph two insert here...
+Your painter will prep every surface with care — cleaning, sanding, and filling cracks to ensure long-lasting results. Whether you need a full repaint or a simple colour refresh, we’ll match your preferred finish and apply the right primers and sealers for maximum durability.
 
 #description
-FInal one here...
+We paint walls, gates, fencing, fascias, soffits and more, using high-quality weatherproof paints suited to brick, render, timber or metal. Working at height? No problem — ladders or scaffolding can be arranged as needed.
+
+#description
+You can supply your own paint or let us provide a recommended brand and finish. We also offer colour consultation if you’re not sure which shade will work best with your surroundings or property style.
+
+#description
+We take care to protect your windows, plants, and external fixtures throughout the job — and we always leave the site tidy with safe disposal of any waste.
+
+#description
+Booking with BaseLink is fast and online. Submit your request, get an instant quote, and pick a time that works for you — with full support from our in-house team every step of the way.
+
+#description
+All painters are vetted, reviewed by local customers, and experienced in both residential and commercial exterior work. Whether it’s a single garden wall or a multi-storey office block, we’ve got it covered.
+
+#description
+Payment is collected on the day of service, with any additional time billed in fair 30-minute increments. Book exterior painting{{$doc.location}} with BaseLink — and give your property the finish it deserves.
 ::
 
 ---

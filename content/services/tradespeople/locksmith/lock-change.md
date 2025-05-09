@@ -155,16 +155,28 @@ button: "Hire a locksmith"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a lock change{{$doc.location}} — for fresh keys and tighter security
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether you’ve moved into a new place, lost a key, or just want better protection, BaseLink makes it easy to book a professional lock change{{$doc.location}}. We connect you with vetted local locksmiths who can replace any type of lock — quickly, securely, and with no hassle.
 
 #description
-Paragraph two insert here...
+Your locksmith will remove the existing lock and install a new one suited to your door type and level of security. We fit everything from standard cylinders and mortice locks to high-security, anti-snap, rim, or digital smart locks.
 
 #description
-FInal one here...
+All new locks are tested with fresh keys to ensure smooth operation. If you’ve had a tenant move out or a key go missing, this service is an easy way to regain control and peace of mind.
+
+#description
+Old locks and components are taken away for safe disposal, and your locksmith can advise on upgraded options if you want added protection or compatibility with other smart home devices.
+
+#description
+Booking is fully online through BaseLink. Submit your request in minutes, receive an instant quote, and choose a time that works for you. No chasing around for trades or waiting for quotes.
+
+#description
+All locksmiths are experienced, reviewed by local customers, and supported by our dedicated in-house team. Whether it’s a single door or a whole property, we’ve got you covered.
+
+#description
+Payment is collected on the day of the visit, with any additional time billed fairly in 30-minute increments. Book your lock change{{$doc.location}} today with BaseLink — and make sure only the right people have access to your space.
 ::
 
 ---

@@ -164,16 +164,31 @@ A CP12 Gas Safety Certificate is a legal requirement for landlords in the UK. Ou
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a CP12 gas safety certificate{{$doc.location}} to stay compliant and protect your tenants
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+If you’re a landlord, a valid CP12 Gas Safety Certificate is a legal requirement for every property you rent out. BaseLink makes it easy to stay compliant — we connect you with Gas Safe registered engineers{{$doc.location}} who carry out thorough inspections and issue official documentation without the usual delays.
 
 #description
-Paragraph two insert here...
+Your engineer will check all gas appliances in the property, including boilers, cookers and fires, to confirm they are safe and working correctly. They’ll inspect flues and chimneys, run gas pressure and burner tests, and carry out a tightness test on all visible pipework.
 
 #description
-FInal one here...
+A full ventilation assessment is included to ensure airflow is sufficient and safe. The engineer will also visually inspect the gas installation for signs of damage or risk, and assess carbon monoxide exposure to identify any immediate concerns.
+
+#description
+If issues are found, you’ll receive clear advice on any remedial work required. Once everything is complete, you’ll be issued with a valid CP12 certificate, detailing all checks and results — ready to be shared with tenants or letting agents.
+
+#description
+Booking your gas safety inspection through BaseLink is fast and straightforward. Just submit your request online, get an instant quote, and choose a time that suits you. There’s no chasing engineers or waiting on paperwork — we manage everything for you.
+
+#description
+All engineers on the platform are Gas Safe registered, fully qualified and experienced with landlord requirements. Our support team is also available to help you handle follow-ups, rebooking or related services like boiler servicing or EICR checks.
+
+#description
+Payment is collected on the day of the visit, and additional time is billed in clear 30-minute increments. It’s a simple, transparent process that makes legal compliance easy.
+
+#description
+Book your CP12 gas safety certificate{{$doc.location}} today with BaseLink — and get peace of mind that your property is gas safe and fully compliant.
 ::
 
 ---

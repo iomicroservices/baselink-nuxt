@@ -163,16 +163,31 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book upholstery cleaning{{$doc.location}} to refresh your home
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Furniture and soft furnishings can trap dust, allergens and odours over time — but with BaseLink, giving them a deep clean is easy. We connect you with trusted local professionals{{$doc.location}} who offer expert upholstery cleaning using specialist equipment and techniques tailored to your fabric.
 
 #description
-Paragraph two insert here...
+The service begins with a pre-inspection to assess the condition of your items. From sofas and armchairs to curtains and mattresses, your cleaner will check for stains, wear, and fabric sensitivity before choosing the most suitable cleaning method.
 
 #description
-FInal one here...
+Loose dirt is removed with a thorough vacuum, followed by pre-treatment and stain removal where needed. If suitable for the fabric, deep steam cleaning is used to lift embedded grime and bacteria from the fibres, leaving them fresh and restored.
+
+#description
+A deodorising treatment is applied to neutralise odours caused by pets, spills or everyday use. Air movers can also be used to reduce drying times, so your furniture is ready to enjoy again as soon as possible.
+
+#description
+You can customise your appointment with special instructions or include specific items in your booking. Whether it’s part of a one-time clean or a standalone service, we make it easy to get the results you need.
+
+#description
+Booking is fast, transparent, and fully online through BaseLink. Just submit your request, receive an instant quote, and choose a convenient time — no waiting around or chasing callbacks.
+
+#description
+All upholstery cleaners on our platform are vetted, reviewed, and supported by our in-house team to ensure top quality results. We’re here to help with any adjustments, questions or follow-ups along the way.
+
+#description
+Payment is taken on the day of the job, with any additional time billed fairly in 30-minute increments. Book upholstery cleaning{{$doc.location}} today with BaseLink — and bring life back to your furniture with professional care.
 ::
 
 ---

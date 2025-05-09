@@ -155,16 +155,28 @@ button: "Hire a plumber"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book drain unblocking{{$doc.location}} for solutions that keep water moving
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Dealing with a slow-draining sink or a full-on overflow? BaseLink connects you with skilled local plumbers{{$doc.location}} who handle drain blockages quickly, cleanly, and with the right tools to get your plumbing back on track.
 
 #description
-Paragraph two insert here...
+Whether it’s your kitchen, bathroom or an outdoor drain, we’ll locate the blockage and clear it using plungers, rods or high-pressure water jets. Your plumber will diagnose the cause — whether it’s food waste, grease, hair, or something more stubborn — and get things flowing again in no time.
 
 #description
-FInal one here...
+After clearing the blockage, we test drainage throughout the system to ensure everything is working properly. If there’s an underlying issue, we’ll let you know and offer next steps if repairs or deeper cleaning are needed.
+
+#description
+We also provide helpful advice on preventing future blockages, so you can keep water running smoothly without repeat visits.
+
+#description
+You can book entirely online through BaseLink. Just submit your job, get an instant quote, and pick a time that suits you — with support from our team if you need to make updates.
+
+#description
+All plumbers are vetted, reviewed by other customers nearby, and backed by our dedicated support team for extra peace of mind.
+
+#description
+Payment is collected on the day of service, with any extra time billed in fair 30-minute increments. Book drain unblocking{{$doc.location}} with BaseLink — and clear the clog without the chaos.
 ::
 
 ---

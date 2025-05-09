@@ -130,16 +130,31 @@ You can customise your ... with special instructions or add extra services. Your
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a network engineer{{$doc.location}} for seamless tech that connects, protects and performs
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+From CCTV and alarms to Wi-Fi, intercoms and smart home setups — BaseLink connects you with skilled local network engineers{{$doc.location}} who handle complex installations with ease. Whether you're upgrading home tech or setting up a business network, we make it simple to get the job done right.
 
 #description
-Paragraph two insert here...
+We install and configure burglar alarms, CCTV systems and NPR (number plate recognition) cameras to help secure your property. Everything is tailored to your layout and monitored zones, with options for remote access, cloud recording and mobile alerts.
 
 #description
-FInal one here...
+Need a stable connection? Our engineers handle data cabling for homes, offices and comms rooms — plus Wi-Fi signal improvements, mesh networks and HDMI distribution to keep your screens and devices running smoothly.
+
+#description
+From intercom systems to IPTV installation and sound systems, we ensure clean cable runs, reliable signal strength and full walkthroughs of your setup. Whether you're building a smart home or just need a few upgrades, we’ve got the tech and the know-how.
+
+#description
+We also offer regular maintenance services for CCTV systems, smart home devices and networking equipment, helping you stay protected and connected without the stress of troubleshooting.
+
+#description
+Booking through BaseLink is fully online — submit your request, get an instant quote, and choose a time that suits your schedule. No chasing trades or piecing services together.
+
+#description
+All engineers are vetted, reviewed by local customers and supported by our in-house team. Whether it’s a full smart home install or a small network tweak, you’ll always get expert service and helpful guidance.
+
+#description
+Payment is collected on the day of service, and any additional time is billed in fair 30-minute increments. Book a network engineer{{$doc.location}} today with BaseLink — and get smarter, safer tech that just works.
 ::
 
 ---

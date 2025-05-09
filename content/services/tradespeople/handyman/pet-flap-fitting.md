@@ -79,7 +79,10 @@ profession: "handymen"
 
 ---
 
-::tasksWhat you get with pet flap fitting
+::tasks
+
+#title
+What you get with pet flap fitting
 
 #description
 We fit all types — from manual to microchip-controlled — into wooden, uPVC, or suitable glass doors. Our handymen{{ $doc.location }} ensure the flap is placed at the right height, sealed properly, and functions smoothly.
@@ -153,16 +156,28 @@ button: "Hire a handyman"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book pet flap fitting{{$doc.location}} for your furry friends
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Give your pets their freedom — without wrecking your doors. With BaseLink, you can book skilled local handypeople{{$doc.location}} to install pet flaps into uPVC, wooden or glazed doors safely, neatly, and at the perfect height for your cat or dog.
 
 #description
-Paragraph two insert here...
+We fit all kinds of flaps, from simple manual ones to locking models and microchip-activated systems that keep unwanted animals out. Your handyperson will ensure the cut is clean, the fit is tight, and the flap opens and closes smoothly every time.
 
 #description
-FInal one here...
+Flaps are installed at the correct height for your pet, with careful sealing around the frame to prevent drafts, rain or heat loss. If needed, we’ll advise on the best location or flap type based on your door material and your pet’s needs.
+
+#description
+We handle installations in wood, uPVC and suitable double-glazed units (pre-prepared), and always check everything is level, secure and safe before the job’s finished. Your pet gets freedom — and you get peace of mind.
+
+#description
+Booking with BaseLink is simple and online. Just submit your request, receive an instant quote, and choose a time that works for you. No back-and-forth calls or confusing setup — we’ve made it easy.
+
+#description
+All BaseLink fitters are experienced, vetted and reviewed by local customers. Whether it’s your first flap or an upgrade to something smarter, we’ll make sure it’s done properly and professionally.
+
+#description
+Payment is collected on the day of service, with any extra time billed fairly in 30-minute increments. Book pet flap fitting{{$doc.location}} today with BaseLink — and open the door to freedom (without leaving one open).
 ::
 
 ---

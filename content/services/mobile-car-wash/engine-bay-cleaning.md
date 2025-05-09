@@ -156,16 +156,31 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book engine bay cleaning{{$doc.location}} for a spotless finish under the bonnet
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+BaseLink connects you with trusted local car care specialists who offer expert engine bay cleaning{{$doc.location}} as part of a mobile service. Whether you're preparing your vehicle for sale, a show, or simply want to take better care of your car, this detailed clean helps your engine look its best — without leaving home.
 
 #description
-Paragraph two insert here...
+The service starts with the careful removal of loose debris and built-up dust from the engine bay. Then, degreasers are applied to lift oil, grime and dirt from the visible components and surfaces.
 
 #description
-FInal one here...
+Your provider will hand-clean key areas, wiping down hoses, plastic trims, and metal parts to restore a tidy, professional appearance. Trims and covers are detailed to complete the clean, bringing back a neat, like-new finish.
+
+#description
+The bay is then dried and finished to ensure there’s no moisture left behind. You can also add special requests if your engine bay has sensitive or modified components that need extra attention.
+
+#description
+Booking is fast and convenient through the BaseLink platform. Just fill out a quick form, get an instant quote, and choose a time that suits you. Everything is managed online, saving you time and giving you full control.
+
+#description
+Unlike traditional garages, BaseLink offers the benefit of vetted professionals who come to you — with no need to book multiple appointments or visit a workshop. Your job is also supported by our dedicated team to make sure things run smoothly.
+
+#description
+Payment is taken on the day of service, and extra time (if needed) is charged fairly in 30-minute increments. It’s a transparent and flexible way to keep your vehicle in top shape.
+
+#description
+Book engine bay cleaning{{$doc.location}} with BaseLink and give your vehicle the attention it deserves — inside, outside and under the bonnet.
 ::
 
 ---

@@ -164,16 +164,28 @@ button: "Hire a handyman"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book mirror & picture hanging{{$doc.location}} for perfectly placed frames
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+A crooked picture or wobbly mirror can ruin a great wall — but with BaseLink, you can get it right the first time. We connect you with skilled local handypeople{{$doc.location}} who hang everything from single statement pieces to full gallery walls, safely and securely.
 
 #description
-Paragraph two insert here...
+Your handyperson will measure and mark out placement before drilling, ensuring each item is centred, level and exactly where you want it. They’ll assess your wall type — whether plaster, brick, concrete or stud — and use the right fixings for a safe and lasting result.
 
 #description
-FInal one here...
+We can hang large, heavy mirrors, artwork, picture frames and wall décor of all shapes and sizes. Need help planning a layout? Your fitter can also assist with grouped arrangements or gallery-style picture walls.
+
+#description
+If you’re mounting items in a hallway, staircase, or family room, we can add safety fixings to prevent slips, swings or damage in high-traffic areas. And everything is aligned to the millimetre for that polished, professional finish.
+
+#description
+Booking is simple through BaseLink. Just submit your request, receive an instant quote, and pick a time that works — all managed through our modern digital platform, no phone calls needed.
+
+#description
+All handypeople are vetted, experienced, and reviewed by other customers nearby. Whether you’re adding the final touches to a room or rehanging something that didn’t quite work, we’ve got the tools and know-how.
+
+#description
+Payment is collected on the day of your appointment, with any extra time billed in fair 30-minute increments. Book mirror and picture hanging{{$doc.location}} today with BaseLink — and give your walls the spotlight they deserve.
 ::
 
 ---

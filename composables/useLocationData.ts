@@ -65,9 +65,9 @@ export const useLocationData = async () => {
     return {
         locationData: {
             routeLocations: {
-                routeLocalType: params.type,
-                routeCity: params.city,
-                routeArea: params.area
+                routeLocalType: type,
+                routeCity: city,
+                routeArea: area
             },
             selectedLocations: {
                 selectedRegion,

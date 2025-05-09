@@ -150,16 +150,31 @@ title: "Get an instant quote now"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book smart home automation{{$doc.location}} for effortless control at your fingertips
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+From lights and heating to security and entertainment, smart tech can make life easier — when it’s set up properly. With BaseLink, you can book expert network engineers{{$doc.location}} to install and configure your smart home system, all ready for app or voice control.
 
 #description
-Paragraph two insert here...
+We install smart hubs like Google Nest, Amazon Echo, or Apple HomeKit, and integrate them with compatible lighting, thermostats, security cameras, doorbells, sound systems and more.
 
 #description
-FInal one here...
+Your engineer will connect everything to your home network, ensure devices are responsive and linked, and set up your mobile app for remote access. Want to control it with your voice? We’ll configure that too — whether you use Alexa, Siri or Google Assistant.
+
+#description
+We also provide a walkthrough of how your system works and show you how to use routines, schedules and remote features for maximum convenience.
+
+#description
+This service is perfect for both new setups and upgrading older systems. Whether you’re automating one room or the whole house, we’ll make sure everything runs smoothly, securely and as it should.
+
+#description
+Booking through BaseLink is fast and fully online. Submit your request, get an instant quote, and pick a time that suits you — no chasing trades or fiddling with complicated installs.
+
+#description
+All engineers are vetted, experienced and reviewed by local customers. Your booking is backed by our in-house support team from start to finish.
+
+#description
+Payment is collected on the day of service, with any extra time billed in fair 30-minute increments. Book smart home automation{{$doc.location}} with BaseLink today — and turn your home into a home that listens, learns, and responds.
 ::
 
 ---

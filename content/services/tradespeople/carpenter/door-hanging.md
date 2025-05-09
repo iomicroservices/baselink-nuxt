@@ -167,7 +167,7 @@ button: "Hire a carpenter"
 
 ::long-form
 #title
-Book a carpenter with BaseLink for door hanging{{ $doc.location }}
+Book a carpenter for door hanging{{ $doc.location }} with BaseLink
 
 #description
 BaseLink connects you with experienced local carpenters{{ $doc.location }} who can hang, replace, and adjust both internal and external doors. Our support team oversees the process to ensure everything runs smoothly from start to finish.

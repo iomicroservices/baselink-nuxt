@@ -155,16 +155,31 @@ button: "Hire a plumber"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book toilet repair or installation{{$doc.location}} for fast fixes
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether your toilet won’t stop running, won’t flush at all, or you’re upgrading to a new unit, BaseLink connects you with skilled local plumbers{{$doc.location}} who can repair or replace your toilet quickly, cleanly, and properly.
 
 #description
-Paragraph two insert here...
+For repairs, we diagnose issues like flush malfunctions, leaks around the base, weak water flow or noisy cisterns. Common fixes include replacing fill valves, flush mechanisms, washers, or seals — all done on the spot wherever possible.
 
 #description
-FInal one here...
+If you're installing a new toilet, your plumber will remove the old unit, check the condition of the waste connection and water feed, and fit the new model securely with everything sealed, level and ready to go.
+
+#description
+Once fitted, the toilet is tested for leaks and flush strength, and the area is left clean and tidy. You can supply your own unit or we can help source one that suits your bathroom setup.
+
+#description
+This service is ideal for urgent fixes, bathroom refurbs or end-of-tenancy property maintenance.
+
+#description
+Booking through BaseLink is simple and online. Just submit your job, get an instant quote, and choose a time that works for you. Our support team manages everything to keep the job on track.
+
+#description
+All BaseLink plumbers are vetted, reviewed by customers nearby, and experienced in both domestic and commercial plumbing. Whatever the issue, we’ll help you get things back in working order.
+
+#description
+Payment is collected on the day of service, with any additional time billed in fair 30-minute increments. Book toilet repair or installation{{$doc.location}} with BaseLink — and get the job done with no mess and no flush failures.
 ::
 
 ---

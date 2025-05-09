@@ -155,16 +155,28 @@ button: "Hire a plumber"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book radiator power flushing{{$doc.location}} to bring the heat back
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+If your radiators take forever to warm up or feel cold in patches, it might be time for a power flush. BaseLink connects you with skilled local plumbers{{$doc.location}} who clear out sludge, rust, and debris from your heating system — so everything runs hotter, faster and more efficiently.
 
 #description
-Paragraph two insert here...
+Using a professional power flushing machine, your engineer will pump water and cleaning agents through your system to dislodge and remove the build-up that’s clogging pipes and radiators. This helps restore full heat flow and protects your boiler from strain.
 
 #description
-FInal one here...
+Each radiator is checked for blockages or cold spots, then balanced for even heat distribution. Once clean, we add a corrosion inhibitor to help prevent future build-up and extend the life of your heating system.
+
+#description
+This service can reduce energy bills, cut down on noise, and improve comfort — especially if your radiators haven’t been flushed in years or you’ve just had a new boiler installed.
+
+#description
+Booking through BaseLink is simple and fully online. Submit your job request, get an instant quote, and choose a time that works best for you. Our support team will manage the job from start to finish.
+
+#description
+All plumbers are vetted, reviewed by local customers, and experienced with both small domestic and larger heating systems. Whether it’s a one-off flush or part of wider system maintenance, we’ll get it sorted.
+
+#description
+Payment is collected on the day of service, with additional time billed in fair 30-minute increments. Book radiator power flushing{{$doc.location}} with BaseLink — and warm up your home, not your frustration.
 ::
 
 ---

@@ -163,16 +163,28 @@ button: "Hire a handyman"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book cabinet and shelf fitting{{$doc.location}} that really hold up
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Need extra storage or want to upgrade your interiors? BaseLink connects you with trusted local handypeople{{$doc.location}} who can fit cabinets, shelves, and storage units with precision. Whether it’s a hallway cabinet, floating shelves in the living room, or bathroom storage, we’ll make sure everything’s installed safely and looks great.
 
 #description
-Paragraph two insert here...
+Your handyperson will assess the wall type — whether plasterboard, brick or tile — and choose the right fixings to ensure a stable and long-lasting result. Wall plugs, screws, and brackets are fitted securely, with everything aligned and levelled for a clean, balanced finish.
 
 #description
-FInal one here...
+We can assemble flat-pack shelving and cabinets as part of the visit, or install pre-assembled units you already have. Floating shelves, corner racks, and wall-mounted cupboards are all handled with care, and safety is always prioritised — especially for high-mounted or heavy items.
+
+#description
+If your unit includes handles, hinges or soft-close doors, your handyperson will fit and adjust them to work smoothly. At the end of the job, they’ll check stability, clear up the workspace and make sure everything is working as expected.
+
+#description
+Booking through BaseLink is simple and fully online. Submit your request in minutes, receive an instant quote, and pick a time that suits your schedule — no phone calls or chasing required.
+
+#description
+All handypeople on our platform are vetted, experienced, and reviewed by local customers. Your booking is supported by our team from start to finish, whether you’re fitting one shelf or a whole storage system.
+
+#description
+Payment is collected on the day of service, and any additional time is billed in fair 30-minute increments. Book cabinet and shelf fitting{{$doc.location}} today with BaseLink — and get sturdy, stylish storage installed without the hassle.
 ::
 
 ---

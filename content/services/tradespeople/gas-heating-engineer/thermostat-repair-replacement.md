@@ -168,16 +168,31 @@ button: "Hire an engineer"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book thermostat repair or replacement{{$doc.location}} for better comfort and energy control
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+A faulty thermostat can lead to inconsistent heating and higher bills. Whether you're repairing a manual unit or upgrading to a smart system, BaseLink connects you with Gas Safe registered engineers{{$doc.location}} who can diagnose issues, replace faulty parts, and get your heating back in sync — quickly and reliably.
 
 #description
-Paragraph two insert here...
+We repair and replace all types of thermostats, including manual, programmable, wireless and smart models. Your engineer will inspect the device, test functionality and determine whether a repair or full replacement is the most efficient solution.
 
 #description
-FInal one here...
+Common services include fault diagnosis, wireless pairing, battery replacement and recalibration for improved accuracy. If your thermostat isn’t reading the temperature correctly or isn’t communicating with your boiler, we’ll get it sorted.
+
+#description
+If you're upgrading, our engineers can supply and install smart thermostats from leading brands — with full setup, mobile app pairing, and heating zone configuration to help you take control of your energy usage.
+
+#description
+We also check for compatibility with your existing heating system, so everything works safely and as intended. Whether it’s for a single room or a zoned setup, we ensure a seamless installation with no fuss.
+
+#description
+Booking through BaseLink is quick and fully online. Submit your request in minutes, receive an instant quote, and choose a convenient time for your repair or installation.
+
+#description
+All engineers are Gas Safe registered, fully vetted, and reviewed by customers in your area. If you need additional services — like a boiler service or system flush — our support team can help arrange it as part of your booking.
+
+#description
+Payment is collected on the day of your visit, and any extra time is billed fairly in 30-minute increments. Book thermostat repair or replacement{{$doc.location}} today with BaseLink — and keep your heating system accurate, efficient and in control.
 ::
 
 ---

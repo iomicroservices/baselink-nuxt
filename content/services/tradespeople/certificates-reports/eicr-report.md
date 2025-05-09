@@ -164,16 +164,31 @@ An EICR report checks the safety and integrity of your property's wiring and ele
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book an EICR report{{$doc.location}} to ensure electrical safety and compliance
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+An Electrical Installation Condition Report (EICR) is essential for landlords, property managers and homeowners to ensure a building’s wiring is safe and up to standard. With BaseLink, you can book a qualified local assessor{{$doc.location}} to carry out a professional EICR inspection and issue a full report — quickly and without the hassle.
 
 #description
-Paragraph two insert here...
+Your assessor will begin with a visual inspection of the electrical installation, looking for visible signs of damage or deterioration. This is followed by a series of in-depth tests, including checks on earthing, bonding, and circuit integrity to confirm everything is working safely.
 
 #description
-FInal one here...
+Insulation resistance testing and live/dead testing (including RCD testing) are used to assess the performance and reliability of your circuits. Fuses and circuit breakers are tested to ensure proper protection is in place for all parts of the property.
+
+#description
+The report also identifies any overloaded circuits, outdated wiring, or fire and electric shock risks. If faults or non-compliant areas are found, your assessor will document them clearly and advise on the necessary steps to fix them.
+
+#description
+Once the inspection is complete, you’ll receive a full EICR report with clear coding to indicate if remedial work is required. The document is suitable for legal compliance and can be shared with tenants, letting agents or contractors.
+
+#description
+Booking an EICR through BaseLink is fast and fully digital. Submit your request online, receive an instant quote, and choose a convenient time — no phone calls or follow-ups needed.
+
+#description
+All assessors on our platform are fully qualified, NICEIC-registered or equivalent, and reviewed by other customers in your area. You’ll also have support from our in-house team should you need help with further services or repairs.
+
+#description
+Payment is taken on the day of the visit, with any additional time billed fairly in 30-minute increments. Book your EICR report{{$doc.location}} today with BaseLink — and get the confidence that your property is safe, compliant and protected.
 ::
 
 ---

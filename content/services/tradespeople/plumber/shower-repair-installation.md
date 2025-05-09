@@ -155,16 +155,31 @@ button: "Hire a plumber"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book shower repair or installation{{$doc.location}} for a fix that flows
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether you're upgrading your bathroom or sorting a leaky unit, BaseLink connects you with trusted plumbers{{$doc.location}} who handle all types of shower repair and installation. We make sure everything’s plumbed, sealed and working exactly as it should.
 
 #description
-Paragraph two insert here...
+We install electric, thermostatic and mixer showers — from complete enclosures to walk-in trays and rainfall heads. If you're replacing an old unit, we’ll remove it cleanly and fit the new one with minimal disruption to your tiles or walls.
 
 #description
-FInal one here...
+Your plumber will connect the hot and cold water supply, seal all fittings for a watertight finish, and test flow and temperature to ensure proper performance.
+
+#description
+Need a repair instead? We fix faulty shower valves, pressure problems, noisy pipes, and leaks behind panels. You’ll get honest advice on whether it’s fixable or if a replacement would be more cost-effective.
+
+#description
+You can supply your own shower or let us help you choose and deliver one that suits your water system and layout. Either way, we’ll make sure it’s installed safely and neatly.
+
+#description
+Booking is simple with BaseLink. Submit your job request, get an instant quote, and choose a time that works for you — with support from our team throughout.
+
+#description
+All BaseLink plumbers are vetted, reviewed by local customers, and backed by our dedicated support team. Whether it’s a fast fix or a full upgrade, you’ll get reliable results every time.
+
+#description
+Payment is collected on the day of service, and any extra time is billed fairly in 30-minute increments. Book shower repair or installation{{$doc.location}} with BaseLink — and get back to hot, hassle-free showers.
 ::
 
 ---

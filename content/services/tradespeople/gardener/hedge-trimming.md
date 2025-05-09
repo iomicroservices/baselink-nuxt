@@ -168,16 +168,28 @@ button: "Hire a gardener"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book hedge trimming{{$doc.location}} to keep your garden healthy and under control
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Overgrown hedges can make your garden feel messy or block light and access. With BaseLink, you can book local, trusted gardeners{{$doc.location}} to trim, shape or fully remove hedges — all with flexible booking, instant quotes, and expert care.
 
 #description
-Paragraph two insert here...
+Your gardener will trim and shape the hedge to restore a clean, even look. Whether it’s a simple tidy-up or a more detailed reduction in height or width, all work is carried out with precision to enhance the space and encourage healthy growth.
 
 #description
-FInal one here...
+They’ll also clear away uneven growth, prune where needed, and open up access paths or boundary lines. If you're planning a garden redesign, complete hedge removal and root extraction are also available on request.
+
+#description
+All cuttings and clippings are removed and disposed of, so your garden is left tidy and ready to enjoy. If you're unsure how often your hedge needs maintenance, your gardener can provide tailored advice during the visit.
+
+#description
+Booking is fast and fully online with BaseLink. Just submit your job request, receive an instant quote, and pick a time that suits your schedule. You can also include hedge trimming as part of a wider garden care visit.
+
+#description
+All gardeners are vetted, reviewed and experienced in maintaining gardens of all sizes. Your booking is backed by our support team, so you always have help if your plans change or if you need to adjust your service.
+
+#description
+Payment is collected on the day of service, with any additional time billed in fair 30-minute increments. Book hedge trimming{{$doc.location}} with BaseLink today — and keep your garden sharp, safe and looking its best.
 ::
 
 ---

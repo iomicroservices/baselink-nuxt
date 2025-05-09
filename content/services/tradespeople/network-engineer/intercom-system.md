@@ -166,16 +166,31 @@ title: "Ready to book your intercom system installation?"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book intercom system installation{{$doc.location}} for smarter access
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Want to see who’s at the door — or buzz someone in remotely? With BaseLink, you can book experienced network engineers{{$doc.location}} to install intercom systems for your home, block or business. From simple audio units to full video entry and app control, we’ll get you connected securely.
 
 #description
-Paragraph two insert here...
+We install both wired and wireless intercoms, tailored to your layout and needs. Whether it’s a front door, main gate, or internal communication system, we’ll assess your setup and recommend the best solution during a free site visit.
 
 #description
-FInal one here...
+Your engineer will mount the intercom units, connect them to power or PoE, and link them to electric locks or gates if needed. Audio and video feeds are tested for clarity, and we’ll make sure calls are loud, clear, and delay-free.
+
+#description
+We also set up mobile access and smart features where supported — so you can receive calls, unlock doors, or manage settings from your phone or tablet, wherever you are.
+
+#description
+All cables are routed cleanly and discreetly, and we provide a full walkthrough of how to use your new system. From residential installations to commercial entry systems, we make it simple to stay secure and connected.
+
+#description
+Booking through BaseLink is quick and online. Submit your request, receive an instant quote, and choose a time that works for you — all backed by our dedicated support team.
+
+#description
+All engineers are vetted, reviewed and experienced in access control systems. Whether you need a basic intercom or a more advanced entry solution, we’ll help you find the right fit.
+
+#description
+Payment is collected on the day of service, with any extra time billed in fair 30-minute increments. Book intercom system installation{{$doc.location}} with BaseLink — and take control of who gets in, with the tap of a button.
 ::
 
 ---

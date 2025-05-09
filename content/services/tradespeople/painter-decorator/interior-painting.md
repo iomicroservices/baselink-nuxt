@@ -171,16 +171,31 @@ button: "Hire a painter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book interior painting{{$doc.location}} for finishes that feel brand new
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether you're updating a single room or repainting the whole house, BaseLink makes it easy to find professional interior painters{{$doc.location}} who deliver clean lines, smooth finishes and reliable results — all with minimal disruption to your space.
 
 #description
-Paragraph two insert here...
+We work on residential and commercial properties of all sizes, including houses, flats, offices, shops and annexes. Your painter will protect your furniture and floors, prepare all surfaces properly, and apply high-quality paint with care.
 
 #description
-FInal one here...
+From filling cracks and sanding to priming and topcoating, we handle every step. Whether it’s a bold feature wall or a full ceiling-to-skirting refresh, we ensure even coverage and durable results.
+
+#description
+You can provide your own paint or let us recommend the best brand and finish for your needs. We’ll also help with colour matching or finish selection if you're undecided.
+
+#description
+We use the right tools for each job — whether it’s brushes, rollers or spray applications — to get clean edges and consistent textures across every surface.
+
+#description
+Once complete, we tidy up the area, remove any waste, and leave your home or workspace spotless and ready to enjoy.
+
+#description
+Booking through BaseLink is fast and fully digital. Submit your request, get an instant quote, and choose a convenient time — with dedicated support from our team throughout.
+
+#description
+Payment is collected on the day of the visit, with any additional time billed fairly in 30-minute increments. Book interior painting{{$doc.location}} with BaseLink — and bring colour, freshness, and new energy into your space.
 ::
 
 ---

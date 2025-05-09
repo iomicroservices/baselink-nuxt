@@ -163,16 +163,31 @@ button: "Hire a locksmith"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book mobile key cutting{{$doc.location}} — we collect, cut, and return
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Need spare keys but don’t have time to visit a shop? BaseLink brings the locksmith to you. Our key cutting service{{$doc.location}} is mobile, convenient, and fully secure — ideal for landlords, homeowners, or anyone who needs an extra key without the extra effort.
 
 #description
-Paragraph two insert here...
+Your locksmith can duplicate standard keys for homes and offices, including cylinder, mortice and rim locks. Keys can be cut from an original, from a copy, or even from a code if the original has been lost.
 
 #description
-FInal one here...
+We also handle high-security, anti-snap, and specialist key types — as well as keys for gates, cabinets, and padlocks. All new keys are tested to make sure they work smoothly before being returned.
+
+#description
+The process is simple: we collect your key, cut accurate duplicates, and return them directly to your door. No queues, no wasted time, and no trips across town — just professional key cutting when and where you need it.
+
+#description
+Emergency key cutting is available if you need extras urgently, and you can combine this service with a lock change, repair or broken key extraction if needed.
+
+#description
+Booking through BaseLink is fast and fully online. Submit your request, get an instant quote, and choose a time that suits your schedule. Everything is managed through our digital platform — with dedicated support along the way.
+
+#description
+All locksmiths are vetted, experienced and reviewed by local customers. Whether you’re managing multiple properties or just need a spare for peace of mind, we’ve got you covered.
+
+#description
+Payment is collected on the day of service, and any extra time is billed in fair 30-minute increments. Book mobile key cutting{{$doc.location}} today with BaseLink — and get perfectly cut keys, without leaving home.
 ::
 
 ---

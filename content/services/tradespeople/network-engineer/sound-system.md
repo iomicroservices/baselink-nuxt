@@ -150,16 +150,31 @@ title: "Ready to book your sound system installation?"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book sound system installation{{$doc.location}} for speakers that hit the right note
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether you’re setting up a home cinema, upgrading your living room, or fitting out a commercial space, BaseLink makes it easy to install your sound system properly. We connect you with experienced network engineers{{$doc.location}} who can mount, wire, and configure your audio for optimal performance.
 
 #description
-Paragraph two insert here...
+We install all types of speaker systems — ceiling-mounted, wall-mounted, bookshelf, and soundbars — ensuring clean cable routing, secure fittings, and seamless connection to your AV receiver or smart hub.
 
 #description
-FInal one here...
+You can supply your own equipment, or let us provide a system that fits your layout and preferences. We’ll install and configure everything to suit your room size, acoustics, and usage — whether it’s surround sound for movie nights or background audio throughout your property.
+
+#description
+For multi-room audio, we connect and sync your speakers so you can stream music or announcements across zones, either from a central hub or via your smartphone app.
+
+#description
+Your engineer will also test, balance and calibrate the sound to make sure it’s crisp and evenly distributed — no dead zones, no overpowering bass, just quality sound in all the right places.
+
+#description
+Booking through BaseLink is quick and fully online. Just submit your request, get an instant quote, and choose a time that works for you. Our in-house team is always on hand to help with any special setup notes or post-install support.
+
+#description
+All engineers are vetted, reviewed by local customers, and experienced in both home and commercial sound system installs. Whether you're working with Sonos, Bose, Yamaha or anything in between — we’ve got you covered.
+
+#description
+Payment is collected on the day of service, with any extra time billed in fair 30-minute increments. Book sound system installation{{$doc.location}} with BaseLink — and turn up the quality without turning up the hassle.
 ::
 
 ---

@@ -184,16 +184,31 @@ Whether you manage offices, shops or warehouses, we make non-domestic EPC certif
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a non-domestic EPC{{$doc.location}} to improve your property energy efficiency
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+If you manage or own a commercial property, a valid Energy Performance Certificate (EPC) is a legal requirement for selling, letting, or constructing a building. BaseLink makes booking a non-domestic EPC{{$doc.location}} simple — connecting you with qualified local assessors who deliver fast, accurate reports for all types of commercial premises.
 
 #description
-Paragraph two insert here...
+Our service covers a wide range of commercial buildings, including offices, shops, restaurants, pubs, warehouses, gyms, medical practices and more. Whether it's a single unit or a multi-use premises, our assessors carry out a full inspection in line with government requirements.
 
 #description
-FInal one here...
+Each assessment includes a review of the property's layout, heating and cooling systems, insulation, lighting, ventilation and construction materials. These factors are used to calculate the property's energy performance rating, from A (most efficient) to G (least efficient).
+
+#description
+Once the visit is complete, you’ll receive a digital certificate and expert advice on improvements that could boost efficiency, lower operating costs, and help meet future regulatory standards.
+
+#description
+Booking through BaseLink is fast and fully digital. Submit your request online, receive an instant quote, and choose a time that suits your business. There’s no need to coordinate paperwork or chase phone calls — we manage everything through our streamlined platform.
+
+#description
+All EPC assessors on our platform are fully accredited and experienced in commercial property assessments. Whether you're preparing for a lease, sale or renovation, we make it easy to meet your legal obligations.
+
+#description
+Payment is collected on the day of the assessment, with any additional time billed fairly in 30-minute increments. If you need supporting services like fire risk assessments or PAT testing, our team can help organise those too.
+
+#description
+Book a non-domestic EPC{{$doc.location}} today with BaseLink — and keep your commercial property compliant, efficient and future-ready.
 ::
 
 ---

@@ -130,16 +130,31 @@ You can customise your ... with special instructions or add extra services. Your
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book removals{{$doc.location}} for a stress-free and secure move
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether you’re clearing out old furniture, moving house, or relocating your business, BaseLink connects you with trusted removal professionals{{$doc.location}} who handle every job with care — from heavy lifting to safe transport.
 
 #description
-Paragraph two insert here...
+We cover everything from single-item appliance removals to full property moves. Our partners arrive on time, bring the right equipment for the job, and make sure your items are loaded, transported and delivered securely.
 
 #description
-FInal one here...
+For furniture removals, we can dismantle large items if needed, protect them in transit, and reassemble them at the other end. You can request extra care for fragile pieces or antiques — we’ll treat everything like it’s our own.
+
+#description
+Home removals include packing and labelling options if required, plus floor and wall protection where needed. Whether you’re moving across town or clearing out for a renovation, we tailor the service to your schedule.
+
+#description
+We also handle office and commercial moves — from tech equipment and desks to files and archives. Our teams work quickly and discreetly to minimise disruption to your business.
+
+#description
+Booking with BaseLink is fully online. Submit your job request, get an instant quote, and choose a time that works for you. You’ll receive updates and have access to support throughout.
+
+#description
+All removal partners are vetted, reviewed by customers nearby, and backed by our in-house support team. You get professional handling, secure transport, and no surprise charges.
+
+#description
+Payment is collected on the day of service, with any additional time billed in fair 30-minute increments. Book removals{{$doc.location}} with BaseLink — and make your next move the easiest one yet.
 ::
 
 ---

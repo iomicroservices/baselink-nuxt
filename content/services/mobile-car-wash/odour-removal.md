@@ -152,16 +152,31 @@ button: "Hire a technician"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book car odour removal{{$doc.location}} to eliminate smells
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Unpleasant smells can linger in a car long after the source is gone. With BaseLink, you can book trusted local specialists for professional car odour removal{{$doc.location}} — delivered at your home, workplace or wherever your vehicle is parked.
 
 #description
-Paragraph two insert here...
+The service begins with an inspection to identify the source of the odour. From food spills to smoke, damp or pet smells, your technician will assess the affected areas before starting treatment.
 
 #description
-FInal one here...
+Professional-grade neutralisers are applied to break down and eliminate odours at the source. For more persistent smells, ozone or fogging treatments are used to penetrate deep into fabrics, vents and hard-to-reach spaces.
+
+#description
+Your technician will also clean and refresh air vents, wipe down surfaces, and apply a deodorising treatment to leave the interior smelling clean and neutral. The goal is not to mask the smell — but to remove it entirely.
+
+#description
+Booking through BaseLink is simple. Just fill out our online form, receive an instant quote, and select a time that works for you. Everything is handled digitally, so there's no back-and-forth or delays.
+
+#description
+All service providers on our platform are vetted, reviewed and supported by our in-house team. You can add special instructions or combine odour removal with other interior services if needed.
+
+#description
+Payment is collected on the day of the job, with any additional time billed in 30-minute increments. You stay in control, with clear pricing and reliable results every time.
+
+#description
+Book car odour removal{{$doc.location}} today with BaseLink — and enjoy a clean, neutral-smelling car once again.
 ::
 
 ---

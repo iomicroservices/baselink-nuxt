@@ -1,9 +1,9 @@
 ---
 title: A bit about BaseLink
-description: Hiya, we're BaseLink - the UK's leading digital-first property services provider
+description: Hiya, we're BaseLink - the UK's trusted digital-first property services provider
 image: /general/about-baselink.png
 ogImage: /general/about-baselink.png
-alt:
+alt: Find out more about BaseLink property services for your home and business in the UK
 published: true
 ---
 
@@ -109,12 +109,10 @@ We’re currently operating in **London** and expanding fast across the UK. Want
 
 Have a question, partnership enquiry, or just want to say hello?  
 📧 Email us at: [hello@baselink.uk](mailto:hello@baselink.uk)  
-📞 Call us on: **03330 338 288**
+📞 Call us on: **03330 388 288**
 
 Or visit our [Contact page](#) for more ways to reach us.
 
 Company number 14430827 Mohana Ltd t/a BaseLink
 
----
-
-Thank you for choosing BaseLink — property services, made simple.
+**Thank you for choosing BaseLink — property services, made simple.**

@@ -155,16 +155,31 @@ button: "Hire a plumber"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book jacuzzi installation{{$doc.location}} for the ultimate soak
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Installing a jacuzzi should be exciting, not overwhelming. BaseLink connects you with experienced plumbers{{$doc.location}} who handle the full setup — from water and waste connections to safe installation and final checks — so you can enjoy your new spa without the stress.
 
 #description
-Paragraph two insert here...
+Your plumber will begin with a site inspection to make sure your space is suitable, accessible and ready for installation. We handle both indoor and outdoor setups and will help you plan around drainage, flooring and utility access.
 
 #description
-FInal one here...
+Once the jacuzzi unit is in place, we connect it to your mains water supply and waste line, seal all joints properly, and set up any overflow or drainage outlets.
+
+#description
+We also manage the electrical hookup for pumps, jets and heating elements — either working with your electrician or bringing in one of our qualified partners to complete the wiring safely and compliantly.
+
+#description
+After everything is installed, we’ll fill the tub, test the features, and check for leaks or imbalances — making sure your jacuzzi is ready to use from day one. You’ll also receive clear guidance on usage, cleaning and maintenance.
+
+#description
+Booking with BaseLink is fully online. Just submit your request, get an instant quote, and choose a time that works for you. Our dedicated support team manages your booking to ensure everything runs smoothly.
+
+#description
+All plumbers are vetted, reviewed by local customers, and backed by our team for full accountability. Whether it’s a home spa or a commercial install, you’ll get safe, reliable results with every feature working as it should.
+
+#description
+Payment is collected on the day of installation, with any additional time billed in fair 30-minute increments. Book jacuzzi installation{{$doc.location}} today with BaseLink — and let the bubbles do the hard work.
 ::
 
 ---

@@ -174,16 +174,31 @@ button: "Hire an engineer"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book boiler replacement{{$doc.location}} with a trusted Gas Safe engineer
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+If your current boiler is outdated, inefficient or faulty, BaseLink makes replacing it simple. We connect you with experienced, Gas Safe registered engineers{{$doc.location}} who handle the full process — from safe removal to professional installation of your new boiler, all managed through our easy-to-use digital platform.
 
 #description
-Paragraph two insert here...
+Your engineer will begin with a site survey to assess your current system, heating needs, and recommend the best boiler for your property and budget. Whether you're switching boiler types or replacing like-for-like, we help make the transition smooth.
 
 #description
-FInal one here...
+Your old boiler will be professionally disconnected, removed and safely disposed of. The new boiler is supplied, delivered and installed, with any necessary upgrades to pipework, valves or fittings to ensure the system meets current safety and efficiency standards.
+
+#description
+The service also includes installation of new thermostats or heating controls if needed — including smart models — followed by full system testing, safety checks and Gas Safe certification.
+
+#description
+After installation, your engineer will show you how to operate the boiler and answer any questions. You’ll receive all the relevant documentation, including a Gas Safe certificate for your records or landlord compliance.
+
+#description
+Booking through BaseLink is fast and fully online. Submit your request, get an instant quote, and choose a convenient time that works for your schedule. No calls, no chasing — just quick, reliable service backed by our support team.
+
+#description
+All BaseLink engineers are Gas Safe registered, fully vetted and reviewed by other local customers. If you need extra services like a smart thermostat, radiator balancing or heating system flushing, we can help organise that too.
+
+#description
+Payment is collected on the day of the job, and any additional time is billed in fair 30-minute increments. Book your boiler replacement{{$doc.location}} today with BaseLink — and upgrade to safe, efficient heating with zero hassle.
 ::
 
 ---

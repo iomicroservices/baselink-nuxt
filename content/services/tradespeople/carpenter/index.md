@@ -152,16 +152,26 @@ button: "Hire a carpenter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a carpenter{{ $doc.location }} with BaseLink
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Need a door hung, a wardrobe fitted, or a kitchen installed? BaseLink connects you with skilled local carpenters who can get the job done — quickly, professionally, and to a high standard.
 
 #description
-Paragraph two insert here...
+Whether you're planning a small repair or a full renovation, our platform makes it easy to find the right person. From staircase renovations and outdoor decking to flooring, skirting, window frames, and wooden panelling, every task is matched with a qualified local tradesperson.
 
 #description
-FInal one here...
+Getting started is simple. Fill out our online form and receive an instant quote. You can then book a time that suits you and customise the job to include exactly what you need.
+
+#description
+We always work with trusted, local service providers who are experienced and reliable. Every carpenter on our platform is vetted and ready to deliver top-quality work in your home.
+
+#description
+With BaseLink, you stay in control. A minimum of one hour is paid upfront, and any extra time is billed in 30-minute increments — no hidden fees, just fair and transparent pricing.
+
+#description
+We make it easy to connect with carpentry professionals who understand your needs. Whether it’s one small task or a full project, we help you find the right expert for the job.
+
 ::
 
 ---

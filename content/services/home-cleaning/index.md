@@ -19,7 +19,7 @@ ogImage: /home-cleaning/home-cleaning-light.png
 darkImage: /home-cleaning/home-cleaning-dark.png
 dropdowns:
   - icon: 🏠
-    text: testft
+    text: Flexible home cleaning and housekeeping tailored to you
 ---
 #title
 Home cleaning{{$doc.location}}
@@ -76,4 +76,36 @@ Choose the service you need{{$doc.location}} to get an instant quote and schedul
 ::category
 #title
 Find housekeepers and tradespeople{{$doc.location}}
+::
+
+---
+
+::long-form
+#title
+Book home cleaning services{{$doc.location}} for a fresh, well-kept living space
+
+#description
+A clean home doesn’t have to mean hours of effort. BaseLink connects you with experienced, local housekeepers{{$doc.location}} who provide professional home cleaning tailored to your lifestyle. Whether you need weekly tidying or a helping hand to stay on top of things, we make it easy to keep your space feeling fresh and comfortable.
+
+#description
+Our regular and recurring home cleaning services are designed around your schedule. Choose the frequency that suits you — daily, weekly, fortnightly or monthly — and we’ll match you with a trusted local cleaner who’ll handle everything from surface dusting and vacuuming to kitchen and bathroom cleaning.
+
+#description
+Housekeeping goes beyond just cleaning. Your cleaner can make beds, fold laundry, wipe down appliances, and take care of the small tasks that help your home feel lived-in and looked-after. You can also include special instructions or request extra services depending on your needs.
+
+#description
+Through BaseLink’s digital platform, booking is quick and convenient. You’ll get an instant quote after submitting your request, and you can choose the date and time that fits your routine — no phone calls or delays.
+
+#description
+Unlike traditional cleaning companies, BaseLink offers flexibility and full control. You can pause or reschedule visits easily, manage preferences online, and reach our support team whenever you need assistance.
+
+#description
+All cleaners on our platform are vetted, reviewed and experienced in maintaining high standards. Your home is in safe hands, and every visit is backed by our commitment to reliability and service quality.
+
+#description
+Payment is collected on the day of your clean, with any extra time billed in simple 30-minute increments. It’s a fair, transparent system that lets you pay only for what you use.
+
+#description
+Book a recurring home cleaning, one-off visit or housekeeping service{{$doc.location}} with BaseLink today — and enjoy a cleaner, calmer space without the stress.
+
 ::

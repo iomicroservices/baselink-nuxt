@@ -164,16 +164,28 @@ button: "Hire a gardener"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book garden planting{{$doc.location}} to refresh your outdoor space with colour and life
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether you’re adding new flowers, creating vegetable beds, or planting a tree, BaseLink connects you with skilled local gardeners{{$doc.location}} to bring your garden ideas to life. From simple refreshes to complete replanting, we make it easy to grow a space you love.
 
 #description
-Paragraph two insert here...
+Your gardener can plant bedding flowers, shrubs, bulbs, herbs or vegetables — all chosen and placed to suit the space, soil and season. You can supply your own plants or ask for recommendations if you’re not sure what will work best.
 
 #description
-FInal one here...
+We also help with planting small trees, hedges, climbers, vines and ground cover to shape your garden or create new features. Whether you’re starting from scratch or enhancing an existing layout, we can help plan and carry out the work.
+
+#description
+Borders can be refreshed, planters topped up, and flowerbeds replanted with vibrant seasonal colour. Your gardener will take care of the details, ensuring everything is planted with care and left neat and tidy.
+
+#description
+Booking through BaseLink is fast and flexible. Just submit your request online, get an instant quote, and choose a time that suits your schedule. You can include planting as a one-off job or add it to a recurring garden care plan.
+
+#description
+All gardeners on our platform are experienced, local and vetted for quality. Whether it’s a simple refresh or a full replanting project, you’ll be supported by our in-house team and matched with someone who understands your goals.
+
+#description
+Payment is collected on the day of your appointment, and any additional time is billed fairly in 30-minute increments. Book garden planting{{$doc.location}} with BaseLink today — and create an outdoor space that looks great all year round.
 ::
 
 ---

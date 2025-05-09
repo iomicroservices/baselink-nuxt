@@ -154,16 +154,31 @@ title: "Ready to book your office removals job?"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book office and commercial removals{{$doc.location}} for business moves done right
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Relocating your workspace? BaseLink connects you with experienced commercial removals teams{{$doc.location}} who handle everything from IT equipment and desks to full premises clear-outs — with careful planning and minimal disruption to your operations.
 
 #description
-Paragraph two insert here...
+Whether you're moving a few desks or shifting an entire office floor, your removals team will plan and coordinate the move to suit your hours and working patterns, helping you avoid unnecessary downtime.
 
 #description
-FInal one here...
+We carefully pack and label IT equipment, monitors, files and office supplies, using protective materials to prevent damage in transit. Furniture is dismantled, moved and reassembled as needed, ensuring everything arrives ready to use.
+
+#description
+Sensitive, high-value, or confidential items are handled with extra care and securely transported. We’ll follow your access instructions and work with building management if required.
+
+#description
+At the new location, we can assist with setup — including reconnecting equipment and ensuring your layout is ready for business-as-usual from day one.
+
+#description
+Booking is fully online through BaseLink. Just submit your request, get an instant quote, and choose a time that suits your business schedule. Our support team manages the rest.
+
+#description
+All commercial removal teams are vetted, reviewed by local clients, and backed by BaseLink’s dedicated in-house support — so you can focus on running your business, not managing the move.
+
+#description
+Payment is collected on the day of service, with any additional time billed in fair 30-minute increments. Book office and commercial removals{{$doc.location}} today with BaseLink — and make your move a smart business decision.
 ::
 
 ---

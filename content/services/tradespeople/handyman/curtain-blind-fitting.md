@@ -163,16 +163,28 @@ button: "Hire a handyman"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book curtain and blind fitting{{$doc.location}} for window finishes that hold up
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+A wonky curtain pole or crooked blind can throw off a whole room — but with BaseLink, you don’t need to struggle with the drill. We connect you with trusted local handypeople{{$doc.location}} who install all types of curtains and blinds with care, accuracy and zero fuss.
 
 #description
-Paragraph two insert here...
+Your fitter will start by measuring your window space to determine the best bracket placement. Whether you’re mounting into the wall, ceiling or window frame, they’ll make sure every fitting is secure, level and designed to last.
 
 #description
-FInal one here...
+We install all curtain styles, including pencil pleat, eyelet, tab top and more. Curtain poles, tracks and finials are fitted precisely, and your curtains are hung and adjusted so they sit just right.
+
+#description
+If you’ve chosen blinds, we handle roller, vertical, Venetian, Roman and blackout models — taking care to mount them squarely, align evenly, and fit any cords or chains with proper child safety fixings.
+
+#description
+Whether it’s a single room or a full-home fitting, BaseLink makes it simple to book. Just submit your request online, receive an instant quote, and choose a time that works for you — all backed by our support team.
+
+#description
+All fitters are fully vetted, experienced and reviewed by local customers. You can include special requests in your booking, and we’ll make sure your windows look their best with no mess left behind.
+
+#description
+Payment is collected on the day of the job, and any additional time is billed fairly in 30-minute increments. Book curtain and blind fitting{{$doc.location}} today with BaseLink — and let us take care of the finishing touches that really hold up.
 ::
 
 ---

@@ -155,16 +155,31 @@ button: "Hire a plumber"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book kitchen sink installation{{$doc.location}} for watertight plumbing
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether you’re upgrading to a Belfast sink or replacing a leaky old one, BaseLink connects you with experienced local plumbers{{$doc.location}} who fit all types of kitchen sinks — securely, cleanly, and with fully tested plumbing.
 
 #description
-Paragraph two insert here...
+We install inset, undermount, overmount and farmhouse-style sinks into new or existing worktops. If needed, we’ll begin by removing the old sink and disconnecting the pipework carefully to avoid damage.
 
 #description
-FInal one here...
+Your plumber will fit the new sink into place, connect hot and cold water lines, and install the waste trap and drain pipe. We ensure every connection is tight and sealed to prevent leaks from day one.
+
+#description
+Once installed, your sink is fully tested for water pressure and drainage — so you know it’s working properly before the job is finished.
+
+#description
+You can provide your own sink and tap or let us help source and deliver the right model for your space. We’ll handle the fitting either way.
+
+#description
+Booking through BaseLink is quick and fully online. Submit your request, get an instant quote, and choose a convenient time — no chasing calls or quotes.
+
+#description
+All plumbers are vetted, reviewed by local customers, and backed by our dedicated support team. Whether it’s part of a full kitchen refurb or a simple upgrade, you’re in expert hands.
+
+#description
+Payment is collected on the day of service, with any extra time billed in fair 30-minute increments. Book kitchen sink installation{{$doc.location}} with BaseLink — and get clean, tidy plumbing that does the job without the drip.
 ::
 
 ---

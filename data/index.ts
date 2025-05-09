@@ -6,54 +6,52 @@ export const footerData = {
     author: 'Mohana Ltd',
     brand: 'BaseLink',
     aboutAuthor:
-        'BaseLink connects residential and commercial customers with reliable cleaners and tradespeople. From plumbing and electrical work to expert cleaning and maintenance, we deliver high-quality solutions to meet your needs, all at competitive prices.',
+        'BaseLink connects residential and commercial customers with reliable cleaners, tradespeople, and property service professionals. From plumbing and electrical work to expert cleaning and maintenance, we deliver trusted, local services at competitive prices.',
     authorInterest:
-        "I have a fair amount of knowledge of Javascript, Typescript, VueJs, and Nuxt. If you have an interesting idea, either open source or paid let's connect.",
+        "We're committed to making property services simpler and more accessible through digital-first solutions. Whether you're a homeowner, landlord or business, BaseLink is here to help.",
     aboutTheSite:
-        "This is a personal blog site built with Nuxt3, TailwindCSS, NuxtContent, Nuxt Icon. Currently it's deployed in Vercel.",
+        "This is the official website of BaseLink, a digital-first UK property services provider. We offer trusted tradespeople and cleaners across residential and commercial sectors. Built with Nuxt3 and deployed via Vercel.",
 }
 
 export const homePage = {
-    title: 'Welcome To My Blog Site',
+    title: "Property Services for Home and Business | BaseLink",
     description:
-        'Get Web Development, Javascript, Typescript, NodeJs, Vue, and Nuxt, Related Articles, Tips, Learning resources and more.',
+        "Book trusted cleaners, handymen, plumbers, electricians, and more — all through BaseLink, the UK's digital-first platform for home and commercial services.",
 }
 
 export const blogsPage = {
-    title: 'All Blogs',
-    description: 'Here you will find all the blog posts I have written & published on this site.',
+    title: 'BaseLink Blog',
+    description: 'Read the latest property tips, service guides, and expert insights from BaseLink.',
 }
 
 export const categoryPage = {
-    title: 'Categories',
+    title: 'Blog Categories',
     description:
-        'Blow this category is generated from all the tags are mentioned in the different blog post',
+        'Explore topics across cleaning, repairs, home maintenance, and commercial property services on the BaseLink Blog.',
 }
 
 export const aboutPage = {
-    title: 'Al Asad Nur Riyad',
-    description: 'Software Engineer, Problem Solver, Web Enthusiast.',
+    title: 'About BaseLink',
+    description: 'Trusted Property Services Across the UK',
     aboutMe:
-        "Hello, fellow human! I'm a software wizard who spends most of his day crafting code spells at @FieldNation in the Workplace Operation team. When I'm not crafting code, you can find me summoning solutions to problems on online judges. Just don't ask me to cast any love spells, my magic only works on machines!",
+        "BaseLink is a digital-first property services platform connecting you with vetted local professionals across the UK. Whether it's a leaky tap or a deep clean, we make booking services easy, reliable and affordable.",
 }
 
 export const seoData = {
-    title: `Riyad's Blog | Riyads Blog`,
-    ogTitle: `Let's learn Javascript, Typescript, Vue, Nuxt, & Problem Solving - Riyads Blog | Riyad's Blog`,
-    description: `Hi I am Riyad. A Software Engineer at FieldNation, with over 3.5+ years experience in software development. - Riyads Blog | Riyad's Blog`,
-    twitterDescription: `Riyad's Blog, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc - Riyads Blog | Riyad's Blog`,
+    title: `BaseLink | Property Services for Home & Business`,
+    ogTitle: `Book Cleaners, Tradespeople & Maintenance Services | BaseLink UK`,
+    description: `BaseLink is the UK's trusted digital-first platform for residential and commercial property services — including cleaners, handymen, electricians, plumbers, and more.`,
+    twitterDescription: `Book reliable cleaners and tradespeople through BaseLink — the UK's digital-first platform for trusted property services.`,
     image:
-        'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp',
-    mySite: 'https://blog-nurriyad.vercel.app',
-    twitterHandle: '@qdnvubp',
-    mailAddress: 'asadnurriyad@gmail.com',
+        'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp', // Replace with a branded BaseLink image if available
+    mySite: 'https://baselink.uk',
+    twitterHandle: '@hellobaselink',
+    mailAddress: 'hello@baselink.uk',
 }
 
 export const socialLinks = {
-    githubLink: 'https://github.com/nurRiyad',
-    linkedinLink: 'https://www.linkedin.com/in/nur-riyad/',
-    twitterLink: 'https://twitter.com/qdnvubp',
-    stackoverflowLink: 'https://stackoverflow.com/users/16781395/nur-riyad',
+    instagramLink: 'https://instagram.com/hellobaselink',
+    facebookLink: 'https://facebook.com/hellobaselink',
 }
 
 export const siteMetaData = [
@@ -61,7 +59,6 @@ export const siteMetaData = [
         name: 'description',
         content: seoData.description,
     },
-    // Test on: https://developers.facebook.com/tools/debug/ or https://socialsharepreview.com/
     { property: 'og:site_name', content: seoData.mySite },
     { property: 'og:type', content: 'website' },
     {
@@ -80,7 +77,6 @@ export const siteMetaData = [
         property: 'og:image',
         content: seoData.image,
     },
-    // Test on: https://cards-dev.twitter.com/validator or https://socialsharepreview.com/
     { name: 'twitter:site', content: seoData.twitterHandle },
     { name: 'twitter:card', content: 'summary_large_image' },
     {

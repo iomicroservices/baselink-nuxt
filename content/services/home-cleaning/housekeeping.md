@@ -179,16 +179,31 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book housekeeping services{{$doc.location}} for help around the home
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Sometimes, keeping on top of the home means more than a quick clean. BaseLink connects you with experienced local housekeepers{{$doc.location}} who can help with a wide range of domestic tasks — from laundry and linen to cleaning and tidying. Whether it's weekly support or part of your daily routine, we make it easy to get the help you need.
 
 #description
-Paragraph two insert here...
+Housekeeping includes dusting, surface cleaning, vacuuming and mopping throughout your home. Your kitchen and bathroom will be kept spotless, with sinks, toilets, taps and appliances cleaned regularly to maintain a fresh and hygienic space.
 
 #description
-FInal one here...
+Your housekeeper can also handle laundry — including washing, drying and ironing — as well as changing bed linen and towels. They’ll run the dishwasher if needed, take out the rubbish, and sweep any entrances, balconies or shared areas.
+
+#description
+Interior windows are wiped down, high-touch surfaces are sanitised, and your home is left tidy and well-presented after every visit. If there’s something specific you’d like done, you can customise your service with special requests.
+
+#description
+Booking through BaseLink is quick, flexible and entirely online. You’ll receive an instant quote after submitting your request and can choose the days and times that suit you best. It’s all managed through our digital platform, so you stay in control.
+
+#description
+We only work with vetted, experienced and well-reviewed professionals who provide consistent, high-quality service. Plus, your account is backed by our dedicated support team if you ever need help, changes or extra services.
+
+#description
+Payment is collected on the day of your housekeeping visit, with any additional time charged in fair 30-minute increments. It’s a transparent, no-hassle system that works around your life.
+
+#description
+Book housekeeping services{{$doc.location}} today with BaseLink — and enjoy a more organised, better-kept home without the daily effort.
 ::
 
 ---

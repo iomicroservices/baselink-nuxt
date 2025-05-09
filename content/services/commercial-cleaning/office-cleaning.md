@@ -175,16 +175,29 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Office cleaning{{$doc.location}} that works around your business
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+A clean office makes a great first impression — and a better place to work. BaseLink connects you with trusted, local cleaners{{$doc.location}} who understand the needs of busy workplaces. From workstations to washrooms, we help keep your office spotless, organised, and ready for whatever the day brings.
 
 #description
-Paragraph two insert here...
+Every clean is tailored to your space. Surfaces are dusted, floors vacuumed and mopped, and high-touch areas thoroughly sanitised. Kitchens are cleaned, the dishwasher is run if needed, and bathrooms are restocked and refreshed. We also take care of trash removal and ensure everything feels fresh when your team arrives in the morning.
 
 #description
-FInal one here...
+Breakout spaces and meeting rooms are cleaned and tidied, and workstations are wiped down and kept organised. Your cleaner can also restock office supplies and toiletries, making it easier to stay on top of daily essentials. Mirrors, cabinets and shared appliances are included too — because the details matter.
+
+#description
+With BaseLink’s digital platform, you’re always in control. You can book a one-off clean or set up a regular schedule that works around your business hours. Once you submit our quick online form, you’ll get an instant quote — no chasing emails or waiting for callbacks.
+
+#description
+Unlike traditional providers, we give you the flexibility to customise your cleaning plan to suit your office layout and priorities. You can include specific requests, preferred time slots, or access instructions. Your account is managed by our dedicated support team, so there’s always someone to help with changes or questions.
+
+#description
+Payment is collected on the day of the clean, with any extra time charged in fair 30-minute increments after the visit. It’s a simple, transparent process designed to make ongoing office maintenance easier than ever.
+
+#description
+With BaseLink, you get the reliability of professional cleaners{{$doc.location}} and the convenience of a modern digital platform. Whether you’re a startup in a shared space or a company across multiple floors, we make it easy to keep your workplace clean, presentable, and ready for business.
+
 ::
 
 ---

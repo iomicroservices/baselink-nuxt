@@ -160,16 +160,28 @@ Portable Appliance Testing (PAT) ensures your electrical appliances are safe to 
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book PAT testing{{$doc.location}} to ensure your appliances are safe and compliant
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Portable Appliance Testing (PAT) is essential for ensuring that electrical equipment is safe to use — whether you're a landlord, office manager, or running a business. BaseLink connects you with qualified local engineers{{$doc.location}} who carry out fast, reliable PAT testing across homes, workplaces and rental properties.
 
 #description
-Paragraph two insert here...
+The service includes a full visual inspection of each appliance, checking for signs of damage or wear. Plugs and cables are assessed for integrity, and each item is tested for insulation resistance, earth continuity and bonding to confirm it meets safety standards.
 
 #description
-FInal one here...
+Functional checks are also carried out to ensure appliances operate correctly. Each item that passes testing is labelled with a dated tag for compliance, while any faulty items are flagged with clear guidance on next steps.
+
+#description
+Once the assessment is complete, you'll receive a full condition report listing all tested items and their results — suitable for audit, insurance, or legal requirements. Whether you're managing a rental property, office, or commercial unit, it helps you demonstrate a safe environment for users.
+
+#description
+Booking PAT testing through BaseLink is fast and fully online. Submit your request, receive an instant quote, and choose a time that fits your schedule — with no need to chase availability or wait for callbacks.
+
+#description
+All engineers on our platform are qualified, experienced and fully vetted. You’ll also have support from our dedicated in-house team in case you need to add appliances, reschedule or book other safety services like EICRs or fire risk assessments.
+
+#description
+Payment is collected on the day of testing, and any additional time is billed fairly in 30-minute increments. Book PAT testing{{$doc.location}} today with BaseLink — and make sure your appliances are safe, documented, and up to standard.
 ::
 
 ---

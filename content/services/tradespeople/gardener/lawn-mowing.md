@@ -148,16 +148,28 @@ button: "Hire a gardener"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book lawn mowing{{$doc.location}} for a neat and healthy garden
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+A freshly mowed lawn transforms the look of your garden. With BaseLink, you can book trusted local gardeners{{$doc.location}} to cut your grass, trim the edges and clear up after — whether it’s a one-off visit or part of regular garden care.
 
 #description
-Paragraph two insert here...
+Your gardener will mow the grass to your preferred height using professional tools for a clean and even finish. They’ll also trim around borders, flowerbeds and pathways to sharpen the overall look and maintain clear edges.
 
 #description
-FInal one here...
+All clippings are removed and taken away, so there’s no mess left behind. If requested, weed control treatments can also be applied to help keep your lawn healthy and free from unwanted growth.
+
+#description
+You can combine lawn mowing with other services like hedge trimming or planting, or set up a recurring visit to keep your outdoor space looking its best through the seasons.
+
+#description
+Booking is simple and entirely online through BaseLink. Submit your request, get an instant quote, and choose a time that suits you. No phone calls, no waiting around — just fast, flexible service from start to finish.
+
+#description
+All gardeners are local, experienced, and vetted for quality and reliability. You’ll also be supported by our in-house team if you need to update instructions, reschedule, or add extra services.
+
+#description
+Payment is taken on the day of the job, with additional time billed in clear 30-minute increments. Book lawn mowing{{$doc.location}} with BaseLink today — and keep your garden looking sharp with zero hassle.
 ::
 
 ---

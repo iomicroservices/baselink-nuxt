@@ -151,16 +151,28 @@ button: "Hire a locksmith"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book lock repair{{$doc.location}} for fixes that click
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Not every faulty lock needs replacing. If yours is stiff, sticking or simply not working as it should, BaseLink can connect you with a trusted local locksmith{{$doc.location}} who can repair it — saving you time, money, and a bigger job than necessary.
 
 #description
-Paragraph two insert here...
+Your locksmith will diagnose the issue, whether it’s a jammed bolt, misaligned latch or worn-out mechanism. Many locks can be repaired on the spot with the right tools and a few well-placed adjustments.
 
 #description
-FInal one here...
+We repair all common lock types including cylinders, mortice, rim, and internal door locks. Your locksmith can replace broken springs or faulty components, realign the lock, and lubricate it for smooth, reliable operation.
+
+#description
+Once repaired, the lock is thoroughly tested with your keys to make sure it’s working as it should — secure, functional, and easy to use. If the lock is too damaged to repair, we’ll recommend the best replacement on the spot.
+
+#description
+Booking through BaseLink is fully online. Submit your job in minutes, get an instant quote, and choose a time that suits your schedule — no phone calls or follow-ups needed.
+
+#description
+All BaseLink locksmiths are vetted, experienced, and reviewed by local customers. Your job is backed by our in-house support team from start to finish.
+
+#description
+Payment is collected on the day of service, and any additional time is billed in fair 30-minute increments. Book lock repair{{$doc.location}} with BaseLink today — and get your lock back in working order without the guesswork.
 ::
 
 ---

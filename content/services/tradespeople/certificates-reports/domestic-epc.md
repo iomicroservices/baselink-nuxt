@@ -164,16 +164,31 @@ Whether you’re a homeowner, landlord or estate agent, we make domestic Energy 
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a domestic EPC{{$doc.location}} to improve energy efficiency at home
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether you're selling, letting, or simply want to improve energy usage, BaseLink makes getting a Domestic Energy Performance Certificate (EPC) quick and hassle-free. We connect you with qualified local assessors{{$doc.location}} who provide clear, accurate ratings — and practical advice to help improve them.
 
 #description
-Paragraph two insert here...
+Your assessor will begin by reviewing the size, layout and construction type of your property. They’ll inspect the condition of your heating system, hot water setup, insulation levels and ventilation to see how efficiently your home uses and retains energy.
 
 #description
-FInal one here...
+Windows, glazing, lighting and other key features are also checked, along with the materials used throughout your home. Every detail is assessed against current government standards to produce an accurate rating from A (most efficient) to G (least efficient).
+
+#description
+Once the inspection is complete, you’ll receive a digital EPC certificate and expert recommendations on where you can make energy-saving improvements — whether that’s upgrading insulation, switching lighting, or improving heating controls.
+
+#description
+Booking a domestic EPC with BaseLink is fast and convenient. Submit your request online, receive an instant quote, and choose a time that works for your schedule. Everything is managed through our digital platform, so you’re never left chasing paperwork.
+
+#description
+All EPC assessors on our platform are certified, experienced and vetted for reliability. If you have questions or need additional services — such as PAT testing or gas safety checks — our support team is always on hand to help.
+
+#description
+Payment is collected on the day of the visit, with any extra time billed fairly in 30-minute increments. Whether you're a landlord, homeowner or agent, it’s an easy way to stay compliant and make informed decisions about your property.
+
+#description
+Book a domestic EPC{{$doc.location}} today with BaseLink — and take the first step towards a more efficient, future-ready home.
 ::
 
 ---

@@ -1,14 +1,14 @@
 <script setup lang="ts">
-import type { FeaturePost } from '@/types/feature'
+import type { HowToGuide } from '~/types/howto'
 
 const { path } = useRoute()
 
-const { data: articles, error } = await useAsyncData(`features${path}`, () => queryContent(path).findOne())
+const { data: articles, error } = await useAsyncData(`how-to-${path}`, () => queryContent(path).findOne())
 
 if (error.value)
   navigateTo('/404')
 
-const data = computed<FeaturePost>(() => {
+const data = computed<HowToGuide>(() => {
   return {
     title: articles.value?.title || 'no-title available',
     description: articles.value?.description || 'no-description available',
@@ -31,7 +31,7 @@ useHead({
       content: data.value.description,
     },
     // Test on: https://developers.facebook.com/tools/debug/ or https://socialsharepreview.com/
-    { property: 'og:site_name', content: 'eLandline' },
+    { property: 'og:site_name', content: 'BaseLink' },
     { hid: 'og:type', property: 'og:type', content: 'website' },
     {
       property: 'og:url',

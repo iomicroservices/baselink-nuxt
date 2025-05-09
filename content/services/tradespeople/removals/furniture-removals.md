@@ -154,16 +154,31 @@ title: "Ready to book your furniture removal job?"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book furniture removals{{$doc.location}} for heavy lifting without the hassle
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Clearing out a sofa? Moving house? BaseLink connects you with skilled local professionals{{$doc.location}} who handle furniture removals from start to finish — including dismantling, safe transport, and reassembly if needed.
 
 #description
-Paragraph two insert here...
+Whether it’s a single bulky item or a full room’s worth of furniture, we take care of it. Sofas, wardrobes, beds, dining tables and more — handled with care, covered for protection, and loaded using the right lifting equipment.
 
 #description
-FInal one here...
+If your item is too big to fit through the door or down the stairs, we’ll dismantle it safely and reassemble it at the destination. Every job is tailored to your space and your needs.
+
+#description
+You can choose to move items to a new home, into storage, or request eco-friendly disposal — we’ll transport everything securely and leave the area tidy once we’re done.
+
+#description
+This service is perfect for house moves, furniture upgrades, end-of-tenancy clear-outs or downsizing. We’ll make the logistics simple, so you can focus on what comes next.
+
+#description
+Booking with BaseLink is fast and online. Submit your job request, get an instant quote, and pick a time that works for you. Our support team will manage the details and keep you informed throughout.
+
+#description
+All removal teams are vetted, reviewed by local customers, and backed by BaseLink’s dedicated support team. You’ll get professional service, zero damage, and a smoother moving day.
+
+#description
+Payment is collected on the day of service, with any extra time billed in fair 30-minute increments. Book furniture removals{{$doc.location}} today with BaseLink — and leave the heavy lifting to us.
 ::
 
 ---

@@ -130,16 +130,31 @@ You can customise your ... with special instructions or add extra services. Your
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a painter or decorator{{$doc.location}} for flawless finishes inside and out
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether you’re refreshing a single room or tackling a full exterior makeover, BaseLink connects you with trusted local painters and decorators{{$doc.location}} who deliver clean lines, smooth walls and high-quality finishes — with less mess and zero hassle.
 
 #description
-Paragraph two insert here...
+Our decorators handle everything from interior paintwork and feature walls to external painting and full property facelifts. They prep carefully, protect your furniture, and leave your home or business looking sharp and polished.
 
 #description
-FInal one here...
+We also offer wallpaper hanging and removal — including lining paper, mural installations and tricky patterned paper — with all surfaces measured, aligned and applied with expert care.
+
+#description
+Need plastering? Our decorators can skim and repair damaged walls before painting or papering to ensure a smooth, professional finish that lasts.
+
+#description
+Whether you’re modernising a home, preparing a rental property or decorating a commercial space, we’ll match you with someone local who gets the job done right.
+
+#description
+Bookings are fully online through BaseLink. Submit your request, get an instant quote, and pick a time that works — no phone calls or chasing quotes. Our support team manages everything in the background so the job runs smoothly.
+
+#description
+All BaseLink decorators are vetted, reviewed by customers nearby, and supported by our dedicated in-house team. You can customise the job with special instructions, colours or finishes — or leave it to the pros.
+
+#description
+Payment is collected on the day of service, with any extra time billed in fair 30-minute increments. Book a painter and decorator{{$doc.location}} today with BaseLink — and let your walls do the talking (for all the right reasons).
 ::
 
 ---

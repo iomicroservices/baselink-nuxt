@@ -179,16 +179,31 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book regular home cleaning{{$doc.location}} for a consistently fresh and tidy space
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Keeping your home clean shouldn't take up your free time. With BaseLink, you can book reliable local cleaners{{$doc.location}} for regular home cleaning services that work around your routine. Whether you need weekly visits or something more flexible, we make it easy to stay on top of things — without the stress.
 
 #description
-Paragraph two insert here...
+Your regular cleaning includes all the essentials — dusting, surface wiping, vacuuming and mopping throughout your home. Kitchens and bathrooms are cleaned thoroughly, with taps, sinks, toilets and appliances left fresh and hygienic after every visit.
 
 #description
-FInal one here...
+We go beyond just the basics. You can include laundry services such as washing, drying and ironing, along with fresh linen and towel changes if needed. Dishwashers can be run, bins emptied, and interior windows cleaned as part of your routine.
+
+#description
+Your cleaner can also sweep balconies or entrances and sanitise high-touch surfaces to help maintain a healthier environment. If you have specific tasks in mind, you're free to customise your clean and include any special instructions.
+
+#description
+Booking through BaseLink is quick and convenient. You’ll receive an instant quote when you submit your request and can choose a time and frequency that suits your lifestyle — all managed online, with no back-and-forth.
+
+#description
+We only connect you with vetted, reviewed and reliable professionals who understand how to maintain a high standard from visit to visit. You’ll also have ongoing support from our in-house team if you ever need to make changes.
+
+#description
+Payment is collected on the day of each clean, with any extra time billed in fair 30-minute increments. Whether you want help every week or just now and then, it’s an easy, transparent way to keep your home looking its best.
+
+#description
+Book regular cleaning{{$doc.location}} with BaseLink and enjoy the comfort of a consistently clean home — without lifting a finger.
 ::
 
 ---

@@ -155,16 +155,31 @@ button: "Hire a plumber"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book radiator repair or replacement{{$doc.location}} for heating that works
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Radiator leaking? Not warming up? Whether it’s a faulty valve or a full unit that needs replacing, BaseLink connects you with trusted plumbers{{$doc.location}} who get your heating system back to full power — quickly, cleanly, and without the fuss.
 
 #description
-Paragraph two insert here...
+Your plumber will start by diagnosing the issue — whether it’s cold spots, trapped air, strange noises or a leak. Small fixes like bleeding air, changing a valve, or adjusting the pressure can often solve the problem on the spot.
 
 #description
-FInal one here...
+If your radiator is beyond repair, we’ll remove and replace it with a suitable model, reconnect the pipework, and ensure it’s level, mounted securely, and distributing heat evenly.
+
+#description
+We also handle thermostatic valve replacements and control upgrades to help you better regulate the temperature in each room, saving energy and boosting comfort.
+
+#description
+Once repairs or replacements are complete, your system will be repressurised and tested for leaks, flow and efficiency — so you can enjoy a warmer home without the worry.
+
+#description
+Booking with BaseLink is fast and fully online. Just submit your job, get an instant quote, and pick a time that works for you — with ongoing support from our in-house team.
+
+#description
+All plumbers are vetted, reviewed by local customers, and experienced in both domestic and commercial heating systems. You’ll get honest advice, quality work, and no hidden extras.
+
+#description
+Payment is collected on the day of service, with any extra time billed in fair 30-minute increments. Book radiator repair or replacement{{$doc.location}} with BaseLink — and put your home’s heat back in the right hands.
 ::
 
 ---

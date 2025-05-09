@@ -163,16 +163,28 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Residential block cleaning{{$doc.location}} made easy for property managers
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Keeping shared spaces clean and well-maintained is key to resident satisfaction. BaseLink connects property managers with experienced local cleaners who specialise in residential block cleaning{{$doc.location}}. Whether it’s weekly or daily upkeep, we help ensure communal areas are tidy, hygienic, and presentable.
 
 #description
-Paragraph two insert here...
+The service covers all the essential tasks needed to keep your block in top condition. This includes dusting and surface cleaning, vacuuming and mopping floors, and sanitising high-touch areas like lift buttons and handrails. Stairs, lifts and corridors are cleaned thoroughly to maintain a welcoming environment for residents and visitors.
 
 #description
-FInal one here...
+Common areas are tidied, and external entrances are swept to maintain kerb appeal. Cleaners also take care of rubbish removal and recycling so waste areas stay clean and compliant. If needed, custom tasks can be added to suit your specific site requirements.
+
+#description
+Through BaseLink’s platform, you can set up a regular cleaning schedule and customise your service to meet the needs of your building. Whether you manage one block or multiple sites, our digital system makes it easy to stay on top of it all — with instant quotes and flexible booking options.
+
+#description
+We know time is limited for busy property managers, so we’ve removed the back-and-forth. You get a reliable, transparent service with clear pricing, and your account is supported by our in-house team — not a call centre.
+
+#description
+Payment is collected on the day of the clean, and any additional time is billed in fair 30-minute increments. You can easily make adjustments, add special instructions, or manage multiple bookings — all in one place.
+
+#description
+BaseLink is the modern alternative to traditional cleaning contracts. With vetted local professionals, fast digital booking, and full account support, we make residential block cleaning{{$doc.location}} more efficient, flexible, and dependable for property managers like you.
 ::
 
 ---

@@ -151,16 +151,31 @@ button: "Hire a plumber"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book tap repair or replacement{{$doc.location}} for drip-free results
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether it’s a slow drip, stiff handle or outdated look, BaseLink connects you with trusted local plumbers{{$doc.location}} who can repair or replace your kitchen or bathroom taps with precision and care.
 
 #description
-Paragraph two insert here...
+Common problems like leaking washers, faulty cartridges or seized handles can usually be repaired on the spot. Your plumber will diagnose the issue and replace only what’s needed — saving you time and cost where possible.
 
 #description
-FInal one here...
+If you’re upgrading, we’ll remove the old tap and install your new one securely. We work with all types — mixer taps, monobloc, pillar or sensor-activated — and can help align the fitting with your sink and plumbing setup.
+
+#description
+All pipework is securely connected and fittings tightened to avoid future leaks. Your plumber will also test the flow and temperature to make sure everything works smoothly before wrapping up.
+
+#description
+Whether it’s a simple swap or a fix you’ve been putting off, we’ll make sure it’s done quickly and neatly, with no mess left behind.
+
+#description
+Booking is easy through BaseLink. Submit your request online, get an instant quote, and choose a time that suits you. Our in-house team manages everything in the background to keep your booking on track.
+
+#description
+All BaseLink plumbers are vetted, reviewed by nearby customers, and backed by our dedicated support team — so you can trust the results will hold up.
+
+#description
+Payment is collected on the day of service, and any extra time is billed in fair 30-minute increments. Book tap repair or replacement{{$doc.location}} today with BaseLink — and say goodbye to drips, rattles and plumbing frustration.
 ::
 
 ---

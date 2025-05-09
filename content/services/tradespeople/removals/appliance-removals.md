@@ -154,16 +154,31 @@ title: "Ready to book your appliance removal job?"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book appliance removals{{$doc.location}} for quick clear-outs
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Upgrading your fridge? Replacing a washing machine? BaseLink connects you with trusted local professionals{{$doc.location}} who handle appliance removals quickly, safely and cleanly — so you don’t have to lift a finger (or throw out your back).
 
 #description
-Paragraph two insert here...
+We remove all major appliances, including fridges, freezers, washing machines, ovens, cookers and dishwashers. Whether it’s freestanding or integrated, we’ll disconnect it properly, transport it out of your property, and leave the space tidy.
 
 #description
-FInal one here...
+Your removal team brings the right tools for safe lifting and loading — especially important for awkward stairwells, narrow hallways or bulky white goods.
+
+#description
+If needed, we can also arrange for eco-friendly disposal or responsible recycling, giving your appliance a proper send-off that doesn’t end up in landfill.
+
+#description
+It’s a perfect service for home upgrades, property clear-outs or end-of-tenancy removals. Fast, affordable and fully managed from start to finish.
+
+#description
+Booking through BaseLink is simple and digital. Just submit your job request, get an instant quote, and choose a time that suits you. Our in-house support team keeps the whole process on track.
+
+#description
+All removal professionals are vetted, reviewed by local customers, and experienced in handling heavy or awkward items. You’ll get a careful and respectful service every time.
+
+#description
+Payment is collected on the day of service, with additional time billed in fair 30-minute increments. Book appliance removals{{$doc.location}} today with BaseLink — and let us take the weight off your hands.
 ::
 
 ---

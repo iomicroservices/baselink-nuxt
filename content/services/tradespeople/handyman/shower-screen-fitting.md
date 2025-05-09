@@ -156,16 +156,28 @@ button: "Hire a handyman"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book shower screen fitting{{$doc.location}} for splash-proof installs
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+A poorly fitted shower screen can lead to leaks, wobbles, and water where you don’t want it. With BaseLink, you can book experienced handypeople{{$doc.location}} to install hinged, sliding, or fixed screens neatly and securely — leaving you with a clean, level finish and a watertight seal.
 
 #description
-Paragraph two insert here...
+Your fitter will begin by measuring and marking out the wall to ensure precise positioning. Brackets or channels are drilled and mounted securely, and your screen is aligned and fitted for stability and function — whether it opens or stays fixed.
 
 #description
-FInal one here...
+We seal the edges with quality silicone to prevent drips, leaks or water damage, and ensure the screen is level, smooth-moving (if hinged or sliding), and properly supported for long-term use.
+
+#description
+Screens can be installed in en-suites, over-bath setups or walk-in showers. If you're unsure what type you need, your handyperson can guide you on placement and compatibility with your bathroom layout.
+
+#description
+Booking is easy through BaseLink’s online platform. Submit your request in minutes, receive an instant quote, and pick a time that works for you — no need to chase trades or deal with unclear pricing.
+
+#description
+All fitters are fully vetted, reviewed and experienced in bathroom installations. Every job is backed by our in-house team, and we always tidy up before we leave.
+
+#description
+Payment is collected on the day of the job, with additional time billed fairly in 30-minute increments. Book shower screen fitting{{$doc.location}} today with BaseLink — and enjoy a splash-free shower with style and stability built in.
 ::
 
 ---

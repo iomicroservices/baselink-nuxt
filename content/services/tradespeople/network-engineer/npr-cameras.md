@@ -150,16 +150,31 @@ title: "Ready to book your NPR camera installation?"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book NPR camera installation{{$doc.location}} for smarter access
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Need to monitor vehicles or automate entry to your property? BaseLink connects you with experienced network engineers{{$doc.location}} who install NPR (number plate recognition) camera systems designed to capture, record, and respond to vehicle movement in real time.
 
 #description
-Paragraph two insert here...
+Our engineers install high-resolution NPR cameras with the right angle and positioning to clearly capture number plates — day or night, rain or shine. Whether you’re securing a gated home, car park, or business premises, we’ll tailor the setup to your needs.
 
 #description
-FInal one here...
+Each camera is connected to a recording and database system that logs vehicle entries and can trigger alerts or reports. You can also integrate the system with automated gates or barriers for seamless, hands-free access.
+
+#description
+We test the full system for recognition accuracy and responsiveness, ensuring you receive clear plate images and smooth performance before completing the job.
+
+#description
+Your engineer can work with existing infrastructure or provide a full solution with cameras, recording hardware, and access control devices.
+
+#description
+Booking through BaseLink is fast and online. Submit your request, receive an instant quote, and choose a time that fits your schedule — no phone calls or back-and-forth needed.
+
+#description
+All BaseLink engineers are vetted, experienced, and reviewed by other local customers. Your booking is fully supported by our in-house team for added peace of mind.
+
+#description
+Payment is collected on the day of service, and any extra time is billed in fair 30-minute increments. Book NPR camera installation{{$doc.location}} today with BaseLink — and make access control automatic, accurate and secure.
 ::
 
 ---

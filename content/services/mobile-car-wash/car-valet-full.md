@@ -192,16 +192,31 @@ button: "Hire a valeter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a full car valet{{$doc.location}} delivered straight to your door
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+BaseLink connects you with trusted local professionals who offer premium full car valet services{{$doc.location}}, brought directly to your home or workplace. It’s the easiest way to give your vehicle a thorough refresh — inside and out — without disrupting your day.
 
 #description
-Paragraph two insert here...
+The full valet service includes an exterior hand wash and rinse, with wheels and tyres cleaned and detailed. Tar spots, bugs and road grime are carefully removed, followed by a polish and wax for a lasting shine. Windows, windshields, door shuts and sills are also cleaned to leave the outside spotless.
 
 #description
-FInal one here...
+Inside, every area of the cabin is refreshed. Seats and floor mats are vacuumed, dashboards and consoles are wiped, and plastics are treated to remove dust and marks. Cup holders, compartments, and air vents are carefully cleaned and sanitised.
+
+#description
+If you have leather seats, they’ll be cleaned and conditioned. Fabric seats can be steam cleaned to lift stains and bring back their original finish. A final deodorising treatment is included to leave your car smelling clean and fresh.
+
+#description
+Each valet ends with a full inspection and finish, ensuring nothing is missed. You can also customise your valet with extra services or specific instructions to suit your vehicle’s condition and your personal preferences.
+
+#description
+Booking is quick and straightforward through BaseLink’s digital platform. Submit a request, get an instant quote, and choose a time and place that suits you — all from your phone or laptop. It’s a simpler, more flexible alternative to traditional car valeting.
+
+#description
+Payment is collected on the day of service, with any additional time billed fairly in 30-minute increments. Every provider on our platform is vetted, reviewed, and committed to high standards, so you can book with confidence.
+
+#description
+With BaseLink, you get more than just a clean car — you get convenience, quality, and trusted local service. Book a full car valet{{$doc.location}} today and enjoy that fresh-from-the-showroom feeling, right where you are.
 ::
 
 ---

@@ -172,16 +172,31 @@ button: "Hire an engineer"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book boiler installation{{$doc.location}} with a qualified Gas Safe engineer
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Upgrading your heating system or installing a new boiler? BaseLink makes it easy. We connect you with experienced Gas Safe registered engineers{{$doc.location}} who install combi, system and conventional boilers from all leading brands — with clear pricing, expert support and hassle-free booking.
 
 #description
-Paragraph two insert here...
+Your installation begins with a site survey to assess your current system and heating needs. Whether you're replacing an old unit or fitting a boiler in a new location, your engineer will recommend the best setup for your home and budget.
 
 #description
-FInal one here...
+Old boilers can be safely removed and disposed of as part of the service. The new boiler is delivered and professionally installed, with pipework and fittings upgraded as needed to meet the latest safety and efficiency standards.
+
+#description
+Your engineer will also install thermostats or heating controls — including smart thermostats if required — and test the system to ensure everything works as it should. Gas Safe checks and certification are included for full peace of mind.
+
+#description
+After installation, you'll be given a demonstration of how to use your new boiler, with time for questions and setup support. You’ll leave with a Gas Safe certificate and all relevant documentation for your appliance.
+
+#description
+Booking is fast and straightforward with BaseLink. Simply submit your request online, get an instant quote, and choose a time that suits you. Everything is managed digitally — no chasing engineers or waiting for paperwork.
+
+#description
+All engineers are vetted, insured and Gas Safe registered, so you can book with confidence. If you need help selecting a boiler or want to add on services like thermostat upgrades or a full heating system review, our support team is here to help.
+
+#description
+Payment is collected on the day of your appointment, with any additional time billed fairly in 30-minute increments. Book boiler installation{{$doc.location}} with BaseLink today — and get efficient, expert heating you can rely on.
 ::
 
 ---

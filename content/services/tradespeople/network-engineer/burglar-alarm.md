@@ -158,16 +158,28 @@ title: "Ready to book your burglar alarm installation?"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book burglar alarm installation{{$doc.location}} for protection you can count on
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Protecting your home or business starts with a reliable alarm system. BaseLink connects you with experienced network engineers{{$doc.location}} who install and configure burglar alarms that are tailored to your property — giving you peace of mind and round-the-clock protection.
 
 #description
-Paragraph two insert here...
+We install both wired and wireless alarm systems, with motion sensors placed at key entry points such as doors and windows. Whether it’s for a small flat or a large commercial unit, we’ll design a setup that works for your space and security needs.
 
 #description
-FInal one here...
+You can supply your own equipment or have us provide a complete kit. Our engineers will fit everything neatly, from control panels to door sensors, and program your system with user codes and settings for easy day-to-day use.
+
+#description
+Once installed, your alarm is fully tested — including sensor triggers, notifications, and connection to any apps or mobile alerts. For added protection, we can connect your system to a 24/7 monitoring service if required.
+
+#description
+Booking through BaseLink is easy and fully online. Just tell us what you need, get an instant quote, and pick a time that suits you — no phone calls, no chasing, just secure service with full support.
+
+#description
+All engineers are vetted, experienced, and reviewed by customers nearby. Your installation is backed by our in-house team in case you need to make changes or have questions post-install.
+
+#description
+Payment is taken on the day of service, with any extra time billed in fair 30-minute increments. Book burglar alarm installation{{$doc.location}} with BaseLink today — and protect what matters most, with tech you can trust.
 ::
 
 ---

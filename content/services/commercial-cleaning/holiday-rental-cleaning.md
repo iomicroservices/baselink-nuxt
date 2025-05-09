@@ -191,16 +191,29 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Holiday rental cleaning{{$doc.location}} made simple
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Managing short-let properties can be stressful, especially when quick turnarounds and guest satisfaction are on the line. That’s where BaseLink comes in. We connect you with reliable, local cleaners who specialise in holiday rental cleaning — and our digital platform makes the entire process faster, easier, and more dependable than traditional providers.
 
 #description
-Paragraph two insert here...
+Every clean is designed to meet the high standards expected by today’s guests. Your cleaner will take care of dusting and surface cleaning, vacuuming and mopping floors, and sanitising high-touch areas. Bathrooms and kitchens are given extra attention, including scrubbing sinks and toilets, running the dishwasher, and polishing appliances and mirrors until they shine.
 
 #description
-FInal one here...
+We understand that presentation matters. Fresh linen and towel replacement are part of the service, and we can also wash, dry, and iron laundry if needed. Your cleaner will check stock levels, restock essential toiletries and amenities, and make sure everything is ready for the next guest. Entrances and balconies are swept, bins are emptied, and any custom requests can be included.
+
+#description
+Through BaseLink, you get much more than just a cleaner — you get a managed, professional service. You’ll receive an instant quote when you submit your form online, and you can book the clean at a time that suits your guest schedule. If you have multiple listings or changeover dates, our platform makes it easy to stay organised and in control, all in one place.
+
+#description
+Unlike many traditional cleaning services, BaseLink gives you full visibility and flexibility without the back-and-forth emails or last-minute no-shows. Your account is backed by our dedicated support team, who are always on hand to help with key collection, special instructions, or last-minute changes.
+
+#description
+Payment is simple and transparent. It’s collected on the day of the clean, with additional time billed fairly in 30-minute increments after the visit. You can also customise the service to match your listing’s unique needs, ensuring your space is always ready to impress.
+
+#description
+BaseLink makes short-let property management smoother and more efficient. With trusted cleaners, a digital-first platform, and support whenever you need it, we help you deliver a flawless guest experience — every single time.
+
 ::
 
 ---

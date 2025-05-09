@@ -154,16 +154,31 @@ title: "Ready to book your CCTV maintenance job?"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book CCTV maintenance{{$doc.location}} for clear footage and secure coverage
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Even the best CCTV system needs regular upkeep to stay effective. With BaseLink, you can book experienced network engineers{{$doc.location}} to service your cameras, check your recording setup, and ensure everything is working exactly as it should.
 
 #description
-Paragraph two insert here...
+During your visit, your engineer will clean camera lenses and housings, check all cabling, and make sure power and data connections are secure. This helps prevent outages, blurry footage or blind spots from creeping in over time.
 
 #description
-FInal one here...
+They’ll verify recording and playback across your system, re-align or re-focus any mispositioned cameras, and carry out software or firmware updates where required.
+
+#description
+We also identify potential faults or vulnerabilities early — like failing hard drives or damaged wiring — and can recommend upgrades if your system is showing its age or needs expanded coverage.
+
+#description
+Whether you use CCTV at home or at work, a maintenance visit ensures your setup stays sharp, secure and fully operational when you need it most.
+
+#description
+Booking with BaseLink is quick and fully digital. Submit your request, get an instant quote, and pick a time that suits your schedule — with all service details handled online.
+
+#description
+All engineers are vetted, reviewed by local customers and backed by our dedicated support team. Whether it’s a routine check or follow-up to an earlier install, we’ll keep things running smoothly.
+
+#description
+Payment is collected on the day of service, with any extra time billed in fair 30-minute increments. Book CCTV maintenance{{$doc.location}} with BaseLink — and make sure your system performs just as well on day 1,000 as it did on day one.
 ::
 
 ---

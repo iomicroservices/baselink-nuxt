@@ -166,16 +166,31 @@ title: "Ready to book your CCTV installation?"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book CCTV installation{{$doc.location}} for security with eyes on every angle
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Keep an eye on your property, even when you’re not there. BaseLink connects you with skilled network engineers{{$doc.location}} who install CCTV systems tailored to your layout — with crystal-clear footage, mobile access, and reliable recording around the clock.
 
 #description
-Paragraph two insert here...
+We fit both indoor and outdoor cameras, with motion detection, night vision and infrared options available. Whether you want discreet cameras or visible deterrents, our engineers will assess your space and recommend the best placement during a free site survey.
 
 #description
-FInal one here...
+We can supply a full CCTV kit or install the system you already own. All cameras are connected to a DVR or NVR system for local recording, and we set up live streaming so you can check in from your phone, tablet or PC.
+
+#description
+Your engineer will install the necessary cabling and power supplies, test all angles for optimal coverage, and fine-tune the playback settings — so you get a system that works exactly the way you need it to.
+
+#description
+If required, we can also install security lighting, integrate your CCTV with existing alarm systems, or provide extra support for commercial-grade monitoring setups.
+
+#description
+Booking through BaseLink is fast and fully online. Submit your job, receive an instant quote, and choose a time that suits your schedule — all backed by our in-house team.
+
+#description
+All BaseLink engineers are experienced, vetted and reviewed by local customers. Whether it’s your home, shop, or office, we make it simple to get a CCTV system that’s smart, reliable, and easy to manage.
+
+#description
+Payment is collected on the day of the job, and additional time is billed in fair 30-minute increments. Book CCTV installation{{$doc.location}} with BaseLink — and protect your space with surveillance you can trust.
 ::
 
 ---

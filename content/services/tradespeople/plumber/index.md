@@ -130,16 +130,28 @@ You can customise your ... with special instructions or add extra services. Your
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a plumber{{$doc.location}} for reliable fixes and fresh installs
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+From leaking taps to full bathroom installations, BaseLink connects you with experienced, local plumbers{{$doc.location}} who can handle any job — quickly, cleanly, and with the support of our dedicated team behind every booking.
 
 #description
-Paragraph two insert here...
+We cover a wide range of plumbing services. Whether you're installing a new bath, fixing a faulty toilet, or replacing kitchen pipework, we’ll match you with a professional who knows how to get it done right.
 
 #description
-FInal one here...
+Common services include pipe repairs, drain unblocking, shower resealing, tap replacements and radiator power flushing. We also install jacuzzis, sinks, showers, and baths — all fully tested for function, leaks and pressure before we leave.
+
+#description
+If your radiator is cold or leaking, we can repair or replace it, and ensure the system is balanced for proper heat distribution. For more thorough cleans, we also offer power flushing to remove sludge and improve efficiency.
+
+#description
+All BaseLink plumbers are vetted, reviewed by other customers nearby, and backed by our in-house support team. Whether it’s a one-off visit or a series of upgrades, you’re in safe hands.
+
+#description
+Bookings are fully online — just submit your request, get an instant quote, and choose a convenient time. You can customise your job with special instructions or combine services in one visit.
+
+#description
+Payment is collected on the day of service, with additional time billed in fair 30-minute increments. Book a plumber{{$doc.location}} with BaseLink — and leave the leaks, clogs and cold showers behind.
 ::
 
 ---

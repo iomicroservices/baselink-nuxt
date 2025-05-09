@@ -156,16 +156,31 @@ button: "Hire a technician"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book headlight restoration{{$doc.location}} for a safer drive
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Cloudy or dull headlights don’t just affect how your car looks — they also reduce visibility and safety at night. With BaseLink, you can book professional headlight restoration{{$doc.location}} that’s carried out by trusted local specialists, right on your driveway or at your workplace.
 
 #description
-Paragraph two insert here...
+The service begins with a full inspection of your headlight lenses to assess their condition. After that, the surface is cleaned to remove dirt and debris before wet sanding begins to lift oxidation and surface damage.
 
 #description
-FInal one here...
+Your technician will then polish the headlights to restore clarity, removing haze and yellowing for a fresher, brighter finish. A UV sealant is applied to protect against future fading and sun damage, helping the results last longer.
+
+#description
+Finally, the lenses are buffed and wiped down to a clear, even shine. The difference is immediate — better visibility, improved appearance, and no need to replace the units.
+
+#description
+Booking is fast and simple through the BaseLink platform. Just fill out the online form, get an instant quote, and select a time and place that suits you. No garage visits or waiting around.
+
+#description
+Unlike other providers, BaseLink gives you full control and convenience through a digital platform, while also connecting you with vetted professionals you can trust. Our support team is always available to help if you need to make changes or ask questions.
+
+#description
+Payment is taken on the day of the job, with any additional time billed fairly in 30-minute increments. You can also request add-ons or bundle with other vehicle services if needed.
+
+#description
+Book headlight restoration{{$doc.location}} today through BaseLink and enjoy brighter lights, a cleaner finish, and better visibility every time you drive.
 ::
 
 ---

@@ -130,16 +130,28 @@ You can customise your ... with special instructions or add extra services. Your
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a locksmith{{$doc.location}} for secure fixes, fast access, and peace of mind
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Locked out? Need a lock upgraded or replaced? BaseLink makes it easy to book trusted local locksmiths{{$doc.location}} for everything from emergency access to smart lock installation — all managed through our digital platform with clear pricing and same-day availability.
 
 #description
-Paragraph two insert here...
+We cover all the essentials: emergency callouts for lockouts, broken key extractions, and jammed doors. Your locksmith arrives with the right tools to regain access without damaging your door, and can repair or replace the lock on the spot if needed.
 
 #description
-FInal one here...
+You can also book services like traditional or digital lock changes, key cutting, lock box installation, and safe opening (if you’ve lost the key or combination). Whether it’s a faulty latch or a rusted padlock, we’ll help you get it sorted.
+
+#description
+For added security or convenience, we install smart locks and keyless entry systems for homes, rentals and businesses. Your locksmith can advise on compatibility and show you how to set up your new system during the visit.
+
+#description
+Booking is quick and fully online through BaseLink. Just submit your request, receive an instant quote, and pick a time that suits you. For emergencies, we aim to dispatch a locksmith as quickly as possible — no waiting or call centres.
+
+#description
+All BaseLink locksmiths are vetted, experienced and reviewed by local customers. Your booking is backed by our in-house support team, so you’ll always have help if you need to update instructions or request a follow-up service.
+
+#description
+Payment is collected on the day of service, with additional time billed in fair 30-minute increments. Book a locksmith{{$doc.location}} today with BaseLink — and get back in, lock up safely, or upgrade your security without delay.
 ::
 
 ---

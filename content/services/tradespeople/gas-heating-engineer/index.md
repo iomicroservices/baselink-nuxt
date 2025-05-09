@@ -131,16 +131,31 @@ You can customise your ... with special instructions or add extra services. Your
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book Gas Safet registered gas and heating engineers{{$doc.location}}
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+From boiler repairs to water heater installations, BaseLink connects you with fully qualified Gas Safe registered engineers{{$doc.location}} who deliver reliable, compliant service — all backed by our streamlined digital platform. Whether you're a homeowner, landlord or property manager, we make it easy to get heating and hot water jobs done quickly and safely.
 
 #description
-Paragraph two insert here...
+Our engineers can install new boilers or replace old ones — including removal and disposal of your existing unit. We work with all major makes and models and ensure every installation meets current safety and energy standards.
 
 #description
-FInal one here...
+Need ongoing maintenance? You can book a full boiler service to keep your heating system running efficiently and avoid future breakdowns. Your engineer will inspect, test and clean key components and check for signs of wear, leaks or faults.
+
+#description
+If you're a landlord, we also provide Gas Safety Certificates (CP12s) to ensure your property meets legal requirements. The visit includes checks on all gas appliances, pipework, flues and ventilation, with a full report issued after inspection.
+
+#description
+Thermostat issues can also be diagnosed and fixed — whether you need a simple repair or a full replacement. Your engineer can install smart thermostats too, helping you control your home’s temperature more efficiently.
+
+#description
+Water heater installations and replacements are available for homes, flats and rental properties. If you’re replacing an old unit, your engineer will disconnect, remove and dispose of the old appliance before installing the new one safely and efficiently.
+
+#description
+Booking through BaseLink is fast and simple. Submit your request online, get an instant quote, and choose a time that suits your schedule. All engineers are fully vetted, Gas Safe registered, and reviewed by other customers in your area.
+
+#description
+Payment is collected on the day of your visit, and any additional time is billed fairly in 30-minute increments. Book a gas or heating engineer{{$doc.location}} today with BaseLink — and get safe, professional results you can rely on.
 ::
 
 ---

@@ -160,16 +160,31 @@ button: "Hire a locksmith"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book broken key extraction{{$doc.location}} for fuss-free fixes
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Snapped a key in the lock? It happens more often than you’d think — and the good news is, BaseLink can help. We’ll match you with a trusted local locksmith{{$doc.location}} who’ll extract the broken key quickly and safely, without damaging your lock or door.
 
 #description
-Paragraph two insert here...
+Your locksmith will assess the type of lock and where the key has broken. Using specialist tools, they’ll remove the fragment with care — avoiding drilling or force wherever possible.
 
 #description
-FInal one here...
+Once the key’s out, the lock is cleaned, lubricated and tested to make sure it still works smoothly. If there’s any internal damage or sticking, we can repair or replace the lock on the spot.
+
+#description
+Need a new key? We offer key cutting as an optional extra, so you can get a working copy while your locksmith is on-site — saving you another trip or callout.
+
+#description
+We also offer emergency callouts if you’re locked out or the issue can’t wait. Just let us know when booking, and we’ll prioritise your visit.
+
+#description
+Booking is quick and easy with BaseLink. Submit your request online, get an instant quote, and choose a time that suits you. No chasing around, no waiting for callbacks.
+
+#description
+All BaseLink locksmiths are vetted, experienced and reviewed by customers in your area. Your job is backed by our in-house team, so you’ll always have support if anything changes.
+
+#description
+Payment is taken on the day of service, with any extra time billed in fair 30-minute increments. Book broken key extraction{{$doc.location}} today with BaseLink — and get back to business (and back inside) without the drama.
 ::
 
 ---

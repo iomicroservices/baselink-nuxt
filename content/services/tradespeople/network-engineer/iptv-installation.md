@@ -154,16 +154,31 @@ title: "Ready to book your IPTV installation?"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book IPTV installation{{$doc.location}} for seamless streaming that’s wired to perform
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Want all your entertainment delivered over the internet — with no satellite dish or aerial in sight? BaseLink connects you with trusted network engineers{{$doc.location}} who install and configure IPTV systems for homes, offices, hotels and shared properties.
 
 #description
-Paragraph two insert here...
+We handle everything from setting up your IPTV box or receiver to configuring your network for smooth, high-quality streaming. Whether you’re watching on one screen or broadcasting across multiple rooms, we make sure your setup runs without buffering or glitches.
 
 #description
-FInal one here...
+Your engineer can supply the necessary equipment or work with what you already have. Cables are routed cleanly and connected to your TVs or AV system — and if needed, we can wall-mount your screen and install HDMI distribution for a full entertainment setup.
+
+#description
+We’ll also optimise your internet connection for IPTV, adjusting bandwidth and network settings to support reliable streaming and reduce dropouts — especially important in hotels, offices or HMOs.
+
+#description
+Before we leave, we’ll guide you through how to use your IPTV system, access apps or channels, and troubleshoot any common issues.
+
+#description
+Booking with BaseLink is quick and fully online. Just submit your request, get an instant quote, and choose a time that works for you — no calls, no waiting around.
+
+#description
+All engineers are vetted, experienced and reviewed by customers in your area. Whether you're setting up in your living room or across multiple properties, you'll get reliable service from start to finish.
+
+#description
+Payment is collected on the day of service, with additional time billed in fair 30-minute increments. Book IPTV installation{{$doc.location}} today with BaseLink — and stream smarter, not harder.
 ::
 
 ---

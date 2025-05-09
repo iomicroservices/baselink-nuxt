@@ -179,16 +179,31 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book one-time cleaning{{$doc.location}} for a fresh start without the commitment
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Need your home professionally cleaned just once? Whether it’s for a special occasion, after hosting guests, or simply a reset, BaseLink connects you with trusted local cleaners{{$doc.location}} for high-quality one-time cleaning — all managed through our fast and flexible digital platform.
 
 #description
-Paragraph two insert here...
+This service includes a complete top-to-bottom clean of your home. Your cleaner will dust all surfaces, vacuum and mop floors, and scrub kitchens and bathrooms to leave everything spotless and fresh.
 
 #description
-FInal one here...
+Appliances, mirrors and cabinets are wiped down, and sinks, taps and toilets are fully sanitised. High-touch areas like switches and handles are also cleaned with extra care to maintain hygiene throughout your home.
+
+#description
+Additional tasks like laundry, linen changes, running the dishwasher, sweeping balconies, and cleaning interior windows can be included. If there’s something specific you need done, you can customise your booking with special instructions.
+
+#description
+Booking through BaseLink is simple and fully online. Just fill out a short form, get an instant quote, and choose a time that works for you — no waiting for callbacks or back-and-forth scheduling.
+
+#description
+All cleaners are vetted, reviewed and experienced in delivering reliable one-off cleans. You’ll also be supported by our in-house team who make sure every visit runs smoothly and on time.
+
+#description
+Payment is collected on the day of your clean, and any extra time is billed fairly in 30-minute increments. Whether it’s a deep refresh or just a helping hand when you need it, we make it hassle-free.
+
+#description
+Book one-time cleaning{{$doc.location}} today with BaseLink and enjoy a professionally cleaned home — just when you need it most.
 ::
 
 ---

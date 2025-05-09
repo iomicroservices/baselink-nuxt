@@ -146,16 +146,31 @@ title: "Get an instant quote now"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book WiFi connectivity setup{{$doc.location}} for faster speeds and stronger signals
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Buffering, blackspots and dropped video calls are more than annoying — they’re avoidable. BaseLink connects you with experienced network engineers{{$doc.location}} who install and optimise WiFi systems that actually reach every room, no matter the size or layout of your property.
 
 #description
-Paragraph two insert here...
+We assess your space and run signal strength tests to identify weak zones. From there, your engineer will install the right solution — whether that’s repositioning your router, adding mesh access points, or running wired cabling for ultra-stable performance.
 
 #description
-FInal one here...
+We set up and configure routers, mesh systems, or wireless extenders depending on your needs. Your engineer will also help connect your devices, test speed across zones, and offer tips to keep your network running smoothly.
+
+#description
+This service is ideal for homes, offices, and rental properties where WiFi just isn’t cutting it — and we’ll work around your walls, floors and layout to deliver the best possible results.
+
+#description
+You can supply your own hardware or let us recommend and provide equipment that suits your usage, whether you’re streaming in every room or running a busy smart home setup.
+
+#description
+Booking with BaseLink is simple and fully online. Submit your request, receive an instant quote, and pick a time that suits you — with support from our in-house team throughout.
+
+#description
+All engineers are vetted, experienced and reviewed by customers nearby. Whether it’s your first setup or an overdue upgrade, we’ll get your connection sorted, room by room.
+
+#description
+Payment is collected on the day of service, with any additional time billed in fair 30-minute increments. Book WiFi connectivity setup{{$doc.location}} today with BaseLink — and stream, work or scroll without the signal stress.
 ::
 
 ---

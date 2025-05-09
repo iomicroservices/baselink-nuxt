@@ -155,16 +155,31 @@ button: "Hire a plumber"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book pipe repair and replacement{{$doc.location}} for fast fixes
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Leaky joint? Burst pipe? Time to upgrade ageing plumbing? BaseLink connects you with trusted, local plumbers{{$doc.location}} who quickly diagnose and fix pipework issues — whether it’s a minor drip or a major emergency.
 
 #description
-Paragraph two insert here...
+We repair all pipe types, including copper, plastic (PVC/PEX), and older lead or steel systems. Your plumber will identify the damaged area, repair any faulty joints or valves, or fully replace the pipework if needed.
 
 #description
-FInal one here...
+Repairs are carried out with care to minimise disruption, whether inside walls, under sinks or below floors. If an upgrade is required, we’ll swap out outdated or corroded piping for new, durable materials that meet today’s safety and efficiency standards.
+
+#description
+Every job includes pressure testing and inspection once complete, ensuring there are no hidden leaks or weak spots left behind.
+
+#description
+If you’re dealing with an active leak, we can provide emergency response to shut off the water and prevent further damage — then carry out the repair once the situation is stabilised.
+
+#description
+Booking is easy with BaseLink. Just submit your job online, get an instant quote, and choose a time that works for you. Our support team keeps everything running smoothly in the background.
+
+#description
+All plumbers are vetted, reviewed by other customers nearby, and backed by BaseLink’s dedicated team. Whether you need a small patch-up or a full pipework replacement, we’ve got it covered.
+
+#description
+Payment is collected on the day of service, with extra time billed fairly in 30-minute increments. Book pipe repair and replacement{{$doc.location}} with BaseLink — and say goodbye to drips, bursts and plumbing headaches.
 ::
 
 ---

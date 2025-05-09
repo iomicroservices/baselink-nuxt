@@ -11,7 +11,7 @@ Services
 Discover our range of residential and commercial services
 
 #description
-Explore our comprehensive range of services for both residential and commercial needs. From expert cleaning services to reliable tradespeople and network engineers, we offer vetted, qualified and local professionals who deliver exceptional service every time.
+From expert cleaning services to reliable tradespeople and network engineers, we offer vetted, qualified and local professionals who deliver exceptional service every time.
 ::
 
 ---

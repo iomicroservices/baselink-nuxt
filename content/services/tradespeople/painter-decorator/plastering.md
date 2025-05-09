@@ -155,16 +155,31 @@ button: "Hire a decorator"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book plastering services{{$doc.location}} for a smooth finish
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+A flawless finish starts with the right base. BaseLink connects you with experienced local decorators{{$doc.location}} who offer expert plastering services — ideal for preparing your walls and ceilings before painting or wallpapering.
 
 #description
-Paragraph two insert here...
+We handle everything from patch repairs and skim coats to full room resurfacing. Your decorator will prep the area by cleaning the surface, repairing any damage, and protecting surrounding fixtures and floors.
 
 #description
-FInal one here...
+Plaster is applied in multiple layers — from bonding and base coats to a smooth, skimmed finish. Whether it’s an old wall in need of restoration or a brand-new space that needs evening out, we leave surfaces clean, level, and ready to decorate.
+
+#description
+We plaster walls, ceilings and smaller problem areas too — like cracks, dents, and corners. You can request work in specific rooms or book as part of a wider decorating project.
+
+#description
+After the job is done, we clear away any debris, remove protective sheeting and leave your space clean and ready for drying time.
+
+#description
+Booking through BaseLink is easy and digital. Submit your request, receive an instant quote, and choose a time that works for you — with dedicated support throughout your booking.
+
+#description
+All plasterers are vetted, reviewed by customers nearby and experienced in both residential and commercial work. Whether it’s a fresh skim or a full repair, you’ll get top-quality results with no hidden mess.
+
+#description
+Payment is collected on the day of service, with additional time billed fairly in 30-minute increments. Book plastering{{$doc.location}} with BaseLink — and give your walls the smooth start they deserve.
 ::
 
 ---

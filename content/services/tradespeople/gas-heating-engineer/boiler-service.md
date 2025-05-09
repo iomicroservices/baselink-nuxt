@@ -176,16 +176,28 @@ button: "Hire an engineer"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a boiler service{{$doc.location}} with a Gas Safe engineer
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Annual servicing is essential for keeping your boiler working reliably and efficiently. With BaseLink, you can book fully qualified Gas Safe engineers{{$doc.location}} for expert boiler servicing — whether it’s a routine annual check or a one-off visit for peace of mind.
 
 #description
-Paragraph two insert here...
+We service all major types of boilers, including combi, system, conventional, condensing, electric, oil and LPG. Your engineer will carry out a full inspection tailored to your boiler type, checking for wear, leaks, and signs of reduced performance.
 
 #description
-FInal one here...
+The service includes testing of controls, gas pressure, flue operation and ventilation. Components are cleaned where necessary, safety devices are checked, and any early signs of faults or inefficiency are noted and explained.
+
+#description
+Whether your boiler is wall-mounted, floor-standing or part of a back boiler unit, our engineers are experienced in working with all configurations and leading brands. You’ll receive a service record for your own use or to comply with landlord obligations.
+
+#description
+Booking is fast and flexible through the BaseLink platform. Simply submit your request online, receive an instant quote, and choose a time that works for your schedule. You can also combine your service with a Gas Safety Certificate (CP12) or other heating services.
+
+#description
+All BaseLink engineers are Gas Safe registered, fully vetted, and reviewed by other customers in your area. Our in-house support team is always on hand to help if you need to adjust your booking or ask a follow-up question.
+
+#description
+Payment is collected on the day of service, with any additional time billed fairly in 30-minute increments. Book boiler servicing{{$doc.location}} today with BaseLink — and keep your heating running smoothly all year round.
 ::
 
 ---

@@ -160,16 +160,31 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book an exterior car wash{{$doc.location}} delivered at your doorstep
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+BaseLink connects you with reliable local specialists who offer high-quality exterior car washes{{$doc.location}} wherever you are. Whether you're at home, work or on the move, our mobile car wash service gives your vehicle a fresh, polished finish — without the hassle of visiting a car wash.
 
 #description
-Paragraph two insert here...
+The service starts with a thorough pre-rinse to loosen dirt, grime and road residue. Your car is then given a full hand wash using specialist shampoo, followed by a detailed clean of the wheels and tyres to restore their shine.
 
 #description
-FInal one here...
+Tar spots and bugs are carefully removed from the bodywork, and exterior windows are cleaned to a streak-free finish. Door shuts and sills are also wiped down for a more complete result.
+
+#description
+To finish, the vehicle is rinsed and hand-dried using soft microfibre towels to prevent water spots and swirl marks. The result is a clean, gleaming exterior — ready for the road.
+
+#description
+Through BaseLink, booking is easy and completely digital. Submit your request, get an instant quote, and choose a time and place that suits your schedule. It’s the flexible, modern alternative to the traditional car wash.
+
+#description
+All providers are fully vetted and reviewed by other customers on the BaseLink platform. You’ll be supported by our dedicated in-house team, and can add custom instructions to your booking if your car needs something specific.
+
+#description
+Payment is collected on the day of service, with any additional time billed fairly in 30-minute increments. No surprises, no upselling — just clear, reliable service from start to finish.
+
+#description
+Book an exterior car wash{{$doc.location}} today with BaseLink and enjoy a showroom-worthy finish — wherever your car is parked.
 ::
 
 ---

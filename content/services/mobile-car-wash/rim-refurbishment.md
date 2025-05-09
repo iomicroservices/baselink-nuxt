@@ -160,16 +160,31 @@ button: "Hire a technician"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book car rim refurbishment{{$doc.location}} to restore scuffed or damaged wheels
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Damaged alloys can spoil the look of your entire vehicle — but a full replacement isn’t always necessary. With BaseLink, you can book expert car rim refurbishment{{$doc.location}} carried out by skilled local professionals, right at your home or workplace.
 
 #description
-Paragraph two insert here...
+The service begins with a full visual inspection to assess kerb damage, corrosion, chips or scratches. Your technician will then strip and clean the affected wheel to prepare the surface for repair.
 
 #description
-FInal one here...
+Using precision sanding, grinding and filler, scuffs and imperfections are smoothed out. The rim is then primed, resprayed in a colour that matches your original finish, and sealed with a protective clear coat for long-term durability.
+
+#description
+To complete the job, your technician will polish the rim and carry out a quality check to ensure a flawless result. You can also request custom colours or finishes if you want a fresh look beyond simple restoration.
+
+#description
+Everything is managed digitally through BaseLink. You can submit your job online, receive an instant quote, and book a time that works for you — no need to visit a garage or wait days for a return.
+
+#description
+All rim repair providers on BaseLink are fully vetted, reviewed by other customers, and supported by our in-house team. You can add extra services or instructions at checkout for a fully personalised experience.
+
+#description
+Payment is taken on the day of service, with any additional time charged fairly in 30-minute increments. You get full transparency, quality work, and the convenience of mobile service — all in one place.
+
+#description
+Book rim refurbishment{{$doc.location}} with BaseLink and restore your wheels to a like-new finish — without the cost or inconvenience of replacements.
 ::
 
 ---

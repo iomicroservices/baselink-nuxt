@@ -152,16 +152,31 @@ Upgrade your security with keyless convenience. Our technicians{{ $doc.location 
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book smart lock installation{{$doc.location}} for keyless entry
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Ready to ditch the keys and upgrade to smarter security? BaseLink connects you with trusted local technicians{{$doc.location}} who can install and configure smart locks for your home or business — giving you secure, keyless access with app control, remote entry, and more.
 
 #description
-Paragraph two insert here...
+We install a wide range of smart locks, including Bluetooth, Wi-Fi, and app-connected models. Your technician will assess your existing door and hardware, remove any current locks if needed, and fit your new system safely and neatly.
 
 #description
-FInal one here...
+Once installed, they’ll configure the lock through its mobile app or hub, walk you through the features, and show you how to manage settings like remote unlocking, user access codes, or timed entry.
+
+#description
+If you use smart home systems (like Alexa, Google Home or Apple HomeKit), we can also help connect your lock for seamless integration with your wider setup.
+
+#description
+This service is ideal for homeowners, landlords, Airbnb hosts, or anyone who wants to improve convenience without sacrificing security. You can even pair it with a lock box or traditional lock upgrade for full access control.
+
+#description
+Booking through BaseLink is quick and online. Submit your request, receive an instant quote, and pick a time that works for you — no waiting around or guesswork.
+
+#description
+All BaseLink technicians are vetted, reviewed, and supported by our in-house team. We ensure every install is clean, functional and backed by great support if you need help later.
+
+#description
+Payment is collected on the day of your appointment, with any extra time billed in fair 30-minute increments. Book smart lock installation{{$doc.location}} today with BaseLink — and unlock a better way to secure your space.
 ::
 
 ---

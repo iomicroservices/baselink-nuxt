@@ -130,16 +130,28 @@ You can customise your ... with special instructions or add extra services. Your
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a local carpenter{{$doc.location}} for fittings, fixtures and finishing touches
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Need help with shelves, curtain rails, furniture or wall fittings? BaseLink connects you with trusted local carpenters{{$doc.location}} to carry out precision installation jobs in your home — safely, neatly, and at a time that suits you. Whether it’s assembling furniture or mounting a TV, we’ll match you with a skilled professional who’s got it covered.
 
 #description
-Paragraph two insert here...
+We handle a wide range of small carpentry and fitting tasks. Your carpenter can assemble flat-pack furniture, install shelving or cabinets, and fit curtain poles, blinds or shower screens with a level finish and secure fixings.
 
 #description
-FInal one here...
+They’ll also take care of trickier tasks like hanging mirrors and picture frames, fitting pet flaps into doors or walls, and wall-mounting TVs with correct bracket alignment, cable management and weight-safe support.
+
+#description
+Each job is completed with care and accuracy, using the right tools for a clean and lasting result. If you’re unsure what fittings you need, your carpenter can advise during the visit or pick up approved materials on your behalf if required.
+
+#description
+Booking through BaseLink is fast and fully digital. Simply tell us what you need, get an instant quote, and choose a convenient time — all with support from our in-house team and no need to call around for quotes.
+
+#description
+All carpenters on our platform are experienced, fully vetted and reviewed by customers in your area. Whether it’s a single job or multiple small tasks, we’ll help you get it sorted quickly and reliably.
+
+#description
+Payment is collected on the day of service, and additional time is billed in fair 30-minute increments. Book a local carpenter{{$doc.location}} today with BaseLink — and get the finishing touches handled with care and precision.
 ::
 
 ---

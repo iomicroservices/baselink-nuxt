@@ -1,4 +1,4 @@
-export interface FeaturePost {
+export interface HowToGuide {
   title: string
   description: string
   alt: string

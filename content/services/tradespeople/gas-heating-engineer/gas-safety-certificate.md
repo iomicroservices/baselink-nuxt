@@ -164,16 +164,28 @@ A CP12 Gas Safety Certificate is a legal requirement for landlords in the UK. Ou
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a Gas Safety Certificate{{$doc.location}} to keep your home safe
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+A Gas Safety Certificate isn’t just for landlords — it’s an important annual check for homeowners too. With BaseLink, you can book a fully qualified, Gas Safe registered engineer{{$doc.location}} to inspect your gas appliances and ensure everything is safe, efficient, and compliant.
 
 #description
-Paragraph two insert here...
+Your engineer will carry out a full inspection of gas appliances such as boilers, cookers and fires, checking for leaks, faults or signs of wear. They’ll test the pressure, burners and ventilation, making sure each appliance is operating safely and as it should.
 
 #description
-FInal one here...
+As part of the visit, the engineer will also inspect the pipework, test for gas tightness, and assess the risk of carbon monoxide exposure. If anything needs attention, you’ll receive clear advice on what to do next.
+
+#description
+At the end of the service, you’ll be issued with a formal Gas Safety Certificate (CP12), which includes a breakdown of all checks carried out and a summary of the results — perfect for peace of mind and insurance purposes.
+
+#description
+Booking is easy and fully online through BaseLink. Submit your request, receive an instant quote, and pick a time that suits you. You can also combine the visit with a boiler service for complete annual coverage.
+
+#description
+All engineers are Gas Safe registered, experienced and reviewed by other local homeowners. Your job is also supported by our in-house team in case you need to reschedule, ask questions or book further work.
+
+#description
+Payment is collected on the day of the visit, with any extra time billed fairly in 30-minute increments. Book your annual Gas Safety Certificate{{$doc.location}} with BaseLink today — and keep your home protected year-round.
 ::
 
 ---

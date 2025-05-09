@@ -150,16 +150,31 @@ title: "Get an instant quote now"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book communications room setup{{$doc.location}} for connected tech that just works
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether you're building a server cupboard for your business or tidying up a home network, BaseLink makes it easy to book trusted network engineers{{$doc.location}} to design, install, or upgrade your comms room with care and precision.
 
 #description
-Paragraph two insert here...
+We install racks, patch panels, switches and cabling — all neatly laid out and fully labelled. Your engineer will handle structured cabling, power feeds and cooling considerations to make sure your system runs smoothly and stays organised.
 
 #description
-FInal one here...
+From small cabinet installs in home offices to full commercial server rooms, every setup is tailored to your needs — with tidy cable management, surge protection, and scalable infrastructure that can grow with your tech.
+
+#description
+Once installed, we carry out full system tests to ensure connectivity across all your endpoints. Whether you're running IP phones, CCTV, media equipment or business-grade Wi-Fi, we’ll make sure everything is linked up and reliable.
+
+#description
+We can also upgrade existing rooms — rerouting cables, installing rack-mounted equipment, or replacing chaotic wiring with labelled, structured systems that are easy to manage and troubleshoot.
+
+#description
+Booking through BaseLink is fully online. Just submit your job, receive an instant quote, and choose a time that suits your schedule — with in-house support every step of the way.
+
+#description
+All engineers are vetted, experienced, and reviewed by local customers. Whether it's a simple install or a complete refresh, you’ll get clean, professional results that just work.
+
+#description
+Payment is collected on the day of service, with any additional time billed in fair 30-minute increments. Book a comms room setup{{$doc.location}} with BaseLink — and bring order to the chaos behind your tech.
 ::
 
 ---

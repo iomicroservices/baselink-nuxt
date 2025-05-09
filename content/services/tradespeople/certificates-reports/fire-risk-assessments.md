@@ -172,16 +172,28 @@ Fire risk assessments are mandatory for FSO regulated properties such as busines
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a fire risk assessment{{$doc.location}} for your home or business
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Fire safety is not just good practice — it's a legal requirement for many properties. BaseLink connects you with qualified local assessors{{$doc.location}} to carry out professional fire risk assessments for homes, HMOs, commercial spaces and shared buildings. Whether you’re a landlord, property manager or business owner, we help you stay compliant with minimal hassle.
 
 #description
-Paragraph two insert here...
+The inspection includes a full review of your property to identify fire hazards, assess fire detection and warning systems, and evaluate the adequacy of escape routes, signage and emergency lighting. Every element is checked to ensure your building meets current fire safety regulations.
 
 #description
-FInal one here...
+Your assessor will also review firefighting equipment, staff fire safety training (for workplaces), and evacuation plans to ensure they are suitable, clear, and accessible. Fire logbooks and maintenance records are checked for completeness and up-to-date compliance.
+
+#description
+Once the inspection is complete, you'll receive a detailed report with a clear risk rating and specific recommendations to improve safety where needed. If follow-up actions are required, you’ll know exactly what to do to bring the property up to standard.
+
+#description
+BaseLink makes booking simple. Just submit your request online, get an instant quote, and choose a convenient time. We handle the admin so you can focus on keeping your tenants, customers or team safe.
+
+#description
+All fire assessors on our platform are qualified, experienced, and fully insured. Whether you manage a single property or a portfolio of sites, you’ll have the support of our in-house team to ensure every assessment runs smoothly.
+
+#description
+Payment is collected on the day of your assessment, and any additional time is billed in fair 30-minute increments. Book a fire risk assessment{{$doc.location}} today with BaseLink — and make sure your home or business meets all fire safety requirements with confidence.
 ::
 
 ---

@@ -130,16 +130,28 @@ You can customise your ... with special instructions or add extra services. Your
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book certified property reports and safety checks{{$doc.location}}
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Need to meet legal requirements or provide documentation for your property? BaseLink makes it easy to book certified professionals{{$doc.location}} for inspections, reports and compliance checks. Whether you're a landlord, homeowner or managing agent, we help you stay compliant — without the paperwork headache.
 
 #description
-Paragraph two insert here...
+We offer a full range of certification services, including CP12 gas safety certificates (required annually for rented properties), domestic and non-domestic EPCs to assess energy performance, and EICR electrical reports to confirm wiring is safe and up to standard.
 
 #description
-FInal one here...
+You can also book PAT testing for portable appliance safety, ideal for landlords, HMOs and workplaces. If your property requires a fire risk assessment — either by regulation or for peace of mind — we’ll match you with qualified assessors who understand current fire safety laws.
+
+#description
+Every report is carried out by a registered, fully qualified professional who understands the specific regulations in your area. You’ll receive your report or certificate shortly after the visit, and if any issues arise, you’ll be supported by our team to get them resolved quickly.
+
+#description
+Booking with BaseLink is simple and efficient. Submit your request online, receive an instant quote, and choose a time that fits your schedule. No phone calls, no delays — just fast, transparent service managed through one digital platform.
+
+#description
+All tradespeople on our platform are vetted, reviewed, and certified where required. We make it easy to manage property compliance without chasing contractors or navigating confusing forms.
+
+#description
+Payment is collected on the day of service, and any additional time is charged in fair 30-minute increments. Book certificates and reports{{$doc.location}} with BaseLink today — and meet your legal obligations with zero stress.
 ::
 
 ---

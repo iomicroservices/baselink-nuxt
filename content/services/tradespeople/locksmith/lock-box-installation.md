@@ -152,16 +152,28 @@ button: "Hire a locksmith"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book lock box installation{{$doc.location}} for secure key access made simple
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Need a safe way to share keys with guests, cleaners or tradespeople? A lock box is a smart, discreet solution — and BaseLink makes installation easy. We’ll send a trusted local locksmith or handyperson{{$doc.location}} to mount your box securely and set it up with a personalised code, ready to use right away.
 
 #description
-Paragraph two insert here...
+Lock boxes can be mounted to walls, gates, or posts using heavy-duty fixings for tamper-resistant security. Your installer will choose the best position for accessibility and discretion, based on your preferences and property layout.
 
 #description
-FInal one here...
+We install both combination and key-operated boxes and will help you set a secure code you can share with others as needed. The box is tested thoroughly to ensure it's weatherproof, properly sealed, and built to last.
+
+#description
+Your installer will walk you through how to change the code in future, how to reset the unit if needed, and how to use it safely for regular access — ideal for holiday lets, property managers or shared households.
+
+#description
+Booking is quick and fully online with BaseLink. Just submit your request, receive an instant quote, and choose a convenient time — no calls, no hassle.
+
+#description
+All BaseLink professionals are vetted, experienced and reviewed by other customers nearby. Whether you're installing one lock box or managing a portfolio of rentals, our support team is here to help.
+
+#description
+Payment is collected on the day of your visit, and any additional time is billed fairly in 30-minute increments. Book lock box installation{{$doc.location}} today with BaseLink — and enjoy simple, secure key access without the stress.
 ::
 
 ---

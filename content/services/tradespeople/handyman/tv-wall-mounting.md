@@ -168,16 +168,28 @@ button: "Hire a handyman"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book TV wall mounting{{$doc.location}} for screens that stay straight
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Mounting a TV yourself can quickly turn into a balancing act — especially with wires, brackets, and heavy screens involved. With BaseLink, you can book trusted local handypeople{{$doc.location}} to install your television neatly and securely on any wall, with the right bracket and perfect placement.
 
 #description
-Paragraph two insert here...
+Your handyperson will assess your wall type — whether it’s plasterboard, brick or concrete — and choose the correct fixings to keep your screen stable. We install all bracket types, including fixed, tilt and full-motion arms for flexible viewing.
 
 #description
-FInal one here...
+You can supply your own bracket or let us bring one to match your screen size and preferences. We'll advise on the ideal height and placement for your setup, and handle all drilling, levelling, and alignment with precision.
+
+#description
+If requested, we’ll also conceal or manage your cables for a clean, clutter-free look — perfect for living rooms, home offices or entertainment areas.
+
+#description
+Once installed, your fitter will test the bracket and TV stability, check everything is level, and ensure your screen is ready to go. No wonky mounts. No loose screws. Just a job done properly.
+
+#description
+Booking through BaseLink is quick and online. Submit your request, get an instant quote, and pick a time that suits you — all backed by our support team and local, vetted professionals.
+
+#description
+Payment is collected on the day of your appointment, and any extra time is billed fairly in 30-minute increments. Book TV wall mounting{{$doc.location}} today with BaseLink — and enjoy your screen time with perfect placement and peace of mind.
 ::
 
 ---

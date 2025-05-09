@@ -151,16 +151,28 @@ button: "Hire a locksmith"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book safe opening{{$doc.location}} to regain access without breaking the bank
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Lost the key, forgotten the code, or dealing with a jammed safe? BaseLink connects you with experienced locksmiths{{$doc.location}} who specialise in safe entry — using professional tools and techniques to get you back in with minimal disruption.
 
 #description
-Paragraph two insert here...
+Your locksmith will first identify the make and locking mechanism of your safe — whether it’s digital, key-operated or combination-based. Wherever possible, they’ll use non-destructive methods to open it without damaging the contents or the safe itself.
 
 #description
-FInal one here...
+If necessary, drilling or manipulation techniques can be used to bypass the mechanism securely. The work is always carried out discreetly, with respect for both the safe’s contents and the property it’s installed in.
+
+#description
+We work with home, office, and commercial safes, and handle all jobs confidentially. Whether you’ve lost access due to a fault or a forgotten passcode, we’ll get it sorted quickly and professionally.
+
+#description
+Booking is simple and online through BaseLink. Submit your request in minutes, receive an instant quote, and we’ll match you with a vetted local locksmith who can help — fast.
+
+#description
+All BaseLink locksmiths are experienced, reviewed by other customers, and backed by our support team for added peace of mind.
+
+#description
+Payment is collected on the day of the visit, with additional time billed fairly in 30-minute increments. Book safe opening{{$doc.location}} with BaseLink — and unlock peace of mind, without the drama.
 ::
 
 ---

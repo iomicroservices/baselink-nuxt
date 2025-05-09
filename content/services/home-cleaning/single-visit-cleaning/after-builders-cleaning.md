@@ -167,16 +167,31 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book after builders cleaning{{$doc.location}} to clear post-renovation mess
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Renovations can transform your home — but they leave behind dust, splatter, and debris that need professional attention. BaseLink connects you with trusted local cleaners{{$doc.location}} who specialise in after builders cleaning, so you can enjoy your new space without the cleanup stress.
 
 #description
-Paragraph two insert here...
+The service includes full dust and debris removal throughout your property, with special attention given to skirting boards, corners, and hard-to-reach areas. Paint drips, plaster residue, and leftover materials are carefully cleared from floors, fixtures and surfaces.
 
 #description
-FInal one here...
+Your cleaner will vacuum and mop all floors, wipe down doors, frames and interior windows, and polish cabinets, mirrors and appliances. Bathrooms and kitchens are refreshed, with sinks, taps and toilets cleaned and sanitised.
+
+#description
+External areas like entrances or balconies can be swept and tidied, and any custom instructions or specific priorities can be added to your booking. The goal is to leave your home clean, safe and ready to enjoy — no detail missed.
+
+#description
+Booking your clean through BaseLink takes just minutes. Submit a request online, get an instant quote, and choose a time that works for your schedule. You won’t need to chase quotes or coordinate over the phone — everything is handled digitally.
+
+#description
+Our platform gives you access to vetted, experienced cleaning professionals who understand the specific demands of post-construction work. Your account is also supported by our dedicated in-house team for added peace of mind.
+
+#description
+Payment is collected on the day of your clean, with any extra time billed in clear 30-minute increments. It’s a flexible, transparent process that gives you control without complications.
+
+#description
+Book after builders cleaning{{$doc.location}} with BaseLink today and enjoy your newly renovated space — without the mess.
 ::
 
 ---

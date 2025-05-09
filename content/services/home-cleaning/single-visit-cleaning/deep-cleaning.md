@@ -165,16 +165,31 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book deep cleaning{{$doc.location}} for a thorough top-to-bottom home refresh
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+When your home needs more than a standard tidy-up, BaseLink makes it easy to book a deep cleaning service{{$doc.location}} with experienced local professionals. Whether it’s for spring cleaning, after an illness, or just a long-overdue refresh, our vetted cleaners give your space the detailed attention it deserves.
 
 #description
-Paragraph two insert here...
+Deep cleaning includes everything in a standard clean — vacuuming, mopping, dusting and general surface cleaning — plus extra tasks that target built-up dirt and neglected areas. It’s ideal for kitchens, bathrooms, or any room that needs a bit more care.
 
 #description
-FInal one here...
+Your cleaner will vacuum upholstered furniture, sanitise high-touch surfaces, and descale taps, sinks, and toilets. Appliances and ovens are cleaned inside and out, helping restore hygiene and shine in places often overlooked during regular cleaning.
+
+#description
+The service can be tailored to your space and needs. Whether you want to focus on one area or tackle the whole house, you can include specific instructions or add extra rooms directly when booking.
+
+#description
+Using BaseLink’s digital platform, you can get an instant quote online, choose your preferred date and time, and manage everything in one place. No back-and-forth phone calls, no hidden costs — just fast, reliable booking and service.
+
+#description
+All providers on BaseLink are experienced, fully vetted, and regularly rated by other customers in your area. And with support from our dedicated in-house team, you’ll always have someone to help if plans change or you need advice.
+
+#description
+Payment is collected on the day of the clean, with any additional time billed in fair 30-minute increments. It’s a transparent and flexible way to get your home looking its best — without the stress.
+
+#description
+Book deep cleaning{{$doc.location}} with BaseLink today and enjoy the feeling of a truly clean home, top to bottom.
 ::
 
 ---

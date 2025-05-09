@@ -155,16 +155,25 @@ button: "Hire a locksmith"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book emergency locksmith help{{$doc.location}} for when you’re locked out
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Locked yourself out? It happens to the best of us — and when it does, BaseLink connects you with local locksmiths{{$doc.location}} who respond quickly, work discreetly, and get you back inside with minimal fuss.
 
 #description
-Paragraph two insert here...
+Your locksmith will aim for non-destructive entry wherever possible, using specialist tools to pick or bypass the lock without causing damage. Whether it’s a standard door, uPVC, wooden, or composite, they’ll assess the best method for safe, secure access.
 
 #description
-FInal one here...
+We offer rapid-response emergency callouts, including evenings and weekends, for both homes and businesses. If the lock is damaged or compromised, your locksmith can also supply and fit a replacement on the spot.
+
+#description
+Every locksmith on our platform is vetted, experienced and reviewed by local customers, so you can feel confident even in a stressful moment. Our team handles the details — so you don’t have to worry about calling around or waiting on unclear arrival times.
+
+#description
+Booking is simple and immediate through BaseLink. Submit your request online, get an instant quote, and we’ll dispatch someone as soon as possible — keeping you informed every step of the way.
+
+#description
+Payment is collected once the job is complete, and any additional time is billed fairly in 30-minute increments. Book emergency locksmith help{{$doc.location}} with BaseLink — and get back inside, safely and without delay.
 ::
 
 ---

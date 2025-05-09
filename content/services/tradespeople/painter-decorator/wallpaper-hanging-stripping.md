@@ -159,16 +159,31 @@ button: "Hire a decorator"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book wallpaper hanging and stripping{{$doc.location}} for walls that wow without the wrinkles
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether you’re creating a standout feature wall or refreshing a whole room, BaseLink connects you with skilled local decorators{{$doc.location}} who hang wallpaper with precision and care — leaving crisp edges, aligned patterns, and a finish that lasts.
 
 #description
-Paragraph two insert here...
+We start by safely removing old wallpaper and any leftover adhesive, then prep the surface for the best possible results. This includes smoothing out imperfections and ensuring your wall is clean and ready to take on the new look.
 
 #description
-FInal one here...
+Wallpaper is carefully measured, cut and aligned to fit your space exactly — including corners, edges and awkward angles. We install standard rolls, textured designs, or premium feature papers depending on your vision and style.
+
+#description
+Our decorators expertly match patterns, eliminate air bubbles, and trim the final edges for a seamless result that transforms your room.
+
+#description
+Whether it’s a single panel behind a bed or a full living room makeover, we deliver the same level of precision and polish — no peeling, stretching or misalignment.
+
+#description
+Booking with BaseLink is fast and fully digital. Submit your job, get an instant quote, and pick a time that suits your schedule — with friendly support from our team throughout.
+
+#description
+All decorators are vetted, reviewed and experienced in both residential and commercial projects. You’ll get clean work, zero mess, and picture-perfect walls from start to finish.
+
+#description
+Payment is collected on the day of service, and any additional time is billed in fair 30-minute increments. Book wallpaper hanging and stripping{{$doc.location}} with BaseLink — and bring texture, colour and style to your walls, hassle-free.
 ::
 
 ---

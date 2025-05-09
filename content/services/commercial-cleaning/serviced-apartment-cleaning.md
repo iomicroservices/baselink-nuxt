@@ -191,16 +191,31 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Serviced apartment cleaning{{$doc.location}} with high-quality results
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Serviced apartments require a high standard of cleaning and a fast, reliable turnaround. BaseLink connects you with experienced local cleaners{{$doc.location}} who understand the expectations of guests, operators, and corporate lets. Whether it’s a regular schedule or same-day turnaround, we help keep your apartments spotless and ready for the next check-in.
 
 #description
-Paragraph two insert here...
+Each clean includes thorough dusting, floor vacuuming and mopping, and full bathroom and kitchen cleaning. Sinks, taps, toilets, appliances and mirrors are polished, and all high-touch surfaces are sanitised to help ensure a hygienic stay for your guests.
 
 #description
-FInal one here...
+We also handle key guest-ready services such as laundry, fresh linen and towel replacement, and restocking of toiletries and amenities. Your cleaner can run the dishwasher, take care of balconies or entrances, and tidy up shared or private outdoor areas.
+
+#description
+Interior windows are cleaned, rubbish is removed and recycling is sorted, all as part of the standard service. If you need something specific — like a welcome setup or restocking kitchen basics — you can add custom instructions to make sure each stay is just right.
+
+#description
+Unlike traditional providers, BaseLink gives you full control through a modern digital platform. You can submit your request online, get an instant quote, and book cleaning times that align with guest check-in and check-out schedules — no back-and-forth phone calls needed.
+
+#description
+Your account is managed by our dedicated support team, so there’s always someone available to help with key handover, guest coordination or last-minute changes. Everything is designed to keep your property running smoothly.
+
+#description
+Payment is taken on the day of the clean, and any extra time is charged in fair 30-minute increments after the visit. Whether you manage one unit or several, BaseLink makes it easier to stay organised, efficient and guest-ready at all times.
+
+#description
+With vetted local professionals, a smart booking system, and reliable support, BaseLink is the better way to manage serviced apartment cleaning{{$doc.location}} — built for the speed, standards and flexibility you need.
 ::
 
 ---

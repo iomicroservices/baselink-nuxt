@@ -164,16 +164,31 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book interior car cleaning{{$doc.location}} for a like-new feel inside your car
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Your car's interior deserves more than a quick vacuum. With BaseLink, you can book professional interior car cleaning{{$doc.location}} carried out by experienced local valeting specialists — at home, at work, or wherever your car is parked. It’s the easiest way to restore that clean, fresh feeling without any hassle.
 
 #description
-Paragraph two insert here...
+The service covers all key areas inside your vehicle. Interior windows are cleaned for a streak-free finish, and door shuts and sills are wiped down to remove built-up dust and dirt. Seats, boot space, and floor mats are thoroughly vacuumed to lift crumbs, debris and pet hair.
 
 #description
-FInal one here...
+Dashboards, consoles and interior plastics are cleaned and dusted, including smaller areas like cup holders, compartments and air vents. These often-overlooked details make a big difference to how your cabin looks and feels.
+
+#description
+To finish, your technician applies a light deodorising treatment to refresh the space and remove any lingering odours. Every clean ends with a full inspection to make sure your vehicle’s interior looks and smells its best.
+
+#description
+Booking is easy through the BaseLink platform. Submit your request in minutes, get an instant quote, and choose a time that works for you. There’s no waiting around, no back-and-forth, and no need to drive to a garage.
+
+#description
+Unlike traditional services, BaseLink puts you in control. You get transparent pricing, reliable professionals, and dedicated support — all through one smart digital platform. You can also customise your clean with special instructions or add extra services as needed.
+
+#description
+Payment is collected on the day of your clean, with extra time billed fairly in 30-minute increments. Whether it’s a one-off refresh or part of a regular car care routine, it’s simple, flexible and designed around your schedule.
+
+#description
+Book interior car cleaning{{$doc.location}} today with BaseLink — and give your vehicle’s cabin the attention it deserves.
 ::
 
 ---

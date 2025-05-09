@@ -156,16 +156,31 @@ title: "Ready to book your data cabling job?"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book data cabling installation{{$doc.location}} for wired connections without the tangle
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Need a stable, high-speed internet connection? Whether it’s for home working, gaming, or your office setup, BaseLink connects you with experienced network engineers{{$doc.location}} who install professional-grade data cabling — clean, tested, and ready to perform.
 
 #description
-Paragraph two insert here...
+We install Cat5e, Cat6, HDMI, LAN and fibre lines for homes and commercial properties. Your engineer will plan the cable runs, route them neatly through walls or ceilings, and securely fasten everything out of sight.
 
 #description
-FInal one here...
+Cables are terminated cleanly at patch panels, wall outlets or floor boxes, and each run is labelled and tested to ensure reliable speed, signal strength and network stability.
+
+#description
+You can supply your own cabling or let us provide everything needed — including trunking, patch leads, and connectors — for a full, finished setup.
+
+#description
+Whether you're connecting multiple rooms, setting up a smart TV or wiring an entire comms cabinet, your engineer will ensure clean results and minimal disruption.
+
+#description
+Booking through BaseLink is quick and fully digital. Submit your request online, receive an instant quote, and pick a time that suits your schedule — all with ongoing support from our team.
+
+#description
+All engineers are vetted, experienced and reviewed by customers in your area. From small upgrades to complete rewires, we make network cabling simple, tidy and stress-free.
+
+#description
+Payment is collected on the day of service, and any additional time is billed in fair 30-minute increments. Book data cabling{{$doc.location}} with BaseLink today — and get connected the right way.
 ::
 
 ---

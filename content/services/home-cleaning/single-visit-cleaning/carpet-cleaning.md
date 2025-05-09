@@ -163,16 +163,32 @@ button: "Hire a cleaner"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book carpet cleaning{{$doc.location}} for a fresher floor
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Carpets can trap dirt, allergens, and odours over time — and regular vacuuming often isn’t enough. With BaseLink, you can book trusted local specialists{{$doc.location}} for deep carpet cleaning that lifts stains, freshens fibres and leaves your home looking and feeling cleaner.
 
 #description
-Paragraph two insert here...
+Every appointment starts with a full inspection of your carpets to check their condition, fabric type and any specific stains. The cleaner will vacuum to remove loose dirt and debris, then apply targeted pre-treatments to tackle marks and problem areas.
 
 #description
-FInal one here...
+Depending on the material, your carpet will be steam cleaned or dry cleaned using professional-grade equipment. Deep steam extraction helps remove ingrained dirt, while dry methods are ideal for delicate fibres or areas that need faster drying.
+
+#description
+To finish, a deodorising treatment is applied to remove lingering smells and leave your carpets fresh. If needed, air movers are used to speed up drying, so you can get back to enjoying your space sooner.
+
+#description
+You can customise your clean with specific instructions or additional rooms, and bundle carpet cleaning with other home services through BaseLink. Everything is handled online — just submit your request, get an instant quote, and choose a time that suits you.
+
+#description
+All providers on our platform are experienced, vetted, and reviewed by customers in your area. You’ll also be supported by our dedicated team throughout the process, so you’re never left chasing updates or confirmations.
+
+#description
+Payment is collected on the day of your clean, with any additional time billed fairly in 30-minute increments. It’s a transparent, hassle-free way to restore your carpets without lifting a finger.
+
+#description
+Book carpet cleaning{{$doc.location}} with BaseLink today and bring new life to your floors — clean, fresh, and expertly taken care of.
+
 ::
 
 ---

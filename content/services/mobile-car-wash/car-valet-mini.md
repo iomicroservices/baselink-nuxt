@@ -180,16 +180,31 @@ button: "Hire a valeter"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book a mini car valet{{$doc.location}} for a thorough refresh inside and out
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Need a thorough clean without the wait? BaseLink connects you with experienced local car valeting professionals{{$doc.location}} who offer convenient mini valet services — perfect for busy days when your vehicle needs a fast but detailed refresh, inside and out.
 
 #description
-Paragraph two insert here...
+The mini valet includes an exterior hand wash and rinse, with wheels and tyres scrubbed and cleaned to a shine. Tar spots and bugs are removed from the bodywork, followed by a light exterior polish to lift the gloss. Windows, door shuts and sills are also cleaned for a tidy, complete finish.
 
 #description
-FInal one here...
+Inside your car, seats and floor mats are vacuumed, dashboards and consoles wiped, and interior plastics cleaned. Cup holders, compartments and air vents are all cleaned and dusted to leave your cabin fresh and tidy.
+
+#description
+The service finishes with a final inspection to ensure nothing’s missed and the result meets high standards. You can also request add-ons or include specific instructions if your car needs extra attention in certain areas.
+
+#description
+With BaseLink’s easy-to-use platform, booking is fast and hassle-free. Just submit your request online, receive an instant quote, and choose a time and place that works for you. Our providers come to your home, workplace or wherever’s convenient.
+
+#description
+Unlike traditional car wash providers, BaseLink gives you more flexibility, better communication, and the ability to manage your bookings digitally. You’ll be supported by our in-house team and connected to fully vetted, well-reviewed professionals.
+
+#description
+Payment is made on the day of your valet, and any additional time is billed fairly in 30-minute increments. It’s all designed to be clear, convenient and suited to your schedule.
+
+#description
+Book a mini car valet{{$doc.location}} with BaseLink and enjoy a clean, refreshed vehicle — without leaving your driveway or disrupting your day.
 ::
 
 ---

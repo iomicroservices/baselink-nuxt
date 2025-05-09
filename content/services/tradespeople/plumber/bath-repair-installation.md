@@ -159,16 +159,28 @@ button: "Hire a plumber"
 
 ::long-form
 #title
-Booking AirBnb rental cleaner in X
+Book bath installation or repair{{$doc.location}} for watertight results
 
 #description
-Paddington, in the City of Westminster, is a central London hub for transport and business. The world-famous London Paddington Station, designed by Isambard Kingdom Brunel, is a major route in and out of central London from the rest of the UK as well as from abroad, with frequent train services to London’s major airports.
+Whether you’re replacing an old tub or fixing a leak before your next soak, BaseLink connects you with skilled local plumbers{{$doc.location}} who handle bath repairs and installations from start to finish — cleanly, professionally, and without the stress.
 
 #description
-Paragraph two insert here...
+We remove old baths and install new ones with precision, ensuring a neat fit, secure pipe connections, and proper sealing to prevent future water damage. Whether it’s a freestanding bath, built-in model or a space-saving option, we’ll get it sorted.
 
 #description
-FInal one here...
+If your existing bath has surface damage, cracked enamel, or drainage issues, we can repair the damage, reseal the edges, and check all connections — so your bath is watertight and ready for use again.
+
+#description
+Your plumber will connect the hot and cold water supply, install waste pipes and traps, and test everything for leaks, flow, and stability before leaving. We always aim for a tidy finish and minimal disruption.
+
+#description
+Booking through BaseLink is fast and fully online. Submit your job request, get an instant quote, and choose a convenient time — with dedicated support throughout.
+
+#description
+All BaseLink plumbers are vetted, reviewed by customers nearby, and backed by our in-house team. You’ll get a high standard of service and reliable results every time.
+
+#description
+Payment is collected on the day of service, with any additional time billed in fair 30-minute increments. Book bath installation or repair{{$doc.location}} with BaseLink — and enjoy peace of mind with every soak.
 ::
 
 ---
