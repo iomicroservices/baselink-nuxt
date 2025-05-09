@@ -195,9 +195,6 @@ Cabinet doors, drawers, and bespoke shelving are also included, ensuring both fu
 #description
 Whether you're after a full kitchen makeover or a smaller update, BaseLink makes it easy to get started. Request a quote, customise your job, and get matched with a trusted local expert.
 
-#description
-[Get an instant quote and book your kitchen fitting job.](/services/tradespeople/quote?selection=carpenter&task=kitchen-fitting)
-
 ::
 
 ---

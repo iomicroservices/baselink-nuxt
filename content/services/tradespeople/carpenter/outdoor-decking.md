@@ -202,9 +202,6 @@ Looking for something custom? Our carpenters can add integrated planters, seatin
 #description
 With BaseLink, you get a quick quote, flexible scheduling, and a reliable local expert to bring your outdoor space to life.
 
-#description
-[Get an instant quote and book your outdoor decking job.](/services/tradespeople/quote?selection=carpenter&task=outdoor-decking)
-
 ::
 
 ---

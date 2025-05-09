@@ -195,9 +195,6 @@ If your job requires additional materials, your carpenter will let you know the 
 #description
 With BaseLink, you can customise your project, get an instant quote, and book a time that works for you. We'll match you with a trusted carpenter who can bring your vision to life.
 
-#description
-[Get an instant quote and book your fitted wardrobes job.](/services/tradespeople/quote?selection=carpenter&task=fitted-wardrobes)
-
 ::
 
 ---

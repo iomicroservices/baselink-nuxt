@@ -180,9 +180,6 @@ Carpenters can fill and seal gaps for a secure, weather-tight finish. Repairs to
 #description
 Priming, painting, or staining can be done for a polished look. If needed, draught-proofing upgrades can also be added to improve insulation and energy efficiency.
 
-#description
-[Get an instant quote and book your window fitting job.](/services/tradespeople/quote?selection=carpenter&task=window-frames-sills)
-
 ::
 
 ---

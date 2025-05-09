@@ -195,9 +195,6 @@ Skirting board fitting, threshold strip installation, and other finishing touche
 #description
 With BaseLink, you get an instant quote, flexible scheduling, and a trusted local expert to carry out the work. Every detail is handled to ensure quality results from the ground up.
 
-#description
-[Get an instant quote and book your flooring job.](/services/tradespeople/quote?selection=carpenter&task=flooring-installation-repair)
-
 ::
 
 ---

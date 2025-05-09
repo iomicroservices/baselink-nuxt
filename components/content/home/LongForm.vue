@@ -2,7 +2,15 @@
 interface Props {
     title?: string
     description?: string
-}
+};
+
+const { getStarted, route, job } = useGetStarted();
+
+const quoteMessage = computed(() => {
+    return route.params.category === 'commercial-cleaning'
+        ? 'Request a quote today'
+        : `Get an instant quote and book your ${job} today`;
+});
 
 defineProps<Props>()
 
@@ -15,10 +23,17 @@ defineProps<Props>()
                 {{ title || "Default long form title" }}
             </ContentSlot>
         </h2>
-        <div class="md:max-w-[75%] prose-a:text-primary-500 dark:prose-a:text-primary-400 prose-a:font-semibold hover:prose-a:underline">
+        <div
+            class="md:max-w-[75%] prose-a:text-primary-500 dark:prose-a:text-primary-400 prose-a:font-semibold hover:prose-a:underline">
             <ContentSlot name="description">
                 {{ description || "Default long form description" }}
             </ContentSlot>
         </div>
+        <p>
+            <NuxtLink class="md:max-w-[75%] text-primary-500 dark:text-primary-400 font-semibold hover:underline"
+                :to='getStarted'>
+                What are you waiting for? {{ quoteMessage }}
+            </NuxtLink>
+        </p>
     </section>
 </template>

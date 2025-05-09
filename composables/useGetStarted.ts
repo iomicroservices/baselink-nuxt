@@ -3,6 +3,19 @@
 export function useGetStarted() {
     const route = useRoute();
 
+    const job = computed(() => {
+        const category = route.params.category;
+        if (category === 'home-cleaning' || category === 'commercial-cleaning' || category === 'single-visit-cleaning') {
+            return 'clean';
+        } else if (category === 'tradespeople') {
+            return 'job';
+        } else if (category === 'mobile-car-wash') {
+            return 'car wash';
+        } else {
+            return 'job';
+        }
+    });
+
     const getStarted = computed(() => {
         const queryParams = new URLSearchParams();
 
@@ -28,6 +41,7 @@ export function useGetStarted() {
 
     return {
         getStarted,
-        route
+        route,
+        job
     };
 }

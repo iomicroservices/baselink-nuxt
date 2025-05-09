@@ -204,9 +204,6 @@ Materials include timber, steel, composite, and aluminium, each offering a diffe
 #description
 With BaseLink, you can customise the job, get an instant quote, and book at a time that suits you. We’ll connect you with a reliable local expert who can bring your project to life.
 
-#description
-[Get an instant quote and book your garage gating job.](/services/tradespeople/quote?selection=carpenter&task=garage-doors-gates)
-
 ::
 
 ---

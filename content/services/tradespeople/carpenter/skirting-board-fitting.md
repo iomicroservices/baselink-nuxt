@@ -180,9 +180,6 @@ Carpenters can fill gaps, seal joins, and scribe boards to fit uneven walls. Pai
 #description
 Once everything is in place, the workspace is tidied and the installation is checked for quality. With BaseLink, you can customise your request and get connected with a reliable local expert in minutes.
 
-#description
-[Get an instant quote and book your skirting board fitting job.](/services/tradespeople/quote?selection=carpenter&task=skirting-board-fitting)
-
 ::
 
 ---

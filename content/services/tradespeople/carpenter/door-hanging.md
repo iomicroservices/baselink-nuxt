@@ -190,9 +190,6 @@ If needed, providers can make minor frame adjustments or repairs to support the 
 #description
 Once the door is fitted, the area is tidied and all work is double-checked for quality. With BaseLink, you get reliable service and a local expert who gets the job done right.
 
-#description
-[Get an instant quote and book your dorr hanging job.](/services/tradespeople/quote?selection=carpenter&task=door-hanging)
-
 ::
 
 ---

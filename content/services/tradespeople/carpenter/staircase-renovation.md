@@ -203,9 +203,6 @@ Carpenters can eliminate squeaks, add cladding, or remove and replace stair carp
 #description
 If safety is a concern, upgrades can be made to improve grip and stability. Custom design features can also be included to help your staircase suit your home perfectly.
 
-#description
-[Get an instant quote and book your staircase renovation job.](/services/tradespeople/quote?selection=carpenter&task=staircase-renovation)
-
 ::
 
 ---

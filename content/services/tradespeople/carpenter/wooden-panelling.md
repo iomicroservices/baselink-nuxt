@@ -193,15 +193,13 @@ Panelling is then installed securely, with the option to add decorative trim or 
 #description
 Custom features can be included to match your space and style. Once complete, the area is tidied and checked to ensure everything meets a high standard.
 
-#description
-[Get an instant quote and book your wooden panelling job.](/services/tradespeople/quote?selection=carpenter&task=wooden-panelling)
 ::
 
 ---
 
 ::category
 #title
-Find housekeepers and tradespeople {{$doc.location}}
+Find housekeepers and tradespeople{{$doc.location}}
 ::
 
 ---
