@@ -11,8 +11,8 @@ withDefaults(defineProps<Props>(), {
     title: 'Default title prop',
     description: 'Default description prop',
     alt: 'Default alt prop',
-    ogImage: '/blogs-img/blog.jpg',
-    darkImage: '/blogs-img/blog.jpg',
+    ogImage: '/images/blogs-img/blog.jpg',
+    darkImage: '/images/blogs-img/blog.jpg',
 })
 </script>
 

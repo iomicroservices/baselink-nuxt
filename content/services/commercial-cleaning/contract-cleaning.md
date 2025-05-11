@@ -5,8 +5,8 @@ description: "Flexible cleaning contracts for offices and commercial spaces"
 category: "commercial-cleaning"
 subcategory: "contract-cleaning"
 task: "contract-cleaning"
-image: "/commercial-cleaning/contract-cleaning.webp"
-ogImage: "/commercial-cleaning/contract-cleaning.webp"
+image: "/images/commercial-cleaning/contract-cleaning.webp"
+ogImage: "/images/commercial-cleaning/contract-cleaning.webp"
 colour: "yellow"
 pathtxt: "Contract cleaning"
 published: true
@@ -25,7 +25,7 @@ Flexible cleaning schedules ensure that your office, retail space, or commercial
 #image
     ::pictures
     #right
-    ![BaseLink offers a reliable contract cleaning service](/commercial-cleaning/contract-cleaning.webp)
+    ![BaseLink offers a reliable contract cleaning service](/images/commercial-cleaning/contract-cleaning.webp)
     ::
 ::
 

@@ -5,8 +5,8 @@ description: "Exterior wash, interior and upholstery cleaning"
 category: "mobile-car-wash"
 subcategory: "mini-car-valet"
 task: "mini-car-valet"
-image: "/mobile-car-wash/mini-car-valet.webp"
-ogImage: "/mobile-car-wash/mini-car-valet.webp"
+image: "/images/mobile-car-wash/mini-car-valet.webp"
+ogImage: "/images/mobile-car-wash/mini-car-valet.webp"
 colour: "red"
 pathtxt: "Mini car valet"
 published: true
@@ -25,7 +25,7 @@ Short on time? Our mini car valet gives your car a quick but thorough clean, ins
 #image
     ::pictures
     #right
-    ![BaseLink offers local mobile mini car valet service](/mobile-car-wash/mini-car-valet.webp)
+    ![BaseLink offers local mobile mini car valet service](/images/mobile-car-wash/mini-car-valet.webp)
     ::
 ::
 

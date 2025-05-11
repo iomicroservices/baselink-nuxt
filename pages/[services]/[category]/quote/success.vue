@@ -9,11 +9,11 @@
                     <div class="max-w-2xl mx-auto text-center items-center">
 
                         <!-- hero image section START -->
-                        <NuxtImg src="/commercial-cleaning/thank-you-light.png"
+                        <NuxtImg src="/images/commercial-cleaning/thank-you-light.png"
                             alt="Quick commercial cleaning quote with baselink.uk" width="250"
                             class="mb-5 mx-auto transition-opacity dark:opacity-0" format="webp" />
 
-                        <NuxtImg src="/commercial-cleaning/thank-you-dark.png"
+                        <NuxtImg src="/images/commercial-cleaning/thank-you-dark.png"
                             alt="Quick commercial cleaning quote with baselink.uk" width="250"
                             class="mb-5 mx-auto absolute top-0 left-1/2 -translate-x-1/2 transition-opacity opacity-0 dark:opacity-100"
                             format="webp" />

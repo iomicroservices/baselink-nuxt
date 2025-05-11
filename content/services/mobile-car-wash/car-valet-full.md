@@ -5,8 +5,8 @@ description: "Complete service including waxing, polishing, and upholstery clean
 category: "mobile-car-wash"
 subcategory: "full-car-valet"
 task: "full-car-valet"
-image: "/mobile-car-wash/full-car-valet.webp"
-ogImage: "/mobile-car-wash/full-car-valet.webp"
+image: "/images/mobile-car-wash/full-car-valet.webp"
+ogImage: "/images/mobile-car-wash/full-car-valet.webp"
 colour: "red"
 pathtxt: "Full car valet"
 published: true
@@ -25,7 +25,7 @@ Treat your car to a complete refresh. From exterior hand washing and polishing t
 #image
     ::pictures
     #right
-    ![BaseLink offers local mobile full car valet service](/mobile-car-wash/full-car-valet.webp)
+    ![BaseLink offers local mobile full car valet service](/images/mobile-car-wash/full-car-valet.webp)
     ::
 ::
 

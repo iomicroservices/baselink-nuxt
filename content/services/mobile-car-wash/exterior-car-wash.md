@@ -5,8 +5,8 @@ description: "A thorough hand wash of the car's exterior to remove dirt, dust, a
 category: "mobile-car-wash"
 subcategory: "exterior-car-wash"
 task: "exterior-car-wash"
-image: "/mobile-car-wash/exterior-car-wash.webp"
-ogImage: "/mobile-car-wash/exterior-car-wash.webp"
+image: "/images/mobile-car-wash/exterior-car-wash.webp"
+ogImage: "/images/mobile-car-wash/exterior-car-wash.webp"
 colour: "red"
 pathtxt: "Exterior car wash"
 published: true
@@ -25,7 +25,7 @@ Keep your car looking its best with our thorough exterior car wash{{ $doc.locati
 #image
     ::pictures
     #right
-    ![BaseLink offers local mobile exterior car wash service](/mobile-car-wash/exterior-car-wash.webp)
+    ![BaseLink offers local mobile exterior car wash service](/images/mobile-car-wash/exterior-car-wash.webp)
     ::
 ::
 

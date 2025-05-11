@@ -5,8 +5,8 @@ description: "Remove grease, dirt, and grime while protecting engine bay compone
 category: "mobile-car-wash"
 subcategory: "engine-bay-cleaning"
 task: "engine-bay-cleaning"
-image: "/mobile-car-wash/engine-bay-cleaning.webp"
-ogImage: "/mobile-car-wash/engine-bay-cleaning.webp"
+image: "/images/mobile-car-wash/engine-bay-cleaning.webp"
+ogImage: "/images/mobile-car-wash/engine-bay-cleaning.webp"
 colour: "red"
 pathtxt: "Engine bay cleaning"
 published: true
@@ -25,7 +25,7 @@ Give your engine the attention it deserves. We carefully remove dirt, grease, an
 #image
     ::pictures
     #right
-    ![BaseLink offers local mobile engine bay cleaning service](/mobile-car-wash/engine-bay-cleaning.webp)
+    ![BaseLink offers local mobile engine bay cleaning service](/images/mobile-car-wash/engine-bay-cleaning.webp)
     ::
 ::
 

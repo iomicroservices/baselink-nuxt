@@ -25,7 +25,7 @@ const formattedData = computed(() => {
             text: services.description || 'no-feature',
             path: services._path || '#',
             pathtxt: services.pathtxt || 'Read more',
-            image: services.image || '/blogs-img/blog.jpg',
+            image: services.image || '/images/blogs-img/blog.jpg',
         }
     }) || []
 })

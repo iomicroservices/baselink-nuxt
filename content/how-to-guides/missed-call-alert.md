@@ -2,8 +2,8 @@
 title: Missed Call Alert
 description: 'Never miss a lead: Receive emails with caller details for every missed call.'
 alt: 'Never miss a lead: Receive emails with caller details for every missed call.'
-image: /blogs-img/blog2.jpg
-ogImage: /blogs-img/blog2.jpg
+image: /images/blogs-img/blog2.jpg
+ogImage: /images/blogs-img/blog2.jpg
 colour: red
 pathtxt: Missed call alert
 svg: 

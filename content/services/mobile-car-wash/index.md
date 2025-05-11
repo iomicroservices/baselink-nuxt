@@ -5,8 +5,8 @@ description: "Thorough refurbishment of rims leaving them looking shiny and fres
 category: "mobile-car-wash"
 subcategory: "mobile-car-wash"
 task: "mobile-car-wash"
-image: "/mobile-car-wash/rim-refurbishment.webp"
-ogImage: "/mobile-car-wash/rim-refurbishment.webp"
+image: "/images/mobile-car-wash/rim-refurbishment.webp"
+ogImage: "/images/mobile-car-wash/rim-refurbishment.webp"
 colour: "red"
 pathtxt: "Mobile car wash"
 published: true
@@ -15,8 +15,8 @@ published: true
 ::hero-centered-top
 ---
 alt: Mobile car wash services provided by BaseLink
-ogImage: /mobile-car-wash/mobile-car-wash-light.png
-darkImage: /mobile-car-wash/mobile-car-wash-dark.png
+ogImage: /images/mobile-car-wash/mobile-car-wash-light.png
+darkImage: /images/mobile-car-wash/mobile-car-wash-dark.png
 dropdowns:
   - icon: 🚗
     text: We come to your home, office, or anywhere you need

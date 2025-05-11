@@ -4,8 +4,8 @@ description: "Nuisance call blocker: Say goodbye to unwanted calls with our
   Blocklist feature."
 alt: "Nuisance call blocker: Say goodbye to unwanted calls with our Blocklist
   feature."
-image: /blogs-img/blog2.jpg
-ogImage: /blogs-img/blog2.jpg
+image: /images/blogs-img/blog2.jpg
+ogImage: /images/blogs-img/blog2.jpg
 pathtxt: Blocklist
 colour: red
 svg: M64.142 102.96H39.24V78.522h24.903ZM39.24

@@ -5,8 +5,8 @@ description: "Thorough cleaning and quick turnarounds for seamless guest transit
 category: "commercial-cleaning"
 subcategory: "airbnb-rental-cleaning"
 task: "airbnb-rental-cleaning"
-image: "/commercial-cleaning/airbnb-rental-cleaning.webp"
-ogImage: "/commercial-cleaning/airbnb-rental-cleaning.webp"
+image: "/images/commercial-cleaning/airbnb-rental-cleaning.webp"
+ogImage: "/images/commercial-cleaning/airbnb-rental-cleaning.webp"
 colour: "yellow"
 pathtxt: "Airbnb rental cleaning"
 published: true
@@ -25,7 +25,7 @@ Quick turnovers to deep cleans, we ensure your Airbnb property{{ $doc.location }
 #image
     ::pictures
     #right
-    ![BaseLink offers professional single and regular Airbnb rental cleaning service](/commercial-cleaning/airbnb-rental-cleaning.webp)
+    ![BaseLink offers professional single and regular Airbnb rental cleaning service](/images/commercial-cleaning/airbnb-rental-cleaning.webp)
     ::
 ::
 

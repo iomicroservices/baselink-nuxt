@@ -48,7 +48,7 @@ Whether it’s a one-off job or ongoing property care, BaseLink delivers reliabl
 ![baselink gardener](/tradespeople/gardener/gardener.webp)
 
 #center
-![baselink commercial cleaner](/commercial-cleaning/office-cleaning.webp)
+![baselink commercial cleaner](/images/commercial-cleaning/office-cleaning.webp)
 
 #center
 ![baselink cctv installation](/tradespeople/network-engineer/cctv-installation.webp)

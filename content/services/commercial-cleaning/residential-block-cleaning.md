@@ -5,8 +5,8 @@ description: "Cleaning for reception areas, stairwells, lifts, walkways, and com
 category: "commercial-cleaning"
 subcategory: "residential-block-cleaning"
 task: "residential-block-cleaning"
-image: "/commercial-cleaning/residential-block-cleaning.webp"
-ogImage: "/commercial-cleaning/residential-block-cleaning.webp"
+image: "/images/commercial-cleaning/residential-block-cleaning.webp"
+ogImage: "/images/commercial-cleaning/residential-block-cleaning.webp"
 colour: "yellow"
 pathtxt: "Residential blocks cleaning"
 published: true
@@ -25,7 +25,7 @@ Ensure your residential block{{ $doc.location }} is always clean and welcoming. 
 #image
     ::pictures
     #right
-    ![BaseLink offers residential block cleaning services](/commercial-cleaning/residential-block-cleaning.webp)
+    ![BaseLink offers residential block cleaning services](/images/commercial-cleaning/residential-block-cleaning.webp)
     ::
 ::
 

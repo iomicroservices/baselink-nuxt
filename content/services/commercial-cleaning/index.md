@@ -5,7 +5,7 @@ description: "Thorough cleaning and quick turnarounds for seamless guest transit
 category: "commercial-cleaning"
 subcategory: "commercial-cleaning"
 task: "commercial-cleaning"
-image: "/blogs-img/blog.jpg"
+image: "/images/blogs-img/blog.jpg"
 ogImage: "ogimage"
 colour: "yellow"
 pathtxt: "Commercial cleaning"

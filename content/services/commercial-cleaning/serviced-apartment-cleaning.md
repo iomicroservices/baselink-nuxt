@@ -5,8 +5,8 @@ description: "Spotless cleaning and restocking to maintain premium serviced apar
 category: "commercial-cleaning"
 subcategory: "serviced-apartment-cleaning"
 task: "serviced-apartment-cleaning"
-image: "/commercial-cleaning/serviced-apartment-cleaning.webp"
-ogImage: "/commercial-cleaning/serviced-apartment-cleaning.webp"
+image: "/images/commercial-cleaning/serviced-apartment-cleaning.webp"
+ogImage: "/images/commercial-cleaning/serviced-apartment-cleaning.webp"
 colour: "yellow"
 pathtxt: "Serviced apartment cleaning"
 published: true
@@ -25,7 +25,7 @@ Keep your serviced apartments{{ $doc.location }} spotless with our high quality 
 #image
     ::pictures
     #right
-    ![BaseLink offers quality serviced apartment cleaning services](/commercial-cleaning/serviced-apartment-cleaning.webp)
+    ![BaseLink offers quality serviced apartment cleaning services](/images/commercial-cleaning/serviced-apartment-cleaning.webp)
     ::
 ::
 

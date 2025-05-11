@@ -1,7 +1,7 @@
 ---
 title: Terms of Service
 description: Mohana Ltd t/a BaseLink
-ogImage: /blogs-img/blog.jpg
+ogImage: /images/blogs-img/blog.jpg
 date: 7th May 2025
 published: true
 ---

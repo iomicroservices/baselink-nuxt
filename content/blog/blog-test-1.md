@@ -2,9 +2,9 @@
 title: TEST 1
 date: 26th Jan 2023
 description: In Nuxt3 project tailwind css intellisense doesn't seems to work properly. In this blog I will share a workaround to fix this issue.
-image: /blogs-img/blog2.jpg
+image: /images/blogs-img/blog2.jpg
 alt: How to fix tailwind intellisense in nuxt3 project
-ogImage: /blogs-img/blog2.jpg
+ogImage: /images/blogs-img/blog2.jpg
 tags: ['nuxt', 'tailwindcss']
 published: true
 ---

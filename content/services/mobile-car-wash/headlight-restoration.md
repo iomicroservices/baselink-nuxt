@@ -5,8 +5,8 @@ description: "Restoring the clarity of headlights that have become cloudy or yel
 category: "mobile-car-wash"
 subcategory: "headlight-restoration"
 task: "headlight-restoration"
-image: "/mobile-car-wash/headlight-restoration.webp"
-ogImage: "/mobile-car-wash/headlight-restoration.webp"
+image: "/images/mobile-car-wash/headlight-restoration.webp"
+ogImage: "/images/mobile-car-wash/headlight-restoration.webp"
 colour: "red"
 pathtxt: "Headlight restoration"
 published: true
@@ -25,7 +25,7 @@ Restore your headlights to their original clarity. Our mobile cleaners remove ox
 #image
     ::pictures
     #right
-    ![BaseLink offers local mobile headlight restoration service](/mobile-car-wash/headlight-restoration.webp)
+    ![BaseLink offers local mobile headlight restoration service](/images/mobile-car-wash/headlight-restoration.webp)
     ::
 ::
 

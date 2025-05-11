@@ -5,8 +5,8 @@ description: "Vacuuming, wiping surfaces, and sanitising the car’s interior "
 category: "mobile-car-wash"
 subcategory: "interior-car-cleaning"
 task: "interior-car-cleaning"
-image: "/mobile-car-wash/interior-car-cleaning.webp"
-ogImage: "/mobile-car-wash/interior-car-cleaning.webp"
+image: "/images/mobile-car-wash/interior-car-cleaning.webp"
+ogImage: "/images/mobile-car-wash/interior-car-cleaning.webp"
 colour: "red"
 pathtxt: "Interior car cleaning"
 published: true
@@ -25,7 +25,7 @@ Give your cars' interior the care it deserves. We deep clean upholstery and surf
 #image
     ::pictures
     #right
-    ![BaseLink offers local mobile interior car cleaning service](/mobile-car-wash/interior-car-cleaning.webp)
+    ![BaseLink offers local mobile interior car cleaning service](/images/mobile-car-wash/interior-car-cleaning.webp)
     ::
 ::
 

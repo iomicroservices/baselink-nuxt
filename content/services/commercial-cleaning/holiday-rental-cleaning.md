@@ -5,8 +5,8 @@ description: "Efficient cleaning and restocking to keep your holiday rental gues
 category: "commercial-cleaning"
 subcategory: "holiday-rental-cleaning"
 task: "holiday-rental-cleaning"
-image: "/commercial-cleaning/holiday-rental-cleaning.webp"
-ogImage: "/commercial-cleaning/holiday-rental-cleaning.webp"
+image: "/images/commercial-cleaning/holiday-rental-cleaning.webp"
+ogImage: "/images/commercial-cleaning/holiday-rental-cleaning.webp"
 colour: "yellow"
 pathtxt: "Holiday rental cleaning"
 published: true
@@ -25,7 +25,7 @@ Your holiday rental{{ $doc.location }} shines with our tailored cleaning service
 #image
     ::pictures
     #right
-    ![BaseLink offers the best holiday rental cleaning service](/commercial-cleaning/holiday-rental-cleaning.webp)
+    ![BaseLink offers the best holiday rental cleaning service](/images/commercial-cleaning/holiday-rental-cleaning.webp)
     ::
 ::
 

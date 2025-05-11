@@ -5,8 +5,8 @@ description: "Comprehensive service from desks to kitchens and high-touch surfac
 category: "commercial-cleaning"
 subcategory: "office-cleaning"
 task: "office-cleaning"
-image: "/commercial-cleaning/office-cleaning.webp"
-ogImage: "/commercial-cleaning/office-cleaning.webp"
+image: "/images/commercial-cleaning/office-cleaning.webp"
+ogImage: "/images/commercial-cleaning/office-cleaning.webp"
 colour: "yellow"
 pathtxt: "Office cleaning"
 published: true
@@ -25,7 +25,7 @@ Keep your office{{ $doc.location }} spotless with our tailored cleaning services
 #image
     ::pictures
     #right
-    ![BaseLink offers a professional office cleaning service](/commercial-cleaning/office-cleaning.webp)
+    ![BaseLink offers a professional office cleaning service](/images/commercial-cleaning/office-cleaning.webp)
     ::
 ::
 

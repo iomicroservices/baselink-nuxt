@@ -1,7 +1,13 @@
 export const usePathData = async () => {
-    const { params } = useRoute(); // Get the current route
+    const route = useRoute(); // Get the current route
     // Destructure and extract parameters from the route (category, subcategory, task, etc.)
-    const { services, category, subcategory, task, type, city, area } = params;
+    const { services, category, subcategory, task, type, city, area } = route.params;
+
+    // Only run this logic if the path starts with /services
+    if (!route.path.startsWith('/services')) return { pathData: null };
+
+    // // Only run this logic if the `services` param is exactly "services"
+    // if (services !== 'services') return { pathData: null };
 
     // Build the queryUrl dynamically based on url params
     const queryUrl = [

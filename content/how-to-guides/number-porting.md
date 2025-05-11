@@ -2,8 +2,8 @@
 title: Number porting
 description: 'Bring your number home: Effortlessly transfer your existing number to eLandline.'
 alt: "Bring your number home: Effortlessly transfer your existing number to eLandline."
-image: /blogs-img/blog2.jpg
-ogImage: /blogs-img/blog2.jpg
+image: /images/blogs-img/blog2.jpg
+ogImage: /images/blogs-img/blog2.jpg
 colour: gray
 pathtxt: Number porting
 svg: 

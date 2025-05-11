@@ -17,6 +17,8 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
+      SUPABASE_URL: process.env.SUPABASE_URL,
+      SUPABASE_KEY: process.env.SUPABASE_KEY,
     },
     DATABASE_URL: process.env.DATABASE_URL,
     DATABASE_TOKEN: process.env.DATABASE_TOKEN,
@@ -68,7 +70,12 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     '@nuxt/ui',
     '@stefanobartoletti/nuxt-social-share',
+    '@nuxtjs/supabase',
   ],
+
+  supabase: {
+    redirect: false,
+  },
 
   socialShare: {
     baseUrl: 'https://baselink.uk',

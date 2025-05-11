@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const user = useSupabaseUser();
+
 const { getStarted, route } = useGetStarted();
 
 const open = ref(false);
@@ -76,13 +78,19 @@ const navigation = computed(() => [
                 <div name="buttons"
                     class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
 
-                    <div class="flex items-center space-x-3 text-sm">
+                    <div class="flex items-center space-x-3 text-sm h-8">
                         <NuxtLink v-if="route.path.startsWith('/services')"
                             class="hidden sm:flex btn-secondary h-8 px-3" to="tel:03330388288">
                             03330 388 288
                         </NuxtLink>
-                        <NuxtLink v-else class="hidden sm:flex btn-secondary h-8 px-3" to="/">
+                        <NuxtLink v-else-if="!user" class="hidden sm:flex btn-secondary h-8 px-3" to="/auth/login">
                             Login
+                        </NuxtLink>
+                        <NuxtLink v-if="user && !route.path.startsWith('/services')" to="/account" class="h-8 w-8">
+                            <UAvatar chip-color="green" chip-text="" chip-position="top-right" size="sm"
+                                src="https://avatars.githubusercontent.com/u/739984?v=4" icon="i-heroicons-user"
+                                alt="Avatar">
+                            </UAvatar>
                         </NuxtLink>
                         <NuxtLink class="hidden sm:flex btn-primary h-8 px-3" :to="getStarted">
                             Get started
@@ -110,16 +118,6 @@ const navigation = computed(() => [
                             </template>
                         </ClientOnly>
                     </div>
-
-                    <!-- Dropdown menu, show/hide based on menu state.
-                    Entering: "transition ease-out duration-100"
-              From: "transform opacity-0 scale-95"
-              To: "transform opacity-100 scale-100"
-            Leaving: "transition ease-in duration-75"
-              From: "transform opacity-100 scale-100"
-              To: "transform opacity-0 scale-95"
-          -->
-
                 </div>
             </div>
         </div>
@@ -139,8 +137,8 @@ const navigation = computed(() => [
                         to="tel:03330388288">
                         03330 388 288
                     </NuxtLink>
-                    <NuxtLink v-else class="w-full btn-secondary h-8 px-3" to="/">
-                        Login
+                    <NuxtLink class="w-full btn-secondary h-8 px-3" :to="user ? '/account' : '/auth/login'">
+                        {{ user ? 'Account' : 'Login' }}
                     </NuxtLink>
                     <NuxtLink class="w-full btn-primary h-8 px-3" :to="getStarted">
                         Get started

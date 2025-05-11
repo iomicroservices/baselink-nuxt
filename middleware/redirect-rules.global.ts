@@ -3,9 +3,6 @@ export default defineNuxtRouteMiddleware((to) => {
 
     const { path, query, hash } = to
 
-    // all below to.path values replaced to just path based on above
-
-    // Check if the path includes '/local-'
     if (path === '/') {
         return; // No further action needed
     }
@@ -28,7 +25,7 @@ export default defineNuxtRouteMiddleware((to) => {
     // Extract parameters
     const { type, city, area } = to.params;
 
-    if (path.includes('/local-')) { // Check if the path includes 'local-'
+    if (path.includes('/local-')) { // Check if the path includes 'local-' and ensure correct url structure
         if (
             !type || // Check if [type] param is missing
             !['city', 'region', 'area'].includes(type as string) || // Check if [type] param is invalid

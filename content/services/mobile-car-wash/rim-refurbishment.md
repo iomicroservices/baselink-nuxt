@@ -5,8 +5,8 @@ description: "Thorough refurbishment of rims leaving them looking shiny and fres
 category: "mobile-car-wash"
 subcategory: "rim-refurbishment"
 task: "rim-refurbishment"
-image: "/mobile-car-wash/rim-refurbishment.webp"
-ogImage: "/mobile-car-wash/Rim refurbishment.webp"
+image: "/images/mobile-car-wash/rim-refurbishment.webp"
+ogImage: "/images/mobile-car-wash/Rim refurbishment.webp"
 colour: "red"
 pathtxt: "Rim refurbishment"
 published: true
@@ -25,7 +25,7 @@ Restore the shine and condition of your wheels. Our mobile specialists fix scrat
 #image
     ::pictures
     #right
-    ![BaseLink offers local mobile rim refurbishment service](/mobile-car-wash/rim-refurbishment.webp)
+    ![BaseLink offers local mobile rim refurbishment service](/images/mobile-car-wash/rim-refurbishment.webp)
     ::
 ::
 

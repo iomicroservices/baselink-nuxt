@@ -2,8 +2,8 @@
 title: Welcome announcement
 description: 'Professional greetings: Every caller receives a warm, professional welcome.'
 alt: 'Professional greetings: Every caller receives a warm, professional welcome.'
-image: /blogs-img/blog2.jpg
-ogImage: /blogs-img/blog2.jpg
+image: /images/blogs-img/blog2.jpg
+ogImage: /images/blogs-img/blog2.jpg
 colour: blue
 pathtxt: Welcome announcement
 svg: 

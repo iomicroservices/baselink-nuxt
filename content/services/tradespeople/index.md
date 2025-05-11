@@ -5,8 +5,8 @@ description: "Thorough refurbishment of rims leaving them looking shiny and fres
 category: "tradespeople"
 subcategory: "tradespeople"
 task: "tradespeople"
-image: "/mobile-car-wash/rim-refurbishment.webp"
-ogImage: "/mobile-car-wash/rim-refurbishment.webp"
+image: "/images/mobile-car-wash/rim-refurbishment.webp"
+ogImage: "/images/mobile-car-wash/rim-refurbishment.webp"
 colour: "red"
 pathtxt: "Tradespeople"
 published: true
@@ -16,8 +16,8 @@ published: true
 ::hero-centered-top
 ---
 alt: Default alt prop
-ogImage: /mobile-car-wash/mobile-car-wash-light.png
-darkImage: /mobile-car-wash/mobile-car-wash-dark.png
+ogImage: /images/mobile-car-wash/mobile-car-wash-light.png
+darkImage: /images/mobile-car-wash/mobile-car-wash-dark.png
 dropdowns:
   - icon: 🛠️
     text: Book highly skilled and rated tradespeople for repairs, installations and upgrades
