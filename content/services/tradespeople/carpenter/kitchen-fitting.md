@@ -4,8 +4,8 @@ alt: "Installing custom kitchen units, worktops, and cabinetry for a seamless de
 description: "Installing custom kitchen units, worktops, and cabinetry for a seamless design"
 category: "carpenter"
 subcategory: "kitchen-fitting"
-image: "/tradespeople/carpenter/kitchen-fitting.webp"
-ogImage: "/tradespeople/carpenter/kitchen-fitting.webp"
+image: "/images/tradespeople/carpenter/kitchen-fitting.webp"
+ogImage: "/images/tradespeople/carpenter/kitchen-fitting.webp"
 colour: "blue"
 pathtxt: "Kitchen fitting"
 published: true
@@ -24,7 +24,7 @@ Transform your kitchen with our expert design and fitting services provided by l
 #image
     ::pictures
     #right
-    ![BaseLink offers local carpenters for kitchen fitting services](/tradespeople/carpenter/kitchen-fitting.webp)
+    ![BaseLink offers local carpenters for kitchen fitting services](/images/tradespeople/carpenter/kitchen-fitting.webp)
     ::
 ::
 

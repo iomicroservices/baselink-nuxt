@@ -4,8 +4,8 @@ alt: "Servicing to ensure your boiler runs efficiently and safely throughout the
 description: "Servicing to ensure your boiler runs efficiently and safely throughout the year"
 category: "gas-heating-engineer"
 subcategory: "boiler-service"
-image: "/tradespeople/gas-heating-engineer/boiler-service.webp"
-ogImage: "/tradespeople/gas-heating-engineer/boiler-service.webp"
+image: "/images/tradespeople/gas-heating-engineer/boiler-service.webp"
+ogImage: "/images/tradespeople/gas-heating-engineer/boiler-service.webp"
 colour: "blue"
 pathtxt: "Boiler service"
 published: true
@@ -24,7 +24,7 @@ Thorough checks and maintenance performed by a local Gas Safe registered enginee
 #image
     ::pictures
     #right
-    ![BaseLink offers local gas and heating engineers for boiler annual servicing](/tradespeople/gas-heating-engineer/boiler-service.webp)
+    ![BaseLink offers local gas and heating engineers for boiler annual servicing](/images/tradespeople/gas-heating-engineer/boiler-service.webp)
     ::
 ::
 

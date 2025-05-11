@@ -15,8 +15,8 @@ published: true
 ::hero-centered-top
 ---
 alt: Commercial cleaning services provided by BaseLink
-ogImage: /commercial-cleaning/commercial-cleaning-light.png
-darkImage: /commercial-cleaning/commercial-cleaning-dark.png
+ogImage: /images/commercial-cleaning/commercial-cleaning-light.png
+darkImage: /images/commercial-cleaning/commercial-cleaning-dark.png
 dropdowns:
   - icon: 🧽
     text: Custom cleaning plans tailored to your business needs

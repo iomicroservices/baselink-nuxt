@@ -4,8 +4,8 @@ alt: "Carefully transporting furniture to your new home or office with minimal h
 description: "Carefully transporting furniture to your new home or office with minimal hassle"
 category: "removals"
 subcategory: "furniture-removals"
-image: "/tradespeople/removals/furniture-removals.webp"
-ogImage: "/tradespeople/removals/furniture-removals.webp"
+image: "/images/tradespeople/removals/furniture-removals.webp"
+ogImage: "/images/tradespeople/removals/furniture-removals.webp"
 colour: "blue"
 pathtxt: "Furniture removals"
 published: true
@@ -24,7 +24,7 @@ Moving furniture{{ $doc.location }} made easy. Whether it’s a single piece or 
 #image
     ::pictures
     #right
-    ![BaseLink offers local furniture removals service](/tradespeople/removals/furniture-removals.webp)
+    ![BaseLink offers local furniture removals service](/images/tradespeople/removals/furniture-removals.webp)
     ::
 ::
 

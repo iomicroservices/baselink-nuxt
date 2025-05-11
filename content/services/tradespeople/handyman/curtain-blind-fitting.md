@@ -4,8 +4,8 @@ alt: "Hanging curtains and blinds for a perfect, stylish fit"
 description: "Hanging curtains and blinds for a perfect, stylish fit"
 category: "handyman"
 subcategory: "curtain-blind-fitting"
-image: "/tradespeople/handyman/curtain-blind-fitting.webp"
-ogImage: "/tradespeople/handyman/curtain-blind-fitting.webp"
+image: "/images/tradespeople/handyman/curtain-blind-fitting.webp"
+ogImage: "/images/tradespeople/handyman/curtain-blind-fitting.webp"
 colour: "blue"
 pathtxt: "Curtain and blind fitting"
 published: true
@@ -24,7 +24,7 @@ Enhance your space with perfectly fitted curtains and blinds. Our expert handyme
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced handymen for fitting curtains and blinds](/tradespeople/handyman/curtain-blind-fitting.webp)
+    ![BaseLink offers experienced handymen for fitting curtains and blinds](/images/tradespeople/handyman/curtain-blind-fitting.webp)
     ::
 ::
 

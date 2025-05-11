@@ -5,8 +5,8 @@ description: "Revive your furniture with expert upholstery cleaning"
 category: "home-cleaning"
 subcategory: "single-visit-cleaning"
 task: "upholstery-cleaning"
-image: "/home-cleaning/single-visit-cleaning/upholstery-cleaning.webp"
-ogImage: "/home-cleaning/single-visit-cleaning/upholstery-cleaning.webp"
+image: "/images/home-cleaning/single-visit-cleaning/upholstery-cleaning.webp"
+ogImage: "/images/home-cleaning/single-visit-cleaning/upholstery-cleaning.webp"
 colour: "green"
 pathtxt: "Upholstery cleaning"
 published: true
@@ -25,7 +25,7 @@ Bring your furniture back to life with our thorough upholstery cleaning service{
 #image
     ::pictures
     #right
-    ![BaseLink offers local upholstery cleaning services](/home-cleaning/single-visit-cleaning/upholstery-cleaning.webp)
+    ![BaseLink offers local upholstery cleaning services](/images/home-cleaning/single-visit-cleaning/upholstery-cleaning.webp)
     ::
 ::
 

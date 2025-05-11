@@ -5,8 +5,8 @@ description: "Reliable regular cleaning service with flexible online bookings"
 category: "home-cleaning"
 subcategory: "regular-cleaning"
 task: "regular-cleaning"
-image: "/home-cleaning/regular-cleaning.webp"
-ogImage: "/home-cleaning/regular-cleaning.webp"
+image: "/images/home-cleaning/regular-cleaning.webp"
+ogImage: "/images/home-cleaning/regular-cleaning.webp"
 colour: "green"
 pathtxt: "Regular cleaning"
 published: true
@@ -25,7 +25,7 @@ Experienced and vetted cleaners{{ $doc.location }}. From dusting and vacuuming t
 #image
     ::pictures
     #right
-    ![BaseLink offers regular home cleaning service](/home-cleaning/regular-cleaning.webp)
+    ![BaseLink offers regular home cleaning service](/images/home-cleaning/regular-cleaning.webp)
     ::
 ::
 

@@ -4,8 +4,8 @@ alt: "Safe removal, packaging and transport of office equipment and furniture"
 description: "Safe removal, packaging and transport of office equipment and furniture"
 category: "removals"
 subcategory: "office-commercial-removals"
-image: "/tradespeople/removals/office-commercial-removals.webp"
-ogImage: "/tradespeople/removals/office-commercial-removals.webp"
+image: "/images/tradespeople/removals/office-commercial-removals.webp"
+ogImage: "/images/tradespeople/removals/office-commercial-removals.webp"
 colour: "blue"
 pathtxt: "Office and commercial removals"
 published: true
@@ -24,7 +24,7 @@ Need to relocate your office or commercial space? Our team offers fast, secure r
 #image
     ::pictures
     #right
-    ![BaseLink offers local office and commercial removals service](/tradespeople/removals/office-commercial-removals.webp)
+    ![BaseLink offers local office and commercial removals service](/images/tradespeople/removals/office-commercial-removals.webp)
     ::
 ::
 

@@ -5,8 +5,8 @@ description: "Fitting decorative or functional wood panelling for walls and ceil
 category: "tradespeople"
 subcategory: "carpenter"
 task: "wooden-panelling"
-image: "/tradespeople/carpenter/wooden-panelling.webp"
-ogImage: "/tradespeople/carpenter/wooden-panelling.webp"
+image: "/images/tradespeople/carpenter/wooden-panelling.webp"
+ogImage: "/images/tradespeople/carpenter/wooden-panelling.webp"
 colour: "blue"
 pathtxt: "Wooden panelling"
 published: true
@@ -25,7 +25,7 @@ Add warmth and character to your space with our bespoke wooden panelling service
 #image
     ::pictures
     #right
-    ![BaseLink offers local carpenters for wooden panelling services](/tradespeople/carpenter/wooden-panelling.webp)
+    ![BaseLink offers local carpenters for wooden panelling services](/images/tradespeople/carpenter/wooden-panelling.webp)
     ::
 ::
 

@@ -1,8 +1,8 @@
 ---
 title: A bit about BaseLink
 description: Hiya, we're BaseLink - the UK's trusted digital-first property services provider
-image: /general/about-baselink.png
-ogImage: /general/about-baselink.png
+image: /images/general/about-baselink.png
+ogImage: /images/general/about-baselink.png
 alt: Find out more about BaseLink property services for your home and business in the UK
 published: true
 ---
@@ -22,10 +22,10 @@ We’re a **digitally powered, customer-focused service platform** built to save
 ::pictures
 
 #left
-![Hire a local housekeeper through BaseLink](/home-cleaning/housekeeping.webp)
+![Hire a local housekeeper through BaseLink](/images/home-cleaning/housekeeping.webp)
 
 #right
-![Hire a local painter or decorator through BaseLink](/tradespeople/painter-decorator/exterior-painting.webp)
+![Hire a local painter or decorator through BaseLink](/images/tradespeople/painter-decorator/exterior-painting.webp)
 
 ::
 
@@ -45,16 +45,16 @@ Whether it’s a one-off job or ongoing property care, BaseLink delivers reliabl
 ::pictures
 
 #left
-![baselink gardener](/tradespeople/gardener/gardener.webp)
+![baselink gardener](/images/tradespeople/gardener/gardener.webp)
 
 #center
 ![baselink commercial cleaner](/images/commercial-cleaning/office-cleaning.webp)
 
 #center
-![baselink cctv installation](/tradespeople/network-engineer/cctv-installation.webp)
+![baselink cctv installation](/images/tradespeople/network-engineer/cctv-installation.webp)
 
 #right
-![baselink carpenter](/tradespeople/carpenter/carpenter.webp)
+![baselink carpenter](/images/tradespeople/carpenter/carpenter.webp)
 
 ::
 
@@ -73,13 +73,13 @@ Our goal is to become your go-to platform for all things property — from every
 ::pictures
 
 #left
-![Hire a local cleaner through BaseLink](/home-cleaning/regular-cleaning.webp)
+![Hire a local cleaner through BaseLink](/images/home-cleaning/regular-cleaning.webp)
 
 #center
-![Hire a local locksmith through BaseLink](/tradespeople/locksmith/locksmith.webp)
+![Hire a local locksmith through BaseLink](/images/tradespeople/locksmith/locksmith.webp)
 
 #right
-![Hire a local network engineer through BaseLink](/tradespeople/network-engineer/network-engineer.webp)
+![Hire a local network engineer through BaseLink](/images/tradespeople/network-engineer/network-engineer.webp)
 
 ::
 

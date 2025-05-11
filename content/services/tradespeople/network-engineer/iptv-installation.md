@@ -4,8 +4,8 @@ alt: "Setting up IPTV systems for high-quality digital television services"
 description: "Setting up IPTV systems for high-quality digital television services"
 category: "network-engineer"
 subcategory: "iptv-installation"
-image: "/tradespeople/network-engineer/iptv-installation.webp"
-ogImage: "/tradespeople/network-engineer/iptv-installation.webp"
+image: "/images/tradespeople/network-engineer/iptv-installation.webp"
+ogImage: "/images/tradespeople/network-engineer/iptv-installation.webp"
 colour: "blue"
 pathtxt: "IPTV installation"
 published: true
@@ -24,7 +24,7 @@ Enhance your TV viewing experience with professional IPTV installation{{ $doc.lo
 #image
     ::pictures
     #right
-    ![BaseLink offers local network engineers for IPTV installation services](/tradespeople/network-engineer/iptv-installation.webp)
+    ![BaseLink offers local network engineers for IPTV installation services](/images/tradespeople/network-engineer/iptv-installation.webp)
     ::
 ::
 

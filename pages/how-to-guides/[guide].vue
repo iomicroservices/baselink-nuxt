@@ -12,9 +12,9 @@ const data = computed<HowToGuide>(() => {
   return {
     title: articles.value?.title || 'no-title available',
     description: articles.value?.description || 'no-description available',
-    image: articles.value?.image || '/not-found.jpg',
+    image: articles.value?.image || '/images/not-found.jpg',
     alt: articles.value?.alt || 'no-alt-data',
-    ogImage: articles.value?.ogImage || '/not-found.jpg',
+    ogImage: articles.value?.ogImage || '/images/not-found.jpg',
     colour: articles.value?.colour || 'no-colour-available',
     pathtxt: articles.value?.pathtxt || 'Read more',
     svg: articles.value?.svg || 'no-svg',

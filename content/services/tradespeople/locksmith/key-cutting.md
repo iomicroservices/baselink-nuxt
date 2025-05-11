@@ -4,8 +4,8 @@ alt: "Precision key cutting for duplicates and replacements of all types"
 description: "Precision key cutting for duplicates and replacements of all types"
 category: "locksmith"
 subcategory: "key-cutting"
-image: "/tradespeople/locksmith/key-cutting.webp"
-ogImage: "/tradespeople/locksmith/key-cutting.webp"
+image: "/images/tradespeople/locksmith/key-cutting.webp"
+ogImage: "/images/tradespeople/locksmith/key-cutting.webp"
 colour: "blue"
 pathtxt: "Key cutting"
 published: true
@@ -23,7 +23,7 @@ Need extra keys? Our key cutting service{{ $doc.location }} provides accurate, h
 #image
     ::pictures
     #right
-    ![BaseLink offers local locksmiths for key cutting services](/tradespeople/locksmith/key-cutting.webp)
+    ![BaseLink offers local locksmiths for key cutting services](/images/tradespeople/locksmith/key-cutting.webp)
     ::
 ::
 

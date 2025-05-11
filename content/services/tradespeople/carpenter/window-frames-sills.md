@@ -4,8 +4,8 @@ alt: "Fitting, repairing or replacing wooden window frames and sills"
 description: "Repairing or replacing wooden window frames and sills"
 category: "carpenter"
 subcategory: "window-frames-sills"
-image: "/tradespeople/carpenter/window-frames-sills.webp"
-ogImage: "/tradespeople/carpenter/window-frames-sills.webp"
+image: "/images/tradespeople/carpenter/window-frames-sills.webp"
+ogImage: "/images/tradespeople/carpenter/window-frames-sills.webp"
 colour: "blue"
 pathtxt: "Window frames and sills"
 published: true
@@ -24,7 +24,7 @@ Whether you need new installations or repairs, we provide durable, high-quality 
 #image
     ::pictures
     #right
-    ![BaseLink offers local carpenters for window frames and sills installation services](/tradespeople/carpenter/window-frames-sills.webp)
+    ![BaseLink offers local carpenters for window frames and sills installation services](/images/tradespeople/carpenter/window-frames-sills.webp)
     ::
 ::
 

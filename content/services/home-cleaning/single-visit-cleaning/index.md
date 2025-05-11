@@ -5,8 +5,8 @@ description: "Thorough cleaning and quick turnarounds for seamless guest transit
 category: "home-cleaning"
 subcategory: "single-visit-cleaning"
 task: "single-visit-cleaning"
-image: "/home-cleaning/single-visit-cleaning/single-visit-cleaning.webp"
-ogImage: "/home-cleaning/single-visit-cleaning/single-visit-cleaning.webp"
+image: "/images/home-cleaning/single-visit-cleaning/single-visit-cleaning.webp"
+ogImage: "/images/home-cleaning/single-visit-cleaning/single-visit-cleaning.webp"
 colour: "green"
 pathtxt: "Single visit cleaning"
 published: true
@@ -16,8 +16,8 @@ published: true
 ::hero-centered-top
 ---
 alt: Single visit home cleaning service
-ogImage: /home-cleaning/single-visit-cleaning/single-visit-cleaning-light.png
-darkImage: /home-cleaning/single-visit-cleaning/single-visit-cleaning-dark.png
+ogImage: /images/home-cleaning/single-visit-cleaning/single-visit-cleaning-light.png
+darkImage: /images/home-cleaning/single-visit-cleaning/single-visit-cleaning-dark.png
 dropdowns:
   - icon: 🧼
     text: Perfect for end-of-tenancy, post-renovation, or pre-guest cleans — a thorough one-off service when you need it most

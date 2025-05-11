@@ -4,8 +4,8 @@ alt: "Installing cat and dog flaps in doors for easy pet access"
 description: "Installing cat and dog flaps in doors for easy pet access"
 category: "handyman"
 subcategory: "pet-flap-fitting"
-image: "/tradespeople/handyman/pet-flap-fitting.webp"
-ogImage: "/tradespeople/handyman/pet-flap-fitting.webp"
+image: "/images/tradespeople/handyman/pet-flap-fitting.webp"
+ogImage: "/images/tradespeople/handyman/pet-flap-fitting.webp"
 colour: "blue"
 pathtxt: "Pet flap fitting"
 published: true
@@ -24,7 +24,7 @@ Give your furry friends the freedom they need with a professionally fitted pet f
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local handymen for pet flap fitting services](/tradespeople/handyman/pet-flap-fitting.webp)
+    ![BaseLink offers experienced local handymen for pet flap fitting services](/images/tradespeople/handyman/pet-flap-fitting.webp)
     ::
 ::
 

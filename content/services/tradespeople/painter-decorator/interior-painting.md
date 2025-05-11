@@ -4,8 +4,8 @@ alt: "Refreshing interior walls and ceilings with quality paint for a clean, vib
 description: "Refreshing interior walls and ceilings with quality paint for a clean, vibrant finish"
 category: "painter-decorator"
 subcategory: "interior-painting"
-image: "/tradespeople/painter-decorator/interior-painting.webp"
-ogImage: "/tradespeople/painter-decorator/interior-painting.webp"
+image: "/images/tradespeople/painter-decorator/interior-painting.webp"
+ogImage: "/images/tradespeople/painter-decorator/interior-painting.webp"
 colour: "blue"
 pathtxt: "Interior painting"
 published: true
@@ -24,7 +24,7 @@ Refresh your home’s interior. We provide clean, precise finishes that enhance 
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local painters and decorators for interior painting services](/tradespeople/painter-decorator/interior-painting.webp)
+    ![BaseLink offers experienced local painters and decorators for interior painting services](/images/tradespeople/painter-decorator/interior-painting.webp)
     ::
 ::
 

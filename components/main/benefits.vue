@@ -240,7 +240,7 @@ withDefaults(defineProps<Props>(), {
                                             <div class="size-7 ring-4 ring-white dark:ring-[--card-dark-bg]">
                                                 <NuxtImg
                                                     class="rounded-full border border-gray-950/5 dark:border-white/5 size-full"
-                                                    src="/tradespeople/carpenter/carpenter.webp" alt="" format="webp"
+                                                    src="/images/tradespeople/carpenter/carpenter.webp" alt="" format="webp"
                                                     loading="lazy" />
                                             </div>
                                         </div>
@@ -248,7 +248,7 @@ withDefaults(defineProps<Props>(), {
                                             <div class="size-8 ring-4 ring-white dark:ring-[--card-dark-bg]">
                                                 <NuxtImg
                                                     class="rounded-full border border-gray-950/5 dark:border-white/5 size-full"
-                                                    src="/tradespeople/carpenter/carpenter.webp" alt="" format="webp"
+                                                    src="/images/tradespeople/carpenter/carpenter.webp" alt="" format="webp"
                                                     loading="lazy" />
                                             </div>
                                             <span
@@ -263,7 +263,7 @@ withDefaults(defineProps<Props>(), {
                                             <div class="size-7 ring-4 ring-white dark:ring-[--card-dark-bg]">
                                                 <NuxtImg
                                                     class="rounded-full border border-gray-950/5 dark:border-white/5 size-full"
-                                                    src="/tradespeople/carpenter/carpenter.webp" alt="" format="webp"
+                                                    src="/images/tradespeople/carpenter/carpenter.webp" alt="" format="webp"
                                                     loading="lazy" />
                                             </div>
                                         </div>

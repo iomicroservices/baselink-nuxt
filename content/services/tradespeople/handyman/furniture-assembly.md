@@ -4,8 +4,8 @@ alt: "Assembling flat-pack furniture quickly and professionally"
 description: "Assembling flat-pack furniture quickly and professionally"
 category: "handyman"
 subcategory: "furniture-assembly"
-image: "/tradespeople/handyman/furniture-assembly.webp"
-ogImage: "/tradespeople/handyman/furniture-assembly.webp"
+image: "/images/tradespeople/handyman/furniture-assembly.webp"
+ogImage: "/images/tradespeople/handyman/furniture-assembly.webp"
 colour: "blue"
 pathtxt: "Furniture assembly"
 published: true
@@ -24,7 +24,7 @@ Let us handle the heavy lifting. Our expert handymen{{ $doc.location }} assemble
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced handymen for Furniture assembly services](/tradespeople/handyman/furniture-assembly.webp)
+    ![BaseLink offers experienced handymen for Furniture assembly services](/images/tradespeople/handyman/furniture-assembly.webp)
     ::
 ::
 

@@ -4,8 +4,8 @@ alt: "Mounting your TV securely for a clean, modern look"
 description: "Mounting your TV securely for a clean, modern look"
 category: "handyman"
 subcategory: "tv-wall-mounting"
-image: "/tradespeople/handyman/tv-wall-mounting.webp"
-ogImage: "/tradespeople/handyman/tv-wall-mounting.webp"
+image: "/images/tradespeople/handyman/tv-wall-mounting.webp"
+ogImage: "/images/tradespeople/handyman/tv-wall-mounting.webp"
 colour: "blue"
 pathtxt: "TV wall mounting"
 published: true
@@ -24,7 +24,7 @@ Save space and create a sleek look. We ensure your TV is securely mounted and po
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local handymen for TV wall mounting services](/tradespeople/handyman/tv-wall-mounting.webp)
+    ![BaseLink offers experienced local handymen for TV wall mounting services](/images/tradespeople/handyman/tv-wall-mounting.webp)
     ::
 ::
 

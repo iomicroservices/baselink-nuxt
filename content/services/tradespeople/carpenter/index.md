@@ -5,8 +5,8 @@ description: "From fitting shelves and kitchens, to full renovations and custom 
 category: "tradespeople"
 subcategory: "carpenter"
 task: "carpenter"
-image: "/tradespeople/carpenter/carpenter.webp"
-ogImage: "/tradespeople/carpenter/carpenter.webp"
+image: "/images/tradespeople/carpenter/carpenter.webp"
+ogImage: "/images/tradespeople/carpenter/carpenter.webp"
 colour: "blue"
 pathtxt: "Carpenter"
 published: true
@@ -25,7 +25,7 @@ Transform your space with our professional carpentry services{{ $doc.location }}
 #image
     ::pictures
     #right
-    ![BaseLink offers local carpenters](/tradespeople/carpenter/carpenter.webp)
+    ![BaseLink offers local carpenters](/images/tradespeople/carpenter/carpenter.webp)
     ::
 ::
 

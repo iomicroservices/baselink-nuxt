@@ -4,8 +4,8 @@ alt: "Fitting and replacing decorative skirting boards to cover wall-floor joint
 description: "Fitting and replacing decorative skirting boards to cover wall-floor joints"
 category: "carpenter"
 subcategory: "skirting-board-fitting"
-image: "/tradespeople/carpenter/skirting-board-fitting.webp"
-ogImage: "/tradespeople/carpenter/skirting-board-fitting.webp"
+image: "/images/tradespeople/carpenter/skirting-board-fitting.webp"
+ogImage: "/images/tradespeople/carpenter/skirting-board-fitting.webp"
 colour: "blue"
 pathtxt: "Skirting board fitting"
 published: true
@@ -24,7 +24,7 @@ Add the finishing touch to your spaces with expertly fitted skirting boards. Eas
 #image
     ::pictures
     #right
-    ![BaseLink offers local carpenters for kitchen fitting services](/tradespeople/carpenter/skirting-board-fitting.webp)
+    ![BaseLink offers local carpenters for kitchen fitting services](/images/tradespeople/carpenter/skirting-board-fitting.webp)
     ::
 ::
 

@@ -4,8 +4,8 @@ alt: "Installing cabinets, wardrobes and shelves for added storage and organisat
 description: "Installing cabinets, wardrobes and shelves for added storage and organisation"
 category: "handyman"
 subcategory: "cabinet-shelf-fitting"
-image: "/tradespeople/handyman/cabinet-shelf-fitting.webp"
-ogImage: "/tradespeople/handyman/cabinet-shelf-fitting.webp"
+image: "/images/tradespeople/handyman/cabinet-shelf-fitting.webp"
+ogImage: "/images/tradespeople/handyman/cabinet-shelf-fitting.webp"
 colour: "blue"
 pathtxt: "Cabinet and shelf fitting"
 published: true
@@ -24,7 +24,7 @@ Maximise your space with professional cabinet and shelf fitting{{ $doc.location 
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced handymen for cabinet and shelf fitting services](/tradespeople/handyman/cabinet-shelf-fitting.webp)
+    ![BaseLink offers experienced handymen for cabinet and shelf fitting services](/images/tradespeople/handyman/cabinet-shelf-fitting.webp)
     ::
 ::
 

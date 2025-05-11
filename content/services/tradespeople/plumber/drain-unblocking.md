@@ -4,8 +4,8 @@ alt: "Clearing blocked drains and pipes to restore proper water flow"
 description: "Clearing blocked drains and pipes to restore proper water flow"
 category: "plumber"
 subcategory: "drain-unblocking"
-image: "/tradespeople/plumber/drain-unblocking.webp"
-ogImage: "/tradespeople/plumber/drain-unblocking.webp"
+image: "/images/tradespeople/plumber/drain-unblocking.webp"
+ogImage: "/images/tradespeople/plumber/drain-unblocking.webp"
 colour: "blue"
 pathtxt: "Drain unblocking"
 published: true
@@ -24,7 +24,7 @@ Say goodbye to slow drains and blockages. We provide fast, efficient drain unblo
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local plumbers for drain unblocking services](/tradespeople/plumber/drain-unblocking.webp)
+    ![BaseLink offers experienced local plumbers for drain unblocking services](/images/tradespeople/plumber/drain-unblocking.webp)
     ::
 ::
 

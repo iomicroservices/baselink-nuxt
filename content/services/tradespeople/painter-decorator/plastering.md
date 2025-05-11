@@ -4,8 +4,8 @@ alt: "Skimming and smoothing walls and ceilings to provide a flawless, even surf
 description: "Skimming and smoothing walls and ceilings to provide a flawless, even surface for painting"
 category: "painter-decorator"
 subcategory: "plastering"
-image: "/tradespeople/painter-decorator/plastering.webp"
-ogImage: "/tradespeople/painter-decorator/plastering.webp"
+image: "/images/tradespeople/painter-decorator/plastering.webp"
+ogImage: "/images/tradespeople/painter-decorator/plastering.webp"
 colour: "blue"
 pathtxt: "Plastering"
 published: true
@@ -24,7 +24,7 @@ Achieve a perfectly smooth surface with our expert plasterers. High-quality plas
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local painters and decorators for plastering services](/tradespeople/painter-decorator/plastering.webp)
+    ![BaseLink offers experienced local painters and decorators for plastering services](/images/tradespeople/painter-decorator/plastering.webp)
     ::
 ::
 

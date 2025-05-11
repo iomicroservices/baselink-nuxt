@@ -4,8 +4,8 @@ alt: "Inspecting electrical systems to ensure safety and compliance with regulat
 description: "Inspecting electrical systems to ensure safety and compliance with regulations"
 category: "certificates-reports"
 subcategory: "eicr-report"
-image: "/tradespeople/certificates-reports/eicr-reports.webp"
-ogImage: "/tradespeople/certificates-reports/eicr-reports.webp"
+image: "/images/tradespeople/certificates-reports/eicr-reports.webp"
+ogImage: "/images/tradespeople/certificates-reports/eicr-reports.webp"
 colour: "blue"
 pathtxt: "EICR reports"
 published: true
@@ -24,7 +24,7 @@ Ensure your electrical installations are safe with our expert Electrical Install
 #image
     ::pictures
     #right
-    ![BaseLink offers local assessors for eicr-reports](/tradespeople/certificates-reports/eicr-reports.webp)
+    ![BaseLink offers local assessors for eicr-reports](/images/tradespeople/certificates-reports/eicr-reports.webp)
     ::
 ::
 

@@ -4,8 +4,8 @@ alt: "Repairing or installing new baths, ensuring a perfect fit and function"
 description: "Repairing or installing new baths, ensuring a perfect fit and function"
 category: "plumber"
 subcategory: "bath-repair-installation"
-image: "/tradespeople/plumber/bath-repair-installation.webp"
-ogImage: "/tradespeople/plumber/bath-repair-installation.webp"
+image: "/images/tradespeople/plumber/bath-repair-installation.webp"
+ogImage: "/images/tradespeople/plumber/bath-repair-installation.webp"
 colour: "blue"
 pathtxt: "Bath repair and installation"
 published: true
@@ -24,7 +24,7 @@ Whether you need a new bath installed or your existing one repaired, our local p
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local plumbers for bath repair and installation services](/tradespeople/plumber/bath-repair-installation.webp)
+    ![BaseLink offers experienced local plumbers for bath repair and installation services](/images/tradespeople/plumber/bath-repair-installation.webp)
     ::
 ::
 

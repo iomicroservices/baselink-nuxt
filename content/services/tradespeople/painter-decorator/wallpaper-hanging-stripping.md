@@ -4,8 +4,8 @@ alt: "Professional wallpaper hanging for a neat finish or stripping old wallpape
 description: "Professional wallpaper hanging for a neat finish or stripping old wallpaper for a fresh look"
 category: "painter-decorator"
 subcategory: "wallpaper-hanging-stripping"
-image: "/tradespeople/painter-decorator/wallpaper-hanging-stripping.webp"
-ogImage: "/tradespeople/painter-decorator/wallpaper-hanging-stripping.webp"
+image: "/images/tradespeople/painter-decorator/wallpaper-hanging-stripping.webp"
+ogImage: "/images/tradespeople/painter-decorator/wallpaper-hanging-stripping.webp"
 colour: "blue"
 pathtxt: "Wallpaper hanging and stripping"
 published: true
@@ -24,7 +24,7 @@ Whether you’re refreshing old wallpaper or adding a new design, our experience
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local painters and decorators for wallpaper hanging stripping services](/tradespeople/painter-decorator/wallpaper-hanging-stripping.webp)
+    ![BaseLink offers experienced local painters and decorators for wallpaper hanging stripping services](/images/tradespeople/painter-decorator/wallpaper-hanging-stripping.webp)
     ::
 ::
 

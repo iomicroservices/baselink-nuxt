@@ -4,8 +4,8 @@ alt: "Testing and certifying electrical appliances for safety and compliance"
 description: "Testing and certifying electrical appliances for safety and compliance"
 category: "certificates-reports"
 subcategory: "pat-testing"
-image: "/tradespeople/certificates-reports/pat-testing.webp"
-ogImage: "/tradespeople/certificates-reports/pat-testing.webp"
+image: "/images/tradespeople/certificates-reports/pat-testing.webp"
+ogImage: "/images/tradespeople/certificates-reports/pat-testing.webp"
 colour: "blue"
 pathtxt: "PAT testing"
 published: true
@@ -24,7 +24,7 @@ Ensure your appliances are safe with our thorough Portable Appliance Testing (PA
 #image
     ::pictures
     #right
-    ![BaseLink offers local assessors for PAT testing certification](/tradespeople/certificates-reports/pat-testing.webp)
+    ![BaseLink offers local assessors for PAT testing certification](/images/tradespeople/certificates-reports/pat-testing.webp)
     ::
 ::
 

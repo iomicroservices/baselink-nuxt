@@ -4,8 +4,8 @@ alt: "Planting flowers, shrubs, and trees to enhance your garden"
 description: "Planting flowers, shrubs, and trees to enhance your garden"
 category: "gardener"
 subcategory: "planting"
-image: "/tradespeople/gardener/planting.webp"
-ogImage: "/tradespeople/gardener/planting.webp"
+image: "/images/tradespeople/gardener/planting.webp"
+ogImage: "/images/tradespeople/gardener/planting.webp"
 colour: "blue"
 pathtxt: "Planting"
 published: true
@@ -24,7 +24,7 @@ Keep your lawn lush and neat with our lawn mowing service{{ $doc.location }}. Fl
 #image
     ::pictures
     #right
-    ![BaseLink offers local gardeners for planting services](/tradespeople/gardener/planting.webp)
+    ![BaseLink offers local gardeners for planting services](/images/tradespeople/gardener/planting.webp)
     ::
 ::
 

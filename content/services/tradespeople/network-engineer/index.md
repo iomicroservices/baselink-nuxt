@@ -4,8 +4,8 @@ alt: "Install, configure, and maintain CCTV, intercom and other digital networks
 description: "Install, configure, and maintain CCTV, intercom and other digital networks"
 category: "tradespeople"
 subcategory: "network-engineer"
-image: "/tradespeople/network-engineer/network-engineer.webp"
-ogImage: "/tradespeople/network-engineer/network-engineer.webp"
+image: "/images/tradespeople/network-engineer/network-engineer.webp"
+ogImage: "/images/tradespeople/network-engineer/network-engineer.webp"
 colour: "blue"
 pathtxt: "Network engineer"
 published: true
@@ -24,7 +24,7 @@ Fully insured & qualified network engineers{{ $doc.location }} for home and busi
 #image
     ::pictures
     #right
-    ![BaseLink offers local network engineering services](/tradespeople/network-engineer/network-engineer.webp)
+    ![BaseLink offers local network engineering services](/images/tradespeople/network-engineer/network-engineer.webp)
     ::
 ::
 

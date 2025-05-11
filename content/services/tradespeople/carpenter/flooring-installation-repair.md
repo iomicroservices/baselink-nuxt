@@ -4,8 +4,8 @@ alt: "Installing and repairing wooden floors for a durable and polished finish"
 description: "Installing and repairing wooden floors for a durable and polished finish"
 category: "carpenter"
 subcategory: "flooring-installation-repair"
-image: "/tradespeople/carpenter/flooring-installation-repair.webp"
-ogImage: "/tradespeople/carpenter/flooring-installation-repair.webp"
+image: "/images/tradespeople/carpenter/flooring-installation-repair.webp"
+ogImage: "/images/tradespeople/carpenter/flooring-installation-repair.webp"
 colour: "blue"
 pathtxt: "Flooring installation and repair"
 published: true
@@ -24,7 +24,7 @@ Whether you're installing new flooring or repairing existing floors, our local c
 #image
     ::pictures
     #right
-    ![BaseLink offers local carpenters for flooring intallation and repair services](/tradespeople/carpenter/flooring-installation-repair.webp)
+    ![BaseLink offers local carpenters for flooring intallation and repair services](/images/tradespeople/carpenter/flooring-installation-repair.webp)
     ::
 ::
 

@@ -4,8 +4,8 @@ alt: "Setting up HDMI distribution systems for seamless video and audio transmis
 description: "Setting up HDMI distribution systems for seamless video and audio transmission"
 category: "network-engineer"
 subcategory: "hdmi-distribution"
-image: "/tradespeople/network-engineer/hdmi-distribution.webp"
-ogImage: "/tradespeople/network-engineer/hdmi-distribution.webp"
+image: "/images/tradespeople/network-engineer/hdmi-distribution.webp"
+ogImage: "/images/tradespeople/network-engineer/hdmi-distribution.webp"
 colour: "blue"
 pathtxt: "HDMI distribution"
 published: true
@@ -24,7 +24,7 @@ Distribute high-quality video and audio signals throughout your home or business
 #image
     ::pictures
     #right
-    ![BaseLink offers local network engineers for HDMI distribution services](/tradespeople/network-engineer/hdmi-distribution.webp)
+    ![BaseLink offers local network engineers for HDMI distribution services](/images/tradespeople/network-engineer/hdmi-distribution.webp)
     ::
 ::
 

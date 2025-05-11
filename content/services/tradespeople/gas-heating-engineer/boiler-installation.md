@@ -4,8 +4,8 @@ alt: "Expert installation of new boilers for reliable home heating and hot water
 description: "Expert installation of new boilers for reliable home heating and hot water"
 category: "gas-heating-engineer"
 subcategory: "boiler-installation"
-image: "/tradespeople/gas-heating-engineer/boiler-installation.webp"
-ogImage: "/tradespeople/gas-heating-engineer/boiler-installation.webp"
+image: "/images/tradespeople/gas-heating-engineer/boiler-installation.webp"
+ogImage: "/images/tradespeople/gas-heating-engineer/boiler-installation.webp"
 colour: "blue"
 pathtxt: "Boiler installation"
 published: true
@@ -24,7 +24,7 @@ We handle everything from removal of your old system to ensuring a smooth, safe,
 #image
     ::pictures
     #right
-    ![BaseLink offers local gas and heating engineers for boiler installation services](/tradespeople/gas-heating-engineer/boiler-installation.webp)
+    ![BaseLink offers local gas and heating engineers for boiler installation services](/images/tradespeople/gas-heating-engineer/boiler-installation.webp)
     ::
 ::
 

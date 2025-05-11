@@ -4,8 +4,8 @@ alt: "Immediate assistance when locked out of your home or business"
 description: "Immediate assistance when locked out of your home or business"
 category: "locksmith"
 subcategory: "locked-out-emergency"
-image: "/tradespeople/locksmith/locked-out-emergency.webp"
-ogImage: "/tradespeople/locksmith/locked-out-emergency.webp"
+image: "/images/tradespeople/locksmith/locked-out-emergency.webp"
+ogImage: "/images/tradespeople/locksmith/locked-out-emergency.webp"
 colour: "blue"
 pathtxt: "Locked out emergency"
 published: true
@@ -24,7 +24,7 @@ Locked out? Our emergency locksmiths{{ $doc.location }} are available to get you
 #image
     ::pictures
     #right
-    ![BaseLink offers local locksmith for locked out emergency services](/tradespeople/locksmith/locked-out-emergency.webp)
+    ![BaseLink offers local locksmith for locked out emergency services](/images/tradespeople/locksmith/locked-out-emergency.webp)
     ::
 ::
 

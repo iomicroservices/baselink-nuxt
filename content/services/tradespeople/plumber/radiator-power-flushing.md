@@ -4,8 +4,8 @@ alt: "Clearing debris and sludge from heating systems to improve efficiency"
 description: "Clearing debris and sludge from heating systems to improve efficiency"
 category: "plumber"
 subcategory: "radiator-power-flushing"
-image: "/tradespeople/plumber/radiator-power-flushing.webp"
-ogImage: "/tradespeople/plumber/radiator-power-flushing.webp"
+image: "/images/tradespeople/plumber/radiator-power-flushing.webp"
+ogImage: "/images/tradespeople/plumber/radiator-power-flushing.webp"
 colour: "blue"
 pathtxt: "Radiator power flushing"
 published: true
@@ -24,7 +24,7 @@ Restore your radiator’s performance with our power flushing service{{ $doc.loc
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local plumbers for radiator power flushing services](/tradespeople/plumber/radiator-power-flushing.webp)
+    ![BaseLink offers experienced local plumbers for radiator power flushing services](/images/tradespeople/plumber/radiator-power-flushing.webp)
     ::
 ::
 

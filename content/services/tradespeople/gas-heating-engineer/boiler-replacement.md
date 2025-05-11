@@ -4,8 +4,8 @@ alt: "Replacing old or inefficient boilers with high-performance, energy-efficie
 description: "Replacing old or inefficient boilers with high-performance, energy-efficient models"
 category: "gas-heating-engineer"
 subcategory: "boiler-replacement"
-image: "/tradespeople/gas-heating-engineer/boiler-replacement.webp"
-ogImage: "/tradespeople/gas-heating-engineer/boiler-replacement.webp"
+image: "/images/tradespeople/gas-heating-engineer/boiler-replacement.webp"
+ogImage: "/images/tradespeople/gas-heating-engineer/boiler-replacement.webp"
 colour: "blue"
 pathtxt: "Boiler replacement"
 published: true
@@ -24,7 +24,7 @@ We handle everything from removal of your old system to ensuring a smooth, safe,
 #image
     ::pictures
     #right
-    ![BaseLink offers local gas and heating engineers for boiler replacement services](/tradespeople/gas-heating-engineer/boiler-replacement.webp)
+    ![BaseLink offers local gas and heating engineers for boiler replacement services](/images/tradespeople/gas-heating-engineer/boiler-replacement.webp)
     ::
 ::
 

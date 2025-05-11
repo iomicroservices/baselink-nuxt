@@ -4,8 +4,8 @@ alt: "Hanging mirrors and pictures securely with precision"
 description: "Hanging mirrors and pictures securely with precision"
 category: "handyman"
 subcategory: "mirror-picture-hanging"
-image: "/tradespeople/handyman/mirror-picture-hanging.webp"
-ogImage: "/tradespeople/handyman/mirror-picture-hanging.webp"
+image: "/images/tradespeople/handyman/mirror-picture-hanging.webp"
+ogImage: "/images/tradespeople/handyman/mirror-picture-hanging.webp"
 colour: "blue"
 pathtxt: "Mirror and picture hanging"
 published: true
@@ -24,7 +24,7 @@ Ensure your mirrors and pictures are hung safely and securely with our expert fi
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local handymen for mirror and picture hanging services](/tradespeople/handyman/mirror-picture-hanging.webp)
+    ![BaseLink offers experienced local handymen for mirror and picture hanging services](/images/tradespeople/handyman/mirror-picture-hanging.webp)
     ::
 ::
 

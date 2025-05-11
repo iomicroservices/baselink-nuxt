@@ -5,8 +5,8 @@ description: "Comprehensive cleaning service for a refreshed, spotless space"
 category: "home-cleaning"
 subcategory: "single-visit-cleaning"
 task: "deep-cleaning"
-image: "/home-cleaning/single-visit-cleaning/deep-cleaning.webp"
-ogImage: "/home-cleaning/single-visit-cleaning/deep-cleaning.webp"
+image: "/images/home-cleaning/single-visit-cleaning/deep-cleaning.webp"
+ogImage: "/images/home-cleaning/single-visit-cleaning/deep-cleaning.webp"
 colour: "green"
 pathtxt: "Deep cleaning"
 published: true
@@ -25,7 +25,7 @@ Experience the ultimate clean with our deep cleaning service{{ $doc.location }}.
 #image
     ::pictures
     #right
-    ![BaseLink offers local deep cleaning services](/home-cleaning/single-visit-cleaning/deep-cleaning.webp)
+    ![BaseLink offers local deep cleaning services](/images/home-cleaning/single-visit-cleaning/deep-cleaning.webp)
     ::
 ::
 

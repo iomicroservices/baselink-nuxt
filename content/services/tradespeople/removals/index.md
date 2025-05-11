@@ -4,8 +4,8 @@ alt: "Efficient, reliable removal services for your home or business, big or sma
 description: "Efficient, reliable removal services for your home or business, big or small"
 category: "tradespeople"
 subcategory: "removals"
-image: "/tradespeople/removals/removals.webp"
-ogImage: "/tradespeople/removals/removals.webp"
+image: "/images/tradespeople/removals/removals.webp"
+ogImage: "/images/tradespeople/removals/removals.webp"
 colour: "blue"
 pathtxt: "Removals"
 published: true
@@ -24,7 +24,7 @@ Whether you're moving a few items or an entire household, we provide professiona
 #image
     ::pictures
     #right
-    ![BaseLink offers local home and commercial removals service](/tradespeople/removals/removals.webp)
+    ![BaseLink offers local home and commercial removals service](/images/tradespeople/removals/removals.webp)
     ::
 ::
 

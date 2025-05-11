@@ -4,8 +4,8 @@ alt: "Fitting shower screens for a sleek, functional bathroom"
 description: "Fitting shower screens for a sleek, functional bathroom"
 category: "handyman"
 subcategory: "shower-screen-fitting"
-image: "/tradespeople/handyman/shower-screen-fitting.webp"
-ogImage: "/tradespeople/handyman/shower-screen-fitting.webp"
+image: "/images/tradespeople/handyman/shower-screen-fitting.webp"
+ogImage: "/images/tradespeople/handyman/shower-screen-fitting.webp"
 colour: "blue"
 pathtxt: "Shower screen fitting"
 published: true
@@ -24,7 +24,7 @@ Enhance your bathroom with a perfectly fitted shower screen. Our experts{{ $doc.
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local handymen for Shower screen fitting services](/tradespeople/handyman/shower-screen-fitting.webp)
+    ![BaseLink offers experienced local handymen for Shower screen fitting services](/images/tradespeople/handyman/shower-screen-fitting.webp)
     ::
 ::
 

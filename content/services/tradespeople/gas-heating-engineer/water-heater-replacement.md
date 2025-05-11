@@ -4,8 +4,8 @@ alt: "Replacing old water heaters with new, energy-efficient models for reliable
 description: "Replacing old water heaters with new, energy-efficient models for reliable hot water"
 category: "gas-heating-engineer"
 subcategory: "water-heater-replacement"
-image: "/tradespeople/gas-heating-engineer/water-heater-replacement.webp"
-ogImage: "/tradespeople/gas-heating-engineer/water-heater-replacement.webp"
+image: "/images/tradespeople/gas-heating-engineer/water-heater-replacement.webp"
+ogImage: "/images/tradespeople/gas-heating-engineer/water-heater-replacement.webp"
 colour: "blue"
 pathtxt: "Water heater replacement"
 published: true
@@ -24,7 +24,7 @@ Our expert team of local engineers{{ $doc.location }} ensure a smooth installati
 #image
     ::pictures
     #right
-    ![BaseLink offers local gas and heating engineers for water heater replacement service](/tradespeople/gas-heating-engineer/water-heater-replacement.webp)
+    ![BaseLink offers local gas and heating engineers for water heater replacement service](/images/tradespeople/gas-heating-engineer/water-heater-replacement.webp)
     ::
 ::
 

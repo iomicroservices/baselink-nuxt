@@ -4,8 +4,8 @@ alt: "Ongoing maintenance and servicing of CCTV systems for optimal performance"
 description: "Ongoing maintenance and servicing of CCTV systems for optimal performance"
 category: "network-engineer"
 subcategory: "cctv-maintenance"
-image: "/tradespeople/network-engineer/cctv-maintenance.webp"
-ogImage: "/tradespeople/network-engineer/cctv-maintenance.webp"
+image: "/images/tradespeople/network-engineer/cctv-maintenance.webp"
+ogImage: "/images/tradespeople/network-engineer/cctv-maintenance.webp"
 colour: "blue"
 pathtxt: "CCTV maintenance"
 published: true
@@ -24,7 +24,7 @@ Ensure your CCTV system stays in top condition with our expert maintenance servi
 #image
     ::pictures
     #right
-    ![BaseLink offers local network engineers for CCTV maintenance services](/tradespeople/network-engineer/cctv-maintenance.webp)
+    ![BaseLink offers local network engineers for CCTV maintenance services](/images/tradespeople/network-engineer/cctv-maintenance.webp)
     ::
 ::
 

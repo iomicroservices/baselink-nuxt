@@ -4,8 +4,8 @@ alt: "Installing reliable data cabling for high-speed internet and network conne
 description: "Installing reliable data cabling for high-speed internet and network connections"
 category: "network-engineer"
 subcategory: "data-cabling"
-image: "/tradespeople/network-engineer/data-cabling.webp"
-ogImage: "/tradespeople/network-engineer/data-cabling.webp"
+image: "/images/tradespeople/network-engineer/data-cabling.webp"
+ogImage: "/images/tradespeople/network-engineer/data-cabling.webp"
 colour: "blue"
 pathtxt: "Data cabling"
 published: true
@@ -24,7 +24,7 @@ Get your business connected with professional data cabling services{{ $doc.locat
 #image
     ::pictures
     #right
-    ![BaseLink offers local network engineers for data cabling services](/tradespeople/network-engineer/data-cabling.webp)
+    ![BaseLink offers local network engineers for data cabling services](/images/tradespeople/network-engineer/data-cabling.webp)
     ::
 ::
 

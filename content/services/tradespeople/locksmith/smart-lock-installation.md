@@ -4,8 +4,8 @@ alt: "Installing smart locks for keycard or keyless entry and enhanced security 
 description: "Installing smart locks for keycard or keyless entry and enhanced security control"
 category: "locksmith"
 subcategory: "smart-lock-installation"
-image: "/tradespeople/locksmith/smart-lock-installation.webp"
-ogImage: "/tradespeople/locksmith/smart-lock-installation.webp"
+image: "/images/tradespeople/locksmith/smart-lock-installation.webp"
+ogImage: "/images/tradespeople/locksmith/smart-lock-installation.webp"
 colour: "blue"
 pathtxt: "Smart lock installation"
 published: true
@@ -24,7 +24,7 @@ Upgrade to a smart lock for enhanced convenience and security. Keyless entry sys
 #image
     ::pictures
     #right
-    ![BaseLink offers local locksmith for smart lock installation services](/tradespeople/locksmith/smart-lock-installation.webp)
+    ![BaseLink offers local locksmith for smart lock installation services](/images/tradespeople/locksmith/smart-lock-installation.webp)
     ::
 ::
 

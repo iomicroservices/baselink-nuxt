@@ -4,8 +4,8 @@ alt: "Evaluating fire hazards in properties and providing safety recommendations
 description: "Evaluating fire hazards in properties and providing safety recommendations"
 category: "certificates-reports"
 subcategory: "fire-risk-assessments"
-image: "/tradespeople/certificates-reports/fire-risk-assessments.webp"
-ogImage: "/tradespeople/certificates-reports/fire-risk-assessments.webp"
+image: "/images/tradespeople/certificates-reports/fire-risk-assessments.webp"
+ogImage: "/images/tradespeople/certificates-reports/fire-risk-assessments.webp"
 colour: "blue"
 pathtxt: "Fire Risk Assessments"
 published: true
@@ -24,7 +24,7 @@ Protect your property with a thorough fire risk assessment. Our certified expert
 #image
     ::pictures
     #right
-    ![BaseLink offers local assessors for Fire Risk Assessments certification](/tradespeople/certificates-reports/fire-risk-assessments.webp)
+    ![BaseLink offers local assessors for Fire Risk Assessments certification](/images/tradespeople/certificates-reports/fire-risk-assessments.webp)
     ::
 ::
 

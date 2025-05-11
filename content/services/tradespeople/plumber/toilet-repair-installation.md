@@ -4,8 +4,8 @@ alt: "Repairing or installing toilets for optimal flushing performance and effic
 description: "Repairing or installing toilets for optimal flushing performance and efficiency"
 category: "plumber"
 subcategory: "toilet-repair-installation"
-image: "/tradespeople/plumber/toilet-repair-installation.webp"
-ogImage: "/tradespeople/plumber/toilet-repair-installation.webp"
+image: "/images/tradespeople/plumber/toilet-repair-installation.webp"
+ogImage: "/images/tradespeople/plumber/toilet-repair-installation.webp"
 colour: "blue"
 pathtxt: "Toilet repair and installation"
 published: true
@@ -24,7 +24,7 @@ Keep your toilet running smoothly. Whether it’s fixing a flush issue or instal
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local plumbers for toilet repair and installation services](/tradespeople/plumber/toilet-repair-installation.webp)
+    ![BaseLink offers experienced local plumbers for toilet repair and installation services](/images/tradespeople/plumber/toilet-repair-installation.webp)
     ::
 ::
 

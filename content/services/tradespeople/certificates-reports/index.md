@@ -4,8 +4,8 @@ alt: "Ensure your property meets legal and safety standards for gas, electricity
 description: "Ensure your property meets legal and safety standards for gas, electricity and fire"
 category: "tradespeople"
 subcategory: "certificates-reports"
-image: "/tradespeople/certificates-reports/certificates-reports.webp"
-ogImage: "/tradespeople/certificates-reports/certificates-reports.webp"
+image: "/images/tradespeople/certificates-reports/certificates-reports.webp"
+ogImage: "/images/tradespeople/certificates-reports/certificates-reports.webp"
 colour: "blue"
 pathtxt: "Certification and reports"
 published: true
@@ -24,7 +24,7 @@ Ensure your residential or business property meets safety standards with our saf
 #image
     ::pictures
     #right
-    ![BaseLink offers local assessors for safety check certification and reports](/tradespeople/certificates-reports/certificates-reports.webp)
+    ![BaseLink offers local assessors for safety check certification and reports](/images/tradespeople/certificates-reports/certificates-reports.webp)
     ::
 ::
 

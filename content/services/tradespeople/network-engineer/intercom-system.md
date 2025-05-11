@@ -4,8 +4,8 @@ alt: "Intercom system installation for secure commsn within buildings or premise
 description: "Intercom system installation for secure comms within buildings or premises"
 category: "network-engineer"
 subcategory: "intercom-system"
-image: "/tradespeople/network-engineer/intercom-system.webp"
-ogImage: "/tradespeople/network-engineer/intercom-system.webp"
+image: "/images/tradespeople/network-engineer/intercom-system.webp"
+ogImage: "/images/tradespeople/network-engineer/intercom-system.webp"
 colour: "blue"
 pathtxt: "Intercom system"
 published: true
@@ -24,7 +24,7 @@ Intercom system installation service{{ $doc.location }}
 #image
     ::pictures
     #right
-    ![BaseLink offers local network engineers for intercom system installation services](/tradespeople/network-engineer/intercom-system.webp)
+    ![BaseLink offers local network engineers for intercom system installation services](/images/tradespeople/network-engineer/intercom-system.webp)
     ::
 ::
 

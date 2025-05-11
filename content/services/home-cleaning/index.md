@@ -5,8 +5,8 @@ description: "Thorough cleaning and quick turnarounds for seamless guest transit
 category: "home-cleaning"
 subcategory: "home-cleaning"
 task: "home-cleaning"
-image: "/home-cleaning/home-cleaning-light.png"
-ogImage: "/home-cleaning/home-cleaning-light.png"
+image: "/images/home-cleaning/home-cleaning-light.png"
+ogImage: "/images/home-cleaning/home-cleaning-light.png"
 colour: "green"
 pathtxt: "Home cleaning"
 published: true
@@ -15,8 +15,8 @@ published: true
 ::hero-centered-top
 ---
 alt: Default alt prop
-ogImage: /home-cleaning/home-cleaning-light.png
-darkImage: /home-cleaning/home-cleaning-dark.png
+ogImage: /images/home-cleaning/home-cleaning-light.png
+darkImage: /images/home-cleaning/home-cleaning-dark.png
 dropdowns:
   - icon: 🏠
     text: Flexible home cleaning and housekeeping tailored to you

@@ -4,8 +4,8 @@ alt: "Installation, maintenance, and repair of gas or heating systems and applia
 description: "Installation, maintenance, and repair of gas or heating systems and appliances"
 category: "tradespeople"
 subcategory: "gas-heating-engineer"
-image: "/tradespeople/gas-heating-engineer/gas-heating-engineer.webp"
-ogImage: "/tradespeople/gas-heating-engineer/gas-heating-engineer.webp"
+image: "/images/tradespeople/gas-heating-engineer/gas-heating-engineer.webp"
+ogImage: "/images/tradespeople/gas-heating-engineer/gas-heating-engineer.webp"
 colour: "blue"
 pathtxt: "Gas and heating engineer"
 published: true
@@ -25,7 +25,7 @@ Trust our certified gas and heating engineers for all your installation, repair,
 #image
     ::pictures
     #right
-    ![BaseLink offers local Gas Safe registered gas and heating engineers](/tradespeople/gas-heating-engineer/gas-heating-engineer.webp)
+    ![BaseLink offers local Gas Safe registered gas and heating engineers](/images/tradespeople/gas-heating-engineer/gas-heating-engineer.webp)
     ::
 ::
 

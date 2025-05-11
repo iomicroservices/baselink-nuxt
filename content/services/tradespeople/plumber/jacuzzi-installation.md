@@ -4,8 +4,8 @@ alt: "Installing and setting up jacuzzis for a relaxing, hassle-free experience"
 description: "Installing and setting up jacuzzis for a relaxing, hassle-free experience"
 category: "plumber"
 subcategory: "jacuzzi-installation"
-image: "/tradespeople/plumber/jacuzzi-installation.webp"
-ogImage: "/tradespeople/plumber/jacuzzi-installation.webp"
+image: "/images/tradespeople/plumber/jacuzzi-installation.webp"
+ogImage: "/images/tradespeople/plumber/jacuzzi-installation.webp"
 colour: "blue"
 pathtxt: "Jacuzzi installation"
 published: true
@@ -24,7 +24,7 @@ Install your dream jacuzzi. We ensure a secure, high-quality setup that provides
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local plumbers for jacuzzi installation services](/tradespeople/plumber/jacuzzi-installation.webp)
+    ![BaseLink offers experienced local plumbers for jacuzzi installation services](/images/tradespeople/plumber/jacuzzi-installation.webp)
     ::
 ::
 

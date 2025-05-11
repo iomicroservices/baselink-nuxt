@@ -5,8 +5,8 @@ description: "Experienced housekeepers who know how to keep a home tidy and cosy
 category: "home-cleaning"
 subcategory: "housekeeping"
 task: "housekeeping"
-image: "/home-cleaning/housekeeping.webp"
-ogImage: "/home-cleaning/housekeeping.webp"
+image: "/images/home-cleaning/housekeeping.webp"
+ogImage: "/images/home-cleaning/housekeeping.webp"
 colour: "green"
 pathtxt: "Housekeeping"
 published: true
@@ -25,7 +25,7 @@ Experienced and vetted housekeepers{{ $doc.location }}. From doing the laundry a
 #image
     ::pictures
     #right
-    ![BaseLink offers the best housekeeping service](/home-cleaning/housekeeping.webp)
+    ![BaseLink offers the best housekeeping service](/images/home-cleaning/housekeeping.webp)
     ::
 ::
 

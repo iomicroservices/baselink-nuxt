@@ -4,8 +4,8 @@ alt: "Removing broken keys from locks safely and limit further damage"
 description: "Removing broken keys from locks safely and limit further damage"
 category: "locksmith"
 subcategory: "broken-key-extraction"
-image: "/tradespeople/locksmith/broken-key-extraction.webp"
-ogImage: "/tradespeople/locksmith/broken-key-extraction.webp"
+image: "/images/tradespeople/locksmith/broken-key-extraction.webp"
+ogImage: "/images/tradespeople/locksmith/broken-key-extraction.webp"
 colour: "blue"
 pathtxt: "Broken key extraction"
 published: true
@@ -24,7 +24,7 @@ Maximise your space with professional cabinet and shelf fitting{{ $doc.location 
 #image
     ::pictures
     #right
-    ![BaseLink offers local locksmiths for broken key extraction services](/tradespeople/locksmith/broken-key-extraction.webp)
+    ![BaseLink offers local locksmiths for broken key extraction services](/images/tradespeople/locksmith/broken-key-extraction.webp)
     ::
 ::
 

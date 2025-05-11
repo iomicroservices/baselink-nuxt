@@ -4,8 +4,8 @@ alt: "Opening locked safes quickly and securely when keys or codes are lost"
 description: "Opening locked safes quickly and securely when keys or codes are lost"
 category: "locksmith"
 subcategory: "safe-opening"
-image: "/tradespeople/locksmith/safe-opening.webp"
-ogImage: "/tradespeople/locksmith/safe-opening.webp"
+image: "/images/tradespeople/locksmith/safe-opening.webp"
+ogImage: "/images/tradespeople/locksmith/safe-opening.webp"
 colour: "blue"
 pathtxt: "Safe opening"
 published: true
@@ -24,7 +24,7 @@ Need to access a locked safe? Safe opening service{{ $doc.location }} with minim
 #image
     ::pictures
     #right
-    ![BaseLink offers local locksmith for safe opening services](/tradespeople/locksmith/safe-opening.webp)
+    ![BaseLink offers local locksmith for safe opening services](/images/tradespeople/locksmith/safe-opening.webp)
     ::
 ::
 

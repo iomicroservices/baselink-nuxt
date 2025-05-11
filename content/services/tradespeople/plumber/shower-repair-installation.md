@@ -4,8 +4,8 @@ alt: "Fixing or installing showers to restore proper water flow and functionalit
 description: "Fixing or replacing showers to restore proper water flow and functionality"
 category: "plumber"
 subcategory: "shower-repair-installation"
-image: "/tradespeople/plumber/shower-repair-installation.webp"
-ogImage: "/tradespeople/plumber/shower-repair-installation.webp"
+image: "/images/tradespeople/plumber/shower-repair-installation.webp"
+ogImage: "/images/tradespeople/plumber/shower-repair-installation.webp"
 colour: "blue"
 pathtxt: "Shower repair and installation"
 published: true
@@ -24,7 +24,7 @@ Experienced plumbers{{ $doc.location }} to handle everything from fixing leaks t
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local plumbers for shower repair and replacement services](/tradespeople/plumber/shower-repair-installation.webp)
+    ![BaseLink offers experienced local plumbers for shower repair and replacement services](/images/tradespeople/plumber/shower-repair-installation.webp)
     ::
 ::
 

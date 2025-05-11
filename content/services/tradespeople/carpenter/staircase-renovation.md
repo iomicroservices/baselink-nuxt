@@ -4,8 +4,8 @@ alt: "Renovating staircases to restore safety, functionality, and appearance"
 description: "Renovating staircases to restore safety, functionality, and appearance"
 category: "carpenter"
 subcategory: "staircase-renovation"
-image: "/tradespeople/carpenter/staircase-renovation.webp"
-ogImage: "/tradespeople/carpenter/staircase-renovation.webp"
+image: "/images/tradespeople/carpenter/staircase-renovation.webp"
+ogImage: "/images/tradespeople/carpenter/staircase-renovation.webp"
 colour: "blue"
 pathtxt: "Staircase renovation"
 published: true
@@ -24,7 +24,7 @@ Upgrade or repair your staircase with our professional renovation services. Easy
 #image
     ::pictures
     #right
-    ![BaseLink offers local carpenters for staircase renovation services](/tradespeople/carpenter/staircase-renovation.webp)
+    ![BaseLink offers local carpenters for staircase renovation services](/images/tradespeople/carpenter/staircase-renovation.webp)
     ::
 ::
 

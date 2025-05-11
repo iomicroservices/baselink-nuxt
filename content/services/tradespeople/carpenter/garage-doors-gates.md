@@ -4,8 +4,8 @@ alt: "Installing and repairing wooden garage doors or garden gates"
 description: "Installing and repairing wooden garage doors or garden gates"
 category: "carpenter"
 subcategory: "garage-doors-gates"
-image: "/tradespeople/carpenter/garage-doors-gates.webp"
-ogImage: "/tradespeople/carpenter/garage-doors-gates.webp"
+image: "/images/tradespeople/carpenter/garage-doors-gates.webp"
+ogImage: "/images/tradespeople/carpenter/garage-doors-gates.webp"
 colour: "blue"
 pathtxt: "Garage doors and gates"
 published: true
@@ -24,7 +24,7 @@ Secure your property with our expert garage door & gate installation and repair 
 #image
     ::pictures
     #right
-    ![BaseLink offers local carpenters for garage doors and gates installation and repair services](/tradespeople/carpenter/garage-doors-gates.webp)
+    ![BaseLink offers local carpenters for garage doors and gates installation and repair services](/images/tradespeople/carpenter/garage-doors-gates.webp)
     ::
 ::
 

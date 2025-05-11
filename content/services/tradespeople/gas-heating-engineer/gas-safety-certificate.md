@@ -4,8 +4,8 @@ alt: "Certification to confirm gas appliances meet safety standards and regulati
 description: "Certification to confirm gas appliances meet safety standards and regulations"
 category: "gas-heating-engineer"
 subcategory: "gas-safety-certificate"
-image: "/tradespeople/gas-heating-engineer/gas-safety-certificate.webp"
-ogImage: "/tradespeople/gas-heating-engineer/gas-safety-certificate.webp"
+image: "/images/tradespeople/gas-heating-engineer/gas-safety-certificate.webp"
+ogImage: "/images/tradespeople/gas-heating-engineer/gas-safety-certificate.webp"
 colour: "blue"
 pathtxt: "Gas safety certificate"
 published: true
@@ -24,7 +24,7 @@ Ensure your home or business meets legal safety standards with our professional 
 #image
     ::pictures
     #right
-    ![BaseLink offers local gas and heating engineers for gas safety certification](/tradespeople/gas-heating-engineer/gas-safety-certificate.webp)
+    ![BaseLink offers local gas and heating engineers for gas safety certification](/images/tradespeople/gas-heating-engineer/gas-safety-certificate.webp)
     ::
 ::
 

@@ -4,8 +4,8 @@ alt: "Fixing or replacing damaged pipes to prevent leaks and water damage"
 description: "Fixing or replacing damaged pipes to prevent leaks and water damage"
 category: "plumber"
 subcategory: "pipe-repair-replacement"
-image: "/tradespeople/plumber/pipe-repair-replacement.webp"
-ogImage: "/tradespeople/plumber/pipe-repair-replacement.webp"
+image: "/images/tradespeople/plumber/pipe-repair-replacement.webp"
+ogImage: "/images/tradespeople/plumber/pipe-repair-replacement.webp"
 colour: "blue"
 pathtxt: "Pipe repair and replacement"
 published: true
@@ -24,7 +24,7 @@ Fix or replace damaged pipes. We quickly address leaks and issues to ensure your
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local plumbers for pipe repair and replacement services](/tradespeople/plumber/pipe-repair-replacement.webp)
+    ![BaseLink offers experienced local plumbers for pipe repair and replacement services](/images/tradespeople/plumber/pipe-repair-replacement.webp)
     ::
 ::
 

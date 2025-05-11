@@ -4,8 +4,8 @@ alt: "Optimising and installing WiFi networks to ensure fast, reliable internet 
 description: "Optimising and installing WiFi networks to ensure fast, reliable internet access"
 category: "network-engineer"
 subcategory: "wifi-connectivity"
-image: "/tradespeople/network-engineer/wifi-connectivity.webp"
-ogImage: "/tradespeople/network-engineer/wifi-connectivity.webp"
+image: "/images/tradespeople/network-engineer/wifi-connectivity.webp"
+ogImage: "/images/tradespeople/network-engineer/wifi-connectivity.webp"
 colour: "blue"
 pathtxt: "WiFi connectivity"
 published: true
@@ -24,7 +24,7 @@ Our local experts{{ $doc.location }} install and optimise your network for seaml
 #image
     ::pictures
     #right
-    ![BaseLink offers local network engineers for WiFi connectivity services](/tradespeople/network-engineer/wifi-connectivity.webp)
+    ![BaseLink offers local network engineers for WiFi connectivity services](/images/tradespeople/network-engineer/wifi-connectivity.webp)
     ::
 ::
 

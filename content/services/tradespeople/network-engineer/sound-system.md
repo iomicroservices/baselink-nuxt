@@ -4,8 +4,8 @@ alt: "Installing high-quality sound system for your home or business"
 description: "Installing high-quality sound system for your home or business"
 category: "network-engineer"
 subcategory: "sound-system"
-image: "/tradespeople/network-engineer/sound-system.webp"
-ogImage: "/tradespeople/network-engineer/sound-system.webp"
+image: "/images/tradespeople/network-engineer/sound-system.webp"
+ogImage: "/images/tradespeople/network-engineer/sound-system.webp"
 colour: "blue"
 pathtxt: "Sound system"
 published: true
@@ -24,7 +24,7 @@ We design and install custom setups to deliver high-quality sound in any space, 
 #image
     ::pictures
     #right
-    ![BaseLink offers local network engineers for sound system installation services](/tradespeople/network-engineer/sound-system.webp)
+    ![BaseLink offers local network engineers for sound system installation services](/images/tradespeople/network-engineer/sound-system.webp)
     ::
 ::
 

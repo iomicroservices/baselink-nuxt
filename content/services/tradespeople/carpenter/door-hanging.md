@@ -4,8 +4,8 @@ alt: "Installing and fitting doors to ensure proper alignment and functionality"
 description: "Installing and fitting doors to ensure proper alignment and functionality"
 category: "carpenter"
 subcategory: "door-hanging"
-image: "/tradespeople/carpenter/door-hanging.webp"
-ogImage: "/tradespeople/carpenter/door-hanging.webp"
+image: "/images/tradespeople/carpenter/door-hanging.webp"
+ogImage: "/images/tradespeople/carpenter/door-hanging.webp"
 colour: "blue"
 pathtxt: "Door hanging"
 published: true
@@ -24,7 +24,7 @@ Enhance your home with perfectly hung doors provided by local carpenters{{ $doc.
 #image
     ::pictures
     #right
-    ![BaseLink offers local carpenters for door hanging services](/tradespeople/carpenter/door-hanging.webp)
+    ![BaseLink offers local carpenters for door hanging services](/images/tradespeople/carpenter/door-hanging.webp)
     ::
 ::
 

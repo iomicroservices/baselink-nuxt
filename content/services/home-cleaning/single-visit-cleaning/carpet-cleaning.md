@@ -5,8 +5,8 @@ description: "Remove dirt, stains and allergens from carpets & rugs"
 category: "home-cleaning"
 subcategory: "single-visit-cleaning"
 task: "carpet-cleaning"
-image: "/home-cleaning/single-visit-cleaning/carpet-cleaning.webp"
-ogImage: "/home-cleaning/single-visit-cleaning/carpet-cleaning.webp"
+image: "/images/home-cleaning/single-visit-cleaning/carpet-cleaning.webp"
+ogImage: "/images/home-cleaning/single-visit-cleaning/carpet-cleaning.webp"
 colour: "green"
 pathtxt: "Carpet cleaning"
 published: true
@@ -25,7 +25,7 @@ Bring your carpets back to life with our expert cleaning service{{ $doc.location
 #image
     ::pictures
     #right
-    ![BaseLink offers local carpet cleaning service](/home-cleaning/single-visit-cleaning/carpet-cleaning.webp)
+    ![BaseLink offers local carpet cleaning service](/images/home-cleaning/single-visit-cleaning/carpet-cleaning.webp)
     ::
 ::
 

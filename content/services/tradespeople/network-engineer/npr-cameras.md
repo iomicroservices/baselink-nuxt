@@ -4,8 +4,8 @@ alt: "Installing NPR cameras for automatic vehicle identification and monitoring
 description: "Installing NPR cameras for automatic vehicle identification and monitoring"
 category: "network-engineer"
 subcategory: "npr-cameras"
-image: "/tradespeople/network-engineer/npr-cameras.webp"
-ogImage: "/tradespeople/network-engineer/npr-cameras.webp"
+image: "/images/tradespeople/network-engineer/npr-cameras.webp"
+ogImage: "/images/tradespeople/network-engineer/npr-cameras.webp"
 colour: "blue"
 pathtxt: "NPR cameras"
 published: true
@@ -24,7 +24,7 @@ Install cutting-edge NPR cameras{{ $doc.location }} for secure, real-time number
 #image
     ::pictures
     #right
-    ![BaseLink offers local network engineers for NPR camera installation services](/tradespeople/network-engineer/npr-cameras.webp)
+    ![BaseLink offers local network engineers for NPR camera installation services](/images/tradespeople/network-engineer/npr-cameras.webp)
     ::
 ::
 

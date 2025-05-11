@@ -4,8 +4,8 @@ alt: "Assessing and rating the energy efficiency of commercial properties"
 description: "Assessing and rating the energy efficiency of commercial properties"
 category: "certificates-reports"
 subcategory: "non-domestic-epc"
-image: "/tradespeople/certificates-reports/non-domestic-epc.webp"
-ogImage: "/tradespeople/certificates-reports/non-domestic-epc.webp"
+image: "/images/tradespeople/certificates-reports/non-domestic-epc.webp"
+ogImage: "/images/tradespeople/certificates-reports/non-domestic-epc.webp"
 colour: "blue"
 pathtxt: "Non-domestic EPCs"
 published: true
@@ -24,7 +24,7 @@ Stay compliant and improve energy efficiency with our non-domestic EPC service f
 #image
     ::pictures
     #right
-    ![BaseLink offers local assessors for Non-domestic EPCs certification](/tradespeople/certificates-reports/non-domestic-epc.webp)
+    ![BaseLink offers local assessors for Non-domestic EPCs certification](/images/tradespeople/certificates-reports/non-domestic-epc.webp)
     ::
 ::
 

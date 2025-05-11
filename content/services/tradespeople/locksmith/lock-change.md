@@ -4,8 +4,8 @@ alt: "Changing locks for improved security or when keys are lost or stolen"
 description: "Changing locks for improved security or when keys are lost or stolen"
 category: "locksmith"
 subcategory: "lock-change"
-image: "/tradespeople/locksmith/lock-change.webp"
-ogImage: "/tradespeople/locksmith/lock-change.webp"
+image: "/images/tradespeople/locksmith/lock-change.webp"
+ogImage: "/images/tradespeople/locksmith/lock-change.webp"
 colour: "blue"
 pathtxt: "Lock change"
 published: true
@@ -24,7 +24,7 @@ Our locksmiths{{ $doc.location }} provide quick and efficient lock replacement t
 #image
     ::pictures
     #right
-    ![BaseLink offers local locksmith for lock change services](/tradespeople/locksmith/lock-change.webp)
+    ![BaseLink offers local locksmith for lock change services](/images/tradespeople/locksmith/lock-change.webp)
     ::
 ::
 

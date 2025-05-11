@@ -4,8 +4,8 @@ alt: "Careful removals for large appliances such as fridges, washing machines, a
 description: "Careful removals for large appliances such as fridges, washing machines, and ovens"
 category: "removals"
 subcategory: "appliance-removals"
-image: "/tradespeople/removals/appliance-removals.webp"
-ogImage: "/tradespeople/removals/appliance-removals.webp"
+image: "/images/tradespeople/removals/appliance-removals.webp"
+ogImage: "/images/tradespeople/removals/appliance-removals.webp"
 colour: "blue"
 pathtxt: "Appliance removals"
 published: true
@@ -24,7 +24,7 @@ Need to move large appliances? Our removals team{{ $doc.location }} handles ever
 #image
     ::pictures
     #right
-    ![BaseLink offers local appliance removals service](/tradespeople/removals/appliance-removals.webp)
+    ![BaseLink offers local appliance removals service](/images/tradespeople/removals/appliance-removals.webp)
     ::
 ::
 

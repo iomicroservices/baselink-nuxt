@@ -4,8 +4,8 @@ alt: "From lawn care to garden design, we help keep your outdoor space beautiful
 description: "From lawn care to garden design, we help keep your outdoor space beautiful"
 category: "tradespeople"
 subcategory: "gardener"
-image: "/tradespeople/gardener/gardener.webp"
-ogImage: "/tradespeople/gardener/gardener.webp"
+image: "/images/tradespeople/gardener/gardener.webp"
+ogImage: "/images/tradespeople/gardener/gardener.webp"
 colour: "blue"
 pathtxt: "Gardener"
 published: true
@@ -24,7 +24,7 @@ Keep your garden in top shape with our professional gardening services{{ $doc.lo
 #image
     ::pictures
     #right
-    ![BaseLink offers local gardeners](/tradespeople/gardener/gardener.webp)
+    ![BaseLink offers local gardeners](/images/tradespeople/gardener/gardener.webp)
     ::
 ::
 

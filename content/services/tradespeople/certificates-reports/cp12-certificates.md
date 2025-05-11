@@ -4,8 +4,8 @@ alt: "Conducting gas safety checks to ensure compliance and tenant safety"
 description: "Conducting gas safety checks to ensure compliance and tenant safety"
 category: "certificates-reports"
 subcategory: "cp12-certificates"
-image: "/tradespeople/certificates-reports/cp12-certificates.webp"
-ogImage: "/tradespeople/certificates-reports/cp12-certificates.webp"
+image: "/images/tradespeople/certificates-reports/cp12-certificates.webp"
+ogImage: "/images/tradespeople/certificates-reports/cp12-certificates.webp"
 colour: "blue"
 pathtxt: "CP12 certificates"
 published: true
@@ -24,7 +24,7 @@ Ensure your property meets legal requirements with our CP12 gas safety certifica
 #image
     ::pictures
     #right
-    ![BaseLink offers local assessors for CP12 certification](/tradespeople/certificates-reports/cp12-certificates.webp)
+    ![BaseLink offers local assessors for CP12 certification](/images/tradespeople/certificates-reports/cp12-certificates.webp)
     ::
 ::
 

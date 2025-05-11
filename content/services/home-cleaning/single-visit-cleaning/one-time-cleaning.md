@@ -5,8 +5,8 @@ description: "Perfect for a one-time cleaning solution, no ongoing commitment"
 category: "home-cleaning"
 subcategory: "single-visit-cleaning"
 task: "one-time-cleaning"
-image: "/home-cleaning/single-visit-cleaning/one-time-cleaning.webp"
-ogImage: "/home-cleaning/single-visit-cleaning/one-time-cleaning.webp"
+image: "/images/home-cleaning/single-visit-cleaning/one-time-cleaning.webp"
+ogImage: "/images/home-cleaning/single-visit-cleaning/one-time-cleaning.webp"
 colour: "green"
 pathtxt: "One-time cleaning"
 published: true
@@ -25,7 +25,7 @@ Need a quick clean? Our one-off cleaning service{{ $doc.location }} is perfect f
 #image
     ::pictures
     #right
-    ![BaseLink offers local one-time cleaning services](/home-cleaning/single-visit-cleaning/one-time-cleaning.webp)
+    ![BaseLink offers local one-time cleaning services](/images/home-cleaning/single-visit-cleaning/one-time-cleaning.webp)
     ::
 ::
 

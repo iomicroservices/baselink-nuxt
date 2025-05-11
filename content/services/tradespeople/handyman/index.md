@@ -4,8 +4,8 @@ alt: "Quick fixes and skilled help for odd jobs, fittings, repairs, and more"
 description: "Quick fixes and skilled help for odd jobs, fittings, repairs, and more"
 category: "tradespeople"
 subcategory: "handyman"
-image: "/tradespeople/handyman/handyman.webp"
-ogImage: "/tradespeople/handyman/handyman.webp"
+image: "/images/tradespeople/handyman/handyman.webp"
+ogImage: "/images/tradespeople/handyman/handyman.webp"
 colour: "blue"
 pathtxt: "Handyman"
 published: true
@@ -24,7 +24,7 @@ Need something fixed? From minor repairs to larger home projects, our handyman s
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local handyman services](/tradespeople/handyman/handyman.webp)
+    ![BaseLink offers experienced local handyman services](/images/tradespeople/handyman/handyman.webp)
     ::
 ::
 

@@ -5,8 +5,8 @@ description: "Post-renovation cleaning to remove dust, debris, and residues"
 category: "home-cleaning"
 subcategory: "single-visit-cleaning"
 task: "after-builders-cleaning"
-image: "/home-cleaning/single-visit-cleaning/after-builders-cleaning.webp"
-ogImage: "/home-cleaning/single-visit-cleaning/after-builders-cleaning.webp"
+image: "/images/home-cleaning/single-visit-cleaning/after-builders-cleaning.webp"
+ogImage: "/images/home-cleaning/single-visit-cleaning/after-builders-cleaning.webp"
 colour: "green"
 pathtxt: "After builders cleaning"
 published: true
@@ -25,7 +25,7 @@ Transform your newly renovated space{{ $doc.location }} with our thorough after 
 #image
     ::pictures
     #right
-    ![BaseLink offers the thorough after builders cleaning service](/home-cleaning/single-visit-cleaning/after-builders-cleaning.webp)
+    ![BaseLink offers the thorough after builders cleaning service](/images/home-cleaning/single-visit-cleaning/after-builders-cleaning.webp)
     ::
 ::
 

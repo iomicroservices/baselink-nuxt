@@ -4,8 +4,8 @@ alt: "Assessing and rating the energy efficiency of domestic properties"
 description: "Assessing and rating the energy efficiency of domestic properties"
 category: "certificates-reports"
 subcategory: "domestic-epc"
-image: "/tradespeople/certificates-reports/domestic-epc.webp"
-ogImage: "/tradespeople/certificates-reports/domestic-epc.webp"
+image: "/images/tradespeople/certificates-reports/domestic-epc.webp"
+ogImage: "/images/tradespeople/certificates-reports/domestic-epc.webp"
 colour: "blue"
 pathtxt: "Domestic EPC"
 published: true
@@ -24,7 +24,7 @@ Get your home rated for energy efficiency by qualified local engineers with our 
 #image
     ::pictures
     #right
-    ![BaseLink offers local assessors for Domestic EPCs](/tradespeople/certificates-reports/domestic-epc.webp)
+    ![BaseLink offers local assessors for Domestic EPCs](/images/tradespeople/certificates-reports/domestic-epc.webp)
     ::
 ::
 

@@ -4,8 +4,8 @@ alt: "Providing security-first lock services for homes and businesses"
 description: "Providing security-first lock services for homes and businesses"
 category: "tradespeople"
 subcategory: "locksmith"
-image: "/tradespeople/locksmith/locksmith.webp"
-ogImage: "/tradespeople/locksmith/locksmith.webp"
+image: "/images/tradespeople/locksmith/locksmith.webp"
+ogImage: "/images/tradespeople/locksmith/locksmith.webp"
 colour: "blue"
 pathtxt: "Locksmith"
 published: true
@@ -24,7 +24,7 @@ Whether it’s lock installation, repair, or rekeying, our experienced locksmith
 #image
     ::pictures
     #right
-    ![BaseLink offers local locksmiths for broken key extraction services](/tradespeople/locksmith/locksmith.webp)
+    ![BaseLink offers local locksmiths for broken key extraction services](/images/tradespeople/locksmith/locksmith.webp)
     ::
 ::
 

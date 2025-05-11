@@ -4,8 +4,8 @@ alt: "Trimming and maintaining your lawn for a neat, tidy finish"
 description: "Trimming and maintaining your lawn for a neat, tidy finish"
 category: "gardener"
 subcategory: "lawn-mowing"
-image: "/tradespeople/gardener/lawn-mowing.webp"
-ogImage: "/tradespeople/gardener/lawn-mowing.webp"
+image: "/images/tradespeople/gardener/lawn-mowing.webp"
+ogImage: "/images/tradespeople/gardener/lawn-mowing.webp"
 colour: "blue"
 pathtxt: "Lawn mowing"
 published: true
@@ -24,7 +24,7 @@ Keep your lawn lush and neat with our lawn mowing service{{ $doc.location }}. Fl
 #image
     ::pictures
     #right
-    ![BaseLink offers local gardeners for lawn mowing services](/tradespeople/gardener/lawn-mowing.webp)
+    ![BaseLink offers local gardeners for lawn mowing services](/images/tradespeople/gardener/lawn-mowing.webp)
     ::
 ::
 

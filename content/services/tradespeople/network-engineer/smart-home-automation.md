@@ -4,8 +4,8 @@ alt: "Smart technology for seamless control of your home’s lighting, heating, 
 description: "Smart technology for seamless control of your home’s lighting, heating, and security"
 category: "network-engineer"
 subcategory: "smart-home-automation"
-image: "/tradespeople/network-engineer/smart-home-automation.webp"
-ogImage: "/tradespeople/network-engineer/smart-home-automation.webp"
+image: "/images/tradespeople/network-engineer/smart-home-automation.webp"
+ogImage: "/images/tradespeople/network-engineer/smart-home-automation.webp"
 colour: "blue"
 pathtxt: "Smart home automation"
 published: true
@@ -24,7 +24,7 @@ Upgrade your home with smart automation. From lighting to security, our experts 
 #image
     ::pictures
     #right
-    ![BaseLink offers local network engineers for smart home automation services](/tradespeople/network-engineer/smart-home-automation.webp)
+    ![BaseLink offers local network engineers for smart home automation services](/images/tradespeople/network-engineer/smart-home-automation.webp)
     ::
 ::
 

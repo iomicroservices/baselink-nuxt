@@ -4,8 +4,8 @@ alt: "Comprehensive painting and decorating services to transform your space"
 description: "Comprehensive painting and decorating services to transform your space"
 category: "tradespeople"
 subcategory: "painter-decorator"
-image: "/tradespeople/painter-decorator/painter-decorator.webp"
-ogImage: "/tradespeople/painter-decorator/painter-decorator.webp"
+image: "/images/tradespeople/painter-decorator/painter-decorator.webp"
+ogImage: "/images/tradespeople/painter-decorator/painter-decorator.webp"
 colour: "blue"
 pathtxt: "Painter and decorator"
 published: true
@@ -24,7 +24,7 @@ Transform your space with our skilled painters and decorators{{ $doc.location }}
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local painters and decorators](/tradespeople/painter-decorator/painter-decorator.webp)
+    ![BaseLink offers experienced local painters and decorators](/images/tradespeople/painter-decorator/painter-decorator.webp)
     ::
 ::
 

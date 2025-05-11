@@ -4,8 +4,8 @@ alt: "Fixing or replacing taps to restore functionality and prevent leaks"
 description: "Fixing or replacing taps to restore functionality and prevent leaks"
 category: "plumber"
 subcategory: "tap-repair-replacement"
-image: "/tradespeople/plumber/tap-repair-replacement.webp"
-ogImage: "/tradespeople/plumber/tap-repair-replacement.webp"
+image: "/images/tradespeople/plumber/tap-repair-replacement.webp"
+ogImage: "/images/tradespeople/plumber/tap-repair-replacement.webp"
 colour: "blue"
 pathtxt: "Tap repair and replacement"
 published: true
@@ -24,7 +24,7 @@ Fix leaks or replace worn-out taps. We ensure smooth operation and perfect fitti
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local plumbers for tap repair and replacement services](/tradespeople/plumber/tap-repair-replacement.webp)
+    ![BaseLink offers experienced local plumbers for tap repair and replacement services](/images/tradespeople/plumber/tap-repair-replacement.webp)
     ::
 ::
 

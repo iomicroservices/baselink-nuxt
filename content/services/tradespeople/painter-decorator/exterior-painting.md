@@ -4,8 +4,8 @@ alt: "Painting and protecting exterior surfaces to enhance appeal and prevent we
 description: "Painting and protecting exterior surfaces to enhance appeal and prevent weather damage"
 category: "painter-decorator"
 subcategory: "exterior-painting"
-image: "/tradespeople/painter-decorator/exterior-painting.webp"
-ogImage: "/tradespeople/painter-decorator/exterior-painting.webp"
+image: "/images/tradespeople/painter-decorator/exterior-painting.webp"
+ogImage: "/images/tradespeople/painter-decorator/exterior-painting.webp"
 colour: "blue"
 pathtxt: "Exterior painting"
 published: true
@@ -24,7 +24,7 @@ Give your property a vibrant new look with our professional exterior painting se
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local painters and decorators for exterior painting services](/tradespeople/painter-decorator/exterior-painting.webp)
+    ![BaseLink offers experienced local painters and decorators for exterior painting services](/images/tradespeople/painter-decorator/exterior-painting.webp)
     ::
 ::
 

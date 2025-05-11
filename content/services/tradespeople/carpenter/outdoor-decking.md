@@ -4,8 +4,8 @@ alt: "Installing or repairing wooden decks, pergolas, gazebos, and fencing"
 description: "Installing or repairing wooden decks, pergolas, gazebos, and fencing"
 category: "carpenter"
 subcategory: "decking-outdoor"
-image: "/tradespeople/carpenter/decking-outdoor.webp"
-ogImage: "/tradespeople/carpenter/decking-outdoor.webp"
+image: "/images/tradespeople/carpenter/decking-outdoor.webp"
+ogImage: "/images/tradespeople/carpenter/decking-outdoor.webp"
 colour: "blue"
 pathtxt: "Decking and outdoor"
 published: true
@@ -24,7 +24,7 @@ Transform your outdoor area with decking services provided by local carpenters{{
 #image
     ::pictures
     #right
-    ![BaseLink offers local carpenters for outdoor decking services](/tradespeople/carpenter/decking-outdoor.webp)
+    ![BaseLink offers local carpenters for outdoor decking services](/images/tradespeople/carpenter/decking-outdoor.webp)
     ::
 ::
 

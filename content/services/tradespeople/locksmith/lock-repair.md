@@ -4,8 +4,8 @@ alt: "Repairing damaged or faulty locks to restore full security and function"
 description: "Repairing damaged or faulty locks to restore full security and function"
 category: "locksmith"
 subcategory: "lock-repair"
-image: "/tradespeople/locksmith/lock-repair.webp"
-ogImage: "/tradespeople/locksmith/lock-repair.webp"
+image: "/images/tradespeople/locksmith/lock-repair.webp"
+ogImage: "/images/tradespeople/locksmith/lock-repair.webp"
 colour: "blue"
 pathtxt: "Lock repair"
 published: true
@@ -24,7 +24,7 @@ Having trouble with a lock? Our lock repair service{{ $doc.location }} fixes any
 #image
     ::pictures
     #right
-    ![BaseLink offers local locksmith for lock repair services](/tradespeople/locksmith/lock-repair.webp)
+    ![BaseLink offers local locksmith for lock repair services](/images/tradespeople/locksmith/lock-repair.webp)
     ::
 ::
 

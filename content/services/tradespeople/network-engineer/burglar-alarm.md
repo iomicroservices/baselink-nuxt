@@ -4,8 +4,8 @@ alt: "Installing and maintaining alarm systems to protect your property from int
 description: "Installing and maintaining alarm systems to protect your property from intruders"
 category: "network-engineer"
 subcategory: "burglar-alarm"
-image: "/tradespeople/network-engineer/burglar-alarm.webp"
-ogImage: "/tradespeople/network-engineer/burglar-alarm.webp"
+image: "/images/tradespeople/network-engineer/burglar-alarm.webp"
+ogImage: "/images/tradespeople/network-engineer/burglar-alarm.webp"
 colour: "blue"
 pathtxt: "Burglar alarm"
 published: true
@@ -24,7 +24,7 @@ Secure, reliable burglar alarm installations{{ $doc.location }}, keeping your ho
 #image
     ::pictures
     #right
-    ![BaseLink offers local network engineers for burglar alarm services](/tradespeople/network-engineer/burglar-alarm.webp)
+    ![BaseLink offers local network engineers for burglar alarm services](/images/tradespeople/network-engineer/burglar-alarm.webp)
     ::
 ::
 

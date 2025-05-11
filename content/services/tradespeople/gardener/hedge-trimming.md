@@ -4,8 +4,8 @@ alt: "Shaping and maintaining hedges for a clean, controlled look"
 description: "Shaping and maintaining hedges for a clean, controlled look"
 category: "gardener"
 subcategory: "hedge-trimming"
-image: "/tradespeople/gardener/hedge-trimming.webp"
-ogImage: "/tradespeople/gardener/hedge-trimming.webp"
+image: "/images/tradespeople/gardener/hedge-trimming.webp"
+ogImage: "/images/tradespeople/gardener/hedge-trimming.webp"
 colour: "blue"
 pathtxt: "Hedge trimming"
 published: true
@@ -24,7 +24,7 @@ Keep your garden well-manicured and looking sharp with our expert hedge trimming
 #image
     ::pictures
     #right
-    ![BaseLink offers local gardeners for hedge trimming service](/tradespeople/gardener/hedge-trimming.webp)
+    ![BaseLink offers local gardeners for hedge trimming service](/images/tradespeople/gardener/hedge-trimming.webp)
     ::
 ::
 

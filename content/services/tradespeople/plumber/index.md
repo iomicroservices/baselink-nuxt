@@ -4,8 +4,8 @@ alt: "Providing expert plumbing services for installations, repairs, and mainten
 description: "Providing expert plumbing services for installations, repairs, and maintenance"
 category: "tradespeople"
 subcategory: "plumber"
-image: "/tradespeople/plumber/plumber.webp"
-ogImage: "/tradespeople/plumber/plumber.webp"
+image: "/images/tradespeople/plumber/plumber.webp"
+ogImage: "/images/tradespeople/plumber/plumber.webp"
 colour: "blue"
 pathtxt: "Plumber"
 published: true
@@ -24,7 +24,7 @@ From leaks and repairs to installations, our vetted and insured plumbers{{ $doc.
 #image
     ::pictures
     #right
-    ![BaseLink offers experienced local plumbers](/tradespeople/plumber/plumber.webp)
+    ![BaseLink offers experienced local plumbers](/images/tradespeople/plumber/plumber.webp)
     ::
 ::
 
