@@ -1,22 +1,31 @@
 <script lang="ts" setup>
 const client = useSupabaseClient();
-const router = useRouter();
 
-const email = ref('');
-const password = ref('');
+const loginFormState = reactive({ 
+    email: '' as string,
+    password: '' as string,
+    rememberMe: false as boolean
+})
+
 const errorMsg = ref<string | null>(null);
+const isSubmitting = ref(false);
+const showPassword = ref(false);
 
 const logIn = async () => {
     errorMsg.value = null;
+    isSubmitting.value = true;
+
     try {
         const { error } = await client.auth.signInWithPassword({
-            email: email.value,
-            password: password.value
+            email: loginFormState.email,
+            password: loginFormState.password
         });
         if (error) throw error;
-        router.push('/account');
+        await navigateTo('/account');
     } catch (error) {
         errorMsg.value = error instanceof Error ? error.message : 'Something went wrong.';
+    } finally {
+        isSubmitting.value = false
     }
 };
 </script>
@@ -40,52 +49,58 @@ const logIn = async () => {
 
             <div class="mt-5">
 
-                <!-- Form -->
-                <form @submit.prevent="logIn">
-                    <div class="grid gap-y-4">
-                        <div>
-                            <label for="email" class="block text-sm mb-2 dark:text-white">Email address</label>
-                            <input id="email" v-model="email" type="email" required autocomplete="email"
-                                class="py-2.5 px-4 block w-full border border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-800 dark:border-gray-800 dark:text-gray-300 dark:placeholder-neutral-500" />
+                <UForm :state="loginFormState" class="grid gap-y-4" @submit.prevent="logIn">
+
+                    <UFormGroup size="xl" name="email" label="Email" required>
+                        <UInput v-model="loginFormState.email" autocomplete="email" icon="i-heroicons-envelope" />
+                    </UFormGroup>
+
+                    <UFormGroup size="xl" name="password" label="Password" required>
+                        <UInput v-model="loginFormState.password" :type="showPassword ? 'text' : 'password'"
+                            icon="i-heroicons-lock-closed" autocomplete="current-password"
+                            :ui="{ icon: { trailing: { pointer: '' } } }">
+                            <template #trailing>
+                                <UButton color="gray" variant="link"
+                                    :icon="showPassword ? 'i-heroicons-eye-slash' : 'i-heroicons-eye'" :padded="false"
+                                    @click="showPassword = !showPassword" />
+                            </template>
+                        </UInput>
+                        <template #hint>
+                            <NuxtLink to="/auth/password-reset"
+                                class="text-blue-600 decoration-2 hover:underline text-sm font-medium dark:text-blue-400">
+                                Forgot password?
+                            </NuxtLink>
+                        </template>
+                    </UFormGroup>
+
+                    <UFormGroup size="xl" name="rememberMe" class="py-2">
+                        <div class="flex items-start">
+                            <UToggle on-icon="i-heroicons-check-20-solid" off-icon="i-heroicons-x-mark-20-solid"
+                                color="green" v-model="loginFormState.rememberMe">
+                            </UToggle>
+                            <p class="ml-2 mb-0 text-sm text-left">Remember me</p>
                         </div>
+                    </UFormGroup>
 
-                        <div>
-                            <div class="flex justify-between items-center">
-                                <label for="password" class="text-sm dark:text-white">Password</label>
-                                <NuxtLink to="/auth/password-reset"
-                                    class="text-sm text-blue-600 hover:underline dark:text-blue-400">
-                                    Forgot password?
-                                </NuxtLink>
-                            </div>
-                            <input id="password" v-model="password" type="password" required
-                                autocomplete="current-password"
-                                class="py-2.5 px-4 block w-full border border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-800 dark:border-gray-800 dark:text-neutral-400 dark:placeholder-neutral-500" />
-                        </div>
+                    <UButton block type="submit" icon="i-heroicons-user"
+                        class="w-full py-3 px-4 md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold"
+                        :disabled="isSubmitting" :loading="isSubmitting">
+                        <template v-if="isSubmitting">
+                            <span>Loading...</span>
+                        </template>
+                        <template v-else>
+                            <span>Log in</span>
+                        </template>
+                    </UButton>
 
-                        <div class="flex items-center">
-                            <input id="remember-me" type="checkbox" class="form-checkbox" />
-                            <label for="remember-me" class="ml-2 text-sm dark:text-white">Remember me</label>
-                        </div>
+                    <p v-if="errorMsg" class="text-red-600 text-sm mt-2">{{ errorMsg }}</p>
+                </UForm>
 
-                        <button type="submit"
-                            class="w-full py-3 px-4 flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg bg-blue-600 text-white hover:bg-blue-700">
-                            Log in
-                        </button>
-
-                        <p v-if="errorMsg" class="text-red-600 text-sm mt-2">{{ errorMsg }}</p>
-                    </div>
-                </form>
-
-                <!-- Divider -->
-                <div
-                    class="py-5 flex items-center text-xs text-gray-400 uppercase before:flex-1 before:border-t before:border-gray-200 after:flex-1 after:border-t after:border-gray-200 dark:text-neutral-300 dark:before:border-neutral-600 dark:after:border-neutral-600">
-                    Or
-                </div>
+                <UDivider label="OR" size="sm" class="py-5 flex items-center text-2xs" />
 
                 <!-- Google Button -->
-                <UButton icon="i-logos-google-icon" type="button" label="Log in with Google"
-                    class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden dark:bg-indigo-700/40 dark:border-gray-800 dark:text-white dark:hover:bg-indigo-700/60" />
-
+                <UButton icon="i-logos-google-icon" type="button" variant="outline" label="Log in with Google"
+                    class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0" />
 
             </div>
         </div>
@@ -94,8 +109,7 @@ const logIn = async () => {
         <div class="hidden lg:block lg:w-1/2">
 
             <NuxtImg src="/images/general/baselink-login-light.png" alt="Log in to your BaseLink account"
-                class="dark:hidden h-full w-full object-contain transition-opacity dark:opacity-0"
-                format="webp" />
+                class="dark:hidden h-full w-full object-contain transition-opacity dark:opacity-0" format="webp" />
 
             <NuxtImg src="/images/general/baselink-login-dark.png" alt="Log in to your BaseLink account"
                 class="hidden dark:block h-full w-full object-contain transition-opacity opacity-0 dark:opacity-100"

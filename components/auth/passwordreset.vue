@@ -22,7 +22,7 @@ const email = ref('');
                 <!-- Form -->
                 <form>
                     <div class="grid gap-y-4">
-                        <!-- Form Group -->
+                        <!-- Form Group !! UPDATE TO NUXTUI COMPONENTS TO FINALISE -->
                         <div>
                             <label for="email" class="block text-sm mb-2 dark:text-white">Email address</label>
                             <div class="relative">
