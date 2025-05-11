@@ -1,7 +1,7 @@
 ---
 title: Terms of Service
-description: Mohana Ltd t/a BaseLink
-ogImage: /images/blogs-img/blog.jpg
+description: Terms that govern the use of our platform
+ogImage: /images/legal/terms-of-service.webp
 date: 7th May 2025
 published: true
 ---

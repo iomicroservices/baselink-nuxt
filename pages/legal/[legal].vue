@@ -4,8 +4,9 @@ const { path } = useRoute()
 
 const { data: legalarticles, error } = await useAsyncData(`legal-post-${path}`, () => queryContent(path).findOne())
 
-if (error.value)
-  navigateTo('/404')
+if (error.value) {
+  await navigateTo('/404')
+}
 
 const data = computed(() => {
   return {

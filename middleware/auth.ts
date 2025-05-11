@@ -1,9 +1,24 @@
-export default defineNuxtRouteMiddleware(() => {
-    const user = useSupabaseUser();
-    if (!user.value) {
-        return navigateTo('auth/login')
+export default defineNuxtRouteMiddleware((to) => {
+    const user = useSupabaseUser()
+
+    const isAccountRoute = to.path.startsWith('/account')
+    const isAuthRoute = to.path.startsWith('/auth')
+
+    if (isAccountRoute && !user.value) {
+        return navigateTo('/auth/login')
+    }
+
+    if (isAuthRoute && user.value) {
+        return navigateTo('/account')
     }
 });
+
+// export default defineNuxtRouteMiddleware(() => {
+//     const user = useSupabaseUser();
+//     if (!user.value) {
+//         return navigateTo('auth/login')
+//     }
+// });
 
 // export default defineNuxtRouteMiddleware(async (to, from) => {
 //     const supabase = useSupabaseClient()

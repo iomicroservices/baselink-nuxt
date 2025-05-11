@@ -1,7 +1,7 @@
 ---
 title: Cookie Policy
-description: Mohana Ltd t/a BaseLink
-ogImage: /images/blogs-img/blog.jpg
+description: How we use cookies to run the website
+ogImage: /images/legal/cookie-policy.webp
 date: 16th Apr 2025
 published: true
 ---

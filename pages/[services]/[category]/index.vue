@@ -3,8 +3,9 @@
 const { pathData } = await usePathData(); // Get the path data from the composable
 const serviceData = pathData.pageData; // Access the page-specific service data
 
-if (!serviceData.value)
-    navigateTo('/404')
+if (!serviceData.value) {
+  await navigateTo('/404')
+}
 
 const locality = ref({ location: '' });
 

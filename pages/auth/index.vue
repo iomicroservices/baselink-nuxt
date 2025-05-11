@@ -1,3 +1,13 @@
+<script lang="ts" setup>
+definePageMeta({
+    layout: 'minimal', // Specify the layout name here
+    middleware: ['auth']
+});
+
+await navigateTo('/auth/login')
+
+</script>
+
 <template>
     <div class="page-container">
         <section class="section relative mx-auto">

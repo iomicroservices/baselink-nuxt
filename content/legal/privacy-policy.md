@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
-description: Mohana Ltd t/a BaseLink
-ogImage: /images/blogs-img/blog.jpg
+description: How we collect, use, and protect your data
+ogImage: /images/legal/privacy-policy.webp
 date: 7th May 2025
 published: true
 ---

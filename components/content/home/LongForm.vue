@@ -9,7 +9,7 @@ const { getStarted, route, job } = useGetStarted();
 const quoteMessage = computed(() => {
     return route.params.category === 'commercial-cleaning'
         ? 'Request a quote today'
-        : `Get an instant quote and book your ${job} today`;
+        : `Get an instant quote and book your ${job.value} today`;
 });
 
 defineProps<Props>()

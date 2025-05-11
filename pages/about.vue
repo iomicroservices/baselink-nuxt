@@ -11,8 +11,9 @@ const { path } = useRoute()
 
 const { data: aboutarticle, error } = await useAsyncData(`about-post-${path}`, () => queryContent(path).findOne())
 
-if (error.value)
-  navigateTo('/404')
+if (error.value) {
+  await navigateTo('/404')
+}
 
 const data = computed(() => {
   return {
