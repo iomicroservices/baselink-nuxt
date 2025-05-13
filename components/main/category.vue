@@ -13,7 +13,7 @@ withDefaults(defineProps<Props>(), {
             {{ title }}
         </h2>
 
-        <div class="grid gap-3 lg:gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <div class="grid gap-3 lg:gap-3 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             <CategoryItem name="Home cleaning" emoji="material-symbols-light:cleaning-outline-rounded"
                 path="/services/home-cleaning" />
             <CategoryItem name="Housekeeping" emoji="material-symbols-light:dry-cleaning-rounded"

@@ -5,7 +5,7 @@ import { SpeedInsights } from '@vercel/speed-insights/nuxt'
 <template>
   <div class="font-spacegrotesk">
     <header class="fixed w-full bg-white dark:bg-slate-950 z-10">
-      <MainHeader2 />
+      <MainHeader />
       <SpeedInsights />
     </header>
     <main role="main">

@@ -61,9 +61,9 @@ const formattedData = computed(() => {
 <template>
     <section class="section relative mx-auto">
 
-        <h2 class="heading2">
-            <ContentSlot unwrap="p" name="title">
-                {{ title || 'Default Title' }}
+        <h2 class="heading2 [&_a]:text-primary-700 dark:[&_a]:text-primary-500 [&_a:hover]:underline">
+            <ContentSlot unwrap=" p" name="title">
+            {{ title || 'Default Title' }}
             </ContentSlot>
         </h2>
 

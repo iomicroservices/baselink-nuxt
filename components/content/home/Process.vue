@@ -1,6 +1,7 @@
 <script setup lang="ts">
 interface Props {
     title?: string
+    description?: string
 }
 
 defineProps<Props>()
@@ -14,6 +15,11 @@ defineProps<Props>()
                 {{ title || "Default process title" }}
             </ContentSlot>
         </h2>
+        <p class="text-lg max-w-[75%]">
+            <ContentSlot unwrap="p" name="description">
+                {{ description || "" }}
+            </ContentSlot>
+        </p>
         <div class="flex flex-wrap">
             <ContentSlot unwrap="p" name="items" />
         </div>

@@ -84,29 +84,20 @@ Our goal is to become your go-to platform for all things property — from every
 ::
 
 ## Our history
-
 BaseLink was founded in 2022 with a clear goal: to make property services simpler, smarter, and more connected. The name says it all — *"base"* represents your home, business, or property, while *"link"* reflects our mission to bring everything you need together in one place.
 
 We started by listening to the frustrations people had with unreliable service providers, outdated booking systems, and a lack of transparency. BaseLink was built to solve that — using technology to streamline the process and put control back in the hands of customers.
 
----
-
 ## Our mission
-
 Our mission is to connect customers with skilled, local professionals — quickly, easily, and reliably. We believe in empowering communities through local talent, creating better work opportunities and better outcomes for everyone.
 
 By combining digital convenience with trusted, on-the-ground expertise, we're transforming how property services are booked and delivered. Whether it's a simple clean or a full installation, we make it effortless to get the job done — and done right.
 
----
-
 ## Where we work
-
 We’re currently operating in **London** and expanding fast across the UK. Want us in your area? [Let us know](#) — we’re growing with demand.
 
----
 
 ## Get in touch
-
 Have a question, partnership enquiry, or just want to say hello?  
 📧 Email us at: [hello@baselink.uk](mailto:hello@baselink.uk)  
 📞 Call us on: **03330 388 288**

@@ -18,7 +18,7 @@ const pathCategory = params.category ? params.category : props.path
         <div class="relative p-8 lg:p-6 xl:p-8 rounded-2xl dark:bg-slate-800">
             <div
                 class="absolute inset-0 w-full h-full transform translate-x-2 translate-y-2 bg-primary-400/20 rounded-2xl" />
-            <div class="absolute inset-0 w-full h-full border-2 border-slate-800 rounded-2xl" />
+            <div class="absolute inset-0 w-full h-full border-2 border-gray-400 dark:border-slate-800 rounded-2xl" />
 
             <div class="py-12 flex flex-col items-center">
                 <h2 class="heading2 text-center relative">

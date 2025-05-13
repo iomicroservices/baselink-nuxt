@@ -5,15 +5,12 @@ definePageMeta({
 });
 const user = useSupabaseUser();
 const client = useSupabaseClient();
-const router = useRouter();
-
-console.log(user.value);
 
 const signOut = async () => {
     try {
         const { error } = await client.auth.signOut();
         if (error) throw error;
-        router.push('/auth/login');
+        await navigateTo('/auth/login');
     } catch (error) {
         console.log(error instanceof Error ? error.message : 'Something went wrong.');
     }

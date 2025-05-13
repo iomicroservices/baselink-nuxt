@@ -177,7 +177,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             console.log('Form submitted successfully:', response.message);
             // Optionally, reset the form or show a success message
             // Navigate to the success page
-            router.push({ path: `${router.currentRoute.value.path}/success` }); // Append /success to the current path
+            await navigateTo({ path: `${router.currentRoute.value.path}/success` }); // Append /success to the current path
         } else {
             console.error('Error submitting form:', response.message);
             // Handle error response

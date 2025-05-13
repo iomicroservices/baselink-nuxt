@@ -15,14 +15,14 @@ withDefaults(defineProps<Props>(), {
 <template>
     <div>
         <NuxtLink :to="path"
-            class="relative group overflow-hidden block h-full rounded-xl group hover:shadow-lg bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
+            class="relative group overflow-hidden block h-full rounded-xl group hover:shadow-lg bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900 hover:dark:bg-slate-800 hover:dark:border-indigo-400">
 
             <!-- Change flex to column layout -->
-            <div class="flex flex-col items-center p-6">
+            <div class="flex flex-col items-center p-5">
 
                 <!-- Icon on top -->
                 <span
-                    class="flex items-end justify-center flex-shrink-0 w-20 h-20 rounded bg-indigo-50 dark:bg-gray-800 group-hover:bg-indigo-200 dark:group-hover:bg-indigo-600">
+                    class="flex items-end justify-center flex-shrink-0 w-20 h-20 rounded bg-indigo-50 dark:bg-gray-800 group-hover:bg-indigo-500 group-hover:text-white">
                     <span class="text-5xl" role="img" :aria-label="`${name} category`">
                         <Icon :name="emoji" size="64" />
                     </span>

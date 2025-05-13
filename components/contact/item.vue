@@ -1,7 +1,8 @@
 <script setup lang="ts">
 interface Props {
     title?: string
-    description?: string
+    icon?: string
+    path?: string
 }
 
 defineProps<Props>()
@@ -10,8 +11,8 @@ defineProps<Props>()
 <template>
 
     <!-- Card -->
-    <a class="group flex flex-col shadow-2xs rounded-xl hover:shadow-md focus:outline-hidden focus:shadow-md bg-white border border-gray-200 dark:bg-gray-900 dark:border-gray-800"
-        href="#">
+    <NuxtLink :to="path"
+        class="group flex flex-col shadow-2xs rounded-xl hover:shadow-md focus:outline-hidden focus:shadow-md bg-white border border-gray-200 dark:bg-gray-900 hover:dark:bg-slate-800 dark:border-gray-800 hover:dark:border-green-400">
         <div class="p-4">
             <div class="flex gap-x-5">
                 <svg class="shrink-0 size-6 text-gray-800 dark:text-neutral-200" xmlns="http://www.w3.org/2000/svg"
@@ -24,15 +25,15 @@ defineProps<Props>()
                 </svg>
 
                 <h3
-                    class="grow group-hover:text-blue-700 font-semibold text-gray-800 dark:group-hover:text-blue-400 dark:text-neutral-200">
-                    Ask our community
+                    class="grow group-hover:text-indigo-700 font-semibold text-gray-800 dark:group-hover:text-green-500 dark:text-neutral-200">
+                    {{ title || "Ask our community"}}
                 </h3>
 
-                <Icon name="material-symbols:arrow-forward-ios-rounded" size="20" />
+                <Icon :name="icon as string" size="20" />
 
             </div>
         </div>
-    </a>
+    </NuxtLink>
     <!-- End Card -->
 
 </template>

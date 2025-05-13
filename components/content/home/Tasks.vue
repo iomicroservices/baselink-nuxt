@@ -41,30 +41,22 @@ const pathCategory = route.params.category ? route.params.category : props.path
                 <div
                     class="p-4 relative md:p-10 rounded-xl bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
 
-                    <!--
-                    <div>
-                        <span class="me-3 text-gray-500 dark:text-neutral-400">From</span>
-                        <span class="text-4xl font-bold text-gray-800 dark:text-neutral-200">£19</span>
-                        <span class="text-lg font-bold text-gray-800 dark:text-neutral-200">.00</span>
-                        <span class="ms-3 text-gray-500 dark:text-neutral-400">/ hour</span>
-                    </div>
-                    -->
-
                     <div class="grid grid-cols-1 gap-y-2 py-4 first:pt-0 last:pb-0 sm:gap-x-6 sm:gap-y-0">
-
                         <!-- List -->
-                        <ul class="space-y-2">
+                        <ul class="space-y-3 text-lg">
                             <ContentSlot unwrap="p" name="items" />
                         </ul>
                         <!-- End List -->
                     </div>
 
                     <!-- Buttons -->
-                    <div class="pt-4 flex flex-col lg:flex-row gap-4 justify-center lg:justify-start">
-                        <NuxtLink v-if="pathCategory" :to=getStarted class="btn-primary">
-                            Get a quote
-                        </NuxtLink>
-                    </div>
+                    <ClientOnly>
+                        <div v-if="pathCategory" class="pt-4 flex flex-col lg:flex-row gap-4 justify-center lg:justify-start">
+                            <NuxtLink :to=getStarted class="btn-primary">
+                                Get a quote
+                            </NuxtLink>
+                        </div>
+                    </ClientOnly>
                     <!-- End of Buttons -->
 
                 </div>

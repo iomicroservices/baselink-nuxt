@@ -66,13 +66,17 @@ defineProps<Props>()
             </div>
 
             <!-- hero image section START -->
-            <FeaturesCard :colour="colour" :path="path">
-                <template #card-image>
-                    <NuxtImg :src="ogImage" :alt="alt"
-                        class="w-full object-cover h-32 rounded-t-2xl shadow-2xl backdrop-blur-md" format="webp"
-                        style="clip-path: inset(0 0 0 0);" />
-                </template>
-            </FeaturesCard>
+            <div class="relative w-full">
+                <ContentSlot unwrap="p" name="image">
+                    <FeaturesCard :colour="colour" :path="path">
+                        <template #card-image>
+                            <NuxtImg :src="ogImage" :alt="alt"
+                                class="w-full object-cover h-32 rounded-t-2xl shadow-2xl backdrop-blur-md" format="webp"
+                                style="clip-path: inset(0 0 0 0);" />
+                        </template>
+                    </FeaturesCard>
+                </ContentSlot>
+            </div>
             <!-- hero image section END -->
         </div>
     </header>

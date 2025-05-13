@@ -102,16 +102,15 @@ defineOgImage({
 
     <MainHeroBlog />
 
-    <section class="section">
-      <div id="search" class="mb-5">
-        <input v-model="searchTest"
-        placeholder="Search"
-        type="text"
-        class="block w-full bg-[#FFFFFF] dark:bg-slate-900 dark:placeholder-zinc-500 text-zinc-600  rounded-md border-gray-300 dark:border-gray-800 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+    <section class="section pt-2">
+      <div id="search" class="mb-5 mx-2">
+        <input v-model="searchTest" placeholder="Search" type="text"
+          class="block w-full bg-[#FFFFFF] dark:bg-slate-900 dark:placeholder-zinc-500 text-zinc-600  rounded-md border-gray-300 dark:border-gray-800 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
       </div>
 
       <ClientOnly>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-3"> <!-- removed v-auto-animate right next to the div, causing error -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <!-- removed v-auto-animate right next to the div, causing error -->
           <template v-for="post in paginatedData" :key="post.title">
             <ArchiveCard :path="post.path" :title="post.title" :date="post.date" :description="post.description"
               :image="post.image" :alt="post.alt" :og-image="post.ogImage" :tags="post.tags"
@@ -130,12 +129,13 @@ defineOgImage({
 
       <div class="flex justify-center items-center space-x-6 mt-10">
         <button :disabled="pageNumber <= 1" @click="onPreviousPageClick">
-          <Icon name="mdi:code-less-than" size="30" :class="{ 'text-sky-700 dark:text-sky-400': pageNumber > 1 }" />
+          <Icon name="mdi:code-less-than" size="30" :class="{ 'text-indigo-700 dark:text-pink-400': pageNumber > 1, 'text-indigo-700/50 dark:text-pink-400/50': pageNumber < 2 }" />
         </button>
         <p>{{ pageNumber }} / {{ totalPage }}</p>
         <button :disabled="pageNumber >= totalPage" @click="onNextPageClick">
-          <Icon name="mdi:code-greater-than" size="30"
-            :class="{ 'text-sky-700 dark:text-sky-400': pageNumber < totalPage }" />
+          <Icon name="mdi:code-greater-than" size="30" :class="{
+            'text-indigo-700 dark:text-pink-400': pageNumber < totalPage,
+            'text-indigo-700/50 dark:text-pink-400/50': pageNumber >= totalPage }" />
         </button>
       </div>
     </section>

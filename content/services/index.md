@@ -12,6 +12,24 @@ Discover our range of residential and commercial services
 
 #description
 From expert cleaning services to reliable tradespeople and network engineers, we offer vetted, qualified and local professionals who deliver exceptional service every time.
+
+#image
+:::slider
+---
+images: [
+        '/images/home-cleaning/regular-cleaning.webp',
+        '/images/commercial-cleaning/airbnb-rental-cleaning.webp',
+        '/images/tradespeople/network-engineer/cctv-installation.webp',
+        '/images/tradespeople/gas-heating-engineer/boiler-installation.webp',
+        '/images/tradespeople/carpenter/carpenter.webp',
+        '/images/tradespeople/removals/home-removals.webp',
+        '/images/tradespeople/gardener/gardener.webp',
+        '/images/mobile-car-wash/exterior-car-wash.webp',
+        ]
+lgbasis: lg:basis-1/3
+---
+:::
+
 ::
 
 ---

@@ -16,7 +16,7 @@ const logIn = async () => {
     isSubmitting.value = true;
 
     try {
-        const { error } = await client.auth.signInWithPassword({
+        const { data, error } = await client.auth.signInWithPassword({
             email: loginFormState.email,
             password: loginFormState.password
         });

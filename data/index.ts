@@ -3,6 +3,8 @@ export const navbarData = {
 }
 
 export const footerData = {
+    companyName: 'Mohana Ltd',
+    companyReg: '',
     author: 'Mohana Ltd',
     brand: 'BaseLink',
     aboutAuthor:
@@ -11,6 +13,58 @@ export const footerData = {
         "We're committed to making property services simpler and more accessible through digital-first solutions. Whether you're a homeowner, landlord or business, BaseLink is here to help.",
     aboutTheSite:
         "This is the official website of BaseLink, a digital-first UK property services provider. We offer trusted tradespeople and cleaners across residential and commercial sectors. Built with Nuxt3 and deployed via Vercel.",
+    services: [
+        { name: 'Home cleaning', link: '/services/home-cleaning' },
+        { name: 'Commercial cleaning', link: '/services/commercial-cleaning' },
+        { name: 'Mobile car wash', link: '/services/mobile-car-wash' },
+        { name: 'Tradespeople', link: '/services/tradespeople' },
+        { name: 'Carpenter', link: '/services/tradespeople/carpenter' },
+        { name: 'Gardener', link: '/services/tradespeople/gardener' },
+        { name: 'Gas & heating engineer', link: '/services/tradespeople/gas-heating-engineer' },
+        { name: 'Boiler installation', link: '/services/tradespeople/gas-heating-engineer/boiler-installation' },
+        { name: 'Handyman', link: '/services/tradespeople/handyman' },
+        { name: 'TV wall mounting', link: '/services/tradespeople/handyman/tv-wall-mounting' },
+        { name: 'Locksmith', link: '/services/tradespeople/locksmith' },
+        { name: 'Network engineer', link: '/services/tradespeople/network-engineer' },
+        { name: 'CCTV installation', link: '/services/tradespeople/network-engineer' },
+        { name: 'Painter & decorator', link: '/services/tradespeople/painter-decorator' },
+        { name: 'Plumber', link: '/services/tradespeople/plumber' },
+        { name: 'Removals', link: '/services/tradespeople/removals' },
+    ],
+    company: [
+        { name: 'About us', link: '/about' },
+        { name: 'Reviews', link: '/' },
+        { name: 'Contact', link: '/' },
+        { name: 'Recruitment', link: '/' },
+        { name: 'Legal', link: '/legal' },
+        { name: 'Sitemap', link: '/sitemap.xml' },
+    ],
+    locations: [
+        { name: 'London', link: '/' },
+    ],
+    resources: [
+        { name: 'FAQs', link: '/' },
+        { name: 'Blog', link: '/blog' },
+        { name: 'How to guides', link: '/' },
+        { name: 'Pricing guides', link: '/' },
+        { name: 'Vendor guides', link: '/' },
+    ],
+    sectors: [
+        { name: 'Residential', link: '/' },
+        { name: 'Estate agents', link: '/' },
+        { name: 'Restaurants', link: '/' },
+        { name: 'Pubs & bars', link: '/' },
+        { name: 'Retail & shops', link: '/' },
+        { name: 'Shopping centres', link: '/' },
+        { name: 'Warehouses', link: '/' },
+        { name: 'Light industrial', link: '/' },
+        { name: 'Hotels', link: '/' },
+        { name: 'Serviced apartments', link: '/' },
+        { name: 'Small business', link: '/' },
+        { name: 'Property management', link: '/' },
+        { name: 'Public sector', link: '/' },
+        { name: 'Lawyers & Solicitors', link: '/' },
+    ],
 }
 
 export const homePage = {
@@ -49,10 +103,10 @@ export const seoData = {
     mailAddress: 'hello@baselink.uk',
 }
 
-export const socialLinks = {
-    instagramLink: 'https://instagram.com/hellobaselink',
-    facebookLink: 'https://facebook.com/hellobaselink',
-}
+export const socialLinks = [
+    { name: 'Instagram', link: 'https://instagram.com/hellobaselink', icon: 'fa:instagram' },
+    { name: 'Facebook', link: 'https://facebook.com/hellobaselink', icon: 'fa:facebook-square' },
+]
 
 export const siteMetaData = [
     {

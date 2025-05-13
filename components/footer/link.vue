@@ -1,19 +1,18 @@
+<script setup lang="ts">
+defineProps<{
+  items?: { name: string; link: string }[]
+}>()
+</script>
+
 <template>
-  <div class="flex flex-col dark:text-zinc-300 my-5 md:my-0 md:justify-self-center">
-    <p class="text-black dark:text-zinc-300 text-base font-semibold">
-      Quick Links
+  <div class="mt-3 grid">
+
+    <p v-for="item in items" :key="item.link">
+      <NuxtLink :to="item.link"
+        class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-hidden focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200">
+        {{ item.name }}
+      </NuxtLink>
     </p>
-    <NuxtLink to="/" class="hover:underline my-1">
-      Home
-    </NuxtLink>
-    <NuxtLink to="/blogs" class="hover:underline my-1">
-      Blogs
-    </NuxtLink>
-    <NuxtLink to="/categories" class="hover:underline my-1">
-      Categories
-    </NuxtLink>
-    <NuxtLink to="/about" class="hover:underline my-1">
-      About Me
-    </NuxtLink>
+
   </div>
 </template>
