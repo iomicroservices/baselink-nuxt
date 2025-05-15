@@ -4,6 +4,7 @@ alt: "Installation, maintenance, and repair of gas or heating systems and applia
 description: "Installation, maintenance, and repair of gas or heating systems and appliances"
 category: "tradespeople"
 subcategory: "gas-heating-engineer"
+task: null
 image: "/images/tradespeople/gas-heating-engineer/gas-heating-engineer.webp"
 ogImage: "/images/tradespeople/gas-heating-engineer/gas-heating-engineer.webp"
 colour: "blue"
@@ -146,10 +147,10 @@ Need ongoing maintenance? You can book a full boiler service to keep your heatin
 If you're a landlord, we also provide Gas Safety Certificates (CP12s) to ensure your property meets legal requirements. The visit includes checks on all gas appliances, pipework, flues and ventilation, with a full report issued after inspection.
 
 #description
-Thermostat issues can also be diagnosed and fixed — whether you need a simple repair or a full replacement. Your engineer can install smart thermostats too, helping you control your home’s temperature more efficiently.
+Thermostat issues can also be diagnosed and fixed — whether you need a simple repair or a full replacement. Your engineer can install smart thermostats too, helping you control your home's temperature more efficiently.
 
 #description
-Water heater installations and replacements are available for homes, flats and rental properties. If you’re replacing an old unit, your engineer will disconnect, remove and dispose of the old appliance before installing the new one safely and efficiently.
+Water heater installations and replacements are available for homes, flats and rental properties. If you're replacing an old unit, your engineer will disconnect, remove and dispose of the old appliance before installing the new one safely and efficiently.
 
 #description
 Booking through BaseLink is fast and simple. Submit your request online, get an instant quote, and choose a time that suits your schedule. All engineers are fully vetted, Gas Safe registered, and reviewed by other customers in your area.

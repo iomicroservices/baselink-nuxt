@@ -2,8 +2,9 @@
 title: "Thermostat repair and replacement service"
 alt: "Repairing or replacing faulty thermostats to maintain accurate temperature control"
 description: "Repairing or replacing faulty thermostats to maintain accurate temperature control"
-category: "gas-heating-engineer"
-subcategory: "thermostat-repair-replacement"
+category: "tradespeople"
+subcategory: "gas-heating-engineer"
+task: "thermostat-repair-replacement"
 image: "/images/tradespeople/gas-heating-engineer/thermostat-repair-replacement.webp"
 ogImage: "/images/tradespeople/gas-heating-engineer/thermostat-repair-replacement.webp"
 colour: "blue"
@@ -177,13 +178,13 @@ A faulty thermostat can lead to inconsistent heating and higher bills. Whether y
 We repair and replace all types of thermostats, including manual, programmable, wireless and smart models. Your engineer will inspect the device, test functionality and determine whether a repair or full replacement is the most efficient solution.
 
 #description
-Common services include fault diagnosis, wireless pairing, battery replacement and recalibration for improved accuracy. If your thermostat isn’t reading the temperature correctly or isn’t communicating with your boiler, we’ll get it sorted.
+Common services include fault diagnosis, wireless pairing, battery replacement and recalibration for improved accuracy. If your thermostat isn't reading the temperature correctly or isn't communicating with your boiler, we'll get it sorted.
 
 #description
 If you're upgrading, our engineers can supply and install smart thermostats from leading brands — with full setup, mobile app pairing, and heating zone configuration to help you take control of your energy usage.
 
 #description
-We also check for compatibility with your existing heating system, so everything works safely and as intended. Whether it’s for a single room or a zoned setup, we ensure a seamless installation with no fuss.
+We also check for compatibility with your existing heating system, so everything works safely and as intended. Whether it's for a single room or a zoned setup, we ensure a seamless installation with no fuss.
 
 #description
 Booking through BaseLink is quick and fully online. Submit your request in minutes, receive an instant quote, and choose a convenient time for your repair or installation.

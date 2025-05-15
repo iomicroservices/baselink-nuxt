@@ -2,8 +2,9 @@
 title: "Hedge trimming service"
 alt: "Shaping and maintaining hedges for a clean, controlled look"
 description: "Shaping and maintaining hedges for a clean, controlled look"
-category: "gardener"
-subcategory: "hedge-trimming"
+category: "tradespeople"
+subcategory: "gardener"
+task: "hedge-trimming"
 image: "/images/tradespeople/gardener/hedge-trimming.webp"
 ogImage: "/images/tradespeople/gardener/hedge-trimming.webp"
 colour: "blue"
@@ -174,10 +175,10 @@ Book hedge trimming{{$doc.location}} to keep your garden healthy and under contr
 Overgrown hedges can make your garden feel messy or block light and access. With BaseLink, you can book local, trusted gardeners{{$doc.location}} to trim, shape or fully remove hedges — all with flexible booking, instant quotes, and expert care.
 
 #description
-Your gardener will trim and shape the hedge to restore a clean, even look. Whether it’s a simple tidy-up or a more detailed reduction in height or width, all work is carried out with precision to enhance the space and encourage healthy growth.
+Your gardener will trim and shape the hedge to restore a clean, even look. Whether it's a simple tidy-up or a more detailed reduction in height or width, all work is carried out with precision to enhance the space and encourage healthy growth.
 
 #description
-They’ll also clear away uneven growth, prune where needed, and open up access paths or boundary lines. If you're planning a garden redesign, complete hedge removal and root extraction are also available on request.
+They'll also clear away uneven growth, prune where needed, and open up access paths or boundary lines. If you're planning a garden redesign, complete hedge removal and root extraction are also available on request.
 
 #description
 All cuttings and clippings are removed and disposed of, so your garden is left tidy and ready to enjoy. If you're unsure how often your hedge needs maintenance, your gardener can provide tailored advice during the visit.

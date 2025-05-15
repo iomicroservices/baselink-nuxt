@@ -44,7 +44,7 @@ Quick and easy booking for deep cleaning
     Tell us what you need cleaned
 
     #description
-    Fill out a simple form with the details of what you need included with your deep clean, and we’ll tailor the service to your specific requirements.
+    Fill out a simple form with the details of what you need included with your deep clean, and we'll tailor the service to your specific requirements.
     ::
     
     ::process-item
@@ -55,7 +55,7 @@ Quick and easy booking for deep cleaning
     Schedule your booking and pay
 
     #description
-    Choose a day and time that suits you, pay for the first 2 hours and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Choose a day and time that suits you, pay for the first 2 hours and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -66,7 +66,7 @@ Quick and easy booking for deep cleaning
     Enjoy our 5-star deep cleaning service
 
     #description
-    Our team goes beyond surface cleaning, tackling every nook and cranny to remove built-up dirt and grime. We’ll leave your home sparkling clean.
+    Our team goes beyond surface cleaning, tackling every nook and cranny to remove built-up dirt and grime. We'll leave your home sparkling clean.
     ::
 ::
 
@@ -168,10 +168,10 @@ button: "Hire a cleaner"
 Book deep cleaning{{$doc.location}} for a thorough top-to-bottom home refresh
 
 #description
-When your home needs more than a standard tidy-up, BaseLink makes it easy to book a deep cleaning service{{$doc.location}} with experienced local professionals. Whether it’s for spring cleaning, after an illness, or just a long-overdue refresh, our vetted cleaners give your space the detailed attention it deserves.
+When your home needs more than a standard tidy-up, BaseLink makes it easy to book a deep cleaning service{{$doc.location}} with experienced local professionals. Whether it's for spring cleaning, after an illness, or just a long-overdue refresh, our vetted cleaners give your space the detailed attention it deserves.
 
 #description
-Deep cleaning includes everything in a standard clean — vacuuming, mopping, dusting and general surface cleaning — plus extra tasks that target built-up dirt and neglected areas. It’s ideal for kitchens, bathrooms, or any room that needs a bit more care.
+Deep cleaning includes everything in a standard clean — vacuuming, mopping, dusting and general surface cleaning — plus extra tasks that target built-up dirt and neglected areas. It's ideal for kitchens, bathrooms, or any room that needs a bit more care.
 
 #description
 Your cleaner will vacuum upholstered furniture, sanitise high-touch surfaces, and descale taps, sinks, and toilets. Appliances and ovens are cleaned inside and out, helping restore hygiene and shine in places often overlooked during regular cleaning.
@@ -180,13 +180,13 @@ Your cleaner will vacuum upholstered furniture, sanitise high-touch surfaces, an
 The service can be tailored to your space and needs. Whether you want to focus on one area or tackle the whole house, you can include specific instructions or add extra rooms directly when booking.
 
 #description
-Using BaseLink’s digital platform, you can get an instant quote online, choose your preferred date and time, and manage everything in one place. No back-and-forth phone calls, no hidden costs — just fast, reliable booking and service.
+Using BaseLink's digital platform, you can get an instant quote online, choose your preferred date and time, and manage everything in one place. No back-and-forth phone calls, no hidden costs — just fast, reliable booking and service.
 
 #description
-All providers on BaseLink are experienced, fully vetted, and regularly rated by other customers in your area. And with support from our dedicated in-house team, you’ll always have someone to help if plans change or you need advice.
+All providers on BaseLink are experienced, fully vetted, and regularly rated by other customers in your area. And with support from our dedicated in-house team, you'll always have someone to help if plans change or you need advice.
 
 #description
-Payment is collected on the day of the clean, with any additional time billed in fair 30-minute increments. It’s a transparent and flexible way to get your home looking its best — without the stress.
+Payment is collected on the day of the clean, with any additional time billed in fair 30-minute increments. It's a transparent and flexible way to get your home looking its best — without the stress.
 
 #description
 Book deep cleaning{{$doc.location}} with BaseLink today and enjoy the feeling of a truly clean home, top to bottom.

@@ -4,7 +4,7 @@ alt: "Spotless cleaning and restocking to maintain premium serviced apartments"
 description: "Spotless cleaning and restocking to maintain premium serviced apartments"
 category: "commercial-cleaning"
 subcategory: "serviced-apartment-cleaning"
-task: "serviced-apartment-cleaning"
+task: null
 image: "/images/commercial-cleaning/serviced-apartment-cleaning.webp"
 ogImage: "/images/commercial-cleaning/serviced-apartment-cleaning.webp"
 colour: "yellow"
@@ -194,7 +194,7 @@ button: "Hire a cleaner"
 Serviced apartment cleaning{{$doc.location}} with high-quality results
 
 #description
-Serviced apartments require a high standard of cleaning and a fast, reliable turnaround. BaseLink connects you with experienced local cleaners{{$doc.location}} who understand the expectations of guests, operators, and corporate lets. Whether it’s a regular schedule or same-day turnaround, we help keep your apartments spotless and ready for the next check-in.
+Serviced apartments require a high standard of cleaning and a fast, reliable turnaround. BaseLink connects you with experienced local cleaners{{$doc.location}} who understand the expectations of guests, operators, and corporate lets. Whether it's a regular schedule or same-day turnaround, we help keep your apartments spotless and ready for the next check-in.
 
 #description
 Each clean includes thorough dusting, floor vacuuming and mopping, and full bathroom and kitchen cleaning. Sinks, taps, toilets, appliances and mirrors are polished, and all high-touch surfaces are sanitised to help ensure a hygienic stay for your guests.
@@ -209,7 +209,7 @@ Interior windows are cleaned, rubbish is removed and recycling is sorted, all as
 Unlike traditional providers, BaseLink gives you full control through a modern digital platform. You can submit your request online, get an instant quote, and book cleaning times that align with guest check-in and check-out schedules — no back-and-forth phone calls needed.
 
 #description
-Your account is managed by our dedicated support team, so there’s always someone available to help with key handover, guest coordination or last-minute changes. Everything is designed to keep your property running smoothly.
+Your account is managed by our dedicated support team, so there's always someone available to help with key handover, guest coordination or last-minute changes. Everything is designed to keep your property running smoothly.
 
 #description
 Payment is taken on the day of the clean, and any extra time is charged in fair 30-minute increments after the visit. Whether you manage one unit or several, BaseLink makes it easier to stay organised, efficient and guest-ready at all times.

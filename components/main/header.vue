@@ -16,9 +16,9 @@ function onClick(val: string) {
 }
 
 const navigation = computed(() => [
-    { name: 'Services', href: '/services', current: route.path.startsWith('/services') },
-    { name: 'Blog', href: '/blog', current: route.path.startsWith('/blog') },
-    { name: 'About', href: '/about', current: route.path.startsWith('/about') },
+    { name: 'Services', path: '/services', current: route.path.startsWith('/services') },
+    { name: 'Blog', path: '/blog', current: route.path.startsWith('/blog') },
+    { name: 'About', path: '/about', current: route.path.startsWith('/about') },
 ]);
 
 </script>
@@ -58,7 +58,7 @@ const navigation = computed(() => [
                         <ClientOnly>
                             <NuxtLink to="/">
                                 <img class="h-8 w-auto"
-                                    :src="colorMode.value === 'dark' ? '/baselink-logo-dark.png' : '/baselink-logo.png'"
+                                    :src="colorMode.value === 'dark' ? '/baselink-logo-white.png' : '/baselink-logo.png'"
                                     alt=" BaseLink">
                             </NuxtLink>
                         </ClientOnly>
@@ -67,7 +67,7 @@ const navigation = computed(() => [
                     <div name="nav-items" class="hidden sm:ml-6 sm:block">
                         <div class="flex space-x-3">
                             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                            <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href"
+                            <NuxtLink v-for="item in navigation" :key="item.name" :to="item.path"
                                 class="rounded-md px-3 py-2 text-sm font-semibold"
                                 :class="item.current ? 'bg-slate-200 dark:bg-slate-900' : 'hover:bg-slate-300 hover:dark:bg-slate-800'"
                                 aria-current="page">{{ item.name }}</NuxtLink>
@@ -127,7 +127,7 @@ const navigation = computed(() => [
             id="mobile-menu">
             <div class="space-y-1 px-2 pb-3 pt-2">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <NuxtLink v-for="item in navigation" :key="item.name" :to="item.href"
+                <NuxtLink v-for="item in navigation" :key="item.name" :to="item.path"
                     class="block rounded-md px-3 py-2 text-base font-semibold"
                     :class="item.current ? 'bg-slate-200 dark:bg-slate-900' : 'hover:bg-slate-300 hover:dark:bg-slate-800'"
                     aria-current="page">{{ item.name }}

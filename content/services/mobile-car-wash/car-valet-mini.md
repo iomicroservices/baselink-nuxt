@@ -20,7 +20,7 @@ Mobile mini car valet
 Mini car valet service{{ $doc.location }}
 
 #description
-Short on time? Our mini car valet gives your car a quick but thorough clean, inside and out. We’ll take care of the essentials – exterior wash, interior vacuum, and a fresh wipe-down.
+Short on time? Our mini car valet gives your car a quick but thorough clean, inside and out. We'll take care of the essentials – exterior wash, interior vacuum, and a fresh wipe-down.
 
 #image
     ::pictures
@@ -55,7 +55,7 @@ How to book a mini mobile car valet
     Schedule your booking and pay
 
     #description
-    Choose a day and time that suits you, complete secure payment and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Choose a day and time that suits you, complete secure payment and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -192,16 +192,16 @@ The mini valet includes an exterior hand wash and rinse, with wheels and tyres s
 Inside your car, seats and floor mats are vacuumed, dashboards and consoles wiped, and interior plastics cleaned. Cup holders, compartments and air vents are all cleaned and dusted to leave your cabin fresh and tidy.
 
 #description
-The service finishes with a final inspection to ensure nothing’s missed and the result meets high standards. You can also request add-ons or include specific instructions if your car needs extra attention in certain areas.
+The service finishes with a final inspection to ensure nothing's missed and the result meets high standards. You can also request add-ons or include specific instructions if your car needs extra attention in certain areas.
 
 #description
-With BaseLink’s easy-to-use platform, booking is fast and hassle-free. Just submit your request online, receive an instant quote, and choose a time and place that works for you. Our providers come to your home, workplace or wherever’s convenient.
+With BaseLink's easy-to-use platform, booking is fast and hassle-free. Just submit your request online, receive an instant quote, and choose a time and place that works for you. Our providers come to your home, workplace or wherever's convenient.
 
 #description
-Unlike traditional car wash providers, BaseLink gives you more flexibility, better communication, and the ability to manage your bookings digitally. You’ll be supported by our in-house team and connected to fully vetted, well-reviewed professionals.
+Unlike traditional car wash providers, BaseLink gives you more flexibility, better communication, and the ability to manage your bookings digitally. You'll be supported by our in-house team and connected to fully vetted, well-reviewed professionals.
 
 #description
-Payment is made on the day of your valet, and any additional time is billed fairly in 30-minute increments. It’s all designed to be clear, convenient and suited to your schedule.
+Payment is made on the day of your valet, and any additional time is billed fairly in 30-minute increments. It's all designed to be clear, convenient and suited to your schedule.
 
 #description
 Book a mini car valet{{$doc.location}} with BaseLink and enjoy a clean, refreshed vehicle — without leaving your driveway or disrupting your day.
@@ -230,5 +230,5 @@ category: home-cleaning
 BaseLink cleaning services for your home{{ $doc.location }} too
 
 #description
-We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
+We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

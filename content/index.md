@@ -1,17 +1,30 @@
 ---
 faqs:
+  - label: Do I need to sign a contract?
+    content: Nope. There’s no long-term commitment. You can book a one-off service or set up a regular schedule — whatever works for you.
+    icon: mdi:file-document-outline
+  - label: Can I cancel or reschedule a booking?
+    content: Yes! You can cancel or change your booking up to 24 hours in advance with no fees. Just log in to your account and update your schedule.
+    icon: mdi:calendar-edit
+  - label: How does pricing work?
+    content: You’ll get a clear quote before you book — no hidden charges or surprise add-ons. Prices are based on your location, job type and time required.
+    icon: mdi:currency-gbp
   - label: How do I pay?
     content: You can securely pay online during checkout. For ongoing services, we’ll charge your saved payment method after each visit or as agreed.
-    icon: fa:facebook-square
+    icon: mdi:credit-card-outline
   - label: Who will carry out the work?
     content: We match you with trusted, background-checked professionals who are fairly paid and local to your area. You’ll always know who’s coming.
+    icon: mdi:account-check-outline
   - label: Can I request the same person each time?
     content: > 
       Absolutely. For regular services, we’ll aim to keep your bookings consistent — and we’ll always let you know in advance if there’s a change.
+    icon: mdi:account-heart-outline
   - label: What if I need more than one service?
     content: Easy. You can book additional services directly from your account — whether it’s a cleaner, plumber, locksmith or car valet. It’s all in one place.
+    icon: mdi:plus-box-outline
   - label: What areas do you cover?
     content: We’re currently operating across London and expanding fast. Enter your postcode on the booking form to check availability.
+    icon: mdi:map-marker-radius-outline
 ---
 
 ::hero-standard
@@ -61,7 +74,7 @@ profession: pros
 
 ::category
 #description
-We’re built for modern property care. Get fast booking and fair prices - no surprises. All our pros are vetted, insured, and fairly paid. We always match you with trusted locals — wherever you are. Schedule and manage your booking online with ease. Our support team’s on hand when you need help.
+We're built for modern property care. Get fast booking and fair prices - no surprises. All our pros are vetted, insured, and fairly paid. We always match you with trusted locals — wherever you are. Schedule and manage your booking online with ease. Our support team's on hand when you need help.
 ::
 
 ---
@@ -72,7 +85,7 @@ We’re built for modern property care. Get fast booking and fair prices - no su
 From booking to done, here's how it works
 
 #description
-Whether it’s a one-off job or regular service, booking with BaseLink is simple. Tell us what you need, pick a time that works for you, and we’ll handle the rest. It’s fast, flexible, and all done online.
+Whether it's a one-off job or regular service, booking with BaseLink is simple. Tell us what you need, pick a time that works for you, and we'll handle the rest. It's fast, flexible, and all done online.
 
 #items
     ::process-item
@@ -83,7 +96,7 @@ Whether it’s a one-off job or regular service, booking with BaseLink is simple
     Choose your service
 
     #description
-    Pick the service you need and fill out a simple form with a few details. You’ll get an instant quote as you go.
+    Pick the service you need and fill out a simple form with a few details. You'll get an instant quote as you go.
     ::
     
     ::process-item
@@ -105,7 +118,7 @@ Whether it’s a one-off job or regular service, booking with BaseLink is simple
     Job done — the right way
 
     #description
-    Sit back and relax! Your job gets done on time, just how you wanted. We follow up to make sure you’re happy.
+    Sit back and relax! Your job gets done on time, just how you wanted. We follow up to make sure you're happy.
     ::
 ::
 
@@ -169,7 +182,12 @@ You can customise your clean with special instructions or add extra services. Yo
 
 ::
 
+
+::cta
 ---
+button: Explore our services
+---
+::
 
 ::subcategory
 ---
@@ -218,5 +236,11 @@ category: tradespeople
 [Tradespeople](/services/tradespeople) near me
 
 #description
-Need a hand with a project? Whether it’s securing your premises with CCTV or installing a new boiler, we are ready to tackle any job, big or small.
+Need a hand with a project? Whether it's securing your premises with CCTV or installing a new boiler, we are ready to tackle any job, big or small.
+::
+
+::cta
+---
+button: Get started today
+---
 ::

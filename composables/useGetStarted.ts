@@ -30,7 +30,7 @@ export function useGetStarted() {
         const queryString = queryParams.toString();
         const query = queryString ? `?${queryString}` : '';
 
-        const baseUrl = route.params.subcategory === 'single-visit-cleaning' && route.params.task
+        const baseUrl = route.params.subcategory === 'single-visit-cleaning' //&& route.params.task
             ? `/services/${route.params.subcategory}/quote`
             : route.params.category
                 ? `/services/${route.params.category}/quote`

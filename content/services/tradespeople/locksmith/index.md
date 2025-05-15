@@ -4,6 +4,7 @@ alt: "Providing security-first lock services for homes and businesses"
 description: "Providing security-first lock services for homes and businesses"
 category: "tradespeople"
 subcategory: "locksmith"
+task: null
 image: "/images/tradespeople/locksmith/locksmith.webp"
 ogImage: "/images/tradespeople/locksmith/locksmith.webp"
 colour: "blue"
@@ -19,7 +20,7 @@ Local locksmith
 Convenient locksmith service{{ $doc.location }}
 
 #description
-Whether it’s lock installation, repair, or rekeying, our experienced locksmiths{{ $doc.location }} provide reliable and secure solutions for your home or business. Emergency locksmith available 24/7. Flexible online bookings.
+Whether it's lock installation, repair, or rekeying, our experienced locksmiths{{ $doc.location }} provide reliable and secure solutions for your home or business. Emergency locksmith available 24/7. Flexible online bookings.
 
 #image
     ::pictures
@@ -139,7 +140,7 @@ Locked out? Need a lock upgraded or replaced? BaseLink makes it easy to book tru
 We cover all the essentials: emergency callouts for lockouts, broken key extractions, and jammed doors. Your locksmith arrives with the right tools to regain access without damaging your door, and can repair or replace the lock on the spot if needed.
 
 #description
-You can also book services like traditional or digital lock changes, key cutting, lock box installation, and safe opening (if you’ve lost the key or combination). Whether it’s a faulty latch or a rusted padlock, we’ll help you get it sorted.
+You can also book services like traditional or digital lock changes, key cutting, lock box installation, and safe opening (if you've lost the key or combination). Whether it's a faulty latch or a rusted padlock, we'll help you get it sorted.
 
 #description
 For added security or convenience, we install smart locks and keyless entry systems for homes, rentals and businesses. Your locksmith can advise on compatibility and show you how to set up your new system during the visit.
@@ -148,7 +149,7 @@ For added security or convenience, we install smart locks and keyless entry syst
 Booking is quick and fully online through BaseLink. Just submit your request, receive an instant quote, and pick a time that suits you. For emergencies, we aim to dispatch a locksmith as quickly as possible — no waiting or call centres.
 
 #description
-All BaseLink locksmiths are vetted, experienced and reviewed by local customers. Your booking is backed by our in-house support team, so you’ll always have help if you need to update instructions or request a follow-up service.
+All BaseLink locksmiths are vetted, experienced and reviewed by local customers. Your booking is backed by our in-house support team, so you'll always have help if you need to update instructions or request a follow-up service.
 
 #description
 Payment is collected on the day of service, with additional time billed in fair 30-minute increments. Book a locksmith{{$doc.location}} today with BaseLink — and get back in, lock up safely, or upgrade your security without delay.

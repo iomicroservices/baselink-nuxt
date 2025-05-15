@@ -4,7 +4,7 @@ alt: "Comprehensive service from desks to kitchens and high-touch surfaces"
 description: "Comprehensive service from desks to kitchens and high-touch surfaces"
 category: "commercial-cleaning"
 subcategory: "office-cleaning"
-task: "office-cleaning"
+task: null
 image: "/images/commercial-cleaning/office-cleaning.webp"
 ogImage: "/images/commercial-cleaning/office-cleaning.webp"
 colour: "yellow"
@@ -187,16 +187,16 @@ Every clean is tailored to your space. Surfaces are dusted, floors vacuumed and 
 Breakout spaces and meeting rooms are cleaned and tidied, and workstations are wiped down and kept organised. Your cleaner can also restock office supplies and toiletries, making it easier to stay on top of daily essentials. Mirrors, cabinets and shared appliances are included too — because the details matter.
 
 #description
-With BaseLink’s digital platform, you’re always in control. You can book a one-off clean or set up a regular schedule that works around your business hours. Once you submit our quick online form, you’ll get an instant quote — no chasing emails or waiting for callbacks.
+With BaseLink's digital platform, you're always in control. You can book a one-off clean or set up a regular schedule that works around your business hours. Once you submit our quick online form, you'll get an instant quote — no chasing emails or waiting for callbacks.
 
 #description
-Unlike traditional providers, we give you the flexibility to customise your cleaning plan to suit your office layout and priorities. You can include specific requests, preferred time slots, or access instructions. Your account is managed by our dedicated support team, so there’s always someone to help with changes or questions.
+Unlike traditional providers, we give you the flexibility to customise your cleaning plan to suit your office layout and priorities. You can include specific requests, preferred time slots, or access instructions. Your account is managed by our dedicated support team, so there's always someone to help with changes or questions.
 
 #description
-Payment is collected on the day of the clean, with any extra time charged in fair 30-minute increments after the visit. It’s a simple, transparent process designed to make ongoing office maintenance easier than ever.
+Payment is collected on the day of the clean, with any extra time charged in fair 30-minute increments after the visit. It's a simple, transparent process designed to make ongoing office maintenance easier than ever.
 
 #description
-With BaseLink, you get the reliability of professional cleaners{{$doc.location}} and the convenience of a modern digital platform. Whether you’re a startup in a shared space or a company across multiple floors, we make it easy to keep your workplace clean, presentable, and ready for business.
+With BaseLink, you get the reliability of professional cleaners{{$doc.location}} and the convenience of a modern digital platform. Whether you're a startup in a shared space or a company across multiple floors, we make it easy to keep your workplace clean, presentable, and ready for business.
 
 ::
 

@@ -185,7 +185,7 @@ All carpenters on BaseLink are skilled, experienced, and local to your area. Eac
 The service can begin with a consultation to plan your design and take precise wall measurements. Surfaces are prepared and panels are cut to size to ensure a perfect fit.
 
 #description
-If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they'll purchase the materials and add them to your final bill. Alternatively, you're welcome to provide your own materials if you prefer.
 
 #description
 Panelling is then installed securely, with the option to add decorative trim or moulding. Gaps are filled and sealed for a clean, seamless finish.
@@ -200,6 +200,13 @@ Custom features can be included to match your space and style. Once complete, th
 ::category
 #title
 Find housekeepers and tradespeople{{$doc.location}}
+::
+
+---
+
+::subcategory
+---
+---
 ::
 
 ---

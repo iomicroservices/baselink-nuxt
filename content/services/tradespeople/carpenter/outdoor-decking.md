@@ -2,8 +2,9 @@
 title: "Decking and outdoor structures"
 alt: "Installing or repairing wooden decks, pergolas, gazebos, and fencing"
 description: "Installing or repairing wooden decks, pergolas, gazebos, and fencing"
-category: "carpenter"
-subcategory: "decking-outdoor"
+category: "tradespeople"
+subcategory: "carpenter"
+task: "decking-outdoor"
 image: "/images/tradespeople/carpenter/decking-outdoor.webp"
 ogImage: "/images/tradespeople/carpenter/decking-outdoor.webp"
 colour: "blue"
@@ -191,7 +192,7 @@ All carpenters on BaseLink are skilled, experienced, and local to your area. Eac
 You can choose from timber, composite, PVC, hardwood, or softwood decking to suit your style and budget. Anti-slip options are also available for added safety in wet or shaded areas.
 
 #description
-If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they'll purchase the materials and add them to your final bill. Alternatively, you're welcome to provide your own materials if you prefer.
 
 #description
 Carpenters can install elevated or ground-level decking depending on your space. Wrap-around and roof decking are also available to maximise outdoor living areas.

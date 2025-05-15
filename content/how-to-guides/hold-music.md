@@ -32,7 +32,7 @@ The power of music is undeniable. It sets the mood, conveys your brand's essence
 
 ### Getting Started with Custom Hold Music
 
-Dive into a world where every call reflects the essence of your brand. From upbeat rhythms to soothing melodies, your hold music can now be as unique as your business. Here’s how to make it happen:
+Dive into a world where every call reflects the essence of your brand. From upbeat rhythms to soothing melodies, your hold music can now be as unique as your business. Here's how to make it happen:
 
 1. **Select Your Tunes**: Choose the tracks that best represent your brand or mood you wish to convey.
 2. **Easy Upload**: Use our user-friendly online platform to upload your music files directly.
@@ -43,4 +43,4 @@ Dive into a world where every call reflects the essence of your brand. From upbe
 
 Waiting on hold transforms from a mundane pause to an opportunity to impress and engage your callers. With Custom Hold Music from eLandline, your business isn't just heard; it's experienced.
 
-Ready to harmonise your hold music with your brand’s vibe? [Get in touch with us](#) today and discover how easy it is to personalise your caller's waiting experience.
+Ready to harmonise your hold music with your brand's vibe? [Get in touch with us](#) today and discover how easy it is to personalise your caller's waiting experience.

@@ -55,7 +55,7 @@ How to book a mobile headlight restoration
     Schedule your booking and pay
 
     #description
-    Select the most convenient day and time, complete secure payment and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Select the most convenient day and time, complete secure payment and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -159,7 +159,7 @@ button: "Hire a technician"
 Book headlight restoration{{$doc.location}} for a safer drive
 
 #description
-Cloudy or dull headlights don’t just affect how your car looks — they also reduce visibility and safety at night. With BaseLink, you can book professional headlight restoration{{$doc.location}} that’s carried out by trusted local specialists, right on your driveway or at your workplace.
+Cloudy or dull headlights don't just affect how your car looks — they also reduce visibility and safety at night. With BaseLink, you can book professional headlight restoration{{$doc.location}} that's carried out by trusted local specialists, right on your driveway or at your workplace.
 
 #description
 The service begins with a full inspection of your headlight lenses to assess their condition. After that, the surface is cleaned to remove dirt and debris before wet sanding begins to lift oxidation and surface damage.
@@ -206,5 +206,5 @@ category: home-cleaning
 BaseLink cleaning services for your home{{ $doc.location }} too
 
 #description
-We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
+We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

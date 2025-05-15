@@ -67,7 +67,7 @@ In these Terms, the following words and phrases shall have the meanings set out 
 **2.6.1** You are responsible for any content You submit or upload to the Website.<br>
 **2.6.2** You must not upload, share, or distribute any content that is:
 - confidential, proprietary, false, misleading, defamatory, obscene, threatening, or illegal;
-- infringing of any third party’s intellectual property or privacy rights;
+- infringing of any third party's intellectual property or privacy rights;
 - spam, viruses, commercial advertisements, or political campaigning.
 
 **2.6.3** You warrant that You own or control all rights in any content You post, that it is accurate and not harmful, and that You will indemnify Mohana Ltd for any loss or claims arising from content You submit.<br>
@@ -76,7 +76,7 @@ In these Terms, the following words and phrases shall have the meanings set out 
 
 #### **2.7 Prohibited Use**
 **2.7.1** You must not use the Website in a way that:
-- causes damage to the Website or impairs others’ use of it;
+- causes damage to the Website or impairs others' use of it;
 - harvests data or interferes with security measures;
 - facilitates the copying or unauthorised distribution of protected content.
 
@@ -127,7 +127,7 @@ In these Terms, the following words and phrases shall have the meanings set out 
 
 ### 4. Pricing and Billing
 #### **4.1 Prices, Quotes and Estimates**
-**4.1.1** All prices displayed on the Website are inclusive of the Service Provider’s consideration and Our platform fees, and are based on the information provided by You at the time of Booking.<br>
+**4.1.1** All prices displayed on the Website are inclusive of the Service Provider's consideration and Our platform fees, and are based on the information provided by You at the time of Booking.<br>
 **4.1.2** The final price may vary if the scope of the Service changes, additional time is required, or other reasonable adjustments are made. We will inform You as soon as practicable of any change in cost.<br>
 **4.1.3** By proceeding with a Booking, You agree to pay the quoted price, subject to any permitted adjustments under these Terms. The price to be paid is the price quoted at the time of Booking, except in cases of obvious error or abuse of the Website or its pricing system.<br>
 **4.1.4** We may change Our pricing at any time, but such changes will not affect Bookings that have already been accepted and confirmed by way of a Service Confirmation email.
@@ -145,12 +145,12 @@ In these Terms, the following words and phrases shall have the meanings set out 
 #### **4.4 Promotions and Discounts**
 **4.4.1** We may offer promotional discounts, credits, special pricing or limited-time offers at Our discretion. Such offers are made in order to promote Our business as a booking agent and may be withdrawn at any time without notice.<br>
 **4.4.2** Promotional codes may only be used once per household, are non-transferable, and may not be applied retrospectively or in combination with other offers.<br>
-**4.4.3** Promotional offers do not reduce the consideration payable to the Service Provider. Where applicable, We may subsidise the difference between the promotional amount paid by the Customer and the standard rate agreed with the Service Provider. This does not affect the Service Provider’s independent status or their responsibility for delivering the Service.<br>
+**4.4.3** Promotional offers do not reduce the consideration payable to the Service Provider. Where applicable, We may subsidise the difference between the promotional amount paid by the Customer and the standard rate agreed with the Service Provider. This does not affect the Service Provider's independent status or their responsibility for delivering the Service.<br>
 **4.4.4** The Customer acknowledges that any amount paid under a promotional offer, up to the standard rate otherwise due for the Service, constitutes consideration payable to the Service Provider, and that BaseLink acts solely as a payment collection agent on their behalf in respect of that portion.
 
 #### **4.5 Referral Scheme**
 **4.5.1** We may offer a referral scheme that allows registered Users to refer others to the Website in exchange for credit, discounts, or other rewards.<br>
-**4.5.2** Referral rewards will only be granted once the referred party has completed a qualifying Booking in accordance with the scheme’s published terms.<br>
+**4.5.2** Referral rewards will only be granted once the referred party has completed a qualifying Booking in accordance with the scheme's published terms.<br>
 **4.5.3** Referral links and codes must be used in a personal and non-commercial capacity.<br>
 **4.5.4** Abuse of the referral scheme, including self-referral, bulk distribution, or use via paid advertising, is prohibited and may result in cancellation of rewards and/or suspension of Your Account.
 
@@ -158,11 +158,11 @@ In these Terms, the following words and phrases shall have the meanings set out 
 **4.6.1** You are responsible for ensuring that Your payment method is valid and has sufficient funds available on the due date.<br>
 **4.6.2** If Your payment fails or is declined and is not settled within 24 hours, You agree to pay a late payment fee of £10 or 10% of the outstanding amount, whichever is greater, as a reasonable estimate of the administrative costs incurred by Us.<br>
 **4.6.3** In addition, We reserve the right to charge statutory interest on the overdue amount at a rate of 8% per annum above the Bank of England base rate, calculated on a daily basis and charged at the end of each calendar month, from the due date until payment is received in full, in accordance with applicable UK law.<br>
-**4.6.4** If We are required to initiate formal debt recovery proceedings, You may also be liable for any additional reasonable costs incurred in connection with the recovery of the debt, including solicitors’ fees, court fees, and enforcement costs, as permitted by law.<br>
+**4.6.4** If We are required to initiate formal debt recovery proceedings, You may also be liable for any additional reasonable costs incurred in connection with the recovery of the debt, including solicitors' fees, court fees, and enforcement costs, as permitted by law.<br>
 **4.6.5** We will notify You in writing before commencing any recovery action and provide a reasonable opportunity for You to remedy the failure to pay.
 
 #### **4.7 Payment Processing**
-**4.7.1** Payments are processed by a third-party payment provider. By using the Website, You agree to comply with the payment provider’s terms and privacy policy.<br>
+**4.7.1** Payments are processed by a third-party payment provider. By using the Website, You agree to comply with the payment provider's terms and privacy policy.<br>
 **4.7.2** We are not liable for delays, failures, or errors caused by the third-party provider, except to the extent required by law.
 
 ### 5. Cancellations and Refunds
@@ -172,8 +172,8 @@ In these Terms, the following words and phrases shall have the meanings set out 
 **5.1.3** Where a Booking is cancelled by Us prior to the Service being carried out, We will make reasonable efforts to offer You an alternative appointment or provide a full refund.
 
 #### **5.2 Cancellations by You**
-**5.2.1** You may cancel a Booking free of charge by providing at least 48 hours’ notice before the scheduled Service time.<br>
-**5.2.2** If You cancel with less than 48 hours’ notice, We reserve the right to charge a cancellation fee of up to 100% of the Booking value or quoted amount.<br>
+**5.2.1** You may cancel a Booking free of charge by providing at least 48 hours' notice before the scheduled Service time.<br>
+**5.2.2** If You cancel with less than 48 hours' notice, We reserve the right to charge a cancellation fee of up to 100% of the Booking value or quoted amount.<br>
 **5.2.3** If the Service Provider attends the property at the scheduled time but is unable to gain access, or is otherwise prevented from provisioning the Service, this will be treated as a cancellation without notice. In such cases, We reserve the right to charge up to 100% of the Booking value or quoted amount.<br>
 **5.2.4** Cancellations must be submitted via the Website or by email to Our customer service team at hello@baselink.uk team to be valid.
 
@@ -181,7 +181,7 @@ In these Terms, the following words and phrases shall have the meanings set out 
 **5.3.1** You may cancel Your subscription at any time by providing written notice or using Your Account settings. Cancellation will take effect 48 hours after the notice is received.<br>
 **5.3.2** Any Bookings already scheduled beyond this 48-hour period may either:
 - proceed as one-off Bookings at the standard rate; or
-- be cancelled free of charge if You provide at least 48 hours’ notice before the scheduled Service.
+- be cancelled free of charge if You provide at least 48 hours' notice before the scheduled Service.
 
 **5.3.3** No further subscription payments will be taken once cancellation takes effect, but You remain responsible for any outstanding amounts for Services already delivered.
 

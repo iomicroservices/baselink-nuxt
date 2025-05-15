@@ -2,8 +2,9 @@
 title: "TV wall mounting service"
 alt: "Mounting your TV securely for a clean, modern look"
 description: "Mounting your TV securely for a clean, modern look"
-category: "handyman"
-subcategory: "tv-wall-mounting"
+category: "tradespeople"
+subcategory: "handyman"
+task: "tv-wall-mounting"
 image: "/images/tradespeople/handyman/tv-wall-mounting.webp"
 ogImage: "/images/tradespeople/handyman/tv-wall-mounting.webp"
 colour: "blue"
@@ -85,7 +86,7 @@ profession: "handymen"
 What you get with TV wall mounting
 
 #description
-Our handymen{{ $doc.location }} install all bracket types on any wall surface, including brick, plasterboard, or concrete. You can use your own bracket or let us supply one to match your TV size and setup. We’ll make sure everything is secure, level, and wired up properly.
+Our handymen{{ $doc.location }} install all bracket types on any wall surface, including brick, plasterboard, or concrete. You can use your own bracket or let us supply one to match your TV size and setup. We'll make sure everything is secure, level, and wired up properly.
 
 #items
 
@@ -174,13 +175,13 @@ Book TV wall mounting{{$doc.location}} for screens that stay straight
 Mounting a TV yourself can quickly turn into a balancing act — especially with wires, brackets, and heavy screens involved. With BaseLink, you can book trusted local handypeople{{$doc.location}} to install your television neatly and securely on any wall, with the right bracket and perfect placement.
 
 #description
-Your handyperson will assess your wall type — whether it’s plasterboard, brick or concrete — and choose the correct fixings to keep your screen stable. We install all bracket types, including fixed, tilt and full-motion arms for flexible viewing.
+Your handyperson will assess your wall type — whether it's plasterboard, brick or concrete — and choose the correct fixings to keep your screen stable. We install all bracket types, including fixed, tilt and full-motion arms for flexible viewing.
 
 #description
 You can supply your own bracket or let us bring one to match your screen size and preferences. We'll advise on the ideal height and placement for your setup, and handle all drilling, levelling, and alignment with precision.
 
 #description
-If requested, we’ll also conceal or manage your cables for a clean, clutter-free look — perfect for living rooms, home offices or entertainment areas.
+If requested, we'll also conceal or manage your cables for a clean, clutter-free look — perfect for living rooms, home offices or entertainment areas.
 
 #description
 Once installed, your fitter will test the bracket and TV stability, check everything is level, and ensure your screen is ready to go. No wonky mounts. No loose screws. Just a job done properly.

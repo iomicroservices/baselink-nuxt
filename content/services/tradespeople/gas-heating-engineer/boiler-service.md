@@ -2,8 +2,9 @@
 title: "Boiler annual service"
 alt: "Servicing to ensure your boiler runs efficiently and safely throughout the year"
 description: "Servicing to ensure your boiler runs efficiently and safely throughout the year"
-category: "gas-heating-engineer"
-subcategory: "boiler-service"
+category: "tradespeople"
+subcategory: "gas-heating-engineer"
+task: "boiler-service"
 image: "/images/tradespeople/gas-heating-engineer/boiler-service.webp"
 ogImage: "/images/tradespeople/gas-heating-engineer/boiler-service.webp"
 colour: "blue"
@@ -179,7 +180,7 @@ button: "Hire an engineer"
 Book a boiler service{{$doc.location}} with a Gas Safe engineer
 
 #description
-Annual servicing is essential for keeping your boiler working reliably and efficiently. With BaseLink, you can book fully qualified Gas Safe engineers{{$doc.location}} for expert boiler servicing — whether it’s a routine annual check or a one-off visit for peace of mind.
+Annual servicing is essential for keeping your boiler working reliably and efficiently. With BaseLink, you can book fully qualified Gas Safe engineers{{$doc.location}} for expert boiler servicing — whether it's a routine annual check or a one-off visit for peace of mind.
 
 #description
 We service all major types of boilers, including combi, system, conventional, condensing, electric, oil and LPG. Your engineer will carry out a full inspection tailored to your boiler type, checking for wear, leaks, and signs of reduced performance.
@@ -188,7 +189,7 @@ We service all major types of boilers, including combi, system, conventional, co
 The service includes testing of controls, gas pressure, flue operation and ventilation. Components are cleaned where necessary, safety devices are checked, and any early signs of faults or inefficiency are noted and explained.
 
 #description
-Whether your boiler is wall-mounted, floor-standing or part of a back boiler unit, our engineers are experienced in working with all configurations and leading brands. You’ll receive a service record for your own use or to comply with landlord obligations.
+Whether your boiler is wall-mounted, floor-standing or part of a back boiler unit, our engineers are experienced in working with all configurations and leading brands. You'll receive a service record for your own use or to comply with landlord obligations.
 
 #description
 Booking is fast and flexible through the BaseLink platform. Simply submit your request online, receive an instant quote, and choose a time that works for your schedule. You can also combine your service with a Gas Safety Certificate (CP12) or other heating services.

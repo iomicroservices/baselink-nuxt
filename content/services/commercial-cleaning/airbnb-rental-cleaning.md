@@ -4,7 +4,7 @@ alt: "Thorough cleaning and quick turnarounds for seamless guest transitions"
 description: "Thorough cleaning and quick turnarounds for seamless guest transitions"
 category: "commercial-cleaning"
 subcategory: "airbnb-rental-cleaning"
-task: "airbnb-rental-cleaning"
+task: null
 image: "/images/commercial-cleaning/airbnb-rental-cleaning.webp"
 ogImage: "/images/commercial-cleaning/airbnb-rental-cleaning.webp"
 colour: "yellow"

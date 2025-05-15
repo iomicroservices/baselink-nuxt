@@ -2,8 +2,9 @@
 title: "Lock box installation service"
 alt: "Installing secure key safes and lockboxes for easy and safe access to keys"
 description: "Installing secure key safes and lockboxes for easy and safe access to keys"
-category: "locksmith"
-subcategory: "lock-box-installation"
+category: "tradespeople"
+subcategory: "locksmith"
+task: "lock-box-installation"
 image: "/images/tradespeople/locksmith/lock-box-installation.webp"
 ogImage: "/images/tradespeople/locksmith/lock-box-installation.webp"
 colour: "blue"
@@ -85,7 +86,7 @@ profession: "locksmiths"
 What you get with lock box installation
 
 #description
-Securely store keys with a weatherproof, wall-mounted lock box — ideal for holiday lets, cleaners, tradespeople or shared access. We’ll install it in a safe, convenient location and set it up with your preferred code so you can manage access with ease.
+Securely store keys with a weatherproof, wall-mounted lock box — ideal for holiday lets, cleaners, tradespeople or shared access. We'll install it in a safe, convenient location and set it up with your preferred code so you can manage access with ease.
 
 #items
 
@@ -155,7 +156,7 @@ button: "Hire a locksmith"
 Book lock box installation{{$doc.location}} for secure key access made simple
 
 #description
-Need a safe way to share keys with guests, cleaners or tradespeople? A lock box is a smart, discreet solution — and BaseLink makes installation easy. We’ll send a trusted local locksmith or handyperson{{$doc.location}} to mount your box securely and set it up with a personalised code, ready to use right away.
+Need a safe way to share keys with guests, cleaners or tradespeople? A lock box is a smart, discreet solution — and BaseLink makes installation easy. We'll send a trusted local locksmith or handyperson{{$doc.location}} to mount your box securely and set it up with a personalised code, ready to use right away.
 
 #description
 Lock boxes can be mounted to walls, gates, or posts using heavy-duty fixings for tamper-resistant security. Your installer will choose the best position for accessibility and discretion, based on your preferences and property layout.

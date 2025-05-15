@@ -2,8 +2,9 @@
 title: "HDMI distribution service"
 alt: "Setting up HDMI distribution systems for seamless video and audio transmission"
 description: "Setting up HDMI distribution systems for seamless video and audio transmission"
-category: "network-engineer"
-subcategory: "hdmi-distribution"
+category: "tradespeople"
+subcategory: "network-engineer"
+task: "hdmi-distribution"
 image: "/images/tradespeople/network-engineer/hdmi-distribution.webp"
 ogImage: "/images/tradespeople/network-engineer/hdmi-distribution.webp"
 colour: "blue"
@@ -158,7 +159,7 @@ We install HDMI splitters or matrix systems that send a single video signal to m
 Your engineer will run HDMI over CAT6 or coaxial cabling for longer distances, with in-wall ports and cable management to keep everything tidy and hidden.
 
 #description
-Each system is fully tested for picture clarity, synchronisation, and lag-free performance. Whether you’re watching Netflix in every room or showing the same content across multiple monitors, we’ll make sure it just works.
+Each system is fully tested for picture clarity, synchronisation, and lag-free performance. Whether you're watching Netflix in every room or showing the same content across multiple monitors, we'll make sure it just works.
 
 #description
 We can install your own equipment or supply the right solution for your setup — with advice on compatible sources, resolutions, and future upgrades if needed.

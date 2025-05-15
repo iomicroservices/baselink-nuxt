@@ -4,6 +4,7 @@ alt: "Providing expert plumbing services for installations, repairs, and mainten
 description: "Providing expert plumbing services for installations, repairs, and maintenance"
 category: "tradespeople"
 subcategory: "plumber"
+task: null
 image: "/images/tradespeople/plumber/plumber.webp"
 ogImage: "/images/tradespeople/plumber/plumber.webp"
 colour: "blue"
@@ -136,7 +137,7 @@ Book a plumber{{$doc.location}} for reliable fixes and fresh installs
 From leaking taps to full bathroom installations, BaseLink connects you with experienced, local plumbers{{$doc.location}} who can handle any job — quickly, cleanly, and with the support of our dedicated team behind every booking.
 
 #description
-We cover a wide range of plumbing services. Whether you're installing a new bath, fixing a faulty toilet, or replacing kitchen pipework, we’ll match you with a professional who knows how to get it done right.
+We cover a wide range of plumbing services. Whether you're installing a new bath, fixing a faulty toilet, or replacing kitchen pipework, we'll match you with a professional who knows how to get it done right.
 
 #description
 Common services include pipe repairs, drain unblocking, shower resealing, tap replacements and radiator power flushing. We also install jacuzzis, sinks, showers, and baths — all fully tested for function, leaks and pressure before we leave.
@@ -145,7 +146,7 @@ Common services include pipe repairs, drain unblocking, shower resealing, tap re
 If your radiator is cold or leaking, we can repair or replace it, and ensure the system is balanced for proper heat distribution. For more thorough cleans, we also offer power flushing to remove sludge and improve efficiency.
 
 #description
-All BaseLink plumbers are vetted, reviewed by other customers nearby, and backed by our in-house support team. Whether it’s a one-off visit or a series of upgrades, you’re in safe hands.
+All BaseLink plumbers are vetted, reviewed by other customers nearby, and backed by our in-house support team. Whether it's a one-off visit or a series of upgrades, you're in safe hands.
 
 #description
 Bookings are fully online — just submit your request, get an instant quote, and choose a convenient time. You can customise your job with special instructions or combine services in one visit.

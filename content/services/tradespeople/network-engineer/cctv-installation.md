@@ -2,8 +2,9 @@
 title: "CCTV installation service"
 alt: "Professional installation of CCTV systems for enhanced security and monitoring"
 description: "Professional installation of CCTV systems for enhanced security and monitoring"
-category: "network-engineer"
-subcategory: "cctv-installation"
+category: "tradespeople"
+subcategory: "network-engineer"
+task: "cctv-installation"
 image: "/images/tradespeople/network-engineer/cctv-installation.webp"
 ogImage: "/images/tradespeople/network-engineer/cctv-installation.webp"
 colour: "blue"
@@ -169,7 +170,7 @@ title: "Ready to book your CCTV installation?"
 Book CCTV installation{{$doc.location}} for security with eyes on every angle
 
 #description
-Keep an eye on your property, even when you’re not there. BaseLink connects you with skilled network engineers{{$doc.location}} who install CCTV systems tailored to your layout — with crystal-clear footage, mobile access, and reliable recording around the clock.
+Keep an eye on your property, even when you're not there. BaseLink connects you with skilled network engineers{{$doc.location}} who install CCTV systems tailored to your layout — with crystal-clear footage, mobile access, and reliable recording around the clock.
 
 #description
 We fit both indoor and outdoor cameras, with motion detection, night vision and infrared options available. Whether you want discreet cameras or visible deterrents, our engineers will assess your space and recommend the best placement during a free site survey.
@@ -187,7 +188,7 @@ If required, we can also install security lighting, integrate your CCTV with exi
 Booking through BaseLink is fast and fully online. Submit your job, receive an instant quote, and choose a time that suits your schedule — all backed by our in-house team.
 
 #description
-All BaseLink engineers are experienced, vetted and reviewed by local customers. Whether it’s your home, shop, or office, we make it simple to get a CCTV system that’s smart, reliable, and easy to manage.
+All BaseLink engineers are experienced, vetted and reviewed by local customers. Whether it's your home, shop, or office, we make it simple to get a CCTV system that's smart, reliable, and easy to manage.
 
 #description
 Payment is collected on the day of the job, and additional time is billed in fair 30-minute increments. Book CCTV installation{{$doc.location}} with BaseLink — and protect your space with surveillance you can trust.

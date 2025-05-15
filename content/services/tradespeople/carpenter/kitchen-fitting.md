@@ -2,8 +2,9 @@
 title: "Kitchen fitting service"
 alt: "Installing custom kitchen units, worktops, and cabinetry for a seamless design"
 description: "Installing custom kitchen units, worktops, and cabinetry for a seamless design"
-category: "carpenter"
-subcategory: "kitchen-fitting"
+category: "tradespeople"
+subcategory: "carpenter"
+task: "kitchen-fitting"
 image: "/images/tradespeople/carpenter/kitchen-fitting.webp"
 ogImage: "/images/tradespeople/carpenter/kitchen-fitting.webp"
 colour: "blue"
@@ -187,7 +188,7 @@ The service can start with a design consultation to help plan the layout and fea
 New cabinets and units are fitted with care, along with worktops, kitchen islands, and custom edging for a neat finish. Integrated appliances can be installed to blend seamlessly with your design.
 
 #description
-If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they'll purchase the materials and add them to your final bill. Alternatively, you're welcome to provide your own materials if you prefer.
 
 #description
 Cabinet doors, drawers, and bespoke shelving are also included, ensuring both function and style. You can add splashbacks or tiling to complete the look.

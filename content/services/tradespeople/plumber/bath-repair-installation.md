@@ -2,8 +2,9 @@
 title: "Bath repair and installation service"
 alt: "Repairing or installing new baths, ensuring a perfect fit and function"
 description: "Repairing or installing new baths, ensuring a perfect fit and function"
-category: "plumber"
-subcategory: "bath-repair-installation"
+category: "tradespeople"
+subcategory: "plumber"
+task: "bath-repair-installation"
 image: "/images/tradespeople/plumber/bath-repair-installation.webp"
 ogImage: "/images/tradespeople/plumber/bath-repair-installation.webp"
 colour: "blue"
@@ -84,7 +85,7 @@ profession: "plumbers"
 What you get with bath repair and installation
 
 #description
-Whether you’re fitting a new bath or repairing an existing one, we handle the full job. Our skilled plumbers{{ $doc.location }} can also fix cracks, leaks, or drainage issues to get your bath back in top shape. Your job will be managed by our dedicated support team for a reliable service every time.
+Whether you're fitting a new bath or repairing an existing one, we handle the full job. Our skilled plumbers{{ $doc.location }} can also fix cracks, leaks, or drainage issues to get your bath back in top shape. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
@@ -162,10 +163,10 @@ button: "Hire a plumber"
 Book bath installation or repair{{$doc.location}} for watertight results
 
 #description
-Whether you’re replacing an old tub or fixing a leak before your next soak, BaseLink connects you with skilled local plumbers{{$doc.location}} who handle bath repairs and installations from start to finish — cleanly, professionally, and without the stress.
+Whether you're replacing an old tub or fixing a leak before your next soak, BaseLink connects you with skilled local plumbers{{$doc.location}} who handle bath repairs and installations from start to finish — cleanly, professionally, and without the stress.
 
 #description
-We remove old baths and install new ones with precision, ensuring a neat fit, secure pipe connections, and proper sealing to prevent future water damage. Whether it’s a freestanding bath, built-in model or a space-saving option, we’ll get it sorted.
+We remove old baths and install new ones with precision, ensuring a neat fit, secure pipe connections, and proper sealing to prevent future water damage. Whether it's a freestanding bath, built-in model or a space-saving option, we'll get it sorted.
 
 #description
 If your existing bath has surface damage, cracked enamel, or drainage issues, we can repair the damage, reseal the edges, and check all connections — so your bath is watertight and ready for use again.
@@ -177,7 +178,7 @@ Your plumber will connect the hot and cold water supply, install waste pipes and
 Booking through BaseLink is fast and fully online. Submit your job request, get an instant quote, and choose a convenient time — with dedicated support throughout.
 
 #description
-All BaseLink plumbers are vetted, reviewed by customers nearby, and backed by our in-house team. You’ll get a high standard of service and reliable results every time.
+All BaseLink plumbers are vetted, reviewed by customers nearby, and backed by our in-house team. You'll get a high standard of service and reliable results every time.
 
 #description
 Payment is collected on the day of service, with any additional time billed in fair 30-minute increments. Book bath installation or repair{{$doc.location}} with BaseLink — and enjoy peace of mind with every soak.

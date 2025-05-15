@@ -2,8 +2,9 @@
 title: "Furniture assembly service"
 alt: "Assembling flat-pack furniture quickly and professionally"
 description: "Assembling flat-pack furniture quickly and professionally"
-category: "handyman"
-subcategory: "furniture-assembly"
+category: "tradespeople"
+subcategory: "handyman"
+task: "furniture-assembly"
 image: "/images/tradespeople/handyman/furniture-assembly.webp"
 ogImage: "/images/tradespeople/handyman/furniture-assembly.webp"
 colour: "blue"
@@ -158,22 +159,22 @@ button: "Hire a handyman"
 Book furniture assembly{{$doc.location}} for builds that click
 
 #description
-Wrestling with confusing instructions and missing screws? Skip the frustration — BaseLink connects you with skilled local handypeople{{$doc.location}} who’ll assemble your furniture quickly, safely and correctly. From wardrobes and beds to desks and bookshelves, we take care of the heavy lifting (and the fiddly bits too).
+Wrestling with confusing instructions and missing screws? Skip the frustration — BaseLink connects you with skilled local handypeople{{$doc.location}} who'll assemble your furniture quickly, safely and correctly. From wardrobes and beds to desks and bookshelves, we take care of the heavy lifting (and the fiddly bits too).
 
 #description
-We assemble furniture from all major brands, whether it’s flat-pack or partially built. Beds, wardrobes, tables, chairs, shelving units, and office desks are all handled with care, and tools are provided to ensure everything is put together properly.
+We assemble furniture from all major brands, whether it's flat-pack or partially built. Beds, wardrobes, tables, chairs, shelving units, and office desks are all handled with care, and tools are provided to ensure everything is put together properly.
 
 #description
 Your handyperson will make sure all parts are securely fitted — with screws, bolts, and fasteners tightened to spec, and drawers, doors and panels aligned so they open and close smoothly.
 
 #description
-If your furniture requires handles, knobs or soft-close hinges, we’ll fit those too. And for tall or heavy units, we can wall-anchor them for extra safety — especially important in homes with children or pets.
+If your furniture requires handles, knobs or soft-close hinges, we'll fit those too. And for tall or heavy units, we can wall-anchor them for extra safety — especially important in homes with children or pets.
 
 #description
-Booking is simple through BaseLink’s digital platform. Just tell us what needs assembling, get an instant quote, and choose a time that works for you. No confusing calls, no stress — just fast, reliable help when you need it.
+Booking is simple through BaseLink's digital platform. Just tell us what needs assembling, get an instant quote, and choose a time that works for you. No confusing calls, no stress — just fast, reliable help when you need it.
 
 #description
-All BaseLink handypeople are fully vetted, experienced, and reviewed by local customers. Whether it’s one piece of furniture or a full home setup, we’ll get the job done right and tidy up before we leave.
+All BaseLink handypeople are fully vetted, experienced, and reviewed by local customers. Whether it's one piece of furniture or a full home setup, we'll get the job done right and tidy up before we leave.
 
 #description
 Payment is collected on the day of service, with additional time billed in fair 30-minute increments. Book furniture assembly{{$doc.location}} today with BaseLink — and turn that flat-pack into furniture that really holds up.

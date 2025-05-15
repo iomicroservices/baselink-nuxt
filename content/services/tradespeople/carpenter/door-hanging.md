@@ -2,8 +2,9 @@
 title: "Door hanging service"
 alt: "Installing and fitting doors to ensure proper alignment and functionality"
 description: "Installing and fitting doors to ensure proper alignment and functionality"
-category: "carpenter"
-subcategory: "door-hanging"
+category: "tradespeople"
+subcategory: "carpenter"
+task: "door-hanging"
 image: "/images/tradespeople/carpenter/door-hanging.webp"
 ogImage: "/images/tradespeople/carpenter/door-hanging.webp"
 colour: "blue"
@@ -179,10 +180,10 @@ All carpenters on BaseLink are skilled, experienced, and local to your area. Eac
 Your selected provider can fit new doors or remove and dispose of old ones as needed. They also trim or plane doors to ensure a perfect fit in your existing frame.
 
 #description
-Installation includes fitting hinges, handles, locks, and latches. Every detail is checked — from the door’s alignment and swing to its closure — to make sure it functions smoothly.
+Installation includes fitting hinges, handles, locks, and latches. Every detail is checked — from the door's alignment and swing to its closure — to make sure it functions smoothly.
 
 #description
-If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they'll purchase the materials and add them to your final bill. Alternatively, you're welcome to provide your own materials if you prefer.
 
 #description
 If needed, providers can make minor frame adjustments or repairs to support the new door. They can also install or repair full door frames when required.

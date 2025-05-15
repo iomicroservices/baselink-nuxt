@@ -2,8 +2,9 @@
 title: "Tap repair and replacement service"
 alt: "Fixing or replacing taps to restore functionality and prevent leaks"
 description: "Fixing or replacing taps to restore functionality and prevent leaks"
-category: "plumber"
-subcategory: "tap-repair-replacement"
+category: "tradespeople"
+subcategory: "plumber"
+task: "tap-repair-replacement"
 image: "/images/tradespeople/plumber/tap-repair-replacement.webp"
 ogImage: "/images/tradespeople/plumber/tap-repair-replacement.webp"
 colour: "blue"
@@ -154,19 +155,19 @@ button: "Hire a plumber"
 Book tap repair or replacement{{$doc.location}} for drip-free results
 
 #description
-Whether it’s a slow drip, stiff handle or outdated look, BaseLink connects you with trusted local plumbers{{$doc.location}} who can repair or replace your kitchen or bathroom taps with precision and care.
+Whether it's a slow drip, stiff handle or outdated look, BaseLink connects you with trusted local plumbers{{$doc.location}} who can repair or replace your kitchen or bathroom taps with precision and care.
 
 #description
-Common problems like leaking washers, faulty cartridges or seized handles can usually be repaired on the spot. Your plumber will diagnose the issue and replace only what’s needed — saving you time and cost where possible.
+Common problems like leaking washers, faulty cartridges or seized handles can usually be repaired on the spot. Your plumber will diagnose the issue and replace only what's needed — saving you time and cost where possible.
 
 #description
-If you’re upgrading, we’ll remove the old tap and install your new one securely. We work with all types — mixer taps, monobloc, pillar or sensor-activated — and can help align the fitting with your sink and plumbing setup.
+If you're upgrading, we'll remove the old tap and install your new one securely. We work with all types — mixer taps, monobloc, pillar or sensor-activated — and can help align the fitting with your sink and plumbing setup.
 
 #description
 All pipework is securely connected and fittings tightened to avoid future leaks. Your plumber will also test the flow and temperature to make sure everything works smoothly before wrapping up.
 
 #description
-Whether it’s a simple swap or a fix you’ve been putting off, we’ll make sure it’s done quickly and neatly, with no mess left behind.
+Whether it's a simple swap or a fix you've been putting off, we'll make sure it's done quickly and neatly, with no mess left behind.
 
 #description
 Booking is easy through BaseLink. Submit your request online, get an instant quote, and choose a time that suits you. Our in-house team manages everything in the background to keep your booking on track.

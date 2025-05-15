@@ -44,7 +44,7 @@ Quick and easy booking for after builders cleaning
     Tell us what you need cleaned
 
     #description
-    Fill out a simple form with the details of what you need included with your clean, and we’ll tailor the service to your specific requirements.
+    Fill out a simple form with the details of what you need included with your clean, and we'll tailor the service to your specific requirements.
     ::
     
     ::process-item
@@ -55,7 +55,7 @@ Quick and easy booking for after builders cleaning
     Schedule your booking and pay
 
     #description
-    Choose a day and time that suits you, pay for the first 2 hours and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Choose a day and time that suits you, pay for the first 2 hours and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -182,13 +182,13 @@ Your cleaner will vacuum and mop all floors, wipe down doors, frames and interio
 External areas like entrances or balconies can be swept and tidied, and any custom instructions or specific priorities can be added to your booking. The goal is to leave your home clean, safe and ready to enjoy — no detail missed.
 
 #description
-Booking your clean through BaseLink takes just minutes. Submit a request online, get an instant quote, and choose a time that works for your schedule. You won’t need to chase quotes or coordinate over the phone — everything is handled digitally.
+Booking your clean through BaseLink takes just minutes. Submit a request online, get an instant quote, and choose a time that works for your schedule. You won't need to chase quotes or coordinate over the phone — everything is handled digitally.
 
 #description
 Our platform gives you access to vetted, experienced cleaning professionals who understand the specific demands of post-construction work. Your account is also supported by our dedicated in-house team for added peace of mind.
 
 #description
-Payment is collected on the day of your clean, with any extra time billed in clear 30-minute increments. It’s a flexible, transparent process that gives you control without complications.
+Payment is collected on the day of your clean, with any extra time billed in clear 30-minute increments. It's a flexible, transparent process that gives you control without complications.
 
 #description
 Book after builders cleaning{{$doc.location}} with BaseLink today and enjoy your newly renovated space — without the mess.

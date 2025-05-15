@@ -2,8 +2,9 @@
 title: "Toilet repair and installation service"
 alt: "Repairing or installing toilets for optimal flushing performance and efficiency"
 description: "Repairing or installing toilets for optimal flushing performance and efficiency"
-category: "plumber"
-subcategory: "toilet-repair-installation"
+category: "tradespeople"
+subcategory: "plumber"
+task: "toilet-repair-installation"
 image: "/images/tradespeople/plumber/toilet-repair-installation.webp"
 ogImage: "/images/tradespeople/plumber/toilet-repair-installation.webp"
 colour: "blue"
@@ -19,7 +20,7 @@ Local plumbers
 Toilet repair & installation service{{ $doc.location }}
 
 #description
-Keep your toilet running smoothly. Whether it’s fixing a flush issue or installing a new toilet, we’ve got you covered. Vetted & insured plumbers{{ $doc.location }}. Flexible online bookings.
+Keep your toilet running smoothly. Whether it's fixing a flush issue or installing a new toilet, we've got you covered. Vetted & insured plumbers{{ $doc.location }}. Flexible online bookings.
 
 #image
     ::pictures
@@ -84,7 +85,7 @@ profession: "plumbers"
 What you get with toilet repair & installation
 
 #description
-Whether your toilet isn’t flushing or you need a full replacement, we’ve got it covered. Our plumbers{{ $doc.location }} fix leaks, faulty flushes, and install new units. Your job will be managed by our dedicated support team for a reliable service every time.
+Whether your toilet isn't flushing or you need a full replacement, we've got it covered. Our plumbers{{ $doc.location }} fix leaks, faulty flushes, and install new units. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
@@ -158,7 +159,7 @@ button: "Hire a plumber"
 Book toilet repair or installation{{$doc.location}} for fast fixes
 
 #description
-Whether your toilet won’t stop running, won’t flush at all, or you’re upgrading to a new unit, BaseLink connects you with skilled local plumbers{{$doc.location}} who can repair or replace your toilet quickly, cleanly, and properly.
+Whether your toilet won't stop running, won't flush at all, or you're upgrading to a new unit, BaseLink connects you with skilled local plumbers{{$doc.location}} who can repair or replace your toilet quickly, cleanly, and properly.
 
 #description
 For repairs, we diagnose issues like flush malfunctions, leaks around the base, weak water flow or noisy cisterns. Common fixes include replacing fill valves, flush mechanisms, washers, or seals — all done on the spot wherever possible.
@@ -176,7 +177,7 @@ This service is ideal for urgent fixes, bathroom refurbs or end-of-tenancy prope
 Booking through BaseLink is simple and online. Just submit your job, get an instant quote, and choose a time that works for you. Our support team manages everything to keep the job on track.
 
 #description
-All BaseLink plumbers are vetted, reviewed by customers nearby, and experienced in both domestic and commercial plumbing. Whatever the issue, we’ll help you get things back in working order.
+All BaseLink plumbers are vetted, reviewed by customers nearby, and experienced in both domestic and commercial plumbing. Whatever the issue, we'll help you get things back in working order.
 
 #description
 Payment is collected on the day of service, with any additional time billed in fair 30-minute increments. Book toilet repair or installation{{$doc.location}} with BaseLink — and get the job done with no mess and no flush failures.

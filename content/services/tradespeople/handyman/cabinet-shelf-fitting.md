@@ -2,8 +2,9 @@
 title: "Cabinet and shelf fitting service"
 alt: "Installing cabinets, wardrobes and shelves for added storage and organisation"
 description: "Installing cabinets, wardrobes and shelves for added storage and organisation"
-category: "handyman"
-subcategory: "cabinet-shelf-fitting"
+category: "tradespeople"
+subcategory: "handyman"
+task: "cabinet-shelf-fitting"
 image: "/images/tradespeople/handyman/cabinet-shelf-fitting.webp"
 ogImage: "/images/tradespeople/handyman/cabinet-shelf-fitting.webp"
 colour: "blue"
@@ -84,7 +85,7 @@ profession: "handymen"
 What you get with cabinet & shelf fitting
 
 #description
-Whether it’s storage in your hallway, shelves in the living room, or a cabinet in the toilet or kitchen, we’ll get it fitted safely and neatly, with zero fuss. Our handymen{{ $doc.location }} can install all types — from floating shelves to wall units, we have you covered. 
+Whether it's storage in your hallway, shelves in the living room, or a cabinet in the toilet or kitchen, we'll get it fitted safely and neatly, with zero fuss. Our handymen{{ $doc.location }} can install all types — from floating shelves to wall units, we have you covered. 
 
 #items
 
@@ -166,7 +167,7 @@ button: "Hire a handyman"
 Book cabinet and shelf fitting{{$doc.location}} that really hold up
 
 #description
-Need extra storage or want to upgrade your interiors? BaseLink connects you with trusted local handypeople{{$doc.location}} who can fit cabinets, shelves, and storage units with precision. Whether it’s a hallway cabinet, floating shelves in the living room, or bathroom storage, we’ll make sure everything’s installed safely and looks great.
+Need extra storage or want to upgrade your interiors? BaseLink connects you with trusted local handypeople{{$doc.location}} who can fit cabinets, shelves, and storage units with precision. Whether it's a hallway cabinet, floating shelves in the living room, or bathroom storage, we'll make sure everything's installed safely and looks great.
 
 #description
 Your handyperson will assess the wall type — whether plasterboard, brick or tile — and choose the right fixings to ensure a stable and long-lasting result. Wall plugs, screws, and brackets are fitted securely, with everything aligned and levelled for a clean, balanced finish.
@@ -175,13 +176,13 @@ Your handyperson will assess the wall type — whether plasterboard, brick or ti
 We can assemble flat-pack shelving and cabinets as part of the visit, or install pre-assembled units you already have. Floating shelves, corner racks, and wall-mounted cupboards are all handled with care, and safety is always prioritised — especially for high-mounted or heavy items.
 
 #description
-If your unit includes handles, hinges or soft-close doors, your handyperson will fit and adjust them to work smoothly. At the end of the job, they’ll check stability, clear up the workspace and make sure everything is working as expected.
+If your unit includes handles, hinges or soft-close doors, your handyperson will fit and adjust them to work smoothly. At the end of the job, they'll check stability, clear up the workspace and make sure everything is working as expected.
 
 #description
 Booking through BaseLink is simple and fully online. Submit your request in minutes, receive an instant quote, and pick a time that suits your schedule — no phone calls or chasing required.
 
 #description
-All handypeople on our platform are vetted, experienced, and reviewed by local customers. Your booking is supported by our team from start to finish, whether you’re fitting one shelf or a whole storage system.
+All handypeople on our platform are vetted, experienced, and reviewed by local customers. Your booking is supported by our team from start to finish, whether you're fitting one shelf or a whole storage system.
 
 #description
 Payment is collected on the day of service, and any additional time is billed in fair 30-minute increments. Book cabinet and shelf fitting{{$doc.location}} today with BaseLink — and get sturdy, stylish storage installed without the hassle.

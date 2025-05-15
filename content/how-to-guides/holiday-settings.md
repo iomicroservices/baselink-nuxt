@@ -10,7 +10,7 @@ svg:
 published: true
 ---
 
-In today’s fast-paced world, managing your business communications efficiently is more important than ever. That’s where eLandline steps in, offering innovative features like **Holiday Settings** and **Timed Divert** to ensure your business stays connected with your customers, no matter the time or day. Whether you’re enjoying a quiet holiday or spanning operations across the globe, our services are designed to adapt to your unique needs, keeping your business professional and accessible around the clock.
+In today's fast-paced world, managing your business communications efficiently is more important than ever. That's where eLandline steps in, offering innovative features like **Holiday Settings** and **Timed Divert** to ensure your business stays connected with your customers, no matter the time or day. Whether you're enjoying a quiet holiday or spanning operations across the globe, our services are designed to adapt to your unique needs, keeping your business professional and accessible around the clock.
 
 ### Holiday Settings: Never Miss a Call, Even When You're Out
 

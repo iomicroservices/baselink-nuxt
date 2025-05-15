@@ -4,6 +4,7 @@ alt: "Efficient, reliable removal services for your home or business, big or sma
 description: "Efficient, reliable removal services for your home or business, big or small"
 category: "tradespeople"
 subcategory: "removals"
+task: null
 image: "/images/tradespeople/removals/removals.webp"
 ogImage: "/images/tradespeople/removals/removals.webp"
 colour: "blue"
@@ -133,22 +134,22 @@ You can customise your ... with special instructions or add extra services. Your
 Book removals{{$doc.location}} for a stress-free and secure move
 
 #description
-Whether you’re clearing out old furniture, moving house, or relocating your business, BaseLink connects you with trusted removal professionals{{$doc.location}} who handle every job with care — from heavy lifting to safe transport.
+Whether you're clearing out old furniture, moving house, or relocating your business, BaseLink connects you with trusted removal professionals{{$doc.location}} who handle every job with care — from heavy lifting to safe transport.
 
 #description
 We cover everything from single-item appliance removals to full property moves. Our partners arrive on time, bring the right equipment for the job, and make sure your items are loaded, transported and delivered securely.
 
 #description
-For furniture removals, we can dismantle large items if needed, protect them in transit, and reassemble them at the other end. You can request extra care for fragile pieces or antiques — we’ll treat everything like it’s our own.
+For furniture removals, we can dismantle large items if needed, protect them in transit, and reassemble them at the other end. You can request extra care for fragile pieces or antiques — we'll treat everything like it's our own.
 
 #description
-Home removals include packing and labelling options if required, plus floor and wall protection where needed. Whether you’re moving across town or clearing out for a renovation, we tailor the service to your schedule.
+Home removals include packing and labelling options if required, plus floor and wall protection where needed. Whether you're moving across town or clearing out for a renovation, we tailor the service to your schedule.
 
 #description
 We also handle office and commercial moves — from tech equipment and desks to files and archives. Our teams work quickly and discreetly to minimise disruption to your business.
 
 #description
-Booking with BaseLink is fully online. Submit your job request, get an instant quote, and choose a time that works for you. You’ll receive updates and have access to support throughout.
+Booking with BaseLink is fully online. Submit your job request, get an instant quote, and choose a time that works for you. You'll receive updates and have access to support throughout.
 
 #description
 All removal partners are vetted, reviewed by customers nearby, and backed by our in-house support team. You get professional handling, secure transport, and no surprise charges.

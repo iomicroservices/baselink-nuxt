@@ -30,8 +30,6 @@ const { data: homepage, error } = await useAsyncData('homepage', () => queryCont
       <ContentRenderer v-if="homepage" :value="homepage" />
     </div>
 
-    <hr class="divider" />
-
     <MainContact />
 
     <hr class="divider" />

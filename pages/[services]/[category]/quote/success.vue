@@ -29,8 +29,8 @@
                                 Thanks for sending that over. Our team's on it and will be in touch within 1 business
                                 day. We'll email over your quote, then follow up with a quick call to chat through the
                                 details and answer any questions you might have. Got a question while you wait? Ping us
-                                an email at <a class="font-semibold underline text-green-500"
-                                    href="mailto:hello@baselink.uk">hello@baselink.uk</a>
+                                an email at <NuxtLink class="font-semibold underline text-green-500"
+                                    to="mailto:hello@baselink.uk">hello@baselink.uk</NuxtLink>
                             </p>
 
 

@@ -1,7 +1,7 @@
 ---
 title: Smart Call Divert
-description: 'After-hours peace: Activate out-of-hours mode for undisturbed personal time.'
-alt: 'After-hours peace: Activate out-of-hours mode for undisturbed personal time.'
+description: "After-hours peace: Activate out-of-hours mode for undisturbed personal time."
+alt: "After-hours peace: Activate out-of-hours mode for undisturbed personal time."
 image: /images/blogs-img/blog2.jpg
 ogImage: /images/blogs-img/blog2.jpg
 colour: gray
@@ -30,7 +30,7 @@ Smart Call Divert allows you to route incoming calls to different numbers based 
 ### Why Choose Smart Call Divert?
 
 - **Never Miss a Call**: Ensure potential clients or urgent queries find their way to you, or an appropriate team member, without delay.
-- **Stay Connected, Always**: Being out of the office doesn’t mean being out of reach. Redirect calls to wherever you are, seamlessly.
+- **Stay Connected, Always**: Being out of the office doesn't mean being out of reach. Redirect calls to wherever you are, seamlessly.
 - **Simplified Call Management**: With Smart Call Divert, handling your business calls becomes straightforward, whether via our online control panel or mobile app.
 
 ### Getting Started with Smart Call Divert

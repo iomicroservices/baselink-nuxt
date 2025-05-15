@@ -175,7 +175,7 @@ We store most of our customer and transactional data on secure servers located i
 We aim to keep your personal data within the **UK and EEA** wherever possible. However, some of our third-party providers may process data in other countries, including the **United States**.
 
 Where your data is transferred outside of the UK or EEA, we ensure that appropriate safeguards are in place to protect your privacy rights. These safeguards may include:
-- The use of **Standard Contractual Clauses** approved by the UK Information Commissioner’s Office (ICO) or the European Commission
+- The use of **Standard Contractual Clauses** approved by the UK Information Commissioner's Office (ICO) or the European Commission
 - Ensuring the recipient is in a country deemed to have **adequate data protection** standards by the UK or EU
 - Where applicable, transfers to the United States may be covered by participation in the **EU-U.S. Data Privacy Framework** (formerly Privacy Shield), or equivalent safeguard mechanisms
 
@@ -247,7 +247,7 @@ To exercise any of your rights, please contact us by **email:** hello@baselink.u
 We may ask you to verify your identity before we respond. We aim to respond to all valid requests within one month, but may extend this if the request is complex or numerous.
 
 #### **7.3 Complaints**
-If you are unhappy with how we have handled your personal data, please contact us first so we can try to resolve your concern. You also have the right to lodge a complaint with the UK’s data protection authority: **Information Commissioner's Office (ICO)** [https://ico.org.uk/](https://ico.org.uk)  
+If you are unhappy with how we have handled your personal data, please contact us first so we can try to resolve your concern. You also have the right to lodge a complaint with the UK's data protection authority: **Information Commissioner's Office (ICO)** [https://ico.org.uk/](https://ico.org.uk)  
 
 ### 8. Third-Party Links
 Our Website may contain links to third-party websites, plug-ins, or services that are not operated or controlled by us. Clicking on those links or enabling those connections may allow third parties to collect or share data about you.We are not responsible for the privacy practices, content, or security of those third-party websites. We encourage you to read the privacy policies of any external sites you visit before providing any personal data. This Privacy Policy applies only to personal data collected by or on behalf of BaseLink via our Website or related services.

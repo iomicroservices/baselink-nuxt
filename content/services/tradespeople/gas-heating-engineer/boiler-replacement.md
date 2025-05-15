@@ -2,8 +2,9 @@
 title: "Boiler replacement service"
 alt: "Replacing old or inefficient boilers with high-performance, energy-efficient models"
 description: "Replacing old or inefficient boilers with high-performance, energy-efficient models"
-category: "gas-heating-engineer"
-subcategory: "boiler-replacement"
+category: "tradespeople"
+subcategory: "gas-heating-engineer"
+task: "boiler-replacement"
 image: "/images/tradespeople/gas-heating-engineer/boiler-replacement.webp"
 ogImage: "/images/tradespeople/gas-heating-engineer/boiler-replacement.webp"
 colour: "blue"
@@ -189,7 +190,7 @@ Your old boiler will be professionally disconnected, removed and safely disposed
 The service also includes installation of new thermostats or heating controls if needed — including smart models — followed by full system testing, safety checks and Gas Safe certification.
 
 #description
-After installation, your engineer will show you how to operate the boiler and answer any questions. You’ll receive all the relevant documentation, including a Gas Safe certificate for your records or landlord compliance.
+After installation, your engineer will show you how to operate the boiler and answer any questions. You'll receive all the relevant documentation, including a Gas Safe certificate for your records or landlord compliance.
 
 #description
 Booking through BaseLink is fast and fully online. Submit your request, get an instant quote, and choose a convenient time that works for your schedule. No calls, no chasing — just quick, reliable service backed by our support team.

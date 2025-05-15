@@ -14,7 +14,7 @@ defineProps<{
       :aria-label="item.name">
       <Icon
         :name="item.icon"
-        class="w-6 h-6 text-gray-500 hover:text-gray-800 focus:outline-none focus:text-gray-800 dark:text-neutral-500 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
+        class="w-6 h-6 text-gray-500 hover:text-indigo-700 focus:outline-none dark:text-neutral-400 dark:hover:text-pink-400 dark:focus:text-pink-400"
       />
     </NuxtLink>
   </div>

@@ -1,7 +1,7 @@
 ---
 title: "Odour removal service"
-alt: "Remove unpleasant smells from the car's interior using specialised odour neutralisers or ozone treatment"
-description: "Remove unpleasant smells from the car's interior using specialised neutralisers"
+alt: "Remove unpleasant smells from the car’s interior using specialised odour neutralisers or ozone treatment"
+description: "Remove unpleasant smells from the car’s interior using specialised neutralisers"
 category: "mobile-car-wash"
 subcategory: "odour-removal"
 task: "odour-removal"
@@ -55,7 +55,7 @@ How to book a mobile car odour removal
     Schedule your booking and pay
 
     #description
-    Select the most convenient day and time, complete secure payment and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Select the most convenient day and time, complete secure payment and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -202,5 +202,5 @@ category: home-cleaning
 BaseLink cleaning services for your home{{ $doc.location }} too
 
 #description
-We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
+We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

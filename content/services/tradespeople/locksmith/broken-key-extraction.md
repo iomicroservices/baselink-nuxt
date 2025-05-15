@@ -2,8 +2,9 @@
 title: "Broken key extraction service"
 alt: "Removing broken keys from locks safely and limit further damage"
 description: "Removing broken keys from locks safely and limit further damage"
-category: "locksmith"
-subcategory: "broken-key-extraction"
+category: "tradespeople"
+subcategory: "locksmith"
+task: "broken-key-extraction"
 image: "/images/tradespeople/locksmith/broken-key-extraction.webp"
 ogImage: "/images/tradespeople/locksmith/broken-key-extraction.webp"
 colour: "blue"
@@ -85,7 +86,7 @@ profession: "locksmiths"
 What you get with broken key extraction
 
 #description
-Snapped your key in the lock? Don’t worry — our locksmiths{{ $doc.location }} can safely remove broken key fragments from door and window locks using specialist tools. We can also **[cut a replacement key](/services/tradespeople/locksmith/key-cutting)** or **[repair the lock](/services/tradespeople/locksmith/lock-repair)** if needed. Fast, tidy, and stress-free.
+Snapped your key in the lock? Don't worry — our locksmiths{{ $doc.location }} can safely remove broken key fragments from door and window locks using specialist tools. We can also **[cut a replacement key](/services/tradespeople/locksmith/key-cutting)** or **[repair the lock](/services/tradespeople/locksmith/lock-repair)** if needed. Fast, tidy, and stress-free.
 
 #items
 
@@ -163,25 +164,25 @@ button: "Hire a locksmith"
 Book broken key extraction{{$doc.location}} for fuss-free fixes
 
 #description
-Snapped a key in the lock? It happens more often than you’d think — and the good news is, BaseLink can help. We’ll match you with a trusted local locksmith{{$doc.location}} who’ll extract the broken key quickly and safely, without damaging your lock or door.
+Snapped a key in the lock? It happens more often than you'd think — and the good news is, BaseLink can help. We'll match you with a trusted local locksmith{{$doc.location}} who'll extract the broken key quickly and safely, without damaging your lock or door.
 
 #description
-Your locksmith will assess the type of lock and where the key has broken. Using specialist tools, they’ll remove the fragment with care — avoiding drilling or force wherever possible.
+Your locksmith will assess the type of lock and where the key has broken. Using specialist tools, they'll remove the fragment with care — avoiding drilling or force wherever possible.
 
 #description
-Once the key’s out, the lock is cleaned, lubricated and tested to make sure it still works smoothly. If there’s any internal damage or sticking, we can repair or replace the lock on the spot.
+Once the key's out, the lock is cleaned, lubricated and tested to make sure it still works smoothly. If there's any internal damage or sticking, we can repair or replace the lock on the spot.
 
 #description
 Need a new key? We offer key cutting as an optional extra, so you can get a working copy while your locksmith is on-site — saving you another trip or callout.
 
 #description
-We also offer emergency callouts if you’re locked out or the issue can’t wait. Just let us know when booking, and we’ll prioritise your visit.
+We also offer emergency callouts if you're locked out or the issue can't wait. Just let us know when booking, and we'll prioritise your visit.
 
 #description
 Booking is quick and easy with BaseLink. Submit your request online, get an instant quote, and choose a time that suits you. No chasing around, no waiting for callbacks.
 
 #description
-All BaseLink locksmiths are vetted, experienced and reviewed by customers in your area. Your job is backed by our in-house team, so you’ll always have support if anything changes.
+All BaseLink locksmiths are vetted, experienced and reviewed by customers in your area. Your job is backed by our in-house team, so you'll always have support if anything changes.
 
 #description
 Payment is taken on the day of service, with any extra time billed in fair 30-minute increments. Book broken key extraction{{$doc.location}} today with BaseLink — and get back to business (and back inside) without the drama.

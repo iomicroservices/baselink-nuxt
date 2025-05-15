@@ -55,7 +55,7 @@ How to book a full mobile car valet
     Schedule your booking and pay
 
     #description
-    Choose a day and time that suits you, complete secure payment and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Choose a day and time that suits you, complete secure payment and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -195,7 +195,7 @@ button: "Hire a valeter"
 Book a full car valet{{$doc.location}} delivered straight to your door
 
 #description
-BaseLink connects you with trusted local professionals who offer premium full car valet services{{$doc.location}}, brought directly to your home or workplace. It’s the easiest way to give your vehicle a thorough refresh — inside and out — without disrupting your day.
+BaseLink connects you with trusted local professionals who offer premium full car valet services{{$doc.location}}, brought directly to your home or workplace. It's the easiest way to give your vehicle a thorough refresh — inside and out — without disrupting your day.
 
 #description
 The full valet service includes an exterior hand wash and rinse, with wheels and tyres cleaned and detailed. Tar spots, bugs and road grime are carefully removed, followed by a polish and wax for a lasting shine. Windows, windshields, door shuts and sills are also cleaned to leave the outside spotless.
@@ -204,13 +204,13 @@ The full valet service includes an exterior hand wash and rinse, with wheels and
 Inside, every area of the cabin is refreshed. Seats and floor mats are vacuumed, dashboards and consoles are wiped, and plastics are treated to remove dust and marks. Cup holders, compartments, and air vents are carefully cleaned and sanitised.
 
 #description
-If you have leather seats, they’ll be cleaned and conditioned. Fabric seats can be steam cleaned to lift stains and bring back their original finish. A final deodorising treatment is included to leave your car smelling clean and fresh.
+If you have leather seats, they'll be cleaned and conditioned. Fabric seats can be steam cleaned to lift stains and bring back their original finish. A final deodorising treatment is included to leave your car smelling clean and fresh.
 
 #description
-Each valet ends with a full inspection and finish, ensuring nothing is missed. You can also customise your valet with extra services or specific instructions to suit your vehicle’s condition and your personal preferences.
+Each valet ends with a full inspection and finish, ensuring nothing is missed. You can also customise your valet with extra services or specific instructions to suit your vehicle's condition and your personal preferences.
 
 #description
-Booking is quick and straightforward through BaseLink’s digital platform. Submit a request, get an instant quote, and choose a time and place that suits you — all from your phone or laptop. It’s a simpler, more flexible alternative to traditional car valeting.
+Booking is quick and straightforward through BaseLink's digital platform. Submit a request, get an instant quote, and choose a time and place that suits you — all from your phone or laptop. It's a simpler, more flexible alternative to traditional car valeting.
 
 #description
 Payment is collected on the day of service, with any additional time billed fairly in 30-minute increments. Every provider on our platform is vetted, reviewed, and committed to high standards, so you can book with confidence.
@@ -242,5 +242,5 @@ category: home-cleaning
 BaseLink cleaning services for your home{{ $doc.location }} too
 
 #description
-We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
+We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

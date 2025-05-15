@@ -1,7 +1,7 @@
 ---
 title: "Exterior car wash service"
-alt: "A thorough hand wash of the car's exterior to remove dirt, dust, and grime"
-description: "A thorough hand wash of the car's exterior to remove dirt, dust, and grime"
+alt: "A thorough hand wash of the car’s exterior to remove dirt, dust, and grime"
+description: "A thorough hand wash of the car’s exterior to remove dirt, dust, and grime"
 category: "mobile-car-wash"
 subcategory: "exterior-car-wash"
 task: "exterior-car-wash"
@@ -55,7 +55,7 @@ How to book a mobile exterior car wash
     Schedule your booking and pay
 
     #description
-    Select the most convenient day and time, complete secure payment and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Select the most convenient day and time, complete secure payment and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -175,10 +175,10 @@ Tar spots and bugs are carefully removed from the bodywork, and exterior windows
 To finish, the vehicle is rinsed and hand-dried using soft microfibre towels to prevent water spots and swirl marks. The result is a clean, gleaming exterior — ready for the road.
 
 #description
-Through BaseLink, booking is easy and completely digital. Submit your request, get an instant quote, and choose a time and place that suits your schedule. It’s the flexible, modern alternative to the traditional car wash.
+Through BaseLink, booking is easy and completely digital. Submit your request, get an instant quote, and choose a time and place that suits your schedule. It's the flexible, modern alternative to the traditional car wash.
 
 #description
-All providers are fully vetted and reviewed by other customers on the BaseLink platform. You’ll be supported by our dedicated in-house team, and can add custom instructions to your booking if your car needs something specific.
+All providers are fully vetted and reviewed by other customers on the BaseLink platform. You'll be supported by our dedicated in-house team, and can add custom instructions to your booking if your car needs something specific.
 
 #description
 Payment is collected on the day of service, with any additional time billed fairly in 30-minute increments. No surprises, no upselling — just clear, reliable service from start to finish.
@@ -210,5 +210,5 @@ category: home-cleaning
 BaseLink cleaning services for your home{{ $doc.location }} too
 
 #description
-We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
+We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

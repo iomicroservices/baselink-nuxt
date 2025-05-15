@@ -2,8 +2,9 @@
 title: "Communications room service"
 alt: "Designing and connecting comms rooms for homes and businesses"
 description: "Designing and connecting secure comms rooms for homes and businesses"
-category: "network-engineer"
-subcategory: "communications-room"
+category: "tradespeople"
+subcategory: "network-engineer"
+task: "communications-room"
 image: "/images/tradespeople/network-engineer/communications-room.webp"
 ogImage: "/images/tradespeople/network-engineer/communications-room.webp"
 colour: "blue"
@@ -162,7 +163,7 @@ We install racks, patch panels, switches and cabling — all neatly laid out and
 From small cabinet installs in home offices to full commercial server rooms, every setup is tailored to your needs — with tidy cable management, surge protection, and scalable infrastructure that can grow with your tech.
 
 #description
-Once installed, we carry out full system tests to ensure connectivity across all your endpoints. Whether you're running IP phones, CCTV, media equipment or business-grade Wi-Fi, we’ll make sure everything is linked up and reliable.
+Once installed, we carry out full system tests to ensure connectivity across all your endpoints. Whether you're running IP phones, CCTV, media equipment or business-grade Wi-Fi, we'll make sure everything is linked up and reliable.
 
 #description
 We can also upgrade existing rooms — rerouting cables, installing rack-mounted equipment, or replacing chaotic wiring with labelled, structured systems that are easy to manage and troubleshoot.
@@ -171,7 +172,7 @@ We can also upgrade existing rooms — rerouting cables, installing rack-mounted
 Booking through BaseLink is fully online. Just submit your job, receive an instant quote, and choose a time that suits your schedule — with in-house support every step of the way.
 
 #description
-All engineers are vetted, experienced, and reviewed by local customers. Whether it's a simple install or a complete refresh, you’ll get clean, professional results that just work.
+All engineers are vetted, experienced, and reviewed by local customers. Whether it's a simple install or a complete refresh, you'll get clean, professional results that just work.
 
 #description
 Payment is collected on the day of service, with any additional time billed in fair 30-minute increments. Book a comms room setup{{$doc.location}} with BaseLink — and bring order to the chaos behind your tech.

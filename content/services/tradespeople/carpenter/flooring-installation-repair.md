@@ -2,8 +2,9 @@
 title: "Flooring installation and repair service"
 alt: "Installing and repairing wooden floors for a durable and polished finish"
 description: "Installing and repairing wooden floors for a durable and polished finish"
-category: "carpenter"
-subcategory: "flooring-installation-repair"
+category: "tradespeople"
+subcategory: "carpenter"
+task: "flooring-installation-repair"
 image: "/images/tradespeople/carpenter/flooring-installation-repair.webp"
 ogImage: "/images/tradespeople/carpenter/flooring-installation-repair.webp"
 colour: "blue"
@@ -184,7 +185,7 @@ All carpenters on BaseLink are skilled, experienced, and local to your area. Eac
 Services include laminate, hardwood, vinyl, and tile flooring — all fitted with care and precision. Carpet fitting and replacement are also available, tailored to your space and preferences.
 
 #description
-If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they'll purchase the materials and add them to your final bill. Alternatively, you're welcome to provide your own materials if you prefer.
 
 #description
 Whether you need new floorboards, repairs, or full replacements, the right professional will be matched to your job. Subfloor preparation and levelling can also be arranged to ensure a flawless finish.

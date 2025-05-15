@@ -6,10 +6,8 @@ interface Props {
 }
 
 const props = defineProps<Props>()
-//store route info in route const
-const { params } = useRoute()
-//create pathCategory const if [category] param exists, otherwise return empty string
-const pathCategory = params.category ? params.category : props.path
+
+const { getStarted, route } = useGetStarted();
 
 </script>
 
@@ -27,7 +25,7 @@ const pathCategory = params.category ? params.category : props.path
                     </ContentSlot>
                 </h2>
 
-                <NuxtLink :to="`/services/${pathCategory}/quote`"
+                <NuxtLink :to='getStarted'
                     class=" relative inline-flex items-center justify-center px-10 py-5 text-lg font-medium text-white
                     rounded-xl group cursor-pointer">
                     <span

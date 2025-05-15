@@ -227,8 +227,8 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         <!-- <div class="flex flex-col md:flex-row w-full py-3"> -->
 
         <UButton block type="submit" icon="i-heroicons-paper-airplane"
-            class="md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold" :disabled="!isFormValid || isSubmitting"
-            :loading="isSubmitting">
+            class="h-10 text-lg text-white dark:text-white disabled:dark:text-gray-100 md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold"
+            :disabled="!isFormValid || isSubmitting" :loading="isSubmitting">
             <template v-if="isSubmitting">
                 <span>Sending...</span>
             </template>

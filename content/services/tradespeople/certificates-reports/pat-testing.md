@@ -2,8 +2,9 @@
 title: "Portable Appliance Testing (PAT) service"
 alt: "Testing and certifying electrical appliances for safety and compliance"
 description: "Testing and certifying electrical appliances for safety and compliance"
-category: "certificates-reports"
-subcategory: "pat-testing"
+category: "tradespeople"
+subcategory: "certificates-reports"
+task: "pat-testing"
 image: "/images/tradespeople/certificates-reports/pat-testing.webp"
 ogImage: "/images/tradespeople/certificates-reports/pat-testing.webp"
 colour: "blue"
@@ -178,7 +179,7 @@ Once the assessment is complete, you'll receive a full condition report listing 
 Booking PAT testing through BaseLink is fast and fully online. Submit your request, receive an instant quote, and choose a time that fits your schedule — with no need to chase availability or wait for callbacks.
 
 #description
-All engineers on our platform are qualified, experienced and fully vetted. You’ll also have support from our dedicated in-house team in case you need to add appliances, reschedule or book other safety services like EICRs or fire risk assessments.
+All engineers on our platform are qualified, experienced and fully vetted. You'll also have support from our dedicated in-house team in case you need to add appliances, reschedule or book other safety services like EICRs or fire risk assessments.
 
 #description
 Payment is collected on the day of testing, and any additional time is billed fairly in 30-minute increments. Book PAT testing{{$doc.location}} today with BaseLink — and make sure your appliances are safe, documented, and up to standard.

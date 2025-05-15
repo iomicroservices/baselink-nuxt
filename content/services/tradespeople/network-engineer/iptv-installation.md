@@ -2,8 +2,9 @@
 title: "IPTV installation service"
 alt: "Setting up IPTV systems for high-quality digital television services"
 description: "Setting up IPTV systems for high-quality digital television services"
-category: "network-engineer"
-subcategory: "iptv-installation"
+category: "tradespeople"
+subcategory: "network-engineer"
+task: "iptv-installation"
 image: "/images/tradespeople/network-engineer/iptv-installation.webp"
 ogImage: "/images/tradespeople/network-engineer/iptv-installation.webp"
 colour: "blue"
@@ -154,22 +155,22 @@ title: "Ready to book your IPTV installation?"
 
 ::long-form
 #title
-Book IPTV installation{{$doc.location}} for seamless streaming that’s wired to perform
+Book IPTV installation{{$doc.location}} for seamless streaming that's wired to perform
 
 #description
 Want all your entertainment delivered over the internet — with no satellite dish or aerial in sight? BaseLink connects you with trusted network engineers{{$doc.location}} who install and configure IPTV systems for homes, offices, hotels and shared properties.
 
 #description
-We handle everything from setting up your IPTV box or receiver to configuring your network for smooth, high-quality streaming. Whether you’re watching on one screen or broadcasting across multiple rooms, we make sure your setup runs without buffering or glitches.
+We handle everything from setting up your IPTV box or receiver to configuring your network for smooth, high-quality streaming. Whether you're watching on one screen or broadcasting across multiple rooms, we make sure your setup runs without buffering or glitches.
 
 #description
 Your engineer can supply the necessary equipment or work with what you already have. Cables are routed cleanly and connected to your TVs or AV system — and if needed, we can wall-mount your screen and install HDMI distribution for a full entertainment setup.
 
 #description
-We’ll also optimise your internet connection for IPTV, adjusting bandwidth and network settings to support reliable streaming and reduce dropouts — especially important in hotels, offices or HMOs.
+We'll also optimise your internet connection for IPTV, adjusting bandwidth and network settings to support reliable streaming and reduce dropouts — especially important in hotels, offices or HMOs.
 
 #description
-Before we leave, we’ll guide you through how to use your IPTV system, access apps or channels, and troubleshoot any common issues.
+Before we leave, we'll guide you through how to use your IPTV system, access apps or channels, and troubleshoot any common issues.
 
 #description
 Booking with BaseLink is quick and fully online. Just submit your request, get an instant quote, and choose a time that works for you — no calls, no waiting around.

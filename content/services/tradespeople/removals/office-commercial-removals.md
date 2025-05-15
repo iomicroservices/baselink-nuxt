@@ -2,8 +2,9 @@
 title: "Office and commercial removals service"
 alt: "Safe removal, packaging and transport of office equipment and furniture"
 description: "Safe removal, packaging and transport of office equipment and furniture"
-category: "removals"
-subcategory: "office-commercial-removals"
+category: "tradespeople"
+subcategory: "removals"
+task: "office-commercial-removals"
 image: "/images/tradespeople/removals/office-commercial-removals.webp"
 ogImage: "/images/tradespeople/removals/office-commercial-removals.webp"
 colour: "blue"
@@ -166,7 +167,7 @@ Whether you're moving a few desks or shifting an entire office floor, your remov
 We carefully pack and label IT equipment, monitors, files and office supplies, using protective materials to prevent damage in transit. Furniture is dismantled, moved and reassembled as needed, ensuring everything arrives ready to use.
 
 #description
-Sensitive, high-value, or confidential items are handled with extra care and securely transported. We’ll follow your access instructions and work with building management if required.
+Sensitive, high-value, or confidential items are handled with extra care and securely transported. We'll follow your access instructions and work with building management if required.
 
 #description
 At the new location, we can assist with setup — including reconnecting equipment and ensuring your layout is ready for business-as-usual from day one.
@@ -175,7 +176,7 @@ At the new location, we can assist with setup — including reconnecting equipme
 Booking is fully online through BaseLink. Just submit your request, get an instant quote, and choose a time that suits your business schedule. Our support team manages the rest.
 
 #description
-All commercial removal teams are vetted, reviewed by local clients, and backed by BaseLink’s dedicated in-house support — so you can focus on running your business, not managing the move.
+All commercial removal teams are vetted, reviewed by local clients, and backed by BaseLink's dedicated in-house support — so you can focus on running your business, not managing the move.
 
 #description
 Payment is collected on the day of service, with any additional time billed in fair 30-minute increments. Book office and commercial removals{{$doc.location}} today with BaseLink — and make your move a smart business decision.

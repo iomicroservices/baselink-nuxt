@@ -2,8 +2,9 @@
 title: "Electrical Installation Condition Report (EICR) service"
 alt: "Inspecting electrical systems to ensure safety and compliance with regulations"
 description: "Inspecting electrical systems to ensure safety and compliance with regulations"
-category: "certificates-reports"
-subcategory: "eicr-report"
+category: "tradespeople"
+subcategory: "certificates-reports"
+task: "eicr-report"
 image: "/images/tradespeople/certificates-reports/eicr-reports.webp"
 ogImage: "/images/tradespeople/certificates-reports/eicr-reports.webp"
 colour: "blue"
@@ -167,7 +168,7 @@ An EICR report checks the safety and integrity of your property's wiring and ele
 Book an EICR report{{$doc.location}} to ensure electrical safety and compliance
 
 #description
-An Electrical Installation Condition Report (EICR) is essential for landlords, property managers and homeowners to ensure a building’s wiring is safe and up to standard. With BaseLink, you can book a qualified local assessor{{$doc.location}} to carry out a professional EICR inspection and issue a full report — quickly and without the hassle.
+An Electrical Installation Condition Report (EICR) is essential for landlords, property managers and homeowners to ensure a building's wiring is safe and up to standard. With BaseLink, you can book a qualified local assessor{{$doc.location}} to carry out a professional EICR inspection and issue a full report — quickly and without the hassle.
 
 #description
 Your assessor will begin with a visual inspection of the electrical installation, looking for visible signs of damage or deterioration. This is followed by a series of in-depth tests, including checks on earthing, bonding, and circuit integrity to confirm everything is working safely.
@@ -179,13 +180,13 @@ Insulation resistance testing and live/dead testing (including RCD testing) are 
 The report also identifies any overloaded circuits, outdated wiring, or fire and electric shock risks. If faults or non-compliant areas are found, your assessor will document them clearly and advise on the necessary steps to fix them.
 
 #description
-Once the inspection is complete, you’ll receive a full EICR report with clear coding to indicate if remedial work is required. The document is suitable for legal compliance and can be shared with tenants, letting agents or contractors.
+Once the inspection is complete, you'll receive a full EICR report with clear coding to indicate if remedial work is required. The document is suitable for legal compliance and can be shared with tenants, letting agents or contractors.
 
 #description
 Booking an EICR through BaseLink is fast and fully digital. Submit your request online, receive an instant quote, and choose a convenient time — no phone calls or follow-ups needed.
 
 #description
-All assessors on our platform are fully qualified, NICEIC-registered or equivalent, and reviewed by other customers in your area. You’ll also have support from our in-house team should you need help with further services or repairs.
+All assessors on our platform are fully qualified, NICEIC-registered or equivalent, and reviewed by other customers in your area. You'll also have support from our in-house team should you need help with further services or repairs.
 
 #description
 Payment is taken on the day of the visit, with any additional time billed fairly in 30-minute increments. Book your EICR report{{$doc.location}} today with BaseLink — and get the confidence that your property is safe, compliant and protected.

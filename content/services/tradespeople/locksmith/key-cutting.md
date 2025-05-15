@@ -2,8 +2,9 @@
 title: "Key cutting service"
 alt: "Precision key cutting for duplicates and replacements of all types"
 description: "Precision key cutting for duplicates and replacements of all types"
-category: "locksmith"
-subcategory: "key-cutting"
+category: "tradespeople"
+subcategory: "locksmith"
+task: "key-cutting"
 image: "/images/tradespeople/locksmith/key-cutting.webp"
 ogImage: "/images/tradespeople/locksmith/key-cutting.webp"
 colour: "blue"
@@ -166,7 +167,7 @@ button: "Hire a locksmith"
 Book mobile key cutting{{$doc.location}} — we collect, cut, and return
 
 #description
-Need spare keys but don’t have time to visit a shop? BaseLink brings the locksmith to you. Our key cutting service{{$doc.location}} is mobile, convenient, and fully secure — ideal for landlords, homeowners, or anyone who needs an extra key without the extra effort.
+Need spare keys but don't have time to visit a shop? BaseLink brings the locksmith to you. Our key cutting service{{$doc.location}} is mobile, convenient, and fully secure — ideal for landlords, homeowners, or anyone who needs an extra key without the extra effort.
 
 #description
 Your locksmith can duplicate standard keys for homes and offices, including cylinder, mortice and rim locks. Keys can be cut from an original, from a copy, or even from a code if the original has been lost.
@@ -184,7 +185,7 @@ Emergency key cutting is available if you need extras urgently, and you can comb
 Booking through BaseLink is fast and fully online. Submit your request, get an instant quote, and choose a time that suits your schedule. Everything is managed through our digital platform — with dedicated support along the way.
 
 #description
-All locksmiths are vetted, experienced and reviewed by local customers. Whether you’re managing multiple properties or just need a spare for peace of mind, we’ve got you covered.
+All locksmiths are vetted, experienced and reviewed by local customers. Whether you're managing multiple properties or just need a spare for peace of mind, we've got you covered.
 
 #description
 Payment is collected on the day of service, and any extra time is billed in fair 30-minute increments. Book mobile key cutting{{$doc.location}} today with BaseLink — and get perfectly cut keys, without leaving home.

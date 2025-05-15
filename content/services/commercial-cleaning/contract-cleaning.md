@@ -4,7 +4,7 @@ alt: "Flexible cleaning contracts for offices and commercial spaces"
 description: "Flexible cleaning contracts for offices and commercial spaces"
 category: "commercial-cleaning"
 subcategory: "contract-cleaning"
-task: "contract-cleaning"
+task: null
 image: "/images/commercial-cleaning/contract-cleaning.webp"
 ogImage: "/images/commercial-cleaning/contract-cleaning.webp"
 colour: "yellow"
@@ -199,16 +199,16 @@ Our contract cleaning services cover all the essentials — from dusting, vacuum
 Workstations, common areas and breakout spaces are given extra attention to ensure a clean and tidy environment throughout. We also take care of appliances, cabinet fronts, interior windows and mirrors, so the space looks polished from every angle.
 
 #description
-Through BaseLink, you can customise your regular cleaning schedule with tasks like linen replacement, dishwasher use, or restocking toiletries and consumables. You’ll also get a checklist to monitor supplies — and your cleaner can help you stay on top of what needs to be refilled.
+Through BaseLink, you can customise your regular cleaning schedule with tasks like linen replacement, dishwasher use, or restocking toiletries and consumables. You'll also get a checklist to monitor supplies — and your cleaner can help you stay on top of what needs to be refilled.
 
 #description
-Booking and managing your cleaning through BaseLink is simple. You’ll receive an instant quote when you submit your form, and you can set your preferred dates and frequency using our user-friendly digital platform. It’s designed to save time, reduce admin, and keep everything in one place.
+Booking and managing your cleaning through BaseLink is simple. You'll receive an instant quote when you submit your form, and you can set your preferred dates and frequency using our user-friendly digital platform. It's designed to save time, reduce admin, and keep everything in one place.
 
 #description
-Unlike many traditional cleaning companies, we give you the freedom to customise your plan, manage special requests, and stay informed every step of the way. You’ll be supported by our dedicated team, and any additional time is charged fairly in 30-minute increments after the clean.
+Unlike many traditional cleaning companies, we give you the freedom to customise your plan, manage special requests, and stay informed every step of the way. You'll be supported by our dedicated team, and any additional time is charged fairly in 30-minute increments after the clean.
 
 #description
-With BaseLink, you get more than a cleaner — you get a smart, flexible way to manage your ongoing cleaning needs. Whether you’re responsible for a single office or multiple locations, we help you stay on top of it all with ease and confidence.
+With BaseLink, you get more than a cleaner — you get a smart, flexible way to manage your ongoing cleaning needs. Whether you're responsible for a single office or multiple locations, we help you stay on top of it all with ease and confidence.
 
 ::
 

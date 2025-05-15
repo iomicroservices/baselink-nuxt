@@ -4,7 +4,7 @@ import { footerData, socialLinks } from '@/data/index'
 
 <template>
     <!-- ========== FOOTER ========== -->
-    <div class="py-5 border-t bg-white dark:bg-slate-950 dark:border-gray-800 mt-5 text-zinc-700 dark:text-zinc-300">
+    <div class="py-5 border-t bg-white dark:bg-slate-700 dark:border-gray-600 mt-5 text-zinc-700 dark:text-zinc-300">
         <div class="px-6 container max-w-6xl mx-auto">
             <!-- Grid -->
             <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-10">
@@ -54,7 +54,7 @@ import { footerData, socialLinks } from '@/data/index'
             </div>
             <!-- End Grid -->
 
-            <div class="pt-5 mt-5 border-t border-gray-200 dark:border-neutral-700">
+            <div class="pt-5 mt-5 border-t border-gray-200 dark:border-gray-600">
                 <div class="sm:flex sm:justify-between sm:items-center">
                     <div class="flex flex-wrap items-center gap-3">
 
@@ -63,14 +63,14 @@ import { footerData, socialLinks } from '@/data/index'
 
                         <div class="space-x-4">
                             <NuxtLink
-                                class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-hidden focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
-                                href="/legal/terms-of-service">Terms</NuxtLink>
+                                class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-hidden focus:text-gray-800 dark:text-neutral-300 dark:hover:text-white"
+                                to="/legal/terms-of-service">Terms</NuxtLink>
                             <NuxtLink
-                                class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-hidden focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
-                                href="/legal/privacy-policy">Privacy</NuxtLink>
+                                class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-hidden focus:text-gray-800 dark:text-neutral-300 dark:hover:text-white"
+                                to="/legal/privacy-policy">Privacy</NuxtLink>
                             <NuxtLink
-                                class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-hidden focus:text-gray-800 dark:text-neutral-400 dark:hover:text-neutral-200 dark:focus:text-neutral-200"
-                                href="/legal/cookie-policy">Cookies</NuxtLink>
+                                class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-hidden focus:text-gray-800 dark:text-neutral-300 dark:hover:text-white"
+                                to="/legal/cookie-policy">Cookies</NuxtLink>
                         </div>
                     </div>
 

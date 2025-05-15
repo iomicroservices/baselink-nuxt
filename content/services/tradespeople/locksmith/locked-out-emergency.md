@@ -2,8 +2,9 @@
 title: "Locked out emergency service"
 alt: "Immediate assistance when locked out of your home or business"
 description: "Immediate assistance when locked out of your home or business"
-category: "locksmith"
-subcategory: "locked-out-emergency"
+category: "tradespeople"
+subcategory: "locksmith"
+task: "locked-out-emergency"
 image: "/images/tradespeople/locksmith/locked-out-emergency.webp"
 ogImage: "/images/tradespeople/locksmith/locked-out-emergency.webp"
 colour: "blue"
@@ -155,22 +156,22 @@ button: "Hire a locksmith"
 
 ::long-form
 #title
-Book emergency locksmith help{{$doc.location}} for when you’re locked out
+Book emergency locksmith help{{$doc.location}} for when you're locked out
 
 #description
 Locked yourself out? It happens to the best of us — and when it does, BaseLink connects you with local locksmiths{{$doc.location}} who respond quickly, work discreetly, and get you back inside with minimal fuss.
 
 #description
-Your locksmith will aim for non-destructive entry wherever possible, using specialist tools to pick or bypass the lock without causing damage. Whether it’s a standard door, uPVC, wooden, or composite, they’ll assess the best method for safe, secure access.
+Your locksmith will aim for non-destructive entry wherever possible, using specialist tools to pick or bypass the lock without causing damage. Whether it's a standard door, uPVC, wooden, or composite, they'll assess the best method for safe, secure access.
 
 #description
 We offer rapid-response emergency callouts, including evenings and weekends, for both homes and businesses. If the lock is damaged or compromised, your locksmith can also supply and fit a replacement on the spot.
 
 #description
-Every locksmith on our platform is vetted, experienced and reviewed by local customers, so you can feel confident even in a stressful moment. Our team handles the details — so you don’t have to worry about calling around or waiting on unclear arrival times.
+Every locksmith on our platform is vetted, experienced and reviewed by local customers, so you can feel confident even in a stressful moment. Our team handles the details — so you don't have to worry about calling around or waiting on unclear arrival times.
 
 #description
-Booking is simple and immediate through BaseLink. Submit your request online, get an instant quote, and we’ll dispatch someone as soon as possible — keeping you informed every step of the way.
+Booking is simple and immediate through BaseLink. Submit your request online, get an instant quote, and we'll dispatch someone as soon as possible — keeping you informed every step of the way.
 
 #description
 Payment is collected once the job is complete, and any additional time is billed fairly in 30-minute increments. Book emergency locksmith help{{$doc.location}} with BaseLink — and get back inside, safely and without delay.

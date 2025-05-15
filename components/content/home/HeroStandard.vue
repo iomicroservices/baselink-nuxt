@@ -57,9 +57,9 @@ const pathCategory = params.category ? params.category : props.path1
                             {{ button1 || "Request a quote" }}
                         </NuxtLink>
 
-                        <a :href="path2 || 'tel:03330388288'" class="btn-secondary">
+                        <NuxtLink :to="path2 || 'tel:03330388288'" class="btn-secondary">
                             {{ button2 || "03330 388 288" }}
-                        </a>
+                        </NuxtLink>
 
                     </div>
 

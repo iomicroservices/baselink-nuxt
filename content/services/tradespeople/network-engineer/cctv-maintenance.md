@@ -2,8 +2,9 @@
 title: "CCTV maintenance service"
 alt: "Ongoing maintenance and servicing of CCTV systems for optimal performance"
 description: "Ongoing maintenance and servicing of CCTV systems for optimal performance"
-category: "network-engineer"
-subcategory: "cctv-maintenance"
+category: "tradespeople"
+subcategory: "network-engineer"
+task: "cctv-maintenance"
 image: "/images/tradespeople/network-engineer/cctv-maintenance.webp"
 ogImage: "/images/tradespeople/network-engineer/cctv-maintenance.webp"
 colour: "blue"
@@ -163,7 +164,7 @@ Even the best CCTV system needs regular upkeep to stay effective. With BaseLink,
 During your visit, your engineer will clean camera lenses and housings, check all cabling, and make sure power and data connections are secure. This helps prevent outages, blurry footage or blind spots from creeping in over time.
 
 #description
-They’ll verify recording and playback across your system, re-align or re-focus any mispositioned cameras, and carry out software or firmware updates where required.
+They'll verify recording and playback across your system, re-align or re-focus any mispositioned cameras, and carry out software or firmware updates where required.
 
 #description
 We also identify potential faults or vulnerabilities early — like failing hard drives or damaged wiring — and can recommend upgrades if your system is showing its age or needs expanded coverage.
@@ -175,7 +176,7 @@ Whether you use CCTV at home or at work, a maintenance visit ensures your setup 
 Booking with BaseLink is quick and fully digital. Submit your request, get an instant quote, and pick a time that suits your schedule — with all service details handled online.
 
 #description
-All engineers are vetted, reviewed by local customers and backed by our dedicated support team. Whether it’s a routine check or follow-up to an earlier install, we’ll keep things running smoothly.
+All engineers are vetted, reviewed by local customers and backed by our dedicated support team. Whether it's a routine check or follow-up to an earlier install, we'll keep things running smoothly.
 
 #description
 Payment is collected on the day of service, with any extra time billed in fair 30-minute increments. Book CCTV maintenance{{$doc.location}} with BaseLink — and make sure your system performs just as well on day 1,000 as it did on day one.

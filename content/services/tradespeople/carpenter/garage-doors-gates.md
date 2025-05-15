@@ -2,8 +2,9 @@
 title: "Garage doors and gates service"
 alt: "Installing and repairing wooden garage doors or garden gates"
 description: "Installing and repairing wooden garage doors or garden gates"
-category: "carpenter"
-subcategory: "garage-doors-gates"
+category: "tradespeople"
+subcategory: "carpenter"
+task: "garage-doors-gates"
 image: "/images/tradespeople/carpenter/garage-doors-gates.webp"
 ogImage: "/images/tradespeople/carpenter/garage-doors-gates.webp"
 colour: "blue"
@@ -196,13 +197,13 @@ All carpenters on BaseLink are skilled, experienced, and local to your area. Eac
 You can choose from popular options like up-and-over, sectional, roller shutter, or side-hinged garage doors. Sliding and automatic doors are also available for added convenience and space-saving benefits.
 
 #description
-If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they'll purchase the materials and add them to your final bill. Alternatively, you're welcome to provide your own materials if you prefer.
 
 #description
 Materials include timber, steel, composite, and aluminium, each offering a different look and level of durability. We also match you with experts for electric garage doors and full automation.
 
 #description
-With BaseLink, you can customise the job, get an instant quote, and book at a time that suits you. We’ll connect you with a reliable local expert who can bring your project to life.
+With BaseLink, you can customise the job, get an instant quote, and book at a time that suits you. We'll connect you with a reliable local expert who can bring your project to life.
 
 ::
 

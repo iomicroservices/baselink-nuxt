@@ -4,6 +4,7 @@ alt: "Ensure your property meets legal and safety standards for gas, electricity
 description: "Ensure your property meets legal and safety standards for gas, electricity and fire"
 category: "tradespeople"
 subcategory: "certificates-reports"
+task: null
 image: "/images/tradespeople/certificates-reports/certificates-reports.webp"
 ogImage: "/images/tradespeople/certificates-reports/certificates-reports.webp"
 colour: "blue"
@@ -139,10 +140,10 @@ Need to meet legal requirements or provide documentation for your property? Base
 We offer a full range of certification services, including CP12 gas safety certificates (required annually for rented properties), domestic and non-domestic EPCs to assess energy performance, and EICR electrical reports to confirm wiring is safe and up to standard.
 
 #description
-You can also book PAT testing for portable appliance safety, ideal for landlords, HMOs and workplaces. If your property requires a fire risk assessment — either by regulation or for peace of mind — we’ll match you with qualified assessors who understand current fire safety laws.
+You can also book PAT testing for portable appliance safety, ideal for landlords, HMOs and workplaces. If your property requires a fire risk assessment — either by regulation or for peace of mind — we'll match you with qualified assessors who understand current fire safety laws.
 
 #description
-Every report is carried out by a registered, fully qualified professional who understands the specific regulations in your area. You’ll receive your report or certificate shortly after the visit, and if any issues arise, you’ll be supported by our team to get them resolved quickly.
+Every report is carried out by a registered, fully qualified professional who understands the specific regulations in your area. You'll receive your report or certificate shortly after the visit, and if any issues arise, you'll be supported by our team to get them resolved quickly.
 
 #description
 Booking with BaseLink is simple and efficient. Submit your request online, receive an instant quote, and choose a time that fits your schedule. No phone calls, no delays — just fast, transparent service managed through one digital platform.

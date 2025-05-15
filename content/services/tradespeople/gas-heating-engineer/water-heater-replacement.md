@@ -2,8 +2,9 @@
 title: "Water heater replacement service"
 alt: "Replacing old water heaters with new, energy-efficient models for reliable hot water"
 description: "Replacing old water heaters with new, energy-efficient models for reliable hot water"
-category: "gas-heating-engineer"
-subcategory: "water-heater-replacement"
+category: "tradespeople"
+subcategory: "gas-heating-engineer"
+task: "water-heater-replacement"
 image: "/images/tradespeople/gas-heating-engineer/water-heater-replacement.webp"
 ogImage: "/images/tradespeople/gas-heating-engineer/water-heater-replacement.webp"
 colour: "blue"
@@ -181,19 +182,19 @@ Book water heater installation or replacement{{$doc.location}}
 Upgrading your hot water system or fitting one for the first time? BaseLink connects you with Gas Safe registered engineers{{$doc.location}} who install and replace all types of water heaters — including gas, electric, vented and unvented cylinders — with expert care and full safety compliance.
 
 #description
-Your engineer will start by disconnecting and safely removing the old unit (if applicable), then install your new water heater, whether it’s a standard tank, a compact point-of-use unit, or a full unvented system for high-pressure performance.
+Your engineer will start by disconnecting and safely removing the old unit (if applicable), then install your new water heater, whether it's a standard tank, a compact point-of-use unit, or a full unvented system for high-pressure performance.
 
 #description
 All connections to the mains water and power supply are handled professionally, and safety features such as valves and discharge pipes are fitted to meet current regulations. Your engineer will also flush the system to remove any debris and ensure everything runs smoothly.
 
 #description
-Temperature and pressure are tested after installation to verify correct operation. You’ll receive a full demonstration on how to use and maintain your new system, along with safety certification and any necessary documentation.
+Temperature and pressure are tested after installation to verify correct operation. You'll receive a full demonstration on how to use and maintain your new system, along with safety certification and any necessary documentation.
 
 #description
-BaseLink makes booking easy. Just submit your job online, get an instant quote, and choose a convenient time. Everything is managed through our digital platform, so there’s no need to chase contractors or coordinate paperwork.
+BaseLink makes booking easy. Just submit your job online, get an instant quote, and choose a convenient time. Everything is managed through our digital platform, so there's no need to chase contractors or coordinate paperwork.
 
 #description
-All engineers are fully vetted, Gas Safe registered, and experienced in handling both domestic and small commercial water heater installations. Whether it’s part of a renovation or a standalone job, you’ll have expert support from start to finish.
+All engineers are fully vetted, Gas Safe registered, and experienced in handling both domestic and small commercial water heater installations. Whether it's part of a renovation or a standalone job, you'll have expert support from start to finish.
 
 #description
 Payment is collected on the day of the visit, and any extra time is billed in clear 30-minute increments. Book water heater installation or replacement{{$doc.location}} today with BaseLink — and enjoy reliable hot water with zero hassle.

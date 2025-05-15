@@ -2,8 +2,9 @@
 title: "Wallpaper hanging and stripping service"
 alt: "Professional wallpaper hanging for a neat finish or stripping old wallpaper for a fresh look"
 description: "Professional wallpaper hanging for a neat finish or stripping old wallpaper for a fresh look"
-category: "painter-decorator"
-subcategory: "wallpaper-hanging-stripping"
+category: "tradespeople"
+subcategory: "painter-decorator"
+task: "wallpaper-hanging-stripping"
 image: "/images/tradespeople/painter-decorator/wallpaper-hanging-stripping.webp"
 ogImage: "/images/tradespeople/painter-decorator/wallpaper-hanging-stripping.webp"
 colour: "blue"
@@ -19,7 +20,7 @@ Local painters
 Wallpaper hanging & stripping service{{ $doc.location }}
 
 #description
-Whether you’re refreshing old wallpaper or adding a new design, our experienced decorators{{ $doc.location }} ensure a smooth, flawless application. Flexible online bookings.
+Whether you're refreshing old wallpaper or adding a new design, our experienced decorators{{ $doc.location }} ensure a smooth, flawless application. Flexible online bookings.
 
 #image
     ::pictures
@@ -162,7 +163,7 @@ button: "Hire a decorator"
 Book wallpaper hanging and stripping{{$doc.location}} for walls that wow without the wrinkles
 
 #description
-Whether you’re creating a standout feature wall or refreshing a whole room, BaseLink connects you with skilled local decorators{{$doc.location}} who hang wallpaper with precision and care — leaving crisp edges, aligned patterns, and a finish that lasts.
+Whether you're creating a standout feature wall or refreshing a whole room, BaseLink connects you with skilled local decorators{{$doc.location}} who hang wallpaper with precision and care — leaving crisp edges, aligned patterns, and a finish that lasts.
 
 #description
 We start by safely removing old wallpaper and any leftover adhesive, then prep the surface for the best possible results. This includes smoothing out imperfections and ensuring your wall is clean and ready to take on the new look.
@@ -174,13 +175,13 @@ Wallpaper is carefully measured, cut and aligned to fit your space exactly — i
 Our decorators expertly match patterns, eliminate air bubbles, and trim the final edges for a seamless result that transforms your room.
 
 #description
-Whether it’s a single panel behind a bed or a full living room makeover, we deliver the same level of precision and polish — no peeling, stretching or misalignment.
+Whether it's a single panel behind a bed or a full living room makeover, we deliver the same level of precision and polish — no peeling, stretching or misalignment.
 
 #description
 Booking with BaseLink is fast and fully digital. Submit your job, get an instant quote, and pick a time that suits your schedule — with friendly support from our team throughout.
 
 #description
-All decorators are vetted, reviewed and experienced in both residential and commercial projects. You’ll get clean work, zero mess, and picture-perfect walls from start to finish.
+All decorators are vetted, reviewed and experienced in both residential and commercial projects. You'll get clean work, zero mess, and picture-perfect walls from start to finish.
 
 #description
 Payment is collected on the day of service, and any additional time is billed in fair 30-minute increments. Book wallpaper hanging and stripping{{$doc.location}} with BaseLink — and bring texture, colour and style to your walls, hassle-free.

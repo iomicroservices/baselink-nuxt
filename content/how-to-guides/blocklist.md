@@ -43,6 +43,6 @@ With the Blacklist feature, take the reins of your call flow by blocking specifi
 - **Focus on What Matters**: Prioritize important calls and boost productivity by minimizing interruptions.
 - **Customizable**: Tailor call filtering to your specific business needs with our user-friendly control panel.
 - **Instant Control**: Adjust settings in real-time. No waiting around or complicated procedures.
-- **Peace of Mind**: Rest assured that unsolicited calls won’t reach you, allowing for a better customer and employee experience.
+- **Peace of Mind**: Rest assured that unsolicited calls won't reach you, allowing for a better customer and employee experience.
 
 **Ready to streamline your calls and safeguard your time?** Blocklist by eLandline is your first step towards more efficient, focused business communication. Let's keep the important conversations flowing and block out the rest.

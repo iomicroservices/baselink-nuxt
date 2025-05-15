@@ -4,7 +4,7 @@ alt: "Efficient cleaning and restocking to keep your holiday rental guest-ready"
 description: "Efficient cleaning and restocking to keep your holiday rental guest-ready"
 category: "commercial-cleaning"
 subcategory: "holiday-rental-cleaning"
-task: "holiday-rental-cleaning"
+task: null
 image: "/images/commercial-cleaning/holiday-rental-cleaning.webp"
 ogImage: "/images/commercial-cleaning/holiday-rental-cleaning.webp"
 colour: "yellow"
@@ -194,22 +194,22 @@ button: "Hire a cleaner"
 Holiday rental cleaning{{$doc.location}} made simple
 
 #description
-Managing short-let properties can be stressful, especially when quick turnarounds and guest satisfaction are on the line. That’s where BaseLink comes in. We connect you with reliable, local cleaners who specialise in holiday rental cleaning — and our digital platform makes the entire process faster, easier, and more dependable than traditional providers.
+Managing short-let properties can be stressful, especially when quick turnarounds and guest satisfaction are on the line. That's where BaseLink comes in. We connect you with reliable, local cleaners who specialise in holiday rental cleaning — and our digital platform makes the entire process faster, easier, and more dependable than traditional providers.
 
 #description
-Every clean is designed to meet the high standards expected by today’s guests. Your cleaner will take care of dusting and surface cleaning, vacuuming and mopping floors, and sanitising high-touch areas. Bathrooms and kitchens are given extra attention, including scrubbing sinks and toilets, running the dishwasher, and polishing appliances and mirrors until they shine.
+Every clean is designed to meet the high standards expected by today's guests. Your cleaner will take care of dusting and surface cleaning, vacuuming and mopping floors, and sanitising high-touch areas. Bathrooms and kitchens are given extra attention, including scrubbing sinks and toilets, running the dishwasher, and polishing appliances and mirrors until they shine.
 
 #description
 We understand that presentation matters. Fresh linen and towel replacement are part of the service, and we can also wash, dry, and iron laundry if needed. Your cleaner will check stock levels, restock essential toiletries and amenities, and make sure everything is ready for the next guest. Entrances and balconies are swept, bins are emptied, and any custom requests can be included.
 
 #description
-Through BaseLink, you get much more than just a cleaner — you get a managed, professional service. You’ll receive an instant quote when you submit your form online, and you can book the clean at a time that suits your guest schedule. If you have multiple listings or changeover dates, our platform makes it easy to stay organised and in control, all in one place.
+Through BaseLink, you get much more than just a cleaner — you get a managed, professional service. You'll receive an instant quote when you submit your form online, and you can book the clean at a time that suits your guest schedule. If you have multiple listings or changeover dates, our platform makes it easy to stay organised and in control, all in one place.
 
 #description
 Unlike many traditional cleaning services, BaseLink gives you full visibility and flexibility without the back-and-forth emails or last-minute no-shows. Your account is backed by our dedicated support team, who are always on hand to help with key collection, special instructions, or last-minute changes.
 
 #description
-Payment is simple and transparent. It’s collected on the day of the clean, with additional time billed fairly in 30-minute increments after the visit. You can also customise the service to match your listing’s unique needs, ensuring your space is always ready to impress.
+Payment is simple and transparent. It's collected on the day of the clean, with additional time billed fairly in 30-minute increments after the visit. You can also customise the service to match your listing's unique needs, ensuring your space is always ready to impress.
 
 #description
 BaseLink makes short-let property management smoother and more efficient. With trusted cleaners, a digital-first platform, and support whenever you need it, we help you deliver a flawless guest experience — every single time.

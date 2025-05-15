@@ -2,8 +2,9 @@
 title: "Non-domestic Energy Performance Certificates (EPCs) service"
 alt: "Assessing and rating the energy efficiency of commercial properties"
 description: "Assessing and rating the energy efficiency of commercial properties"
-category: "certificates-reports"
-subcategory: "non-domestic-epc"
+category: "tradespeople"
+subcategory: "certificates-reports"
+task: "non-domestic-epc"
 image: "/images/tradespeople/certificates-reports/non-domestic-epc.webp"
 ogImage: "/images/tradespeople/certificates-reports/non-domestic-epc.webp"
 colour: "blue"
@@ -196,10 +197,10 @@ Our service covers a wide range of commercial buildings, including offices, shop
 Each assessment includes a review of the property's layout, heating and cooling systems, insulation, lighting, ventilation and construction materials. These factors are used to calculate the property's energy performance rating, from A (most efficient) to G (least efficient).
 
 #description
-Once the visit is complete, you’ll receive a digital certificate and expert advice on improvements that could boost efficiency, lower operating costs, and help meet future regulatory standards.
+Once the visit is complete, you'll receive a digital certificate and expert advice on improvements that could boost efficiency, lower operating costs, and help meet future regulatory standards.
 
 #description
-Booking through BaseLink is fast and fully digital. Submit your request online, receive an instant quote, and choose a time that suits your business. There’s no need to coordinate paperwork or chase phone calls — we manage everything through our streamlined platform.
+Booking through BaseLink is fast and fully digital. Submit your request online, receive an instant quote, and choose a time that suits your business. There's no need to coordinate paperwork or chase phone calls — we manage everything through our streamlined platform.
 
 #description
 All EPC assessors on our platform are fully accredited and experienced in commercial property assessments. Whether you're preparing for a lease, sale or renovation, we make it easy to meet your legal obligations.

@@ -4,6 +4,7 @@ alt: "Comprehensive painting and decorating services to transform your space"
 description: "Comprehensive painting and decorating services to transform your space"
 category: "tradespeople"
 subcategory: "painter-decorator"
+task: null
 image: "/images/tradespeople/painter-decorator/painter-decorator.webp"
 ogImage: "/images/tradespeople/painter-decorator/painter-decorator.webp"
 colour: "blue"
@@ -19,7 +20,7 @@ Local painters
 Painter and decorator service{{ $doc.location }}
 
 #description
-Transform your space with our skilled painters and decorators{{ $doc.location }}. Whether it’s a fresh coat of paint or a full redesign, we bring your vision to life with precision and attention to detail.
+Transform your space with our skilled painters and decorators{{ $doc.location }}. Whether it's a fresh coat of paint or a full redesign, we bring your vision to life with precision and attention to detail.
 
 #image
     ::pictures
@@ -133,7 +134,7 @@ You can customise your ... with special instructions or add extra services. Your
 Book a painter or decorator{{$doc.location}} for flawless finishes inside and out
 
 #description
-Whether you’re refreshing a single room or tackling a full exterior makeover, BaseLink connects you with trusted local painters and decorators{{$doc.location}} who deliver clean lines, smooth walls and high-quality finishes — with less mess and zero hassle.
+Whether you're refreshing a single room or tackling a full exterior makeover, BaseLink connects you with trusted local painters and decorators{{$doc.location}} who deliver clean lines, smooth walls and high-quality finishes — with less mess and zero hassle.
 
 #description
 Our decorators handle everything from interior paintwork and feature walls to external painting and full property facelifts. They prep carefully, protect your furniture, and leave your home or business looking sharp and polished.
@@ -145,7 +146,7 @@ We also offer wallpaper hanging and removal — including lining paper, mural in
 Need plastering? Our decorators can skim and repair damaged walls before painting or papering to ensure a smooth, professional finish that lasts.
 
 #description
-Whether you’re modernising a home, preparing a rental property or decorating a commercial space, we’ll match you with someone local who gets the job done right.
+Whether you're modernising a home, preparing a rental property or decorating a commercial space, we'll match you with someone local who gets the job done right.
 
 #description
 Bookings are fully online through BaseLink. Submit your request, get an instant quote, and pick a time that works — no phone calls or chasing quotes. Our support team manages everything in the background so the job runs smoothly.

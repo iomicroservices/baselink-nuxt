@@ -44,7 +44,7 @@ Quick and easy booking for upholstery cleaning
     Tell us what you need cleaned
 
     #description
-    Fill out a simple form with the details of what you need included with your upholstery clean, and we’ll tailor the service to your specific requirements.
+    Fill out a simple form with the details of what you need included with your upholstery clean, and we'll tailor the service to your specific requirements.
     ::
     
     ::process-item
@@ -55,7 +55,7 @@ Quick and easy booking for upholstery cleaning
     Schedule your booking and pay
 
     #description
-    Choose a day and time that suits you, pay for the first 2 hours and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Choose a day and time that suits you, pay for the first 2 hours and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -178,13 +178,13 @@ Loose dirt is removed with a thorough vacuum, followed by pre-treatment and stai
 A deodorising treatment is applied to neutralise odours caused by pets, spills or everyday use. Air movers can also be used to reduce drying times, so your furniture is ready to enjoy again as soon as possible.
 
 #description
-You can customise your appointment with special instructions or include specific items in your booking. Whether it’s part of a one-time clean or a standalone service, we make it easy to get the results you need.
+You can customise your appointment with special instructions or include specific items in your booking. Whether it's part of a one-time clean or a standalone service, we make it easy to get the results you need.
 
 #description
 Booking is fast, transparent, and fully online through BaseLink. Just submit your request, receive an instant quote, and choose a convenient time — no waiting around or chasing callbacks.
 
 #description
-All upholstery cleaners on our platform are vetted, reviewed, and supported by our in-house team to ensure top quality results. We’re here to help with any adjustments, questions or follow-ups along the way.
+All upholstery cleaners on our platform are vetted, reviewed, and supported by our in-house team to ensure top quality results. We're here to help with any adjustments, questions or follow-ups along the way.
 
 #description
 Payment is taken on the day of the job, with any additional time billed fairly in 30-minute increments. Book upholstery cleaning{{$doc.location}} today with BaseLink — and bring life back to your furniture with professional care.

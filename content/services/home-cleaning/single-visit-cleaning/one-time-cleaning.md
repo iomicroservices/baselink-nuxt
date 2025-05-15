@@ -44,7 +44,7 @@ Quick and easy booking for one-time home cleaning
     Tell us what you need cleaned
 
     #description
-    Fill out a simple form with the details of what you need included with your one-time home clean, and we’ll tailor the service to your specific requirements.
+    Fill out a simple form with the details of what you need included with your one-time home clean, and we'll tailor the service to your specific requirements.
     ::
     
     ::process-item
@@ -55,7 +55,7 @@ Quick and easy booking for one-time home cleaning
     Schedule your booking and pay
 
     #description
-    Choose a day and time that suits you, pay for the first 2 hours and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Choose a day and time that suits you, pay for the first 2 hours and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -66,7 +66,7 @@ Quick and easy booking for one-time home cleaning
     Enjoy our 5-star home cleaning service
 
     #description
-    Our team will arrive on time and deliver the one-time clean you requested. Whether it’s a seasonal refresh or a special occasion, we have you covered.
+    Our team will arrive on time and deliver the one-time clean you requested. Whether it's a seasonal refresh or a special occasion, we have you covered.
     ::
 ::
 
@@ -182,7 +182,7 @@ button: "Hire a cleaner"
 Book one-time cleaning{{$doc.location}} for a fresh start without the commitment
 
 #description
-Need your home professionally cleaned just once? Whether it’s for a special occasion, after hosting guests, or simply a reset, BaseLink connects you with trusted local cleaners{{$doc.location}} for high-quality one-time cleaning — all managed through our fast and flexible digital platform.
+Need your home professionally cleaned just once? Whether it's for a special occasion, after hosting guests, or simply a reset, BaseLink connects you with trusted local cleaners{{$doc.location}} for high-quality one-time cleaning — all managed through our fast and flexible digital platform.
 
 #description
 This service includes a complete top-to-bottom clean of your home. Your cleaner will dust all surfaces, vacuum and mop floors, and scrub kitchens and bathrooms to leave everything spotless and fresh.
@@ -191,16 +191,16 @@ This service includes a complete top-to-bottom clean of your home. Your cleaner 
 Appliances, mirrors and cabinets are wiped down, and sinks, taps and toilets are fully sanitised. High-touch areas like switches and handles are also cleaned with extra care to maintain hygiene throughout your home.
 
 #description
-Additional tasks like laundry, linen changes, running the dishwasher, sweeping balconies, and cleaning interior windows can be included. If there’s something specific you need done, you can customise your booking with special instructions.
+Additional tasks like laundry, linen changes, running the dishwasher, sweeping balconies, and cleaning interior windows can be included. If there's something specific you need done, you can customise your booking with special instructions.
 
 #description
 Booking through BaseLink is simple and fully online. Just fill out a short form, get an instant quote, and choose a time that works for you — no waiting for callbacks or back-and-forth scheduling.
 
 #description
-All cleaners are vetted, reviewed and experienced in delivering reliable one-off cleans. You’ll also be supported by our in-house team who make sure every visit runs smoothly and on time.
+All cleaners are vetted, reviewed and experienced in delivering reliable one-off cleans. You'll also be supported by our in-house team who make sure every visit runs smoothly and on time.
 
 #description
-Payment is collected on the day of your clean, and any extra time is billed fairly in 30-minute increments. Whether it’s a deep refresh or just a helping hand when you need it, we make it hassle-free.
+Payment is collected on the day of your clean, and any extra time is billed fairly in 30-minute increments. Whether it's a deep refresh or just a helping hand when you need it, we make it hassle-free.
 
 #description
 Book one-time cleaning{{$doc.location}} today with BaseLink and enjoy a professionally cleaned home — just when you need it most.
@@ -211,6 +211,7 @@ Book one-time cleaning{{$doc.location}} today with BaseLink and enjoy a professi
 ::subcategory
 ---
 category: tradespeople
+ignoreSubcategory: true
 ---
 #title
 Additional services for your home or business{{ $doc.location }}

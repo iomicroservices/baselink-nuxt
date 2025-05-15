@@ -2,8 +2,9 @@
 title: "Gas safety certificate service"
 alt: "Certification to confirm gas appliances meet safety standards and regulations"
 description: "Certification to confirm gas appliances meet safety standards and regulations"
-category: "gas-heating-engineer"
-subcategory: "gas-safety-certificate"
+category: "tradespeople"
+subcategory: "gas-heating-engineer"
+task: "gas-safety-certificate"
 image: "/images/tradespeople/gas-heating-engineer/gas-safety-certificate.webp"
 ogImage: "/images/tradespeople/gas-heating-engineer/gas-safety-certificate.webp"
 colour: "blue"
@@ -167,16 +168,16 @@ A CP12 Gas Safety Certificate is a legal requirement for landlords in the UK. Ou
 Book a Gas Safety Certificate{{$doc.location}} to keep your home safe
 
 #description
-A Gas Safety Certificate isn’t just for landlords — it’s an important annual check for homeowners too. With BaseLink, you can book a fully qualified, Gas Safe registered engineer{{$doc.location}} to inspect your gas appliances and ensure everything is safe, efficient, and compliant.
+A Gas Safety Certificate isn't just for landlords — it's an important annual check for homeowners too. With BaseLink, you can book a fully qualified, Gas Safe registered engineer{{$doc.location}} to inspect your gas appliances and ensure everything is safe, efficient, and compliant.
 
 #description
-Your engineer will carry out a full inspection of gas appliances such as boilers, cookers and fires, checking for leaks, faults or signs of wear. They’ll test the pressure, burners and ventilation, making sure each appliance is operating safely and as it should.
+Your engineer will carry out a full inspection of gas appliances such as boilers, cookers and fires, checking for leaks, faults or signs of wear. They'll test the pressure, burners and ventilation, making sure each appliance is operating safely and as it should.
 
 #description
-As part of the visit, the engineer will also inspect the pipework, test for gas tightness, and assess the risk of carbon monoxide exposure. If anything needs attention, you’ll receive clear advice on what to do next.
+As part of the visit, the engineer will also inspect the pipework, test for gas tightness, and assess the risk of carbon monoxide exposure. If anything needs attention, you'll receive clear advice on what to do next.
 
 #description
-At the end of the service, you’ll be issued with a formal Gas Safety Certificate (CP12), which includes a breakdown of all checks carried out and a summary of the results — perfect for peace of mind and insurance purposes.
+At the end of the service, you'll be issued with a formal Gas Safety Certificate (CP12), which includes a breakdown of all checks carried out and a summary of the results — perfect for peace of mind and insurance purposes.
 
 #description
 Booking is easy and fully online through BaseLink. Submit your request, receive an instant quote, and pick a time that suits you. You can also combine the visit with a boiler service for complete annual coverage.

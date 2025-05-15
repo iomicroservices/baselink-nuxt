@@ -2,8 +2,9 @@
 title: "Window frames and sills service"
 alt: "Fitting, repairing or replacing wooden window frames and sills"
 description: "Repairing or replacing wooden window frames and sills"
-category: "carpenter"
-subcategory: "window-frames-sills"
+category: "tradespeople"
+subcategory: "carpenter"
+task: "window-frames-sills"
 image: "/images/tradespeople/carpenter/window-frames-sills.webp"
 ogImage: "/images/tradespeople/carpenter/window-frames-sills.webp"
 colour: "blue"
@@ -172,7 +173,7 @@ All carpenters on BaseLink are skilled, experienced, and local to your area. Eac
 The service may include removal of old or damaged components and the installation of new frames or sills. Custom fabrication can be arranged to match your window size and style.
 
 #description
-If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they'll purchase the materials and add them to your final bill. Alternatively, you're welcome to provide your own materials if you prefer.
 
 #description
 Carpenters can fill and seal gaps for a secure, weather-tight finish. Repairs to damaged timber are also available, helping to extend the life of your windows.
@@ -196,7 +197,7 @@ Find housekeepers and tradespeople {{$doc.location}}
 BaseLink cleaning services for your home{{ $doc.location }} too
 
 #description
-We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
+We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::
 
 ---

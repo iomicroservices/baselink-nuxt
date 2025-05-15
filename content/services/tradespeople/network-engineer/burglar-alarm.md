@@ -2,8 +2,9 @@
 title: "Burglar and security alarm service"
 alt: "Installing and maintaining alarm systems to protect your property from intruders"
 description: "Installing and maintaining alarm systems to protect your property from intruders"
-category: "network-engineer"
-subcategory: "burglar-alarm"
+category: "tradespeople"
+subcategory: "network-engineer"
+task: "burglar-alarm"
 image: "/images/tradespeople/network-engineer/burglar-alarm.webp"
 ogImage: "/images/tradespeople/network-engineer/burglar-alarm.webp"
 colour: "blue"
@@ -164,7 +165,7 @@ Book burglar alarm installation{{$doc.location}} for protection you can count on
 Protecting your home or business starts with a reliable alarm system. BaseLink connects you with experienced network engineers{{$doc.location}} who install and configure burglar alarms that are tailored to your property — giving you peace of mind and round-the-clock protection.
 
 #description
-We install both wired and wireless alarm systems, with motion sensors placed at key entry points such as doors and windows. Whether it’s for a small flat or a large commercial unit, we’ll design a setup that works for your space and security needs.
+We install both wired and wireless alarm systems, with motion sensors placed at key entry points such as doors and windows. Whether it's for a small flat or a large commercial unit, we'll design a setup that works for your space and security needs.
 
 #description
 You can supply your own equipment or have us provide a complete kit. Our engineers will fit everything neatly, from control panels to door sensors, and program your system with user codes and settings for easy day-to-day use.

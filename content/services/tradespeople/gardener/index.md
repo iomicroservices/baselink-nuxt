@@ -4,6 +4,7 @@ alt: "From lawn care to garden design, we help keep your outdoor space beautiful
 description: "From lawn care to garden design, we help keep your outdoor space beautiful"
 category: "tradespeople"
 subcategory: "gardener"
+task: null
 image: "/images/tradespeople/gardener/gardener.webp"
 ogImage: "/images/tradespeople/gardener/gardener.webp"
 colour: "blue"
@@ -137,7 +138,7 @@ button: "Hire a gardener"
 Book a local gardener{{$doc.location}} to keep your outdoor space cared for
 
 #description
-From quick tidy-ups to regular upkeep, BaseLink makes it easy to book reliable local gardeners{{$doc.location}} for all kinds of garden care. Whether you need your lawn mowed, hedges trimmed, or fresh plants added to the garden, we’ll match you with a trusted professional who can take care of it — so your outside space stays clean and inviting.
+From quick tidy-ups to regular upkeep, BaseLink makes it easy to book reliable local gardeners{{$doc.location}} for all kinds of garden care. Whether you need your lawn mowed, hedges trimmed, or fresh plants added to the garden, we'll match you with a trusted professional who can take care of it — so your outside space stays clean and inviting.
 
 #description
 Lawn mowing is carried out with care and attention to detail, ensuring a neat, even finish. Your gardener will trim edges, dispose of clippings, and leave your grass looking healthy and well-kept.
@@ -146,7 +147,7 @@ Lawn mowing is carried out with care and attention to detail, ensuring a neat, e
 Hedge trimming helps maintain shape and control growth. Whether you're managing a front garden or a larger outdoor area, your gardener will cut, tidy and remove waste to restore order and visibility.
 
 #description
-We also offer planting services to refresh your garden’s appearance with new flowers, shrubs or seasonal arrangements. You can bring your own plants or ask your gardener to recommend options suited to the space and conditions.
+We also offer planting services to refresh your garden's appearance with new flowers, shrubs or seasonal arrangements. You can bring your own plants or ask your gardener to recommend options suited to the space and conditions.
 
 #description
 Leaf blowing and debris removal is available too — perfect for keeping patios, driveways and pathways clear during autumn or after bad weather. Everything is cleaned and tidied before your gardener leaves.
@@ -155,7 +156,7 @@ Leaf blowing and debris removal is available too — perfect for keeping patios,
 Booking through BaseLink is simple and fully digital. Submit your request online, receive an instant quote, and choose a time that suits you. You can customise your job with special instructions or make it part of a regular schedule.
 
 #description
-All gardeners on our platform are local, vetted and reviewed by other customers. Whether it’s a one-off job or recurring care, you’ll have peace of mind knowing your garden is in expert hands.
+All gardeners on our platform are local, vetted and reviewed by other customers. Whether it's a one-off job or recurring care, you'll have peace of mind knowing your garden is in expert hands.
 
 #description
 Payment is collected on the day of your visit, with any additional time charged fairly in 30-minute increments. Book a local gardener{{$doc.location}} today with BaseLink — and enjoy a cleaner, greener outdoor space without the effort.

@@ -2,8 +2,9 @@
 title: "Data cabling service"
 alt: "Installing reliable data cabling for high-speed internet and network connections"
 description: "Installing reliable data cabling for high-speed internet and network connections"
-category: "network-engineer"
-subcategory: "data-cabling"
+category: "tradespeople"
+subcategory: "network-engineer"
+task: "data-cabling"
 image: "/images/tradespeople/network-engineer/data-cabling.webp"
 ogImage: "/images/tradespeople/network-engineer/data-cabling.webp"
 colour: "blue"
@@ -159,7 +160,7 @@ title: "Ready to book your data cabling job?"
 Book data cabling installation{{$doc.location}} for wired connections without the tangle
 
 #description
-Need a stable, high-speed internet connection? Whether it’s for home working, gaming, or your office setup, BaseLink connects you with experienced network engineers{{$doc.location}} who install professional-grade data cabling — clean, tested, and ready to perform.
+Need a stable, high-speed internet connection? Whether it's for home working, gaming, or your office setup, BaseLink connects you with experienced network engineers{{$doc.location}} who install professional-grade data cabling — clean, tested, and ready to perform.
 
 #description
 We install Cat5e, Cat6, HDMI, LAN and fibre lines for homes and commercial properties. Your engineer will plan the cable runs, route them neatly through walls or ceilings, and securely fasten everything out of sight.

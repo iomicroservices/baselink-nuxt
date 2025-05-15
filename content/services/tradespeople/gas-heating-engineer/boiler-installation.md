@@ -2,8 +2,9 @@
 title: "Boiler installation service"
 alt: "Expert installation of new boilers for reliable home heating and hot water"
 description: "Expert installation of new boilers for reliable home heating and hot water"
-category: "gas-heating-engineer"
-subcategory: "boiler-installation"
+category: "tradespeople"
+subcategory: "gas-heating-engineer"
+task: "boiler-installation"
 image: "/images/tradespeople/gas-heating-engineer/boiler-installation.webp"
 ogImage: "/images/tradespeople/gas-heating-engineer/boiler-installation.webp"
 colour: "blue"
@@ -187,7 +188,7 @@ Old boilers can be safely removed and disposed of as part of the service. The ne
 Your engineer will also install thermostats or heating controls — including smart thermostats if required — and test the system to ensure everything works as it should. Gas Safe checks and certification are included for full peace of mind.
 
 #description
-After installation, you'll be given a demonstration of how to use your new boiler, with time for questions and setup support. You’ll leave with a Gas Safe certificate and all relevant documentation for your appliance.
+After installation, you'll be given a demonstration of how to use your new boiler, with time for questions and setup support. You'll leave with a Gas Safe certificate and all relevant documentation for your appliance.
 
 #description
 Booking is fast and straightforward with BaseLink. Simply submit your request online, get an instant quote, and choose a time that suits you. Everything is managed digitally — no chasing engineers or waiting for paperwork.

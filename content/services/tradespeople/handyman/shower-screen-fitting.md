@@ -2,8 +2,9 @@
 title: "Shower screen fitting service"
 alt: "Fitting shower screens for a sleek, functional bathroom"
 description: "Fitting shower screens for a sleek, functional bathroom"
-category: "handyman"
-subcategory: "shower-screen-fitting"
+category: "tradespeople"
+subcategory: "handyman"
+task: "shower-screen-fitting"
 image: "/images/tradespeople/handyman/shower-screen-fitting.webp"
 ogImage: "/images/tradespeople/handyman/shower-screen-fitting.webp"
 colour: "blue"
@@ -85,7 +86,7 @@ profession: "handymen"
 What you get with shower screen fitting
 
 #description
-Whether it’s fixed, hinged, or sliding, we install all types of shower screens to suit your layout and style. Our handymen{{ $doc.location }} handle the measuring, drilling, sealing, and secure fixing — leaving you with a clean, watertight finish and no mess.
+Whether it's fixed, hinged, or sliding, we install all types of shower screens to suit your layout and style. Our handymen{{ $doc.location }} handle the measuring, drilling, sealing, and secure fixing — leaving you with a clean, watertight finish and no mess.
 
 #items
 
@@ -159,7 +160,7 @@ button: "Hire a handyman"
 Book shower screen fitting{{$doc.location}} for splash-proof installs
 
 #description
-A poorly fitted shower screen can lead to leaks, wobbles, and water where you don’t want it. With BaseLink, you can book experienced handypeople{{$doc.location}} to install hinged, sliding, or fixed screens neatly and securely — leaving you with a clean, level finish and a watertight seal.
+A poorly fitted shower screen can lead to leaks, wobbles, and water where you don't want it. With BaseLink, you can book experienced handypeople{{$doc.location}} to install hinged, sliding, or fixed screens neatly and securely — leaving you with a clean, level finish and a watertight seal.
 
 #description
 Your fitter will begin by measuring and marking out the wall to ensure precise positioning. Brackets or channels are drilled and mounted securely, and your screen is aligned and fitted for stability and function — whether it opens or stays fixed.
@@ -171,7 +172,7 @@ We seal the edges with quality silicone to prevent drips, leaks or water damage,
 Screens can be installed in en-suites, over-bath setups or walk-in showers. If you're unsure what type you need, your handyperson can guide you on placement and compatibility with your bathroom layout.
 
 #description
-Booking is easy through BaseLink’s online platform. Submit your request in minutes, receive an instant quote, and pick a time that works for you — no need to chase trades or deal with unclear pricing.
+Booking is easy through BaseLink's online platform. Submit your request in minutes, receive an instant quote, and pick a time that works for you — no need to chase trades or deal with unclear pricing.
 
 #description
 All fitters are fully vetted, reviewed and experienced in bathroom installations. Every job is backed by our in-house team, and we always tidy up before we leave.

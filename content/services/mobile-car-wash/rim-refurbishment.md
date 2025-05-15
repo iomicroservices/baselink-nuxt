@@ -55,7 +55,7 @@ How to book a mobile car rim refurbishment
     Schedule your booking and pay
 
     #description
-    Select the most convenient day and time, complete secure payment and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Select the most convenient day and time, complete secure payment and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -163,7 +163,7 @@ button: "Hire a technician"
 Book car rim refurbishment{{$doc.location}} to restore scuffed or damaged wheels
 
 #description
-Damaged alloys can spoil the look of your entire vehicle — but a full replacement isn’t always necessary. With BaseLink, you can book expert car rim refurbishment{{$doc.location}} carried out by skilled local professionals, right at your home or workplace.
+Damaged alloys can spoil the look of your entire vehicle — but a full replacement isn't always necessary. With BaseLink, you can book expert car rim refurbishment{{$doc.location}} carried out by skilled local professionals, right at your home or workplace.
 
 #description
 The service begins with a full visual inspection to assess kerb damage, corrosion, chips or scratches. Your technician will then strip and clean the affected wheel to prepare the surface for repair.
@@ -210,5 +210,5 @@ category: home-cleaning
 BaseLink cleaning services for your home{{ $doc.location }} too
 
 #description
-We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
+We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

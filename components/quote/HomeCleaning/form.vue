@@ -266,12 +266,13 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <UFormGroup size="xl" name="bedroomsInput">
             <template #label>
-                <p class="mb-1">I need 
+                <p class="mb-1">I need
                     <span class="text-primary font-bold">
-                        {{ formState.bedroomsInput }} 
+                        {{ formState.bedroomsInput }}
                         {{ formatPlural(formState.bedroomsInput, 'bedroom', 'bedrooms') }}
                     </span>
-                    cleaned</p>
+                    cleaned
+                </p>
             </template>
             <URange :min="0" :max="10" :model-value="formState.bedroomsInput"
                 @update:model-value="formState.bedroomsInput = $event" />
@@ -279,11 +280,12 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <UFormGroup size="xl" name="toiletsInput">
             <template #label>
-                <p class="mb-1">I need 
+                <p class="mb-1">I need
                     <span class="text-primary font-bold">
-                        {{ formState.toiletsInput }} 
+                        {{ formState.toiletsInput }}
                         {{ formatPlural(formState.toiletsInput, 'toilet') }}</span>
-                    cleaned</p>
+                    cleaned
+                </p>
             </template>
             <URange :min="0" :max="10" :model-value="formState.toiletsInput"
                 @update:model-value="formState.toiletsInput = $event" />
@@ -314,8 +316,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <UInput v-model="formState.startDate" type="date" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?"
-            required>
+        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?" required>
             <USelect v-model="formState.timeOptions" :options="options.timeOptions" placeholder="" />
         </UFormGroup>
 
@@ -377,8 +378,8 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         <!-- <div class="flex flex-col md:flex-row w-full py-3"> -->
 
         <UButton block type="submit" icon="i-heroicons-paper-airplane"
-            class="md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold" :disabled="!isFormValid || isSubmitting"
-            :loading="isSubmitting">
+            class="h-10 text-lg text-white dark:text-white disabled:dark:text-gray-100 md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold"
+            :disabled="!isFormValid || isSubmitting" :loading="isSubmitting">
             <template v-if="isSubmitting">
                 <span>Sending...</span>
             </template>

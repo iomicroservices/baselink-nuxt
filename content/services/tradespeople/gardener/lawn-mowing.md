@@ -2,8 +2,9 @@
 title: "Lawn mowing service"
 alt: "Trimming and maintaining your lawn for a neat, tidy finish"
 description: "Trimming and maintaining your lawn for a neat, tidy finish"
-category: "gardener"
-subcategory: "lawn-mowing"
+category: "tradespeople"
+subcategory: "gardener"
+task: "lawn-mowing"
 image: "/images/tradespeople/gardener/lawn-mowing.webp"
 ogImage: "/images/tradespeople/gardener/lawn-mowing.webp"
 colour: "blue"
@@ -85,7 +86,7 @@ profession: "gardeners"
 What you get with lawn mowing service
 
 #description
-Whether it’s a one-off tidy-up or part of regular garden maintenance, our skilled gardeners{{ $doc.location }} will cut your lawn to the right height, trim the edges, and leave everything clean and tidy. We use professional tools and take care of the details.
+Whether it's a one-off tidy-up or part of regular garden maintenance, our skilled gardeners{{ $doc.location }} will cut your lawn to the right height, trim the edges, and leave everything clean and tidy. We use professional tools and take care of the details.
 
 #items
 
@@ -151,13 +152,13 @@ button: "Hire a gardener"
 Book lawn mowing{{$doc.location}} for a neat and healthy garden
 
 #description
-A freshly mowed lawn transforms the look of your garden. With BaseLink, you can book trusted local gardeners{{$doc.location}} to cut your grass, trim the edges and clear up after — whether it’s a one-off visit or part of regular garden care.
+A freshly mowed lawn transforms the look of your garden. With BaseLink, you can book trusted local gardeners{{$doc.location}} to cut your grass, trim the edges and clear up after — whether it's a one-off visit or part of regular garden care.
 
 #description
-Your gardener will mow the grass to your preferred height using professional tools for a clean and even finish. They’ll also trim around borders, flowerbeds and pathways to sharpen the overall look and maintain clear edges.
+Your gardener will mow the grass to your preferred height using professional tools for a clean and even finish. They'll also trim around borders, flowerbeds and pathways to sharpen the overall look and maintain clear edges.
 
 #description
-All clippings are removed and taken away, so there’s no mess left behind. If requested, weed control treatments can also be applied to help keep your lawn healthy and free from unwanted growth.
+All clippings are removed and taken away, so there's no mess left behind. If requested, weed control treatments can also be applied to help keep your lawn healthy and free from unwanted growth.
 
 #description
 You can combine lawn mowing with other services like hedge trimming or planting, or set up a recurring visit to keep your outdoor space looking its best through the seasons.
@@ -166,7 +167,7 @@ You can combine lawn mowing with other services like hedge trimming or planting,
 Booking is simple and entirely online through BaseLink. Submit your request, get an instant quote, and choose a time that suits you. No phone calls, no waiting around — just fast, flexible service from start to finish.
 
 #description
-All gardeners are local, experienced, and vetted for quality and reliability. You’ll also be supported by our in-house team if you need to update instructions, reschedule, or add extra services.
+All gardeners are local, experienced, and vetted for quality and reliability. You'll also be supported by our in-house team if you need to update instructions, reschedule, or add extra services.
 
 #description
 Payment is taken on the day of the job, with additional time billed in clear 30-minute increments. Book lawn mowing{{$doc.location}} with BaseLink today — and keep your garden looking sharp with zero hassle.

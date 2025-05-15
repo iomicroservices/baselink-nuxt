@@ -5,29 +5,61 @@ interface Props {
     title?: string
     description?: string
     category?: string
+    subcategory?: string
+    ignoreSubcategory?: boolean
 }
 const props = defineProps<Props>()
 
 const { params } = useRoute()
-const routeCategory = props.category ? props.category : params.category || ''
-const routeSubcategory = params.subcategory || routeCategory
-const routeTask = params.task || routeSubcategory
+const routeCategory = props.category || params.category
+const routeSubcategory = props.ignoreSubcategory ? '' : (props.subcategory || params.subcategory || '')
+
 const routeLocalType = params.type
 const routeCity = params.city
 const routeRegion = routeLocalType === 'region' ? params.area : ''
 const routeArea = routeLocalType === 'area' ? params.area : ''
 
+const basePath = `/services/${routeCategory}`
+
+const queryKey = [
+    routeCategory,
+    props.ignoreSubcategory ? 'ignore-subcategory' : routeSubcategory,
+].filter(Boolean).join('-')
+
+const currentDepth = props.ignoreSubcategory
+    ? 'category'
+    : routeSubcategory
+        ? 'subcategory'
+        : 'category'
+
 // Get the contents of content directory sorted by most recent and filter by category
-const { data, error } = await useAsyncData(`service-cards-${routeCategory}`, () =>
-    queryContent(`/services/${routeCategory}`)
-        .where({
-            category: routeCategory,
-            subcategory: { $ne: Array.isArray(routeCategory) ? routeCategory[0] : routeCategory }, // Use the first element if it's an array
-            task: { $ne: Array.isArray(routeSubcategory) ? routeSubcategory[0] : routeSubcategory }, // Use the first element if it's an array
-        })
+const { data, error } = await useAsyncData(`service-cards-${queryKey}`, () => {
+    const query = queryContent(basePath)//.where({ category: routeCategory })
+
+    if (currentDepth === 'category' && routeCategory === 'home-cleaning') {
+        return query
+            .where({ subcategory: { $ne: null as any } }) // subcategory index files
+            .sort({ _id: 1 })
+            .find()
+    }
+
+    if (currentDepth === 'category' && routeCategory !== 'home-cleaning') {
+        return query
+            .where({ subcategory: { $ne: null as any }, task: null as any }) // subcategory index files
+            .where({ _dir: routeCategory }) // one level down
+            .sort({ _id: 1 })
+            .find()
+    }
+
+    // subcategory (or task-level fallback) → load all tasks under subcategory
+    return query
+        .where({ subcategory: routeSubcategory, task: { $ne: null as any } }) // only tasks
+        .where({ _dir: routeSubcategory })                             // direct children of subcategory
         .sort({ _id: 1 })
-        .find(),
-)
+        .find()
+})
+
+
 
 // If an error occurs, log it
 if (error.value) {
@@ -76,7 +108,7 @@ const formattedData = computed(() => {
         <div class="grid gap-3 lg:gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <template v-for="post in formattedData" :key="post.title">
 
-                <FeaturesCard :description="post.description" :published="post.published" :colour="post.colour"
+                <FeaturesCard :description="post.description" :published="post.published" colour="blue"
                     :path="post.path">
 
                     <!-- Override the "card-image" slot -->

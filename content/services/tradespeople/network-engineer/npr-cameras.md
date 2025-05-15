@@ -2,8 +2,9 @@
 title: "Number Plate Recognition (NPR) cameras service"
 alt: "Installing NPR cameras for automatic vehicle identification and monitoring"
 description: "Installing NPR cameras for automatic vehicle identification and monitoring"
-category: "network-engineer"
-subcategory: "npr-cameras"
+category: "tradespeople"
+subcategory: "network-engineer"
+task: "npr-cameras"
 image: "/images/tradespeople/network-engineer/npr-cameras.webp"
 ogImage: "/images/tradespeople/network-engineer/npr-cameras.webp"
 colour: "blue"
@@ -156,7 +157,7 @@ Book NPR camera installation{{$doc.location}} for smarter access
 Need to monitor vehicles or automate entry to your property? BaseLink connects you with experienced network engineers{{$doc.location}} who install NPR (number plate recognition) camera systems designed to capture, record, and respond to vehicle movement in real time.
 
 #description
-Our engineers install high-resolution NPR cameras with the right angle and positioning to clearly capture number plates — day or night, rain or shine. Whether you’re securing a gated home, car park, or business premises, we’ll tailor the setup to your needs.
+Our engineers install high-resolution NPR cameras with the right angle and positioning to clearly capture number plates — day or night, rain or shine. Whether you're securing a gated home, car park, or business premises, we'll tailor the setup to your needs.
 
 #description
 Each camera is connected to a recording and database system that logs vehicle entries and can trigger alerts or reports. You can also integrate the system with automated gates or barriers for seamless, hands-free access.

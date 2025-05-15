@@ -2,8 +2,9 @@
 title: "Pipe repair and replacement service"
 alt: "Fixing or replacing damaged pipes to prevent leaks and water damage"
 description: "Fixing or replacing damaged pipes to prevent leaks and water damage"
-category: "plumber"
-subcategory: "pipe-repair-replacement"
+category: "tradespeople"
+subcategory: "plumber"
+task: "pipe-repair-replacement"
 image: "/images/tradespeople/plumber/pipe-repair-replacement.webp"
 ogImage: "/images/tradespeople/plumber/pipe-repair-replacement.webp"
 colour: "blue"
@@ -84,7 +85,7 @@ profession: "plumbers"
 What you get with pipe repair and replacement
 
 #description
-From small leaks to major pipe bursts, our skilled plumbers{{ $doc.location }} repair and replace faulty pipework quickly and safely. Whether it’s copper, plastic, or old lead piping, we’ll restore your water flow. Your job will be managed by our dedicated support team for a reliable service every time.
+From small leaks to major pipe bursts, our skilled plumbers{{ $doc.location }} repair and replace faulty pipework quickly and safely. Whether it's copper, plastic, or old lead piping, we'll restore your water flow. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
@@ -158,25 +159,25 @@ button: "Hire a plumber"
 Book pipe repair and replacement{{$doc.location}} for fast fixes
 
 #description
-Leaky joint? Burst pipe? Time to upgrade ageing plumbing? BaseLink connects you with trusted, local plumbers{{$doc.location}} who quickly diagnose and fix pipework issues — whether it’s a minor drip or a major emergency.
+Leaky joint? Burst pipe? Time to upgrade ageing plumbing? BaseLink connects you with trusted, local plumbers{{$doc.location}} who quickly diagnose and fix pipework issues — whether it's a minor drip or a major emergency.
 
 #description
 We repair all pipe types, including copper, plastic (PVC/PEX), and older lead or steel systems. Your plumber will identify the damaged area, repair any faulty joints or valves, or fully replace the pipework if needed.
 
 #description
-Repairs are carried out with care to minimise disruption, whether inside walls, under sinks or below floors. If an upgrade is required, we’ll swap out outdated or corroded piping for new, durable materials that meet today’s safety and efficiency standards.
+Repairs are carried out with care to minimise disruption, whether inside walls, under sinks or below floors. If an upgrade is required, we'll swap out outdated or corroded piping for new, durable materials that meet today's safety and efficiency standards.
 
 #description
 Every job includes pressure testing and inspection once complete, ensuring there are no hidden leaks or weak spots left behind.
 
 #description
-If you’re dealing with an active leak, we can provide emergency response to shut off the water and prevent further damage — then carry out the repair once the situation is stabilised.
+If you're dealing with an active leak, we can provide emergency response to shut off the water and prevent further damage — then carry out the repair once the situation is stabilised.
 
 #description
 Booking is easy with BaseLink. Just submit your job online, get an instant quote, and choose a time that works for you. Our support team keeps everything running smoothly in the background.
 
 #description
-All plumbers are vetted, reviewed by other customers nearby, and backed by BaseLink’s dedicated team. Whether you need a small patch-up or a full pipework replacement, we’ve got it covered.
+All plumbers are vetted, reviewed by other customers nearby, and backed by BaseLink's dedicated team. Whether you need a small patch-up or a full pipework replacement, we've got it covered.
 
 #description
 Payment is collected on the day of service, with extra time billed fairly in 30-minute increments. Book pipe repair and replacement{{$doc.location}} with BaseLink — and say goodbye to drips, bursts and plumbing headaches.

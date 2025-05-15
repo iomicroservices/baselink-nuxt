@@ -2,8 +2,9 @@
 title: "Jacuzzi installation service"
 alt: "Installing and setting up jacuzzis for a relaxing, hassle-free experience"
 description: "Installing and setting up jacuzzis for a relaxing, hassle-free experience"
-category: "plumber"
-subcategory: "jacuzzi-installation"
+category: "tradespeople"
+subcategory: "plumber"
+task: "jacuzzi-installation"
 image: "/images/tradespeople/plumber/jacuzzi-installation.webp"
 ogImage: "/images/tradespeople/plumber/jacuzzi-installation.webp"
 colour: "blue"
@@ -170,13 +171,13 @@ Once the jacuzzi unit is in place, we connect it to your mains water supply and 
 We also manage the electrical hookup for pumps, jets and heating elements — either working with your electrician or bringing in one of our qualified partners to complete the wiring safely and compliantly.
 
 #description
-After everything is installed, we’ll fill the tub, test the features, and check for leaks or imbalances — making sure your jacuzzi is ready to use from day one. You’ll also receive clear guidance on usage, cleaning and maintenance.
+After everything is installed, we'll fill the tub, test the features, and check for leaks or imbalances — making sure your jacuzzi is ready to use from day one. You'll also receive clear guidance on usage, cleaning and maintenance.
 
 #description
 Booking with BaseLink is fully online. Just submit your request, get an instant quote, and choose a time that works for you. Our dedicated support team manages your booking to ensure everything runs smoothly.
 
 #description
-All plumbers are vetted, reviewed by local customers, and backed by our team for full accountability. Whether it’s a home spa or a commercial install, you’ll get safe, reliable results with every feature working as it should.
+All plumbers are vetted, reviewed by local customers, and backed by our team for full accountability. Whether it's a home spa or a commercial install, you'll get safe, reliable results with every feature working as it should.
 
 #description
 Payment is collected on the day of installation, with any additional time billed in fair 30-minute increments. Book jacuzzi installation{{$doc.location}} today with BaseLink — and let the bubbles do the hard work.

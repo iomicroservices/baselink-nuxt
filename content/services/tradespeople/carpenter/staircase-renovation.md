@@ -2,8 +2,9 @@
 title: "Staircase renovation and repair service"
 alt: "Renovating staircases to restore safety, functionality, and appearance"
 description: "Renovating staircases to restore safety, functionality, and appearance"
-category: "carpenter"
-subcategory: "staircase-renovation"
+category: "tradespeople"
+subcategory: "carpenter"
+task: "staircase-renovation"
 image: "/images/tradespeople/carpenter/staircase-renovation.webp"
 ogImage: "/images/tradespeople/carpenter/staircase-renovation.webp"
 colour: "blue"
@@ -195,7 +196,7 @@ Services include full staircase installations and removal of existing structures
 Treads, risers, handrails, and balustrades can all be replaced or repaired to refresh the look and feel. Newel posts can be installed or restored to match your chosen style.
 
 #description
-If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they'll purchase the materials and add them to your final bill. Alternatively, you're welcome to provide your own materials if you prefer.
 
 #description
 Carpenters can eliminate squeaks, add cladding, or remove and replace stair carpets. Sanding, staining, or painting is also available to finish off the renovation.

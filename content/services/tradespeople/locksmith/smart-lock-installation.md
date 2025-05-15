@@ -2,8 +2,9 @@
 title: "Smart lock installation service"
 alt: "Installing smart locks for keycard or keyless entry and enhanced security control"
 description: "Installing smart locks for keycard or keyless entry and enhanced security control"
-category: "locksmith"
-subcategory: "smart-lock-installation"
+category: "tradespeople"
+subcategory: "locksmith"
+task: "smart-lock-installation"
 image: "/images/tradespeople/locksmith/smart-lock-installation.webp"
 ogImage: "/images/tradespeople/locksmith/smart-lock-installation.webp"
 colour: "blue"
@@ -161,7 +162,7 @@ Ready to ditch the keys and upgrade to smarter security? BaseLink connects you w
 We install a wide range of smart locks, including Bluetooth, Wi-Fi, and app-connected models. Your technician will assess your existing door and hardware, remove any current locks if needed, and fit your new system safely and neatly.
 
 #description
-Once installed, they’ll configure the lock through its mobile app or hub, walk you through the features, and show you how to manage settings like remote unlocking, user access codes, or timed entry.
+Once installed, they'll configure the lock through its mobile app or hub, walk you through the features, and show you how to manage settings like remote unlocking, user access codes, or timed entry.
 
 #description
 If you use smart home systems (like Alexa, Google Home or Apple HomeKit), we can also help connect your lock for seamless integration with your wider setup.

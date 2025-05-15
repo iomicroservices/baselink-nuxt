@@ -44,7 +44,7 @@ Quick and easy booking for carpet cleaning
     Tell us what you need cleaned
 
     #description
-    Fill out a simple form with the details of what you need included with your carpet cleaning, and we’ll tailor the service to your specific requirements.
+    Fill out a simple form with the details of what you need included with your carpet cleaning, and we'll tailor the service to your specific requirements.
     ::
     
     ::process-item
@@ -55,7 +55,7 @@ Quick and easy booking for carpet cleaning
     Schedule your booking and pay
 
     #description
-    Choose a day and time that suits you, pay for the first 2 hours and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Choose a day and time that suits you, pay for the first 2 hours and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -166,7 +166,7 @@ button: "Hire a cleaner"
 Book carpet cleaning{{$doc.location}} for a fresher floor
 
 #description
-Carpets can trap dirt, allergens, and odours over time — and regular vacuuming often isn’t enough. With BaseLink, you can book trusted local specialists{{$doc.location}} for deep carpet cleaning that lifts stains, freshens fibres and leaves your home looking and feeling cleaner.
+Carpets can trap dirt, allergens, and odours over time — and regular vacuuming often isn't enough. With BaseLink, you can book trusted local specialists{{$doc.location}} for deep carpet cleaning that lifts stains, freshens fibres and leaves your home looking and feeling cleaner.
 
 #description
 Every appointment starts with a full inspection of your carpets to check their condition, fabric type and any specific stains. The cleaner will vacuum to remove loose dirt and debris, then apply targeted pre-treatments to tackle marks and problem areas.
@@ -181,10 +181,10 @@ To finish, a deodorising treatment is applied to remove lingering smells and lea
 You can customise your clean with specific instructions or additional rooms, and bundle carpet cleaning with other home services through BaseLink. Everything is handled online — just submit your request, get an instant quote, and choose a time that suits you.
 
 #description
-All providers on our platform are experienced, vetted, and reviewed by customers in your area. You’ll also be supported by our dedicated team throughout the process, so you’re never left chasing updates or confirmations.
+All providers on our platform are experienced, vetted, and reviewed by customers in your area. You'll also be supported by our dedicated team throughout the process, so you're never left chasing updates or confirmations.
 
 #description
-Payment is collected on the day of your clean, with any additional time billed fairly in 30-minute increments. It’s a transparent, hassle-free way to restore your carpets without lifting a finger.
+Payment is collected on the day of your clean, with any additional time billed fairly in 30-minute increments. It's a transparent, hassle-free way to restore your carpets without lifting a finger.
 
 #description
 Book carpet cleaning{{$doc.location}} with BaseLink today and bring new life to your floors — clean, fresh, and expertly taken care of.

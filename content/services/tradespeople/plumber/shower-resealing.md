@@ -2,8 +2,9 @@
 title: "Shower resealing service"
 alt: "Resealing shower areas to prevent leaks and maintain waterproofing"
 description: "Resealing shower areas to prevent leaks and maintain waterproofing"
-category: "plumber"
-subcategory: "shower-resealing"
+category: "tradespeople"
+subcategory: "plumber"
+task: "shower-resealing"
 image: "/images/tradespeople/plumber/shower-resealing.webp"
 ogImage: "/images/tradespeople/plumber/shower-resealing.webp"
 colour: "blue"
@@ -160,19 +161,19 @@ Leaky seals or mouldy edges around your shower? BaseLink connects you with skill
 We carefully strip back worn, cracked or mouldy silicone from around your shower tray, enclosure, or tiles. Every surface is then cleaned and prepped to ensure the new sealant adheres properly and lasts longer.
 
 #description
-Your plumber will apply a high-grade waterproof silicone, smoothing it neatly for a professional finish that’s both durable and discreet.
+Your plumber will apply a high-grade waterproof silicone, smoothing it neatly for a professional finish that's both durable and discreet.
 
 #description
-Once the job’s done, we run a final leak check to ensure everything’s sealed tight — no gaps, no mess, no more unwanted moisture.
+Once the job's done, we run a final leak check to ensure everything's sealed tight — no gaps, no mess, no more unwanted moisture.
 
 #description
 This service is ideal after a deep clean, renovation, or if your old seals are starting to come loose or show signs of mould and mildew.
 
 #description
-Booking with BaseLink is easy and fully online. Just submit your job, get an instant quote, and choose a time that suits you. We’ll manage the rest, with dedicated support from start to finish.
+Booking with BaseLink is easy and fully online. Just submit your job, get an instant quote, and choose a time that suits you. We'll manage the rest, with dedicated support from start to finish.
 
 #description
-All BaseLink plumbers are vetted, reviewed by local customers, and backed by our in-house team. You’ll get clean, reliable work — no shortcuts, no surprises.
+All BaseLink plumbers are vetted, reviewed by local customers, and backed by our in-house team. You'll get clean, reliable work — no shortcuts, no surprises.
 
 #description
 Payment is collected on the day of service, with any additional time billed fairly in 30-minute increments. Book shower resealing{{$doc.location}} with BaseLink — and give your bathroom the refresh it needs, one line at a time.

@@ -44,7 +44,7 @@ Quick and easy booking for end of tenancy cleaning
     Tell us what you need cleaned
 
     #description
-    Fill out a simple form with the details of what you need included with your end of tenenacy clean, and we’ll tailor the service to your specific requirements.
+    Fill out a simple form with the details of what you need included with your end of tenenacy clean, and we'll tailor the service to your specific requirements.
     ::
     
     ::process-item
@@ -55,7 +55,7 @@ Quick and easy booking for end of tenancy cleaning
     Schedule your booking and pay
 
     #description
-    Choose a day and time that suits you, pay for the first 2 hours and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Choose a day and time that suits you, pay for the first 2 hours and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -190,7 +190,7 @@ button: "Hire a cleaner"
 Book end of tenancy cleaning{{$doc.location}} and protect your deposit
 
 #description
-Moving out? BaseLink connects you with trusted local cleaners{{$doc.location}} who specialise in end of tenancy cleaning — designed to meet the expectations of landlords, letting agents, and inventory clerks. Whether you’re a tenant, landlord or property manager, we make sure the property is left clean, fresh and ready for its next chapter.
+Moving out? BaseLink connects you with trusted local cleaners{{$doc.location}} who specialise in end of tenancy cleaning — designed to meet the expectations of landlords, letting agents, and inventory clerks. Whether you're a tenant, landlord or property manager, we make sure the property is left clean, fresh and ready for its next chapter.
 
 #description
 This deep, detailed clean covers every room in the home. Surfaces are dusted and wiped, floors are vacuumed and mopped, and all bathrooms and kitchens are scrubbed, sanitised and descaled. Taps, sinks, toilets and tiles are restored to a spotless finish.
@@ -202,13 +202,13 @@ All appliances, mirrors, and cabinets are cleaned inside and out, including insi
 High-touch surfaces are sanitised, and bins are emptied with rubbish and recycling cleared as part of the service. You can also add custom instructions — such as including a garage, utility room or focusing on a particular area — directly when booking.
 
 #description
-Booking is quick and easy through the BaseLink platform. Just fill out your request, get an instant quote, and choose a time that works for your move. There’s no chasing around — we handle everything digitally, so you stay in control.
+Booking is quick and easy through the BaseLink platform. Just fill out your request, get an instant quote, and choose a time that works for your move. There's no chasing around — we handle everything digitally, so you stay in control.
 
 #description
-All cleaners on our platform are vetted, experienced, and rated by other local customers. Whether it’s your home or a managed rental property, your job is supported by our dedicated team to ensure everything runs smoothly.
+All cleaners on our platform are vetted, experienced, and rated by other local customers. Whether it's your home or a managed rental property, your job is supported by our dedicated team to ensure everything runs smoothly.
 
 #description
-Payment is taken on the day of the clean, with extra time billed in fair 30-minute increments. It’s a clear and transparent service that takes the stress out of moving.
+Payment is taken on the day of the clean, with extra time billed in fair 30-minute increments. It's a clear and transparent service that takes the stress out of moving.
 
 #description
 Book end of tenancy cleaning{{$doc.location}} today with BaseLink — and leave your property looking its best for whatever comes next.

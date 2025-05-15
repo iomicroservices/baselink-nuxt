@@ -282,9 +282,9 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         <UFormGroup v-if="!isMinimalCleaningType" size="xl" name="roomInput"
             description="Include all spaces such as the kitchen, bathrooms, toilets, living rooms and bedrooms">
             <template #label>
-                <p class="mb-1">My property contains 
+                <p class="mb-1">My property contains
                     <span class="text-primary font-bold">
-                        {{ formState.roomInput }} 
+                        {{ formState.roomInput }}
                         {{ formatPlural(formState.roomInput, 'room') }}
                     </span>
                 </p>
@@ -296,9 +296,9 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         <UFormGroup v-if="!isMinimalCleaningType" size="xl" name="balconyInput"
             description="Only include if cleaning is required">
             <template #label>
-                <p class="mb-1">I need cleaning for 
+                <p class="mb-1">I need cleaning for
                     <span class="text-primary font-bold">
-                        {{ formState.balconyInput }} 
+                        {{ formState.balconyInput }}
                         {{ formatPlural(formState.balconyInput, 'balcony', 'balconies') }}
                     </span>
                 </p>
@@ -314,9 +314,9 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <UFormGroup size="xl" name="carpetInput" description="Add one carpet for every room, hallway or staircase">
             <template #label>
-                <p class="mb-1">I need 
-                    <span class="text-primary font-bold">steam cleaning for 
-                        {{ formState.carpetInput }} 
+                <p class="mb-1">I need
+                    <span class="text-primary font-bold">steam cleaning for
+                        {{ formState.carpetInput }}
                         {{ formatPlural(formState.carpetInput, 'carpet', 'carpets') }}
                     </span>
                 </p>
@@ -353,8 +353,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
             <UInput v-model="formState.startDate" type="date" />
         </UFormGroup>
 
-        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?"
-            required>
+        <UFormGroup size="xl" name="timeOptions" label="Morning, afternoon or evening — what suits you best?" required>
             <USelect v-model="formState.timeOptions" :options="options.timeOptions" placeholder="" />
         </UFormGroup>
 
@@ -412,8 +411,8 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
         <!-- <div class="flex flex-col md:flex-row w-full py-3"> -->
 
         <UButton block type="submit" icon="i-heroicons-paper-airplane"
-            class="md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold" :disabled="!isFormValid || isSubmitting"
-            :loading="isSubmitting">
+            class="h-10 text-lg text-white dark:text-white disabled:dark:text-gray-100 md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold"
+            :disabled="!isFormValid || isSubmitting" :loading="isSubmitting">
             <template v-if="isSubmitting">
                 <span>Sending...</span>
             </template>

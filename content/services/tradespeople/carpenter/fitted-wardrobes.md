@@ -2,8 +2,9 @@
 title: "Fitted wardrobes service"
 alt: "Custom-designed wardrobes to maximise space and storage in any room"
 description: "Custom-designed wardrobes to maximise space and storage in any room"
-category: "carpenter"
-subcategory: "fitted-wardrobes"
+category: "tradespeople"
+subcategory: "carpenter"
+task: "fitted-wardrobes"
 image: "/images/tradespeople/carpenter/fitted-wardrobes.webp"
 ogImage: "/images/tradespeople/carpenter/fitted-wardrobes.webp"
 colour: "blue"
@@ -190,7 +191,7 @@ Whether you're after a corner wardrobe or a built-in unit for an alcove, we help
 Walk-in wardrobes and open systems are available too, offering a more spacious and accessible layout. If your space is tricky, such as a loft or sloped ceiling, our partners can create a solution that fits.
 
 #description
-If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they'll purchase the materials and add them to your final bill. Alternatively, you're welcome to provide your own materials if you prefer.
 
 #description
 With BaseLink, you can customise your project, get an instant quote, and book a time that works for you. We'll match you with a trusted carpenter who can bring your vision to life.

@@ -2,8 +2,9 @@
 title: "Interior painting service"
 alt: "Refreshing interior walls and ceilings with quality paint for a clean, vibrant finish"
 description: "Refreshing interior walls and ceilings with quality paint for a clean, vibrant finish"
-category: "painter-decorator"
-subcategory: "interior-painting"
+category: "tradespeople"
+subcategory: "painter-decorator"
+task: "interior-painting"
 image: "/images/tradespeople/painter-decorator/interior-painting.webp"
 ogImage: "/images/tradespeople/painter-decorator/interior-painting.webp"
 colour: "blue"
@@ -19,7 +20,7 @@ Local painters
 Interior painting service{{ $doc.location }}
 
 #description
-Refresh your home’s interior. We provide clean, precise finishes that enhance your space for a long-lasting result. Fully vetted & insured painters{{ $doc.location }}. Flexible online bookings.
+Refresh your home's interior. We provide clean, precise finishes that enhance your space for a long-lasting result. Fully vetted & insured painters{{ $doc.location }}. Flexible online bookings.
 
 #image
     ::pictures
@@ -180,13 +181,13 @@ Whether you're updating a single room or repainting the whole house, BaseLink ma
 We work on residential and commercial properties of all sizes, including houses, flats, offices, shops and annexes. Your painter will protect your furniture and floors, prepare all surfaces properly, and apply high-quality paint with care.
 
 #description
-From filling cracks and sanding to priming and topcoating, we handle every step. Whether it’s a bold feature wall or a full ceiling-to-skirting refresh, we ensure even coverage and durable results.
+From filling cracks and sanding to priming and topcoating, we handle every step. Whether it's a bold feature wall or a full ceiling-to-skirting refresh, we ensure even coverage and durable results.
 
 #description
-You can provide your own paint or let us recommend the best brand and finish for your needs. We’ll also help with colour matching or finish selection if you're undecided.
+You can provide your own paint or let us recommend the best brand and finish for your needs. We'll also help with colour matching or finish selection if you're undecided.
 
 #description
-We use the right tools for each job — whether it’s brushes, rollers or spray applications — to get clean edges and consistent textures across every surface.
+We use the right tools for each job — whether it's brushes, rollers or spray applications — to get clean edges and consistent textures across every surface.
 
 #description
 Once complete, we tidy up the area, remove any waste, and leave your home or workspace spotless and ready to enjoy.

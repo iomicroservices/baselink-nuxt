@@ -4,7 +4,7 @@ alt: "Cleaning for reception areas, stairwells, lifts, walkways, and communal sp
 description: "Cleaning for reception areas, stairwells, lifts, walkways, and communal spaces"
 category: "commercial-cleaning"
 subcategory: "residential-block-cleaning"
-task: "residential-block-cleaning"
+task: null
 image: "/images/commercial-cleaning/residential-block-cleaning.webp"
 ogImage: "/images/commercial-cleaning/residential-block-cleaning.webp"
 colour: "yellow"
@@ -166,7 +166,7 @@ button: "Hire a cleaner"
 Residential block cleaning{{$doc.location}} made easy for property managers
 
 #description
-Keeping shared spaces clean and well-maintained is key to resident satisfaction. BaseLink connects property managers with experienced local cleaners who specialise in residential block cleaning{{$doc.location}}. Whether it’s weekly or daily upkeep, we help ensure communal areas are tidy, hygienic, and presentable.
+Keeping shared spaces clean and well-maintained is key to resident satisfaction. BaseLink connects property managers with experienced local cleaners who specialise in residential block cleaning{{$doc.location}}. Whether it's weekly or daily upkeep, we help ensure communal areas are tidy, hygienic, and presentable.
 
 #description
 The service covers all the essential tasks needed to keep your block in top condition. This includes dusting and surface cleaning, vacuuming and mopping floors, and sanitising high-touch areas like lift buttons and handrails. Stairs, lifts and corridors are cleaned thoroughly to maintain a welcoming environment for residents and visitors.
@@ -175,10 +175,10 @@ The service covers all the essential tasks needed to keep your block in top cond
 Common areas are tidied, and external entrances are swept to maintain kerb appeal. Cleaners also take care of rubbish removal and recycling so waste areas stay clean and compliant. If needed, custom tasks can be added to suit your specific site requirements.
 
 #description
-Through BaseLink’s platform, you can set up a regular cleaning schedule and customise your service to meet the needs of your building. Whether you manage one block or multiple sites, our digital system makes it easy to stay on top of it all — with instant quotes and flexible booking options.
+Through BaseLink's platform, you can set up a regular cleaning schedule and customise your service to meet the needs of your building. Whether you manage one block or multiple sites, our digital system makes it easy to stay on top of it all — with instant quotes and flexible booking options.
 
 #description
-We know time is limited for busy property managers, so we’ve removed the back-and-forth. You get a reliable, transparent service with clear pricing, and your account is supported by our in-house team — not a call centre.
+We know time is limited for busy property managers, so we've removed the back-and-forth. You get a reliable, transparent service with clear pricing, and your account is supported by our in-house team — not a call centre.
 
 #description
 Payment is collected on the day of the clean, and any additional time is billed in fair 30-minute increments. You can easily make adjustments, add special instructions, or manage multiple bookings — all in one place.

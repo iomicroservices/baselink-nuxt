@@ -55,7 +55,7 @@ How to book a mobile engine bay clean
     Schedule your booking and pay
 
     #description
-    Choose a day and time that suits you, complete secure payment and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Choose a day and time that suits you, complete secure payment and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -168,7 +168,7 @@ The service starts with the careful removal of loose debris and built-up dust fr
 Your provider will hand-clean key areas, wiping down hoses, plastic trims, and metal parts to restore a tidy, professional appearance. Trims and covers are detailed to complete the clean, bringing back a neat, like-new finish.
 
 #description
-The bay is then dried and finished to ensure there’s no moisture left behind. You can also add special requests if your engine bay has sensitive or modified components that need extra attention.
+The bay is then dried and finished to ensure there's no moisture left behind. You can also add special requests if your engine bay has sensitive or modified components that need extra attention.
 
 #description
 Booking is fast and convenient through the BaseLink platform. Just fill out a quick form, get an instant quote, and choose a time that suits you. Everything is managed online, saving you time and giving you full control.
@@ -177,7 +177,7 @@ Booking is fast and convenient through the BaseLink platform. Just fill out a qu
 Unlike traditional garages, BaseLink offers the benefit of vetted professionals who come to you — with no need to book multiple appointments or visit a workshop. Your job is also supported by our dedicated team to make sure things run smoothly.
 
 #description
-Payment is taken on the day of service, and extra time (if needed) is charged fairly in 30-minute increments. It’s a transparent and flexible way to keep your vehicle in top shape.
+Payment is taken on the day of service, and extra time (if needed) is charged fairly in 30-minute increments. It's a transparent and flexible way to keep your vehicle in top shape.
 
 #description
 Book engine bay cleaning{{$doc.location}} with BaseLink and give your vehicle the attention it deserves — inside, outside and under the bonnet.
@@ -206,5 +206,5 @@ category: home-cleaning
 BaseLink cleaning services for your home{{ $doc.location }} too
 
 #description
-We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
+We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

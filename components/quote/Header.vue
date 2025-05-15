@@ -32,7 +32,7 @@ function onClick(val: string) {
                         <ClientOnly>
                             <NuxtLink :to="logoLink">
                                 <img class="h-8 w-auto"
-                                    :src="colorMode.value === 'dark' ? '/baselink-logo-dark.png' : '/baselink-logo.png'"
+                                    :src="colorMode.value === 'dark' ? '/baselink-logo-white.png' : '/baselink-logo.png'"
                                     alt=" BaseLink">
                             </NuxtLink>
                         </ClientOnly>

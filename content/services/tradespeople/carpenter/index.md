@@ -4,7 +4,7 @@ alt: "From fitting shelves and kitchens, to full renovations and custom woodwork
 description: "From fitting shelves and kitchens, to full renovations and custom woodwork"
 category: "tradespeople"
 subcategory: "carpenter"
-task: "carpenter"
+task: null
 image: "/images/tradespeople/carpenter/carpenter.webp"
 ogImage: "/images/tradespeople/carpenter/carpenter.webp"
 colour: "blue"
@@ -170,7 +170,7 @@ We always work with trusted, local service providers who are experienced and rel
 With BaseLink, you stay in control. A minimum of one hour is paid upfront, and any extra time is billed in 30-minute increments — no hidden fees, just fair and transparent pricing.
 
 #description
-We make it easy to connect with carpentry professionals who understand your needs. Whether it’s one small task or a full project, we help you find the right expert for the job.
+We make it easy to connect with carpentry professionals who understand your needs. Whether it's one small task or a full project, we help you find the right expert for the job.
 
 ::
 
@@ -179,6 +179,14 @@ We make it easy to connect with carpentry professionals who understand your need
 ::category
 #title
 Find housekeepers and tradespeople {{$doc.location}}
+::
+
+---
+
+::subcategory
+---
+subcategory: null
+---
 ::
 
 ---

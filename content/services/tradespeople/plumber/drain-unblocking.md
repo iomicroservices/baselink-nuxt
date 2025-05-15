@@ -2,8 +2,9 @@
 title: "Drain unblocking service"
 alt: "Clearing blocked drains and pipes to restore proper water flow"
 description: "Clearing blocked drains and pipes to restore proper water flow"
-category: "plumber"
-subcategory: "drain-unblocking"
+category: "tradespeople"
+subcategory: "plumber"
+task: "drain-unblocking"
 image: "/images/tradespeople/plumber/drain-unblocking.webp"
 ogImage: "/images/tradespeople/plumber/drain-unblocking.webp"
 colour: "blue"
@@ -84,7 +85,7 @@ profession: "plumbers"
 What you get with drain unblocking service
 
 #description
-Blocked drain? We’ll clear it quickly and cleanly. Whether it’s a slow sink, overflowing drain, or full blockage, our skilled plumbers{{ $doc.location }} use the right tools to get water flowing again. Your job will be managed by our dedicated support team for a reliable service every time.
+Blocked drain? We'll clear it quickly and cleanly. Whether it's a slow sink, overflowing drain, or full blockage, our skilled plumbers{{ $doc.location }} use the right tools to get water flowing again. Your job will be managed by our dedicated support team for a reliable service every time.
 
 #items
 
@@ -161,10 +162,10 @@ Book drain unblocking{{$doc.location}} for solutions that keep water moving
 Dealing with a slow-draining sink or a full-on overflow? BaseLink connects you with skilled local plumbers{{$doc.location}} who handle drain blockages quickly, cleanly, and with the right tools to get your plumbing back on track.
 
 #description
-Whether it’s your kitchen, bathroom or an outdoor drain, we’ll locate the blockage and clear it using plungers, rods or high-pressure water jets. Your plumber will diagnose the cause — whether it’s food waste, grease, hair, or something more stubborn — and get things flowing again in no time.
+Whether it's your kitchen, bathroom or an outdoor drain, we'll locate the blockage and clear it using plungers, rods or high-pressure water jets. Your plumber will diagnose the cause — whether it's food waste, grease, hair, or something more stubborn — and get things flowing again in no time.
 
 #description
-After clearing the blockage, we test drainage throughout the system to ensure everything is working properly. If there’s an underlying issue, we’ll let you know and offer next steps if repairs or deeper cleaning are needed.
+After clearing the blockage, we test drainage throughout the system to ensure everything is working properly. If there's an underlying issue, we'll let you know and offer next steps if repairs or deeper cleaning are needed.
 
 #description
 We also provide helpful advice on preventing future blockages, so you can keep water running smoothly without repeat visits.

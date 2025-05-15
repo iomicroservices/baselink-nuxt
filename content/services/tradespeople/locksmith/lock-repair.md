@@ -2,8 +2,9 @@
 title: "Lock repair service"
 alt: "Repairing damaged or faulty locks to restore full security and function"
 description: "Repairing damaged or faulty locks to restore full security and function"
-category: "locksmith"
-subcategory: "lock-repair"
+category: "tradespeople"
+subcategory: "locksmith"
+task: "lock-repair"
 image: "/images/tradespeople/locksmith/lock-repair.webp"
 ogImage: "/images/tradespeople/locksmith/lock-repair.webp"
 colour: "blue"
@@ -84,7 +85,7 @@ profession: "locksmiths"
 What you get with lock repair
 
 #description
-A stiff, jammed or faulty lock doesn’t always need replacing. Our locksmiths{{ $doc.location }} diagnose the problem and carry out reliable repairs to restore function — whether it’s a loose latch, broken key mechanism, or worn internal part.
+A stiff, jammed or faulty lock doesn't always need replacing. Our locksmiths{{ $doc.location }} diagnose the problem and carry out reliable repairs to restore function — whether it's a loose latch, broken key mechanism, or worn internal part.
 
 #items
 
@@ -157,13 +158,13 @@ Book lock repair{{$doc.location}} for fixes that click
 Not every faulty lock needs replacing. If yours is stiff, sticking or simply not working as it should, BaseLink can connect you with a trusted local locksmith{{$doc.location}} who can repair it — saving you time, money, and a bigger job than necessary.
 
 #description
-Your locksmith will diagnose the issue, whether it’s a jammed bolt, misaligned latch or worn-out mechanism. Many locks can be repaired on the spot with the right tools and a few well-placed adjustments.
+Your locksmith will diagnose the issue, whether it's a jammed bolt, misaligned latch or worn-out mechanism. Many locks can be repaired on the spot with the right tools and a few well-placed adjustments.
 
 #description
 We repair all common lock types including cylinders, mortice, rim, and internal door locks. Your locksmith can replace broken springs or faulty components, realign the lock, and lubricate it for smooth, reliable operation.
 
 #description
-Once repaired, the lock is thoroughly tested with your keys to make sure it’s working as it should — secure, functional, and easy to use. If the lock is too damaged to repair, we’ll recommend the best replacement on the spot.
+Once repaired, the lock is thoroughly tested with your keys to make sure it's working as it should — secure, functional, and easy to use. If the lock is too damaged to repair, we'll recommend the best replacement on the spot.
 
 #description
 Booking through BaseLink is fully online. Submit your job in minutes, get an instant quote, and choose a time that suits your schedule — no phone calls or follow-ups needed.

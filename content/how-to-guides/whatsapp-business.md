@@ -30,10 +30,10 @@ Transform your eLandline number into a powerful tool on WhatsApp Business with t
 2. **Download & Launch**: Grab the WhatsApp Business app and kick off the setup.
 3. **Verify Seamlessly**: When it's time to verify, opt for a phone call verification. A quick call will deliver the 6-digit code directly to your business number.
 4. **Customise Your Profile**: Add your business's unique touch by setting up your name, logo, and any engaging features offered by WhatsApp Business.
-5. **Jump Right In**: That’s it! Start conversing with your clients on a platform they trust, with the professionalism your business upholds.
+5. **Jump Right In**: That's it! Start conversing with your clients on a platform they trust, with the professionalism your business upholds.
 
 For existing eLandline customers eager to integrate, hop over to step 3 and follow along. Should you have a Virtual Switchboard, a brief pause on that feature will ensure a smooth setup.
 
-Elevate your customer service, organise your client interactions, and watch your business grow with WhatsApp Business. It’s more than messaging; it’s building relationships on a platform everyone loves, powered by your trusted eLandline number.
+Elevate your customer service, organise your client interactions, and watch your business grow with WhatsApp Business. It's more than messaging; it's building relationships on a platform everyone loves, powered by your trusted eLandline number.
 
-**Please Note**: While WhatsApp Business opens new doors for your business communication, it’s a third-party app. Direct support for app-specific issues isn’t in our court, but we’re here to make sure your eLandline experience is seamless.
+**Please Note**: While WhatsApp Business opens new doors for your business communication, it's a third-party app. Direct support for app-specific issues isn't in our court, but we're here to make sure your eLandline experience is seamless.

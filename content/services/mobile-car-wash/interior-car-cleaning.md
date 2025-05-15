@@ -55,7 +55,7 @@ How to book a mobile interior car clean
     Schedule your booking and pay
 
     #description
-    Select the most convenient day and time, complete secure payment and you're good to go. It’s all done online, so booking is quick and hassle-free.
+    Select the most convenient day and time, complete secure payment and you're good to go. It's all done online, so booking is quick and hassle-free.
     ::
 
     ::process-item
@@ -167,7 +167,7 @@ button: "Hire a cleaner"
 Book interior car cleaning{{$doc.location}} for a like-new feel inside your car
 
 #description
-Your car's interior deserves more than a quick vacuum. With BaseLink, you can book professional interior car cleaning{{$doc.location}} carried out by experienced local valeting specialists — at home, at work, or wherever your car is parked. It’s the easiest way to restore that clean, fresh feeling without any hassle.
+Your car's interior deserves more than a quick vacuum. With BaseLink, you can book professional interior car cleaning{{$doc.location}} carried out by experienced local valeting specialists — at home, at work, or wherever your car is parked. It's the easiest way to restore that clean, fresh feeling without any hassle.
 
 #description
 The service covers all key areas inside your vehicle. Interior windows are cleaned for a streak-free finish, and door shuts and sills are wiped down to remove built-up dust and dirt. Seats, boot space, and floor mats are thoroughly vacuumed to lift crumbs, debris and pet hair.
@@ -176,19 +176,19 @@ The service covers all key areas inside your vehicle. Interior windows are clean
 Dashboards, consoles and interior plastics are cleaned and dusted, including smaller areas like cup holders, compartments and air vents. These often-overlooked details make a big difference to how your cabin looks and feels.
 
 #description
-To finish, your technician applies a light deodorising treatment to refresh the space and remove any lingering odours. Every clean ends with a full inspection to make sure your vehicle’s interior looks and smells its best.
+To finish, your technician applies a light deodorising treatment to refresh the space and remove any lingering odours. Every clean ends with a full inspection to make sure your vehicle's interior looks and smells its best.
 
 #description
-Booking is easy through the BaseLink platform. Submit your request in minutes, get an instant quote, and choose a time that works for you. There’s no waiting around, no back-and-forth, and no need to drive to a garage.
+Booking is easy through the BaseLink platform. Submit your request in minutes, get an instant quote, and choose a time that works for you. There's no waiting around, no back-and-forth, and no need to drive to a garage.
 
 #description
 Unlike traditional services, BaseLink puts you in control. You get transparent pricing, reliable professionals, and dedicated support — all through one smart digital platform. You can also customise your clean with special instructions or add extra services as needed.
 
 #description
-Payment is collected on the day of your clean, with extra time billed fairly in 30-minute increments. Whether it’s a one-off refresh or part of a regular car care routine, it’s simple, flexible and designed around your schedule.
+Payment is collected on the day of your clean, with extra time billed fairly in 30-minute increments. Whether it's a one-off refresh or part of a regular car care routine, it's simple, flexible and designed around your schedule.
 
 #description
-Book interior car cleaning{{$doc.location}} today with BaseLink — and give your vehicle’s cabin the attention it deserves.
+Book interior car cleaning{{$doc.location}} today with BaseLink — and give your vehicle's cabin the attention it deserves.
 ::
 
 ---
@@ -214,5 +214,5 @@ category: home-cleaning
 BaseLink cleaning services for your home{{ $doc.location }} too
 
 #description
-We don’t just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we’ve got you covered.
+We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

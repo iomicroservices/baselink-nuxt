@@ -2,8 +2,9 @@
 title: "Planting service"
 alt: "Planting flowers, shrubs, and trees to enhance your garden"
 description: "Planting flowers, shrubs, and trees to enhance your garden"
-category: "gardener"
-subcategory: "planting"
+category: "tradespeople"
+subcategory: "gardener"
+task: "planting"
 image: "/images/tradespeople/gardener/planting.webp"
 ogImage: "/images/tradespeople/gardener/planting.webp"
 colour: "blue"
@@ -85,7 +86,7 @@ profession: "gardeners"
 What you get with planting service
 
 #description
-Whether you're refreshing flower beds or starting a new garden from scratch, our skilled gardeners{{ $doc.location }} can help bring your outdoor space to life. Not sure what to choose? We’re happy to recommend plants that suit your space, style, and the seasons.
+Whether you're refreshing flower beds or starting a new garden from scratch, our skilled gardeners{{ $doc.location }} can help bring your outdoor space to life. Not sure what to choose? We're happy to recommend plants that suit your space, style, and the seasons.
 
 #items
 
@@ -167,13 +168,13 @@ button: "Hire a gardener"
 Book garden planting{{$doc.location}} to refresh your outdoor space with colour and life
 
 #description
-Whether you’re adding new flowers, creating vegetable beds, or planting a tree, BaseLink connects you with skilled local gardeners{{$doc.location}} to bring your garden ideas to life. From simple refreshes to complete replanting, we make it easy to grow a space you love.
+Whether you're adding new flowers, creating vegetable beds, or planting a tree, BaseLink connects you with skilled local gardeners{{$doc.location}} to bring your garden ideas to life. From simple refreshes to complete replanting, we make it easy to grow a space you love.
 
 #description
-Your gardener can plant bedding flowers, shrubs, bulbs, herbs or vegetables — all chosen and placed to suit the space, soil and season. You can supply your own plants or ask for recommendations if you’re not sure what will work best.
+Your gardener can plant bedding flowers, shrubs, bulbs, herbs or vegetables — all chosen and placed to suit the space, soil and season. You can supply your own plants or ask for recommendations if you're not sure what will work best.
 
 #description
-We also help with planting small trees, hedges, climbers, vines and ground cover to shape your garden or create new features. Whether you’re starting from scratch or enhancing an existing layout, we can help plan and carry out the work.
+We also help with planting small trees, hedges, climbers, vines and ground cover to shape your garden or create new features. Whether you're starting from scratch or enhancing an existing layout, we can help plan and carry out the work.
 
 #description
 Borders can be refreshed, planters topped up, and flowerbeds replanted with vibrant seasonal colour. Your gardener will take care of the details, ensuring everything is planted with care and left neat and tidy.
@@ -182,7 +183,7 @@ Borders can be refreshed, planters topped up, and flowerbeds replanted with vibr
 Booking through BaseLink is fast and flexible. Just submit your request online, get an instant quote, and choose a time that suits your schedule. You can include planting as a one-off job or add it to a recurring garden care plan.
 
 #description
-All gardeners on our platform are experienced, local and vetted for quality. Whether it’s a simple refresh or a full replanting project, you’ll be supported by our in-house team and matched with someone who understands your goals.
+All gardeners on our platform are experienced, local and vetted for quality. Whether it's a simple refresh or a full replanting project, you'll be supported by our in-house team and matched with someone who understands your goals.
 
 #description
 Payment is collected on the day of your appointment, and any additional time is billed fairly in 30-minute increments. Book garden planting{{$doc.location}} with BaseLink today — and create an outdoor space that looks great all year round.

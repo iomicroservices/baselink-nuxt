@@ -2,8 +2,9 @@
 title: "Skirting board fitting service"
 alt: "Fitting and replacing decorative skirting boards to cover wall-floor joints"
 description: "Fitting and replacing decorative skirting boards to cover wall-floor joints"
-category: "carpenter"
-subcategory: "skirting-board-fitting"
+category: "tradespeople"
+subcategory: "carpenter"
+task: "skirting-board-fitting"
 image: "/images/tradespeople/carpenter/skirting-board-fitting.webp"
 ogImage: "/images/tradespeople/carpenter/skirting-board-fitting.webp"
 colour: "blue"
@@ -172,7 +173,7 @@ All carpenters on BaseLink are skilled, experienced, and local to your area. Eac
 The service can include removal of old skirting boards and precise cutting of new boards to size and angle. New boards are then fitted securely, with careful attention to clean lines and detail.
 
 #description
-If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they’ll purchase the materials and add them to your final bill. Alternatively, you’re welcome to provide your own materials if you prefer.
+If your job requires additional materials, your carpenter will let you know the cost before going ahead. Once approved, they'll purchase the materials and add them to your final bill. Alternatively, you're welcome to provide your own materials if you prefer.
 
 #description
 Carpenters can fill gaps, seal joins, and scribe boards to fit uneven walls. Painting or priming can also be included if requested, helping you achieve a finished look.
