@@ -26,8 +26,10 @@ withDefaults(defineProps<Props>(), {
         <div class="max-w-4xl pt-10 px-5 mx-auto">
             <!-- Grid -->
             <div class="grid md:grid-cols-2 gap-3 sm:gap-6">
-                <ContactCard icon="heroicons:envelope-open" title="Email us" description="hello@baselink.uk" path="mailto:hello@baselink.uk" />
-                <ContactCard icon="heroicons:phone" title="Call us" description="03330 388 288" path="tel:+443330388288" />
+                <ContactCard icon="mdi:email-fast-outline" title="Email us" description="hello@baselink.uk"
+                    path="mailto:hello@baselink.uk" />
+                <ContactCard icon="mdi:phone-in-talk-outline" title="Call us" description="03330 388 288"
+                    path="tel:+443330388288" />
             </div>
             <!-- End Grid -->
         </div>

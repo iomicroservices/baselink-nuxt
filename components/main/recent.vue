@@ -38,7 +38,7 @@ useHead({
 <template>
   <section class="section relative mx-auto">
     <div class="container">
-      <div class="flex flex-row items-center space-x-3 pt-5 pb-3">
+      <div class="flex flex-row items-center space-x-3 pb-3">
         <h2 class="heading2">
           Recent Posts
         </h2>

@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { LogoPassword } from '#components';
 
 const client = useSupabaseClient();
 
@@ -111,8 +110,7 @@ const logIn = async () => {
         <div class="hidden lg:block lg:w-1/2">
 
             <NuxtImg src="/images/general/baselink-login-light.png" alt="Log in to your BaseLink account"
-                class="block dark:hidden h-full w-full object-contain transition-opacity opacity-100 dark:opacity-0"
-                format="webp" />
+                class="dark:hidden h-full w-full object-contain transition-opacity dark:opacity-0" format="webp" />
 
             <NuxtImg src="/images/general/baselink-login-dark.png" alt="Log in to your BaseLink account"
                 class="hidden dark:block h-full w-full object-contain transition-opacity opacity-0 dark:opacity-100"

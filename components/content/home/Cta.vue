@@ -12,7 +12,7 @@ const { getStarted, route } = useGetStarted();
 </script>
 
 <template>
-    <section class="section py-0 mx-auto">
+    <section class="section relative py-2 mx-auto">
         <div class="relative p-8 lg:p-6 xl:p-8 rounded-2xl dark:bg-slate-800">
             <div
                 class="absolute inset-0 w-full h-full transform translate-x-2 translate-y-2 bg-primary-400/20 rounded-2xl" />
@@ -25,8 +25,7 @@ const { getStarted, route } = useGetStarted();
                     </ContentSlot>
                 </h2>
 
-                <NuxtLink :to='getStarted'
-                    class=" relative inline-flex items-center justify-center px-10 py-5 text-lg font-medium text-white
+                <NuxtLink :to='getStarted' class=" relative inline-flex items-center justify-center px-10 py-5 text-lg font-medium text-white
                     rounded-xl group cursor-pointer">
                     <span
                         class="absolute inset-0 transform translate-y-1.5 translate-x-1.5 group-hover:translate-y-0 group-hover:translate-x-0 transition-all ease-out duration-200 rounded-xl bg-primary-600" />

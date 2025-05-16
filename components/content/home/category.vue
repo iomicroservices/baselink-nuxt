@@ -20,7 +20,7 @@ defineProps<Props>()
 </script>
 
 <template>
-    <section class="section mx-auto">
+    <section class="section relative  mx-auto">
         <h2 class="heading2">
             <ContentSlot unwrap="p" name="title">
                 {{ title || 'Find the best local cleaners, housekeepers and tradespeople' }}
