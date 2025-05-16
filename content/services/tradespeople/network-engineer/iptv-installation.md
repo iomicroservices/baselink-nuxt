@@ -106,7 +106,7 @@ Access on-demand TV and streaming via your network with IPTV. Our network engine
   ::
 
   ::task-item
-  [Wall-mounting](/service/tradespeople/handyman/tv-wall-mounting) and display setup (if required)
+  [Wall-mounting](/services/tradespeople/handyman/tv-wall-mounting) and display setup (if required)
   ::
 
   ::task-item
