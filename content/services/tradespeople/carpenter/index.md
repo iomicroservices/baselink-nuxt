@@ -31,6 +31,16 @@ Transform your space with our professional carpentry services{{ $doc.location }}
 
 ---
 
+::subcategory
+#title
+Jobs our skilled carpenters{{ $doc.location}} are ready to tackle
+
+#description
+Browse the list of jobs below and book a skilled carpenter{{ $doc.location}} to tackle any task, however small or large. Your booking will be managed by our dedicated support team for a reliable service. No fuss, no stress.
+::
+
+---
+
 ::process
 #title
 Booking a trusted carpenter made easy
@@ -80,39 +90,6 @@ profession: "carpenters"
 
 ---
 
-::tasks
-#title
-What you get with carpenter
-
-#description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
-
-#items
-
-  ::task-item
-  [Outdoor decking]
-  ::
-
-  ::task-item
-  Custom ... requests
-  ::
-
-  ::task-item
-  Custom ... requests
-  ::
-
-  ::task-item
-  Custom ... requests
-  ::
-
-  ::task-item
-  Custom ... requests
-  ::
-
-::
-
----
-
 ::faq-side
 #faqs
   ::faq-items
@@ -143,12 +120,14 @@ You can customise your ... with special instructions or add extra services. Your
   ::
 ::
 
+
 ::cta
 ---
 title: "Get an instant quote now"
 button: "Hire a carpenter"
 ---
 ::
+
 
 ::long-form
 #title
@@ -183,16 +162,9 @@ Find housekeepers and tradespeople {{$doc.location}}
 
 ---
 
-::subcategory
----
-subcategory: null
----
-::
-
----
-
 ::contact
 ::
+
 
 ::cta
 ::

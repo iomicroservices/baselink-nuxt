@@ -2,15 +2,18 @@
 
 const { pathData } = await usePathData(); // Get the path data from the composable
 const serviceData = pathData.pageData; // Access the page-specific service data
+const locality = ref({ location: '' });
 
 if (!serviceData.value) {
-    throw createError({
-        statusCode: 404,
-        statusMessage: 'Page not found'
-    })
-}
+    await navigateTo('/404')
+};
 
-const locality = ref({ location: '' });
+// if (!serviceData.value) {
+//     throw createError({
+//         statusCode: 404,
+//         statusMessage: 'Page not found'
+//     })
+// }
 
 </script>
 

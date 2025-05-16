@@ -31,6 +31,16 @@ Keep your garden in top shape with our professional gardening services{{ $doc.lo
 
 ---
 
+::subcategory
+#title
+Jobs our skilled gardeners{{ $doc.location}} are ready to tackle
+
+#description
+Browse the list of jobs below and book a skilled gardener{{ $doc.location}} to tackle any task, however small or large. Your booking will be managed by our dedicated support team for a reliable service. No fuss, no stress.
+::
+
+---
+
 ::process
 #title
 Book a local gardener with ease
@@ -76,22 +86,6 @@ Book a local gardener with ease
 ---
 profession: "gardeners"
 ---
-::
-
----
-
-::tasks
-#title
-What you get with ...
-
-#description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
-
-#items
-
-    ::task-item
-    Custom ... requests
-    ::
 ::
 
 ---

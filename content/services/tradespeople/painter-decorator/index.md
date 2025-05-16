@@ -31,6 +31,16 @@ Transform your space with our skilled painters and decorators{{ $doc.location }}
 
 ---
 
+::subcategory
+#title
+Jobs our skilled painters and decorators{{ $doc.location}} can help with
+
+#description
+We connect you with skilled painters and decorators{{ $doc.location }} for tailored jobs that match your style, schedule, and space. Whether it’s a single wall or a full refresh, your booking is supported by our dedicated service team. We can supply paints and materials, or use what you provide.
+::
+
+---
+
 ::process
 #title
 Book a local painter or decorator with ease
@@ -76,22 +86,6 @@ Book a local painter or decorator with ease
 ---
 profession: "painters and decorators"
 ---
-::
-
----
-
-::tasks
-#title
-What you get with ...
-
-#description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
-
-#items
-
-    ::task-item
-    Custom ... requests
-    ::
 ::
 
 ---

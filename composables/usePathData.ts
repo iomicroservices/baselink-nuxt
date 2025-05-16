@@ -4,7 +4,7 @@ export const usePathData = async () => {
     const { services, category, subcategory, task, type, city, area } = route.params;
 
     // Only run this logic if the path starts with /services
-    if (!route.path.startsWith('/services')) return { pathData: null };
+    if (!route.path.startsWith('/services')) return { pathData: null as any };
 
     // // Only run this logic if the `services` param is exactly "services"
     // if (services !== 'services') return { pathData: null };

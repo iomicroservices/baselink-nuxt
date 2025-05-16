@@ -31,6 +31,16 @@ From leaks and repairs to installations, our vetted and insured plumbers{{ $doc.
 
 ---
 
+::subcategory
+#title
+Jobs our skilled plumbers{{ $doc.location}} can help with
+
+#description
+We match you with qualified plumbers{{ $doc.location }} for reliable help with leaks, installations, and everything in between. Jobs can be tailored to your needs and schedule, and your booking is backed by our dedicated service team. We can supply fixtures and materials, or work with what you already have.
+::
+
+---
+
 ::process
 #title
 Book a local plumber with ease
@@ -76,22 +86,6 @@ Book a local plumber with ease
 ---
 profession: "plumbers"
 ---
-::
-
----
-
-::tasks
-#title
-What you get with ...
-
-#description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
-
-#items
-
-    ::task-item
-    Custom ... requests
-    ::
 ::
 
 ---

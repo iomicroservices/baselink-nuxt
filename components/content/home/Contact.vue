@@ -23,7 +23,7 @@ withDefaults(defineProps<Props>(), {
         </div>
 
         <!-- Card Section -->
-        <div class="max-w-4xl py-10 px-5 mx-auto">
+        <div class="max-w-4xl pt-10 px-5 mx-auto">
             <!-- Grid -->
             <div class="grid md:grid-cols-2 gap-3 sm:gap-6">
                 <ContactCard icon="heroicons:envelope-open" title="Email us" description="hello@baselink.uk" path="mailto:hello@baselink.uk" />

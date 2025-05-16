@@ -4,7 +4,7 @@ const serviceData = pathData.pageData; // Access the page-specific service data
 
 if (!serviceData.value) {
   await navigateTo('/404')
-}
+};
 </script>
 
 <template>

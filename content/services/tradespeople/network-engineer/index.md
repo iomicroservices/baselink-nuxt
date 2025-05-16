@@ -31,6 +31,16 @@ Fully insured & qualified network engineers{{ $doc.location }} for home and busi
 
 ---
 
+::subcategory
+#title
+Jobs our skilled network engineers{{ $doc.location}} are ready to tackle
+
+#description
+From connectivity issues to setting up full systems, our local network engineers{{ $doc.location }} are matched to your needs and availability. Jobs can be tailored to suit residential or commercial setups, and we can supply equipment or work with what you provide.
+::
+
+---
+
 ::process
 #title
 Book a local network engineer with ease
@@ -76,22 +86,6 @@ Book a local network engineer with ease
 ---
 profession: "network engineers"
 ---
-::
-
----
-
-::tasks
-#title
-What you get with ...
-
-#description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
-
-#items
-
-    ::task-item
-    Custom ... requests
-    ::
 ::
 
 ---

@@ -31,6 +31,16 @@ Need something fixed? From minor repairs to larger home projects, our handyman s
 
 ---
 
+::subcategory
+#title
+Jobs our skilled handyman{{ $doc.location}} is ready to tackle
+
+#description
+We match you with skilled local handypeople{{ $doc.location }} for jobs big or small. Tasks can be fully customised to suit your space, timing, and preferences. Your booking is managed by our dedicated support team to ensure a smooth and reliable service from start to finish.
+::
+
+---
+
 ::process
 #title
 Book a local handyman for odd jobs with ease
@@ -76,22 +86,6 @@ Book a local handyman for odd jobs with ease
 ---
 profession: "handymen"
 ---
-::
-
----
-
-::tasks
-#title
-What you get with ...
-
-#description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
-
-#items
-
-    ::task-item
-    Custom ... requests
-    ::
 ::
 
 ---

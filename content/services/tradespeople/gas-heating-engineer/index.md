@@ -32,6 +32,16 @@ Trust our certified gas and heating engineers for all your installation, repair,
 
 ---
 
+::subcategory
+#title
+Gas and heating jobs our engineers{{ $doc.location}} can do for you
+
+#description
+We match you with qualified gas and heating engineers{{ $doc.location }} based on your needs and availability. All work meets strict safety and compliance standards. Your booking is managed by our support team, and we can supply materials or work with what you provide.
+::
+
+---
+
 ::process
 #title
 Book a local gas and heating engineer with ease
@@ -77,22 +87,6 @@ Book a local gas and heating engineer with ease
 ---
 profession: "engineers"
 ---
-::
-
----
-
-::tasks
-#title
-What you get with ...
-
-#description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
-
-#items
-
-    ::task-item
-    Custom ... requests
-    ::
 ::
 
 ---

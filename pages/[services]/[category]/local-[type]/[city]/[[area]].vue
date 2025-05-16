@@ -7,11 +7,15 @@ const serviceData = pathData.pageData; // Access the page-specific service data
 const locality = ref({ location: locationData.inLocation ?? '' });
 
 if (!serviceData.value) {
-    throw createError({
-        statusCode: 404,
-        statusMessage: 'Page not found'
-    })
-}
+    await navigateTo('/404')
+};
+
+// if (!serviceData.value) {
+//     throw createError({
+//         statusCode: 404,
+//         statusMessage: 'Page not found'
+//     })
+// }
 
 </script>
 

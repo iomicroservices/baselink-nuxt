@@ -1,7 +1,7 @@
 ---
 title: "Safety certification and reports"
-alt: "Ensure your property meets legal and safety standards for gas, electricity and fire"
-description: "Ensure your property meets legal and safety standards for gas, electricity and fire"
+alt: "Ensure your property meets legal and safety standards for gas, electricity & fire"
+description: "Ensure your property meets legal and safety standards for gas, electricity & fire"
 category: "tradespeople"
 subcategory: "certificates-reports"
 task: null
@@ -27,6 +27,16 @@ Ensure your residential or business property meets safety standards with our saf
     #right
     ![BaseLink offers local assessors for safety check certification and reports](/images/tradespeople/certificates-reports/certificates-reports.webp)
     ::
+::
+
+---
+
+::subcategory
+#title
+Reports and certifications our pros{{ $doc.location }} can issue
+
+#description
+Our local experts{{ $doc.location }} handle certfications and reports for both residential and commercial properties. Completed with precision and full compliance. Browse the services below and book a qualified professional. Reports done right, with support every step of the way.
 ::
 
 ---
@@ -76,22 +86,6 @@ Get a property certificate or report booked with ease
 ---
 profession: "assessors"
 ---
-::
-
----
-
-::tasks
-#title
-What you get with ...
-
-#description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
-
-#items
-
-    ::task-item
-    Custom ... requests
-    ::
 ::
 
 ---

@@ -91,7 +91,7 @@ const formattedData = computed(() => {
 </script>
 
 <template>
-    <section class="section relative mx-auto">
+    <section class="section mx-auto">
 
         <h2 class="heading2 [&_a]:text-primary-700 dark:[&_a]:text-primary-500 [&_a:hover]:underline">
             <ContentSlot unwrap=" p" name="title">

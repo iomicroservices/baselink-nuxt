@@ -31,6 +31,16 @@ Whether you're moving a few items or an entire household, we provide professiona
 
 ---
 
+::subcategory
+#title
+Jobs our skilled removal teams{{ $doc.location}} can help with
+
+#description
+We connect you with trusted local removal teams{{ $doc.location }} for moves of all sizes — from relocating a few items to clearing a property. Bookings are managed by our dedicated service team to ensure reliability. We can provide packing materials or work with what you already have.
+::
+
+---
+
 ::process
 #title
 Book local removal specialists with ease
@@ -76,22 +86,6 @@ Book local removal specialists with ease
 ---
 profession: "movers"
 ---
-::
-
----
-
-::tasks
-#title
-What you get with ...
-
-#description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
-
-#items
-
-    ::task-item
-    Custom ... requests
-    ::
 ::
 
 ---

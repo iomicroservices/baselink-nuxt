@@ -31,6 +31,16 @@ Whether it's lock installation, repair, or rekeying, our experienced locksmiths{
 
 ---
 
+::subcategory
+#title
+Jobs our local locksmiths{{ $doc.location}} can help with
+
+#description
+Locked out or need to upgrade your security? We connect you with trusted local locksmiths{{ $doc.location }} who are available when you need them. Your booking is supported by our dedicated service team, with flexible options to suit urgent or planned jobs.
+::
+
+---
+
 ::process
 #title
 Book a local locksmith with ease
@@ -76,22 +86,6 @@ Book a local locksmith with ease
 ---
 profession: "locksmiths"
 ---
-::
-
----
-
-::tasks
-#title
-What you get with ...
-
-#description
-You can customise your ... with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
-
-#items
-
-    ::task-item
-    Custom ... requests
-    ::
 ::
 
 ---
