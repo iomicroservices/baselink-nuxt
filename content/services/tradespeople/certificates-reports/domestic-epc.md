@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/certificates-reports/domestic-epc.webp"
 colour: "blue"
 pathtxt: "Domestic EPC"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,14 +76,6 @@ Get a domestic EPC certification booked
 
 ---
 
-::why-us
----
-profession: "assessors"
----
-::
-
----
-
 ::tasks
 
 #title
@@ -128,40 +124,10 @@ Whether you're a homeowner, landlord or estate agent, we make domestic Energy Pe
   
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
-::
 
 ::long-form
 #title
@@ -194,15 +160,8 @@ Book a domestic EPC{{$doc.location}} today with BaseLink — and take the first 
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "assessors"
+---
 ::

@@ -17,7 +17,7 @@ withDefaults(defineProps<Props>(), {
         :tabindex="order">
         <div class="font-semibold flex cursor-pointer items-center justify-between">
             <h3>{{ question }}</h3>
-            <Icon name="material-symbols:expand-circle-right-outline-rounded" size="20"
+            <Icon name="mdi:chevron-right-circle-outline" size="20"
                 class="transition-all duration-500 group-focus:rotate-90" />
         </div>
 

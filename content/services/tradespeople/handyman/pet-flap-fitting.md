@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/handyman/pet-flap-fitting.webp"
 colour: "blue"
 pathtxt: "Pet flap fitting"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,10 @@ Book a pet flap fitting job with ease
 
 ---
 
-::why-us
----
-profession: "handymen"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a handyman
+---
 
 #title
 What you get with pet flap fitting
@@ -116,44 +115,10 @@ We fit all types — from manual to microchip-controlled — into wooden, uPVC, 
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your pet flat fitting?"
-button: "Hire a handyman"
----
-::
 
 ::long-form
 #title
@@ -183,15 +148,8 @@ Payment is collected on the day of service, with any extra time billed fairly in
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "handymen"
+---
 ::

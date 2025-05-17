@@ -33,43 +33,42 @@ defineProps<Props>()
         </p>
         <!-- turn the below into a slot and populate programmatically ?  -->
         <div class="grid gap-3 lg:gap-3 grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
-            <CategoryItem name="Home cleaning" emoji="material-symbols-light:cleaning-outline-rounded"
+            <CategoryItem name="Home cleaning" emoji="mdi:spray-bottle"
                 :path="`/services/home-cleaning${pathExtension}`" />
-            <CategoryItem name="Housekeeping" emoji="material-symbols-light:dry-cleaning-rounded"
+            <CategoryItem name="Housekeeping" emoji="mdi:hanger"
                 :path="`/services/home-cleaning/housekeeping${pathExtension}`" />
-            <CategoryItem name="Commercial cleaning" emoji="material-symbols-light:cleaning-bucket-outline-rounded"
+            <CategoryItem name="Commercial cleaning" emoji="mdi:chart-bubble"
                 :path="`/services/commercial-cleaning${pathExtension}`" />
-            <CategoryItem name="Mobile car wash" emoji="material-symbols-light:local-car-wash-outline-rounded"
+            <CategoryItem name="Mobile car wash" emoji="mdi:car-wash"
                 :path="`/services/mobile-car-wash${pathExtension}`" />
-            <CategoryItem name="Tradespeople" emoji="material-symbols-light:handyman-outline"
-                :path="`/services/tradespeople${pathExtension}`" />
-            <CategoryItem name="Handyman" emoji="material-symbols-light:tools-pliers-wire-stripper-outline"
+            <CategoryItem name="Tradespeople" emoji="mdi:tools" :path="`/services/tradespeople${pathExtension}`" />
+            <CategoryItem name="Handyman" emoji="mdi:pliers"
                 :path="`/services/tradespeople/handyman${pathExtension}`" />
-            <CategoryItem name="TV wall mounting" emoji="material-symbols-light:tv-displays-outline"
+            <CategoryItem name="TV wall mounting" emoji="mdi:television-classic"
                 :path="`/services/tradespeople/handyman/tv-wall-mounting${pathExtension}`" />
-            <CategoryItem name="Network engineer" emoji="material-symbols-light:network-wifi-3-bar-locked-rounded"
+            <CategoryItem name="Network engineer" emoji="mdi:wifi-strength-3-lock"
                 :path="`/services/tradespeople/network-engineer${pathExtension}`" />
-            <CategoryItem name="CCTV installation" emoji="material-symbols-light:speed-camera-outline-rounded"
+            <CategoryItem name="CCTV installation" emoji="mdi:cctv"
                 :path="`/services/tradespeople/network-engineer/cctv-installation${pathExtension}`" />
-            <CategoryItem name="Smart home" emoji="material-symbols-light:broadcast-on-home"
+            <CategoryItem name="Smart home" emoji="mdi:cast-connected"
                 :path="`/services/tradespeople/network-engineer/smart-home-automation${pathExtension}`" />
-            <CategoryItem name="Gas & heating" emoji="material-symbols-light:device-thermostat"
+            <CategoryItem name="Gas & heating" emoji="mdi:thermometer-lines"
                 :path="`/services/tradespeople/gas-heating-engineer${pathExtension}`" />
-            <CategoryItem name="Boiler installation" emoji="material-symbols-light:water-heater"
+            <CategoryItem name="Boiler installation" emoji="mdi:water-boiler"
                 :path="`/services/tradespeople/gas-heating-engineer${pathExtension}`" />
-            <CategoryItem name="Plumber" emoji="material-symbols-light:water-pump-outline-rounded"
+            <CategoryItem name="Plumber" emoji="mdi:pipe-leak"
                 :path="`/services/tradespeople/plumber${pathExtension}`" />
-            <CategoryItem name="Locksmith" emoji="material-symbols-light:vpn-key-outline-rounded"
+            <CategoryItem name="Locksmith" emoji="mdi:key-chain"
                 :path="`/services/tradespeople/locksmith${pathExtension}`" />
-            <CategoryItem name="Carpenter" emoji="material-symbols-light:carpenter"
+            <CategoryItem name="Carpenter" emoji="mdi:hand-saw"
                 :path="`/services/tradespeople/carpenter${pathExtension}`" />
-            <CategoryItem name="Painter & decorator" emoji="material-symbols-light:format-paint-outline-rounded"
+            <CategoryItem name="Painter & decorator" emoji="mdi:brush-variant"
                 :path="`/services/tradespeople/painter-decorator${pathExtension}`" />
-            <CategoryItem name="Gardener" emoji="material-symbols-light:park-outline-rounded"
+            <CategoryItem name="Gardener" emoji="mdi:mower-bag"
                 :path="`/services/tradespeople/gardener${pathExtension}`" />
-            <CategoryItem name="Certification" emoji="material-symbols-light:edit-document-outline-rounded"
+            <CategoryItem name="Certification" emoji="mdi:certificate"
                 :path="`/services/tradespeople/certificates-reports${pathExtension}`" />
-            <CategoryItem name="Removals" emoji="material-symbols-light:delivery-truck-speed-outline-rounded"
+            <CategoryItem name="Removals" emoji="mdi:van-utility"
                 :path="`/services/tradespeople/removals${pathExtension}`" />
         </div>
     </section>

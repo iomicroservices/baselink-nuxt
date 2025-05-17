@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/plumber/kitchen-sink-installation.webp"
 colour: "blue"
 pathtxt: "Kitchen sink installation"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,10 @@ Book a kitchen sink installation with ease
 
 ---
 
-::why-us
----
-profession: "plumbers"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a plumber
+---
 #title
 What you get with kitchen sink installation
 
@@ -115,44 +114,10 @@ Our skilled plumbers{{ $doc.location }} install all types of sinks — including
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your kitchen sink installation?"
-button: "Hire a plumber"
----
-::
 
 ::long-form
 #title
@@ -185,15 +150,8 @@ Payment is collected on the day of service, with any extra time billed in fair 3
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "plumbers"
+---
 ::

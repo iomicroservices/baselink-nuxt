@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/gas-heating-engineer/water-heater-replacement.web
 colour: "blue"
 pathtxt: "Water heater replacement"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,11 @@ Get a water heater job booked with ease
 
 ---
 
-::why-us
----
-profession: "engineers"
----
-::
-
----
-
 ::tasks
+---
+button: Hire an engineer
+---
+
 #title
 What you get with water heater service
 
@@ -135,44 +135,10 @@ Whether you're upgrading an old system or installing a brand new water heater, w
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Get an instant quote now"
-button: "Hire an engineer"
----
-::
 
 ::long-form
 #title
@@ -202,15 +168,8 @@ Payment is collected on the day of the visit, and any extra time is billed in cl
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "engineers"
+---
 ::

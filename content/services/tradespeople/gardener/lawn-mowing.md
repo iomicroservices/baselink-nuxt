@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/gardener/lawn-mowing.webp"
 colour: "blue"
 pathtxt: "Lawn mowing"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -70,17 +74,11 @@ Book a lawn mowing job with ease
     ::
 ::
 
----
-
-::why-us
----
-profession: "gardeners"
----
-::
-
----
 
 ::tasks
+---
+button: Hire a gardener
+---
 
 #title
 What you get with lawn mowing service
@@ -108,44 +106,10 @@ Whether it's a one-off tidy-up or part of regular garden maintenance, our skille
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your lawn mowing job?"
-button: "Hire a gardener"
----
-::
 
 ::long-form
 #title
@@ -175,15 +139,8 @@ Payment is taken on the day of the job, with additional time billed in clear 30-
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "gardeners"
+---
 ::

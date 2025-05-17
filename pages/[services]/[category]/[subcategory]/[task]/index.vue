@@ -22,9 +22,17 @@ if (!taskpage.value) {
 </script>
 
 <template>
+    <div class="page-container">
 
-    <div class="page-container">    
         <ContentRenderer v-if="taskpage" :value="taskpage" :data="locality" />
-    </div>
 
+        <MainCta />
+
+        <MainCategory />
+
+        <hr class="divider" />
+
+        <MainContact />
+
+    </div>
 </template>

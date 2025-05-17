@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/gas-heating-engineer/thermostat-repair-replacemen
 colour: "blue"
 pathtxt: "Thermostat replacement"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,10 @@ Get a thermostat job booked with ease
 
 ---
 
-::why-us
----
-profession: "engineers"
----
-::
-
----
-
 ::tasks
+---
+button: Hire an engineer
+---
 
 #title
 What you get with thermostat repair & replacement
@@ -128,44 +127,10 @@ We repair and replace all types of thermostats — from basic manual units to ad
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your thermostat repair?"
-button: "Hire an engineer"
----
-::
 
 ::long-form
 #title
@@ -198,15 +163,8 @@ Payment is collected on the day of your visit, and any extra time is billed fair
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "engineers"
+---
 ::

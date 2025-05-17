@@ -3,6 +3,7 @@
 interface Props {
     title?: string
     description?: string
+    button?: string
     path?: string
 }
 const props = defineProps<Props>()
@@ -53,7 +54,7 @@ const pathCategory = route.params.category ? route.params.category : props.path
                     <ClientOnly>
                         <div v-if="pathCategory" class="pt-4 flex flex-col lg:flex-row gap-4 justify-center lg:justify-start">
                             <NuxtLink :to=getStarted class="btn-primary">
-                                Get a quote
+                                {{ button || "Get a quote"}}
                             </NuxtLink>
                         </div>
                     </ClientOnly>

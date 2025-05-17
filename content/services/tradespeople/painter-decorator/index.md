@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/painter-decorator/painter-decorator.webp"
 colour: "blue"
 pathtxt: "Painter and decorator"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -39,7 +43,14 @@ Jobs our skilled painters and decorators{{ $doc.location}} can help with
 We connect you with skilled painters and decorators{{ $doc.location }} for tailored jobs that match your style, schedule, and space. Whether it’s a single wall or a full refresh, your booking is supported by our dedicated service team. We can supply paints and materials, or use what you provide.
 ::
 
+
+::cta
 ---
+title: "Get an instant quote now"
+button: "Hire a pro"
+---
+::
+
 
 ::process
 #title
@@ -80,48 +91,10 @@ Book a local painter or decorator with ease
     ::
 ::
 
----
 
-::why-us
----
-profession: "painters and decorators"
----
+::faq-side-ui{:faqs="faqs"}
 ::
 
----
-
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
-::
-
-::cta
-::
 
 ::long-form
 #title
@@ -154,15 +127,8 @@ Payment is collected on the day of service, with any extra time billed in fair 3
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "painters and decorators"
+---
 ::

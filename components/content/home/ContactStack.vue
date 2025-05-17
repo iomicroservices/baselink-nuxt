@@ -31,8 +31,8 @@ defineProps<Props>()
             <!-- Grid for Live Chat and Email Support Boxes -->
             <div class="grid grid-cols-1 gap-3 ">
 
-                <ContactItem title="Email us" icon="material-symbols:arrow-forward-ios-rounded" path="/" />
-                <ContactItem title="Call us" icon="material-symbols:arrow-forward-ios-rounded" path="/" />
+                <ContactItem title="Email us" icon="mdi:email-fast-outline" path="/" />
+                <ContactItem title="Call us" icon="mdi:phone-in-talk-outline" path="/" />
 
             </div>
         </div>

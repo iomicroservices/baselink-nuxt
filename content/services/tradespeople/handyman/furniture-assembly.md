@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/handyman/furniture-assembly.webp"
 colour: "blue"
 pathtxt: "Furniture assembly"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -30,6 +34,7 @@ Let us handle the heavy lifting. Our expert handymen{{ $doc.location }} assemble
 ::
 
 ---
+
 ::process
 #title
 Book a furniture assembly job with ease
@@ -71,15 +76,10 @@ Book a furniture assembly job with ease
 
 ---
 
-::why-us
----
-profession: "handymen"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a handyman
+---
 
 #title
 What you get with furniture assembly
@@ -115,44 +115,10 @@ From flat-pack to fully functional, we assemble all types of furniture for homes
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your furniture assembly job?"
-button: "Hire a handyman"
----
-::
 
 ::long-form
 #title
@@ -182,15 +148,8 @@ Payment is collected on the day of service, with additional time billed in fair 
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "handymen"
+---
 ::

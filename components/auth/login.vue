@@ -53,16 +53,16 @@ const logIn = async () => {
                 <UForm :state="loginFormState" class="grid gap-y-4" @submit.prevent="logIn">
 
                     <UFormGroup size="xl" name="email" label="Email" required>
-                        <UInput v-model="loginFormState.email" autocomplete="email" icon="i-heroicons-envelope" />
+                        <UInput v-model="loginFormState.email" autocomplete="email" icon="mdi:email-outline" />
                     </UFormGroup>
 
                     <UFormGroup size="xl" name="password" label="Password" required>
                         <UInput v-model="loginFormState.password" :type="showPassword ? 'text' : 'password'"
-                            icon="i-heroicons-lock-closed" autocomplete="current-password"
+                            icon="mdi:lock-outline" autocomplete="current-password"
                             :ui="{ icon: { trailing: { pointer: '' } } }">
                             <template #trailing>
                                 <UButton color="gray" variant="link"
-                                    :icon="showPassword ? 'i-heroicons-eye-slash' : 'i-heroicons-eye'" :padded="false"
+                                    :icon="showPassword ? 'mdi:eye-off-outline' : 'mdi:eye-outline'" :padded="false"
                                     @click="showPassword = !showPassword" />
                             </template>
                         </UInput>
@@ -76,14 +76,14 @@ const logIn = async () => {
 
                     <UFormGroup size="xl" name="rememberMe" class="py-2">
                         <div class="flex items-start">
-                            <UToggle on-icon="i-heroicons-check-20-solid" off-icon="i-heroicons-x-mark-20-solid"
-                                color="green" v-model="loginFormState.rememberMe">
+                            <UToggle on-icon="mdi:check" off-icon="mdi:close" color="green"
+                                v-model="loginFormState.rememberMe">
                             </UToggle>
                             <p class="ml-2 mb-0 text-sm text-left">Remember me</p>
                         </div>
                     </UFormGroup>
 
-                    <UButton block type="submit" icon="i-heroicons-user"
+                    <UButton block type="submit" icon="mdi:account"
                         class="w-full py-3 px-4 md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold"
                         :disabled="isSubmitting" :loading="isSubmitting">
                         <template v-if="isSubmitting">

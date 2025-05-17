@@ -217,8 +217,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <UFormGroup size="xl" name="marketingCheckbox" class="py-5">
             <div class="flex items-start">
-                <UToggle on-icon="i-heroicons-check-20-solid" off-icon="i-heroicons-x-mark-20-solid" color="green"
-                    v-model="formState.marketingCheckbox">
+                <UToggle on-icon="mdi:check" off-icon="mdi:close" color="green" v-model="formState.marketingCheckbox">
                 </UToggle>
                 <p class="ml-2 mb-0 text-sm font-semibold text-left">Send me relevant offers and special discounts</p>
             </div>
@@ -226,7 +225,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <!-- <div class="flex flex-col md:flex-row w-full py-3"> -->
 
-        <UButton block type="submit" icon="i-heroicons-paper-airplane"
+        <UButton block type="submit" icon="mdi:send-variant-outline"
             class="h-10 text-lg text-white dark:text-white disabled:dark:text-gray-100 md:flex-1 mr-0 md:mr-2 mb-2 md:mb-0 font-semibold"
             :disabled="!isFormValid || isSubmitting" :loading="isSubmitting">
             <template v-if="isSubmitting">

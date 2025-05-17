@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/certificates-reports/certificates-reports.webp"
 colour: "blue"
 pathtxt: "Certification and reports"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -39,7 +43,13 @@ Reports and certifications our pros{{ $doc.location }} can issue
 Our local experts{{ $doc.location }} handle certfications and reports for both residential and commercial properties. Completed with precision and full compliance. Browse the services below and book a qualified professional. Reports done right, with support every step of the way.
 ::
 
+
+::cta
 ---
+title: "Certified in a couple of clicks"
+---
+::
+
 
 ::process
 #title
@@ -80,48 +90,10 @@ Get a property certificate or report booked with ease
     ::
 ::
 
----
 
-::why-us
----
-profession: "assessors"
----
+::faq-side-ui{:faqs="faqs"}
 ::
 
----
-
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
-::
-
-::cta
-::
 
 ::long-form
 #title
@@ -151,15 +123,8 @@ Payment is collected on the day of service, and any additional time is charged i
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "assessors"
+---
 ::

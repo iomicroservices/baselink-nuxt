@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/plumber/tap-repair-replacement.webp"
 colour: "blue"
 pathtxt: "Tap repair and replacement"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,10 @@ Book a tap repair or replacement job with ease
 
 ---
 
-::why-us
----
-profession: "plumbers"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a plumber
+---
 #title
 What you get with tap repair & replacement
 
@@ -111,44 +110,10 @@ Dripping or hard-to-turn tap? Our skilled plumbers{{ $doc.location }} repair and
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your tap repair or replacement?"
-button: "Hire a plumber"
----
-::
 
 ::long-form
 #title
@@ -181,15 +146,8 @@ Payment is collected on the day of service, and any extra time is billed in fair
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "plumbers"
+---
 ::

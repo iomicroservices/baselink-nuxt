@@ -25,8 +25,8 @@ defineProps<{
 
                 <div class="lg:pt-2 lg:col-span-3 px-0 md:px-14 lg:px-0">
 
-                    <UAccordion :items="faqs" open-icon="i-heroicons-plus" close-icon="i-heroicons-minus"
-                        color="primary" variant="solid" size="md">
+                    <UAccordion :items="faqs" open-icon="mdi:plus" close-icon="mdi:minus" color="primary"
+                        variant="solid" size="md">
 
                         <template #item=" { item }">
                             <p class="text-black dark:text-white px-3">

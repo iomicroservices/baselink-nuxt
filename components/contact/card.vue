@@ -9,7 +9,7 @@ interface Props {
 withDefaults(defineProps<Props>(), {
     title: "Contact method",
     description: "Contact details",
-    icon: "i-heroicons-envelope",
+    icon: "mdi:email-outline",
     path: "/"
 })
 </script>

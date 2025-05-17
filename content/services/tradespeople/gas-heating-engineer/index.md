@@ -10,7 +10,10 @@ ogImage: "/images/tradespeople/gas-heating-engineer/gas-heating-engineer.webp"
 colour: "blue"
 pathtxt: "Gas and heating engineer"
 published: true
----
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -40,7 +43,14 @@ Gas and heating jobs our engineers{{ $doc.location}} can do for you
 We match you with qualified gas and heating engineers{{ $doc.location }} based on your needs and availability. All work meets strict safety and compliance standards. Your booking is managed by our support team, and we can supply materials or work with what you provide.
 ::
 
+
+::cta
 ---
+title: "Get an instant quote now"
+button: "Hire an engineer"
+---
+::
+
 
 ::process
 #title
@@ -81,48 +91,10 @@ Book a local gas and heating engineer with ease
     ::
 ::
 
----
 
-::why-us
----
-profession: "engineers"
----
+::faq-side-ui{:faqs="faqs"}
 ::
 
----
-
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
-::
-
-::cta
-::
 
 ::long-form
 #title
@@ -155,15 +127,8 @@ Payment is collected on the day of your visit, and any additional time is billed
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "engineers"
+---
 ::

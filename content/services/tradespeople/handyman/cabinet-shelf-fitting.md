@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/handyman/cabinet-shelf-fitting.webp"
 colour: "blue"
 pathtxt: "Cabinet and shelf fitting"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,11 @@ Book a cabinet or shelf fitting job with ease
 
 ---
 
-::why-us
----
-profession: "handymen"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a handyman
+---
+
 #title
 What you get with cabinet & shelf fitting
 
@@ -123,44 +123,10 @@ Whether it's storage in your hallway, shelves in the living room, or a cabinet i
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your cabinet shelf fitting?"
-button: "Hire a handyman"
----
-::
 
 ::long-form
 #title
@@ -190,15 +156,8 @@ Payment is collected on the day of service, and any additional time is billed in
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "handymen"
+---
 ::

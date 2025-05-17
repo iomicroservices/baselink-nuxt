@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/certificates-reports/pat-testing.webp"
 colour: "blue"
 pathtxt: "PAT testing"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,14 +76,6 @@ Get Portable Appliance Testing booked with ease
 
 ---
 
-::why-us
----
-profession: "assessors"
----
-::
-
----
-
 ::tasks
 
 #title
@@ -124,40 +120,11 @@ Portable Appliance Testing (PAT) ensures your electrical appliances are safe to 
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
-::
+
 
 ::long-form
 #title
@@ -187,15 +154,8 @@ Payment is collected on the day of testing, and any additional time is billed fa
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "assessors"
+---
 ::

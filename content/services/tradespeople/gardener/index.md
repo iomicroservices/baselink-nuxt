@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/gardener/gardener.webp"
 colour: "blue"
 pathtxt: "Gardener"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -39,7 +43,14 @@ Jobs our skilled gardeners{{ $doc.location}} are ready to tackle
 Browse the list of jobs below and book a skilled gardener{{ $doc.location}} to tackle any task, however small or large. Your booking will be managed by our dedicated support team for a reliable service. No fuss, no stress.
 ::
 
+
+::cta
 ---
+title: "Get an instant quote now"
+button: "Hire a gardener"
+---
+::
+
 
 ::process
 #title
@@ -80,52 +91,10 @@ Book a local gardener with ease
     ::
 ::
 
----
 
-::why-us
----
-profession: "gardeners"
----
+::faq-side-ui{:faqs="faqs"}
 ::
 
----
-
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
-::
-
-::cta
----
-title: "Get an instant quote now"
-button: "Hire a gardener"
----
-::
 
 ::long-form
 #title
@@ -158,15 +127,8 @@ Payment is collected on the day of your visit, with any additional time charged 
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "gardeners"
+---
 ::

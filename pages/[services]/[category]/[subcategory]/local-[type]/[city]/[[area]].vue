@@ -20,9 +20,17 @@ if (!serviceData.value) {
 </script>
 
 <template>
-
     <div class="page-container">
-        <ContentRenderer v-if="serviceData" :value="serviceData" :data="locality ?? ''" />
-    </div>
 
+        <ContentRenderer v-if="serviceData" :value="serviceData" :data="locality ?? ''" />
+
+        <MainCta />
+
+        <MainCategory />
+
+        <hr class="divider" />
+
+        <MainContact />
+
+    </div>
 </template>

@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/handyman/mirror-picture-hanging.webp"
 colour: "blue"
 pathtxt: "Mirror and picture hanging"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,10 @@ Book a mirror or picture hanging job with ease
 
 ---
 
-::why-us
----
-profession: "handymen"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a handyman
+---
 
 #title
 What you get with mirror & picture hanging
@@ -124,44 +123,10 @@ Whether it's a statement mirror, a family photo wall, or a stylish gallery layou
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Get an instant quote now"
-button: "Hire a handyman"
----
-::
 
 ::long-form
 #title
@@ -191,15 +156,8 @@ Payment is collected on the day of your appointment, with any extra time billed 
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "handymen"
+---
 ::

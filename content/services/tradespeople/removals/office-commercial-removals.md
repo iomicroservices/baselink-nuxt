@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/removals/office-commercial-removals.webp"
 colour: "blue"
 pathtxt: "Office and commercial removals"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,14 +76,6 @@ Book a commercial or office removal with ease
 
 ---
 
-::why-us
----
-profession: "movers"
----
-::
-
----
-
 ::tasks
 #title
 What you get with commercial & office removals
@@ -115,43 +111,10 @@ Relocating your business? Whether you're moving a small office or an entire prem
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your office removals job?"
----
-::
 
 ::long-form
 #title
@@ -184,15 +147,8 @@ Payment is collected on the day of service, with any additional time billed in f
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "movers"
+---
 ::

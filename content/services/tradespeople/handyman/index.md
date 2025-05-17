@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/handyman/handyman.webp"
 colour: "blue"
 pathtxt: "Handyman"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -39,7 +43,14 @@ Jobs our skilled handyman{{ $doc.location}} is ready to tackle
 We match you with skilled local handypeople{{ $doc.location }} for jobs big or small. Tasks can be fully customised to suit your space, timing, and preferences. Your booking is managed by our dedicated support team to ensure a smooth and reliable service from start to finish.
 ::
 
+
+::cta
 ---
+title: "Get an instant quote now"
+button: "Hire a handyman"
+---
+::
+
 
 ::process
 #title
@@ -80,48 +91,10 @@ Book a local handyman for odd jobs with ease
     ::
 ::
 
----
 
-::why-us
----
-profession: "handymen"
----
+::faq-side-ui{:faqs="faqs"}
 ::
 
----
-
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
-::
-
-::cta
-::
 
 ::long-form
 #title
@@ -151,15 +124,8 @@ Payment is collected on the day of service, and additional time is billed in fai
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "handymen"
+---
 ::

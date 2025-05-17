@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/locksmith/locksmith.webp"
 colour: "blue"
 pathtxt: "Locksmith"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -39,7 +43,14 @@ Jobs our local locksmiths{{ $doc.location}} can help with
 Locked out or need to upgrade your security? We connect you with trusted local locksmiths{{ $doc.location }} who are available when you need them. Your booking is supported by our dedicated service team, with flexible options to suit urgent or planned jobs.
 ::
 
+
+::cta
 ---
+title: "Get an instant quote now"
+button: "Hire a locksmith"
+---
+::
+
 
 ::process
 #title
@@ -80,48 +91,10 @@ Book a local locksmith with ease
     ::
 ::
 
----
 
-::why-us
----
-profession: "locksmiths"
----
+::faq-side-ui{:faqs="faqs"}
 ::
 
----
-
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
-::
-
-::cta
-::
 
 ::long-form
 #title
@@ -151,15 +124,8 @@ Payment is collected on the day of service, with additional time billed in fair 
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "locksmiths"
+---
 ::

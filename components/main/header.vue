@@ -87,9 +87,8 @@ const navigation = computed(() => [
                             Login
                         </NuxtLink>
                         <NuxtLink v-if="user && !route.path.startsWith('/services')" to="/account" class="h-8 w-8">
-                            <UAvatar chip-color="green" chip-text="" chip-position="top-right" size="sm"
-                                src="https://avatars.githubusercontent.com/u/739984?v=4" icon="i-heroicons-user"
-                                alt="Avatar">
+                            <UAvatar chip-color="green" chip-text="" chip-position="top-right" size="sm" src=""
+                                icon="mdi:account" alt="Avatar">
                             </UAvatar>
                         </NuxtLink>
                         <NuxtLink class="hidden sm:flex btn-primary h-8 px-3" :to="getStarted">
@@ -104,7 +103,7 @@ const navigation = computed(() => [
                                 class="transition-all ease-out hover:cursor-pointer flex" @click="onClick('dark')">
                                 <span class="absolute -inset-1.5"></span>
                                 <span class="sr-only">Switch to light mode</span>
-                                <Icon name="i-ph-moon-duotone" size="25" style="color: #4f46e5" />
+                                <Icon name="i-ph-moon-duotone" size="25" style="color: #5145cf" />
                             </button>
                             <button v-if="colorMode.value === 'dark'" name="dark-mode" title="Dark"
                                 class="transition-all ease-out hover:cursor-pointer flex" @click="onClick('light')">

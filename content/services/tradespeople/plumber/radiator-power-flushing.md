@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/plumber/radiator-power-flushing.webp"
 colour: "blue"
 pathtxt: "Radiator power flushing"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,10 @@ Book a radiator power flushing job with ease
 
 ---
 
-::why-us
----
-profession: "plumbers"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a plumber
+---
 #title
 What you get with radiator power flushing
 
@@ -115,44 +114,10 @@ A power flush clears out built-up sludge and restores proper heat flow across yo
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your radiator power flush?"
-button: "Hire a plumber"
----
-::
 
 ::long-form
 #title
@@ -182,15 +147,8 @@ Payment is collected on the day of service, with additional time billed in fair 
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "plumbers"
+---
 ::

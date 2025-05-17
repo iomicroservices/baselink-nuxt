@@ -10,6 +10,34 @@ ogImage: "/images/tradespeople/carpenter/carpenter.webp"
 colour: "blue"
 pathtxt: "Carpenter"
 published: true
+faqs:
+  - label: "How do I book a carpenter with BaseLink?"
+    content: "Just fill out our online form with the details, and we’ll connect you with a local professional. You’ll get an instant tailored quote and can choose a time that suits you. All bookings are handled digitally for a smooth, hassle-free experience."
+    icon: mdi:clipboard-text-clock-outline
+
+  - label: "Do I need to provide tools or materials?"
+    content: "No need to provide any tools – our carpenters come fully equipped. If materials are needed, you can supply them or request us to source them. Just let us know in the form and we’ll plan accordingly."
+    icon: mdi:hammer-screwdriver
+
+  - label: "Can I request multiple carpentry tasks in one visit?"
+    content: "Absolutely. You can group multiple tasks into a single appointment using our booking form. Got questions first? Just get in touch – we’re always happy to help."
+    icon: mdi:format-list-checks
+
+  - label: "How are carpentry jobs priced?"
+    content: "You’ll see our standard hourly rate when you fill out the form, but final pricing depends on the scope of work. Once submitted, we’ll review the details and get back to you with a tailored quote and estimated time to complete the job. The minimum booking is one hour."
+    icon: mdi:currency-gbp
+
+  - label: "Are your carpenters vetted and insured?"
+    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every clean to make sure only the best stick around. So you get safe, reliable service every time."
+    icon: mdi:shield-account
+
+  - label: "Can I cancel or reschedule a carpentry appointment?"
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the clean, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    icon: mdi:calendar-remove-outline
+
+  - label: "What if something goes wrong or I’m not happy with the job?"
+    content: "Your satisfaction matters. Let us know within 72 hours and we’ll put things right – whether it’s a revisit or a refund. We review feedback after every job to keep our service standards high."
+    icon: mdi:emoticon-sad-outline
 ---
 
 ::hero-standard
@@ -39,7 +67,14 @@ Jobs our skilled carpenters{{ $doc.location}} are ready to tackle
 Browse the list of jobs below and book a skilled carpenter{{ $doc.location}} to tackle any task, however small or large. Your booking will be managed by our dedicated support team for a reliable service. No fuss, no stress.
 ::
 
+
+::cta
 ---
+title: "Get an instant quote now"
+button: "Hire a carpenter"
+---
+::
+
 
 ::process
 #title
@@ -80,52 +115,8 @@ Booking a trusted carpenter made easy
     ::
 ::
 
----
 
-::why-us
----
-profession: "carpenters"
----
-::
-
----
-
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
-::
-
-
-::cta
----
-title: "Get an instant quote now"
-button: "Hire a carpenter"
----
+::faq-side-ui{:faqs="faqs"}
 ::
 
 
@@ -155,16 +146,8 @@ We make it easy to connect with carpentry professionals who understand your need
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-
-::cta
+profession: "carpenters"
+---
 ::

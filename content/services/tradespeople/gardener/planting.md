@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/gardener/planting.webp"
 colour: "blue"
 pathtxt: "Planting"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -70,17 +74,11 @@ Book a planting job with ease
     ::
 ::
 
----
-
-::why-us
----
-profession: "gardeners"
----
-::
-
----
 
 ::tasks
+---
+button: Hire a gardener
+---
 
 #title
 What you get with planting service
@@ -124,44 +122,10 @@ Whether you're refreshing flower beds or starting a new garden from scratch, our
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Get an instant quote now"
-button: "Hire a gardener"
----
-::
 
 ::long-form
 #title
@@ -191,15 +155,8 @@ Payment is collected on the day of your appointment, and any additional time is 
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "gardeners"
+---
 ::

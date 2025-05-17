@@ -5,7 +5,7 @@ interface Props {
     path?: string
 }
 
-const props = defineProps<Props>()
+defineProps<Props>()
 
 const { getStarted, route } = useGetStarted();
 

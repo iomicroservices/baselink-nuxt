@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/handyman/tv-wall-mounting.webp"
 colour: "blue"
 pathtxt: "TV wall mounting"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,10 @@ Book a TV wall mounting job with ease
 
 ---
 
-::why-us
----
-profession: "handymen"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a handyman
+---
 
 #title
 What you get with TV wall mounting
@@ -128,44 +127,10 @@ Our handymen{{ $doc.location }} install all bracket types on any wall surface, i
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your TV wall mounting?"
-button: "Hire a handyman"
----
-::
 
 ::long-form
 #title
@@ -195,15 +160,8 @@ Payment is collected on the day of your appointment, and any extra time is bille
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "handymen"
+---
 ::

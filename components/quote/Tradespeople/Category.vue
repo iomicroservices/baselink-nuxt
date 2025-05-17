@@ -7,16 +7,16 @@ const props = defineProps<Props>()
 
 // Categories
 const items = [
-    { name: 'Handyman', icon: 'material-symbols-light:handyman-outline', id: 'handyman' },
-    { name: 'Network', icon: 'material-symbols-light:network-manage-rounded', id: 'network-engineer' },
-    { name: 'Plumber', icon: 'material-symbols-light:water-pump-outline-rounded', id: 'plumber' },
-    { name: 'Locksmith', icon: 'material-symbols-light:vpn-key-outline-rounded', id: 'locksmith' },
-    { name: 'Carpenter', icon: 'material-symbols-light:carpenter', id: 'carpenter' },
-    { name: 'Painter', icon: 'material-symbols-light:format-paint-outline-rounded', id: 'painter-decorator' },
-    { name: 'Gardener', icon: 'material-symbols-light:park-outline-rounded', id: 'gardener' },
-    { name: 'Gas/heating', icon: 'material-symbols-light:water-heater-outline', id: 'gas-heating-engineer' },
-    { name: 'Certification', icon: 'material-symbols-light:edit-document-outline-rounded', id: 'certificates-reports' },
-    { name: 'Removals', icon: 'material-symbols-light:delivery-truck-speed-outline-rounded', id: 'removals' }
+    { name: 'Handyman', icon: 'mdi:pliers', id: 'handyman' },
+    { name: 'Network', icon: 'mdi:wifi-strength-3-lock', id: 'network-engineer' },
+    { name: 'Plumber', icon: 'mdi:pipe-leak', id: 'plumber' },
+    { name: 'Locksmith', icon: 'mdi:key-chain', id: 'locksmith' },
+    { name: 'Carpenter', icon: 'mdi:hand-saw', id: 'carpenter' },
+    { name: 'Painter', icon: 'mdi:brush-variant', id: 'painter-decorator' },
+    { name: 'Gardener', icon: 'mdi:mower-bag', id: 'gardener' },
+    { name: 'Gas/heating', icon: 'mdi:thermometer-lines', id: 'gas-heating-engineer' },
+    { name: 'Certification', icon: 'mdi:certificate', id: 'certificates-reports' },
+    { name: 'Removals', icon: 'mdi:van-utility', id: 'removals' }
 ]
 
 // State
@@ -60,8 +60,7 @@ const emit = defineEmits<{
                     <Icon :name="selected.icon" size="24" />
                     <span>{{ selected.name }}</span>
                 </div>
-                <Icon class="text-gray-400 dark:text-gray-500 h-6 w-6" name="i-heroicons:chevron-down-20-solid"
-                    size="24" />
+                <Icon class="text-gray-400 dark:text-gray-500 h-6 w-6" name="mdi:chevron-down" size="24" />
             </div>
         </div>
 

@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/network-engineer/iptv-installation.webp"
 colour: "blue"
 pathtxt: "IPTV installation"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,14 +76,6 @@ Book an IPTV installation with ease
 
 ---
 
-::why-us
----
-profession: "network engineers"
----
-::
-
----
-
 ::tasks
 #title
 What you get with IPTV installation
@@ -115,43 +111,10 @@ Access on-demand TV and streaming via your network with IPTV. Our network engine
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your IPTV installation?"
----
-::
 
 ::long-form
 #title
@@ -184,15 +147,8 @@ Payment is collected on the day of service, with additional time billed in fair 
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "network engineers"
+---
 ::

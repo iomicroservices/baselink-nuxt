@@ -66,7 +66,7 @@ const handleSubmit = async () => {
         <!-- Left column: Login form or success message -->
         <div class="w-full lg:w-1/2 bg-white dark:bg-gray-900 p-5 lg:p-10 flex items-center justify-center">
             <div v-if="formSubmitted" class="text-center space-y-4">
-                <UIcon name="i-heroicons-check-circle" class="w-14 h-14 text-green-500 mx-auto" />
+                <UIcon name="mdi:check" class="w-14 h-14 text-green-500 mx-auto" />
                 <p class="text-lg font-normal text-gray-800 dark:text-white">{{ successMsg }}</p>
             </div>
 
@@ -85,18 +85,17 @@ const handleSubmit = async () => {
                     <UForm :state="registerFormState" class="grid gap-y-4" @submit.prevent="handleSubmit">
 
                         <UFormGroup size="xl" name="email" label="Email" required>
-                            <UInput v-model="registerFormState.email" autocomplete="email"
-                                icon="i-heroicons-envelope" />
+                            <UInput v-model="registerFormState.email" autocomplete="email" icon="mdi:email-outline" />
                         </UFormGroup>
 
                         <UFormGroup size="xl" name="password" label="Password" required>
                             <UInput v-model="registerFormState.password" :type="showPassword ? 'text' : 'password'"
-                                icon="i-heroicons-lock-closed" autocomplete="new-password"
+                                icon="mdi:lock-outline" autocomplete="new-password"
                                 :ui="{ icon: { trailing: { pointer: '' } } }">
                                 <template #trailing>
                                     <UButton color="gray" variant="link"
-                                        :icon="showPassword ? 'i-heroicons-eye-slash' : 'i-heroicons-eye'"
-                                        :padded="false" @click="showPassword = !showPassword" />
+                                        :icon="showPassword ? 'mdi:eye-off-outline' : 'mdi:eye-outline'" :padded="false"
+                                        @click="showPassword = !showPassword" />
                                 </template>
                             </UInput>
                         </UFormGroup>
@@ -105,12 +104,12 @@ const handleSubmit = async () => {
                             <UInput v-model="registerFormState.confirmPassword"
                                 :type="showConfirmPassword ? 'text' : 'password'"
                                 :disabled="!registerFormState.password"
-                                :icon="passwordsMatch ? 'i-heroicons-check-circle' : 'i-heroicons-exclamation-circle'"
+                                :icon="passwordsMatch ? 'mdi:check-circle-outline' : 'mdi:alert-circle-outline'"
                                 :color="!registerFormState.password ? 'gray' : (passwordsMatch === null ? 'white' : passwordsMatch ? 'green' : 'red')"
                                 :ui="{ icon: { trailing: { pointer: '' } } }">
                                 <template #trailing>
                                     <UButton color="gray" variant="link"
-                                        :icon="showConfirmPassword ? 'i-heroicons-eye-slash' : 'i-heroicons-eye'"
+                                        :icon="showConfirmPassword ? 'mdi:eye-off-outline' : 'mdi:eye-outline'"
                                         :padded="false" @click="showConfirmPassword = !showConfirmPassword" />
                                 </template>
                             </UInput>
@@ -118,8 +117,8 @@ const handleSubmit = async () => {
 
                         <UFormGroup size="xl" name="termsCheckbox" required class="py-2">
                             <div class="flex items-start">
-                                <UToggle v-model="registerFormState.termsCheckbox" on-icon="i-heroicons-check-20-solid"
-                                    off-icon="i-heroicons-x-mark-20-solid" color="green" />
+                                <UToggle v-model="registerFormState.termsCheckbox" on-icon="mdi:check"
+                                    off-icon="mdi:close" color="green" />
                                 <label for="termsCheckbox" class="ml-2 text-sm dark:text-white">
                                     I accept the
                                     <NuxtLink to="/legal/terms-of-service"
@@ -130,7 +129,7 @@ const handleSubmit = async () => {
                             </div>
                         </UFormGroup>
 
-                        <UButton block type="submit" icon="i-heroicons-user-plus" class="w-full py-3 px-4 font-semibold"
+                        <UButton block type="submit" icon="mdi:account-plus" class="w-full py-3 px-4 font-semibold"
                             :disabled="isSubmitting || !passwordsMatch || formSubmitted" :loading="isSubmitting">
                             <template v-if="formSubmitted">
                                 <span>Sign up successful</span>

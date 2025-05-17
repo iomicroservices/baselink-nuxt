@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/plumber/toilet-repair-installation.webp"
 colour: "blue"
 pathtxt: "Toilet repair and installation"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,10 @@ Book a toilet repair or installation with ease
 
 ---
 
-::why-us
----
-profession: "plumbers"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a plumber
+---
 #title
 What you get with toilet repair & installation
 
@@ -115,44 +114,10 @@ Whether your toilet isn't flushing or you need a full replacement, we've got it 
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your toilet repair or installation?"
-button: "Hire a plumber"
----
-::
 
 ::long-form
 #title
@@ -185,15 +150,8 @@ Payment is collected on the day of service, with any additional time billed in f
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "plumbers"
+---
 ::

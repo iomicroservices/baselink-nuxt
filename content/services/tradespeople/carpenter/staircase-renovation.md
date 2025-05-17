@@ -10,6 +10,22 @@ ogImage: "/images/tradespeople/carpenter/staircase-renovation.webp"
 colour: "blue"
 pathtxt: "Staircase renovation"
 published: true
+faqs:
+  - label: "How are jobs priced?"
+    content: "You’ll see our standard hourly rate when you fill out the form, but final pricing depends on the scope of work. Once submitted, we’ll review the details and get back to you with a tailored quote and estimated time to complete the job. The minimum booking is one hour."
+    icon: mdi:currency-gbp
+
+  - label: "Are your carpenters vetted and insured?"
+    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every clean to make sure only the best stick around. So you get safe, reliable service every time."
+    icon: mdi:shield-account
+
+  - label: "Can I cancel or reschedule a carpentry appointment?"
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the clean, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    icon: mdi:calendar-remove-outline
+
+  - label: "What if something goes wrong or I’m not happy with the job?"
+    content: "Your satisfaction matters. Let us know within 72 hours and we’ll put things right with another visit free of charge. We review feedback after every job to keep our service standards high."
+    icon: mdi:emoticon-sad-outline
 ---
 
 ::hero-standard
@@ -72,15 +88,12 @@ Book a staricase renovation job with ease
 
 ---
 
-::why-us
----
-profession: "carpenters"
----
-::
-
 ---
 
 ::tasks
+---
+button: Hire a carpenter
+---
 
 #title
 What does the staircase renovation service include?
@@ -140,44 +153,10 @@ Our skilled and trusted carpenters{{ $doc.location}} can design, replace, instal
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your staircase renovation job?"
-button: "Hire a carpenter"
----
-::
 
 ::long-form
 #title
@@ -206,17 +185,8 @@ If safety is a concern, upgrades can be made to improve grip and stability. Cust
 
 ::
 
+::why-us
 ---
-
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+profession: "carpenters"
 ---
-
-::contact
-::
-
-::cta
 ::

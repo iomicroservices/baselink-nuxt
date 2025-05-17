@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/painter-decorator/interior-painting.webp"
 colour: "blue"
 pathtxt: "Interior painting"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,14 +76,6 @@ Book an interior painting job with ease
 
 ---
 
-::why-us
----
-profession: "painters"
----
-::
-
----
-
 ::tasks
 #title
 What you get with interior painting service
@@ -131,44 +127,10 @@ Brighten up your property with professional interior painting. Our skilled paint
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your interior painting job?"
-button: "Hire a painter"
----
-::
 
 ::long-form
 #title
@@ -201,15 +163,8 @@ Payment is collected on the day of the visit, with any additional time billed fa
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "painters"
+---
 ::

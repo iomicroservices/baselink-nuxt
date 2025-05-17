@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/handyman/curtain-blind-fitting.webp"
 colour: "blue"
 pathtxt: "Curtain and blind fitting"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -71,15 +75,10 @@ Book a curtain or blind fitting job with ease
 
 ---
 
-::why-us
----
-profession: "handymen"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a handyman
+---
 
 #title
 What you get with curtain and blind fitting
@@ -123,44 +122,10 @@ Whether you're updating a single room or fitting out a whole home, we install al
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Get an instant quote now"
-button: "Hire a handyman"
----
-::
 
 ::long-form
 #title
@@ -190,15 +155,8 @@ Payment is collected on the day of the job, and any additional time is billed fa
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "handymen"
+---
 ::

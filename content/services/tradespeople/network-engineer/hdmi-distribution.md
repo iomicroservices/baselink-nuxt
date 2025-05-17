@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/network-engineer/hdmi-distribution.webp"
 colour: "blue"
 pathtxt: "HDMI distribution"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,14 +76,6 @@ Book a HDMI distribution job with ease
 
 ---
 
-::why-us
----
-profession: "network engineers"
----
-::
-
----
-
 ::tasks
 #title
 What you get with HDMI distribution service
@@ -107,43 +103,10 @@ Distribute video from one device to multiple screens with seamless HDMI integrat
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Get an instant quote now"
----
-::
 
 ::long-form
 #title
@@ -176,15 +139,8 @@ Payment is collected on the day of service, and any extra time is billed in fair
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "network engineers"
+---
 ::

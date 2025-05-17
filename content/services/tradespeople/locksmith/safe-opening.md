@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/locksmith/safe-opening.webp"
 colour: "blue"
 pathtxt: "Safe opening"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,11 @@ Book a safe opening job with ease
 
 ---
 
-::why-us
----
-profession: "locksmiths"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a locksmith
+---
+
 #title
 What you get with safe opening
 
@@ -111,44 +111,10 @@ Lost the code or key to your safe? We open digital, combination and manual safes
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your safe opening job?"
-button: "Hire a locksmith"
----
-::
 
 ::long-form
 #title
@@ -178,15 +144,8 @@ Payment is collected on the day of the visit, with additional time billed fairly
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "locksmiths"
+---
 ::

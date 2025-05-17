@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/gas-heating-engineer/boiler-service.webp"
 colour: "blue"
 pathtxt: "Boiler service"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,10 @@ Book a boiler annual service with ease
 
 ---
 
-::why-us
----
-profession: "engineers"
----
-::
-
----
-
 ::tasks
+---
+button: Hire an engineer
+---
 
 #title
 What you get with boiler servicing
@@ -136,44 +135,10 @@ We service all major types and brands of boilers to keep your heating system run
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Ready to book your boiler service?"
-button: "Hire an engineer"
----
-::
 
 ::long-form
 #title
@@ -203,15 +168,8 @@ Payment is collected on the day of service, with any additional time billed fair
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "engineers"
+---
 ::

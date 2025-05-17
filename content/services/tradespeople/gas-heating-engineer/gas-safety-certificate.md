@@ -10,6 +10,10 @@ ogImage: "/images/tradespeople/gas-heating-engineer/gas-safety-certificate.webp"
 colour: "blue"
 pathtxt: "Gas safety certificate"
 published: true
+faqs:
+  - label: "Question 1?"
+    content: "Answer 1."
+    icon: mdi:tools
 ---
 
 ::hero-standard
@@ -72,15 +76,10 @@ Book gas safety certification with ease
 
 ---
 
-::why-us
----
-profession: "engineers"
----
-::
-
----
-
 ::tasks
+---
+button: Hire an engineer
+---
 
 #title
 How BaseLink helps ensure your property is gas safe
@@ -128,40 +127,10 @@ A CP12 Gas Safety Certificate is a legal requirement for landlords in the UK. Ou
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
-::
 
 ::long-form
 #title
@@ -191,15 +160,8 @@ Payment is collected on the day of the visit, with any extra time billed fairly 
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
+profession: "engineers"
+---
 ::
