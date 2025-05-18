@@ -11,17 +11,37 @@ colour: "blue"
 pathtxt: "Door hanging"
 published: true
 faqs:
+  - label: "How do I book a carpenter with BaseLink?"
+    content: "Just fill out our online form with the details, and we’ll connect you with a local professional. You’ll get an instant tailored quote and can choose a time that suits you. All bookings are handled digitally for a smooth, hassle-free experience."
+    icon: mdi:clipboard-text-clock-outline
+
+  - label: "What’s included in the door hanging service?"
+    content: "We can hang internal or external doors, remove and dispose of the old one, fit new hinges, handles and locks, trim the door to size, adjust the frame if needed, and carry out final checks. You can also request door frame fitting or repair if required."
+    icon: mdi:door
+
+  - label: "Do I need to provide the door or hardware?"
+    content: "You’re welcome to supply your own materials — just let us know what you’ve got. If you need us to source the door or parts like locks or hinges, we can do that too. We’ll confirm the cost with you before we proceed."
+    icon: mdi:archive-settings-outline
+
   - label: "How are door hanging jobs priced?"
     content: "You’ll see our standard hourly rate when you fill out the form, but final pricing depends on the scope of work. Once submitted, we’ll review the details and get back to you with a tailored quote and estimated time to complete the job. The minimum booking is one hour."
     icon: mdi:currency-gbp
 
+  - label: "How is payment handled?"
+    content: "We charge for the first hour upfront when you book. Any additional time is billed on the day of the job in 30-minute increments. If we supply materials, they’ll be added to your final bill. You’ll get a full breakdown before we take payment."
+    icon: mdi:credit-card-check-outline
+
   - label: "Are your carpenters vetted and insured?"
-    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every clean to make sure only the best stick around. So you get safe, reliable service every time."
+    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every job to make sure only the best stick around. So you get safe, reliable service every time."
     icon: mdi:shield-account
 
   - label: "Can I cancel or reschedule a carpentry appointment?"
-    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the clean, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the job, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
     icon: mdi:calendar-remove-outline
+
+  - label: "Can I request multiple carpentry tasks in one visit?"
+    content: "Absolutely. You can group multiple tasks into a single appointment using our booking form. Got questions first? Just get in touch – we’re always happy to help."
+    icon: mdi:format-list-checks
 
   - label: "What if something goes wrong or I’m not happy with the job?"
     content: "Your satisfaction matters. Let us know within 72 hours and we’ll put things right with another visit free of charge. We review feedback after every job to keep our service standards high."

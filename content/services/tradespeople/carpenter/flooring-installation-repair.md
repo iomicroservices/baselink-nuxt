@@ -11,16 +11,36 @@ colour: "blue"
 pathtxt: "Flooring installation and repair"
 published: true
 faqs:
+  - label: "How do I book a flooring job with BaseLink?"
+    content: "Just fill out our online form with the flooring type and job details. You’ll get an instant quote and can choose a time that suits you. We’ll match you with a skilled local carpenter — all managed through our digital platform."
+    icon: mdi:clipboard-text-clock-outline
+
+  - label: "What types of flooring can you install or repair?"
+    content: "We work with laminate, hardwood, vinyl, carpet and tiles. Whether you need new flooring installed or existing boards repaired or replaced, our carpenters can help. We also offer floor sanding and sealing if you just want to refresh your current surface."
+    icon: mdi:floor-plan
+
+  - label: "Can you prepare the subfloor or fix uneven surfaces?"
+    content: "Yes — subfloor preparation and levelling can be included in your job. Just let us know in the form so we can factor it into your quote."
+    icon: mdi:angle-acute
+
+  - label: "Do I need to supply the flooring materials?"
+    content: "You can either provide your own flooring materials or request us to supply them. If we’re sourcing materials, your carpenter will confirm costs for approval before purchasing. Any agreed materials will be added to your final bill."
+    icon: mdi:archive-settings-outline
+
   - label: "How are flooring jobs priced?"
     content: "You’ll see our standard hourly rate when you fill out the form, but final pricing depends on the scope of work. Once submitted, we’ll review the details and get back to you with a tailored quote and estimated time to complete the job. The minimum booking is one hour."
     icon: mdi:currency-gbp
 
+  - label: "How is payment handled?"
+    content: "We collect payment for the first hour when you book. The remaining balance is charged on the day of your job, based on time spent and any approved materials. Extra time is billed fairly in 30-minute increments."
+    icon: mdi:credit-card-check-outline
+
   - label: "Are your carpenters vetted and insured?"
-    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every clean to make sure only the best stick around. So you get safe, reliable service every time."
+    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. Ongoing feedback helps us maintain high service standards."
     icon: mdi:shield-account
 
   - label: "Can I cancel or reschedule a carpentry appointment?"
-    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the clean, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the job, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
     icon: mdi:calendar-remove-outline
 
   - label: "What if something goes wrong or I’m not happy with the job?"

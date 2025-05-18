@@ -10,6 +10,51 @@ ogImage: "/images/commercial-cleaning/holiday-rental-cleaning.webp"
 colour: "yellow"
 pathtxt: "Holiday rental cleaning"
 published: true
+
+faqs:
+    - label: "How do cleaners access the property?"
+      content: "Need hands-off access? No problem. Share your preferred method – key codes, lockbox combinations, or temporary key arrangements – through our secure booking system. Cleaners follow strict protocols for key collection and return, ensuring your property remains secure."
+      icon: mdi:key-outline
+
+    - label: "Can I cancel or reschedule?"
+      content: "Changes and cancellations are free with 12+ hours notice. Late cancellations incur a fee, typically at the rate of the first hour to cover allocated cleaner time. Emergency changes? Rest assured, we'll always try to accommodate urgent changes where possible – just contact our support team for assistance."
+      icon: mdi:calendar-edit-outline
+
+    - label: "Do I need to provide cleaning supplies?"
+      content: "Our cleaners require you to provide basic equipment (vacuum cleaner, mop, and bucket) at your property. You're welcome to supply your own cleaning products, such as sprays and cloths, or we can provide them for a small additional fee. Need restocking of guest supplies like toiletries or kitchen essentials? Just leave instructions with your booking details."
+      icon: mdi:spray-bottle
+
+    - label: "Can I manage more than one property?"
+      content: "Absolutely. BaseLink makes it simple to handle cleaning for your entire portfolio—whether you have two properties or twenty. During setup, just inform us about your additional listings, and we'll configure your account for seamless management. You'll be able to: schedule individual or recurring cleans for each property, set custom instructions per listing and track all services in one dashboard. No back-and-forth emails — just efficient, centralised control."
+      icon: mdi:home-group
+
+    - label: "What if I'm not satisfied with the cleaning service?"
+      content: "Your satisfaction is guaranteed. We stand behind our work with a 24-hour re-clean guarantee at no extra cost. Simply notify us within 24 hours of service completion, and we'll promptly return to address any issues. To help us maintain high standards, you can rate your cleaner after each service and request a different cleaning professional for future bookings if preferred."
+      icon: mdi:emoticon-neutral-outline
+
+    - label: "What happens if my cleaner becomes unavailable?"
+      content: "We guarantee no disruption to your service. If your regular cleaner is unavailable, you'll be promptly notified with options to book a pre-vetted replacement through your account or via our support team. Emergency cover cleaners are always on standby, fully briefed on your property's needs to maintain consistent standards."
+      icon: mdi:account-switch-outline
+
+    - label: "How can I schedule a clean?"
+      content: "Schedule cleans effortlessly through your online account. Choose between one-time or recurring cleaning services with real-time availability. Easily adjust future bookings or set custom instructions for each property — all managed in one place for complete hosting peace of mind."
+      icon: mdi:calendar-clock-outline
+
+    - label: "How does pricing and billing work?"
+      content: "All commercial cleans are charged per hour, with a standard two-hour minimum per visit. However, for clients with frequent or multi-property bookings, we can offer flexible arrangements. We use a streamlined invoicing system tailored for businesses — you’ll receive clear, itemised invoices for each clean, and can set up scheduled billing for ongoing services. No messy admin, just reliable, transparent billing built for hosts and property managers."
+      icon: mdi:receipt-text-outline
+
+    - label: "Can I hire an holiday rental cleaner near me?"
+      content: "BaseLink provides trusted, specialist cleaners serving short-term rental properties across the UK's major cities. Our network of cleaning professionals ensure prompt, reliable service whenever you need it. To confirm availability in your specific area, simply complete our quick online form. You'll receive a personalised quote, along with details about our local cleaning teams familiar with properties like yours. We match you with cleaners based on your location, property type and schedule requirements - taking the guesswork out of finding reliable help. Whether you need regular servicing between guest stays or a one-off deep clean, we've got you covered with convenient, local cleaners designed specifically for holiday rental hosts."
+      icon: mdi:map-marker-radius-outline
+
+    - label: "How are cleaners vetted?"
+      content: "All cleaners pass rigorous background checks, reference verifications, and in-person interviews to ensure they are able to achieve short-let standards before joining our platform."
+      icon: mdi:shield-check-outline
+
+    - label: "Can I automate my cleaning schedule?"
+      content: "BaseLink offers a seamless automation service that automatically schedules cleans precisely when needed — no manual intervention or additional tools are required from you. Our system intelligently arranges cleaning appointments between check-outs and check-ins, adapting automatically to booking changes or adjusted guest timings. You'll receive confirmations for each scheduled clean. To enable this service, simply contact our team to discuss your requirements."
+      icon: mdi:robot-outline
 ---
 
 ::hero-standard
@@ -72,15 +117,11 @@ Our simple process for holiday rental cleaning
 
 ---
 
-::why-us
----
-profession: "cleaners"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a cleaner
+---
+
 #title
 What you get with holiday rental cleaning
 
@@ -150,44 +191,10 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable holiday rental cleaning starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -218,21 +225,8 @@ BaseLink makes short-let property management smoother and more efficient. With t
 
 ---
 
-::subcategory
+::why-us
 ---
-category: tradespeople
+profession: "cleaners"
 ---
-#title
-Additional services for holiday rentals{{ $doc.location }}
-
-#description
-BaseLink offers a variety of services to meet all your commercial and business needs.
-::
-
----
-
-::contact
-::
-
-::cta
 ::

@@ -22,6 +22,8 @@ withDefaults(defineProps<Props>(), {
 
       <slot name="card-image" />
 
+      <slot name="card-title" />
+
       <div v-if="description" class="my-6 grow rounded-b-[--card-border-radius]">
         <p class="text-gray-800 dark:text-slate-200 -mb-3">
           {{ description }}

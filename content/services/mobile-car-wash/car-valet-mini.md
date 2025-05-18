@@ -10,6 +10,46 @@ ogImage: "/images/mobile-car-wash/mini-car-valet.webp"
 colour: "red"
 pathtxt: "Mini car valet"
 published: true
+faqs:
+  - label: "What does a mini car valet include?"
+    content: "The mini valet gives your car a fast but detailed refresh inside and out. You’ll get an exterior hand wash, wheel clean, tar spot removal, and light polish. Inside, we vacuum seats and mats, wipe dashboards and plastics, clean compartments and vents, and finish with a final inspection to ensure quality."
+    icon: mdi:car-wash
+
+  - label: "How long does a mini valet take?"
+    content: "A typical mini valet takes around 60 to 90 minutes, depending on your vehicle's size and condition. It’s ideal when you want a thorough clean without the full-day wait."
+    icon: mdi:timer-outline
+
+  - label: "Can I customise the mini valet?"
+    content: "Absolutely. You can add extra services or leave special instructions during booking — whether it’s extra focus on the wheels, stubborn pet hair, or interior touch-ups. Just let us know and we’ll tailor the service to your needs."
+    icon: mdi:clipboard-edit-outline
+
+  - label: "Where can you carry out the valet?"
+    content: "We can valet your car wherever it’s safe and accessible — at home, at work, or in a private parking space. Just make sure there’s enough room for us to work around the vehicle and that it's not parked on a public or busy road."
+    icon: mdi:map-marker-radius-outline
+
+  - label: "Do I need to be there during the valet?"
+    content: "Not unless you want to be. You can leave access instructions during booking and we’ll take care of the rest. We’ll send before-and-after photos once the clean is complete, so you can review it remotely."
+    icon: mdi:account-off-outline
+
+  - label: "What do I need to provide?"
+    content: "Nothing at all. Our team brings all necessary equipment, products, and water supply if needed. Just let us know during booking if access to power or water is restricted, and we’ll adjust accordingly."
+    icon: mdi:toolbox-outline
+
+  - label: "How do I book a mini car valet?"
+    content: "Booking is easy through our digital platform. Just fill in the form, choose your location and service, and get an instant quote. You’ll be matched with a local professional and get real-time updates on your booking."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is the mini valet priced?"
+    content: "You’ll see a fixed quote when booking based on your car and selected services. Payment is taken on the day, and if extra time is needed, we’ll bill fairly in 30-minute increments. No surprises — just clear pricing."
+    icon: mdi:receipt-text-outline
+
+  - label: "What if I need to cancel or reschedule?"
+    content: "No problem — changes are free up to 24 hours in advance. You can manage your booking online or get in touch with our support team for help. We’ll always try to accommodate last-minute changes where possible."
+    icon: mdi:calendar-remove-outline
+
+  - label: "Are your valet professionals vetted?"
+    content: "Yes — all BaseLink providers are fully vetted, insured, and rated by real customers. We only work with experienced professionals who meet our high service standards."
+    icon: mdi:shield-check-outline
 ---
 
 ::hero-standard
@@ -68,14 +108,6 @@ How to book a mini mobile car valet
     #description
     Our team arrives at your location and delivers a mini valet service, cleaning both the interior and exterior, leaving your car looking like new.
     ::
-::
-
----
-
-::why-us
----
-profession: "cleaners"
----
 ::
 
 ---
@@ -139,44 +171,10 @@ You can customise your valet with special instructions or add extra services. Yo
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable mini car valet starts here"
-button: "Hire a valeter"
----
-::
 
 ::long-form
 #title
@@ -209,26 +207,8 @@ Book a mini car valet{{$doc.location}} with BaseLink and enjoy a clean, refreshe
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
-::
-
-::subcategory
+profession: "cleaners"
 ---
-category: home-cleaning
----
-#title
-BaseLink cleaning services for your home{{ $doc.location }} too
-
-#description
-We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

@@ -167,6 +167,11 @@ Payment is collected on the day of your appointment, with any additional time bi
 
 ---
 
+::brands{type="boilers"}
+#title
+Our qualified engineers can install any boiler brand
+::
+
 ::why-us
 ---
 profession: "engineers"

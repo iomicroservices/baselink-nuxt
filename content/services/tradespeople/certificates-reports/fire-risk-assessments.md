@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Fire Risk Assessments"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What is a fire risk assessment?"
+    content: "A fire risk assessment is a detailed inspection of your property to identify fire hazards, evaluate escape routes and fire detection systems, and ensure compliance with fire safety laws. It’s a legal requirement for HMOs, businesses, and any building with shared common areas."
+    icon: mdi:fire-alert
+
+  - label: "Who carries out the fire risk assessment?"
+    content: "All assessments are completed by qualified, vetted, and fully insured fire safety professionals. BaseLink only works with assessors experienced in conducting reports that meet Fire Safety Order (FSO) requirements."
+    icon: mdi:shield-check-outline
+
+  - label: "What’s included in the assessment?"
+    content: "The inspection covers fire hazards, alarms, warning systems, escape routes, emergency lighting, signage, firefighting equipment, evacuation plans, training, and your fire logbook. You’ll receive a full report with a risk rating and clear recommendations."
+    icon: mdi:clipboard-check-outline
+
+  - label: "Is a fire risk assessment legally required?"
+    content: "Yes — if your property falls under the Regulatory Reform (Fire Safety) Order, such as HMOs, commercial premises, and blocks with shared access. It’s your responsibility to ensure the property is assessed and kept compliant."
+    icon: mdi:gavel
+
+  - label: "How much does a fire risk assessment cost?"
+    content: "We offer fixed pricing for fire risk assessments. You’ll get an instant quote when you book. We collect your payment method upfront, and the full amount is charged on the day of the visit."
+    icon: mdi:cash-check
+
+  - label: "Can I cancel or reschedule my appointment?"
+    content: "Yes — you can cancel or reschedule for free with at least 24 hours’ notice. Just log into your BaseLink account or contact our support team to make any changes."
+    icon: mdi:calendar-remove-outline
+
+  - label: "What happens if issues are found during the assessment?"
+    content: "Your report will clearly outline what needs fixing, with a risk rating for each issue. You can then take action yourself or book a follow-up through BaseLink with the right professional for the job."
+    icon: mdi:alert-circle-outline
+
+  - label: "Do you work with landlords and property managers?"
+    content: "Absolutely. Whether you manage one property or several, you can book, track and manage assessments through a single BaseLink account. We also support managing agents, developers and commercial clients."
+    icon: mdi:account-multiple-outline
 ---
 
 ::hero-standard

@@ -10,6 +10,46 @@ ogImage: "/images/home-cleaning/housekeeping.webp"
 colour: "green"
 pathtxt: "Housekeeping"
 published: true
+faqs:
+  - label: "What’s included in housekeeping services?"
+    content: "Our housekeeping covers more than just cleaning. It includes laundry (wash, dry and iron), fresh linen replacement, dishwasher runs, rubbish removal, tidying and more. You can also request custom tasks as needed."
+    icon: mdi:broom
+
+  - label: "Can I book a regular housekeeper?"
+    content: "Yes — you can set up a recurring schedule that works for you, whether it’s weekly, fortnightly or multiple times a week. You’ll have the option to keep the same professional for each visit, depending on availability."
+    icon: mdi:calendar-repeat
+
+  - label: "Do housekeepers do laundry and ironing?"
+    content: "They do! Your housekeeper can wash, dry, and iron laundry as part of your visit. You can also request bed linen and towel changes — just let us know your preferences when booking."
+    icon: mdi:tshirt-crew-outline
+
+  - label: "Can I customise the housekeeping tasks?"
+    content: "Absolutely. You can add or remove tasks, include special requests, or focus on certain rooms. Just use the notes section in our booking form to tell us what you need — and we’ll handle the rest."
+    icon: mdi:clipboard-edit-outline
+
+  - label: "What equipment or products do I need to provide?"
+    content: "You’ll need to provide basic equipment like a hoover, mop, bucket and any laundry products. You’re welcome to supply your own cleaning products or we can bring eco-friendly options for a small extra fee — just select this during booking."
+    icon: mdi:spray-bottle
+
+  - label: "How long does a typical housekeeping session take?"
+    content: "That depends on your home size and chosen tasks. Most housekeeping visits last 2 to 4 hours. Our quote form recommends a time based on your selections, but you can adjust it if needed."
+    icon: mdi:timer-outline
+
+  - label: "Can I book on short notice?"
+    content: "Yes — same-day and next-day bookings are available depending on local availability. Just fill out the form and we’ll match you with a trusted professional as soon as possible."
+    icon: mdi:clock-fast
+
+  - label: "What if my regular housekeeper isn’t available?"
+    content: "We’ll notify you and offer a suitable replacement. All our housekeepers are vetted and trained to follow your preferences and notes, so service quality stays consistent even if your regular cleaner isn’t available."
+    icon: mdi:account-switch-outline
+
+  - label: "How does billing work for housekeeping?"
+    content: "You’ll see a clear hourly rate when booking. Payment is taken on the day of your clean, and any extra time is billed in 30-minute increments. Everything is transparent and itemised in your receipt."
+    icon: mdi:receipt-text-outline
+
+  - label: "Are your housekeepers vetted and insured?"
+    content: "Yes — all BaseLink housekeepers are background-checked, insured, and reviewed by customers after each job. We only work with trusted professionals who deliver high-quality, reliable service."
+    icon: mdi:shield-check-outline
 ---
 
 ::hero-standard
@@ -72,15 +112,11 @@ Easily book housekeeping in 3 simple steps
 
 ---
 
-::why-us
----
-profession: "housekeepers"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a cleaner
+---
+
 #title
 What you get with housekeeping
 
@@ -138,44 +174,10 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable housekeeping starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -208,21 +210,8 @@ Book housekeeping services{{$doc.location}} today with BaseLink — and enjoy a 
 
 ---
 
-::subcategory
+::why-us
 ---
-category: tradespeople
+profession: "housekeepers"
 ---
-#title
-Additional services for your home or business{{ $doc.location }}
-
-#description
-BaseLink offers a variety of services to meet all your needs.
-::
-
----
-
-::contact
-::
-
-::cta
 ::

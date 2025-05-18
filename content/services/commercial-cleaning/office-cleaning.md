@@ -10,6 +10,50 @@ ogImage: "/images/commercial-cleaning/office-cleaning.webp"
 colour: "yellow"
 pathtxt: "Office cleaning"
 published: true
+faqs:
+  - label: "What’s included in office cleaning?"
+    content: "Our service covers dusting, vacuuming, mopping, toilet and kitchen cleaning, sanitising high-touch areas, trash removal, and restocking supplies. We also clean breakout spaces, meeting rooms, and workstations. Everything is tailored to your office layout and priorities."
+    icon: mdi:office-building-outline
+
+  - label: "Can I customise the cleaning schedule?"
+    content: "Yes — you can book one-off, daily, weekly or custom schedules that fit around your business hours. We offer early morning, evening, and weekend slots to minimise disruption to your team."
+    icon: mdi:calendar-clock-outline
+
+  - label: "Do you clean shared spaces and breakout areas?"
+    content: "Absolutely. We clean and tidy shared kitchens, breakout spaces, meeting rooms, and communal areas to keep your entire office presentable. You can specify any high-traffic zones that need special attention."
+    icon: mdi:account-group-outline
+
+  - label: "Can cleaners restock our supplies?"
+    content: "Yes. Cleaners can restock toiletries, kitchen consumables, and other essentials. We provide a stock checklist to help you stay on top of what’s needed — no running out mid-week!"
+    icon: mdi:format-list-checks
+
+  - label: "Do I need to provide cleaning equipment or supplies?"
+    content: "You'll need to provide a vacuum, mop, and bucket. We can bring eco-friendly cleaning products for a small fee, or you’re welcome to supply your own — just let us know your preference when booking."
+    icon: mdi:shopping-outline
+
+  - label: "Will I get the same cleaner each time?"
+    content: "Yes — we assign a dedicated cleaner or team to your office for consistency and reliability. If they’re ever away, we’ll send a trained cover cleaner who’s fully briefed on your site requirements."
+    icon: mdi:account-check-outline
+
+  - label: "What if my office has specific access rules?"
+    content: "No problem. We’ll follow your preferred access method — keycards, lockboxes, or staff check-ins. Just let us know your setup when booking, and we’ll make sure cleaners follow your protocol."
+    icon: mdi:key-outline
+
+  - label: "Can I make special requests or adjust tasks?"
+    content: "Yes — you can customise your task list and update instructions any time through your online account. Whether it’s extra attention to a specific room or skipping an area during renovations, we’ll adjust to suit your needs."
+    icon: mdi:clipboard-edit-outline
+
+  - label: "How do I get a quote?"
+    content: "Just fill out our quick online form. Tell us about your space and needs, and we’ll give you an instant quote. You’ll also have the option to chat with our team if you'd like to refine the plan further."
+    icon: mdi:calculator-variant-outline
+
+  - label: "How is payment handled?"
+    content: "Payment is collected on the day of the clean. Any additional time required is billed in 30-minute increments. You’ll receive a full itemised summary for each visit."
+    icon: mdi:receipt-text-outline
+
+  - label: "Are your office cleaners vetted and insured?"
+    content: "Yes — all BaseLink cleaners are fully vetted, background-checked, insured, and rated by other businesses. We only work with trusted professionals who meet our service standards."
+    icon: mdi:shield-check-outline
 ---
 
 ::hero-standard
@@ -72,15 +116,11 @@ Our simple process for office cleaning
 
 ---
 
-::why-us
----
-profession: "cleaners"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a cleaner
+---
+
 #title
 What you get with office cleaning
 
@@ -134,44 +174,10 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable office cleaning starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -202,21 +208,8 @@ With BaseLink, you get the reliability of professional cleaners{{$doc.location}}
 
 ---
 
-::subcategory
+::why-us
 ---
-category: tradespeople
+profession: "cleaners"
 ---
-#title
-Additional services for commercial offices{{ $doc.location }}
-
-#description
-BaseLink offers a variety of services to meet all your commercial and business needs.
-::
-
----
-
-::contact
-::
-
-::cta
 ::

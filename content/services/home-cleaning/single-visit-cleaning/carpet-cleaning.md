@@ -10,6 +10,46 @@ ogImage: "/images/home-cleaning/single-visit-cleaning/carpet-cleaning.webp"
 colour: "green"
 pathtxt: "Carpet cleaning"
 published: true
+faqs:
+  - label: "What does carpet cleaning include?"
+    content: "The service starts with a full inspection of your carpet’s condition and fabric type. We then vacuum to remove loose dirt, pre-treat stains, and perform either deep steam or dry cleaning based on what’s suitable. A deodorising treatment is included, and we use air movers for fast drying where needed."
+    icon: mdi:rug
+
+  - label: "Do you use steam or dry cleaning?"
+    content: "We use both, depending on your carpet type. Steam cleaning is great for deep, thorough cleans and lifting ingrained dirt, while dry cleaning is ideal for delicate fibres or rooms that need to dry quickly. Your cleaner will assess and choose the best method during the inspection."
+    icon: mdi:water-opacity
+
+  - label: "How long does it take for carpets to dry?"
+    content: "Drying time varies based on the cleaning method, carpet type and ventilation — typically between 2 to 6 hours. We can use air movers to speed up the process and minimise downtime."
+    icon: mdi:weather-windy
+
+  - label: "Can you remove all stains and smells?"
+    content: "We do our best to remove as many stains and odours as possible using professional-grade products. While most marks lift with treatment, some deep-set or older stains may not disappear completely — but they’ll be significantly improved."
+    icon: mdi:emoticon-neutral-outline
+
+  - label: "Is carpet cleaning safe for pets and children?"
+    content: "Yes — we use non-toxic, eco-friendly cleaning products that are safe once dry. Let us know if you have pets, allergies, or specific sensitivities and we’ll adjust accordingly."
+    icon: mdi:paw-outline
+
+  - label: "Do I need to prepare the room beforehand?"
+    content: "Please remove any small items or breakables before we arrive. We can work around larger furniture, or move it during the service if required — just let us know what you'd prefer in your booking notes."
+    icon: mdi:sofa-outline
+
+  - label: "Can I add extra rooms or rugs?"
+    content: "Absolutely. You can include additional rooms, rugs or runners in your quote — or mention them during booking and we’ll update the pricing accordingly. We make it easy to customise your service."
+    icon: mdi:playlist-plus
+
+  - label: "How do I book carpet cleaning?"
+    content: "Just fill out our quick online form, get an instant quote, and pick a time that works for you. Everything is managed through your BaseLink account — no phone calls or back-and-forth needed."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is pricing handled?"
+    content: "You’ll see a clear quote based on your selected areas and any extras. Payment is collected on the day, with any additional time billed fairly in 30-minute blocks. No surprises — just straightforward pricing."
+    icon: mdi:receipt-text-outline
+
+  - label: "Are your carpet cleaners vetted and experienced?"
+    content: "Yes — all BaseLink carpet cleaners are fully vetted, trained, insured and reviewed by other customers. We only work with professionals who consistently deliver high-quality results."
+    icon: mdi:shield-check-outline
 ---
 
 ::hero-standard
@@ -72,15 +112,11 @@ Quick and easy booking for carpet cleaning
 
 ---
 
-::why-us
----
-profession: "cleaners"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a cleaner
+---
+
 #title
 What you get with carpet cleaning
 
@@ -122,44 +158,10 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable carpet cleaning starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -193,21 +195,8 @@ Book carpet cleaning{{$doc.location}} with BaseLink today and bring new life to 
 
 ---
 
-::subcategory
+::why-us
 ---
-category: tradespeople
+profession: "cleaners"
 ---
-#title
-Additional services for your home or business{{ $doc.location }}
-
-#description
-BaseLink offers a variety of services to meet all your needs.
-::
-
----
-
-::contact
-::
-
-::cta
 ::

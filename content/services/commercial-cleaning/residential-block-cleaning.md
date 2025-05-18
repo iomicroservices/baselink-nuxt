@@ -10,6 +10,46 @@ ogImage: "/images/commercial-cleaning/residential-block-cleaning.webp"
 colour: "yellow"
 pathtxt: "Residential blocks cleaning"
 published: true
+faqs:
+  - label: "What’s included in residential block cleaning?"
+    content: "We cover all key shared spaces — including vacuuming and mopping floors, dusting surfaces, cleaning lifts, staircases, and corridors, sanitising high-touch areas, tidying communal zones, sweeping entrances, and handling rubbish and recycling. Custom tasks can also be added."
+    icon: mdi:home-group
+
+  - label: "Can I set up a regular cleaning schedule?"
+    content: "Yes — you can choose a schedule that suits your building, whether that’s daily, weekly or custom intervals. We’ll help set up everything during onboarding, and you can adjust it anytime through your BaseLink account."
+    icon: mdi:calendar-sync-outline
+
+  - label: "Do you clean lifts and stairwells?"
+    content: "Absolutely. Our cleaners focus on high-traffic areas like lifts, staircases, and corridors. We make sure buttons, handrails and corners are sanitised and kept in top condition for resident safety and comfort."
+    icon: mdi:elevator-passenger-outline
+
+  - label: "Do you remove rubbish and recycling?"
+    content: "Yes — we handle bin areas, internal waste points and shared recycling zones. You can also leave specific instructions about waste collection procedures for your building and we’ll follow them."
+    icon: mdi:trash-can-outline
+
+  - label: "Can you clean external entrances and walkways?"
+    content: "Yes — we sweep entrances, tidy pathways and keep kerbside areas looking neat. If you need jet washing or seasonal upkeep (like clearing leaves), we can quote for that too."
+    icon: mdi:door-open
+
+  - label: "Can I customise the cleaning for my block?"
+    content: "Absolutely. You can add custom tasks, leave instructions for site-specific priorities, or adjust the checklist per building. Each job is tailored to the needs of your block."
+    icon: mdi:clipboard-edit-outline
+
+  - label: "Can you handle multiple properties under one account?"
+    content: "Yes — BaseLink makes it easy to manage several blocks under a single account. Each property can have its own schedule and task list, all managed digitally in one dashboard."
+    icon: mdi:map-marker-multiple-outline
+
+  - label: "How do I get a quote?"
+    content: "Just fill out our short online form with the property details and cleaning requirements. You’ll get an instant quote and we’ll follow up to finalise the schedule. No lengthy calls or waiting for a site visit."
+    icon: mdi:calculator-variant-outline
+
+  - label: "Are your cleaners vetted and insured?"
+    content: "Yes — all our cleaners are background-checked, fully insured, and reviewed by other property managers. We only work with experienced professionals who consistently meet high standards."
+    icon: mdi:shield-check-outline
+
+  - label: "How is billing handled?"
+    content: "Payment is taken on the day of each clean. Any additional time is billed fairly in 30-minute increments. You’ll receive an itemised breakdown for each visit, with full transparency."
+    icon: mdi:receipt-text-outline
 ---
 
 ::hero-standard
@@ -72,15 +112,11 @@ Our simple process for residential block cleaning
 
 ---
 
-::why-us
----
-profession: "cleaners"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a cleaner
+---
+
 #title
 What you get with residential block cleaning
 
@@ -122,44 +158,10 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable residential block cleaning starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -189,21 +191,8 @@ BaseLink is the modern alternative to traditional cleaning contracts. With vette
 
 ---
 
-::subcategory
+::why-us
 ---
-category: tradespeople
+profession: "cleaners"
 ---
-#title
-Additional services for residential blocks{{ $doc.location }}
-
-#description
-BaseLink offers a variety of services to meet all your commercial and business needs.
-::
-
----
-
-::contact
-::
-
-::cta
 ::

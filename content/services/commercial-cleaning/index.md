@@ -44,7 +44,7 @@ faqs:
     icon: mdi:account-check-outline
 
   - label: "Do your cleaners wear uniforms?"
-    content: "All our commercial cleaners wear professional uniforms by default, making them easy to identify on-site. If you'd prefer them to wear your company's uniform instead, that's no problem. Just let us know during onboarding and provide at least two full sets per cleaner, free of charge. We ask that replacements are also supplied to cover normal wear and tear, so your team always looks the part."
+    content: "If you'd prefer that cleaners wear your company's uniform , that's no problem. Just let us know during onboarding and provide at least two full sets per cleaner, free of charge. We ask that replacements are also supplied to cover normal wear and tear, so your team always looks the part."
     icon: mdi:tshirt-crew-outline
 
   - label: "Do your cleaners carry ID?"
@@ -66,7 +66,6 @@ faqs:
   - label: "Can I book for multiple locations?"
     content: "If you manage multiple sites, we've got you covered. During onboarding, you can set up each location in your online account, complete with its own cleaning schedule and preferences. Whether it's one site or ten, we'll coordinate everything to run smoothly — all under one account."
     icon: mdi:map-marker-multiple-outline
-  
 ---
 
 ::hero-centered-top

@@ -11,16 +11,36 @@ colour: "blue"
 pathtxt: "Window frames and sills"
 published: true
 faqs:
+  - label: "Can you match the style of my existing windows?"
+    content: "Yes – our carpenters can custom fabricate window frames and sills to suit your home’s current look, whether it’s traditional or modern. Just let us know your preferences when booking, and we’ll take care of the rest."
+    icon: mdi:window-restore
+
+  - label: "Do you offer repairs as well as full replacements?"
+    content: "We do. Whether it’s cracked sills, rotten timber, or gaps causing draughts, our carpenters can repair, reseal or replace damaged sections to restore full function and appearance."
+    icon: mdi:toolbox-outline
+
+  - label: "Do you offer draught-proofing as part of the service?"
+    content: "Yes – we can include draught-proofing upgrades when repairing or fitting new frames or sills. Just let us know when you fill out the form, and we’ll recommend the right options for you."
+    icon: mdi:weather-windy
+
+  - label: "Can I choose the finish for my window frames or sills?"
+    content: "Absolutely. Our carpenters can paint, prime or stain timber to suit your decor. If you have a specific finish or colour in mind, just include the details when booking."
+    icon: mdi:format-color-fill
+
   - label: "How are jobs priced?"
     content: "You’ll see our standard hourly rate when you fill out the form, but final pricing depends on the scope of work. Once submitted, we’ll review the details and get back to you with a tailored quote and estimated time to complete the job. The minimum booking is one hour."
     icon: mdi:currency-gbp
 
+  - label: "How is payment handled?"
+    content: "We collect payment for the first hour when you book. The rest is charged on the day of the job, based on actual time spent. Extra time is billed fairly in 30-minute increments."
+    icon: mdi:credit-card-check-outline
+
   - label: "Are your carpenters vetted and insured?"
-    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every clean to make sure only the best stick around. So you get safe, reliable service every time."
+    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every job to make sure only the best stick around. So you get safe, reliable service every time."
     icon: mdi:shield-account
 
   - label: "Can I cancel or reschedule a carpentry appointment?"
-    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the clean, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the job, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
     icon: mdi:calendar-remove-outline
 
   - label: "What if something goes wrong or I’m not happy with the job?"

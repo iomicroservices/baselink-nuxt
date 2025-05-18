@@ -10,6 +10,46 @@ ogImage: "/images/mobile-car-wash/odour-removal.webp"
 colour: "red"
 pathtxt: "Odour removal"
 published: true
+faqs:
+  - label: "What does the odour removal service include?"
+    content: "The service starts with an inspection to identify the cause of the smell. We then apply a professional-grade odour neutraliser and use ozone or fogging treatments to reach deep into fabrics, vents, and other hard-to-reach areas. Air vents are wiped down, and a final deodorising treatment is applied to finish."
+    icon: mdi:air-filter
+
+  - label: "What kinds of smells can you remove?"
+    content: "We treat a wide range of odours including smoke, pet smells, food spills, damp, mould, and more. The aim is to remove the smell at its source — not just mask it — using high-grade neutralisers and deep treatment methods."
+    icon: mdi:nose
+
+  - label: "How effective is ozone or fogging treatment?"
+    content: "Very effective. These treatments release safe, odour-neutralising particles that penetrate deep into upholstery, air vents, and soft surfaces — eliminating even the most persistent smells. They're ideal for cars that have been smoked in or stored in damp conditions."
+    icon: mdi:weather-fog
+
+  - label: "Is odour removal safe for all vehicles?"
+    content: "Yes — all treatments are safe for standard car interiors, including cloth and leather. If your vehicle has unique materials or custom upholstery, just let us know so we can tailor the process."
+    icon: mdi:shield-check-outline
+
+  - label: "How long does the service take?"
+    content: "Most odour removal services take between 60–90 minutes depending on the severity of the issue. Heavier smells or added interior cleaning may extend the time — any extra is billed fairly in 30-minute increments."
+    icon: mdi:timer-outline
+
+  - label: "Will the smell come back?"
+    content: "Not if the source of the odour has been addressed. Our treatments eliminate smells at a molecular level. For long-term results, we recommend combining this with a deep interior clean if the source is embedded in fabrics or hard-to-reach areas."
+    icon: mdi:emoticon-neutral-outline
+
+  - label: "Do I need to be present?"
+    content: "No — just leave access instructions when booking, and we’ll handle the rest. You’ll receive a full update once the service is complete, including any recommendations for follow-up care."
+    icon: mdi:account-off-outline
+
+  - label: "Can I combine odour removal with interior cleaning?"
+    content: "Absolutely. Odour removal pairs well with interior car cleaning or a mini valet for best results. You can select add-ons or bundle services during booking for a complete refresh."
+    icon: mdi:playlist-plus
+
+  - label: "How do I book?"
+    content: "Booking is fast and fully online. Fill out our form, get an instant quote, and choose a time that suits you. You’ll be matched with a vetted professional and supported by our in-house team."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is the service priced?"
+    content: "You’ll receive a fixed quote based on your vehicle and location. Payment is taken on the day of service, and if extra time is needed, it’s billed fairly in 30-minute increments with no hidden fees."
+    icon: mdi:receipt-text-outline
 ---
 
 ::hero-standard
@@ -72,14 +112,6 @@ How to book a mobile car odour removal
 
 ---
 
-::why-us
----
-profession: "washers"
----
-::
-
----
-
 ::tasks
 #title
 What you get with car odour remal
@@ -111,44 +143,10 @@ You can customise your valet with special instructions or add extra services. Yo
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable car odour removal starts here"
-button: "Hire a technician"
----
-::
 
 ::long-form
 #title
@@ -181,26 +179,8 @@ Book car odour removal{{$doc.location}} today with BaseLink — and enjoy a clea
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
-::
-
-::subcategory
+profession: "washers"
 ---
-category: home-cleaning
----
-#title
-BaseLink cleaning services for your home{{ $doc.location }} too
-
-#description
-We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

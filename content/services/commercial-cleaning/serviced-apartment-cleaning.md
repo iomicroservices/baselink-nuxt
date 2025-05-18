@@ -10,6 +10,46 @@ ogImage: "/images/commercial-cleaning/serviced-apartment-cleaning.webp"
 colour: "yellow"
 pathtxt: "Serviced apartment cleaning"
 published: true
+faqs:
+  - label: "What’s included in serviced apartment cleaning?"
+    content: "Our service covers everything you need to get guest-ready: dusting, vacuuming, mopping, full kitchen and bathroom cleaning, high-touch surface sanitising, fresh linen and towel replacement, laundry, trash removal, restocking of toiletries, and more. You can also include custom requests."
+    icon: mdi:playlist-check
+
+  - label: "Do you offer same-day turnaround between guest stays?"
+    content: "Yes — we offer same-day and short-notice cleans, depending on availability in your area. We’ll work to your check-in/check-out times to ensure fast, reliable turnarounds for your guests."
+    icon: mdi:clock-fast
+
+  - label: "Can cleaners handle linen and laundry?"
+    content: "Absolutely. We can wash, dry, iron and replace linen and towels. If you provide fresh sets, we’ll handle the changeover. Or we can wash on-site using your machine — just let us know your preference during booking."
+    icon: mdi:washing-machine
+
+  - label: "Do you restock toiletries and amenities?"
+    content: "Yes. We can restock toiletries, kitchen items, and guest supplies based on your checklist. Let us know what needs topping up, and we’ll make sure your apartment is ready for the next arrival."
+    icon: mdi:format-list-checks
+
+  - label: "Can you manage key handover or guest access?"
+    content: "Yes — cleaners can collect and return keys, use lockboxes, or follow smart access instructions. Just let us know your preferred access method during onboarding."
+    icon: mdi:key-outline
+
+  - label: "Can I book recurring or multiple cleans for several apartments?"
+    content: "Yes — BaseLink makes it easy to manage multiple serviced apartments under one account. You can book single or recurring visits and set different preferences per property."
+    icon: mdi:map-marker-multiple-outline
+
+  - label: "Can I include special instructions or setup requests?"
+    content: "Of course. Whether it’s setting out toiletries, replacing a welcome gift, or extra attention on a particular area — just leave a note during booking. We’ll follow your instructions exactly."
+    icon: mdi:clipboard-edit-outline
+
+  - label: "Are your cleaners experienced and vetted?"
+    content: "Yes — all cleaners are fully vetted, insured, and trained to meet the high standards required for serviced apartments. They’re reviewed regularly to ensure consistent quality and reliability."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I book and manage my cleanings?"
+    content: "Use our online form to submit your request, receive an instant quote, and choose a time. You can manage bookings, update instructions, or make changes anytime through your BaseLink account."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is billing handled?"
+    content: "Payment is collected on the day of your clean. Any extra time needed is billed in fair 30-minute increments. You’ll receive a full breakdown of services after each visit."
+    icon: mdi:receipt-text-outline
 ---
 
 ::hero-standard
@@ -72,15 +112,11 @@ Our simple process for serviced apartment cleaning
 
 ---
 
-::why-us
----
-profession: "cleaners"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a cleaner
+---
+
 #title
 What you get with serviced apartment cleaning
 
@@ -150,44 +186,10 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable serviced apartment cleaning starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -220,21 +222,8 @@ With vetted local professionals, a smart booking system, and reliable support, B
 
 ---
 
-::subcategory
+::why-us
 ---
-category: tradespeople
+profession: "cleaners"
 ---
-#title
-Additional services for serviced apartments{{ $doc.location }}
-
-#description
-BaseLink offers a variety of services to meet all your commercial and business needs.
-::
-
----
-
-::contact
-::
-
-::cta
 ::

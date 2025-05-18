@@ -11,9 +11,41 @@ colour: "blue"
 pathtxt: "Lawn mowing"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
+  - label: "Do I need to provide my own lawn mower or tools?"
+    content: "Nope – your gardener will bring everything needed for the job, including professional-grade mowers and edging tools. If you have a specific request, like using your own mower or doing a no-clippings cut, just mention it in the booking form."
     icon: mdi:tools
+
+  - label: "Can you mow very long or overgrown grass?"
+    content: "Yes – we can handle overgrown lawns, but they may take longer to complete. Just let us know in advance if the grass hasn’t been cut for a while so we can give you an accurate time estimate."
+    icon: mdi:grass
+
+  - label: "Do you take away the clippings?"
+    content: "Yes – all clippings are removed and disposed of as part of the service. If you’d prefer we bag them for your compost bin or green waste collection, just say so in your booking notes."
+    icon: mdi:leaf
+
+  - label: "Can I request regular lawn mowing?"
+    content: "Absolutely. You can set up a recurring schedule – weekly, fortnightly or monthly – and we’ll assign a regular gardener to keep things in shape. You’re free to skip or reschedule visits anytime with 24 hours’ notice."
+    icon: mdi:calendar-sync
+
+  - label: "How are lawn mowing jobs priced?"
+    content: "You’ll see our standard hourly rate when you fill out the form, but final pricing depends on the scope of work. Once submitted, we’ll review the details and get back to you with a tailored quote and estimated time to complete the job. The minimum booking is one hour."
+    icon: mdi:currency-gbp
+
+  - label: "How is payment handled?"
+    content: "We collect payment for the first hour when you book. The rest is charged on the day of the job, based on time worked. Extra time is billed fairly in 30-minute increments, and everything is processed securely online."
+    icon: mdi:credit-card-check-outline
+
+  - label: "Are your gardeners vetted and insured?"
+    content: "Yes – all gardeners are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every job to make sure only the best stick around. So you get safe, reliable service every time."
+    icon: mdi:shield-account
+
+  - label: "Can I cancel or reschedule a gardening appointment?"
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the job, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    icon: mdi:calendar-remove-outline
+
+  - label: "What if something goes wrong or I’m not happy with the job?"
+    content: "Your satisfaction matters. Let us know within 72 hours and we’ll put things right – whether it’s a revisit or a refund. We review feedback after every job to keep our service standards high."
+    icon: mdi:emoticon-sad-outline
 ---
 
 ::hero-standard

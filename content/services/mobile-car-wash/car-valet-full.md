@@ -10,6 +10,46 @@ ogImage: "/images/mobile-car-wash/full-car-valet.webp"
 colour: "red"
 pathtxt: "Full car valet"
 published: true
+faqs:
+  - label: "What does a full car valet include?"
+    content: "Our full valet covers every detail — inside and out. You’ll get an exterior hand wash, wheel clean, polish and wax, bug and tar removal, and spotless windows. Inside, we vacuum seats and mats, wipe dashboards and plastics, clean compartments, and treat leather or steam clean fabric seats. A deodorising treatment and final inspection are included to finish the job properly."
+    icon: mdi:car-wash
+
+  - label: "Can I customise my valet or request extras?"
+    content: "Yes! You can tailor your valet to your car’s condition by adding extras or leaving special instructions. Whether it’s extra attention to the interior, pet hair removal, or an engine bay clean — just let us know when booking and we’ll make it happen."
+    icon: mdi:clipboard-edit-outline
+
+  - label: "Where can the full valet be carried out?"
+    content: "We can valet your car at home, at work, or wherever it’s safely parked. The vehicle must be off the main road, with enough space for our team to work. Driveways, car parks, or quiet side streets are ideal. We can’t operate on public roads or busy high streets."
+    icon: mdi:map-marker-radius-outline
+
+  - label: "Do I need to be present for the valet?"
+    content: "Not at all. You can leave instructions for access — like key drop locations or gate codes — and we’ll handle the rest. You’ll receive before-and-after photos so you can review the results remotely."
+    icon: mdi:account-off-outline
+
+  - label: "Do you clean electric or hybrid vehicles?"
+    content: "Absolutely. Our valet pros are trained to clean electric and hybrid cars safely. If your vehicle has special requirements, let us know when booking and we’ll take care of it."
+    icon: mdi:ev-plug-type2
+
+  - label: "Do I need to provide anything?"
+    content: "Nope. Our team comes fully equipped with everything needed — from power and water (if required) to professional-grade cleaning products. If there are access limitations, just mention them during booking and we’ll plan around it."
+    icon: mdi:toolbox-outline
+
+  - label: "How do I book a full valet?"
+    content: "It’s quick and easy — just fill in our online form, choose your services and location, and get an instant quote. Pick a time that works for you and we’ll do the rest. You’ll get booking confirmation and updates via your BaseLink account."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is the valet priced and billed?"
+    content: "You’ll get a fixed quote when you book based on the services selected. Payment is collected on the day of service, and if extra time is needed, we’ll bill fairly in 30-minute increments. Everything is itemised for clarity — no surprises."
+    icon: mdi:receipt-text-outline
+
+  - label: "Can I cancel or reschedule?"
+    content: "Yes, as long as it’s 24 hours or more before your appointment, there’s no charge. You can make changes directly from your account or by contacting support. Need a last-minute change? We’ll always try to help."
+    icon: mdi:calendar-remove-outline
+
+  - label: "Are your valet professionals vetted?"
+    content: "Every valet provider on BaseLink is insured, background-checked, and rated by real customers. We only work with reliable professionals who consistently deliver top-quality results."
+    icon: mdi:shield-check-outline
 ---
 
 ::hero-standard
@@ -72,15 +112,8 @@ How to book a full mobile car valet
 
 ---
 
-::why-us
----
-profession: "washers"
----
-::
-
----
-
 ::tasks
+
 #title
 What you get with full car valet
 
@@ -151,44 +184,10 @@ You can customise your valet with special instructions or add extra services. Yo
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable full car valet starts here"
-button: "Hire a valeter"
----
-::
 
 ::long-form
 #title
@@ -221,26 +220,8 @@ With BaseLink, you get more than just a clean car — you get convenience, quali
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople{{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
-::
-
-::subcategory
+profession: "washers"
 ---
-category: home-cleaning
----
-#title
-BaseLink cleaning services for your home{{ $doc.location }} too
-
-#description
-We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

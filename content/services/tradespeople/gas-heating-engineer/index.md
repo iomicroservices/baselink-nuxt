@@ -11,9 +11,49 @@ colour: "blue"
 pathtxt: "Gas and heating engineer"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "Can you supply boilers, parts or appliances?"
+    content: "Yes – we can source and supply a range of boilers, thermostats, parts and other heating appliances. Let us know what you need during booking and we’ll include this in your custom quote. If you're unsure, our team can recommend options to suit your property and budget."
+    icon: mdi:package-variant-closed
+
+  - label: "Do you offer removal and disposal of old boilers?"
+    content: "We do. If you're replacing an old boiler or appliance, we can remove and dispose of it for an additional fee. Just tick the disposal option when booking, and we’ll handle the rest — safely and in accordance with local regulations."
+    icon: mdi:trash-can-outline
+
+  - label: "Do your engineers install smart thermostats?"
+    content: "Absolutely. We can install a wide range of smart thermostats including Hive, Nest, Tado and others. Whether it's a standalone fitting or part of a new boiler installation, just let us know what you're using — or ask us to supply one."
+    icon: mdi:thermometer-lines
+
+  - label: "What types of boilers can you install or service?"
+    content: "Our engineers work with all major boiler types including combi, system, and conventional boilers. We also support gas and electric models. If you need help choosing the right boiler, we’ll be happy to recommend one that suits your home and heating needs."
+    icon: mdi:fire
+
+  - label: "Do I need to be home during the visit?"
+    content: "Not necessarily. As long as safe access can be arranged and you've given us the necessary instructions in advance, you don’t need to be on-site. You’ll get a full report afterwards and we’re always available if you have follow-up questions."
+    icon: mdi:home-outline
+
+  - label: "Can I book gas safety certificates (CP12) with this service?"
+    content: "Yes – CP12 gas safety certificates for landlords can be booked as a standalone job or as part of your heating service. The engineer will inspect your appliances, flues, pipework and issue a valid certificate after the visit."
+    icon: mdi:file-certificate-outline
+
+  - label: "How are gas and heating jobs priced?"
+    content: "We provide custom quotes based on the details you share in the booking form. Once you submit your request, we’ll review the scope of work and respond with a tailored quote. Every quote includes a clear breakdown of what’s included, so there are no surprises on the day."
+    icon: mdi:currency-gbp
+
+  - label: "How is payment handled?"
+    content: "We collect your payment method when you book, but you won’t be charged until the day of the job. The full amount is processed securely online after the work is complete. Any extra time is billed in clear 30-minute increments."
+    icon: mdi:credit-card-check-outline
+
+  - label: "Are your engineers vetted and insured?"
+    content: "Yes – all gas and heating engineers are fully insured, carefully vetted and Gas Safe registered where relevant. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every job to make sure only the best stick around. So you get safe, reliable service every time."
+    icon: mdi:shield-account
+
+  - label: "Can I cancel or reschedule a gas or heating appointment?"
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the job, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    icon: mdi:calendar-remove-outline
+
+  - label: "What if something goes wrong or I’m not happy with the job?"
+    content: "Your satisfaction matters. Let us know within 72 hours and we’ll put things right – whether it’s a revisit or a refund. We review feedback after every job to keep our service standards high."
+    icon: mdi:emoticon-sad-outline
 ---
 
 ::hero-standard

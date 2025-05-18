@@ -11,9 +11,41 @@ colour: "blue"
 pathtxt: "Gardener"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What gardening tasks can I book?"
+    content: "We cover a wide range of garden jobs including lawn mowing, hedge trimming, planting, weeding, pruning, leaf clearing, and general tidy-ups. If you need something specific, just add it to the booking form — we’ll match you with someone who can handle it."
+    icon: mdi:shovel
+
+  - label: "Do I need to provide tools or equipment?"
+    content: "Most gardeners bring their own basic tools. If your job requires large equipment (like lawnmowers or hedge trimmers) and you don’t have them, just tick the box on the booking form and we’ll assign someone who can bring what’s needed. If tools are to be provided by you, make sure they're clean and in working order."
+    icon: mdi:toolbox-outline
+
+  - label: "Can I book a regular gardener?"
+    content: "Yes – we offer flexible recurring appointments (weekly, fortnightly, monthly or seasonal). Just let us know your preferred schedule when you book, and we’ll match you with a reliable local gardener for ongoing care."
+    icon: mdi:calendar-repeat
+
+  - label: "What happens to the garden waste?"
+    content: "Your gardener will bag up and neatly stack garden waste. If you have a green bin or compost system, we’ll use that. Need the waste taken away? Just request removal in your booking and we’ll include it as part of the quote (a small fee may apply)."
+    icon: mdi:recycle
+
+  - label: "How are gardening jobs priced?"
+    content: "You’ll see our standard hourly rate when you fill out the form, but final pricing depends on the scope of work. Once submitted, we’ll review the details and get back to you with a tailored quote and estimated time to complete the job. The minimum booking is one hour."
+    icon: mdi:currency-gbp
+
+  - label: "How is payment handled?"
+    content: "We collect payment for the first hour when you book. The rest is charged on the day of the job, based on time worked. Extra time is billed fairly in 30-minute increments, and everything is processed securely online."
+    icon: mdi:credit-card-check-outline
+
+  - label: "Are your gardeners vetted and insured?"
+    content: "Yes – all gardeners are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every job to make sure only the best stick around. So you get safe, reliable service every time."
+    icon: mdi:shield-account
+
+  - label: "Can I cancel or reschedule a gardening appointment?"
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the job, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    icon: mdi:calendar-remove-outline
+
+  - label: "What if something goes wrong or I’m not happy with the job?"
+    content: "Your satisfaction matters. Let us know within 72 hours and we’ll put things right – whether it’s a revisit or a refund. We review feedback after every job to keep our service standards high."
+    icon: mdi:emoticon-sad-outline
 ---
 
 ::hero-standard

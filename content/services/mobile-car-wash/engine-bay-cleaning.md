@@ -10,6 +10,38 @@ ogImage: "/images/mobile-car-wash/engine-bay-cleaning.webp"
 colour: "red"
 pathtxt: "Engine bay cleaning"
 published: true
+faqs:
+  - label: "What does engine bay cleaning include?"
+    content: "Our engine bay cleaning covers loose debris removal, degreasing of visible surfaces, hand cleaning of components, and a detailed wipe-down of hoses, trims and metal parts. We finish by drying the area to prevent moisture buildup and ensure a tidy, like-new appearance."
+    icon: mdi:engine-outline
+
+  - label: "Is it safe to clean my engine bay?"
+    content: "Yes — our professionals are trained to clean engine bays safely and responsibly. We avoid electrical components and use products designed specifically for automotive cleaning. If your engine has custom or sensitive parts, just let us know and we’ll adapt the process accordingly."
+    icon: mdi:shield-check-outline
+
+  - label: "Why should I get my engine bay cleaned?"
+    content: "It’s not just about looks — regular engine bay cleaning can help you spot leaks, cracks or wear early. It also makes a great impression if you’re selling your car or preparing it for a show. Plus, it helps reduce grime buildup that can cause corrosion over time."
+    icon: mdi:alert-circle-outline
+
+  - label: "How long does engine bay cleaning take?"
+    content: "Most engine bay cleans take around 45–60 minutes, depending on the condition of your vehicle. If extra time is needed for deep grime or detailing, we’ll let you know in advance and bill fairly in 30-minute increments."
+    icon: mdi:timer-outline
+
+  - label: "Do I need to prepare the car beforehand?"
+    content: "No preparation is required. Just make sure the bonnet can be opened and the engine is cool. If there are specific areas to avoid or custom components to be cautious around, you can leave instructions in the booking form."
+    icon: mdi:note-edit-outline
+
+  - label: "Where can engine bay cleaning be done?"
+    content: "This service can be carried out at your home, workplace, or any private location where there’s space for our team to work. Public roads or narrow spaces aren’t suitable — but driveways, car parks, or garages are perfect."
+    icon: mdi:map-marker-radius-outline
+
+  - label: "How do I book engine bay cleaning?"
+    content: "Booking takes just a minute. Fill out our online form, select the engine bay cleaning option, and choose a time that suits you. You'll receive an instant quote and booking confirmation straight to your account."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is engine bay cleaning priced?"
+    content: "You’ll receive a fixed quote based on the service and your location. Payment is collected on the day, and if extra time is required, it’s billed in 30-minute blocks at a fair rate. All pricing is clear and upfront — no surprises."
+    icon: mdi:receipt-text-outline
 ---
 
 ::hero-standard
@@ -72,14 +104,6 @@ How to book a mobile engine bay clean
 
 ---
 
-::why-us
----
-profession: "cleaners"
----
-::
-
----
-
 ::tasks
 #title
 What you get with engine bay cleaning
@@ -115,44 +139,10 @@ You can customise your valet with special instructions or add extra services. Yo
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable engine bay cleaning starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -185,26 +175,8 @@ Book engine bay cleaning{{$doc.location}} with BaseLink and give your vehicle th
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
-::
-
-::subcategory
+profession: "cleaners"
 ---
-category: home-cleaning
----
-#title
-BaseLink cleaning services for your home{{ $doc.location }} too
-
-#description
-We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

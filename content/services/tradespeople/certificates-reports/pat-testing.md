@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "PAT testing"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What is PAT testing?"
+    content: "PAT stands for Portable Appliance Testing. It’s a safety check carried out on electrical appliances to ensure they’re safe for use. It’s recommended for offices, rental properties, and workplaces to meet health and safety standards."
+    icon: mdi:power-plug-outline
+
+  - label: "What types of appliances can be tested?"
+    content: "We test a wide range of appliances, including kettles, fridges, microwaves, TVs, computers, fans, and more. Whether at home, in an office, or across multiple business sites — we can help."
+    icon: mdi:television-guide
+
+  - label: "Who carries out the PAT testing?"
+    content: "All testing is done by fully qualified, vetted and insured engineers. They are trained to carry out inspections according to the latest health and safety standards and issue compliant documentation."
+    icon: mdi:shield-check-outline
+
+  - label: "What does the PAT test involve?"
+    content: "Your engineer will carry out a visual inspection, check plugs and cables, test insulation resistance, earth continuity, and run basic functionality checks. Items are labelled with pass/fail tags, and you’ll get a full report of results."
+    icon: mdi:clipboard-check-outline
+
+  - label: "Do I get a certificate or report?"
+    content: "Yes — after the visit, you’ll receive a full digital condition report listing all tested items and results. This can be used for insurance, audit, or legal purposes."
+    icon: mdi:file-certificate-outline
+
+  - label: "How is PAT testing priced?"
+    content: "PAT testing is billed at a fixed rate based on the number of appliances you need tested. You’ll get an instant quote when booking. We collect your payment method at booking and charge the full amount on the day of the test."
+    icon: mdi:cash-check
+
+  - label: "Can I cancel or reschedule a PAT test?"
+    content: "Of course — you can cancel or reschedule with at least 24 hours’ notice free of charge. Just log into your BaseLink account or contact support and we’ll take care of the rest."
+    icon: mdi:calendar-remove-outline
+
+  - label: "Can I book PAT testing alongside other services?"
+    content: "Yes — many of our customers book PAT testing alongside EICRs, fire risk assessments or gas safety checks. Our support team can help you schedule everything together under one account."
+    icon: mdi:playlist-plus
 ---
 
 ::hero-standard
@@ -123,7 +151,6 @@ Portable Appliance Testing (PAT) ensures your electrical appliances are safe to 
 
 ::faq-side-ui{:faqs="faqs"}
 ::
-
 
 
 ::long-form

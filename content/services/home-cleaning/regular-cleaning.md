@@ -10,6 +10,46 @@ ogImage: "/images/home-cleaning/regular-cleaning.webp"
 colour: "green"
 pathtxt: "Regular cleaning"
 published: true
+faqs:
+  - label: "What’s included in regular home cleaning?"
+    content: "Regular cleaning includes dusting, vacuuming, mopping, cleaning sinks, taps and toilets, wiping appliances and mirrors, trash removal, and more. You can also add tasks like laundry, linen changes, window cleaning, or balcony sweeping — it’s your call."
+    icon: mdi:home-outline
+
+  - label: "How often can I schedule regular cleaning?"
+    content: "You can book regular cleaning on a schedule that suits you — weekly, fortnightly, or even multiple times a week. We’ll work around your preferences to keep your home consistently clean."
+    icon: mdi:calendar-sync-outline
+
+  - label: "Can I keep the same cleaner each time?"
+    content: "Yes — we aim to provide the same trusted cleaner for every visit. If your regular cleaner isn’t available, we’ll notify you and offer a vetted replacement who’ll follow your preferences."
+    icon: mdi:account-switch-outline
+
+  - label: "Can I customise my cleaning tasks?"
+    content: "Absolutely. You can add or remove tasks anytime, and include special instructions when booking. Whether it’s focusing on the kitchen, doing laundry, or skipping a certain room — it’s all up to you."
+    icon: mdi:clipboard-edit-outline
+
+  - label: "Do I need to be home during each clean?"
+    content: "Not at all. Many regular customers provide access via a spare key, lockbox or smart lock. Just let us know your preferred method — we’ll make it work securely and hassle-free."
+    icon: mdi:account-off-outline
+
+  - label: "Do I need to provide cleaning products or equipment?"
+    content: "We ask that you provide a hoover, mop, and bucket. You can also supply your own products, or request our eco-friendly cleaning kit for a small extra fee. Just select your preference during booking."
+    icon: mdi:spray-bottle
+
+  - label: "Can I reschedule or skip a regular clean?"
+    content: "Of course. You can manage bookings from your account and cancel or reschedule for free with at least 24 hours’ notice. We’re flexible — just keep us posted."
+    icon: mdi:calendar-edit-outline
+
+  - label: "How is pricing handled for regular cleaning?"
+    content: "You’ll see a clear hourly rate when you book. Payment is collected after each visit, and any additional time is billed fairly in 30-minute blocks. No contracts, no hidden charges."
+    icon: mdi:receipt-text-outline
+
+  - label: "Are your cleaners vetted and insured?"
+    content: "Yes — every cleaner is fully insured, background-checked and consistently reviewed by other customers. We only work with experienced professionals who maintain high standards over time."
+    icon: mdi:shield-check-outline
+
+  - label: "Can I change my regular cleaning plan later?"
+    content: "Definitely. You can adjust your schedule, switch tasks, or upgrade to include deep cleaning or extra services. Just log into your account or contact support — we’re happy to help."
+    icon: mdi:tune-variant
 ---
 
 ::hero-standard
@@ -72,15 +112,11 @@ Easily book regular home cleaning in 3 simple steps
 
 ---
 
-::why-us
----
-profession: "cleaners"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a cleaner
+---
+
 #title
 What you get with regular cleaning
 
@@ -138,44 +174,10 @@ You can customise your clean with special instructions or add extra services. Yo
   ::
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable regular home cleaning starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -208,21 +210,8 @@ Book regular cleaning{{$doc.location}} with BaseLink and enjoy the comfort of a 
 
 ---
 
-::subcategory
+::why-us
 ---
-category: tradespeople
+profession: "cleaners"
 ---
-#title
-Additional services for your home or business{{ $doc.location }}
-
-#description
-BaseLink offers a variety of services to meet all your needs.
-::
-
----
-
-::contact
-::
-
-::cta
 ::

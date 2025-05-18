@@ -10,6 +10,46 @@ ogImage: "/images/home-cleaning/single-visit-cleaning/upholstery-cleaning.webp"
 colour: "green"
 pathtxt: "Upholstery cleaning"
 published: true
+faqs:
+  - label: "What does upholstery cleaning include?"
+    content: "We clean sofas, armchairs, dining chairs, mattresses, curtains and more. The service includes a fabric inspection, vacuuming, stain pre-treatment, steam or dry cleaning (depending on material), deodorising, and fast drying using air movers where needed."
+    icon: mdi:sofa-outline
+
+  - label: "Is steam cleaning safe for all fabrics?"
+    content: "Not all. We inspect your upholstery first to decide the best method — steam cleaning for durable materials, or dry/low-moisture techniques for delicate fabrics. We always choose the safest approach for your furniture."
+    icon: mdi:shield-check-outline
+
+  - label: "Can you remove tough stains and smells?"
+    content: "We treat common stains like food, drink, pet marks and ink using professional pre-treatment products. While most stains lift well, deep-set or old marks may only partially improve. We also apply a deodorising treatment to remove odours from pets, smoke, or spills."
+    icon: mdi:nose
+
+  - label: "How long does upholstery cleaning take?"
+    content: "Most appointments take 1–3 hours depending on the number and type of items. We’ll estimate the time during booking and keep you updated throughout."
+    icon: mdi:timer-outline
+
+  - label: "How long will it take for my upholstery to dry?"
+    content: "Drying times vary by fabric and airflow, but usually range from 2 to 6 hours. We use air movers where needed to help speed things up so you can get back to using your furniture sooner."
+    icon: mdi:weather-windy
+
+  - label: "Do I need to do anything before the cleaner arrives?"
+    content: "Just remove any throws, cushions, or personal items from the furniture. If your item has fragile legs or special instructions, leave a note when booking so we can prepare accordingly."
+    icon: mdi:note-edit-outline
+
+  - label: "Can I book upholstery cleaning on its own?"
+    content: "Yes — you can book it as a standalone service or combine it with other cleaning options like carpets or deep cleaning. Just select what you need during booking or add notes for special requests."
+    icon: mdi:playlist-plus
+
+  - label: "How do I book upholstery cleaning?"
+    content: "It’s simple — fill in our online form, select the furniture you want cleaned, and get an instant quote. You’ll pick a time that works for you, and everything is handled through your BaseLink account."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is pricing handled?"
+    content: "You’ll receive a fixed quote based on the items you book. Payment is taken on the day of service, and any extra time is billed in fair 30-minute increments. No hidden costs, just clear pricing."
+    icon: mdi:receipt-text-outline
+
+  - label: "Are your upholstery cleaners vetted and insured?"
+    content: "Yes — all cleaners are background-checked, fully insured, and trained in specialist upholstery care. We only work with experienced professionals who meet our high service standards."
+    icon: mdi:account-star-outline
 ---
 
 ::hero-standard
@@ -72,15 +112,11 @@ Quick and easy booking for upholstery cleaning
 
 ---
 
-::why-us
----
-profession: "cleaners"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a cleaner
+---
+
 #title
 What you get with upholstery cleaning
 
@@ -122,44 +158,10 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable upholstery cleaning starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -192,21 +194,8 @@ Payment is taken on the day of the job, with any additional time billed fairly i
 
 ---
 
-::subcategory
+::why-us
 ---
-category: tradespeople
+profession: "cleaners"
 ---
-#title
-Additional services for your home or business{{ $doc.location }}
-
-#description
-BaseLink offers a variety of services to meet all your needs.
-::
-
----
-
-::contact
-::
-
-::cta
 ::

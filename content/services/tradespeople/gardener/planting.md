@@ -11,9 +11,41 @@ colour: "blue"
 pathtxt: "Planting"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "Can I choose the plants or do you recommend them?"
+    content: "Totally up to you. You can supply your own plants or ask your gardener to recommend options that suit your space, style and seasonal conditions. Just let us know in the form what you’re looking for, and we’ll tailor the service accordingly."
+    icon: mdi:flower
+
+  - label: "Do I need to provide soil or compost?"
+    content: "If you already have soil or compost at home, we’re happy to use it. If not, your gardener can bring or source the right type for your plants. We’ll confirm any material costs with you in advance before anything’s purchased."
+    icon: mdi:shovel
+
+  - label: "What types of planting can you do?"
+    content: "Our gardeners handle everything from bedding flowers and shrubs to herbs, vegetables, hedges and even small trees. We also plant bulbs, climbers and ground cover — ideal for seasonal updates or long-term design."
+    icon: mdi:sprout
+
+  - label: "Can planting be added to a regular garden maintenance visit?"
+    content: "Yes – you can include planting as part of your routine garden care. Just let us know what you need when booking and we’ll build it into your regular visit or schedule a one-off session."
+    icon: mdi:calendar-plus
+
+  - label: "How are planting jobs priced?"
+    content: "You’ll see our standard hourly rate when you fill out the form, but final pricing depends on the scope of work. Once submitted, we’ll review the details and get back to you with a tailored quote and estimated time to complete the job. The minimum booking is one hour."
+    icon: mdi:currency-gbp
+
+  - label: "How is payment handled?"
+    content: "We collect payment for the first hour when you book. The rest is charged on the day of the job, based on time worked. Extra time is billed fairly in 30-minute increments, and everything is processed securely online."
+    icon: mdi:credit-card-check-outline
+
+  - label: "Are your gardeners vetted and insured?"
+    content: "Yes – all gardeners are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every job to make sure only the best stick around. So you get safe, reliable service every time."
+    icon: mdi:shield-account
+
+  - label: "Can I cancel or reschedule a gardening appointment?"
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the job, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    icon: mdi:calendar-remove-outline
+
+  - label: "What if something goes wrong or I’m not happy with the job?"
+    content: "Your satisfaction matters. Let us know within 72 hours and we’ll put things right – whether it’s a revisit or a refund. We review feedback after every job to keep our service standards high."
+    icon: mdi:emoticon-sad-outline
 ---
 
 ::hero-standard

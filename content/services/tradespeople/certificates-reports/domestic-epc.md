@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Domestic EPC"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What is a domestic EPC?"
+    content: "A domestic Energy Performance Certificate (EPC) rates your property's energy efficiency from A (most efficient) to G (least efficient). It’s legally required when selling or letting a home and helps identify ways to reduce energy use and costs."
+    icon: mdi:home-lightning-bolt-outline
+
+  - label: "Who conducts the EPC assessment?"
+    content: "All EPCs are carried out by qualified, certified assessors. Every assessor on the BaseLink platform is vetted, insured, and experienced with the latest government EPC regulations."
+    icon: mdi:shield-check-outline
+
+  - label: "What does the EPC inspection include?"
+    content: "The assessor inspects your property’s layout, insulation, heating and hot water systems, ventilation, windows, lighting, and construction materials. All findings are used to generate an official EPC rating and energy-saving recommendations."
+    icon: mdi:clipboard-check-outline
+
+  - label: "How much does a domestic EPC cost?"
+    content: "We offer fixed pricing for domestic EPCs. You’ll see your quote instantly when booking. We collect your payment method at the time of booking and charge the full amount on the day of the visit."
+    icon: mdi:cash-check
+
+  - label: "When will I receive my EPC certificate?"
+    content: "You'll receive your official EPC shortly after the visit — usually within 24 hours. It will include your rating and personalised recommendations to help improve efficiency."
+    icon: mdi:file-certificate-outline
+
+  - label: "Can I cancel or reschedule my appointment?"
+    content: "Yes — you can cancel or reschedule free of charge with at least 24 hours' notice. Just log into your BaseLink account or contact our support team and we’ll take care of it."
+    icon: mdi:calendar-remove-outline
+
+  - label: "Do you offer EPCs for landlords and estate agents?"
+    content: "Yes — we work with landlords, letting agents and homeowners. You can manage multiple properties through one BaseLink account and add extra services like PAT testing or gas safety checks during booking."
+    icon: mdi:domain
+
+  - label: "Can I improve my EPC rating?"
+    content: "Yes — your certificate will include practical tips for boosting your rating, like upgrading insulation or changing to LED lighting. If you'd like help arranging improvements, we can assist with follow-up services."
+    icon: mdi:lightbulb-on-outline
 ---
 
 ::hero-standard

@@ -10,6 +10,46 @@ ogImage: "/images/home-cleaning/single-visit-cleaning/end-of-tenancy-cleaning.we
 colour: "green"
 pathtxt: "End of tenancy cleaning"
 published: true
+faqs:
+  - label: "What’s included in end of tenancy cleaning?"
+    content: "It’s a full, top-to-bottom clean of the entire property. We dust, vacuum, mop, sanitise bathrooms and kitchens, clean inside appliances (including the oven), wipe interior windows, sweep balconies, and more. You can also include extras or custom instructions when booking."
+    icon: mdi:home-search-outline
+
+  - label: "How is this different from a deep clean?"
+    content: "End of tenancy cleaning is designed for empty properties. This allows us to reach behind furniture, under appliances, and into every corner to meet landlord and inventory check standards. Deep cleaning is for lived-in spaces with furniture still in place."
+    icon: mdi:compare-horizontal
+
+  - label: "Do I need to remove everything before the clean?"
+    content: "Yes — the property should be fully or mostly vacant so we can clean thoroughly. If furniture remains, we’ll vacuum it and clean around it, but we recommend clearing as much as possible for the best results."
+    icon: mdi:package-variant-remove
+
+  - label: "Is this service suitable for landlords and letting agents?"
+    content: "Absolutely. We work with tenants, landlords and property managers to prepare homes for new tenants or final inspections. Just let us know if you're managing multiple properties or have agency checklists to follow."
+    icon: mdi:domain
+
+  - label: "Can I book this just before I move out?"
+    content: "Yes — we recommend booking as close to your move-out date as possible. You can schedule your clean for the same day or the day after your removal to make sure everything is spotless before handover."
+    icon: mdi:calendar-clock-outline
+
+  - label: "Can you guarantee I’ll pass my check-out inspection?"
+    content: "We can’t speak for individual landlords, but our cleans are designed to meet professional standards. If anything is missed, let us know within 72 hours — we’ll return to fix it free of charge as part of our satisfaction guarantee."
+    icon: mdi:shield-check-outline
+
+  - label: "Can I add extra rooms or areas?"
+    content: "Yes — you can include utility rooms, garages, balconies, or storage areas. Just select them during booking or leave a note in the custom instructions box."
+    icon: mdi:playlist-plus
+
+  - label: "How do I book end of tenancy cleaning?"
+    content: "Fill out our online form, get an instant quote, and choose your preferred time — no calls, no waiting. Everything is managed through your BaseLink account with full support from our team."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is payment handled?"
+    content: "Payment is taken on the day of the clean, and any extra time required is billed in fair 30-minute increments. You’ll receive a full breakdown of the service for your records."
+    icon: mdi:receipt-text-outline
+
+  - label: "Are your cleaners vetted and experienced?"
+    content: "Yes — all BaseLink cleaners are fully vetted, insured, and experienced with move-out cleans. They’re also rated by other customers, so you can trust you're getting reliable service every time."
+    icon: mdi:account-star-outline
 ---
 
 ::hero-standard
@@ -72,15 +112,11 @@ Quick and easy booking for end of tenancy cleaning
 
 ---
 
-::why-us
----
-profession: "cleaners"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a cleaner
+---
+
 #title
 What you get with end of tenancy cleaning
 
@@ -146,44 +182,10 @@ You can customise your clean with special instructions or add extra services. Yo
   ::
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable end of tenancy cleaning starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -216,21 +218,8 @@ Book end of tenancy cleaning{{$doc.location}} today with BaseLink — and leave 
 
 ---
 
-::subcategory
+::why-us
 ---
-category: tradespeople
+profession: "cleaners"
 ---
-#title
-Additional services for your home or business{{ $doc.location }}
-
-#description
-BaseLink offers a variety of services to meet all your needs.
-::
-
----
-
-::contact
-::
-
-::cta
 ::

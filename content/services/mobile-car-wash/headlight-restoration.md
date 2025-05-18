@@ -10,6 +10,42 @@ ogImage: "/images/mobile-car-wash/headlight-restoration.webp"
 colour: "red"
 pathtxt: "Headlight restoration"
 published: true
+faqs:
+  - label: "What does headlight restoration include?"
+    content: "The service includes a full inspection, surface cleaning, wet sanding to remove oxidation and haze, polishing to restore clarity, UV sealant application to protect against future damage, and a final buff to bring out a clear, even shine."
+    icon: mdi:car-light-high
+
+  - label: "Why should I restore my headlights?"
+    content: "Cloudy or yellowed headlights reduce night-time visibility and can even cause MOT failure. Restoring them improves safety, refreshes your car’s look, and helps avoid the cost of full headlight replacements."
+    icon: mdi:alert-circle-outline
+
+  - label: "Is this service safe for all types of headlights?"
+    content: "Yes — our technicians use products and tools suitable for all common headlight lens materials, including plastic and polycarbonate. If your vehicle has unique or modified lights, just let us know in advance."
+    icon: mdi:shield-check-outline
+
+  - label: "How long does headlight restoration take?"
+    content: "Most restorations take around 45–60 minutes depending on the level of oxidation and lens condition. Heavier damage may take a little longer, with time billed fairly in 30-minute increments."
+    icon: mdi:timer-outline
+
+  - label: "Do I need to be present during the service?"
+    content: "Not unless you’d like to be. You can leave instructions for access and we’ll take care of the rest. Once complete, you’ll receive before-and-after photos so you can review the results remotely."
+    icon: mdi:account-off-outline
+
+  - label: "How long do the results last?"
+    content: "Thanks to the UV sealant applied during the process, your headlights will stay clearer for much longer than with a basic polish. Regular washing and parking out of direct sun will also help prolong the finish."
+    icon: mdi:weather-sunny-alert
+
+  - label: "Where can the restoration be carried out?"
+    content: "We come to you — at home, at work, or any location with safe access around the vehicle. A flat, private parking space or driveway is ideal. We don’t operate on public roads or tight spaces."
+    icon: mdi:map-marker-radius-outline
+
+  - label: "How is it priced?"
+    content: "You’ll receive a fixed quote when booking, based on your vehicle and location. Payment is taken on the day of service, and any extra time needed is billed in 30-minute increments with full transparency."
+    icon: mdi:receipt-text-outline
+
+  - label: "Can I bundle this with other services?"
+    content: "Yes — headlight restoration can be added to other car care services like exterior washes, full valets, or engine bay cleaning. Just select your extras during booking or let us know what you need."
+    icon: mdi:playlist-plus
 ---
 
 ::hero-standard
@@ -72,14 +108,6 @@ How to book a mobile headlight restoration
 
 ---
 
-::why-us
----
-profession: "technicians"
----
-::
-
----
-
 ::tasks
 #title
 What you get with headlight restoration
@@ -115,44 +143,10 @@ You can customise your ... with special instructions or add extra services. Your
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable headlight restoration starts here"
-button: "Hire a technician"
----
-::
 
 ::long-form
 #title
@@ -185,26 +179,8 @@ Book headlight restoration{{$doc.location}} today through BaseLink and enjoy bri
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
-::
-
-::subcategory
+profession: "technicians"
 ---
-category: home-cleaning
----
-#title
-BaseLink cleaning services for your home{{ $doc.location }} too
-
-#description
-We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

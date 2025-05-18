@@ -10,6 +10,46 @@ ogImage: "/images/mobile-car-wash/Rim refurbishment.webp"
 colour: "red"
 pathtxt: "Rim refurbishment"
 published: true
+faqs:
+  - label: "What does rim refurbishment include?"
+    content: "The service includes a full visual inspection, stripping and cleaning of the wheel, sanding and grinding to remove scuffs, filler application, priming, colour-matched respray, protective clear coat, and a final polish with quality check to ensure a flawless finish."
+    icon: mdi:car-tire-alert
+
+  - label: "What types of damage can you fix?"
+    content: "We can repair kerb scuffs, chips, light scratches, corrosion, and general surface damage. If your alloy rims are dented or severely cracked, we may recommend a specialist repair or replacement instead."
+    icon: mdi:alert-circle-outline
+
+  - label: "Do you match the original wheel colour?"
+    content: "Yes — we colour-match your existing finish as closely as possible. If you’d like a different look, you can also request a custom colour or finish during booking, including matte, gloss, or gunmetal."
+    icon: mdi:palette-swatch
+
+  - label: "How long does rim refurbishment take?"
+    content: "Most refurbishments take 1.5 to 2 hours per wheel, depending on the level of damage. If additional work is needed, we’ll let you know in advance and bill fairly in 30-minute increments."
+    icon: mdi:timer-outline
+
+  - label: "Where can the service be carried out?"
+    content: "We can refurbish your rims at home, work, or any private location with safe space to work around the wheels. Driveways or private car parks are ideal. We can’t work on public roads or busy roadside spaces."
+    icon: mdi:map-marker-radius-outline
+
+  - label: "Is this suitable for all wheel types?"
+    content: "Yes — we service most alloy and painted wheels. If your wheels are diamond cut or highly specialised, let us know in advance as the process may differ or require alternative treatments."
+    icon: mdi:car-cog
+
+  - label: "Can I drive immediately after the service?"
+    content: "Yes — but we recommend avoiding car washes or abrasive cleaning for at least 48 hours to allow the finish to fully cure. Your technician will advise on any aftercare steps."
+    icon: mdi:car-clock
+
+  - label: "How do I book rim refurbishment?"
+    content: "Booking is easy and fully online. Fill in our form, choose your service and location, and receive an instant quote. Pick a time that suits you and we’ll handle the rest."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is pricing handled?"
+    content: "You’ll get a fixed quote based on the number of wheels, damage level, and your location. Payment is collected on the day, and any additional time is billed in 30-minute increments. Everything’s transparent and upfront."
+    icon: mdi:receipt-text-outline
+
+  - label: "Are your technicians vetted?"
+    content: "Yes — every BaseLink technician is fully insured, background-checked, and rated by other customers. We only work with experienced professionals who consistently meet our high standards."
+    icon: mdi:shield-check-outline
 ---
 
 ::hero-standard
@@ -72,14 +112,6 @@ How to book a mobile car rim refurbishment
 
 ---
 
-::why-us
----
-profession: "refurbishers"
----
-::
-
----
-
 ::tasks
 #title
 What you get with car rim refurbishment
@@ -119,44 +151,10 @@ You can customise your valet with special instructions or add extra services. Yo
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable car rim refurbishment starts here"
-button: "Hire a technician"
----
-::
 
 ::long-form
 #title
@@ -189,26 +187,8 @@ Book rim refurbishment{{$doc.location}} with BaseLink and restore your wheels to
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
-::
-
-::subcategory
+profession: "refurbishers"
 ---
-category: home-cleaning
----
-#title
-BaseLink cleaning services for your home{{ $doc.location }} too
-
-#description
-We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

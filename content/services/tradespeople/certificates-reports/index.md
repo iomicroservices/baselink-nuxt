@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Certification and reports"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of certificates and reports do you offer?"
+    content: "We provide CP12 gas safety certificates, EPCs (domestic and non-domestic), EICR electrical reports, PAT testing, and fire risk assessments. All services are carried out by certified professionals who understand current UK regulations."
+    icon: mdi:certificate-outline
+
+  - label: "Who carries out the inspections and assessments?"
+    content: "All checks are performed by fully qualified, registered tradespeople who are vetted, insured, and reviewed by other customers. We only work with professionals who meet the regulatory standards for certification work."
+    icon: mdi:shield-check-outline
+
+  - label: "How is pricing handled for certificates and reports?"
+    content: "We offer fixed pricing for certificates and reports. You’ll see your full quote when you book. We collect your payment method on the day of booking, and the full amount is charged on the day of the job — simple, clear, and upfront."
+    icon: mdi:cash-check
+
+  - label: "When do I receive my report or certificate?"
+    content: "In most cases, you’ll receive your report or certificate shortly after the visit — usually within 24 hours. If further checks or documentation are needed, our team will keep you updated."
+    icon: mdi:file-document-outline
+
+  - label: "What if the inspection reveals a problem?"
+    content: "If an issue is found, your report will outline what needs fixing. We’ll support you in getting the problem resolved by either rebooking the same tradesperson or finding someone else on our platform — all fully qualified and ready to help."
+    icon: mdi:alert-circle-outline
+
+  - label: "Can I cancel or reschedule a booking?"
+    content: "Yes — you can cancel or reschedule free of charge with at least 24 hours' notice. Log into your BaseLink account or contact our support team to make changes easily."
+    icon: mdi:calendar-remove-outline
+
+  - label: "How do I book a certificate or report?"
+    content: "Just fill out our quick online form, get an instant fixed quote, and choose a time that suits you. Everything is handled digitally, with no chasing or paperwork."
+    icon: mdi:calendar-check-outline
+
+  - label: "Are your tradespeople insured and background-checked?"
+    content: "Yes. All professionals on the BaseLink platform are fully vetted, insured, and background-checked for your peace of mind. We only work with certified experts in their field."
+    icon: mdi:account-check-outline
 ---
 
 ::hero-standard

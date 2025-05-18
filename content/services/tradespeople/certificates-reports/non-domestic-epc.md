@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Non-domestic EPCs"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What is a non-domestic EPC?"
+    content: "A non-domestic Energy Performance Certificate (EPC) assesses the energy efficiency of a commercial property, providing a rating from A (most efficient) to G (least efficient). It’s a legal requirement when selling, letting or constructing most commercial buildings."
+    icon: mdi:domain
+
+  - label: "What types of properties do you cover?"
+    content: "We assess all types of commercial properties — including offices, shops, warehouses, restaurants, salons, gyms, clinics, and more. Whether it’s a single unit or a multi-use premises, we've got you covered."
+    icon: mdi:office-building-marker-outline
+
+  - label: "Who carries out the EPC assessment?"
+    content: "All EPCs are carried out by fully accredited, vetted, and insured assessors with commercial experience. BaseLink only works with professionals who meet government standards for non-domestic EPC reporting."
+    icon: mdi:shield-check-outline
+
+  - label: "What does the inspection involve?"
+    content: "Your assessor will review your property's layout, heating/cooling systems, insulation, lighting, ventilation, and construction materials. These details are used to calculate your energy rating and suggest ways to improve it."
+    icon: mdi:clipboard-check-outline
+
+  - label: "How much does a non-domestic EPC cost?"
+    content: "We offer fixed pricing for non-domestic EPCs based on your property size and type. You’ll see your quote instantly when booking. We collect your payment method upfront, and the full amount is charged on the day of the assessment."
+    icon: mdi:cash-check
+
+  - label: "When will I receive my EPC certificate?"
+    content: "You’ll receive your official EPC shortly after the visit — usually within 24–48 hours. It will include your energy rating and recommendations for efficiency improvements."
+    icon: mdi:file-certificate-outline
+
+  - label: "Can I cancel or reschedule the appointment?"
+    content: "Yes — you can cancel or reschedule free of charge with at least 24 hours’ notice. Manage your appointment through your BaseLink account or contact our support team anytime."
+    icon: mdi:calendar-remove-outline
+
+  - label: "Can I book additional compliance services?"
+    content: "Absolutely. We can help you bundle your EPC with other services like fire risk assessments, PAT testing, or EICR reports — all managed through one easy platform."
+    icon: mdi:playlist-plus
 ---
 
 ::hero-standard

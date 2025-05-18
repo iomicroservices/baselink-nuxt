@@ -10,6 +10,46 @@ ogImage: "/images/home-cleaning/single-visit-cleaning/deep-cleaning.webp"
 colour: "green"
 pathtxt: "Deep cleaning"
 published: true
+faqs:
+  - label: "What’s included in a deep clean?"
+    content: "Deep cleaning covers everything in a standard clean — like dusting, vacuuming and mopping — plus extras like descaling taps and toilets, cleaning inside ovens and appliances, sanitising high-touch areas, and vacuuming furniture. It’s a full top-to-bottom refresh for your home."
+    icon: mdi:home-search-outline
+
+  - label: "When should I book a deep clean?"
+    content: "Deep cleans are perfect for spring cleaning, after illness, moving in or out, or when your space needs extra attention. They’re also ideal before or after hosting guests or if it’s been a while since your last professional clean."
+    icon: mdi:calendar-alert
+
+  - label: "How is this different from a regular clean?"
+    content: "Regular cleaning is more about upkeep, while deep cleaning focuses on neglected or harder-to-reach areas. Think inside ovens, appliance detailing, descaling, and removing built-up grime that’s not part of a routine visit."
+    icon: mdi:compare-horizontal
+
+  - label: "How long does a deep clean take?"
+    content: "It depends on your home size and condition. Most deep cleans take 3 to 6 hours. You’ll receive a time recommendation during booking, and if extra time is needed, we bill fairly in 30-minute increments."
+    icon: mdi:timer-sand
+
+  - label: "Can I choose which rooms or areas to focus on?"
+    content: "Absolutely. You can tailor the clean to your needs — whether it’s the kitchen, bathrooms, or the whole home. Just select your priorities or leave notes in the booking form, and we’ll follow them closely."
+    icon: mdi:clipboard-edit-outline
+
+  - label: "Do I need to provide any equipment or products?"
+    content: "You’ll need to provide a vacuum, mop, and bucket. You can supply your own products, or we can bring eco-friendly cleaning supplies for a small fee — just select that option when booking."
+    icon: mdi:spray-bottle
+
+  - label: "Do I need to be home during the clean?"
+    content: "No — just let us know how to access the property, whether through a key drop, smart lock, or neighbour. We’ll keep everything secure and send updates when your clean is complete."
+    icon: mdi:account-off-outline
+
+  - label: "How do I book a deep clean?"
+    content: "Simply fill out our online form, select your services and extras, and get an instant quote. Choose a time that works for you — and we’ll handle the rest. It’s all managed digitally through your BaseLink account."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is pricing handled?"
+    content: "You’ll see a clear hourly rate at the time of booking. Payment is taken on the day of your clean, and extra time — if needed — is billed in fair 30-minute increments. No surprises."
+    icon: mdi:receipt-text-outline
+
+  - label: "Are your cleaners vetted and experienced?"
+    content: "Yes — all BaseLink cleaners are fully insured, background-checked, and rated by other customers. We only work with experienced professionals who meet our quality standards."
+    icon: mdi:shield-check-outline
 ---
 
 ::hero-standard
@@ -72,15 +112,11 @@ Quick and easy booking for deep cleaning
 
 ---
 
-::why-us
----
-profession: "cleaners"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a cleaner
+---
+
 #title
 What you get with deep cleaning
 
@@ -120,48 +156,12 @@ You can customise your clean with special instructions or add extra services. Yo
   ::task-item
   Custom cleaning requests
   ::
-
-
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable deep cleaning starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -194,21 +194,8 @@ Book deep cleaning{{$doc.location}} with BaseLink today and enjoy the feeling of
 
 ---
 
-::subcategory
+::why-us
 ---
-category: tradespeople
+profession: "cleaners"
 ---
-#title
-Additional services for your home or business{{ $doc.location }}
-
-#description
-BaseLink offers a variety of services to meet all your needs.
-::
-
----
-
-::contact
-::
-
-::cta
 ::

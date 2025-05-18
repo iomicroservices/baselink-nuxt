@@ -11,16 +11,36 @@ colour: "blue"
 pathtxt: "Wooden panelling"
 published: true
 faqs:
+  - label: "Can you help design the panelling layout?"
+    content: "Yes – our carpenters can advise on panelling style, layout, height and spacing. Whether you’re after shaker, tongue and groove, or full wall panelling, we’ll help you plan the right look for your space."
+    icon: mdi:ruler-square
+
+  - label: "What finishes do you offer for wooden panelling?"
+    content: "Panelling can be primed, painted or stained depending on your preference. Just let us know the finish you're after and whether you'd like us to supply the paint or use your own."
+    icon: mdi:format-color-fill
+
+  - label: "Can panelling be installed on uneven walls?"
+    content: "Yes – our carpenters can scribe panels and use filler to achieve a flush, level finish on most uneven surfaces. We’ll assess the wall condition and prep it properly before fitting."
+    icon: mdi:wall
+
+  - label: "Can I use my own panels and trim?"
+    content: "Of course. You’re welcome to supply your own materials – just share the details during booking so your carpenter can plan accordingly. If you'd prefer, we can supply everything too."
+    icon: mdi:package-variant
+
   - label: "How are jobs priced?"
     content: "You’ll see our standard hourly rate when you fill out the form, but final pricing depends on the scope of work. Once submitted, we’ll review the details and get back to you with a tailored quote and estimated time to complete the job. The minimum booking is one hour."
     icon: mdi:currency-gbp
 
+  - label: "How is payment handled?"
+    content: "We collect payment for the first hour when you book. The rest is charged on the day of the job, based on actual time spent. Extra time is billed fairly in 30-minute increments."
+    icon: mdi:credit-card-check-outline
+
   - label: "Are your carpenters vetted and insured?"
-    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every clean to make sure only the best stick around. So you get safe, reliable service every time."
+    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every job to make sure only the best stick around. So you get safe, reliable service every time."
     icon: mdi:shield-account
 
   - label: "Can I cancel or reschedule a carpentry appointment?"
-    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the clean, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the job, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
     icon: mdi:calendar-remove-outline
 
   - label: "What if something goes wrong or I’m not happy with the job?"
@@ -146,6 +166,7 @@ Our skilled and trusted carpenters{{ $doc.location}} can design, replace, instal
 
 ::faq-side-ui{:faqs="faqs"}
 ::
+
 
 ::long-form
 #title

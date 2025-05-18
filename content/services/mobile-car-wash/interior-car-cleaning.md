@@ -10,6 +10,46 @@ ogImage: "/images/mobile-car-wash/interior-car-cleaning.webp"
 colour: "red"
 pathtxt: "Interior car cleaning"
 published: true
+faqs:
+  - label: "What does interior car cleaning include?"
+    content: "The service covers interior window cleaning, vacuuming of seats, boot and floor mats, wiping down dashboards and consoles, cleaning cup holders and compartments, dusting air vents, and a light deodorising treatment. It finishes with a final inspection to ensure a like-new feel."
+    icon: mdi:car-seat
+
+  - label: "Do I need to prepare the car before the clean?"
+    content: "No major prep needed. Just remove any valuables or personal items beforehand so we can access all areas easily. If there’s anything specific you want us to focus on or avoid, just leave a note in your booking."
+    icon: mdi:note-edit-outline
+
+  - label: "Can I customise the service or request extras?"
+    content: "Yes! You can tailor the clean to your needs by adding extras like deep fabric cleaning, pet hair removal, or leather treatment. Just select add-ons when booking or let us know in the notes section."
+    icon: mdi:playlist-plus
+
+  - label: "How long does interior cleaning take?"
+    content: "Most interior cleans take 60 to 90 minutes depending on your vehicle’s size and condition. If extra time is needed for detail work or heavy dirt, we’ll bill fairly in 30-minute increments."
+    icon: mdi:timer-outline
+
+  - label: "Where can the cleaning take place?"
+    content: "We can clean your car at home, work, or anywhere with a safe parking space. Driveways, garages, or private car parks are perfect. We can’t operate on public roads or tight spaces."
+    icon: mdi:map-marker-radius-outline
+
+  - label: "Do I need to be there during the clean?"
+    content: "Not at all. You can leave access instructions when booking — for example, how to access the vehicle or where to find the keys. Once complete, we’ll notify you and send photos of the results."
+    icon: mdi:account-off-outline
+
+  - label: "Is this suitable for cars with kids or pets?"
+    content: "Definitely. Interior car cleaning is ideal for family cars and pet owners. Our technicians will focus on removing crumbs, hair, odours, and general mess — just let us know any areas that need extra care."
+    icon: mdi:dog-side
+
+  - label: "How do I book interior car cleaning?"
+    content: "Just fill out our quick online form, select your service, and get an instant quote. Choose a time and place that suits you, and we’ll match you with a trusted local provider."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is pricing handled?"
+    content: "You’ll receive a clear, fixed quote when booking. Payment is only taken on the day of your clean, and any extra time is billed fairly in 30-minute increments. No surprises, no hidden fees."
+    icon: mdi:receipt-text-outline
+
+  - label: "Are your cleaning professionals vetted?"
+    content: "Yes — all BaseLink car cleaners are background-checked, insured, and regularly reviewed by other customers. We only work with reliable, experienced professionals who meet our high standards."
+    icon: mdi:shield-check-outline
 ---
 
 ::hero-standard
@@ -72,14 +112,6 @@ How to book a mobile interior car clean
 
 ---
 
-::why-us
----
-profession: "washers"
----
-::
-
----
-
 ::tasks
 #title
 What you get with interior car cleaning
@@ -123,44 +155,10 @@ You can customise your valet with special instructions or add extra services. Yo
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable interior car cleaning starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -193,26 +191,8 @@ Book interior car cleaning{{$doc.location}} today with BaseLink — and give you
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
-::
-
-::subcategory
+profession: "washers"
 ---
-category: home-cleaning
----
-#title
-BaseLink cleaning services for your home{{ $doc.location }} too
-
-#description
-We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

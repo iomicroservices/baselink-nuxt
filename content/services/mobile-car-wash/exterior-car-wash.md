@@ -10,6 +10,46 @@ ogImage: "/images/mobile-car-wash/exterior-car-wash.webp"
 colour: "red"
 pathtxt: "Exterior car wash"
 published: true
+faqs:
+  - label: "What does an exterior car wash include?"
+    content: "The service includes a pre-rinse to loosen dirt, a full hand wash using specialist shampoo, detailed cleaning of wheels and tyres, tar spot and bug removal, external window cleaning, door sills wiped down, and a final rinse and hand dry using soft microfibre towels for a swirl-free finish."
+    icon: mdi:car-wash
+
+  - label: "Where can I have my car washed?"
+    content: "We can wash your car at home, work, or any private location with enough space to operate safely. Driveways, private car parks, or quiet residential streets are ideal. We can’t carry out washes on public roads or busy high streets."
+    icon: mdi:map-marker-radius-outline
+
+  - label: "How long does an exterior wash take?"
+    content: "Most washes take around 45–60 minutes depending on the size and condition of your vehicle. Heavily soiled vehicles or those with lots of tar or bug build-up may require more time — billed in 30-minute increments if needed."
+    icon: mdi:timer-outline
+
+  - label: "Do I need to be present during the wash?"
+    content: "Nope! You can leave access instructions when booking, and we’ll take care of the rest. Once complete, you’ll receive photo updates so you can review the results remotely."
+    icon: mdi:account-off-outline
+
+  - label: "Do I need to provide water or electricity?"
+    content: "No — our cleaners bring all the equipment they need, including water and power if required. If access is limited at your location, just let us know when booking and we’ll plan accordingly."
+    icon: mdi:toolbox-outline
+
+  - label: "Can I request additional services?"
+    content: "Yes! You can customise your wash with extras like engine bay cleaning, interior valets, or special requests. Just select your add-ons or leave instructions in the booking form."
+    icon: mdi:clipboard-edit-outline
+
+  - label: "How do I book an exterior car wash?"
+    content: "Booking is quick and fully online. Just fill in our form, choose your service and location, and get an instant quote. Pick a time that suits you and we’ll handle the rest."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is the service priced?"
+    content: "You’ll see a fixed price at the time of booking based on your chosen service and location. Payment is taken on the day, and any extra time is billed in fair 30-minute increments — with no hidden costs."
+    icon: mdi:receipt-text-outline
+
+  - label: "What if I need to cancel or reschedule?"
+    content: "You can cancel or reschedule up to 24 hours in advance at no charge. Just log into your account or contact our support team — we’ll take care of it."
+    icon: mdi:calendar-remove-outline
+
+  - label: "Are your car cleaners vetted?"
+    content: "Yes — all BaseLink providers are fully insured, background-checked, and reviewed by other customers. We only work with professionals who deliver consistent, high-quality results."
+    icon: mdi:shield-check-outline
 ---
 
 ::hero-standard
@@ -72,14 +112,6 @@ How to book a mobile exterior car wash
 
 ---
 
-::why-us
----
-profession: "cleaners"
----
-::
-
----
-
 ::tasks
 #title
 What you get with exterior car wash
@@ -119,44 +151,10 @@ You can customise your valet with special instructions or add extra services. Yo
 
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable exterior car wash starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -189,26 +187,8 @@ Book an exterior car wash{{$doc.location}} today with BaseLink and enjoy a showr
 
 ---
 
-::category
-#title
-Find housekeepers and tradespeople {{$doc.location}}
-::
-
+::why-us
 ---
-
-::contact
-::
-
-::cta
-::
-
-::subcategory
+profession: "cleaners"
 ---
-category: home-cleaning
----
-#title
-BaseLink cleaning services for your home{{ $doc.location }} too
-
-#description
-We don't just keep cars looking sharp — we offer expert home cleaning services as well. From deep cleans to end of tenancy and everything in between, we've got you covered.
 ::

@@ -11,16 +11,32 @@ colour: "blue"
 pathtxt: "Kitchen fitting"
 published: true
 faqs:
+  - label: "What does kitchen fitting involve?"
+    content: "Our carpenters can handle everything from removing your old kitchen units to installing new ones, fitting worktops, kitchen islands, splashbacks and integrated appliances. We also offer custom shelving, drawer fitting, and refurbishment options. You can customise the job when you book."
+    icon: mdi:home-modern
+
+  - label: "Can you help with kitchen design or layout planning?"
+    content: "Yes – if you're starting from scratch or redesigning your kitchen, our carpenters can assist with layout planning and design recommendations before fitting. Just mention it in your form and we’ll include it in your quote."
+    icon: mdi:floor-plan
+
+  - label: "Do I need to supply the kitchen units or materials?"
+    content: "You’re welcome to supply your own materials or we can source them for you. Your carpenter will confirm the cost before purchasing, and once approved, it’ll be added to your final bill."
+    icon: mdi:toolbox-outline
+
   - label: "How are fitting jobs priced?"
     content: "You’ll see our standard hourly rate when you fill out the form, but final pricing depends on the scope of work. Once submitted, we’ll review the details and get back to you with a tailored quote and estimated time to complete the job. The minimum booking is one hour."
     icon: mdi:currency-gbp
 
+  - label: "How is payment handled?"
+    content: "We collect payment for the first hour when you book. The remaining balance is charged on the day of the job based on the time worked and any pre-approved materials. Any extra time is billed fairly in 30-minute increments."
+    icon: mdi:credit-card-check-outline
+
   - label: "Are your carpenters vetted and insured?"
-    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every clean to make sure only the best stick around. So you get safe, reliable service every time."
+    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every job to make sure only the best stick around. So you get safe, reliable service every time."
     icon: mdi:shield-account
 
   - label: "Can I cancel or reschedule a carpentry appointment?"
-    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the clean, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the job, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
     icon: mdi:calendar-remove-outline
 
   - label: "What if something goes wrong or I’m not happy with the job?"

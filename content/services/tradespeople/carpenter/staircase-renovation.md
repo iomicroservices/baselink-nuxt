@@ -11,16 +11,36 @@ colour: "blue"
 pathtxt: "Staircase renovation"
 published: true
 faqs:
+  - label: "What types of staircases can you renovate?"
+    content: "Our carpenters can work on straight, L-shaped, U-shaped, winder, spiral, and floating staircases. Whether you're after a modern refresh or a traditional restoration, we’ve got the skills to match your vision."
+    icon: mdi:stairs
+
+  - label: "Do you remove the old staircase as part of the job?"
+    content: "Yes — if you’re replacing an existing staircase, our carpenters can dismantle and dispose of it as part of the service. Just include this detail in your booking form so we can allow enough time."
+    icon: mdi:trash-can-outline
+
+  - label: "Can you fix creaky or loose stairs?"
+    content: "Definitely. We can eliminate creaks, strengthen the structure, and make adjustments to ensure everything feels solid underfoot. This is one of the most common reasons people book a staircase repair."
+    icon: mdi:toolbox-outline
+
+  - label: "Can I customise the design?"
+    content: "Absolutely! From modern glass balustrades to classic timber detailing, your carpenter can help bring your design ideas to life. You’ll discuss everything in advance so the final result matches your style."
+    icon: mdi:brush-variant
+
   - label: "How are jobs priced?"
     content: "You’ll see our standard hourly rate when you fill out the form, but final pricing depends on the scope of work. Once submitted, we’ll review the details and get back to you with a tailored quote and estimated time to complete the job. The minimum booking is one hour."
     icon: mdi:currency-gbp
 
+  - label: "How is payment handled?"
+    content: "We collect payment for the first hour when you book. The rest is charged on the day of the job, based on actual time spent. Extra time is billed fairly in 30-minute increments."
+    icon: mdi:credit-card-check-outline
+
   - label: "Are your carpenters vetted and insured?"
-    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every clean to make sure only the best stick around. So you get safe, reliable service every time."
+    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every job to make sure only the best stick around. So you get safe, reliable service every time."
     icon: mdi:shield-account
 
   - label: "Can I cancel or reschedule a carpentry appointment?"
-    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the clean, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the job, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
     icon: mdi:calendar-remove-outline
 
   - label: "What if something goes wrong or I’m not happy with the job?"
@@ -85,8 +105,6 @@ Book a staricase renovation job with ease
     We dispatch a vetted and experienced carpenter to complete the work at your location with precision and care.
     ::
 ::
-
----
 
 ---
 
@@ -184,6 +202,8 @@ Carpenters can eliminate squeaks, add cladding, or remove and replace stair carp
 If safety is a concern, upgrades can be made to improve grip and stability. Custom design features can also be included to help your staircase suit your home perfectly.
 
 ::
+
+---
 
 ::why-us
 ---

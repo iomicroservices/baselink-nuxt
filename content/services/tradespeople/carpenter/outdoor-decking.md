@@ -11,16 +11,28 @@ colour: "blue"
 pathtxt: "Decking and outdoor"
 published: true
 faqs:
+  - label: "What types of decking do you install?"
+    content: "We offer timber, composite, PVC, hardwood, and softwood decking — including anti-slip options for wet areas. You can also book wrap-around, roof, poolside or platform decking, and even custom features like integrated planters or seating."
+    icon: mdi:layers-outline
+
+  - label: "Do I need to supply the decking materials?"
+    content: "You're welcome to supply your own, or we can source everything for you. Your carpenter will confirm material costs for approval before going ahead, and they’ll be added to your final bill."
+    icon: mdi:toolbox-outline
+
   - label: "How are decking jobs priced?"
     content: "You’ll see our standard hourly rate when you fill out the form, but final pricing depends on the scope of work. Once submitted, we’ll review the details and get back to you with a tailored quote and estimated time to complete the job. The minimum booking is one hour."
     icon: mdi:currency-gbp
 
+  - label: "How is payment handled?"
+    content: "We collect payment for the first hour when you book. The remaining balance is charged on the day of the job based on time worked and any pre-approved material costs. Any extra time is billed fairly in 30-minute increments."
+    icon: mdi:credit-card-check-outline
+
   - label: "Are your carpenters vetted and insured?"
-    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every clean to make sure only the best stick around. So you get safe, reliable service every time."
+    content: "Yes – all carpenters are fully insured and carefully vetted. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every job to make sure only the best stick around. So you get safe, reliable service every time."
     icon: mdi:shield-account
 
   - label: "Can I cancel or reschedule a carpentry appointment?"
-    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the clean, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the job, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
     icon: mdi:calendar-remove-outline
 
   - label: "What if something goes wrong or I’m not happy with the job?"

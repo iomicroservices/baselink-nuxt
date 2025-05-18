@@ -163,6 +163,11 @@ Payment is collected on the day of your visit, and any extra time is billed fair
 
 ---
 
+::brands{type="thermostats"}
+#title
+Our skilled engineers can work with any thermostat brand
+::
+
 ::why-us
 ---
 profession: "engineers"

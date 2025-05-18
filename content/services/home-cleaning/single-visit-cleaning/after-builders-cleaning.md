@@ -10,6 +10,46 @@ ogImage: "/images/home-cleaning/single-visit-cleaning/after-builders-cleaning.we
 colour: "green"
 pathtxt: "After builders cleaning"
 published: true
+faqs:
+  - label: "What does after builders cleaning include?"
+    content: "The service covers full dust and debris removal, cleaning of paint splatters and plaster residue, wiping down doors, frames and interior windows, vacuuming and mopping floors, and sanitising sinks, taps and toilets. We’ll also clean appliances, mirrors, cabinets, and sweep balconies or entrances if needed."
+    icon: mdi:construction
+
+  - label: "Is this different from a standard clean?"
+    content: "Yes — after builders cleaning is more intensive and designed specifically for post-construction or renovation mess. It involves extra time and care to remove fine dust, paint marks, and leftover materials that wouldn’t typically be part of a regular clean."
+    icon: mdi:hammer-wrench
+
+  - label: "How long does after builders cleaning take?"
+    content: "It depends on the size of your home and the amount of debris or residue present, but most jobs take 4 to 6 hours. We’ll recommend a time based on your property and bill fairly in 30-minute increments if additional time is needed."
+    icon: mdi:timer-sand
+
+  - label: "Can you remove paint or plaster from floors and surfaces?"
+    content: "Yes — we use specialist products and techniques to safely remove paint, plaster and adhesive residue. If anything is particularly delicate or at risk, we’ll let you know before proceeding."
+    icon: mdi:format-paint
+
+  - label: "Do I need to clear the area before cleaning?"
+    content: "If builders have just finished, we recommend removing any tools or materials before we arrive so we can get straight to work. If you need help tidying up construction waste first, let us know — we can include that in your booking."
+    icon: mdi:package-variant-remove
+
+  - label: "Can I request specific tasks or areas to focus on?"
+    content: "Absolutely. You can customise your clean with priority areas or leave detailed instructions in the booking form. We’ll follow your notes and make sure nothing’s missed."
+    icon: mdi:clipboard-edit-outline
+
+  - label: "Are your cleaners experienced with post-construction cleans?"
+    content: "Yes — we only assign vetted professionals with experience in after builders cleaning. They know how to safely handle fine dust, stubborn residue, and all the unexpected mess renovation work can leave behind."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I book after builders cleaning?"
+    content: "It’s simple — fill out our online form, choose your tasks and time, and receive an instant quote. No calls or back-and-forth — just quick, clear booking through your BaseLink account."
+    icon: mdi:calendar-check-outline
+
+  - label: "How is pricing handled?"
+    content: "You’ll get a fixed hourly rate at the time of booking. Payment is taken on the day of your clean, and extra time — if needed — is billed in fair 30-minute increments. Everything is transparent and upfront."
+    icon: mdi:receipt-text-outline
+
+  - label: "Can I combine this with other cleaning services?"
+    content: "Yes — after builders cleaning can be paired with services like carpet or upholstery cleaning, deep kitchen cleans, or odour removal. Just select add-ons during booking or contact us to customise your visit."
+    icon: mdi:playlist-plus
 ---
 
 ::hero-standard
@@ -72,15 +112,11 @@ Quick and easy booking for after builders cleaning
 
 ---
 
-::why-us
----
-profession: "cleaners"
----
-::
-
----
-
 ::tasks
+---
+button: Hire a cleaner
+---
+
 #title
 What you get with after builders cleaning
 
@@ -126,44 +162,10 @@ You can customise your clean with special instructions or add extra services. Yo
     ::
 ::
 
----
 
-::faq-side
-#faqs
-  ::faq-items
-  #question
-  Question one
-
-  #answer
-  Answer one
-  ::
-
-  ::faq-items
-  #question
-  Question two
-
-  #answer
-  A [rich text](/services/commercial-cleaning) will be **rendered** by the component.
-  Answer two is here:
-    - item one
-    - item two
-  ::
-
-  ::faq-items
-  #question
-  Question 3
-
-  #answer
-  Answer three
-  ::
+::faq-side-ui{:faqs="faqs"}
 ::
 
-::cta
----
-title: "Reliable after builders cleaning starts here"
-button: "Hire a cleaner"
----
-::
 
 ::long-form
 #title
@@ -196,21 +198,8 @@ Book after builders cleaning{{$doc.location}} with BaseLink today and enjoy your
 
 ---
 
-::subcategory
+::why-us
 ---
-category: tradespeople
+profession: "cleaners"
 ---
-#title
-Additional services for your home or business{{ $doc.location }}
-
-#description
-BaseLink offers a variety of services to meet all your needs.
-::
-
----
-
-::contact
-::
-
-::cta
 ::
