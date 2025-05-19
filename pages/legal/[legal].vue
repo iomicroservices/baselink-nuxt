@@ -8,6 +8,15 @@ if (error.value) {
   await navigateTo('/404')
 }
 
+if (!legalarticles.value || !legalarticles.value.content) {
+  const externalUrl = legalarticles.value?.frontmatter?.path; // Adjust this based on your actual frontmatter structure
+  if (externalUrl) {
+    await navigateTo(externalUrl);
+  } else {
+    await navigateTo(path);
+  }
+}
+
 const data = computed(() => {
   return {
     title: legalarticles.value?.title,

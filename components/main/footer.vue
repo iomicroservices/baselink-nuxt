@@ -58,19 +58,14 @@ import { footerData, socialLinks } from '@/data/index'
                 <div class="sm:flex sm:justify-between sm:items-center">
                     <div class="flex flex-wrap items-center gap-3">
 
-                        <UButton to="/" target="_blank" label="Work with us"
+                        <UButton to="/work-with-us" label="Work with us"
                             class="btn-primary h-10 font-semibold dark:text-white" />
 
                         <div class="space-x-4">
-                            <NuxtLink
-                                class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-hidden focus:text-gray-800 dark:text-neutral-300 dark:hover:text-white"
-                                to="/legal/terms-of-service">Terms</NuxtLink>
-                            <NuxtLink
-                                class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-hidden focus:text-gray-800 dark:text-neutral-300 dark:hover:text-white"
-                                to="/legal/privacy-policy">Privacy</NuxtLink>
-                            <NuxtLink
-                                class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-hidden focus:text-gray-800 dark:text-neutral-300 dark:hover:text-white"
-                                to="/legal/cookie-policy">Cookies</NuxtLink>
+                            <NuxtLink v-for="item in footerData.legal" :key="item.link" :to="item.link"
+                                class="inline-flex gap-x-2 text-gray-600 hover:text-gray-800 focus:outline-hidden focus:text-gray-800 dark:text-neutral-300 dark:hover:text-white">
+                                {{ item.name }}
+                            </NuxtLink>
                         </div>
                     </div>
 

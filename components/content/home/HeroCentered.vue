@@ -21,9 +21,9 @@ defineProps<Props>()
         <div class="relative mx-auto">
             <div class="mb-10 mx-auto text-left">
                 <!-- badge section START -->
-                <div v-if="$slots.badge" class="inline-flex">
+                <div v-if="$slots.badge || badge" class="inline-flex">
                     <span
-                        class="px-4 py-2 rounded-full bg-blue-100 dark:bg-blue-200/20 text-xs text-blue-600 dark:text-blue-200 font-semibold relative border border-blue-200 dark:border-gray-700">
+                        class="px-4 py-2 rounded-full bg-blue-100 dark:bg-indigo-900/50 text-xs text-blue-600 dark:text-blue-200 font-semibold relative border border-blue-200 dark:border-gray-700">
                         <ContentSlot unwrap="p" name="badge">
                             {{ badge || 'Default badge' }}
                         </ContentSlot>
@@ -47,7 +47,7 @@ defineProps<Props>()
 
                             <!-- Buttons container -->
                             <div v-if="button1 || button2"
-                                class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                                class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
 
                                 <!-- Button 1 -->
                                 <NuxtLink v-if="button1" :to="button1"

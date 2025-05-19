@@ -132,7 +132,7 @@ Whether it's a one-off job or regular service, booking with BaseLink is simple. 
 Property services done right with BaseLink
 
 #description
-You can customise your clean with special instructions or add extra services. Your account will be managed by our dedicated support team for a reliable service every time.
+You can customise your jobs with special instructions and request multiple services in a single booking. Your account will be managed by our dedicated support team for a reliable service every time.
 
 #items
     

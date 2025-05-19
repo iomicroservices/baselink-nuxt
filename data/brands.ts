@@ -1,3 +1,29 @@
+export const alarms = [
+    { name: 'ADT alarms', description: 'Install, replace or supply of ADT alarms.', image: '/images/brands/adt-logo.webp' },
+    { name: 'Verisure alarms', description: 'Install, replace or supply of Verisure alarms.', image: '/images/brands/verisure-logo.webp' },
+    { name: 'Yale alarms', description: 'Install, replace or supply of Yale alarms.', image: '/images/brands/yale-logo.webp' },
+    { name: 'TP-Link alarms', description: 'Install, replace or supply of TP-Link alarms.', image: '/images/brands/tp-link-logo.webp' },
+    { name: 'Honeywell alarms', description: 'Install, replace or supply of Honeywell alarms.', image: '/images/brands/honeywell-logo.webp' },
+    { name: 'Abode alarms', description: 'Install, replace or supply of Abode alarms.', image: '/images/brands/abode-logo.webp' },
+    { name: 'LASER alarms', description: 'Install, replace or supply of LASER alarms.', image: '/images/brands/laser-logo.webp' },
+    { name: 'Somfy alarms', description: 'Install, replace or supply of Somfy alarms.', image: '/images/brands/somfy-logo.webp' },
+    { name: 'Ajax Systems alarms', description: 'Install, replace or supply of Ajax Systems alarms.', image: '/images/brands/ajax-logo.webp' },
+    { name: 'Bosch alarms', description: 'Install, replace or supply of Bosch alarms.', image: '/images/brands/bosch-logo.webp' },
+    { name: 'elpine alarms', description: 'Install, replace or supply of elpine alarms.', image: '/images/brands/elpine-logo.webp' },
+    { name: 'ERA alarms', description: 'Install, replace or supply of ERA alarms.', image: '/images/brands/era-logo.webp' },
+    { name: 'eufy alarms', description: 'Install, replace or supply of eufy alarms.', image: '/images/brands/eufy-logo.webp' },
+    { name: 'Kkmoon alarms', description: 'Install, replace or supply of Kkmoon alarms.', image: '/images/brands/kkmoon-logo.webp' },
+    { name: 'Netatmo alarms', description: 'Install, replace or supply of Netatmo alarms.', image: '/images/brands/netatmo-logo.webp' },
+    { name: 'Pyronix alarms', description: 'Install, replace or supply of Pyronix alarms.', image: '/images/brands/pyronix-logo.webp' },
+    { name: 'Ring alarms', description: 'Install, replace or supply of Ring alarms.', image: '/images/brands/ring-logo.webp' },
+    { name: 'RISCO alarms', description: 'Install, replace or supply of RISCO alarms.', image: '/images/brands/risco-logo.webp' },
+    { name: 'SABRE alarms', description: 'Install, replace or supply of SABRE alarms.', image: '/images/brands/sabre-logo.webp' },
+    { name: 'Scantronic alarms', description: 'Install, replace or supply of Scantronic alarms.', image: '/images/brands/scantronic-logo.webp' },
+    { name: 'SimpliSafe alarms', description: 'Install, replace or supply of SimpliSafe alarms.', image: '/images/brands/simplisafe-logo.webp' },
+    { name: 'Skylink alarms', description: 'Install, replace or supply of Skylink alarms.', image: '/images/brands/skylink-logo.webp' },
+    { name: 'Texecom alarms', description: 'Install, replace or supply of Texecom alarms.', image: '/images/brands/texecom-logo.webp' },
+]
+
 export const boilers = [
     { name: 'Alpha boilers', description: 'Install, replace or supply of Alpha boilers.', image: '/images/brands/alpha-heating-logo.webp' },
     { name: 'Ideal boilers', description: 'Install, replace or supply of Ideal boilers.', image: '/images/brands/ideal-heating-logo.webp' },
@@ -127,6 +153,7 @@ export const waterheaters = [
 ]
 
 export const brandGroups = {
+    alarms,
     boilers,
     cctvcameras,
     thermostats,

@@ -13,6 +13,11 @@ export const footerData = {
         "We're committed to making property services simpler and more accessible through digital-first solutions. Whether you're a homeowner, landlord or business, BaseLink is here to help.",
     aboutTheSite:
         "This is the official website of BaseLink, a digital-first UK property services provider. We offer trusted tradespeople and cleaners across residential and commercial sectors. Built with Nuxt3 and deployed via Vercel.",
+    legal: [
+        { name: 'Terms', link: '/legal/terms-of-service' },
+        { name: 'Privacy', link: '/legal/privacy-policy' },
+        { name: 'Cookies', link: '/legal/cookie-policy' },
+    ],
     services: [
         { name: 'Home cleaning', link: '/services/home-cleaning' },
         { name: 'Commercial cleaning', link: '/services/commercial-cleaning' },

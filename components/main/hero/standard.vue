@@ -12,12 +12,12 @@ interface Props {
 }
 
 withDefaults(defineProps<Props>(), {
-    badge: 'Only £11/month • Unlimited minutes',
+    badge: 'Badge prop',
     title: 'Standard Hero title',
     description: 'Standard Hero description.',
-    alt: 'Get a virtual landline number for your business in the UK',
+    alt: 'Property services for domestic and commercial customers by BaseLink',
     ogImage: 'https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80',
-    button1: 'Get connected 🚀',
+    button1: 'Get started 🚀',
     button2: 'Find out more 👇',
     path1: '/',
     path2: '/',

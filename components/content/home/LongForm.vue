@@ -29,7 +29,7 @@ defineProps<Props>()
                 {{ description || "Default long form description" }}
             </ContentSlot>
         </div>
-        <p>
+        <p class="pb-0">
             <NuxtLink
                 class="md:max-w-[75%] text-lg text-primary-600 dark:text-primary-400 font-semibold hover:underline"
                 :to='getStarted'>

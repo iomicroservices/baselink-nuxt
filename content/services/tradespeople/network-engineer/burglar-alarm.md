@@ -148,6 +148,11 @@ Payment is taken on the day of service, with any extra time billed in fair 30-mi
 
 ---
 
+::brands{type="alarms"}
+#title
+Our qualified engineers can work with any burglar alarm system
+::
+
 ::why-us
 ---
 profession: "network engineers"

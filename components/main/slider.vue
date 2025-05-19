@@ -39,12 +39,9 @@ onMounted(() => {
 </script>
 
 <template>
-    <UCarousel
-    ref="carouselRef"
-    v-slot="{ item }"
-    :items="props.images"
-    :ui="{ item: `${props.basis} ${props.mdbasis} ${props.lgbasis}` }"
-    class="rounded-lg overflow-hidden" indicators>
+    <UCarousel ref="carouselRef" v-slot="{ item }" :items="props.images"
+        :ui="{ item: `${props.basis} ${props.mdbasis} ${props.lgbasis}` }" class="rounded-lg overflow-hidden"
+        indicators>
         <img :src="item" class="w-full" draggable="false">
     </UCarousel>
 </template>
