@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Office and commercial removals"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
+  - label: "What types of commercial spaces do you move?"
+    content: "We move all types — from small offices and co-working spaces to retail units, studios, warehouses, and even unusual or hard-to-access properties. If it can be moved, we’ll make it happen."
+    icon: mdi:office-building
+
+  - label: "Can you move IT equipment and sensitive items?"
+    content: "Yes – we handle everything from computers and monitors to servers, files, safes and more. Items are packed securely, labelled clearly, and handled with extra care throughout the move."
+    icon: mdi:desktop-tower-monitor
+
+  - label: "Do you dismantle and reassemble office furniture?"
+    content: "Absolutely. We can take apart desks, shelving, boardroom tables and other fittings, then reassemble everything at the new location — ready for business as usual."
     icon: mdi:tools
+
+  - label: "Can you move us outside of office hours?"
+    content: "Yes – we can plan your move outside of regular working hours, including evenings and weekends, to minimise disruption to your operations. Just let us know your preferred timing when you book."
+    icon: mdi:clock-outline
+
+  - label: "Do you offer packing materials or help with packing?"
+    content: "We can supply packing boxes, protective wrapping, labels, and more. Full or partial packing support is available — we’ll tailor the service to suit your business needs."
+    icon: mdi:package-variant-closed
+
+  - label: "What if I have secure access or need help with building management?"
+    content: "No problem. We’re used to working with building managers and secured premises. Provide us with any access instructions or contact details, and we’ll handle the logistics for you."
+    icon: mdi:door-open
+
+  - label: "How is commercial removal priced?"
+    content: "We provide a custom quote based on the size of your move, logistics, and any extras like packing or setup. You’ll receive clear pricing upfront — with no hidden fees."
+    icon: mdi:currency-gbp
+
+  - label: "Are your movers vetted and insured?"
+    content: "Yes – all BaseLink removals teams are insured, background-checked, and reviewed by other businesses. You’ll receive professional service you can trust with your space and equipment."
+    icon: mdi:shield-check-outline
+
+  - label: "Can you help with setup at the new site?"
+    content: "Yes – we offer optional setup support, including desk positioning, IT unpacking, and reassembly. Let us know what you need and we’ll ensure your team can get straight back to work."
+    icon: mdi:monitor-dashboard
+
+  - label: "How do I book a commercial or office removal?"
+    content: "Just fill out our online form with your requirements, get an instant quote, and choose your move date. Our support team will coordinate the rest and keep you updated every step of the way."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

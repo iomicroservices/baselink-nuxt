@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Home removals"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
+  - label: "What’s included in a home removals service?"
+    content: "We handle loading, transport, and unloading as standard. You can also request extras like full packing, furniture dismantling and reassembly, item labelling, and even removal of old furniture or appliances."
+    icon: mdi:home-outline
+
+  - label: "Do you offer packing services?"
+    content: "Yes – we can provide full or partial packing support using our own boxes and materials, or work with yours. Everything is labelled by room for easier unpacking later."
+    icon: mdi:package-variant-closed
+
+  - label: "Can you dismantle and reassemble my furniture?"
+    content: "Absolutely. Beds, wardrobes, tables and more — we’ll take them apart before the move and reassemble them at your new place. Just let us know what’s needed when you book."
     icon: mdi:tools
+
+  - label: "How is home removal priced?"
+    content: "We offer custom quotes based on the size of your move, distance, access, and any extras like packing or disposal. You’ll see a clear, upfront price before confirming."
+    icon: mdi:currency-gbp
+
+  - label: "Do I need to be home during the move?"
+    content: "It helps, but it’s not essential. If you can’t be there, someone should be available to provide access and confirm the final placement of items. Leave any special instructions in your booking."
+    icon: mdi:account-check-outline
+
+  - label: "Can you take away items I don’t want to keep?"
+    content: "Yes – we can remove and responsibly dispose of unwanted furniture or appliances as part of your move. Just mention this in your booking request."
+    icon: mdi:trash-can-outline
+
+  - label: "What if I’m moving to or from a flat or upper floor?"
+    content: "No problem. Our teams are equipped to handle stairs, lifts, narrow hallways, and all types of access challenges. Let us know in advance so we can plan accordingly."
+    icon: mdi:stairs
+
+  - label: "Are your movers vetted and insured?"
+    content: "Yes – all BaseLink home removals teams are fully insured, background-checked, and reviewed by other local customers. Your belongings are in safe hands."
+    icon: mdi:shield-check-outline
+
+  - label: "Do you offer cleaning or tidy-up after moving?"
+    content: "We provide a light sweep and clear-up of the emptied property if requested. For deep cleaning, we recommend booking our separate cleaning service."
+    icon: mdi:broom
+
+  - label: "How do I book a home removal?"
+    content: "Just complete our online form, get a quote instantly, and choose your preferred time slot. We’ll confirm everything and keep you updated throughout your move."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

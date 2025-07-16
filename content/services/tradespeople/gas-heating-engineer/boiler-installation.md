@@ -11,9 +11,57 @@ colour: "blue"
 pathtxt: "Boiler installation"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of boilers do you install?"
+    content: "We install all major boiler types – including combi, system, and conventional – from top brands like Worcester Bosch, Vaillant, Ideal, Baxi and more. Whether you're upgrading or replacing, we’ll help you find the right fit."
+    icon: mdi:fire
+
+  - label: "Can you help me choose the right boiler?"
+    content: "Absolutely. If you’re not sure what type or size of boiler you need, just let us know in the booking form. Our engineers will assess your property and recommend a boiler that suits your space, usage, and budget."
+    icon: mdi:help-circle-outline
+
+  - label: "Do you supply the boiler and parts?"
+    content: "Yes – we can supply the boiler, flue kit, thermostat, and any parts needed for a full installation. Let us know your preferences or brand requirements during booking, and we’ll include everything in your tailored quote."
+    icon: mdi:package-variant-closed
+
+  - label: "Can you remove and dispose of my old boiler?"
+    content: "We can. Removal and disposal of your old boiler is available as an add-on – just tick the box when booking and we’ll handle it safely, following all local disposal regulations."
+    icon: mdi:trash-can-outline
+
+  - label: "Do your installations include smart thermostat setup?"
+    content: "Yes – we can install smart thermostats such as Nest, Hive, Tado and more as part of your boiler installation. Just let us know which model you have (or want), and we’ll include it in the setup."
+    icon: mdi:thermometer-lines
+
+  - label: "How long does a boiler installation take?"
+    content: "Most standard installations take 1–2 days, depending on the type of boiler and if pipework needs adjusting. We’ll give you a clear time estimate before the job begins so you know what to expect."
+    icon: mdi:timer-sand
+
+  - label: "How are boiler installations priced?"
+    content: "We’ll provide a fixed-price quote based on the details you provide in the booking form. It will include the boiler, parts, labour and any add-ons. You’ll see a full breakdown before you commit – no surprises on the day."
+    icon: mdi:currency-gbp
+
+  - label: "Are your installers Gas Safe registered?"
+    content: "Yes – all BaseLink boiler installers are fully qualified, insured, and Gas Safe registered. We only work with vetted engineers who meet our high standards of service and safety."
+    icon: mdi:shield-check-outline
+
+  - label: "Do I get a warranty with my new boiler?"
+    content: "Yes – most boilers come with a manufacturer warranty, typically ranging from 5 to 10 years. We’ll register your new boiler with the manufacturer and provide you with the full warranty info after installation."
+    icon: mdi:file-document-check-outline
+
+  - label: "How is payment handled?"
+    content: "We collect your payment method when you book, but you won’t be charged until the day of the job. The full amount is processed securely online after the work is complete. Any extra time is billed in clear 30-minute increments."
+    icon: mdi:credit-card-check-outline
+
+  - label: "Are your engineers vetted and insured?"
+    content: "Yes – all gas and heating engineers are fully insured, carefully vetted and Gas Safe registered where relevant. We run background checks, interview each candidate, and assess their experience before they join BaseLink. But it doesn’t stop there – we collect ongoing feedback after every job to make sure only the best stick around. So you get safe, reliable service every time."
+    icon: mdi:shield-account
+
+  - label: "Can I cancel or reschedule a gas or heating appointment?"
+    content: "No stress – you’re in control. You can cancel or reschedule your booking anytime up to 24 hours before the job, free of charge. Just log in to your account and manage everything online in a few clicks. Need to make a last-minute change? We’ll do our best to help – just get in touch."
+    icon: mdi:calendar-remove-outline
+
+  - label: "What if something goes wrong or I’m not happy with the job?"
+    content: "Your satisfaction matters. Let us know within 72 hours and we’ll put things right – whether it’s a revisit or a refund. We review feedback after every job to keep our service standards high."
+    icon: mdi:emoticon-sad-outline
 ---
 
 ::hero-standard

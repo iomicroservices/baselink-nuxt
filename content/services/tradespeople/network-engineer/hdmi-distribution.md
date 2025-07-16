@@ -11,9 +11,41 @@ colour: "blue"
 pathtxt: "HDMI distribution"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What is HDMI distribution?"
+    content: "HDMI distribution allows you to send video and audio from one source (like a set-top box or media player) to multiple TVs or screens throughout your property using splitters or matrix systems."
+    icon: mdi:video-input-hdmi
+
+  - label: "Can I use my own HDMI matrix or splitter?"
+    content: "Yes, we can install your own HDMI equipment or supply a complete system that fits your needs. Just let us know when booking."
+    icon: mdi:package-variant
+
+  - label: "What kind of cabling do you use for HDMI distribution?"
+    content: "We can run HDMI over CAT6, coaxial, or fibre depending on your layout and distance. This helps maintain high signal quality across longer runs."
+    icon: mdi:cable-data
+
+  - label: "Can this be installed in a home or business?"
+    content: "Absolutely. We install HDMI distribution in homes, offices, shops, gyms, bars, and more — anywhere you want synced video across multiple displays."
+    icon: mdi:home-city
+
+  - label: "Will the picture quality stay the same on all screens?"
+    content: "Yes. Our engineers ensure your system is properly configured to deliver full HD or 4K video across all screens without lag, dropouts or distortion."
+    icon: mdi:monitor-shimmer
+
+  - label: "Can I hide the cables and keep things looking tidy?"
+    content: "Yes. We offer in-wall HDMI port installation and discrete cable routing to keep your setup clean and professional-looking."
+    icon: mdi:wall
+
+  - label: "Can I control all TVs from one remote or location?"
+    content: "In many setups, yes. We’ll advise on compatible control systems or IR distribution so you can manage inputs and displays from a central point."
+    icon: mdi:remote-tv
+
+  - label: "How is the job priced?"
+    content: "Pricing depends on the number of screens, type of system, and cable length. You’ll get a tailored quote before work begins, with fair billing for extra time if needed."
+    icon: mdi:currency-gbp
+
+  - label: "What if there’s a problem after the install?"
+    content: "All installs are backed by BaseLink’s service support. If something stops working, get in touch and we’ll help resolve it — whether it’s configuration, equipment, or connectivity."
+    icon: mdi:shield-check
 ---
 
 ::hero-standard

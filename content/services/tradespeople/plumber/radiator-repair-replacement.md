@@ -11,9 +11,41 @@ colour: "blue"
 pathtxt: "Radiator repair and replacement"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What radiator issues can you repair?"
+    content: "We fix common issues like leaks, cold spots, noisy pipes, faulty valves, and trapped air. If your radiator isn’t heating properly or is dripping water, we can usually repair it on the spot."
+    icon: mdi:toolbox-outline
+
+  - label: "Can you replace radiators if needed?"
+    content: "Yes – we can supply and fit new radiators if yours is beyond repair. We’ll help you choose the right size and model, then remove the old unit and install the new one securely and safely."
+    icon: mdi:radiator
+
+  - label: "What types of radiators do you work with?"
+    content: "We work with all types – from standard panel and column radiators to designer and vertical models. We also install towel radiators and low-profile units for tight spaces."
+    icon: mdi:format-list-bulleted-type
+
+  - label: "Will my system need to be drained?"
+    content: "In many cases, we can isolate and replace a radiator without draining the whole system. If draining is required, we’ll let you know in advance and manage it with minimal disruption."
+    icon: mdi:water-off-outline
+
+  - label: "Can you replace or upgrade radiator valves?"
+    content: "Absolutely – we replace standard valves and fit thermostatic radiator valves (TRVs) so you can better control temperature in each room. Great for comfort and energy savings."
+    icon: mdi:valve
+
+  - label: "What’s included in a replacement?"
+    content: "We remove the old unit, supply and fit the new radiator, reconnect pipework, bleed air, and test for leaks. We’ll also level and secure the radiator to the wall for a clean finish."
+    icon: mdi:check-circle-outline
+
+  - label: "Do you offer help with power flushing too?"
+    content: "Yes – if your radiators are cold at the bottom or heating unevenly, a power flush may help. You can combine this service with your booking, and we’ll advise if it’s needed."
+    icon: mdi:water-pump
+
+  - label: "Are your plumbers vetted and insured?"
+    content: "Yes – all BaseLink plumbers are fully vetted, insured, and reviewed by customers nearby. We only work with qualified professionals who deliver high-quality work every time."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I book radiator repair or replacement?"
+    content: "It’s easy – just fill in our online form with your job details and choose a time. You’ll get an instant quote and our team will handle everything from there."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

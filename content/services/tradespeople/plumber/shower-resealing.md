@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Shower resealing"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What does the shower resealing service include?"
+    content: "We remove old or damaged sealant, clean the area thoroughly, and apply new waterproof silicone sealant around your shower tray, enclosure, or tiles. We also perform a final leak check to ensure a proper seal."
+    icon: mdi:shower
+
+  - label: "How do I know if my shower needs resealing?"
+    content: "Signs include cracked or mouldy silicone, water leaking outside the shower area, or loose edges around the base or screen. If you notice any of these, it's time to reseal."
+    icon: mdi:alert-decagram
+
+  - label: "Can you reseal any type of shower?"
+    content: "Yes – we reseal all types of showers including walk-ins, enclosures, wet rooms, and over-bath setups. We work around trays, screens, panels, and tiled walls."
+    icon: mdi:checkbox-multiple-marked-circle-outline
+
+  - label: "How long does the sealant need to dry?"
+    content: "It typically takes 12 to 24 hours for the sealant to fully cure. We recommend avoiding water contact during this time to ensure a strong, lasting seal."
+    icon: mdi:clock-time-eight-outline
+
+  - label: "Can I book resealing as part of a larger bathroom job?"
+    content: "Absolutely. You can combine shower resealing with services like shower installation, tap fitting, or leak repair. Just include the details when booking."
+    icon: mdi:playlist-plus
+
+  - label: "Is the work guaranteed to stop leaks?"
+    content: "Yes – we use professional-grade sealant and prepare surfaces thoroughly. If any issues arise after the job, contact us within 72 hours and we’ll return to make it right."
+    icon: mdi:shield-check-outline
+
+  - label: "Are your plumbers vetted and insured?"
+    content: "Yes – all BaseLink plumbers are vetted, fully insured, and reviewed by local customers. We only work with professionals who meet our quality and safety standards."
+    icon: mdi:account-check-outline
+
+  - label: "How do I book the service?"
+    content: "Just fill in our online form, get an instant quote, and pick a time that suits you. It only takes a few minutes, and our support team is on hand if you need help."
+    icon: mdi:calendar-clock-outline
 ---
 
 ::hero-standard

@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Boiler replacement"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What does your boiler replacement service include?"
+    content: "Our boiler replacement service covers everything – safe removal and disposal of your old unit, supply and installation of a new boiler, upgrades to pipework if needed, and a full system check. One smooth job, start to finish."
+    icon: mdi:refresh
+
+  - label: "Do you remove and dispose of my old boiler?"
+    content: "Yes – this is included as part of our replacement service. We’ll safely disconnect, remove, and dispose of your old boiler in line with local regulations. You won’t need to lift a finger."
+    icon: mdi:trash-can-outline
+
+  - label: "Can you help me choose a new boiler?"
+    content: "Absolutely. If you’re unsure which boiler is right for your home, we’ll assess your current setup and recommend the best options. We work with all major brands and offer models to suit any budget."
+    icon: mdi:help-circle-outline
+
+  - label: "Do you supply the new boiler and parts?"
+    content: "Yes – we can supply your new boiler along with any flues, valves, filters or thermostats required. Just tell us your preferences (or let us recommend) and we’ll build it into your tailored quote."
+    icon: mdi:package-variant-closed
+
+  - label: "How long does a boiler replacement take?"
+    content: "Most replacements are completed within 1–2 days, depending on the boiler type and if system upgrades are needed. We’ll give you a clear time estimate before we begin."
+    icon: mdi:timer-sand
+
+  - label: "Can I upgrade to a smart thermostat?"
+    content: "Yes – we can install smart thermostats like Nest, Hive, or Tado during your boiler replacement. Just mention your preferred model when booking, or we can supply one for you."
+    icon: mdi:thermometer-lines
+
+  - label: "How are boiler replacements priced?"
+    content: "You’ll receive a fixed-price quote based on the job details you provide. This includes removal, installation, any parts, and labour. We’ll give you a full breakdown – no hidden fees or surprises."
+    icon: mdi:currency-gbp
+
+  - label: "Are your engineers Gas Safe registered?"
+    content: "Yes – all BaseLink engineers are Gas Safe registered, fully insured, and vetted for quality and experience. You’re in safe hands from start to finish."
+    icon: mdi:shield-check-outline
+
+  - label: "Will my new boiler come with a warranty?"
+    content: "Yes – most boilers come with a 5 to 10-year manufacturer warranty. We’ll register your new boiler and send you all warranty details once the job’s complete."
+    icon: mdi:file-document-check-outline
+
+  - label: "What if I’m not happy with the replacement?"
+    content: "Let us know within 72 hours and we’ll fix it – whether that’s a revisit, tweak or refund. Your satisfaction is guaranteed, and we collect feedback after every job to maintain top standards."
+    icon: mdi:emoticon-sad-outline
 ---
 
 ::hero-standard

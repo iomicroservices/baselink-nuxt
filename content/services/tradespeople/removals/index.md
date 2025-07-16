@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Removals"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of removals do you offer?"
+    content: "We handle everything from small item pickups and furniture removals to full home and office moves. Whether it’s a single sofa or an entire business premises, we’ll make sure it’s moved safely and efficiently."
+    icon: mdi:truck-fast-outline
+
+  - label: "How is pricing calculated for removals?"
+    content: "We provide a custom quote based on the details you submit — including the items to be moved, distance, access, and any extras like packing or dismantling. You’ll receive clear pricing upfront before booking."
+    icon: mdi:calculator-variant-outline
+
+  - label: "Can you supply packing materials?"
+    content: "Yes – we can provide boxes, tape, wrapping and other packing supplies if requested. You can also use your own materials — just let us know what’s needed during booking."
+    icon: mdi:package-variant-closed
+
+  - label: "What’s included in a typical removal service?"
+    content: "We include loading, transport, and unloading of your items as standard. You can also request optional extras like dismantling furniture, wrapping fragile items, reassembly, or help with packing."
+    icon: mdi:clipboard-list-outline
+
+  - label: "Do I need to be present during the removal?"
+    content: "It’s helpful but not required. If you won’t be there, just ensure someone is available to provide access and sign off the job. You can leave specific instructions in your booking notes."
+    icon: mdi:account-check-outline
+
+  - label: "Are your movers vetted and insured?"
+    content: "Yes – all BaseLink removal teams are fully insured, background-checked, and reviewed by other customers. We only work with trusted professionals who take care of your belongings."
+    icon: mdi:shield-check-outline
+
+  - label: "Can you help with office or commercial moves?"
+    content: "Absolutely. We regularly handle office relocations, tech equipment, furniture, archives, and more — with minimal disruption to your team. Just let us know your requirements."
+    icon: mdi:office-building-marker
+
+  - label: "Do you move heavy or awkward items like pianos or appliances?"
+    content: "Yes – we can move large, heavy, or specialist items such as appliances, safes, gym equipment, and pianos. Please include the item details in your request so we can prepare the right team and equipment."
+    icon: mdi:weight-lifter
+
+  - label: "Can I reschedule or cancel my booking?"
+    content: "Yes – you can cancel or reschedule up to 24 hours in advance free of charge. Just log in to your account or contact our support team and we’ll take care of it."
+    icon: mdi:calendar-edit
+
+  - label: "How do I book a removal service?"
+    content: "Simply fill out our online form with the job details, get an instant quote, and pick a time that suits you. We’ll match you with a vetted team and send you updates every step of the way."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

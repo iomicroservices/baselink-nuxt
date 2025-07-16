@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Gas safety certificate"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What is a Gas Safety Certificate?"
+    content: "It’s an official document confirming that your gas appliances and pipework have been checked by a Gas Safe registered engineer. While not a legal requirement for homeowners, it's a valuable yearly safety check to ensure everything's working properly."
+    icon: mdi:file-certificate-outline
+
+  - label: "Do homeowners need a Gas Safety Certificate?"
+    content: "It’s not legally required, but it’s strongly recommended. An annual gas safety check can help spot faults early, prevent carbon monoxide risks, and keep your home heating running efficiently."
+    icon: mdi:account-check-outline
+
+  - label: "What does the gas safety check include?"
+    content: "We inspect all gas appliances like boilers, hobs and fires, check ventilation and flues, test for leaks, and assess carbon monoxide risk. You’ll receive a full report with clear results and recommendations if needed."
+    icon: mdi:format-list-text
+
+  - label: "Can I book this with a boiler service?"
+    content: "Yes – many customers book both in one visit. Just select the option during booking and we’ll quote for the combined job, saving you time and ensuring your full system is checked."
+    icon: mdi:calendar-clock-outline
+
+  - label: "Are your engineers Gas Safe registered?"
+    content: "Yes – all BaseLink engineers are Gas Safe registered, fully insured, and vetted for quality. You’ll get a safe, professional service every time."
+    icon: mdi:shield-check-outline
+
+  - label: "How long does a household gas check take?"
+    content: "Usually between 30 and 60 minutes, depending on how many appliances need checking. We’ll carry out the full inspection and provide your report before we leave."
+    icon: mdi:timer-outline
+
+  - label: "Do I get a certificate after the check?"
+    content: "Yes – you’ll receive a digital report detailing all the checks we’ve carried out and the results. It’s great for your records and gives peace of mind that everything’s safe."
+    icon: mdi:email-check-outline
+
+  - label: "How do I book a Gas Safety Check?"
+    content: "It’s quick and online – just fill in the form, choose a time that suits you, and we’ll handle the rest. You’ll get a quote upfront and we only take payment on the day."
+    icon: mdi:clipboard-text-clock-outline
+
+  - label: "Can I cancel or reschedule?"
+    content: "Yes – you can make changes to your booking anytime up to 24 hours in advance, free of charge. Log into your account or contact us if you need help."
+    icon: mdi:calendar-edit
+
+  - label: "What if the engineer finds a problem?"
+    content: "If anything isn’t safe or up to standard, we’ll explain clearly what needs fixing and your options. You’re never left in the dark – we’ll help you stay safe and sorted."
+    icon: mdi:alert-circle-outline
 ---
 
 ::hero-standard

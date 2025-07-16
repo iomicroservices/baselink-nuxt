@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Radiator power flushing"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What is radiator power flushing?"
+    content: "Power flushing is a process that clears sludge, rust, and debris from your central heating system using a specialised machine. It restores radiator performance and helps your boiler run more efficiently."
+    icon: mdi:water-pump
+
+  - label: "When should I get a power flush?"
+    content: "Common signs include cold spots on radiators, noisy pipes or boiler, slow heating, or dirty water when you bleed your radiators. It's also recommended when installing a new boiler onto an older system."
+    icon: mdi:clock-alert-outline
+
+  - label: "How long does power flushing take?"
+    content: "Most jobs take between 4–8 hours, depending on the size of your system and how blocked it is. We’ll give you a more accurate estimate when you book."
+    icon: mdi:progress-clock
+
+  - label: "Will power flushing fix all radiator issues?"
+    content: "It can solve many common issues caused by sludge build-up, but it won’t fix leaks, damaged valves or faulty thermostats. Your plumber will advise if other repairs are needed."
+    icon: mdi:alert-circle-outline
+
+  - label: "Do I need to do anything before the visit?"
+    content: "Just make sure there’s clear access to your boiler and radiators. If you have a combi boiler or sealed system, make sure the water supply is working — we’ll handle the rest."
+    icon: mdi:door-open
+
+  - label: "What’s included in the service?"
+    content: "We connect a power flushing machine, clear out your entire system, balance radiators, add corrosion inhibitor, and test for performance. You’ll get full results and advice afterwards."
+    icon: mdi:clipboard-check-outline
+
+  - label: "Can you add inhibitor after the flush?"
+    content: "Yes — a chemical inhibitor is always added after the flush to prevent future sludge build-up and protect your system long-term."
+    icon: mdi:shield-plus-outline
+
+  - label: "Is this safe for all systems?"
+    content: "Yes — power flushing is safe for most modern systems. If you have very old radiators or delicate pipework, your plumber will assess whether a gentler method is needed."
+    icon: mdi:home-heart
+
+  - label: "Are your plumbers vetted and insured?"
+    content: "Yes — all BaseLink plumbers are fully vetted, insured, and reviewed by local customers. You’ll always get a qualified expert who knows how to treat your system with care."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I book a power flush?"
+    content: "Just fill in our online form with your job details and choose a time that suits you. You’ll get an instant quote — and our team will handle the rest."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Wallpaper hanging and stripping"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "Do you remove old wallpaper before hanging new?"
+    content: "Yes — we can safely strip away old wallpaper and adhesives as part of the job. This helps the new wallpaper stick properly and ensures a smooth finish."
+    icon: mdi:wallpaper
+
+  - label: "Can you hang patterned or feature wallpapers?"
+    content: "Absolutely. Our decorators are skilled at matching patterns and aligning panels precisely, including bold designs, textured papers, and mural walls."
+    icon: mdi:format-align-left
+
+  - label: "Will you prepare the walls before applying wallpaper?"
+    content: "Yes — we prep the surface by filling cracks, smoothing rough patches, and cleaning the wall to ensure strong adhesion and a flawless result."
+    icon: mdi:layers-edit
+
+  - label: "What types of wallpaper do you work with?"
+    content: "We hang most types, including standard, vinyl, paste-the-wall, textured, and luxury feature designs. If you're unsure, we can help confirm compatibility during booking."
+    icon: mdi:format-paint
+
+  - label: "Do I need to supply the wallpaper and paste?"
+    content: "You can supply your own wallpaper, or we can help you source it. We can also supply the paste if needed — just let us know when booking."
+    icon: mdi:package-variant
+
+  - label: "How do you price wallpapering work?"
+    content: "Wallpaper jobs are priced based on surface area, paper type, and prep work required. You’ll get a clear, custom quote when you fill out our booking form."
+    icon: mdi:currency-gbp
+
+  - label: "Are your decorators vetted and insured?"
+    content: "Yes — all BaseLink decorators are fully vetted, insured, and reviewed by local customers. We only send trusted professionals to your home or business."
+    icon: mdi:shield-check
+
+  - label: "What if the wallpaper bubbles or lifts after the job?"
+    content: "We aim for perfection first time, but if anything needs fixing, let us know within 72 hours and we’ll arrange a follow-up to put it right."
+    icon: mdi:emoticon-sad-outline
 ---
 
 ::hero-standard

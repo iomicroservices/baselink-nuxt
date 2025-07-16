@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Burglar alarm"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of burglar alarms do you install?"
+    content: "We install both wired and wireless burglar alarms, including systems with motion sensors, door/window contacts, keypads, sirens and smart app control. We tailor the setup to suit your home or business layout."
+    icon: mdi:shield-home
+
+  - label: "Can you supply the alarm system, or do I need to provide it?"
+    content: "We’re happy to supply a complete alarm kit, or install one that you’ve already purchased. Just let us know your preference during booking so we can plan accordingly."
+    icon: mdi:package-variant-closed
+
+  - label: "Is a property survey included before installation?"
+    content: "Yes — we carry out a free pre-installation survey on the day to assess entry points and determine the best sensor and panel placement for full coverage."
+    icon: mdi:clipboard-check
+
+  - label: "Can you connect the alarm system to a monitoring service?"
+    content: "Yes. We offer the option to connect your alarm to a 24/7 professional monitoring service, depending on the system you choose. Let us know if you'd like this added."
+    icon: mdi:security-network
+
+  - label: "How long does a typical installation take?"
+    content: "Most burglar alarm installs take 2–4 hours depending on the size of the property and whether it's wired or wireless. We’ll give you a time estimate when quoting."
+    icon: mdi:clock-outline
+
+  - label: "Are your engineers qualified and vetted?"
+    content: "Absolutely. All BaseLink network engineers are fully qualified, insured, and vetted. They're also reviewed by other local customers and supported by our in-house team."
+    icon: mdi:shield-check
+
+  - label: "How is the service priced?"
+    content: "You’ll receive a fixed quote based on your alarm type and property layout. Pricing is transparent and competitive, with no surprise charges. Additional time is billed in fair 30-minute increments."
+    icon: mdi:currency-gbp
+
+  - label: "What if I need help after the installation?"
+    content: "If something isn’t working as expected or you need a setting adjusted, our support team is here to help. We’ll arrange a follow-up visit or remote troubleshooting where possible."
+    icon: mdi:headset
 ---
 
 ::hero-standard

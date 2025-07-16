@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Shower screen fitting"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of shower screens can you install?"
+    content: "We fit all styles – including fixed, hinged, and sliding shower screens. Whether it’s for an over-bath setup or a walk-in shower, we’ll make sure it’s secure, level, and watertight."
+    icon: mdi:shower
+
+  - label: "Can you install a shower screen on any wall type?"
+    content: "Yes – we work with tiled, plastered, and waterproofed walls. Your fitter will assess the surface and use the right fixings to avoid damage and ensure a safe, long-lasting fit."
+    icon: mdi:wall
+
+  - label: "Do I need to supply the shower screen?"
+    content: "Yes – you’ll need to provide the shower screen and any included brackets or fittings. If you’re not sure what’s suitable for your space, we can advise before your appointment."
+    icon: mdi:package-variant-closed
+
+  - label: "Will the screen be sealed to prevent leaks?"
+    content: "Absolutely. We use quality silicone to seal the edges, preventing drips, leaks, or water damage. The result is a neat, clean, and watertight finish."
+    icon: mdi:water-off-outline
+
+  - label: "Can you help with placement or measuring?"
+    content: "Yes – your handyperson will measure and mark out the perfect placement before installation. We’ll make sure your screen is aligned correctly and fits the space properly."
+    icon: mdi:measure
+
+  - label: "How long does shower screen installation take?"
+    content: "Most jobs take 60–90 minutes depending on screen type and wall condition. We’ll confirm the expected duration when you book."
+    icon: mdi:timer-outline
+
+  - label: "Will the screen be tested after fitting?"
+    content: "Yes – we check for smooth movement (if applicable), ensure the screen is secure, level, and sealed, and test its stability before we leave."
+    icon: mdi:check-decagram
+
+  - label: "Can I get help choosing a screen that fits my layout?"
+    content: "Definitely. If you’re unsure what style works best for your bathroom, just tell us your setup and we’ll help guide you to the right type before installation."
+    icon: mdi:cursor-default-click-outline
+
+  - label: "Are your handypeople vetted and insured?"
+    content: "Yes – all BaseLink handypeople are background-checked, fully insured, and experienced in bathroom fittings. You can expect professional service every time."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I book shower screen fitting?"
+    content: "Just complete our online form, get an instant quote, and pick a time that works for you. Payment is collected on the day, and extra time is billed fairly in 30-minute blocks."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

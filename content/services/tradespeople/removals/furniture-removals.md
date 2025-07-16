@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Furniture removals"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of furniture can you remove?"
+    content: "We move all kinds of furniture — from sofas, beds, and wardrobes to dining tables, bookshelves, and sideboards. Whether it’s one item or a full room, we’ve got it covered."
+    icon: mdi:sofa-outline
+
+  - label: "Can you dismantle large items before moving them?"
+    content: "Yes – we can dismantle beds, wardrobes, tables or anything too big to move safely. We’ll also reassemble it at your new location if needed — just request this when booking."
+    icon: mdi:toolbox-outline
+
+  - label: "Do you offer furniture disposal?"
+    content: "Yes – we can take items to a disposal or recycling site upon request. Let us know during booking and we’ll handle the eco-friendly removal for you."
+    icon: mdi:trash-can-outline
+
+  - label: "Do I need to wrap or cover the furniture myself?"
+    content: "No – we bring protective covers and blankets to prevent damage during transit. Everything is handled and loaded with care."
+    icon: mdi:wrap
+
+  - label: "Can you move furniture into storage units?"
+    content: "Absolutely. We can transport items to storage facilities, new homes, offices, or anywhere else you need. Just provide the destination address in your booking."
+    icon: mdi:warehouse
+
+  - label: "Are your movers vetted and insured?"
+    content: "Yes – all BaseLink removal teams are background-checked, insured, and reviewed by local customers. We only send professionals who handle your belongings with respect."
+    icon: mdi:shield-check-outline
+
+  - label: "How is furniture removal priced?"
+    content: "We provide a custom quote based on the number of items, location, access, and any extras like dismantling or disposal. You’ll see the full cost upfront before confirming your booking."
+    icon: mdi:currency-gbp
+
+  - label: "Can I combine this with other services?"
+    content: "Yes – you can bundle furniture removals with appliance clearance, house moves, or handyman services. Just tell us what you need in the booking form."
+    icon: mdi:package-variant
+
+  - label: "Do I need to be present during the removal?"
+    content: "Not necessarily. If you can’t be there, someone will need to provide access and confirm the job. You can also leave instructions or arrange a key handover."
+    icon: mdi:account-check-outline
+
+  - label: "How do I book furniture removal?"
+    content: "Just fill out our online form, get an instant quote, and choose a time that works for you. We’ll handle the logistics and keep you updated every step of the way."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

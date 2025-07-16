@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Bath repair and installation"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of baths can you install or repair?"
+    content: "We work with all types — including standard, freestanding, corner, and shower baths. Whether it's a new install or fixing an existing one, we’ve got you covered."
+    icon: mdi:bathtub-outline
+
+  - label: "Do you remove the old bath before installation?"
+    content: "Yes – if you're replacing a bath, we’ll remove the old one as part of the service. We’ll also dispose of it responsibly if requested."
+    icon: mdi:trash-can-outline
+
+  - label: "Can you repair surface cracks or chips?"
+    content: "Absolutely. We can repair minor surface damage, cracks, or leaks in acrylic, enamel or fibreglass baths — helping you avoid a full replacement if it's not needed."
+    icon: mdi:hammer-wrench
+
+  - label: "Will you connect the plumbing?"
+    content: "Yes – we connect your bath to the hot and cold water supply and install the waste pipe and trap. Everything is tested for leaks and proper drainage before we leave."
+    icon: mdi:pipe
+
+  - label: "Can you help seal around the bath?"
+    content: "Definitely. We apply high-quality silicone sealant around all edges to prevent water leaks — a crucial step for keeping your bathroom watertight."
+    icon: mdi:water
+
+  - label: "How long does bath installation take?"
+    content: "Most installations take between 2–5 hours depending on the job complexity. We’ll give you a clear time estimate based on the details you provide."
+    icon: mdi:clock-outline
+
+  - label: "Do I need to supply the bath or can you provide one?"
+    content: "You can do either. Supply your own bath or ask us to help source one that fits your space and budget — just mention your preference when booking."
+    icon: mdi:package-variant
+
+  - label: "How is the service priced?"
+    content: "We provide a custom quote based on the type of job — repair, replacement, or new installation. Pricing is clear and includes everything agreed upfront."
+    icon: mdi:currency-gbp
+
+  - label: "Are your plumbers qualified and insured?"
+    content: "Yes – all BaseLink plumbers are fully vetted, insured, and reviewed by other local customers. You can count on a safe, professional job every time."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I book bath installation or repair?"
+    content: "Just fill out our online form, get an instant quote, and pick a time that suits you. We’ll take care of the rest — from removal to final testing."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Smart lock installation"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of smart locks can you install?"
+    content: "We install all major smart lock types — including app-based, Bluetooth, Wi-Fi, keypad, and biometric models. Let us know the brand or system and we’ll handle the rest."
+    icon: mdi:lock-smart
+
+  - label: "Can you supply the smart lock, or do I need to buy one?"
+    content: "We can do either. You’re welcome to provide your own lock, or we can supply one based on your door type and preferences — just let us know when booking."
+    icon: mdi:package-variant-closed
+
+  - label: "Will the smart lock work with my existing door?"
+    content: "Most standard doors are compatible with smart locks. We’ll assess your door before installation to ensure a proper fit, and make adjustments if needed."
+    icon: mdi:door
+
+  - label: "Can you remove my old lock during installation?"
+    content: "Yes – we’ll safely remove any existing lock as part of the service. If needed, we can also dispose of the old hardware."
+    icon: mdi:lock-reset
+
+  - label: "Will you help set up the app and access settings?"
+    content: "Absolutely. We’ll configure your lock with its app, walk you through how to manage access codes, remote entry, and all key features."
+    icon: mdi:cellphone-cog
+
+  - label: "Can you integrate the smart lock with my smart home system?"
+    content: "Yes – we can help connect your lock to platforms like Alexa, Google Home, or Apple HomeKit. Just let us know your setup during booking."
+    icon: mdi:home-automation
+
+  - label: "How long does smart lock installation take?"
+    content: "Most installations take 45–90 minutes, depending on the lock type and door condition. We’ll give you a time estimate upfront."
+    icon: mdi:timer-outline
+
+  - label: "Are your installers vetted and insured?"
+    content: "Yes – all BaseLink technicians are background-checked, fully insured, and reviewed by customers in your area. You can expect professional service, start to finish."
+    icon: mdi:shield-check-outline
+
+  - label: "How is smart lock installation priced?"
+    content: "We charge by time, with a one-hour minimum. Any extras — like a supplied lock or smart home integration — will be quoted clearly before work begins."
+    icon: mdi:currency-gbp
+
+  - label: "How do I book smart lock installation?"
+    content: "Just fill out our online form, get an instant quote, and choose a time that suits you. We’ll handle the rest and make sure everything is set up properly before we leave."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

@@ -11,9 +11,41 @@ colour: "blue"
 pathtxt: "Data cabling"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of data cables can you install?"
+    content: "We install Cat5e, Cat6, LAN, HDMI and fibre optic cables. Your engineer will recommend the right type based on your speed requirements, usage, and layout."
+    icon: mdi:ethernet
+
+  - label: "Do I need to supply my own cables and materials?"
+    content: "No — we can supply all required materials, or work with cables and connectors you provide. Just let us know what you prefer when booking."
+    icon: mdi:package-variant
+
+  - label: "Can you route cables through walls or ceilings?"
+    content: "Yes. We route cables discreetly through walls, ceilings, and floors wherever possible, ensuring minimal visual impact and a clean finish."
+    icon: mdi:wall
+
+  - label: "Will you test the connections after installation?"
+    content: "Absolutely. We test every cable run for connectivity, speed, and reliability — so you can trust your setup is ready to go before we leave."
+    icon: mdi:check-network-outline
+
+  - label: "Do you offer labelling and documentation?"
+    content: "Yes. We label each data point clearly and can document the layout of your network if required, making future troubleshooting and upgrades easier."
+    icon: mdi:label-outline
+
+  - label: "Can this be done in homes as well as offices?"
+    content: "Yes. We install data cabling in both domestic and commercial properties, from home offices to full-scale business networks and server rooms."
+    icon: mdi:home-city-outline
+
+  - label: "What if I already have some wiring in place?"
+    content: "No problem. We can work alongside your existing setup — upgrading, expanding, or testing what's already there. We’ll advise on whether a rewire is needed."
+    icon: mdi:swap-horizontal
+
+  - label: "Is the work covered if anything goes wrong?"
+    content: "Yes. All work is backed by BaseLink’s service guarantee and handled by vetted, insured professionals. If something's not right, we'll put it right."
+    icon: mdi:shield-check
+
+  - label: "How is the job priced?"
+    content: "Pricing is based on the length of cable runs, number of terminations, and complexity of routing. You’ll get a custom quote up front, with fair billing for any extra time."
+    icon: mdi:currency-gbp
 ---
 
 ::hero-standard

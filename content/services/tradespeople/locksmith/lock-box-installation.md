@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Lock box installation"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What is a lock box used for?"
+    content: "A lock box securely stores keys for access by guests, tradespeople, or household members. It’s ideal for holiday lets, shared homes, cleaners, or anyone who needs key access when you’re not around."
+    icon: mdi:lock
+
+  - label: "What types of lock boxes can you install?"
+    content: "We fit combination and key-operated lock boxes, including weatherproof models designed for outdoor use. Just let us know what you’ve got (or ask us to supply one)."
+    icon: mdi:key-chain
+
+  - label: "Where can the lock box be installed?"
+    content: "Lock boxes can be mounted on walls, gates, fences, or posts. We’ll choose a discreet but accessible location that’s secure and suits your layout."
+    icon: mdi:home-lock
+
+  - label: "Do I need to provide the lock box?"
+    content: "You can provide your own, or we can supply one for you. Let us know your preference during booking and we’ll include it in your quote if needed."
+    icon: mdi:package-variant-closed
+
+  - label: "Can you help me set the code?"
+    content: "Yes – we’ll set your preferred code during installation and show you how to change or reset it in future. Everything is tested before we leave."
+    icon: mdi:form-textbox-password
+
+  - label: "Will the lock box be weatherproof?"
+    content: "Yes – we use models designed for outdoor use and check that all seals and covers are in place during installation to ensure long-term durability."
+    icon: mdi:weather-partly-rainy
+
+  - label: "How long does installation take?"
+    content: "Most lock box fittings take 30–45 minutes. If you're installing multiple units or combining services, we’ll schedule extra time and let you know upfront."
+    icon: mdi:timer-outline
+
+  - label: "Are your installers vetted and insured?"
+    content: "Yes – all BaseLink locksmiths and handypeople are fully vetted, insured, and reviewed by other local customers. You're in safe hands from start to finish."
+    icon: mdi:shield-check-outline
+
+  - label: "How is lock box installation priced?"
+    content: "You’ll see the rate clearly when booking. We charge by time with a one-hour minimum, and any additional time is billed fairly in 30-minute increments."
+    icon: mdi:currency-gbp
+
+  - label: "How do I book a lock box installation?"
+    content: "Just fill out our online form, get an instant quote, and choose a time that works for you. We’ll handle the rest — no chasing, no phone calls."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

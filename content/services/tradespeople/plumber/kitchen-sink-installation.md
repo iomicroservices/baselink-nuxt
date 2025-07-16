@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Kitchen sink installation"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of kitchen sinks do you install?"
+    content: "We install all styles including inset, undermount, overmount, Belfast and farmhouse sinks — whether part of a new kitchen or a direct replacement."
+    icon: mdi:water-pump
+
+  - label: "Do you remove the old sink first?"
+    content: "Yes – we’ll disconnect and remove your existing sink before fitting the new one. If disposal is required, just let us know when booking."
+    icon: mdi:trash-can-outline
+
+  - label: "Can you install taps and waste disposal units too?"
+    content: "Absolutely. We can install kitchen mixer taps, boiling water taps, or waste disposal units as part of the same visit. Just include the details in your request."
+    icon: mdi:faucet
+
+  - label: "Do I need to supply the sink and tap?"
+    content: "You’re welcome to supply your own sink and fittings, or we can help source and deliver suitable options to match your space and plumbing setup."
+    icon: mdi:package-variant
+
+  - label: "What if my countertop needs cutting or modification?"
+    content: "We can make minor adjustments to wooden or laminate worktops. For more complex work or stone surfaces, we may recommend a custom quote or a multi-trade team."
+    icon: mdi:saw-blade
+
+  - label: "Can you coordinate with other trades if needed?"
+    content: "Yes – if your job requires electrical work, joinery, or cabinet alterations, we can coordinate with our wider BaseLink trades network to ensure a smooth install."
+    icon: mdi:account-multiple-outline
+
+  - label: "How long does kitchen sink installation take?"
+    content: "Most standard jobs take 1–2 hours. If there’s extra plumbing, tap fitting or surface prep involved, we’ll give you a clear estimate before starting."
+    icon: mdi:clock-outline
+
+  - label: "Do you check for leaks after installation?"
+    content: "Yes – we pressure-test the water lines and run the drainage to make sure everything’s sealed, watertight, and working as it should."
+    icon: mdi:check-decagram
+
+  - label: "Are your plumbers vetted and insured?"
+    content: "All BaseLink plumbers are vetted, insured, and reviewed by local customers. You get a trusted professional every time — no corner-cutting, no surprises."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I book a kitchen sink installation?"
+    content: "Just complete our quick online form, receive an instant quote, and choose a convenient time. We manage the booking and keep everything on track."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

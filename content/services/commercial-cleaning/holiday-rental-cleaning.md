@@ -10,7 +10,6 @@ ogImage: "/images/commercial-cleaning/holiday-rental-cleaning.webp"
 colour: "yellow"
 pathtxt: "Holiday rental cleaning"
 published: true
-
 faqs:
     - label: "How do cleaners access the property?"
       content: "Need hands-off access? No problem. Share your preferred method – key codes, lockbox combinations, or temporary key arrangements – through our secure booking system. Cleaners follow strict protocols for key collection and return, ensuring your property remains secure."

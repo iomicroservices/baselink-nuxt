@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Curtain and blind fitting"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of curtains and blinds do you fit?"
+    content: "We fit all curtain types – pencil pleat, eyelet, tab top and more – as well as roller, Roman, Venetian, vertical, and blackout blinds. Whether it’s one window or a whole home, we’ve got you covered."
+    icon: mdi:window-shutter
+
+  - label: "Do you install curtain poles and blind brackets?"
+    content: "Yes – we drill and fix curtain poles, tracks, and blind brackets into walls, ceilings, or window frames depending on what’s needed. All fittings are installed level and securely anchored."
+    icon: mdi:drill
+
+  - label: "Can you help me measure the window before installation?"
+    content: "Absolutely. Our fitters will measure the window area before any drilling starts to ensure brackets are positioned accurately for a neat, balanced result."
+    icon: mdi:measure
+
+  - label: "Do I need to supply the curtain pole or blind?"
+    content: "Yes – you’ll need to provide the curtain pole, track, or blind you'd like fitted. If you’re not sure what’s suitable, we can advise you based on your window and wall type."
+    icon: mdi:package-variant-closed
+
+  - label: "Are you able to fit blinds into tiled, brick, or plasterboard walls?"
+    content: "Yes – we assess the wall surface and use the correct fixings for plasterboard, brick, tile, or wood. We bring all the tools and hardware needed to make sure it’s fitted properly."
+    icon: mdi:wall
+
+  - label: "Will everything be level and adjusted correctly?"
+    content: "Absolutely. We use levelling tools to make sure poles and blinds are aligned, and we adjust curtains or slats so they hang evenly. It’ll look right, first time."
+    icon: mdi:format-align-center
+
+  - label: "Do you fit child safety fixings for blinds?"
+    content: "Yes – we install cord or chain safety clips to meet current safety standards. If your blinds include a chain or loop, we’ll secure it safely out of reach of children."
+    icon: mdi:shield-alert
+
+  - label: "How long does curtain or blind fitting take?"
+    content: "Most fittings take 30–60 minutes per window, depending on the complexity and wall type. If you’re fitting several windows at once, we’ll schedule enough time to complete the job in one visit."
+    icon: mdi:timer-outline
+
+  - label: "Are your handypeople vetted and insured?"
+    content: "Yes – all BaseLink handypeople are background-checked, experienced, and fully insured. You’ll get a safe, professional service every time."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I book curtain or blind fitting?"
+    content: "Just complete our online form, get an instant quote, and pick a time that suits you. Payment is only taken after the visit, and any extra time is billed in 30-minute blocks."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

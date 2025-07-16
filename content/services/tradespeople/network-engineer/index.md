@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Network engineer"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of jobs do your network engineers handle?"
+    content: "Our engineers install and maintain CCTV, burglar alarms, Wi-Fi networks, data cabling, smart home systems, intercoms, IPTV, HDMI distribution and more — for homes or commercial spaces."
+    icon: mdi:router-network
+
+  - label: "Do I need to supply the equipment?"
+    content: "You can either provide your own kit, or we can supply everything needed for the job. Let us know your preference when booking and we’ll tailor the setup to your space."
+    icon: mdi:package-variant-closed
+
+  - label: "How do I book a network engineer with BaseLink?"
+    content: "Just fill out our online form with your job details. You’ll get a custom quote instantly and can choose a time that suits you. It’s all handled digitally for convenience."
+    icon: mdi:calendar-check
+
+  - label: "Can you help troubleshoot poor Wi-Fi or connection issues?"
+    content: "Yes — we can diagnose and fix connectivity problems, upgrade your setup, or install signal-boosting solutions like mesh systems or access points."
+    icon: mdi:wifi-strength-2-alert
+
+  - label: "How is pricing calculated for network engineering jobs?"
+    content: "We offer custom quotes based on the task complexity, parts needed, and estimated time. You’ll see the full price before confirming your booking."
+    icon: mdi:currency-gbp
+
+  - label: "Are your engineers vetted and qualified?"
+    content: "Absolutely. All BaseLink engineers are fully vetted, qualified, and reviewed by other customers. They’re also insured, experienced and backed by our in-house support team."
+    icon: mdi:shield-check
+
+  - label: "What if something goes wrong or I’m not happy with the result?"
+    content: "Let us know within 72 hours and we’ll make it right — whether that means a follow-up visit or refund. Your satisfaction is our priority."
+    icon: mdi:emoticon-sad-outline
+
+  - label: "Can I combine multiple tech jobs into one visit?"
+    content: "Yes — you can bundle services like CCTV installation, Wi-Fi upgrades, and smart device setups in a single booking. Just let us know what you need during the request."
+    icon: mdi:playlist-plus
 ---
 
 ::hero-standard

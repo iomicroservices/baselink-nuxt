@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Pet flap fitting"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of pet flaps can you install?"
+    content: "We install all types — manual, locking, and microchip-activated pet flaps — into uPVC, wooden, and suitable glass doors. Just let us know what model you’ve got and the door type."
+    icon: mdi:dog-side
+
+  - label: "Can you fit a pet flap into a glass door?"
+    content: "Yes, we can fit into double-glazed units if a pre-cut glass panel is provided. We don’t cut glass ourselves, but we’ll install into any suitable panel that’s ready for the flap."
+    icon: mdi:glassdoor
+
+  - label: "Do I need to supply the pet flap?"
+    content: "Yes – you’ll need to purchase the pet flap you’d like fitted. If you’re unsure what type suits your door or pet, we can advise you before installation."
+    icon: mdi:package-variant
+
+  - label: "Will the flap be fitted at the right height for my pet?"
+    content: "Absolutely. We’ll adjust the fitting height to suit your pet’s size, ensuring easy access while maintaining the door’s integrity and insulation."
+    icon: mdi:ruler
+
+  - label: "How do you seal the flap to stop drafts?"
+    content: "We carefully seal the frame with appropriate weatherproofing to prevent drafts, moisture or heat loss. A neat finish that looks good and works well."
+    icon: mdi:weather-windy
+
+  - label: "Can you install microchip-controlled pet flaps?"
+    content: "Yes – we can fit smart flaps that work with your pet’s microchip. We’ll handle the physical install, and if required, help you with the basic setup too."
+    icon: mdi:chip
+
+  - label: "How long does pet flap fitting take?"
+    content: "Most installations take 30–90 minutes depending on the door type and flap model. We’ll give you a time estimate upfront and make sure everything works perfectly before we leave."
+    icon: mdi:timer-outline
+
+  - label: "Will it damage my door?"
+    content: "Not when done properly. We cut cleanly and safely, reinforcing the area if needed. Your door will remain secure, functional, and weather-tight after installation."
+    icon: mdi:door
+
+  - label: "Are your handypeople vetted and insured?"
+    content: "Yes – all BaseLink handypeople are fully vetted, insured, and experienced. You can trust us to do the job right, safely, and professionally."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I book a pet flap fitting?"
+    content: "Just fill out our online form, get a quick quote, and pick a time that suits you. We’ll take care of the rest. Payment is collected on the day, with any extra time billed fairly."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

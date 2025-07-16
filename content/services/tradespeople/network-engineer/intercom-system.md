@@ -11,9 +11,41 @@ colour: "blue"
 pathtxt: "Intercom system"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
+  - label: "What types of intercom systems can you install?"
+    content: "We install both wired and wireless intercom systems, including audio-only and video-enabled units. We also support smart intercoms with mobile app control."
+    icon: mdi:access-point-network
+
+  - label: "Can you integrate the intercom with a gate or door entry system?"
+    content: "Yes, we can connect your intercom to electric gates, doors, or access control systems, allowing remote unlocking and secure entry."
+    icon: mdi:door-open
+
+  - label: "Can I use my own intercom equipment?"
+    content: "Absolutely. You can provide your own system, or we can supply the right intercom setup for your needs — including compatible wiring and mounts."
+    icon: mdi:package-variant
+
+  - label: "Do I need Wi-Fi for smart intercom features?"
+    content: "Yes, for app control or remote access features, your intercom system will require a reliable Wi-Fi or network connection. We can help set this up if needed."
+    icon: mdi:wifi
+
+  - label: "What kind of properties do you work on?"
+    content: "We install intercom systems in homes, flats, gated blocks, shops, and offices. Whether it's a single door or multi-unit entry system, we've got you covered."
+    icon: mdi:home-group
+
+  - label: "Will you show me how to use the intercom system?"
+    content: "Yes. Your engineer will provide a full demo after installation, showing you how to use the intercom, adjust settings, and access mobile features if supported."
+    icon: mdi:account-voice
+
+  - label: "What happens if something goes wrong later?"
+    content: "All intercom installs are backed by BaseLink’s in-house support team. If something stops working, we can troubleshoot or send an engineer to fix it."
     icon: mdi:tools
+
+  - label: "How much does intercom installation cost?"
+    content: "Pricing depends on the number of units, wiring, and features required. You’ll receive a tailored quote before work begins, and any additional time is billed fairly in 30-minute increments."
+    icon: mdi:currency-gbp
+
+  - label: "Are the engineers vetted?"
+    content: "Yes. All BaseLink engineers are fully vetted, insured, and reviewed by local customers — so you can trust the quality of the work."
+    icon: mdi:shield-check
 ---
 
 ::hero-standard

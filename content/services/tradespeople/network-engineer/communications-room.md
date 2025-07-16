@@ -11,9 +11,41 @@ colour: "blue"
 pathtxt: "Communications room"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What is a communications room, and do I need one?"
+    content: "A communications room (or comms room) houses your networking equipment — including routers, switches, patch panels, and structured cabling. If you have multiple users, devices, or data connections in one space (like an office, smart home or retail premises), it helps keep things secure, tidy, and running smoothly."
+    icon: mdi:server-network
+
+  - label: "Do you provide equipment, or do I need to supply my own?"
+    content: "We can do either. You’re welcome to supply your own equipment (like racks, patch panels or switches), or we can source everything you need based on your setup and budget."
+    icon: mdi:package-variant-closed
+
+  - label: "Can you upgrade or reorganise an existing comms room?"
+    content: "Yes. We regularly update and tidy up existing setups — replacing tangled or mislabelled cabling, upgrading hardware, or reorganising racks for better airflow and access."
+    icon: mdi:update
+
+  - label: "Do you install power and cooling systems too?"
+    content: "Yes. We can provide power solutions, surge protection and basic cooling systems to help prevent overheating and power loss. For larger installs, we can work with your facilities or electricians as needed."
+    icon: mdi:fan
+
+  - label: "Is the work guaranteed?"
+    content: "Yes. All work carried out by BaseLink engineers is backed by our service guarantee. If you experience issues shortly after installation, just get in touch — we’ll make it right."
+    icon: mdi:shield-check
+
+  - label: "How long does it take to set up a comms room?"
+    content: "It depends on the scale. A simple rack and patch panel install may take a few hours, while larger rooms with multiple racks and structured cabling can take a day or more. We'll give you a clear time estimate before booking."
+    icon: mdi:clock-outline
+
+  - label: "Can I request a specific layout or cable labelling scheme?"
+    content: "Absolutely. If you have preferences for rack placement, colour coding, or cable labelling, let us know when booking — we’ll follow your spec or recommend a clean, easy-to-manage layout."
+    icon: mdi:format-align-left
+
+  - label: "Are all engineers vetted and insured?"
+    content: "Yes. All BaseLink engineers are fully vetted, insured, and reviewed by other customers. They’re supported by our in-house team and committed to delivering clean, high-quality work."
+    icon: mdi:account-check
+
+  - label: "How is the job priced?"
+    content: "You’ll get a custom quote based on the scope of work, equipment needed, and expected time on-site. Additional time (if needed) is billed fairly in 30-minute increments."
+    icon: mdi:currency-gbp
 ---
 
 ::hero-standard

@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Water heater replacement"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of water heaters do you install?"
+    content: "We install and replace all common types – including gas and electric water heaters, vented and unvented cylinders, and compact point-of-use units. If you’re unsure what you need, we’ll help you choose."
+    icon: mdi:water-boiler
+
+  - label: "Can you remove my old water heater?"
+    content: "Yes – safe removal and disposal of your old unit is included in the service. We’ll disconnect it, take it away, and install your new system all in the same visit."
+    icon: mdi:trash-can-outline
+
+  - label: "Do you supply the new water heater?"
+    content: "We can supply a suitable water heater or install one you’ve already purchased. Let us know your preference when booking, and we’ll tailor the quote accordingly."
+    icon: mdi:package-variant-closed
+
+  - label: "Are your engineers Gas Safe registered?"
+    content: "Yes – all BaseLink engineers are Gas Safe registered, fully insured, and vetted. Whether it’s a gas or electric unit, you’ll get a safe, professional installation every time."
+    icon: mdi:shield-check-outline
+
+  - label: "How long does water heater installation take?"
+    content: "Most jobs take 2–4 hours depending on the type of unit and access to pipework or wiring. We’ll provide a clear time estimate when you book."
+    icon: mdi:timer-outline
+
+  - label: "Is this service suitable for unvented systems?"
+    content: "Yes – we install both vented and unvented hot water cylinders. Our engineers will ensure all safety valves, expansion vessels and pipework are installed to current regulations."
+    icon: mdi:water
+
+  - label: "What’s included in the installation?"
+    content: "Our full service includes disconnecting the old unit, installing the new heater, connecting it to mains water and power, adding safety valves, testing pressure and temperature, and providing certification."
+    icon: mdi:check-all
+
+  - label: "Will I get a demo of how to use the new system?"
+    content: "Yes – we’ll walk you through the basics, including temperature controls, maintenance tips, and safety features. You’ll also receive any relevant documentation and compliance certificates."
+    icon: mdi:book-open-outline
+
+  - label: "Can I combine this with other heating work?"
+    content: "Definitely. You can bundle water heater installation with boiler services, thermostat upgrades or safety checks. Just mention it during booking and we’ll arrange it all in one go."
+    icon: mdi:clipboard-plus-outline
+
+  - label: "How do I book a water heater installation?"
+    content: "Just complete our quick online form, get an instant quote, and pick a time that works for you. Payment is only taken after the visit, with extra time billed in 30-minute increments."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Thermostat replacement"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of thermostats can you repair or replace?"
+    content: "We handle all types – manual, programmable, wireless and smart thermostats. Whether it’s a simple fix or a full upgrade, our engineers will assess the issue and sort it quickly."
+    icon: mdi:thermostat
+
+  - label: "Can you install smart thermostats like Nest or Hive?"
+    content: "Yes – we install and set up smart thermostats from leading brands including Nest, Hive, Tado, and more. We’ll pair it with your mobile app and ensure it’s compatible with your heating system."
+    icon: mdi:cellphone-cog
+
+  - label: "How do I know if my thermostat needs replacing?"
+    content: "If your heating isn’t responding properly, the display is blank, or the temperature feels off, it could be time to replace your thermostat. Our engineers will test it and advise on whether a repair or replacement is best."
+    icon: mdi:alert-circle-check
+
+  - label: "Can you help with wireless thermostat pairing issues?"
+    content: "Absolutely. We can troubleshoot connection problems, re-pair thermostats to your boiler, replace faulty receivers, or update settings to restore full control."
+    icon: mdi:access-point
+
+  - label: "What if I just need a battery change or recalibration?"
+    content: "No problem. We handle quick fixes too – including battery replacement, sensor testing, and thermostat calibration to make sure it reads the room temperature accurately."
+    icon: mdi:battery
+
+  - label: "How long does thermostat repair or installation take?"
+    content: "Most thermostat repairs or replacements take under an hour. If additional wiring or setup is needed, we’ll let you know and make sure enough time is scheduled."
+    icon: mdi:timer-outline
+
+  - label: "Do I need to supply the new thermostat?"
+    content: "You can – or we can supply one for you. Just let us know your preferred brand or feature set when booking, and we’ll include it in your quote."
+    icon: mdi:package-variant-closed
+
+  - label: "Are your engineers Gas Safe registered?"
+    content: "Yes – all BaseLink engineers are Gas Safe registered, insured, and fully vetted. You're guaranteed a safe, professional service every time."
+    icon: mdi:shield-check-outline
+
+  - label: "Can I combine this with a boiler service or other work?"
+    content: "Definitely. If you'd like to bundle thermostat work with a boiler service, CP12 check, or other job, just let us know when booking and we’ll arrange everything in one visit."
+    icon: mdi:clipboard-plus-outline
+
+  - label: "How do I book a thermostat repair or replacement?"
+    content: "It’s easy – fill out our online form, get an instant quote, and pick a time that suits you. Payment is only taken on the day, and any extra time is billed in 30-minute blocks."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

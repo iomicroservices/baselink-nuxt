@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Painter and decorator"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What painting and decorating services do you offer?"
+    content: "We cover interior and exterior painting, feature walls, wallpaper hanging/removal, decorative finishes, woodwork, and surface prep. We also offer light plastering where needed for a smooth result."
+    icon: mdi:format-paint
+
+  - label: "How do I book a painter or decorator with BaseLink?"
+    content: "Just fill in our online form with the details of your job. You'll receive a custom quote and can choose a time that suits you. Bookings are handled digitally for convenience."
+    icon: mdi:calendar-check
+
+  - label: "Can I supply my own paint and materials?"
+    content: "Yes, you're welcome to provide your own paint and materials — or we can supply everything needed. Just let us know your preference when booking."
+    icon: mdi:palette
+
+  - label: "How is pricing calculated?"
+    content: "Painting and decorating jobs are priced based on the size of the space, surface condition, and complexity. You’ll receive a custom quote upfront, with any additional time billed in fair 30-minute increments."
+    icon: mdi:cash-multiple
+
+  - label: "Are your decorators vetted and insured?"
+    content: "All BaseLink painters and decorators are fully vetted, insured, and reviewed by other local customers. We only work with experienced professionals."
+    icon: mdi:shield-check
+
+  - label: "Do you protect my furniture and flooring?"
+    content: "Yes. Your decorator will cover all flooring, furniture and surfaces before starting, and ensure everything is left clean and tidy once the job is complete."
+    icon: mdi:sofa-outline
+
+  - label: "What happens if something goes wrong or I'm not happy?"
+    content: "If you're not satisfied, let us know within 72 hours. We'll make it right — whether that's arranging a fix or issuing a refund. Your satisfaction is guaranteed."
+    icon: mdi:alert-circle-outline
+
+  - label: "Can I request a specific colour, brand or finish?"
+    content: "Absolutely. You can request colours, finishes, or specific paint brands when booking. If you're unsure, our decorators can advise on options based on your space."
+    icon: mdi:eyedropper
 ---
 
 ::hero-standard

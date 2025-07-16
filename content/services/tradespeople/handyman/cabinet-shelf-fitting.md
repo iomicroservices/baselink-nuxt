@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Cabinet and shelf fitting"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of shelves and cabinets can you fit?"
+    content: "We fit all kinds – floating shelves, corner units, wall-mounted cabinets, bathroom storage, kitchen cupboards, and more. Whether it's flat-pack or pre-assembled, we’ll get it securely installed."
+    icon: mdi:bookshelf
+
+  - label: "Can you help with flat-pack assembly?"
+    content: "Yes – we can assemble flat-pack shelving units or cabinets as part of the service. Just let us know what needs building, and we’ll bring the right tools to handle it all in one visit."
+    icon: mdi:package-variant-closed
+
+  - label: "How do you make sure shelves and cabinets are securely fixed?"
+    content: "We assess the wall type first – whether it’s brick, plasterboard, or tile – and choose the right fixings. Brackets, wall plugs, and screws are drilled and fitted carefully to ensure safety and stability."
+    icon: mdi:wall
+
+  - label: "Will everything be level and aligned?"
+    content: "Absolutely. We use spirit levels and alignment tools to make sure your shelves and cabinets are straight, balanced, and properly spaced – no wobbles, no wonky finishes."
+    icon: mdi:format-align-center
+
+  - label: "Can you install soft-close hinges or handles?"
+    content: "Yes – if your cabinet includes handles, hinges or soft-close fittings, we’ll fit and adjust them for smooth operation. Just let us know what’s included in your unit."
+    icon: mdi:gesture-double-tap
+
+  - label: "Do I need to provide any tools or materials?"
+    content: "Our handymen come fully equipped with tools. If your shelf or cabinet doesn’t come with fixings or you’d like upgraded hardware, we can source those too – just mention it when booking."
+    icon: mdi:toolbox-outline
+
+  - label: "How are shelf and cabinet fitting jobs priced?"
+    content: "Pricing is based on time, with a one-hour minimum. You’ll see the hourly rate before booking. If your job involves multiple units or complex installs, we’ll quote based on your booking form."
+    icon: mdi:currency-gbp
+
+  - label: "Is the area cleaned up after installation?"
+    content: "Yes – once everything’s fitted, we’ll do a final stability check and clean up the workspace. No dust, no packaging left behind – just a tidy finish."
+    icon: mdi:broom
+
+  - label: "Are your handypeople vetted and insured?"
+    content: "Definitely. All BaseLink handypeople are background-checked, experienced, and fully insured. We only work with trusted professionals who consistently deliver quality workmanship."
+    icon: mdi:shield-account
+
+  - label: "How do I book a shelf or cabinet fitting?"
+    content: "Just fill in our online form, get an instant quote, and choose a time that suits you. Payment is collected on the day, and any extra time is billed in fair 30-minute increments."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

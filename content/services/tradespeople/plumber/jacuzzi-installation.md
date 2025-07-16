@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Jacuzzi installation"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of jacuzzis can you install?"
+    content: "We install all types — freestanding, built-in, indoor or outdoor. We work with all major brands and models, including whirlpool baths, hot tubs, and spa-style jacuzzis."
+    icon: mdi:hot-tub
+
+  - label: "Do I need to prepare anything before installation?"
+    content: "We recommend ensuring the site is accessible, with a suitable base and proximity to water, drainage, and power. If you're unsure, we can assess this during the site visit or walk you through it during booking."
+    icon: mdi:map-marker-check-outline
+
+  - label: "Do you handle the electrical connection?"
+    content: "Yes – we can arrange the electrical hookup through a qualified electrician, or work with one you already have. Power is needed for pumps, jets, lights and heating."
+    icon: mdi:flash-outline
+
+  - label: "Can you install jacuzzis indoors and outdoors?"
+    content: "Absolutely. We install jacuzzis in bathrooms, garden patios, decking areas, and more. Just let us know the location and we’ll plan accordingly."
+    icon: mdi:home-circle-outline
+
+  - label: "How long does jacuzzi installation take?"
+    content: "Most standard installations take 3–6 hours depending on access, site prep, and complexity. We’ll give you a time estimate once we’ve reviewed your setup."
+    icon: mdi:clock-outline
+
+  - label: "Do you test the jacuzzi after installation?"
+    content: "Yes – we fill and run the jacuzzi to test the jets, heating, and water flow. We also check for leaks and make sure everything is functioning safely before we leave."
+    icon: mdi:check-decagram
+
+  - label: "Can you supply the jacuzzi unit as well?"
+    content: "We typically install units provided by the customer, but we can help source and recommend options on request. Just mention this when booking."
+    icon: mdi:package-variant-closed
+
+  - label: "Is jacuzzi installation covered by insurance?"
+    content: "All BaseLink plumbers are fully insured, and your installation is carried out by a vetted professional with relevant experience. You're in safe hands throughout the process."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I maintain my jacuzzi after it’s installed?"
+    content: "Your installer will walk you through maintenance basics — including cleaning filters, checking chemicals (for spa-style models), and when to schedule servicing."
+    icon: mdi:playlist-check
+
+  - label: "How do I book jacuzzi installation?"
+    content: "Just complete our online form with your details and preferences. You’ll get an instant quote and can choose a time that works for you. We handle the rest."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Safe opening"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
+  - label: "What types of safes can you open?"
+    content: "We open digital, combination, and key-operated safes — including home, office, and commercial models. Let us know the make or type when booking, and we’ll bring the right tools for the job."
+    icon: mdi:safe
+
+  - label: "Will the contents be damaged?"
+    content: "No — our locksmiths use professional techniques to regain access without harming the contents. Every job is handled with care, discretion, and confidentiality."
+    icon: mdi:shield-lock-outline
+
+  - label: "Can you open a safe without destroying it?"
+    content: "Yes – we use non-destructive entry methods wherever possible. If those aren’t successful, we may use careful drilling or manipulation to open the safe securely."
+    icon: mdi:lock-open-variant
+
+  - label: "Do I need proof of ownership?"
+    content: "Yes – for your safety, we may ask for ID or documentation showing you have legal access to the safe. This protects both you and our locksmiths during service."
+    icon: mdi:card-account-details-outline
+
+  - label: "How long does it take to open a safe?"
+    content: "It depends on the type and condition of the safe, but most can be opened within 30–90 minutes. We’ll assess the situation and give you a time estimate before starting."
+    icon: mdi:timer-outline
+
+  - label: "Can you help if I’ve forgotten my code or lost the key?"
+    content: "Yes – we specialise in regaining access to safes where the code is forgotten or the key is missing. Just provide the details and we’ll handle the rest."
+    icon: mdi:help-circle-outline
+
+  - label: "Will the safe still work after you open it?"
+    content: "If opened non-destructively, yes. If drilling was required, we’ll let you know whether it’s repairable or if the safe mechanism needs replacing."
     icon: mdi:tools
+
+  - label: "Are your locksmiths vetted and insured?"
+    content: "Yes – all BaseLink locksmiths are background-checked, insured, and reviewed by local customers. You can expect expert, confidential service every time."
+    icon: mdi:shield-check-outline
+
+  - label: "How is safe opening priced?"
+    content: "We charge by time, with a one-hour minimum. If the job requires specialist tools or extra time, you’ll be quoted upfront — no surprises on the day."
+    icon: mdi:currency-gbp
+
+  - label: "How do I book safe opening?"
+    content: "Just fill in our online form, get an instant quote, and pick a time that works for you. We’ll match you with a qualified locksmith and keep you updated throughout the process."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

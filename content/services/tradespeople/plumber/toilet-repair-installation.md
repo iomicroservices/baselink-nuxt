@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Toilet repair and installation"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What toilet problems can you repair?"
+    content: "We fix all common toilet issues — including constant running, weak flushing, leaks around the base, noisy cisterns, and loose fittings. Most jobs can be sorted in a single visit."
+    icon: mdi:toolbox-outline
+
+  - label: "Can you install a toilet I’ve already bought?"
+    content: "Absolutely. You can supply your own toilet or let us help you choose one that matches your space and plumbing setup. Either way, we'll install it securely and neatly."
+    icon: mdi:toilet
+
+  - label: "Do you remove the old toilet when replacing?"
+    content: "Yes — if you're replacing your existing unit, we’ll handle removal and disposal as part of the service, then install the new toilet in its place."
+    icon: mdi:trash-can-outline
+
+  - label: "What’s included in a standard toilet repair?"
+    content: "Standard repairs include diagnosing the issue, replacing faulty parts like valves or seals, reconnecting pipework, and testing flush strength and water flow."
+    icon: mdi:pipe-wrench
+
+  - label: "How long does a typical toilet job take?"
+    content: "Most repairs and replacements take between 1–2 hours. We’ll give you a more accurate estimate when you book based on the details you provide."
+    icon: mdi:clock-outline
+
+  - label: "Can you help with commercial toilet installations too?"
+    content: "Yes — we work with landlords, letting agents, offices and shops. Whether it’s one unit or multiple, we’ve got the experience to handle it."
+    icon: mdi:domain
+
+  - label: "Are your plumbers vetted and insured?"
+    content: "They are. All BaseLink plumbers are vetted, fully insured, and reviewed by other customers nearby — so you can book with confidence."
+    icon: mdi:shield-check
+
+  - label: "How do I book a toilet repair or installation?"
+    content: "Just fill in our short online form, get an instant quote, and pick a time that works for you. No phone calls or chasing required."
+    icon: mdi:calendar-check
 ---
 
 ::hero-standard

@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Drain unblocking"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of drains can you unblock?"
+    content: "We unblock kitchen sinks, bathroom basins, showers, toilets, and even outdoor drains. Whether it's a slow drain or a full blockage, we’ve got the tools to sort it."
+    icon: mdi:pipe-leak
+
+  - label: "How do you clear the blockage?"
+    content: "Depending on the blockage, we use plungers, drain rods, or high-pressure water jets to safely remove build-up and restore proper flow."
+    icon: mdi:water-pump
+
+  - label: "Do I need to do anything before the plumber arrives?"
+    content: "Just make sure the area is accessible and free of personal items. If you’ve already tried anything (like drain cleaner), let us know — it helps us plan the safest approach."
+    icon: mdi:alert-decagram
+
+  - label: "How long does a drain unblocking job take?"
+    content: "Most blockages are cleared within 30–60 minutes. If the issue is more complex, we’ll let you know and discuss next steps before proceeding."
+    icon: mdi:timer-outline
+
+  - label: "Can you unblock outdoor or garden drains?"
+    content: "Yes – we handle external drain blockages too, including gutters, driveway grates, and yard drains. Just include the location in your booking form."
+    icon: mdi:shovel
+
+  - label: "What causes drain blockages?"
+    content: "The most common causes are hair, grease, food waste, soap scum, and foreign objects. Outdoor drains can also be blocked by leaves or dirt."
+    icon: mdi:food-off-outline
+
+  - label: "Will you check the drain after it’s cleared?"
+    content: "Yes – we test for flow after every job to make sure the blockage is gone and water is draining properly. If something still isn’t right, we’ll advise on what to do next."
+    icon: mdi:check-decagram
+
+  - label: "Do you provide advice to prevent future blockages?"
+    content: "Absolutely. Your plumber will explain what caused the issue and give tips to help prevent it happening again — whether it’s better disposal habits or regular maintenance."
+    icon: mdi:comment-question-outline
+
+  - label: "Are your plumbers vetted and insured?"
+    content: "Yes – all BaseLink plumbers are fully vetted, insured, and reviewed by local customers. You’ll always get a professional you can trust in your home."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I book a drain unblocking service?"
+    content: "Just fill out our online form, get an instant quote, and choose a time that works for you. It’s fast, simple, and fully managed through our platform."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

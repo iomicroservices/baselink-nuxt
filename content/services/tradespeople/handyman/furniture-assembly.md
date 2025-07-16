@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Furniture assembly"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of furniture do you assemble?"
+    content: "We assemble all sorts – beds, wardrobes, desks, bookshelves, chairs, tables, and more. Whether it’s for your home, office or retail space, we’ll get it built safely and securely."
+    icon: mdi:sofa-outline
+
+  - label: "Can you assemble flat-pack furniture from any brand?"
+    content: "Yes – we assemble furniture from all major brands including IKEA, Argos, John Lewis, Wayfair, and more. Just let us know what you’ve got and we’ll handle the rest."
+    icon: mdi:package-variant-closed
+
+  - label: "Do I need to provide tools or parts?"
+    content: "Nope – our handypeople arrive with all the tools needed. Just make sure all the parts are available and that the furniture is in the room where you want it assembled."
+    icon: mdi:toolbox-outline
+
+  - label: "Will drawers and doors be aligned properly?"
+    content: "Absolutely. We take care to align drawers, doors and panels so they open and close smoothly. We’ll also install any handles, knobs, or soft-close hinges that come with the unit."
+    icon: mdi:gesture-double-tap
+
+  - label: "Can you anchor furniture to the wall for safety?"
+    content: "Yes – if your furniture includes wall anchors or you request it, we can secure tall or heavy units to the wall. This is especially recommended in homes with children or pets."
+    icon: mdi:wall
+
+  - label: "How long does furniture assembly take?"
+    content: "It depends on the size and complexity of the furniture, but most items take 30–90 minutes. We’ll provide a time estimate when you book, and you can include multiple items in one visit."
+    icon: mdi:timer-outline
+
+  - label: "Can I book multiple furniture items at once?"
+    content: "Yes – you can list as many pieces as you like in one booking. Just give us the details in the form, and we’ll schedule enough time to get everything assembled in one go."
+    icon: mdi:format-list-checks
+
+  - label: "Are your handypeople vetted and insured?"
+    content: "Yes – all BaseLink handypeople are background-checked, fully insured, and experienced. You’ll receive reliable, high-quality service every time."
+    icon: mdi:shield-check-outline
+
+  - label: "What if a part is missing or damaged?"
+    content: "If something’s missing or broken, we’ll let you know right away. We can often return to complete the job once the replacement part arrives — just rebook with our support team."
+    icon: mdi:alert-circle-outline
+
+  - label: "How do I book furniture assembly?"
+    content: "It’s easy – just fill in our online form, get an instant quote, and choose a time that suits you. Payment is collected on the day, and extra time is billed in 30-minute increments."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

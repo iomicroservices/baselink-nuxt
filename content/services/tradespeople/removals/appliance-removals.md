@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Appliance removals"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of appliances can you remove?"
+    content: "We remove most major household appliances — including fridges, freezers, ovens, dishwashers, cookers, and washing machines. Whether freestanding or integrated, we’ve got it covered."
+    icon: mdi:fridge-outline
+
+  - label: "Can you disconnect the appliance before removal?"
+    content: "Yes – our team can disconnect washing machines, dishwashers, and similar appliances safely as part of the service. Just let us know in advance if it's gas or hard-wired so we can send the right team."
+    icon: mdi:plug
+
+  - label: "Do you dispose of the appliance?"
+    content: "We can arrange for responsible disposal or recycling if requested. We aim to keep items out of landfill where possible, in line with local environmental guidelines."
+    icon: mdi:recycle-variant
+
+  - label: "What happens if the appliance is built-in?"
+    content: "We can remove integrated units too. Our team will carefully detach them from fittings or cupboards, and leave the area clean and tidy after removal."
+    icon: mdi:drawer-remove
+
+  - label: "Is there anything I need to do before the removal?"
+    content: "If possible, make sure the appliance is emptied and disconnected from water or power (unless you’ve asked us to handle that too). Clear access helps things go smoothly on the day."
+    icon: mdi:format-list-checks
+
+  - label: "Can you handle large or heavy items upstairs?"
+    content: "Yes – our movers come with the right tools for safe lifting and manoeuvring through stairs, narrow doorways or tricky hallways. Just let us know access details when booking."
+    icon: mdi:stairs-up
+
+  - label: "How is appliance removal priced?"
+    content: "We offer a custom quote based on what you need removed, where it’s located, and if disposal is required. You’ll see the total clearly before booking, with fair 30-minute billing for any extra time."
+    icon: mdi:currency-gbp
+
+  - label: "Are your removal teams vetted and insured?"
+    content: "Yes – all BaseLink removal professionals are background-checked, insured, and reviewed by local customers. We only work with trusted teams who treat your property with care."
+    icon: mdi:shield-check-outline
+
+  - label: "Can I combine this with other removal services?"
+    content: "Absolutely. You can bundle appliance removals with furniture clearance, full property moves, or handyman services. Just add the details in your request and we’ll coordinate everything."
+    icon: mdi:package-variant
+
+  - label: "How do I book an appliance removal?"
+    content: "Just fill out our online form, get a quote, and choose a time that works for you. We’ll handle the rest — including support before and after the job."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

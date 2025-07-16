@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Exterior painting"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of exterior surfaces do you paint?"
+    content: "We paint exterior walls (brick, render, wood, metal), gates, fences, fascias, soffits, window trims and more. Residential and commercial projects welcome."
+    icon: mdi:home-outline
+
+  - label: "Do you supply the paint or can I use my own?"
+    content: "Either! You’re welcome to provide your own paint, or we can supply a high-quality, weather-resistant exterior paint in your preferred finish and colour."
+    icon: mdi:format-paint
+
+  - label: "What preparation do you do before painting?"
+    content: "We clean all surfaces, sand as needed, and fill cracks or holes before applying any paint. Primers and sealers are also used to ensure long-lasting results."
+    icon: mdi:hammer-wrench
+
+  - label: "Can you reach high or awkward areas?"
+    content: "Yes — we use ladders or arrange scaffolding if required to access higher levels safely and complete the job to a professional standard."
+    icon: mdi:ladder
+
+  - label: "How is pricing calculated for exterior painting?"
+    content: "Exterior painting is priced based on surface area, access, prep required, and materials. You’ll receive a custom quote before confirming your booking."
+    icon: mdi:currency-gbp
+
+  - label: "What if it rains or the weather turns?"
+    content: "We monitor weather conditions and will contact you if a reschedule is needed. Paint won’t be applied in unsuitable conditions to ensure proper finish and drying."
+    icon: mdi:weather-cloudy-clock
+
+  - label: "Are your painters insured and vetted?"
+    content: "Yes. All BaseLink painters are fully insured, thoroughly vetted, and reviewed by customers in your area. We only work with professionals we trust."
+    icon: mdi:shield-check
+
+  - label: "What if I’m not happy with the finish?"
+    content: "Let us know within 72 hours. We’ll either send someone back to put it right or issue a refund. Your satisfaction is our priority."
+    icon: mdi:emoticon-sad-outline
 ---
 
 ::hero-standard

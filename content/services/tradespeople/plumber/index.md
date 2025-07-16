@@ -11,9 +11,41 @@ colour: "blue"
 pathtxt: "Plumber"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What plumbing services do you offer?"
+    content: "Any plumbing job, big or small – we’ve got you covered. From leaky taps and blocked drains to full installations and system upgrades, our plumbers deliver expert service for both homes and businesses."
+    icon: mdi:water-pump
+
+  - label: "How do I book a plumber with BaseLink?"
+    content: "Just fill out our online form with the job details and we’ll connect you with a local plumber. You’ll get an instant tailored quote and can choose a time that suits you – all managed through our digital platform."
+    icon: mdi:clipboard-text-clock-outline
+
+  - label: "Can you handle plumbing emergencies?"
+    content: "Yes – we offer emergency callouts 24/7, including weekends and bank holidays. Whether it’s a burst pipe, blocked toilet, or major leak, we’ll prioritise your request and get someone out fast."
+    icon: mdi:alert-decagram
+
+  - label: "Do I need to provide any tools or parts?"
+    content: "No – our plumbers arrive fully equipped. If specific parts are needed, you can supply them or we can bring them along. Just let us know during booking and we’ll handle the rest."
+    icon: mdi:toolbox-outline
+
+  - label: "How are plumbing jobs priced?"
+    content: "Plumbing jobs are charged by time, with a one-hour minimum. The hourly rate is shown clearly before booking. For larger or more complex work, just tell us what you need and we’ll provide a custom quote."
+    icon: mdi:currency-gbp
+
+  - label: "Can I combine multiple plumbing tasks in one visit?"
+    content: "Definitely. You can bundle multiple jobs into one appointment through our booking form. If you’re unsure how long you need, just ask – we’re happy to help."
+    icon: mdi:format-list-checks
+
+  - label: "Are your plumbers vetted and insured?"
+    content: "Yes – all BaseLink plumbers are fully insured, experienced, and carefully vetted. We only work with trusted professionals who meet our high standards for quality and reliability."
+    icon: mdi:shield-check-outline
+
+  - label: "Can I reschedule or cancel a plumbing appointment?"
+    content: "Yes – you can cancel or amend your booking anytime up to 24 hours before your appointment, free of charge. Manage your booking online or contact our support team directly if you need help."
+    icon: mdi:calendar-edit
+
+  - label: "What if something goes wrong or I’m not happy with the job?"
+    content: "Your satisfaction is our priority. Let us know within 72 hours and we’ll put it right – whether that’s a return visit or a refund. We follow up after every job to ensure high standards are maintained."
+    icon: mdi:emoticon-sad-outline
 ---
 
 ::hero-standard

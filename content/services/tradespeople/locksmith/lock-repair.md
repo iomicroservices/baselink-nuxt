@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Lock repair"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of locks can you repair?"
+    content: "We repair most standard locks — including cylinder, mortice, rim, and internal door locks. Whether it’s on your front door, back gate, or internal latch, we’ll take a look and get it working again."
+    icon: mdi:lock-outline
+
+  - label: "How do I know if my lock needs repair or replacement?"
+    content: "If your lock is stiff, jamming, loose or not turning smoothly, it might just need a repair. Your locksmith will assess the issue and advise whether it can be fixed or if replacement is a better option."
+    icon: mdi:magnify
+
+  - label: "What issues can be fixed with a repair?"
+    content: "We can repair worn springs, misaligned latches, sticking bolts, and faulty mechanisms. We’ll also lubricate and test the lock to restore smooth operation and security."
+    icon: mdi:check-decagram
+
+  - label: "Can you repair locks on the spot?"
+    content: "Yes – most lock repairs can be done during the same visit. We come equipped with the right tools and parts for common issues, so there’s no delay or return visit in most cases."
+    icon: mdi:toolbox-outline
+
+  - label: "Do I need to supply parts for the repair?"
+    content: "No – your locksmith will bring common replacement parts. If a specific part is needed for an uncommon lock, we’ll discuss your options and arrange a follow-up if necessary."
+    icon: mdi:package-variant
+
+  - label: "What happens if the lock can’t be repaired?"
+    content: "If the lock is too damaged or worn to fix, we’ll recommend a suitable replacement and can fit it during the same visit with your approval."
+    icon: mdi:lock-reset
+
+  - label: "How long does a lock repair take?"
+    content: "Most repairs take 30–60 minutes depending on the issue. We’ll give you a time estimate before we begin and keep you informed throughout the job."
+    icon: mdi:timer-outline
+
+  - label: "Are your locksmiths vetted and insured?"
+    content: "Yes – all BaseLink locksmiths are background-checked, fully insured, and reviewed by local customers. You’re in safe, professional hands every time."
+    icon: mdi:shield-check-outline
+
+  - label: "How is lock repair priced?"
+    content: "We charge by time, with a one-hour minimum. Our rates are shown clearly before you book, and any extra parts or time will be quoted upfront."
+    icon: mdi:currency-gbp
+
+  - label: "How do I book a lock repair?"
+    content: "Just fill in our online form, get an instant quote, and choose a time that suits you. Payment is taken on the day, and additional time is billed in 30-minute increments."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

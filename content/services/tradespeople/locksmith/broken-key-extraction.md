@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Broken key extraction"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What is broken key extraction?"
+    content: "It’s the safe removal of snapped key fragments from a lock using specialist tools. Our locksmiths can extract the broken piece without damaging the lock, and check everything works smoothly afterwards."
+    icon: mdi:key-remove
+
+  - label: "Can you extract a key from any type of lock?"
+    content: "Yes – we work with door locks, window locks, padlocks and more. Your locksmith will assess the lock type and use the right method to remove the key without drilling or causing damage."
+    icon: mdi:lock-outline
+
+  - label: "What happens after the key is removed?"
+    content: "We test and lubricate the lock to ensure it functions properly. If there’s damage or the mechanism is stiff, we can repair or replace the lock on the spot."
+    icon: mdi:check-decagram
+
+  - label: "Do I need to replace the whole lock?"
+    content: "Not usually. Most locks still work fine once the key is removed. If there's internal damage, we’ll let you know and can replace it if needed – all in the same visit."
+    icon: mdi:lock-reset
+
+  - label: "Can you cut a replacement key at the same time?"
+    content: "Yes – we offer key cutting as an optional extra. If you’ve broken your only key, we’ll cut a new one on-site so you’re not left stuck."
+    icon: mdi:key
+
+  - label: "Do you offer emergency callouts for this?"
+    content: "Absolutely. If you’re locked out or need urgent help, select the ‘emergency’ option when booking and we’ll prioritise your job."
+    icon: mdi:alert-decagram
+
+  - label: "How long does broken key extraction take?"
+    content: "Most extractions take under 30 minutes. If you also need a new key or lock repair, we’ll allow extra time and let you know upfront."
+    icon: mdi:timer-outline
+
+  - label: "Are your locksmiths vetted and insured?"
+    content: "Yes – all BaseLink locksmiths are fully insured, background-checked, and reviewed for quality. You’re in safe hands every time."
+    icon: mdi:shield-check-outline
+
+  - label: "How are broken key jobs priced?"
+    content: "We charge by time with a one-hour minimum. Rates are clearly shown before booking, and extras like key cutting or lock replacement are quoted upfront."
+    icon: mdi:currency-gbp
+
+  - label: "How do I book broken key extraction?"
+    content: "Just fill in our online form, get a quote, and choose a time that suits you. We’ll take care of the rest. Payment is collected on the day, with any extra time billed in 30-minute increments."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

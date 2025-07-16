@@ -5,39 +5,44 @@ interface Props {
     alt?: string
     ogImage?: string
     darkImage?: string
+    dropdowns?: Array<{
+        icon: string
+        text: string
+    }>
 }
 
-withDefaults(defineProps<Props>(), {
-    title: 'Default title prop',
-    description: 'Default description prop',
-    alt: 'Default alt prop',
-    ogImage: '/images/blogs-img/blog.jpg',
-    darkImage: '/images/blogs-img/blog.jpg',
-})
+defineProps<Props>()
+
 </script>
 
 <template>
     <header class="section-hero">
         <div class="relative mx-auto">
-            <div class="container px-4 mx-auto">
+            <div class="container mx-auto">
                 <div class="max-w-2xl mx-auto text-center items-center">
 
                     <!-- hero image section START -->
-                    <NuxtImg :src="ogImage" :alt="alt" width="300"
+                    <NuxtImg v-if="ogImage" :src="ogImage" :alt="alt" width="300"
                         class="mb-5 mx-auto transition-opacity dark:opacity-0" format="webp" />
 
-                    <NuxtImg :src="darkImage" :alt="alt" width="300"
+                    <NuxtImg v-if="darkImage" :src="darkImage" :alt="alt" width="300"
                         class="mb-5 mx-auto absolute top-0 left-1/2 -translate-x-1/2 transition-opacity opacity-0 dark:opacity-100"
                         format="webp" />
                     <!-- hero image section END -->
 
+
                     <!-- main hero section START -->
                     <div class="max-w-lg sm:max-w-xl lg:max-w-none mx-auto">
                         <h1 class="heading1">
-                            {{ title }}
+                            <ContentSlot unwrap="p" name="title">
+                                {{ title || 'Default Title' }}
+                            </ContentSlot>
                         </h1>
-                        <p class="dark:text-zinc-300 mx-auto mb-5">
-                            {{ description }}
+
+                        <p class="dark:text-zinc-300 text-xl mx-auto mb-5">
+                            <ContentSlot unwrap="p" name="description">
+                                {{ description || 'Default Description' }}
+                            </ContentSlot>
                         </p>
 
 
@@ -46,13 +51,14 @@ withDefaults(defineProps<Props>(), {
 
                             <FeaturesDropdown>
                                 <template #custom-content>
-                                    <div class="flex items-start">
-                                        <span class="mr-2">🏠</span>
-                                        <p>SLOT your number home: Effortlessly transfer your existing number to
-                                            eLandline.</p>
+                                    <div class="flex items-start" v-for="(dropdown, index) in dropdowns" :key="index">
+                                        <span class="mr-2">
+                                            <Icon v-if="dropdown.icon" :name="dropdown.icon" class="w-6 h-6" />
+                                        </span>
+                                        <p>{{ dropdown.text }}</p>
                                     </div>
-                                </template>
 
+                                </template>
                             </FeaturesDropdown>
 
                         </div>

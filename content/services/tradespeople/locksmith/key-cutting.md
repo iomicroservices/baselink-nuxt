@@ -11,9 +11,41 @@ colour: "blue"
 pathtxt: "Key cutting"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "How does your key cutting service work?"
+    content: "It’s simple — we collect your key, cut accurate duplicates, and return them to you. No shop visits or waiting around. Just quick, secure, mobile key cutting at your convenience."
+    icon: mdi:key-chain-variant
+
+  - label: "What types of keys can you cut?"
+    content: "We cut standard house keys, office keys, cylinder, mortice, rim, cabinet, gate, and padlock keys. We also handle high-security and anti-snap keys — just let us know what you need."
+    icon: mdi:key-outline
+
+  - label: "Can you cut keys without the original?"
+    content: "Yes – if you’ve lost the original key but have the code or a copy, we can cut a new key from that. We’ll confirm what’s possible based on the key type when you book."
+    icon: mdi:magnify
+
+  - label: "Will the new key be tested?"
+    content: "Yes – we test all new keys before returning them to ensure they work smoothly. If there’s any issue, we’ll re-cut and retest until it’s right."
+    icon: mdi:check-decagram
+
+  - label: "Can I get emergency key cutting?"
+    content: "Yes – if you need a key urgently, just select the emergency option when booking and we’ll prioritise your job for fast turnaround."
+    icon: mdi:alert-decagram
+
+  - label: "Can I combine this with other locksmith services?"
+    content: "Absolutely. Key cutting can be added to lock changes, broken key extraction, or general locksmith visits. Just let us know when booking and we’ll handle it all in one go."
+    icon: mdi:clipboard-plus-outline
+
+  - label: "Are your locksmiths vetted and insured?"
+    content: "Yes – all BaseLink locksmiths are fully vetted, insured, and reviewed by local customers. You’ll always get safe, professional service you can trust."
+    icon: mdi:shield-check-outline
+
+  - label: "How is key cutting priced?"
+    content: "Pricing is based on the number and type of keys you need. You’ll see your total clearly before booking. We charge by time, with a one-hour minimum, and extras are billed fairly."
+    icon: mdi:currency-gbp
+
+  - label: "How do I book mobile key cutting?"
+    content: "Just fill out our online form, get an instant quote, and choose a time that suits you. We’ll collect your key, cut the copies, and return them to your door — all without the faff."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

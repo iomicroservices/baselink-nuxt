@@ -11,9 +11,41 @@ colour: "blue"
 pathtxt: "CCTV installation"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "Can I use my own CCTV cameras and equipment?"
+    content: "Yes, we’re happy to install equipment you already own. Just let us know the make and model when booking so we can confirm compatibility and plan accordingly."
+    icon: mdi:cctv
+
+  - label: "Do you supply CCTV systems if I don’t have one?"
+    content: "Absolutely. We can provide a complete CCTV kit tailored to your needs, including cameras, DVR/NVR recording units, power supply, and cabling — all professionally installed."
+    icon: mdi:package-variant-closed
+
+  - label: "What types of CCTV systems can you install?"
+    content: "We install a wide range including wired, wireless, infrared, motion-activated, and mobile-app-enabled systems. We work with indoor/outdoor setups for homes and businesses alike."
+    icon: mdi:camera-outline
+
+  - label: "Is wiring concealed during installation?"
+    content: "Yes, where possible. We’ll always aim to conceal wiring for a clean, professional finish unless access restrictions prevent it. This is covered during the site survey."
+    icon: mdi:transit-connection
+
+  - label: "Can you connect the CCTV to my phone or computer?"
+    content: "Yes. We configure your system to support remote viewing via app or browser, so you can monitor your property anytime, anywhere."
+    icon: mdi:cellphone-link
+
+  - label: "How long does CCTV installation take?"
+    content: "Most jobs take between 2–6 hours depending on the number of cameras, system complexity, and site accessibility. We’ll confirm timings when you receive your quote."
+    icon: mdi:clock-outline
+
+  - label: "Are your engineers qualified and vetted?"
+    content: "Yes. All BaseLink engineers are fully qualified, insured, and reviewed by local customers. They’re also backed by our in-house team for added peace of mind."
+    icon: mdi:shield-check
+
+  - label: "What if I need help with the system later?"
+    content: "If you need a follow-up or help troubleshooting, our support team is here for you. We’ll arrange a revisit or provide remote support where possible."
+    icon: mdi:headset
+
+  - label: "How is pricing calculated?"
+    content: "CCTV installation is priced based on the number of cameras, property layout, equipment type, and installation complexity. You’ll receive a clear, custom quote before confirming your booking."
+    icon: mdi:currency-gbp
 ---
 
 ::hero-standard

@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Locked out emergency"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What should I do if I’m locked out?"
+    content: "Don’t panic — just book through our online form. We’ll dispatch a vetted locksmith quickly to your location, day or night, and aim to get you back in without damaging the lock."
+    icon: mdi:alert-decagram
+
+  - label: "Do you offer 24/7 emergency locksmith services?"
+    content: "Yes – we respond to emergency lockouts any time of day, including evenings, weekends, and holidays. Just select the emergency option when booking and we’ll prioritise your callout."
+    icon: mdi:clock-alert-outline
+
+  - label: "Will the locksmith damage my lock to get me in?"
+    content: "Only if absolutely necessary. We use specialist tools to attempt non-destructive entry first. If that’s not possible, we’ll explain the next steps before drilling or replacing the lock."
+    icon: mdi:lock-open-variant-outline
+
+  - label: "Can you supply and fit a new lock if needed?"
+    content: "Yes – if the original lock needs to be replaced, we can supply a new one that fits your door and security needs. Or you can provide your own. We’ll install and test it before we leave."
+    icon: mdi:lock-reset
+
+  - label: "What types of doors can you open?"
+    content: "We gain entry to most common residential and commercial doors — including wooden, uPVC, composite and internal doors. Just let us know what kind of lock or door you have when booking."
+    icon: mdi:door
+
+  - label: "How quickly can a locksmith arrive?"
+    content: "Response time depends on your location, but we aim to dispatch someone as soon as possible — often within the hour. We’ll confirm expected arrival time when you book."
+    icon: mdi:map-clock
+
+  - label: "Are your locksmiths vetted and insured?"
+    content: "Yes – all BaseLink locksmiths are fully background-checked, insured, and reviewed by local customers. You’ll receive safe, reliable service even in urgent situations."
+    icon: mdi:shield-check-outline
+
+  - label: "How is emergency lockout service priced?"
+    content: "You’ll see the base emergency call-out rate before confirming your booking. Any additional time or parts (like a new lock) will be quoted clearly so there are no surprises."
+    icon: mdi:currency-gbp
+
+  - label: "What if I don’t have ID or proof of address?"
+    content: "For your safety, we may ask for some form of ID or evidence that you have permission to access the property. If you don’t have this on hand, we’ll work with you to find a solution."
+    icon: mdi:card-account-details-outline
+
+  - label: "How do I book emergency locksmith help?"
+    content: "Just fill out our quick online form and select 'emergency' when prompted. We’ll give you an instant quote and get someone to you as fast as possible — with updates along the way."
+    icon: mdi:calendar-clock-outline
 ---
 
 ::hero-standard

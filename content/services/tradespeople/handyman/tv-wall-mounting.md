@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "TV wall mounting"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of TVs can you mount?"
+    content: "We mount all screen sizes – from compact TVs to large flat-screens – using fixed, tilt or full-motion brackets. We make sure your TV is secure, level, and perfectly placed on the wall."
+    icon: mdi:television-classic
+
+  - label: "Can you mount TVs on any wall type?"
+    content: "Yes – we install on brick, plasterboard, concrete and stud walls. Your fitter will assess the wall type and use the correct fixings to ensure a safe and stable result."
+    icon: mdi:wall
+
+  - label: "Do I need to supply the wall mount bracket?"
+    content: "You can provide your own bracket or we can bring one that suits your TV size and wall type. Just let us know your preference when booking."
+    icon: mdi:package-variant
+
+  - label: "How long does TV wall mounting take?"
+    content: "Most installations take around 1 hour, depending on TV size, wall type, and bracket style. If you’re requesting cable concealment or have a more complex setup, we’ll schedule additional time."
+    icon: mdi:timer-outline
+
+  - label: "Can you hide or manage the cables?"
+    content: "Yes – we offer cable concealment as an optional extra. This can include trunking or routing cables through walls (where possible) to keep things tidy and out of sight."
+    icon: mdi:cable-data
+
+  - label: "Can you help decide the best height or position?"
+    content: "Absolutely. Your fitter can recommend the ideal viewing height and position based on your room layout and seating area. We'll make sure it's functional and looks great too."
+    icon: mdi:cursor-default-click-outline
+
+  - label: "Do you offer custom quotes for more complex installs?"
+    content: "Yes – if your install involves wall ingress, wiring inside stud walls, or additional AV equipment, we’ll provide a custom quote based on your requirements. Just include the details in your request."
+    icon: mdi:clipboard-text-outline
+
+  - label: "Will my TV be tested after installation?"
+    content: "Yes – we test the stability of the bracket and ensure your TV is level and securely fixed. If your screen is powered and connected, we’ll confirm it’s working before we leave."
+    icon: mdi:check-decagram
+
+  - label: "Are your handypeople vetted and insured?"
+    content: "Definitely. All BaseLink handypeople are background-checked, insured, and reviewed by local customers. You can count on a safe and professional service every time."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I book TV wall mounting?"
+    content: "Just fill in our online form, get an instant quote, and choose a time that suits you. Payment is taken on the day, with extra time billed in fair 30-minute increments."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

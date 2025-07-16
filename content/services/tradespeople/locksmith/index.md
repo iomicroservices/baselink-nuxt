@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Locksmith"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What locksmith services do you offer?"
+    content: "We handle everything from emergency lockouts and broken key removals to lock changes, smart lock installations, and lock box fitting. Whether it's a quick fix or a full upgrade, we’ve got you covered."
+    icon: mdi:lock
+
+  - label: "Can you help if I’m locked out?"
+    content: "Yes – we offer emergency callouts for lockouts, lost keys, jammed doors and broken locks. Your locksmith will aim to regain access without damaging your door wherever possible."
+    icon: mdi:door-open
+
+  - label: "Do you replace or upgrade locks?"
+    content: "Absolutely. We can replace faulty locks, upgrade to anti-snap or high-security models, or install smart locks and keyless entry systems. Just let us know what you need during booking."
+    icon: mdi:lock-reset
+
+  - label: "Can you install smart locks or keyless systems?"
+    content: "Yes – we install smart locks and digital keypads for homes, rentals and businesses. We can also help you get everything set up and walk you through how to use the system."
+    icon: mdi:lock-smart
+
+  - label: "Do I need to provide the lock or parts?"
+    content: "You can supply your own lock or we can bring one that suits your door and preferences. Just let us know during booking and we’ll prepare accordingly."
+    icon: mdi:package-variant
+
+  - label: "How are locksmith jobs priced?"
+    content: "Most locksmith jobs are charged by time, with a one-hour minimum. The hourly rate is shown clearly before you book. For more complex or unusual jobs, we’ll provide a custom quote based on your request."
+    icon: mdi:currency-gbp
+
+  - label: "Are your locksmiths vetted and insured?"
+    content: "Yes – every BaseLink locksmith is fully insured, background-checked and reviewed for quality. We only work with trusted professionals who meet our high standards."
+    icon: mdi:shield-check-outline
+
+  - label: "Can I cancel or reschedule a locksmith appointment?"
+    content: "Yes – cancel or reschedule for free up to 24 hours before your appointment. Manage everything through your online account, or contact our team if you need help."
+    icon: mdi:calendar-edit
+
+  - label: "What if something goes wrong or I’m not happy with the job?"
+    content: "Let us know within 72 hours and we’ll make it right – whether that means a follow-up visit or a refund. Your satisfaction is always our priority."
+    icon: mdi:emoticon-sad-outline
+
+  - label: "How do I book a locksmith with BaseLink?"
+    content: "Just fill out our online form, get an instant quote, and choose a time that suits you. For emergencies, select the urgent option and we’ll prioritise your request."
+    icon: mdi:calendar-clock-outline
 ---
 
 ::hero-standard

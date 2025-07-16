@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Pipe repair and replacement"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of pipes can you repair or replace?"
+    content: "We work with all common materials — copper, plastic (PVC/PEX), steel, and older lead piping. Whether it’s supply or waste pipework, we’ve got the tools to fix it."
+    icon: mdi:pipe
+
+  - label: "Can you fix leaks inside walls or under floors?"
+    content: "Yes – we can trace hidden leaks and access the affected pipework to carry out the repair. If the leak is behind plaster or under flooring, we’ll work neatly to minimise disruption."
+    icon: mdi:wall
+
+  - label: "Do you offer emergency leak repairs?"
+    content: "Absolutely. If water is leaking or flooding, choose the emergency option when booking and we’ll prioritise your job. Our plumbers can isolate the leak, make it safe, and then fix the issue properly."
+    icon: mdi:alert-decagram
+
+  - label: "How do I know if my pipes need replacing?"
+    content: "Signs include frequent leaks, visible corrosion, reduced water pressure, or discoloured water. If your home has older lead or steel pipes, it’s often worth upgrading for safety and efficiency."
+    icon: mdi:eye-outline
+
+  - label: "Do you test the pipework after repair?"
+    content: "Yes – we always pressure test repaired or replaced sections to check for leaks and ensure your system is safe before finishing the job."
+    icon: mdi:check-network-outline
+
+  - label: "Can I combine this with other plumbing tasks?"
+    content: "Definitely. You can bundle tasks like fixing a leaking tap, replacing a stopcock or installing new pipework into one booking — just include the details in your form."
+    icon: mdi:clipboard-list-outline
+
+  - label: "Do I need to provide any parts?"
+    content: "Nope – your plumber will arrive with the tools and standard fittings. If special materials are needed, we’ll either source them for you or confirm what’s required during booking."
+    icon: mdi:toolbox-outline
+
+  - label: "How long does a pipe repair usually take?"
+    content: "It depends on access and damage, but many jobs are done in under two hours. We’ll give you a time estimate when you book or once we assess on-site."
+    icon: mdi:clock-outline
+
+  - label: "Are your plumbers insured and vetted?"
+    content: "Yes – all BaseLink plumbers are fully insured, background-checked, and reviewed by local customers. You’ll always get a qualified pro you can trust."
+    icon: mdi:shield-check-outline
+
+  - label: "How do I book a pipe repair or replacement?"
+    content: "Just fill in our online form with the job details and pick a time that suits you. You’ll get a transparent quote instantly — and we handle the rest."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard

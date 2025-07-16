@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "IPTV installation"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What is IPTV and how is it different from regular TV?"
+    content: "IPTV (Internet Protocol Television) delivers TV content via your internet connection instead of a satellite or aerial. It allows access to on-demand content, live channels, and streaming apps using your broadband network."
+    icon: mdi:television-classic
+
+  - label: "Can you supply the IPTV box or receiver?"
+    content: "Yes, we can provide the required equipment or install and configure your existing IPTV system — including smart boxes, receivers, and streaming hubs."
+    icon: mdi:package-variant-closed
+
+  - label: "Will you configure my internet for smooth streaming?"
+    content: "Absolutely. We optimise your network settings, prioritise streaming traffic where needed, and ensure stable cabling or Wi-Fi performance for lag-free viewing."
+    icon: mdi:router-network
+
+  - label: "Do you work on multi-room or shared property installs?"
+    content: "Yes. We handle IPTV setups for single homes, hotels, HMOs and office environments — including HDMI distribution or wall-mounted screens in multiple rooms."
+    icon: mdi:home-group
+
+  - label: "Can you wall-mount my TV or screen as part of the install?"
+    content: "Yes. We offer wall mounting and HDMI setup as part of the job, or you can book our [TV wall mounting service](/services/tradespeople/handyman/tv-wall-mounting) separately for a custom fit."
+    icon: mdi:television-guide
+
+  - label: "What happens if I experience streaming issues later?"
+    content: "Our team provides usage guidance and basic troubleshooting on the day. For future issues, you can contact our support team to book maintenance or adjustments."
+    icon: mdi:help-circle
+
+  - label: "Are the engineers vetted and qualified?"
+    content: "Yes. All BaseLink network engineers are fully vetted, insured, and reviewed by customers near you. You’ll get expert setup and support, every time."
+    icon: mdi:shield-check
+
+  - label: "How is pricing worked out?"
+    content: "We provide a custom quote based on the complexity of the job, number of devices, and any additional equipment or cabling needed. Extra time is billed in 30-minute increments if required."
+    icon: mdi:currency-gbp
 ---
 
 ::hero-standard

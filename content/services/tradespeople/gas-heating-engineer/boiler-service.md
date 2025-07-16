@@ -11,9 +11,45 @@ colour: "blue"
 pathtxt: "Boiler service"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What does a boiler service include?"
+    content: "A full check of your boiler’s condition, efficiency and safety. Our Gas Safe engineer will inspect internal components, clean key parts, test flue emissions, check pressure, and make sure everything’s running as it should."
+    icon: mdi:clipboard-check-outline
+
+  - label: "Why should I get my boiler serviced annually?"
+    content: "Annual servicing helps catch issues early, keeps your boiler running efficiently, and ensures your warranty stays valid. It also reduces the risk of breakdowns and carbon monoxide leaks – so it’s a smart (and safe) move."
+    icon: mdi:calendar-check
+
+  - label: "Who carries out the service?"
+    content: "All boiler services are carried out by a qualified, Gas Safe registered engineer. We only work with trusted professionals who are fully vetted and insured, so you're always in safe hands."
+    icon: mdi:shield-check-outline
+
+  - label: "How long does a boiler service take?"
+    content: "A standard boiler service usually takes 45–60 minutes. If the engineer spots any issues or parts that need replacing, they’ll let you know and can usually quote for the fix on the spot."
+    icon: mdi:timer-outline
+
+  - label: "Can you service all types and brands of boiler?"
+    content: "Yes – we service combi, system and conventional boilers from all major brands including Worcester Bosch, Ideal, Vaillant, Baxi, and more. If you’re not sure what you have, we’ll identify it during booking."
+    icon: mdi:fire
+
+  - label: "What should I do to prepare for the service?"
+    content: "Just make sure the engineer can access the boiler easily and that any pets are safely out of the way. If your boiler is in a cupboard, clear the surrounding area before the visit."
+    icon: mdi:door-open
+
+  - label: "Do I get a service report or certificate?"
+    content: "Yes – you’ll receive a full digital service report after the appointment, outlining what’s been checked and any recommendations. For landlords, we can also issue a CP12 gas safety certificate if requested."
+    icon: mdi:file-document-outline
+
+  - label: "How is payment handled?"
+    content: "Your payment method is collected securely when you book, but you’ll only be charged on the day of the service. If anything extra is needed, we’ll confirm it with you first."
+    icon: mdi:credit-card-check-outline
+
+  - label: "Can I cancel or reschedule a boiler service?"
+    content: "Of course – you can cancel or reschedule any time up to 24 hours in advance without any charges. Just log into your account to manage your booking, or contact us if you need help."
+    icon: mdi:calendar-edit
+
+  - label: "What if a problem is found during the service?"
+    content: "If our engineer spots an issue, they’ll explain the problem and next steps. We can often quote for repairs on the spot or arrange a follow-up visit to fix it. No pressure – we’ll only go ahead if you approve it."
+    icon: mdi:alert-circle-outline
 ---
 
 ::hero-standard

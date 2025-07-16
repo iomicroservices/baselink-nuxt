@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Interior painting"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What areas of my home can you paint?"
+    content: "We paint all interior spaces — including walls, ceilings, doors, trims, skirting boards, staircases, and feature walls. We can also paint built-in furniture on request."
+    icon: mdi:home-outline
+
+  - label: "Do I need to move my furniture?"
+    content: "No — your painter will cover and protect furniture and flooring before starting. If large furniture needs moving, we can help shift it safely."
+    icon: mdi:sofa
+
+  - label: "Can I supply my own paint?"
+    content: "Yes, you're welcome to provide your preferred paint. If not, we can supply high-quality interior paint in your chosen colour and finish."
+    icon: mdi:format-paint
+
+  - label: "How long does interior painting take?"
+    content: "It depends on the size and complexity of the job. Most rooms take 1–2 days. We’ll provide a clear time estimate when you get your quote."
+    icon: mdi:clock-outline
+
+  - label: "How do you price interior painting?"
+    content: "Interior painting is quoted based on room size, prep needed, number of coats, and materials. You'll receive a tailored quote before confirming."
+    icon: mdi:currency-gbp
+
+  - label: "Are your painters vetted and insured?"
+    content: "Absolutely. All BaseLink painters are fully insured, thoroughly vetted and reviewed by other local customers. We only work with trusted professionals."
+    icon: mdi:shield-check
+
+  - label: "What if I change my mind on the colour?"
+    content: "If you’ve already supplied paint, we can still switch it mid-job if you provide the new colour. If we’ve supplied paint, we’ll work with you on a fair solution to swap it out."
+    icon: mdi:palette
+
+  - label: "What happens if I’m not happy with the result?"
+    content: "Let us know within 72 hours and we’ll do our best to fix the issue — whether it’s a touch-up or a return visit. Your satisfaction is our priority."
+    icon: mdi:emoticon-sad-outline
 ---
 
 ::hero-standard

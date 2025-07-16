@@ -11,9 +11,37 @@ colour: "blue"
 pathtxt: "Tap repair and replacement"
 published: true
 faqs:
-  - label: "Question 1?"
-    content: "Answer 1."
-    icon: mdi:tools
+  - label: "What types of taps can you repair or replace?"
+    content: "We work with all types of taps — including kitchen mixers, bathroom monoblocs, pillar taps, and sensor-activated models. Whether it's a repair or full replacement, we’ve got it covered."
+    icon: mdi:toolbox-outline
+
+  - label: "Can you supply a new tap, or do I need to buy one?"
+    content: "You’re welcome to supply your own tap, or we can help you choose and provide one that suits your style, sink, and water pressure. Just let us know during booking."
+    icon: mdi:cart-outline
+
+  - label: "What’s included in a standard tap repair?"
+    content: "A standard repair includes diagnosing the problem, replacing washers or cartridges, tightening fittings, and testing the tap for proper flow and temperature control."
+    icon: mdi:wrench-outline
+
+  - label: "Do I need to shut off my water supply in advance?"
+    content: "No need — your plumber will handle all water isolation as part of the job and make sure everything is safe and secure before starting work."
+    icon: mdi:water-off-outline
+
+  - label: "How do I know if a repair or replacement is the better option?"
+    content: "Your plumber will assess the issue during the visit. If it’s a simple fix, we’ll do that. If parts are worn or the unit is outdated, we may recommend replacement for a longer-lasting solution."
+    icon: mdi:check-decagram
+
+  - label: "Will there be any mess after the job?"
+    content: "Nope — our plumbers tidy up after themselves. We leave your sink area clean, dry, and drip-free."
+    icon: mdi:broom
+
+  - label: "Are your plumbers vetted and insured?"
+    content: "Yes — all BaseLink plumbers are fully vetted, insured, and reviewed by local customers. We only work with professionals who meet our high standards."
+    icon: mdi:account-check-outline
+
+  - label: "How do I book a tap repair or replacement?"
+    content: "Just fill out our quick online form, get an instant quote, and pick a time that suits you. Everything is handled digitally, with support from our team if needed."
+    icon: mdi:calendar-check-outline
 ---
 
 ::hero-standard
