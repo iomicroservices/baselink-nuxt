@@ -24,6 +24,7 @@ export default defineNuxtConfig({
     DATABASE_TOKEN: process.env.DATABASE_TOKEN,
     DATABASE_BASE_ID: process.env.DATABASE_BASE_ID,
     DATABASE_TABLE_ID: process.env.DATABASE_TABLE_ID,
+    DATABASE_APPLICANTS_TABLE: process.env.DATABASE_APPLICANTS_TABLE,
   },
 
 

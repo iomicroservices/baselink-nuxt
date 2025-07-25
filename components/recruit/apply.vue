@@ -55,22 +55,6 @@ const formConfig = {
         type: 'textInput',
         label: 'Name'
     },
-    addressOne: {
-        default: undefined,
-        type: 'textInput',
-        label: 'Address'
-    },
-    addressTwo: {
-        default: '',
-        type: 'textInput',
-        label: 'Address 2',
-        optional: true
-    },
-    addressCity: {
-        default: undefined,
-        type: 'textInput',
-        label: 'City'
-    },
     postCode: {
         default: undefined,
         type: 'textInput',
@@ -147,7 +131,7 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
     const referrerUrl = document.referrer; // Previous URL
     // Submit the form data to the server API
     try {
-        const response = await $fetch('/api/quote/form-submit', {
+        const response = await $fetch('/api/applicant/form-submit', {
             method: 'POST',
             body: {
                 ...formState, // Send the form state as the request body
@@ -182,20 +166,9 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
 
         <p class="pt-10 text-2xl font-bold">Contact details</p>
 
-        <UFormGroup size="xl" name="fullName" label="Full name" required>
-            <UInput v-model="formState.fullName" />
-        </UFormGroup>
-
-        <UFormGroup size="xl" name="addressOne" label="Address line 1" required>
-            <UInput v-model="formState.addressOne" />
-        </UFormGroup>
-
-        <UFormGroup size="xl" name="addressTwo" label="Address line 2" hint="Optional">
-            <UInput v-model="formState.addressTwo" />
-        </UFormGroup>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-            <UFormGroup size="xl" name="addressCity" label="City" required>
-                <UInput v-model="formState.addressCity" />
+            <UFormGroup size="xl" name="fullName" label="Full name" required>
+                <UInput v-model="formState.fullName" />
             </UFormGroup>
 
             <UFormGroup size="xl" name="postCode" label="Postcode" required>
@@ -274,7 +247,9 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
                 <UToggle on-icon="mdi:check" off-icon="mdi:close" color="green" v-model="formState.termsCheckbox">
                 </UToggle>
                 <span class="ml-2 text-base font-semibold">I accept the
-                    <NuxtLink to="/legal/terms-of-service" target="_blank" class="text-green-500 underline">terms of service</NuxtLink> and have read the <NuxtLink to="/legal/privacy-policy" target="_blank" class="text-green-500 underline">privacy policy</NuxtLink>
+                    <NuxtLink to="/legal/terms-of-service" target="_blank" class="text-green-500 underline">terms of
+                        service</NuxtLink> and have read the <NuxtLink to="/legal/privacy-policy" target="_blank"
+                        class="text-green-500 underline">privacy policy</NuxtLink>
                 </span>
             </div>
         </UFormGroup>
