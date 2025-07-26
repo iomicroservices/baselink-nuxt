@@ -16,12 +16,6 @@ export default defineEventHandler(async (event) => {
         referrerUrl: formData.referrerUrl,
     };
 
-    // Prepare the Requirements payload
-    const requirementsPayload = {
-        //Home cleaning
-        
-    }
-
     // Get the user's IP address
     const ipAddress = event.node.req.headers['x-forwarded-for'] || event.node.req.socket.remoteAddress;
 
@@ -43,7 +37,7 @@ export default defineEventHandler(async (event) => {
             Trade: formData.skillsOptions,
             Experience: formData.experienceOptions,
             ExperienceDetails: formData.requirementsNote,
-            WorkingDays: JSON.stringify(formData.availabilityDaysOptions),
+            WorkingDays: JSON.stringify(formData.availableDaysOptions),
             WorkingHours: formData.hoursOptions,
             WorkingTimes: formData.timeOptions,
             tos: formData.termsCheckbox,
