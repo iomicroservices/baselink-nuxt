@@ -1,10 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
-    head: {
+    head: { //This method does not allow you to provide reactive data. We recommend using useHead() in app.vue. It's good practice to set tags here that won't change such as your site title default, language and favicon.
       charset: 'utf-16',
       viewport: 'width=device-width,initial-scale=1',
-      title: 'BaseLink for your home and business',
+      title: 'Domestic and commercial property services in London', // default fallback title
       titleTemplate: '%s | BaseLink',
       meta: [
         { name: 'description', content: 'Home and Business services' },

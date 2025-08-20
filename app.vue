@@ -1,21 +1,26 @@
 <script setup>
-const description
-  = 'baselink description in app.vue'
-const ogTitle
-  = 'baselink ogtitle in app.vue'
-const twitterDescription
-  = 'baselink twitter description in app.vue'
-const image
-  = 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp'
+
+const title = 'Property Services in London | BaseLink'
+const description = 'Find cleaners or tradespeople near you now. London`s best property services business. BaseLink is built by a family, powered by tech and run with heart. Competitive rates.'
+const keywords = 'cleaning, domestic cleaning, cleaner near me, tradespeople, security services, baselink, housekeeper, online, london'
+const ogTitle = 'Property Services in London | BaseLink'
+const twitterDescription = 'Find cleaners or tradespeople near you now. London`s best property services business. BaseLink is built by a family, powered by tech and run with heart. Competitive rates.'
+const image = 'https://baselink.uk/baselink-logo-dark.png'
 const mySite = 'https://baselink.uk/'
+
 useHead({
   htmlAttrs: {
     lang: 'en',
   },
+  title: title,
   meta: [
     {
       name: 'description',
       content: description,
+    },
+    {
+      name: 'keywords',
+      content: keywords,
     },
     // Test on: https://developers.facebook.com/tools/debug/ or https://socialsharepreview.com/
     { property: 'og:site_name', content: mySite },
@@ -37,7 +42,7 @@ useHead({
       content: image,
     },
     // Test on: https://cards-dev.twitter.com/validator or https://socialsharepreview.com/
-    { name: 'twitter:site', content: '@debs_obrien' },
+    { name: 'twitter:site', content: '@hellobaselink' },
     { name: 'twitter:card', content: 'summary_large_image' },
     {
       name: 'twitter:url',
