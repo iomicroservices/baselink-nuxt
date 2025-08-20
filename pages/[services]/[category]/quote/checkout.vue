@@ -22,7 +22,7 @@
                         <!-- main hero section START -->
                         <div class="max-w-lg sm:max-w-xl lg:max-w-none mx-auto">
                             <h1 class="heading1">
-                                Nice one! We've received your quote request
+                                Nice one! You've confirmed your booking
                             </h1>
 
                             <p class="dark:text-zinc-300 text-base mx-auto mb-5">
